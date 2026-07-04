@@ -175,6 +175,18 @@ y el renderer truena en build con error claro si se le escapa.
   del hero/page-header), `alt` en imágenes, focus visible, contraste AA.
 - Disponibles: componentes de `components/ui/` (shadcn) e iconos de
   `lucide-react`. **Sin dependencias nuevas.**
+- **Formularios**: cualquier formulario (custom o del motor) sigue el
+  estándar del template — `react-hook-form` + `zodResolver`, SIEMPRE.
+  Si postea a `/api/contact`, usa el schema compartido
+  `lib/contact-schema.ts` tal cual (el server valida con el MISMO
+  schema: la validación del cliente es UX, la del server es la
+  seguridad real). Placeholder en TODO campo con ejemplo realista,
+  siempre JUNTO a su label visible: el placeholder jamás sustituye al
+  label. Errores humanizados en español cálido desde es.json
+  (`<ns>.errors.<key>`; el schema emite keys, nunca texto visible),
+  con `aria-invalid` y el error debajo del campo; el foco va al primer
+  error al enviar. **Prohibido un `<form>` a mano sin validación.**
+  Patrón de referencia: `components/sections/contact-form.tsx`.
 - Patrón de referencia: `components/custom/credentials-band.tsx`
   (registrada como `"credentials-band"` y usada en la home del ejemplo).
 
