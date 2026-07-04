@@ -31,6 +31,77 @@ al template y re-materializa. Los tipos laxos de un helper inventado rompen
 el type-check contra `SectionRenderer`; ese error es del archivo inventado,
 no del motor.
 
+## Config mínimo que COMPILA (cópialo y rellena — no adivines el schema)
+
+`lib/config.ts` es la fuente de verdad; este es el objeto más chico que pasa
+el type-check. Campos comentados = opcionales (omítelos sin dato real; el
+motor oculta su render). Datos de contacto sin valor real → mock local
+marcado `// MOCK` (el preview es demo; publicar con mocks se bloquea).
+
+```ts
+import type { SiteConfig } from "@/lib/config";
+
+const config: SiteConfig = {
+  business: {
+    name: "Razón Social S.A. de C.V.",
+    // shortName: "Marca Corta",           // opcional
+    // logo: "/images/logo.png",           // opcional
+    // icon: "/images/icon.png",           // opcional
+    category: "Constructora",
+    address: {
+      street: "Blvd. Ejemplo 123", // MOCK si no hay dato
+      colonia: "Centro",           // MOCK si no hay dato
+      city: "Torreón",
+      state: "Coahuila",
+      zip: "27000",                // MOCK si no hay dato
+    },
+    geo: { lat: 25.5393, lng: -103.4344 }, // centro de la ciudad si no hay exacto
+    phone: "+52 871 000 0000",             // MOCK si no hay dato
+    hours: [],                              // [] = sin horario (se oculta)
+    // maps: { uri, placeId, rating, reviewsCount },  // SOLO con ficha de
+    //   Google real — omitido, el motor oculta rating/badge/testimonials.
+    //   NUNCA un rating inventado ni en 0.
+    // founded: 2004,                       // opcional, solo verificable
+    // social: { facebook, linkedin, instagram },     // opcional
+    // whatsapp: "+52...",                  // opcional (cae a phone)
+    // email: "x@y.mx",                     // opcional
+  },
+  seo: {
+    domain: "cliente.mx",
+    title: "Servicio en Ciudad | Marca",
+    description: "140-155 caracteres con servicio, ciudad y diferenciador.",
+    jsonLdType: "GeneralContractor",
+    keywords: ["servicio ciudad", "servicio 2 ciudad", "servicio 3 ciudad"],
+  },
+  design: {
+    preset: "cantera",
+    fontPair: "archivo-inter",
+    defaultMode: "light",
+    density: "airy",
+    imageTreatment: "duotone-accent",
+    motion: "subtle",
+    // OJO: concept/variation_notes/palette/references viven en el SPEC
+    // (save_site_version), NUNCA aquí — este design es solo el del motor.
+  },
+  sections: [
+    { id: "navbar", variant: "split" },
+    { id: "hero", variant: "stat-led", ns: "hero" },
+    // ...
+    { id: "contact", showMap: false },
+    { id: "footer" },
+  ],
+  // pages: [{ slug: "servicios", title: "...", sections: [...] }],
+  flags: {
+    contactForm: true,
+    whatsappFloat: false,
+    multiLang: false,
+    themeToggle: true,
+  },
+};
+
+export default config;
+```
+
 ## Orden de trabajo
 
 1. **`site.config.ts`** — llena `business` con datos REALES y verificables

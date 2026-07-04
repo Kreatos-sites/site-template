@@ -65,23 +65,33 @@ export const businessSchema = z.object({
   /** Opcional como todo dato del negocio: sin horario real, contact oculta
    *  el bloque y el JSON-LD omite openingHours — nunca se inventa. */
   hours: z.array(hoursSchema).default([]),
-  maps: z.object({
-    /** URL pública de la ficha de Google Maps */
-    uri: z.url(),
-    placeId: z.string().min(4),
-    rating: z.number().min(0).max(5),
-    reviewsCount: z.number().int().nonnegative(),
-  }),
+  /**
+   * Ficha de Google Maps. Opcional: un lead manual sin ficha lo OMITE — el
+   * motor oculta el rating (trust-bar, badge, testimonials, OG) y el JSON-LD
+   * omite aggregateRating/hasMap. NUNCA un rating inventado ni en 0.
+   */
+  maps: z
+    .object({
+      /** URL pública de la ficha de Google Maps */
+      uri: z.url(),
+      placeId: z.string().min(4),
+      rating: z.number().min(0).max(5),
+      reviewsCount: z.number().int().nonnegative(),
+    })
+    .optional(),
   /**
    * Año de fundación (los años de experiencia se calculan en el motor).
    * Opcional: si el dato no es verificable, omítelo — nunca lo inventes.
    */
   founded: z.number().int().min(1900).max(2100).optional(),
-  social: z.object({
-    facebook: z.url().optional(),
-    linkedin: z.url().optional(),
-    instagram: z.url().optional(),
-  }),
+  /** Redes reales del negocio. Opcional: sin redes, el footer las oculta. */
+  social: z
+    .object({
+      facebook: z.url().optional(),
+      linkedin: z.url().optional(),
+      instagram: z.url().optional(),
+    })
+    .optional(),
 });
 
 export const seoSchema = z.object({

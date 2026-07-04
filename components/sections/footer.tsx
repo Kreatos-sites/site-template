@@ -14,9 +14,9 @@ export function Footer({ ns }: SectionOf<"footer">) {
   const { business } = config;
   const year = new Date().getFullYear();
   const social = [
-    { label: "Facebook", href: business.social.facebook },
-    { label: "LinkedIn", href: business.social.linkedin },
-    { label: "Instagram", href: business.social.instagram },
+    { label: "Facebook", href: business.social?.facebook },
+    { label: "LinkedIn", href: business.social?.linkedin },
+    { label: "Instagram", href: business.social?.instagram },
   ].filter((s): s is { label: string; href: string } => Boolean(s.href));
 
   return (

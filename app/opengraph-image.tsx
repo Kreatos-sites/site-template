@@ -106,10 +106,12 @@ export default function OpengraphImage() {
           <div style={{ display: "flex" }}>
             {config.business.address.city}, {config.business.address.state}
           </div>
-          <div style={{ display: "flex", color: tokens.accent, fontWeight: 600 }}>
-            {config.business.maps.rating.toFixed(1)} · {config.business.maps.reviewsCount}{" "}
-            reseñas en Google
-          </div>
+          {config.business.maps && (
+            <div style={{ display: "flex", color: tokens.accent, fontWeight: 600 }}>
+              {config.business.maps.rating.toFixed(1)} ·{" "}
+              {config.business.maps.reviewsCount} reseñas en Google
+            </div>
+          )}
         </div>
       </div>
     ),

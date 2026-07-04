@@ -6,7 +6,7 @@ import { fullAddress, type SiteConfig } from "./config";
  */
 export function buildJsonLd(config: SiteConfig) {
   const { business, seo } = config;
-  const sameAs = Object.values(business.social).filter(Boolean);
+  const sameAs = Object.values(business.social ?? {}).filter(Boolean);
 
   return {
     "@context": "https://schema.org",
@@ -34,7 +34,8 @@ export function buildJsonLd(config: SiteConfig) {
       latitude: business.geo.lat,
       longitude: business.geo.lng,
     },
-    hasMap: business.maps.uri,
+    // Sin ficha de Google no se emiten hasMap ni aggregateRating.
+    ...(business.maps ? { hasMap: business.maps.uri } : {}),
     // Sin horario real no se emite la propiedad (nunca un array vacío).
     ...(business.hours.length > 0
       ? {
@@ -46,7 +47,7 @@ export function buildJsonLd(config: SiteConfig) {
           })),
         }
       : {}),
-    ...(business.maps.reviewsCount > 0
+    ...(business.maps && business.maps.reviewsCount > 0
       ? {
           aggregateRating: {
             "@type": "AggregateRating",

@@ -10,14 +10,17 @@ import config from "@/site.config";
 type Testimonial = { quote: string; author: string; role: string };
 
 /**
- * Reseñas de Google. El enlace a maps.uri es obligatorio:
- * las citas deben ser verificables en la ficha real del negocio.
+ * Reseñas de Google. Las citas deben ser verificables en la ficha real del
+ * negocio: sin `business.maps` la sección no renderiza (no hay ficha que
+ * respalde las citas — recórtala del spec en ese caso).
  */
 export function Testimonials({ count, ns }: SectionOf<"testimonials">) {
   const t = useTranslations(ns ?? "testimonials");
   const allItems = t.raw("items") as Testimonial[];
   const items = count ? allItems.slice(0, count) : allItems;
-  const { uri, reviewsCount } = config.business.maps;
+  const maps = config.business.maps;
+  if (!maps) return null;
+  const { uri, reviewsCount } = maps;
 
   return (
     <section id="opiniones" className="border-t border-border py-(--section-gap)">
@@ -36,7 +39,7 @@ export function Testimonials({ count, ns }: SectionOf<"testimonials">) {
                 <div
                   className="flex gap-0.5 text-primary"
                   role="img"
-                  aria-label={`${config.business.maps.rating.toFixed(1)} de 5`}
+                  aria-label={`${maps.rating.toFixed(1)} de 5`}
                 >
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star key={i} className="size-3.5 fill-current" aria-hidden="true" />

@@ -7,10 +7,13 @@ import config from "@/site.config";
 /**
  * Rating real de la ficha de Google (config.business.maps).
  * Enlaza siempre a maps.uri: el dato es verificable, no decorativo.
+ * Sin ficha de Google (maps omitido) no renderiza nada.
  */
 export function GoogleRatingBadge({ className }: { className?: string }) {
   const t = useTranslations("common");
-  const { rating, reviewsCount, uri } = config.business.maps;
+  const maps = config.business.maps;
+  if (!maps) return null;
+  const { rating, reviewsCount, uri } = maps;
 
   return (
     <a
