@@ -86,15 +86,18 @@ El sitio puede tener páginas además de la landing, declaradas en
 `site.config.ts` → `pages` y servidas en `/<slug>`. Siguen dentro del
 contrato: solo se tocan `site.config.ts` y `messages/es.json`.
 
-**Cuándo crear una página (y cuándo no):**
+**Multi-página es la NORMA de un sitio corporativo** (un one-pager se ve
+barato y limita el SEO local). Default esperado:
 
-- Giro con muchos servicios que no caben como teaser en la home →
-  `/servicios` con el catálogo extendido.
-- Historia, equipo o credenciales con contenido REAL y verificable →
-  `/nosotros`.
-- **Nunca crees páginas de relleno**: si no hay contenido propio y
-  distinto al de la home, la sección en la landing es suficiente. Una
-  página que repite el copy de la home daña el SEO y la credibilidad.
+- `/servicios` — casi siempre: con 3+ servicios reales ya hay página (la
+  home lleva el teaser; el detalle vive aquí). Es la que más SEO captura.
+- `/nosotros` — con CUALQUIER material real: historia, años, equipo,
+  certificaciones, fotos del negocio.
+- Por giro, cuando el contenido existe: `/proyectos` (constructora),
+  `/carta` (restaurante), `/cobertura` (logística).
+- Un one-pager solo para negocios genuinamente mínimos, justificado.
+- **Nunca crees páginas de relleno**: el copy interior profundiza con
+  contenido propio; una página que repite la home daña SEO y credibilidad.
 
 **Reglas duras:**
 
