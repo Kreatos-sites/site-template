@@ -43,13 +43,22 @@ se actualizan igual.
    dibujado, nómbralo con "wordmark" (ej. `logo-wordmark.svg`) y el
    header lo mostrará solo, sin duplicar el texto.
    Si el brief trae además un **isotipo cuadrado**, descárgalo a
-   `public/images/icon.<ext>` (svg/png/jpg/webp) y declara
-   `business.icon` — favicon y apple-icon salen SOLOS del motor
-   (`app/icon.tsx` y `app/apple-icon.tsx`, isotipo centrado sobre el
-   fondo del theme); sin `icon`, el motor genera el monograma con la
-   inicial. **Jamás generes favicons a mano** ni agregues un
-   `favicon.ico`: icon.tsx cubre los navegadores modernos y un .ico
-   suelto pisaría la convención de Next.
+   `public/images/icon.<ext>` (svg/png/jpg/webp) y GENERA los iconos
+   como ARCHIVOS ESTÁTICOS en `app/` (convención de Next — nada de
+   ImageResponse/Satori, que rompe builds):
+   - Isotipo SVG → cópialo tal cual a `app/icon.svg` (Next lo sirve como
+     favicon en navegadores modernos).
+   - Isotipo raster → `app/icon.png` (512×512 máx, proporción intacta) y
+     `app/favicon.ico` (48×48) con ffmpeg.
+   - `app/apple-icon.png` (180×180): SIEMPRE fondo sólido del theme de
+     esquina a esquina + ~18% de padding (iOS no respeta transparencia):
+     `ffmpeg -i public/images/icon.png -vf "scale=132:132:force_original_aspect_ratio=decrease,pad=180:180:(ow-iw)/2:(oh-ih)/2:color=<hex-fondo>" app/apple-icon.png`.
+     Si el isotipo es SVG y no puedes rasterizarlo, omite apple-icon y
+     anótalo en el changelog.
+   Sin isotipo: escribe a mano `app/icon.svg` con un monograma simple
+   (rect de fondo con el color de acento del theme + la inicial del
+   negocio en el foreground, font-family sans genérica) — es texto SVG
+   plano, sin dependencias ni riesgo de build.
 2. **`app/theme.css`** — copia el preset de `themes/` que corresponda al
    giro (obsidiana: despachos/servicios profesionales; cantera:
    construcción/industrial) y varía hue/chroma para el cliente siguiendo
