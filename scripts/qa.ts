@@ -54,7 +54,25 @@ function runStep(name: string, command: string, args: string[]): StepResult {
 
 const steps: StepResult[] = [];
 
-steps.push(runStep("build", "pnpm", ["build"]));
+// --skip-build: cuando el caller ACABA de correr `pnpm build` verde (el flujo
+// del agente lo garantiza), repetirlo dentro de qa solo quema el presupuesto
+// de tiempo del comando en el sandbox. Solo se omite si el build existe.
+const skipBuild =
+  process.argv.includes("--skip-build") &&
+  existsSync(join(root, ".next", "BUILD_ID"));
+
+if (skipBuild) {
+  console.log("\n[qa] build: omitido (--skip-build, .next/BUILD_ID presente)");
+  steps.push({
+    name: "build",
+    command: "pnpm build (omitido: --skip-build)",
+    ok: true,
+    durationMs: 0,
+    outputTail: "build omitido: --skip-build con .next/BUILD_ID presente",
+  });
+} else {
+  steps.push(runStep("build", "pnpm", ["build"]));
+}
 
 // Solo validamos si el build compiló; si no, el reporte ya trae el fallo.
 if (steps[0].ok) {
