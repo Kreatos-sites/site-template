@@ -2,6 +2,7 @@
   "name": "kreatos-site-template",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@9.0.0",
   "description": "Template base de sitios corporativos de Kreatos. Ver AGENT.md antes de personalizar.",
   "scripts": {
     "dev": "next dev",
