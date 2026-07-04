@@ -127,10 +127,21 @@ contrato: solo se tocan `site.config.ts` y `messages/es.json`.
 
 ## Secciones custom (`components/custom/`)
 
-Cuando NINGUNA variante del motor logra el gesto memorable que el sitio
-necesita, escribe una sección desde cero. La sección custom ES el gesto:
-**1 a 3 por sitio**, nunca el sitio entero custom — el motor sigue
-poniendo la estructura y las secciones custom ponen la personalidad.
+Las secciones custom son la identidad del sitio: escríbelas desde cero
+siempre que la dirección de arte lo pida — **sin tope numérico**. Dos
+sitios distintos NO deben compartir los mismos layouts; las variantes del
+motor son el piso de velocidad, no el techo de diseño.
+
+Reparto de responsabilidades:
+
+- **Siempre motor** (SEO/a11y/funcionalidad dependen de ellas): `navbar`,
+  `footer`, `contact` (form Resend + mapa), `faq`, `trust-bar` y el aviso
+  de privacidad. Se personalizan vía theme/copy, no se reescriben.
+- **Custom cuando el diseño lo amerite**: hero, services, about, process,
+  portfolio, galerías, bandas de datos — cualquier sección de contenido.
+  La vara: cada custom se justifica en el spec ("la variante X no logra
+  Y de la referencia"); si una variante del motor logra el mismo efecto,
+  úsala y gasta el esfuerzo donde sí suma.
 
 **Flujo:**
 
