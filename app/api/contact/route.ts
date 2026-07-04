@@ -1,17 +1,12 @@
 import { NextResponse } from "next/server";
-import { z } from "zod";
 
+import { contactSchema } from "@/lib/contact-schema";
 import config from "@/site.config";
-
-const payloadSchema = z.object({
-  name: z.string().min(2).max(120),
-  email: z.email(),
-  phone: z.string().max(30).optional().or(z.literal("")),
-  message: z.string().min(10).max(4000),
-});
 
 /**
  * Envío del formulario de contacto vía Resend.
+ * Valida con el MISMO schema zod que el cliente (lib/contact-schema.ts):
+ * la validación del form es UX; esta es la seguridad real.
  * - Si flags.contactForm es false, la ruta se comporta como inexistente (404).
  * - Requiere RESEND_API_KEY en el entorno. Opcional: CONTACT_FROM
  *   (remitente verificado en Resend; por defecto onboarding@resend.dev).
@@ -24,7 +19,7 @@ export async function POST(request: Request) {
   }
 
   const body = await request.json().catch(() => null);
-  const parsed = payloadSchema.safeParse(body);
+  const parsed = contactSchema.safeParse(body);
 
   if (!parsed.success) {
     return NextResponse.json({ error: "invalid_payload" }, { status: 400 });
@@ -54,12 +49,13 @@ export async function POST(request: Request) {
   const { error } = await resend.emails.send({
     from: process.env.CONTACT_FROM ?? "Sitio web <onboarding@resend.dev>",
     to: [forwardTo],
-    replyTo: email,
+    // email es opcional en el schema ("" = no proporcionado)
+    ...(email ? { replyTo: email } : {}),
     subject: `Nuevo mensaje del sitio web: ${name}`,
     text: [
       `Nombre: ${name}`,
-      `Correo: ${email}`,
-      phone ? `Teléfono: ${phone}` : null,
+      `Teléfono: ${phone}`,
+      email ? `Correo: ${email}` : null,
       "",
       message,
     ]

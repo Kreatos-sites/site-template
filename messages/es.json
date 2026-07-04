@@ -212,13 +212,25 @@
       "title": "Envíenos un mensaje",
       "intro": "Respondemos en menos de un día hábil.",
       "name": "Nombre",
-      "email": "Correo electrónico",
-      "phone": "Teléfono (opcional)",
+      "namePlaceholder": "María Fernanda López",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+52 871 123 4567",
+      "email": "Correo electrónico (opcional)",
+      "emailPlaceholder": "maria@suempresa.mx",
       "message": "Cuéntenos en qué podemos ayudarle",
+      "messagePlaceholder": "Cuéntenos de su empresa y qué necesita: contabilidad, nómina, un pendiente con el SAT…",
       "submit": "Enviar mensaje",
       "sending": "Enviando…",
-      "success": "Mensaje enviado. Le responderemos en menos de un día hábil.",
-      "error": "No pudimos enviar su mensaje. Inténtelo de nuevo o escríbanos por WhatsApp."
+      "success": "Listo, su mensaje ya está con nosotros. Le respondemos en menos de un día hábil.",
+      "error": "Algo se atoró al enviar su mensaje; su texto sigue aquí, inténtelo de nuevo o escríbanos por WhatsApp.",
+      "errors": {
+        "name": "Se nos escapó su nombre, ¿nos lo comparte?",
+        "nameLong": "Su nombre quedó larguísimo: con 120 caracteres nos basta.",
+        "phone": "Ese teléfono se ve incompleto; revíselo por favor, con 10 dígitos basta.",
+        "email": "Ese correo no se ve bien; revíselo o déjelo en blanco, no es obligatorio.",
+        "message": "Cuéntenos un poquito más: con 10 caracteres nos damos una idea.",
+        "messageLong": "Nos encantaría leerlo todo, pero 4000 caracteres es nuestro límite."
+      }
     }
   },
   "footer": {
