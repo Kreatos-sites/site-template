@@ -1,13 +1,37 @@
 "use client";
 
-import { useEffect, useRef, type CSSProperties, type ReactNode } from "react";
+import { type ReactNode } from "react";
+import { motion, useReducedMotion } from "motion/react";
 
 import { cn } from "@/lib/utils";
+import config from "@/site.config";
 
 /**
- * Entrada on-scroll sutil. Es la ÚNICA coreografía del sitio: no agregues
- * otras animaciones de entrada. `delay` (ms) permite escalonar hermanos.
- * La animación vive en globals.css (.reveal) y respeta reduced-motion.
+ * Motor de coreografía del sitio (isla client, patrón leaf: las secciones
+ * siguen siendo server components y envuelven su contenido con estos
+ * wrappers). Es la ÚNICA coreografía del sitio: misma curva, misma
+ * dirección de entrada, intensidad elegida por site.config.ts →
+ * design.motion ("none" | "subtle" | "expressive").
+ *
+ * Reglas duras:
+ * - Solo se animan transform y opacity (nunca width/height/top).
+ * - prefers-reduced-motion SIEMPRE colapsa a estático, en todos los niveles.
+ * - En "none" no se monta ningún wrapper de motion: div estático.
+ */
+
+/** Curva única del sitio */
+const EASE = [0.16, 1, 0.3, 1] as const;
+/** Duración base (expressive); subtle usa 0.5s */
+const BASE_DURATION = 0.6;
+/** Desplazamiento base de entrada (expressive); subtle usa 16px */
+const BASE_Y = 24;
+
+const VIEWPORT = { once: true, amount: 0.3 } as const;
+
+/**
+ * Entrada on-scroll. `delay` (ms) escalona hermanos: en "expressive" las
+ * listas usan i * 60ms; en "subtle" el delay se acota (sin stagger
+ * protagónico) y en "none" se ignora todo.
  */
 export function Reveal({
   children,
@@ -18,35 +42,110 @@ export function Reveal({
   delay?: number;
   className?: string;
 }) {
-  const ref = useRef<HTMLDivElement>(null);
+  const reduced = useReducedMotion();
+  const level = config.design.motion;
 
-  useEffect(() => {
-    const node = ref.current;
-    if (!node) return;
+  if (level === "none" || reduced) {
+    return <div className={className}>{children}</div>;
+  }
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-            observer.unobserve(entry.target);
-          }
-        }
-      },
-      { threshold: 0.15, rootMargin: "0px 0px -40px 0px" },
-    );
-
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, []);
+  const subtle = level === "subtle";
 
   return (
-    <div
-      ref={ref}
-      className={cn("reveal", className)}
-      style={{ "--reveal-delay": `${delay}ms` } as CSSProperties}
+    <motion.div
+      className={className}
+      initial={{ opacity: 0, y: subtle ? 16 : BASE_Y }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={VIEWPORT}
+      transition={{
+        duration: subtle ? 0.5 : BASE_DURATION,
+        ease: EASE,
+        delay: (subtle ? Math.min(delay, 150) : delay) / 1000,
+      }}
     >
       {children}
-    </div>
+    </motion.div>
+  );
+}
+
+/**
+ * Contenedor del hero: el ÚNICO momento protagonista del sitio.
+ * - "expressive": entrada coreografiada al cargar, con stagger entre sus
+ *   <HeroItem> (eyebrow → titular → subtexto → CTAs), 0.08s entre ítems.
+ * - "subtle": el bloque completo hace la entrada discreta al cargar.
+ * - "none" / reduced-motion: estático.
+ */
+export function HeroStagger({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  const reduced = useReducedMotion();
+  const level = config.design.motion;
+
+  if (level === "none" || reduced) {
+    return <div className={className}>{children}</div>;
+  }
+
+  if (level === "subtle") {
+    return (
+      <motion.div
+        className={className}
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: EASE }}
+      >
+        {children}
+      </motion.div>
+    );
+  }
+
+  return (
+    <motion.div
+      className={className}
+      initial="hidden"
+      animate="visible"
+      variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.08 } } }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+/**
+ * Cada bloque del hero (eyebrow, titular, subtexto, CTAs, meta).
+ * Solo anima en "expressive"; en los demás niveles es un div pasivo
+ * (la entrada la hace el HeroStagger padre o nadie).
+ */
+export function HeroItem({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  const reduced = useReducedMotion();
+  const level = config.design.motion;
+
+  if (level !== "expressive" || reduced) {
+    return <div className={cn(className)}>{children}</div>;
+  }
+
+  return (
+    <motion.div
+      className={className}
+      variants={{
+        hidden: { opacity: 0, y: BASE_Y },
+        visible: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: BASE_DURATION, ease: EASE },
+        },
+      }}
+    >
+      {children}
+    </motion.div>
   );
 }

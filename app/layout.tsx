@@ -55,6 +55,7 @@ export default async function RootLayout({
       <body
         className="bg-background text-foreground font-body antialiased"
         data-density={config.design.density}
+        data-motion={config.design.motion}
       >
         <ThemeProvider
           attribute="class"

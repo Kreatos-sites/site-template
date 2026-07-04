@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
 import { GoogleRatingBadge } from "@/components/shared/google-rating-badge";
-import { Reveal } from "@/components/shared/reveal";
+import { HeroItem, HeroStagger, Reveal } from "@/components/shared/reveal";
 import { SmartImage } from "@/components/shared/smart-image";
 import type { SectionOf } from "@/lib/config";
 import config from "@/site.config";
@@ -60,20 +60,26 @@ export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
           className="absolute inset-0 [background:var(--hero-overlay)]"
         />
         <div className="relative mx-auto w-full max-w-6xl px-6 pt-32 pb-16 lg:px-8">
-          <Reveal>
-            <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary uppercase">
-              {t("eyebrow")}
-            </p>
-            <h1 className="max-w-3xl font-display text-[clamp(2.5rem,1.6rem+4vw,4.5rem)] leading-[1.02] tracking-tight text-balance">
-              {t("title")}
-            </h1>
-            <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-              {t("subtitle")}
-            </p>
-            <div className="mt-9">
+          <HeroStagger>
+            <HeroItem>
+              <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary uppercase">
+                {t("eyebrow")}
+              </p>
+            </HeroItem>
+            <HeroItem>
+              <h1 className="max-w-3xl font-display text-[clamp(2.5rem,1.6rem+4vw,4.5rem)] leading-[1.02] tracking-tight text-balance">
+                {t("title")}
+              </h1>
+            </HeroItem>
+            <HeroItem>
+              <p className="mt-6 max-w-xl text-lg text-muted-foreground">
+                {t("subtitle")}
+              </p>
+            </HeroItem>
+            <HeroItem className="mt-9">
               <HeroCtas primary={t("primaryCta")} secondary={t("secondaryCta")} />
-            </div>
-          </Reveal>
+            </HeroItem>
+          </HeroStagger>
         </div>
       </section>
     );
@@ -83,20 +89,26 @@ export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
     return (
       <section className="pt-(--section-gap) pb-(--section-gap)">
         <div className="mx-auto w-full max-w-6xl px-6 lg:px-8">
-          <Reveal>
-            <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary uppercase">
-              {t("eyebrow")}
-            </p>
-            <h1 className="max-w-4xl font-display text-[clamp(2.5rem,1.6rem+4vw,4.75rem)] leading-[1.02] tracking-tight text-balance">
-              {t("title")}
-            </h1>
-            <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-              {t("subtitle")}
-            </p>
-            <div className="mt-9">
+          <HeroStagger>
+            <HeroItem>
+              <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary uppercase">
+                {t("eyebrow")}
+              </p>
+            </HeroItem>
+            <HeroItem>
+              <h1 className="max-w-4xl font-display text-[clamp(2.5rem,1.6rem+4vw,4.75rem)] leading-[1.02] tracking-tight text-balance">
+                {t("title")}
+              </h1>
+            </HeroItem>
+            <HeroItem>
+              <p className="mt-6 max-w-xl text-lg text-muted-foreground">
+                {t("subtitle")}
+              </p>
+            </HeroItem>
+            <HeroItem className="mt-9">
               <HeroCtas primary={t("primaryCta")} secondary={t("secondaryCta")} />
-            </div>
-          </Reveal>
+            </HeroItem>
+          </HeroStagger>
           <Reveal delay={150}>
             <dl className="mt-16 grid grid-cols-1 gap-px overflow-hidden border border-border bg-border sm:grid-cols-3">
               {stats.map((stat) => (
@@ -118,21 +130,27 @@ export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
     return (
       <section className="pt-(--section-gap) pb-(--section-gap)">
         <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-6 lg:grid-cols-2 lg:px-8">
-          <Reveal>
-            <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary uppercase">
-              {t("eyebrow")}
-            </p>
-            <h1 className="font-display text-[clamp(2.25rem,1.5rem+3.2vw,3.75rem)] leading-[1.05] tracking-tight text-balance">
-              {t("title")}
-            </h1>
-            <p className="mt-6 text-lg text-muted-foreground">{t("subtitle")}</p>
-            <div className="mt-9">
+          <HeroStagger>
+            <HeroItem>
+              <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary uppercase">
+                {t("eyebrow")}
+              </p>
+            </HeroItem>
+            <HeroItem>
+              <h1 className="font-display text-[clamp(2.25rem,1.5rem+3.2vw,3.75rem)] leading-[1.05] tracking-tight text-balance">
+                {t("title")}
+              </h1>
+            </HeroItem>
+            <HeroItem>
+              <p className="mt-6 text-lg text-muted-foreground">{t("subtitle")}</p>
+            </HeroItem>
+            <HeroItem className="mt-9">
               <HeroCtas primary={t("primaryCta")} secondary={t("secondaryCta")} />
-            </div>
-            <div className="mt-10">
+            </HeroItem>
+            <HeroItem className="mt-10">
               <HeroMeta />
-            </div>
-          </Reveal>
+            </HeroItem>
+          </HeroStagger>
           {image && (
             <Reveal delay={120}>
               <SmartImage
@@ -154,23 +172,29 @@ export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
     <section className="overflow-x-clip pt-[calc(var(--section-gap)*0.8)] pb-(--section-gap)">
       <div className="mx-auto grid w-full max-w-6xl gap-14 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
         <div className="lg:col-span-7">
-          <Reveal>
-            <p className="mb-5 text-xs font-medium tracking-[0.25em] text-primary uppercase">
-              {t("eyebrow")}
-            </p>
-            <h1 className="font-display text-[clamp(2.5rem,1.5rem+4.5vw,4.75rem)] leading-[1.02] tracking-tight text-balance">
-              {t("title")}
-            </h1>
-            <p className="mt-7 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              {t("subtitle")}
-            </p>
-            <div className="mt-10">
+          <HeroStagger>
+            <HeroItem>
+              <p className="mb-5 text-xs font-medium tracking-[0.25em] text-primary uppercase">
+                {t("eyebrow")}
+              </p>
+            </HeroItem>
+            <HeroItem>
+              <h1 className="font-display text-[clamp(2.5rem,1.5rem+4.5vw,4.75rem)] leading-[1.02] tracking-tight text-balance">
+                {t("title")}
+              </h1>
+            </HeroItem>
+            <HeroItem>
+              <p className="mt-7 max-w-xl text-lg leading-relaxed text-muted-foreground">
+                {t("subtitle")}
+              </p>
+            </HeroItem>
+            <HeroItem className="mt-10">
               <HeroCtas primary={t("primaryCta")} secondary={t("secondaryCta")} />
-            </div>
-            <div className="mt-14 border-t border-border pt-6">
+            </HeroItem>
+            <HeroItem className="mt-14 border-t border-border pt-6">
               <HeroMeta />
-            </div>
-          </Reveal>
+            </HeroItem>
+          </HeroStagger>
         </div>
         {image && (
           <div className="lg:col-span-5 lg:pl-6">

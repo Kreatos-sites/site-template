@@ -86,7 +86,7 @@ export function Services({ variant = "numbered-list", count, ns }: SectionOf<"se
         {variant === "bordered-table" && (
           <div className="mt-14 border border-border">
             {items.map((item, index) => (
-              <Reveal key={item.title} delay={index * 40}>
+              <Reveal key={item.title} delay={index * 60}>
                 <div
                   className={cn(
                     "grid gap-2 px-6 py-6 sm:grid-cols-2 sm:gap-10",

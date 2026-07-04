@@ -26,10 +26,10 @@ export function Faq({ count, ns }: SectionOf<"faq">) {
           </Reveal>
         </div>
         <div className="lg:col-span-8">
-          <Reveal delay={100}>
-            <Accordion type="single" collapsible className="w-full">
-              {items.map((item, index) => (
-                <AccordionItem key={item.question} value={`item-${index}`}>
+          <Accordion type="single" collapsible className="w-full">
+            {items.map((item, index) => (
+              <Reveal key={item.question} delay={index * 60}>
+                <AccordionItem value={`item-${index}`}>
                   <AccordionTrigger className="py-5 font-display text-base tracking-tight sm:text-lg">
                     {item.question}
                   </AccordionTrigger>
@@ -37,9 +37,9 @@ export function Faq({ count, ns }: SectionOf<"faq">) {
                     {item.answer}
                   </AccordionContent>
                 </AccordionItem>
-              ))}
-            </Accordion>
-          </Reveal>
+              </Reveal>
+            ))}
+          </Accordion>
         </div>
       </div>
     </section>

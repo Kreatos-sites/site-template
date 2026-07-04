@@ -75,6 +75,21 @@ export const designSchema = z.object({
   defaultMode: z.enum(["light", "dark"]),
   density: z.enum(["airy", "compact"]),
   imageTreatment: z.enum(["duotone-accent", "bw", "warm", "none"]),
+  /**
+   * Intensidad de la coreografía de entrada. Es UNA sola coreografía por
+   * sitio (misma curva [0.16, 1, 0.3, 1], misma dirección); este campo
+   * solo elige cuánta. Requerido y sin default: el spec del cliente
+   * SIEMPRE decide el nivel y lo justifica.
+   * - "none": cero animación de entrada; todo se renderiza estático y
+   *   los CTAs no llevan efecto de presión.
+   * - "subtle": fade + subida ligera (16px, 0.5s) al entrar al viewport,
+   *   sin stagger protagónico. Va bien con giros sobrios (despachos).
+   * - "expressive": lo de subtle, más el hero coreografiado al cargar
+   *   (stagger eyebrow → titular → subtexto → CTAs) y listas con stagger
+   *   por ítem. El hero es el ÚNICO momento protagonista.
+   * prefers-reduced-motion SIEMPRE colapsa a estático; no es configurable.
+   */
+  motion: z.enum(["none", "subtle", "expressive"]),
 });
 
 /**

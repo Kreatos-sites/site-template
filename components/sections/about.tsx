@@ -24,7 +24,7 @@ export function About({ variant = "portrait", image, ns }: SectionOf<"about">) {
           <ol className="mt-14 max-w-2xl space-y-0">
             {milestones.map((m, index) => (
               <li key={m.year} className="relative border-l border-border pb-10 pl-8 last:pb-0">
-                <Reveal delay={index * 80}>
+                <Reveal delay={index * 60}>
                   <span
                     aria-hidden="true"
                     className="absolute top-1 -left-[5px] size-2.5 rounded-full bg-primary"

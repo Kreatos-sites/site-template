@@ -31,7 +31,7 @@ export function Testimonials({ count, ns }: SectionOf<"testimonials">) {
 
         <div className="mt-14 grid gap-10 lg:grid-cols-3 lg:gap-8">
           {items.map((item, index) => (
-            <Reveal key={item.author} delay={index * 90}>
+            <Reveal key={item.author} delay={index * 60}>
               <figure className="flex h-full flex-col border-t border-border pt-6">
                 <div
                   className="flex gap-0.5 text-primary"

@@ -26,7 +26,9 @@ cliente y rompe la garantía de que todos los sitios se actualizan igual.
    año de fundación). Elige `seo.jsonLdType` (subtipo schema.org de
    LocalBusiness: `AccountingService`, `GeneralContractor`, `MovingCompany`,
    `WholesaleStore`...). Define `sections` (orden = render) con sus
-   variantes, `design` y `flags`. Ejecuta `pnpm validate-config` temprano.
+   variantes, `design` y `flags`. En `design.motion` elige la intensidad
+   de animación (ver "Animación" abajo); la elección se justifica en el
+   spec del cliente. Ejecuta `pnpm validate-config` temprano.
    **`email` y `founded` son opcionales**: si el lead no los tiene,
    omítelos — el motor oculta sus renders automáticamente (contacto,
    footer, trust-bar, aviso de privacidad y JSON-LD). Nunca los inventes.
@@ -104,6 +106,29 @@ contrato: solo se tocan `site.config.ts` y `messages/es.json`.
 - El sitemap y los metadatos por página (title, description, canonical,
   OpenGraph) los genera el motor desde `config.pages`: no hay nada que
   tocar.
+
+## Animación (`design.motion`)
+
+El motor trae UNA sola coreografía de entrada (misma curva, misma
+dirección); el config solo elige la intensidad con `design.motion`.
+Es **requerido y sin default**: el spec del cliente SIEMPRE decide el
+nivel y la elección se justifica ahí.
+
+- `"none"` — cero animación de entrada; todo estático y los CTAs sin
+  efecto de presión. Para clientes que lo pidan o giros ultra sobrios.
+- `"subtle"` — fade + subida ligera al entrar cada sección al viewport,
+  sin stagger protagónico. El default sensato para despachos y servicios
+  profesionales (va bien con obsidiana).
+- `"expressive"` — lo de subtle, más el hero coreografiado al cargar
+  (stagger eyebrow → titular → subtexto → CTAs) y las listas (services,
+  process, testimonials, faq) con stagger por ítem. El hero es el ÚNICO
+  momento protagonista; el resto queda discreto. Para giros con más
+  personalidad visual.
+
+`prefers-reduced-motion` SIEMPRE colapsa todo a estático, en cualquier
+nivel; no es configurable. La implementación vive en el motor
+(`components/shared/reveal.tsx` con Motion): no agregues animaciones
+propias ni toques esos componentes al personalizar.
 
 ## Regla de color (la más importante)
 

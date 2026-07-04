@@ -85,28 +85,18 @@
     pointer-events: none;
   }
 
-  /* ---- Reveal: la ÚNICA coreografía de entrada del sitio ---- */
-  .reveal {
-    opacity: 0;
-    transform: translateY(14px);
-    transition:
-      opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-      transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-    transition-delay: var(--reveal-delay, 0s);
-  }
+  /* ---- Coreografía de entrada: vive en components/shared/reveal.tsx
+   * (motion/react), gobernada por site.config.ts → design.motion. ---- */
 
-  .reveal.is-visible {
-    opacity: 1;
-    transform: none;
+  /* ---- Presión táctil de CTAs (todos los niveles salvo "none").
+   * Solo transform, sin JS; reduced-motion la desactiva siempre. ---- */
+  @media (prefers-reduced-motion: no-preference) {
+    body:not([data-motion="none"]) [data-slot="button"]:active {
+      transform: scale(0.98);
+    }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .reveal {
-      opacity: 1;
-      transform: none;
-      transition: none;
-    }
-
     html {
       scroll-behavior: auto;
     }

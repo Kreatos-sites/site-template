@@ -20,7 +20,7 @@ export function Process({ count, ns }: SectionOf<"process">) {
         <ol className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           {steps.map((step, index) => (
             <li key={step.title} className="border-t-2 border-primary pt-6">
-              <Reveal delay={index * 90}>
+              <Reveal delay={index * 60}>
                 <span
                   aria-hidden="true"
                   className="font-display text-4xl leading-none text-primary/60 tabular-nums"

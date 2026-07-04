@@ -70,6 +70,8 @@ const config: SiteConfig = {
     defaultMode: "dark",
     density: "airy",
     imageTreatment: "duotone-accent",
+    // Sobrio y editorial, coherente con obsidiana: entrada discreta al scroll.
+    motion: "subtle",
   },
 
   // El orden de este array ES el orden de render en la página.
