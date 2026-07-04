@@ -156,6 +156,20 @@ y el renderer truena en build con error claro si se le escapa.
 - Patrón de referencia: `components/custom/credentials-band.tsx`
   (registrada como `"credentials-band"` y usada en la home del ejemplo).
 
+**Skills de stack (`.agent/skills/`)** — documentación curada del stack;
+léela ANTES de escribir código en el terreno que toque:
+
+- `.agent/skills/next-best-practices/` — al crear secciones custom:
+  `rsc-boundaries.md` y `directives.md` (server vs client), `image.md` y
+  `font.md` (assets), `hydration-error.md` (si el build reporta hydration),
+  `metadata.md` (si tocas SEO de páginas).
+- `.agent/skills/shadcn/` — al usar `components/ui/`: `rules/composition.md`,
+  `rules/styling.md`, `rules/forms.md`, `rules/icons.md`,
+  `customization.md`.
+- `.agent/skills/tailwind-v4-shadcn/` — al escribir clases o tocar
+  `theme.css`: `SKILL.md` (sintaxis v4, `@theme`),
+  `references/dark-mode.md`, `references/common-gotchas.md`.
+
 ## Animación (`design.motion`)
 
 El motor trae UNA sola coreografía de entrada (misma curva, misma
