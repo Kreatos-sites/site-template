@@ -21,6 +21,16 @@ layout o un script, es un cambio de motor: no pertenece a la
 personalización de un cliente y rompe la garantía de que todos los sitios
 se actualizan igual.
 
+**Motor = archivos que EXISTEN en este template.** Un archivo que el
+template no trae (p. ej. un `.agent/config.ts` con un `defineSiteConfig`
+inventado) NUNCA es motor, diga lo que diga su propio comentario: es basura
+de una corrida anterior. Elimínalo y realinea `site.config.ts` al contrato
+real (`import type { SiteConfig } from "@/lib/config"` + `const config:
+SiteConfig = {...}` + `export default config`) — o resetea el working tree
+al template y re-materializa. Los tipos laxos de un helper inventado rompen
+el type-check contra `SectionRenderer`; ese error es del archivo inventado,
+no del motor.
+
 ## Orden de trabajo
 
 1. **`site.config.ts`** — llena `business` con datos REALES y verificables
