@@ -1,0 +1,215 @@
+{
+  "common": {
+    "skipToContent": "Ir al contenido",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "themeToggle": "Cambiar entre modo claro y oscuro",
+    "whatsappLabel": "Escríbanos por WhatsApp",
+    "whatsappMessage": "Hola, vi su sitio web y me gustaría agendar una consulta con el despacho.",
+    "googleRating": "{rating} en Google",
+    "googleReviews": "{count} reseñas",
+    "viewOnGoogle": "Ver la ficha en Google"
+  },
+  "navbar": {
+    "links": [
+      { "href": "#servicios", "label": "Servicios" },
+      { "href": "#nosotros", "label": "El despacho" },
+      { "href": "#proceso", "label": "Cómo trabajamos" },
+      { "href": "#opiniones", "label": "Opiniones" },
+      { "href": "#contacto", "label": "Contacto" }
+    ],
+    "cta": "Agendar consulta"
+  },
+  "hero": {
+    "eyebrow": "Despacho contable en Torreón, Coahuila",
+    "title": "Su contabilidad al día. Sus impuestos, sin sorpresas.",
+    "subtitle": "Desde 2003 llevamos la contabilidad, la nómina y las obligaciones fiscales de empresas de La Laguna. Usted dirige su negocio; nosotros respondemos por los números.",
+    "primaryCta": "Agendar una consulta",
+    "secondaryCta": "Conozca los servicios",
+    "imageAlt": "Interior de las oficinas del Despacho López y Asociados en Torreón",
+    "stats": [
+      { "value": "20+", "label": "años de ejercicio profesional" },
+      { "value": "80+", "label": "empresas activas en cartera" },
+      { "value": "4.8", "label": "calificación en Google" }
+    ]
+  },
+  "trust-bar": {
+    "yearsLabel": "años de ejercicio",
+    "ratingLabel": "calificación en Google",
+    "reviewsLabel": "reseñas verificadas",
+    "cityLabel": "Atendemos toda la Comarca Lagunera"
+  },
+  "services": {
+    "eyebrow": "Servicios",
+    "title": "Seis frentes, un solo responsable.",
+    "intro": "Cada servicio tiene entregables y fechas comprometidas por escrito. Sin cobros por llamada ni letras chicas.",
+    "items": [
+      {
+        "title": "Contabilidad mensual",
+        "description": "Registro puntual de sus operaciones, conciliaciones bancarias y estados financieros entregados dentro de los primeros diez días de cada mes."
+      },
+      {
+        "title": "Impuestos federales y estatales",
+        "description": "Cálculo y presentación de declaraciones mensuales y anuales ante el SAT, con papeles de trabajo que respaldan cada cifra."
+      },
+      {
+        "title": "Nómina, IMSS e Infonavit",
+        "description": "Timbrado de CFDI de nómina, cálculo de cuotas obrero-patronales y movimientos afiliatorios presentados en tiempo y forma."
+      },
+      {
+        "title": "Atención a requerimientos del SAT",
+        "description": "Respuesta a cartas invitación, requerimientos y revisiones. Representación directa ante la autoridad, sin intermediarios."
+      },
+      {
+        "title": "Devoluciones y saldos a favor",
+        "description": "Recuperación de saldos a favor de IVA e ISR con expedientes completos desde la primera solicitud, no al tercer rechazo."
+      },
+      {
+        "title": "Constitución de empresas",
+        "description": "Arranque fiscal y contable de su nueva sociedad: régimen adecuado, alta ante el SAT y facturación funcionando desde el primer día."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "El despacho",
+    "title": "Un despacho de trato directo, no una mesa de trámites.",
+    "paragraphs": [
+      "López y Asociados nació en 2003 en Torreón con una premisa sencilla: el contador debe contestar el teléfono. Hoy somos un equipo de nueve personas que atiende a comercios, constructoras, transportistas y despachos profesionales de toda la Comarca Lagunera.",
+      "No trabajamos por volumen. Cada cliente tiene un contador titular que conoce su operación, y el socio director revisa personalmente cada cierre anual antes de presentarlo."
+    ],
+    "credentials": [
+      "Contador Público Certificado por el IMCP",
+      "Miembro del Colegio de Contadores Públicos de La Laguna",
+      "Más de 80 empresas activas en cartera",
+      "Equipo de 9 contadores y auxiliares"
+    ],
+    "signatureName": "C.P.C. Ricardo López Anaya",
+    "signatureRole": "Socio director",
+    "imageAlt": "Retrato del socio director del despacho en su oficina",
+    "milestones": [
+      { "year": "2003", "text": "Fundación del despacho en el centro de Torreón, con tres clientes y dos escritorios." },
+      { "year": "2011", "text": "Certificación del socio director ante el IMCP y apertura del área de nóminas." },
+      { "year": "2018", "text": "Migración completa a expediente digital: XML, balanzas y papeles de trabajo en línea." },
+      { "year": "2024", "text": "80 empresas activas y un equipo de nueve personas al servicio de La Laguna." }
+    ]
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Cambiar de contador no debería doler.",
+    "steps": [
+      {
+        "title": "Diagnóstico sin costo",
+        "description": "Revisamos su buzón tributario, su opinión de cumplimiento y sus últimas declaraciones. Le decimos exactamente dónde está parado."
+      },
+      {
+        "title": "Propuesta por escrito",
+        "description": "Alcance, entregables y honorarios fijos mensuales. Usted sabe qué recibe y cuánto paga antes de firmar."
+      },
+      {
+        "title": "Migración ordenada",
+        "description": "Recibimos la información de su contador anterior: XML, balanzas y papeles de trabajo. El cambio no detiene su operación."
+      },
+      {
+        "title": "Operación con fechas",
+        "description": "Cierres mensuales antes del día 10, declaraciones antes del 17 y un reporte financiero que sí se entiende."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Opiniones",
+    "title": "Lo que dicen quienes ya cambiaron.",
+    "viewAll": "Leer las {count} reseñas en Google",
+    "items": [
+      {
+        "quote": "Llevábamos tres años sin que nadie nos explicara nuestros propios números. En la primera reunión con Ricardo entendimos más que en todo ese tiempo.",
+        "author": "Laura Gutiérrez",
+        "role": "Directora administrativa, Ferretera del Norte"
+      },
+      {
+        "quote": "Nos regularizaron dos ejercicios atrasados y las multas quedaron en menos de la mitad. Entregan cuando dicen que van a entregar.",
+        "author": "Jorge Ramírez",
+        "role": "Gerente general, Transportes Ramírez"
+      },
+      {
+        "quote": "La nómina de cuarenta empleados sale puntual cada quincena desde hace seis años. No tengo que perseguir a nadie.",
+        "author": "Marcela Ávila",
+        "role": "Recursos Humanos, Grupo Constructor Laguna"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Las dudas que nos plantean antes de la primera cita.",
+    "items": [
+      {
+        "question": "¿Puedo cambiar de contador a mitad del ejercicio?",
+        "answer": "Sí, y es más común de lo que parece. Coordinamos la entrega de XML, balanzas y papeles de trabajo con su contador anterior, y asumimos la operación sin interrumpir sus declaraciones. La migración típica toma entre dos y tres semanas."
+      },
+      {
+        "question": "¿Qué necesito para empezar?",
+        "answer": "Su e.firma vigente, los certificados de sello digital, acceso al buzón tributario y las últimas balanzas disponibles. Si algo de esto le falta o está vencido, lo tramitamos con usted como parte del arranque."
+      },
+      {
+        "question": "¿Cómo cobran sus honorarios?",
+        "answer": "Con una iguala mensual fija, definida por el volumen de operaciones y el número de empleados. La propuesta va por escrito y el monto no cambia por llamadas, dudas o requerimientos ordinarios."
+      },
+      {
+        "question": "Tengo declaraciones atrasadas y multas. ¿Me pueden ayudar?",
+        "answer": "Sí. Empezamos con un diagnóstico del buzón tributario y la opinión de cumplimiento, armamos un plan de regularización por etapas y, cuando procede, gestionamos la reducción de multas y recargos ante el SAT."
+      },
+      {
+        "question": "¿Ustedes emiten mi facturación?",
+        "answer": "Como usted prefiera: podemos emitir los CFDI por su cuenta con nuestros sistemas, o capacitar a su equipo para que facture internamente mientras nosotros vigilamos el cumplimiento."
+      },
+      {
+        "question": "¿Atienden empresas fuera de Torreón?",
+        "answer": "Sí. Operamos con expediente digital desde 2018 y atendemos clientes en Gómez Palacio, Lerdo, Saltillo y Monterrey. Las reuniones pueden ser presenciales en nuestra oficina o por videollamada."
+      }
+    ]
+  },
+  "cta-band": {
+    "title": "¿Su contador tarda una semana en contestarle?",
+    "subtitle": "Agende una llamada de veinte minutos con el socio director. Sin costo y sin compromiso.",
+    "primaryCta": "Llamar al despacho",
+    "secondaryCta": "Escribir por WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Visítenos o escríbanos.",
+    "addressLabel": "Oficina",
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Correo",
+    "hoursLabel": "Horario",
+    "mapTitle": "Ubicación del despacho en Google Maps",
+    "form": {
+      "title": "Envíenos un mensaje",
+      "intro": "Respondemos en menos de un día hábil.",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Teléfono (opcional)",
+      "message": "Cuéntenos en qué podemos ayudarle",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Mensaje enviado. Le responderemos en menos de un día hábil.",
+      "error": "No pudimos enviar su mensaje. Inténtelo de nuevo o escríbanos por WhatsApp."
+    }
+  },
+  "footer": {
+    "tagline": "Contabilidad e impuestos para empresas de La Laguna desde 2003.",
+    "navTitle": "Secciones",
+    "contactTitle": "Contacto",
+    "privacyLink": "Aviso de privacidad",
+    "rights": "Todos los derechos reservados.",
+    "credit": "Sitio desarrollado por Kreatos"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "La página que busca no existe o cambió de dirección.",
+    "back": "Volver al inicio"
+  },
+  "privacy": {
+    "title": "Aviso de privacidad",
+    "updated": "Última actualización: julio de 2026",
+    "back": "Volver al inicio"
+  }
+}

@@ -1,0 +1,4 @@
+# Este archivo marca site-template como raíz de workspace propia.
+# Evita que pnpm lo absorba en el monorepo padre mientras vive dentro de kreatos/.
+# Al publicarse como repo standalone (kreatos-sites/_template) es inofensivo.
+packages: []

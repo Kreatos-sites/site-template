@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <pattern id="diag" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="28" height="28" fill="#232a38"/>
+      <line x1="0" y1="0" x2="0" y2="28" stroke="#2d3546" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#diag)"/>
+  <rect x="24" y="24" width="752" height="952" fill="none" stroke="#4a5468" stroke-width="2" stroke-dasharray="10 8"/>
+  <circle cx="400" cy="380" r="90" fill="none" stroke="#4a5468" stroke-width="2"/>
+  <path d="M250 640 q150 -140 300 0" fill="none" stroke="#4a5468" stroke-width="2"/>
+  <text x="400" y="740" text-anchor="middle" font-family="Georgia, serif" font-size="56" fill="#e8e2d4">about</text>
+  <text x="400" y="790" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#8b93a5">placeholder — 800 × 1000</text>
+  <text x="400" y="826" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#6b7386">reemplazar en public/images/</text>
+</svg>

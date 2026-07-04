@@ -1,0 +1,123 @@
+/* Motor de estilos. NO editar al personalizar un sitio.
+ * Los tokens del cliente viven en app/theme.css (ver themes/README.md). */
+
+@import "tailwindcss";
+@import "./theme.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body-face), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Densidad: la controla site.config.ts → design.density */
+  body[data-density="compact"] {
+    --section-gap: clamp(3rem, 7vh, 5rem);
+  }
+
+  ::selection {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+  }
+}
+
+@layer components {
+  /* ---- SmartImage: tratamiento fotográfico global (design.imageTreatment) ---- */
+  .smart-image {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .smart-image[data-treatment="bw"] img {
+    filter: grayscale(1) contrast(1.06);
+  }
+
+  .smart-image[data-treatment="warm"] img {
+    filter: sepia(0.22) saturate(1.12) contrast(1.02);
+  }
+
+  .smart-image[data-treatment="duotone-accent"] img {
+    filter: grayscale(1) contrast(1.08) brightness(0.96);
+  }
+
+  .smart-image[data-treatment="duotone-accent"]::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--primary);
+    mix-blend-mode: color;
+    opacity: 0.55;
+    pointer-events: none;
+  }
+
+  /* ---- Reveal: la ÚNICA coreografía de entrada del sitio ---- */
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+      opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--reveal-delay, 0s);
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  /* ---- Mapa embebido: se integra a la paleta ---- */
+  .map-embed {
+    filter: grayscale(0.65) contrast(1.04);
+  }
+
+  .dark .map-embed {
+    filter: invert(0.88) hue-rotate(180deg) grayscale(0.35) contrast(0.95);
+  }
+}
