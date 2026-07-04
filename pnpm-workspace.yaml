@@ -2,3 +2,9 @@
 # Evita que pnpm lo absorba en el monorepo padre mientras vive dentro de kreatos/.
 # Al publicarse como repo standalone (kreatos-sites/_template) es inofensivo.
 packages: []
+
+# pnpm 11+ activa minimumReleaseAge (rechaza paquetes publicados hace <24h) por
+# default; el lockfile del template usa versiones recientes y el install del
+# sandbox fallaría. El packageManager pin en package.json ya fuerza pnpm 9,
+# esto es cinturón por si alguien corre pnpm 11 a mano.
+minimumReleaseAge: 0
