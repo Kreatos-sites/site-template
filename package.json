@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "validate-config": "tsx scripts/validate-config.ts",
-    "qa": "tsx scripts/qa.ts"
+    "qa": "tsx scripts/qa.ts",
+    "screenshots": "tsx scripts/screenshots.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
@@ -43,6 +44,7 @@
     "eslint-config-next": "^16.2.10",
     "tailwindcss": "^4.3.2",
     "tsx": "^4.23.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "playwright": "^1.55.0"
   }
 }

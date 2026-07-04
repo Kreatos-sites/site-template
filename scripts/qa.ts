@@ -1,18 +1,18 @@
 /**
  * QA de entrega. Corre con: pnpm qa
  *
- * Orquesta: pnpm build → validate-config → escribe .qa/qa-report.json.
- * Sale con código 1 si cualquier paso falla.
+ * Orquesta: pnpm build → validate-config → screenshots (Playwright, cada
+ * ruta en desktop/mobile y dark en home; quedan en .qa/screenshots/ para la
+ * revisión visual del agente) → escribe .qa/qa-report.json.
  *
- * Fase 2 (pendiente, ver `todo` en el reporte):
- *  - Screenshots por sección y por ruta (light/dark, mobile/desktop) con Playwright.
- *  - Lighthouse + axe (performance/a11y/SEO) por ruta contra el build de producción.
+ * Sale con código 1 si build o validate fallan. El paso de screenshots es
+ * no-fatal (infra de navegador puede faltar fuera del sandbox): su fallo se
+ * reporta en el JSON pero no bloquea el gate — el agente decide.
  *
- * El reporte incluye `routes`: home + cada página de config.pages, para que
- * la fase 2 (y cualquier revisión manual) itere todas las rutas del sitio.
+ * Pendiente (ver `todo` en el reporte): Lighthouse + axe por ruta.
  */
 import { spawnSync } from "node:child_process";
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 import config from "../site.config";
@@ -59,22 +59,34 @@ steps.push(runStep("build", "pnpm", ["build"]));
 // Solo validamos si el build compiló; si no, el reporte ya trae el fallo.
 if (steps[0].ok) {
   steps.push(runStep("validate-config", "pnpm", ["validate-config"]));
+  steps.push(runStep("screenshots", "pnpm", ["screenshots"]));
 }
 
-const ok = steps.every((s) => s.ok);
+// Gate duro: build + validate. Screenshots es no-fatal (se reporta, no
+// bloquea) — sin navegador el sitio sigue siendo entregable y el agente ve
+// el fallo en el reporte.
+const fatalSteps = steps.filter((s) => s.name !== "screenshots");
+const ok = fatalSteps.every((s) => s.ok);
 
 // Rutas renderizables del sitio: home + páginas interiores de config.pages.
-// Cuando la fase 2 agregue screenshots/axe, debe iterar esta lista.
 const routes = ["/", ...(config.pages ?? []).map((p) => `/${p.slug}`)];
+
+const screenshotsDir = join(root, ".qa", "screenshots");
+const screenshots = existsSync(screenshotsDir)
+  ? readdirSync(screenshotsDir)
+      .filter((f) => f.endsWith(".png"))
+      .map((f) => `.qa/screenshots/${f}`)
+      .sort()
+  : [];
 
 const report = {
   generatedAt: new Date().toISOString(),
   ok,
   routes,
+  screenshots,
   steps,
   todo: [
-    "fase 2: screenshots por sección y por ruta (light/dark, mobile/desktop) con Playwright, iterando `routes`",
-    "fase 2: lighthouse + axe (performance/accesibilidad/SEO) por ruta contra next start",
+    "lighthouse + axe (performance/accesibilidad/SEO) por ruta contra next start",
   ],
 };
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { type ReactNode } from "react";
-import { motion, useReducedMotion } from "motion/react";
+import { motion, MotionConfig } from "motion/react";
 
 import { cn } from "@/lib/utils";
 import config from "@/site.config";
@@ -15,8 +15,13 @@ import config from "@/site.config";
  *
  * Reglas duras:
  * - Solo se animan transform y opacity (nunca width/height/top).
- * - prefers-reduced-motion SIEMPRE colapsa a estático, en todos los niveles.
- * - En "none" no se monta ningún wrapper de motion: div estático.
+ * - prefers-reduced-motion se respeta vía <MotionConfig reducedMotion="user">:
+ *   Motion desactiva los desplazamientos y conserva el fade, así el contenido
+ *   SIEMPRE llega a visible. NUNCA bifurcar la rama con useReducedMotion():
+ *   el hook cambia después de hidratar y deja el style inline del SSR
+ *   (opacity:0) huérfano — contenido invisible permanente (bug real).
+ * - En "none" no se monta ningún wrapper de motion: div estático (decisión
+ *   de build-time del config, idéntica en SSR y cliente).
  */
 
 /** Curva única del sitio */
@@ -42,29 +47,30 @@ export function Reveal({
   delay?: number;
   className?: string;
 }) {
-  const reduced = useReducedMotion();
   const level = config.design.motion;
 
-  if (level === "none" || reduced) {
+  if (level === "none") {
     return <div className={className}>{children}</div>;
   }
 
   const subtle = level === "subtle";
 
   return (
-    <motion.div
-      className={className}
-      initial={{ opacity: 0, y: subtle ? 16 : BASE_Y }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={VIEWPORT}
-      transition={{
-        duration: subtle ? 0.5 : BASE_DURATION,
-        ease: EASE,
-        delay: (subtle ? Math.min(delay, 150) : delay) / 1000,
-      }}
-    >
-      {children}
-    </motion.div>
+    <MotionConfig reducedMotion="user">
+      <motion.div
+        className={className}
+        initial={{ opacity: 0, y: subtle ? 16 : BASE_Y }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={VIEWPORT}
+        transition={{
+          duration: subtle ? 0.5 : BASE_DURATION,
+          ease: EASE,
+          delay: (subtle ? Math.min(delay, 150) : delay) / 1000,
+        }}
+      >
+        {children}
+      </motion.div>
+    </MotionConfig>
   );
 }
 
@@ -73,7 +79,7 @@ export function Reveal({
  * - "expressive": entrada coreografiada al cargar, con stagger entre sus
  *   <HeroItem> (eyebrow → titular → subtexto → CTAs), 0.08s entre ítems.
  * - "subtle": el bloque completo hace la entrada discreta al cargar.
- * - "none" / reduced-motion: estático.
+ * - "none": estático. reduced-motion: fade sin desplazamiento (MotionConfig).
  */
 export function HeroStagger({
   children,
@@ -82,35 +88,38 @@ export function HeroStagger({
   children: ReactNode;
   className?: string;
 }) {
-  const reduced = useReducedMotion();
   const level = config.design.motion;
 
-  if (level === "none" || reduced) {
+  if (level === "none") {
     return <div className={className}>{children}</div>;
   }
 
   if (level === "subtle") {
     return (
-      <motion.div
-        className={className}
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: EASE }}
-      >
-        {children}
-      </motion.div>
+      <MotionConfig reducedMotion="user">
+        <motion.div
+          className={className}
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: EASE }}
+        >
+          {children}
+        </motion.div>
+      </MotionConfig>
     );
   }
 
   return (
-    <motion.div
-      className={className}
-      initial="hidden"
-      animate="visible"
-      variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.08 } } }}
-    >
-      {children}
-    </motion.div>
+    <MotionConfig reducedMotion="user">
+      <motion.div
+        className={className}
+        initial="hidden"
+        animate="visible"
+        variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.08 } } }}
+      >
+        {children}
+      </motion.div>
+    </MotionConfig>
   );
 }
 
@@ -126,26 +135,27 @@ export function HeroItem({
   children: ReactNode;
   className?: string;
 }) {
-  const reduced = useReducedMotion();
   const level = config.design.motion;
 
-  if (level !== "expressive" || reduced) {
+  if (level !== "expressive") {
     return <div className={cn(className)}>{children}</div>;
   }
 
   return (
-    <motion.div
-      className={className}
-      variants={{
-        hidden: { opacity: 0, y: BASE_Y },
-        visible: {
-          opacity: 1,
-          y: 0,
-          transition: { duration: BASE_DURATION, ease: EASE },
-        },
-      }}
-    >
-      {children}
-    </motion.div>
+    <MotionConfig reducedMotion="user">
+      <motion.div
+        className={className}
+        variants={{
+          hidden: { opacity: 0, y: BASE_Y },
+          visible: {
+            opacity: 1,
+            y: 0,
+            transition: { duration: BASE_DURATION, ease: EASE },
+          },
+        }}
+      >
+        {children}
+      </motion.div>
+    </MotionConfig>
   );
 }

@@ -61,8 +61,11 @@ se actualizan igual.
    reales del negocio (idealmente `.jpg`/`.webp`; actualiza las rutas
    `image` en `site.config.ts`). El tratamiento visual lo aplica el motor
    (`design.imageTreatment`), no edites las fotos.
-6. **Verifica**: `pnpm qa` (build + validate-config + reporte en
-   `.qa/qa-report.json`). Revisa el sitio en ambos modos con el toggle.
+6. **Verifica**: `pnpm qa` (build + validate-config + screenshots de cada
+   ruta en `.qa/screenshots/` + reporte en `.qa/qa-report.json`). Los
+   screenshots (desktop/mobile, dark en home) son la evidencia visual de la
+   entrega: revísalos — texto cortado, overflow o dark mode roto se corrigen
+   ANTES de entregar. Revisa el sitio en ambos modos con el toggle.
 
 ## Reglas duras del copy (es.json)
 
@@ -280,5 +283,6 @@ pnpm dev              # desarrollo
 pnpm typecheck        # tsc --noEmit
 pnpm lint             # eslint
 pnpm validate-config  # schema + copy + espejo de keys + tokens de color
-pnpm qa               # build + validate-config → .qa/qa-report.json
+pnpm qa               # build + validate + screenshots → .qa/qa-report.json
+pnpm screenshots      # solo capturas (requiere build previo) → .qa/screenshots/
 ```
