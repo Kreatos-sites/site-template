@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 
 type ServiceItem = { title: string; description: string };
 
-export function Services({ variant = "numbered-list", count }: SectionOf<"services">) {
-  const t = useTranslations("services");
+export function Services({ variant = "numbered-list", count, ns }: SectionOf<"services">) {
+  const t = useTranslations(ns ?? "services");
   const allItems = t.raw("items") as ServiceItem[];
   const items = count ? allItems.slice(0, count) : allItems;
 

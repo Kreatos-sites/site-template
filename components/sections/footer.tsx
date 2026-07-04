@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
+import type { SectionOf } from "@/lib/config";
 import config from "@/site.config";
 
 type NavLink = { href: string; label: string };
 
-export function Footer() {
-  const t = useTranslations("footer");
+/** Sección de sitio: se hereda de la home y se renderiza igual en todas las páginas. */
+export function Footer({ ns }: SectionOf<"footer">) {
+  const t = useTranslations(ns ?? "footer");
   const tNav = useTranslations("navbar");
   const links = tNav.raw("links") as NavLink[];
   const { business } = config;

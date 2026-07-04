@@ -87,6 +87,24 @@ const config: SiteConfig = {
     { id: "footer" },
   ],
 
+  // Páginas interiores (/<slug>). navbar y footer se heredan de `sections`.
+  // Toda sección de página DEBE declarar `ns` (namespace en es.json bajo
+  // pages.<slug>.*) para no reutilizar el copy de la home.
+  pages: [
+    {
+      slug: "servicios",
+      title: "Servicios contables y fiscales en Torreón",
+      description:
+        "Contabilidad mensual, impuestos, nómina e IMSS, defensa ante el SAT y devoluciones de IVA e ISR. El detalle de cada servicio del despacho en Torreón.",
+      sections: [
+        { id: "page-header", ns: "pages.servicios.header" },
+        { id: "services", variant: "bordered-table", ns: "pages.servicios.services" },
+        { id: "faq", ns: "pages.servicios.faq" },
+        { id: "cta-band", ns: "pages.servicios.cta-band" },
+      ],
+    },
+  ],
+
   flags: {
     contactForm: true,
     whatsappFloat: true,

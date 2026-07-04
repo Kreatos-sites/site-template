@@ -78,6 +78,16 @@ export const designSchema = z.object({
 });
 
 /**
+ * `ns`: namespace de traducción en messages/es.json para la sección.
+ * Si se omite, cada componente usa su id como namespace (comportamiento
+ * histórico de la home). En páginas interiores (`config.pages`) es
+ * OBLIGATORIO declararlo (lo exige scripts/validate-config.ts): sin él
+ * la sección renderizaría el copy de la home, que casi siempre es un bug.
+ * Convención sugerida para páginas: "pages.<slug>.<seccion>".
+ */
+const nsField = z.string().min(1).optional();
+
+/**
  * El orden del array `sections` ES el orden de render.
  * navbar y footer se colocan fuera de <main> automáticamente.
  */
@@ -85,48 +95,99 @@ export const sectionSchema = z.discriminatedUnion("id", [
   z.object({
     id: z.literal("navbar"),
     variant: z.enum(["minimal", "split", "centered-logo"]).optional(),
+    ns: nsField,
   }),
   z.object({
     id: z.literal("hero"),
     variant: z.enum(["editorial", "split-image", "full-bleed", "stat-led"]).optional(),
     image: z.string().optional(),
+    ns: nsField,
   }),
-  z.object({ id: z.literal("trust-bar") }),
+  z.object({ id: z.literal("trust-bar"), ns: nsField }),
   z.object({
     id: z.literal("services"),
     variant: z.enum(["numbered-list", "asym-grid", "bordered-table"]).optional(),
     count: z.number().int().positive().optional(),
+    ns: nsField,
   }),
   z.object({
     id: z.literal("about"),
     variant: z.enum(["portrait", "timeline", "plain"]).optional(),
     image: z.string().optional(),
+    ns: nsField,
   }),
   z.object({
     id: z.literal("process"),
     count: z.number().int().positive().optional(),
+    ns: nsField,
   }),
   z.object({
     id: z.literal("portfolio"),
     variant: z.enum(["masonry", "rows"]).optional(),
     images: z.array(z.string()).optional(),
+    ns: nsField,
   }),
-  z.object({ id: z.literal("coverage") }),
+  z.object({ id: z.literal("coverage"), ns: nsField }),
   z.object({
     id: z.literal("testimonials"),
     count: z.number().int().positive().optional(),
+    ns: nsField,
   }),
   z.object({
     id: z.literal("faq"),
     count: z.number().int().positive().optional(),
+    ns: nsField,
   }),
-  z.object({ id: z.literal("cta-band") }),
+  z.object({ id: z.literal("cta-band"), ns: nsField }),
   z.object({
     id: z.literal("contact"),
     showMap: z.boolean().optional(),
+    ns: nsField,
   }),
-  z.object({ id: z.literal("footer") }),
+  z.object({ id: z.literal("footer"), ns: nsField }),
+  z.object({
+    /**
+     * Encabezado de página interior: h1 + párrafo lead.
+     * Solo tiene sentido dentro de `config.pages`, por eso `ns` es requerido.
+     * Keys esperadas bajo su ns: `title` y `lead`.
+     */
+    id: z.literal("page-header"),
+    ns: z.string().min(1),
+  }),
 ]);
+
+/** Slugs que el motor reserva: colisionan con rutas ya existentes en app/. */
+const reservedSlugs = new Set(["aviso-de-privacidad", "api"]);
+const slugRe = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+/**
+ * Página interior del sitio, servida en /<slug> por app/[page]/page.tsx.
+ * navbar y footer NO se declaran aquí: el motor los inyecta desde
+ * `config.sections` de la home para que sean idénticos en todo el sitio.
+ */
+export const pageSchema = z.object({
+  /** kebab-case: define la URL (/<slug>) */
+  slug: z
+    .string()
+    .regex(slugRe, "slug en kebab-case: minúsculas, números y guiones medios")
+    .refine((slug) => !reservedSlugs.has(slug), {
+      message: "slug reservado por el motor (aviso-de-privacidad, api)",
+    }),
+  /** <title> de la página; el layout le agrega « | nombre del negocio» */
+  title: z.string().min(4).max(70),
+  /** meta description propia de la página */
+  description: z.string().min(50).max(170),
+  sections: z
+    .array(sectionSchema)
+    .min(1)
+    .refine(
+      (sections) => !sections.some((s) => s.id === "navbar" || s.id === "footer"),
+      {
+        message:
+          "navbar y footer no van en pages: el motor los hereda de la home",
+      },
+    ),
+});
 
 export const flagsSchema = z.object({
   contactForm: z.boolean(),
@@ -136,17 +197,34 @@ export const flagsSchema = z.object({
   themeToggle: z.boolean(),
 });
 
-export const siteConfigSchema = z.object({
-  business: businessSchema,
-  seo: seoSchema,
-  design: designSchema,
-  sections: z.array(sectionSchema).min(3),
-  flags: flagsSchema,
-});
+export const siteConfigSchema = z
+  .object({
+    business: businessSchema,
+    seo: seoSchema,
+    design: designSchema,
+    sections: z.array(sectionSchema).min(3),
+    /** Páginas interiores (/<slug>). Opcional: la mayoría de sitios no las necesita. */
+    pages: z.array(pageSchema).optional(),
+    flags: flagsSchema,
+  })
+  .superRefine((cfg, ctx) => {
+    const seen = new Set<string>();
+    (cfg.pages ?? []).forEach((page, index) => {
+      if (seen.has(page.slug)) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["pages", index, "slug"],
+          message: `slug duplicado: "${page.slug}"`,
+        });
+      }
+      seen.add(page.slug);
+    });
+  });
 
 export type SiteConfig = z.infer<typeof siteConfigSchema>;
 export type SectionConfig = z.infer<typeof sectionSchema>;
 export type SectionId = SectionConfig["id"];
+export type PageConfig = z.infer<typeof pageSchema>;
 export type Business = z.infer<typeof businessSchema>;
 
 /** Extrae la config de una sección concreta del union */

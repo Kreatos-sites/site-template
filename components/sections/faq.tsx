@@ -12,8 +12,8 @@ import type { SectionOf } from "@/lib/config";
 
 type FaqItem = { question: string; answer: string };
 
-export function Faq({ count }: SectionOf<"faq">) {
-  const t = useTranslations("faq");
+export function Faq({ count, ns }: SectionOf<"faq">) {
+  const t = useTranslations(ns ?? "faq");
   const allItems = t.raw("items") as FaqItem[];
   const items = count ? allItems.slice(0, count) : allItems;
 

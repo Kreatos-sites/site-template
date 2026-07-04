@@ -53,11 +53,57 @@ cliente y rompe la garantía de que todos los sitios se actualizan igual.
   años (se calculan solos desde `founded`), rating y reseñas reales,
   número de clientes/empleados verificable.
 - Cada key de primer nivel espeja una sección por id (`hero`, `services`,
-  `faq`...). Keys globales permitidas: `common`, `notFound`, `privacy`.
-  No dejes keys de secciones que no están en `config.sections`
-  (el validador las marca como huérfanas).
+  `faq`...). Keys globales permitidas: `common`, `notFound`, `privacy` y
+  `pages` (copy de páginas interiores, ver abajo). No dejes keys de
+  secciones que no están en `config.sections` ni ramas de `pages.*` que
+  ningún `ns` use (el validador las marca como huérfanas).
 - El aviso de privacidad es boilerplate LFPDPPP del motor, parametrizado
   con `config.business`: no requiere copy propio.
+
+## Páginas interiores (`config.pages`)
+
+El sitio puede tener páginas además de la landing, declaradas en
+`site.config.ts` → `pages` y servidas en `/<slug>`. Siguen dentro del
+contrato: solo se tocan `site.config.ts` y `messages/es.json`.
+
+**Cuándo crear una página (y cuándo no):**
+
+- Giro con muchos servicios que no caben como teaser en la home →
+  `/servicios` con el catálogo extendido.
+- Historia, equipo o credenciales con contenido REAL y verificable →
+  `/nosotros`.
+- **Nunca crees páginas de relleno**: si no hay contenido propio y
+  distinto al de la home, la sección en la landing es suficiente. Una
+  página que repite el copy de la home daña el SEO y la credibilidad.
+
+**Reglas duras:**
+
+- Cada página: `{ slug, title, description, sections }`. `slug` en
+  kebab-case; **slugs reservados** (los valida el schema):
+  `aviso-de-privacidad` y `api`.
+- `navbar` y `footer` **no se declaran** en `pages[].sections`: el motor
+  los inyecta desde `config.sections` de la home, idénticos en todo el
+  sitio (el schema rechaza declararlos).
+- TODA sección de una página interior debe traer `ns` explícito
+  (namespace de traducción, convención `pages.<slug>.<seccion>`).
+  `pnpm validate-config` falla si falta: sin `ns` la sección
+  renderizaría el copy de la home, y eso casi siempre es un bug.
+- El copy vive en `messages/es.json` bajo `pages.<slug>.*`, espejando
+  cada `ns`. Debe ser contenido PROPIO de la página, no un copy-paste
+  de la home (mismas reglas de copy de arriba).
+- La sección `page-header` (h1 + párrafo lead; keys `title` y `lead`)
+  abre las páginas interiores. Solo tiene sentido en `pages`, su `ns`
+  es obligatorio por schema.
+- En la home, `ns` es opcional en cualquier sección (default = id de la
+  sección); úsalo solo si necesitas dos veces la misma sección con copy
+  distinto.
+- Si una página debe aparecer en el menú, edita `navbar.links` en
+  es.json con `href: "/<slug>"` (el footer reusa esos links). Los
+  anclajes de la home van como `/#seccion` para funcionar desde
+  cualquier página.
+- El sitemap y los metadatos por página (title, description, canonical,
+  OpenGraph) los genera el motor desde `config.pages`: no hay nada que
+  tocar.
 
 ## Regla de color (la más importante)
 
@@ -89,7 +135,10 @@ encuentra violaciones.
   split-image | full-bleed | stat-led), `trust-bar`, `services`
   (numbered-list | asym-grid | bordered-table), `about` (portrait |
   timeline | plain), `process`, `portfolio` (masonry | rows), `coverage`,
-  `testimonials`, `faq`, `cta-band`, `contact` (prop `showMap`), `footer`.
+  `testimonials`, `faq`, `cta-band`, `contact` (prop `showMap`), `footer`,
+  `page-header` (solo páginas interiores; keys `title` y `lead`).
+- Toda sección acepta `ns` (namespace de traducción; default = su id).
+  Obligatorio en páginas interiores, opcional en la home.
 - `trust-bar` no lleva copy en es.json: sus datos salen de
   `config.business` (años calculados, rating, reseñas).
 - Flags: `contactForm` (si es false, el endpoint /api/contact responde 404

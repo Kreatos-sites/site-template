@@ -39,8 +39,8 @@ function HeroMeta() {
   );
 }
 
-export function Hero({ variant = "editorial", image }: SectionOf<"hero">) {
-  const t = useTranslations("hero");
+export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
+  const t = useTranslations(ns ?? "hero");
   const stats = t.raw("stats") as Stat[];
 
   if (variant === "full-bleed") {

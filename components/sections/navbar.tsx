@@ -34,8 +34,9 @@ function Brand() {
   );
 }
 
-export function Navbar({ variant = "minimal" }: SectionOf<"navbar">) {
-  const t = useTranslations("navbar");
+/** Sección de sitio: se hereda de la home y se renderiza igual en todas las páginas. */
+export function Navbar({ variant = "minimal", ns }: SectionOf<"navbar">) {
+  const t = useTranslations(ns ?? "navbar");
   const tCommon = useTranslations("common");
   const links = t.raw("links") as NavLink[];
   const [scrolled, setScrolled] = useState(false);
@@ -66,7 +67,7 @@ export function Navbar({ variant = "minimal" }: SectionOf<"navbar">) {
     <div className="hidden items-center gap-2 lg:flex">
       {config.flags.themeToggle && <ThemeToggle />}
       <Button asChild size="sm">
-        <a href="#contacto">{t("cta")}</a>
+        <Link href="/#contacto">{t("cta")}</Link>
       </Button>
     </div>
   );
@@ -146,9 +147,9 @@ export function Navbar({ variant = "minimal" }: SectionOf<"navbar">) {
             ))}
           </ul>
           <Button asChild className="mt-4 w-full">
-            <a href="#contacto" onClick={() => setOpen(false)}>
+            <Link href="/#contacto" onClick={() => setOpen(false)}>
               {t("cta")}
-            </a>
+            </Link>
           </Button>
         </nav>
       )}

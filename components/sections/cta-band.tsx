@@ -3,11 +3,12 @@ import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/shared/reveal";
+import type { SectionOf } from "@/lib/config";
 import { whatsappDigits } from "@/lib/config";
 import config from "@/site.config";
 
-export function CtaBand() {
-  const t = useTranslations("cta-band");
+export function CtaBand({ ns }: SectionOf<"cta-band">) {
+  const t = useTranslations(ns ?? "cta-band");
   const tCommon = useTranslations("common");
   const phoneHref = `tel:${config.business.phone.replace(/\s/g, "")}`;
   const waHref = `https://wa.me/${whatsappDigits(config.business)}?text=${encodeURIComponent(

@@ -7,8 +7,8 @@ import type { SectionOf } from "@/lib/config";
 
 type Milestone = { year: string; text: string };
 
-export function About({ variant = "portrait", image }: SectionOf<"about">) {
-  const t = useTranslations("about");
+export function About({ variant = "portrait", image, ns }: SectionOf<"about">) {
+  const t = useTranslations(ns ?? "about");
   const paragraphs = t.raw("paragraphs") as string[];
   const credentials = t.raw("credentials") as string[];
 

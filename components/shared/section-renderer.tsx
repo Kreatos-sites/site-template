@@ -8,6 +8,7 @@ import { Faq } from "@/components/sections/faq";
 import { Footer } from "@/components/sections/footer";
 import { Hero } from "@/components/sections/hero";
 import { Navbar } from "@/components/sections/navbar";
+import { PageHeader } from "@/components/sections/page-header";
 import { Portfolio } from "@/components/sections/portfolio";
 import { Process } from "@/components/sections/process";
 import { Services } from "@/components/sections/services";
@@ -27,17 +28,19 @@ export function SectionRenderer({ sections }: { sections: SectionConfig[] }) {
     <>
       {navbar?.id === "navbar" && <Navbar {...navbar} />}
       <main id="contenido">{body.map(renderSection)}</main>
-      {footer?.id === "footer" && <Footer />}
+      {footer?.id === "footer" && <Footer {...footer} />}
     </>
   );
 }
 
 function renderSection(section: SectionConfig) {
   switch (section.id) {
+    case "page-header":
+      return <PageHeader key={section.id} {...section} />;
     case "hero":
       return <Hero key={section.id} {...section} />;
     case "trust-bar":
-      return <TrustBar key={section.id} />;
+      return <TrustBar key={section.id} {...section} />;
     case "services":
       return <Services key={section.id} {...section} />;
     case "about":
@@ -47,13 +50,13 @@ function renderSection(section: SectionConfig) {
     case "portfolio":
       return <Portfolio key={section.id} {...section} />;
     case "coverage":
-      return <Coverage key={section.id} />;
+      return <Coverage key={section.id} {...section} />;
     case "testimonials":
       return <Testimonials key={section.id} {...section} />;
     case "faq":
       return <Faq key={section.id} {...section} />;
     case "cta-band":
-      return <CtaBand key={section.id} />;
+      return <CtaBand key={section.id} {...section} />;
     case "contact":
       return <Contact key={section.id} {...section} />;
     default:

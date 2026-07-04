@@ -1,6 +1,7 @@
 import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 
+import type { SectionOf } from "@/lib/config";
 import { yearsInBusiness } from "@/lib/config";
 import config from "@/site.config";
 
@@ -9,8 +10,8 @@ import config from "@/site.config";
  * rating y reseñas reales de la ficha de Google. Nada inventado: si
  * `founded` no está en la config, el ítem de años simplemente no se muestra.
  */
-export function TrustBar() {
-  const t = useTranslations("trust-bar");
+export function TrustBar({ ns }: SectionOf<"trust-bar">) {
+  const t = useTranslations(ns ?? "trust-bar");
   const tCommon = useTranslations("common");
   const years = yearsInBusiness(config.business);
   const { rating, reviewsCount, uri } = config.business.maps;

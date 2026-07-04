@@ -11,10 +11,11 @@ import { Textarea } from "@/components/ui/textarea";
 /**
  * Formulario del bloque de contacto. Solo se monta si
  * flags.contactForm es true (lo decide contact.tsx).
+ * `ns` lo deriva contact.tsx como `${ns del padre}.form`.
  * Envía a /api/contact (Resend).
  */
-export function ContactForm() {
-  const t = useTranslations("contact.form");
+export function ContactForm({ ns = "contact.form" }: { ns?: string }) {
+  const t = useTranslations(ns);
   const [sending, setSending] = useState(false);
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {

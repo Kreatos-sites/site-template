@@ -3,9 +3,10 @@
  *
  * Verifica:
  *  1. site.config.ts cumple el schema zod (lib/config.ts).
- *  2. messages/es.json sin lorem/TODO/emoji.
- *  3. Espejo config<->copy: cada sección tiene su key en es.json y no
- *     hay keys huérfanas (keys de secciones que no se renderizan).
+ *  2. messages/es.json sin lorem/TODO/emoji (incluye el copy de pages.*).
+ *  3. Espejo config<->copy: cada namespace usado (home y páginas) existe
+ *     en es.json y no hay keys huérfanas (incluye el subárbol pages.*).
+ *     En páginas interiores TODA sección debe traer `ns` explícito.
  *  4. Cero colores literales en components/ (solo tokens semánticos).
  *
  * Sale con código 1 si algo falla. Es motor: NO modificar al personalizar.
@@ -54,28 +55,91 @@ walkStrings(messages, "", (text, path) => {
   if (emojiRe.test(text)) errors.push(`[copy] ${path}: contiene emoji (prohibido en el copy)`);
 });
 
-/* ---------- 3. Espejo secciones <-> keys ---------- */
+/* ---------- 3. Espejo secciones <-> keys (home + páginas) ---------- */
 // Keys globales permitidas que no corresponden a una sección:
-const allowedGlobalKeys = new Set(["common", "notFound", "privacy"]);
-// Secciones sin copy propio (todo sale de site.config.ts):
+// ("pages" agrupa el copy de las páginas interiores, validado abajo)
+const allowedGlobalKeys = new Set(["common", "notFound", "privacy", "pages"]);
+// Secciones cuyo copy en es.json es opcional (sus datos salen de site.config.ts):
 const sectionsWithoutCopy = new Set(["trust-bar"]);
 
+/** Resuelve un namespace punteado ("pages.servicios.faq") dentro de es.json */
+function resolveNs(obj: unknown, ns: string): unknown {
+  return ns.split(".").reduce<unknown>((acc, key) => {
+    if (acc && typeof acc === "object" && !Array.isArray(acc)) {
+      return (acc as Record<string, unknown>)[key];
+    }
+    return undefined;
+  }, obj);
+}
+
+// Namespaces efectivos que el render consume (home: ns ?? id; páginas: ns).
+const usedNs = new Set<string>();
+
+for (const section of config.sections) {
+  const ns = section.ns ?? section.id;
+  usedNs.add(ns);
+  if (!section.ns && sectionsWithoutCopy.has(section.id)) continue;
+  if (resolveNs(messages, ns) === undefined) {
+    errors.push(
+      `[espejo] la sección "${section.id}" (home) usa el namespace "${ns}" pero no existe en es.json`,
+    );
+  }
+}
+
+for (const [pi, page] of (config.pages ?? []).entries()) {
+  for (const [si, section] of page.sections.entries()) {
+    const where = `pages[${pi}] (/${page.slug}) → sections[${si}] "${section.id}"`;
+    if (!section.ns) {
+      errors.push(
+        `[pages] ${where}: falta \`ns\` — en páginas interiores es obligatorio; sin él se renderizaría el copy de la home`,
+      );
+      continue;
+    }
+    usedNs.add(section.ns);
+    if (resolveNs(messages, section.ns) === undefined) {
+      errors.push(`[espejo] ${where}: el namespace "${section.ns}" no existe en es.json`);
+    }
+  }
+}
+
+/** ¿La ruta de keys está cubierta por algún namespace usado? */
+function nsCovered(path: string): boolean {
+  for (const ns of usedNs) {
+    if (ns === path || ns.startsWith(`${path}.`) || path.startsWith(`${ns}.`)) return true;
+  }
+  return false;
+}
+
 const sectionIds = new Set(config.sections.map((s) => s.id));
-const messageKeys = new Set(Object.keys(messages));
 
-for (const id of sectionIds) {
-  if (sectionsWithoutCopy.has(id)) continue;
-  if (!messageKeys.has(id)) {
-    errors.push(`[espejo] la sección "${id}" está en site.config.ts pero no tiene key en es.json`);
-  }
-}
-
-for (const key of messageKeys) {
+for (const key of Object.keys(messages)) {
   if (allowedGlobalKeys.has(key)) continue;
-  if (!sectionIds.has(key as (typeof config.sections)[number]["id"])) {
-    errors.push(`[espejo] key huérfana "${key}" en es.json: no corresponde a ninguna sección renderizada`);
+  if (sectionIds.has(key as (typeof config.sections)[number]["id"])) continue;
+  if (nsCovered(key)) continue;
+  errors.push(
+    `[espejo] key huérfana "${key}" en es.json: no corresponde a ninguna sección renderizada`,
+  );
+}
+
+// Huérfanas dentro del subárbol pages.*: cada rama debe corresponder a un
+// ns usado por alguna página de config.pages.
+function walkPagesTree(node: unknown, path: string) {
+  if (!node || typeof node !== "object" || Array.isArray(node)) return;
+  for (const [key, child] of Object.entries(node as Record<string, unknown>)) {
+    const childPath = `${path}.${key}`;
+    if (!nsCovered(childPath)) {
+      errors.push(
+        `[espejo] key huérfana "${childPath}" en es.json: ningún \`ns\` de config.pages la usa`,
+      );
+      continue;
+    }
+    // Si todavía es solo un prefijo de algún ns (no un ns completo ni su
+    // interior), hay que seguir bajando para detectar ramas hermanas huérfanas.
+    const insideNs = [...usedNs].some((ns) => childPath === ns || childPath.startsWith(`${ns}.`));
+    if (!insideNs) walkPagesTree(child, childPath);
   }
 }
+if ("pages" in messages) walkPagesTree(messages["pages"], "pages");
 
 /* ---------- 4. Colores literales en components/ ---------- */
 const hexRe = /#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})(?![\w-])/;

@@ -6,8 +6,8 @@ import type { SectionOf } from "@/lib/config";
 
 type Step = { title: string; description: string };
 
-export function Process({ count }: SectionOf<"process">) {
-  const t = useTranslations("process");
+export function Process({ count, ns }: SectionOf<"process">) {
+  const t = useTranslations(ns ?? "process");
   const allSteps = t.raw("steps") as Step[];
   const steps = count ? allSteps.slice(0, count) : allSteps;
 

@@ -3,12 +3,13 @@ import { useTranslations } from "next-intl";
 
 import { Reveal } from "@/components/shared/reveal";
 import { SectionHeading } from "@/components/shared/section-heading";
+import type { SectionOf } from "@/lib/config";
 
 type Zone = { name: string; detail: string };
 
 /** Zonas o rutas de servicio (útil en logística, construcción, distribución). */
-export function Coverage() {
-  const t = useTranslations("coverage");
+export function Coverage({ ns }: SectionOf<"coverage">) {
+  const t = useTranslations(ns ?? "coverage");
   const zones = t.raw("zones") as Zone[];
 
   return (

@@ -5,12 +5,17 @@
  * Sale con código 1 si cualquier paso falla.
  *
  * Fase 2 (pendiente, ver `todo` en el reporte):
- *  - Screenshots por sección (light/dark, mobile/desktop) con Playwright.
- *  - Lighthouse (performance/a11y/SEO) contra el build de producción.
+ *  - Screenshots por sección y por ruta (light/dark, mobile/desktop) con Playwright.
+ *  - Lighthouse + axe (performance/a11y/SEO) por ruta contra el build de producción.
+ *
+ * El reporte incluye `routes`: home + cada página de config.pages, para que
+ * la fase 2 (y cualquier revisión manual) itere todas las rutas del sitio.
  */
 import { spawnSync } from "node:child_process";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+
+import config from "../site.config";
 
 const root = process.cwd();
 
@@ -57,13 +62,19 @@ if (steps[0].ok) {
 }
 
 const ok = steps.every((s) => s.ok);
+
+// Rutas renderizables del sitio: home + páginas interiores de config.pages.
+// Cuando la fase 2 agregue screenshots/axe, debe iterar esta lista.
+const routes = ["/", ...(config.pages ?? []).map((p) => `/${p.slug}`)];
+
 const report = {
   generatedAt: new Date().toISOString(),
   ok,
+  routes,
   steps,
   todo: [
-    "fase 2: screenshots por sección (light/dark, mobile/desktop) con Playwright",
-    "fase 2: lighthouse (performance/accesibilidad/SEO) contra next start",
+    "fase 2: screenshots por sección y por ruta (light/dark, mobile/desktop) con Playwright, iterando `routes`",
+    "fase 2: lighthouse + axe (performance/accesibilidad/SEO) por ruta contra next start",
   ],
 };
 

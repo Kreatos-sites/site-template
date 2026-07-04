@@ -13,8 +13,8 @@ type Testimonial = { quote: string; author: string; role: string };
  * Reseñas de Google. El enlace a maps.uri es obligatorio:
  * las citas deben ser verificables en la ficha real del negocio.
  */
-export function Testimonials({ count }: SectionOf<"testimonials">) {
-  const t = useTranslations("testimonials");
+export function Testimonials({ count, ns }: SectionOf<"testimonials">) {
+  const t = useTranslations(ns ?? "testimonials");
   const allItems = t.raw("items") as Testimonial[];
   const items = count ? allItems.slice(0, count) : allItems;
   const { uri, reviewsCount } = config.business.maps;

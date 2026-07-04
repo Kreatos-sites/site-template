@@ -12,11 +12,11 @@
   },
   "navbar": {
     "links": [
-      { "href": "#servicios", "label": "Servicios" },
-      { "href": "#nosotros", "label": "El despacho" },
-      { "href": "#proceso", "label": "Cómo trabajamos" },
-      { "href": "#opiniones", "label": "Opiniones" },
-      { "href": "#contacto", "label": "Contacto" }
+      { "href": "/servicios", "label": "Servicios" },
+      { "href": "/#nosotros", "label": "El despacho" },
+      { "href": "/#proceso", "label": "Cómo trabajamos" },
+      { "href": "/#opiniones", "label": "Opiniones" },
+      { "href": "/#contacto", "label": "Contacto" }
     ],
     "cta": "Agendar consulta"
   },
@@ -201,6 +201,85 @@
     "privacyLink": "Aviso de privacidad",
     "rights": "Todos los derechos reservados.",
     "credit": "Sitio desarrollado por Kreatos"
+  },
+  "pages": {
+    "servicios": {
+      "header": {
+        "title": "Todo lo que el despacho hace por su empresa.",
+        "lead": "Cada servicio incluye un contador titular responsable, entregables definidos y fechas comprometidas por escrito. Aquí está el detalle de qué recibe con cada uno y cómo se trabaja."
+      },
+      "services": {
+        "eyebrow": "Catálogo de servicios",
+        "title": "El catálogo completo, con entregables claros.",
+        "intro": "Los servicios se contratan por iguala mensual o por proyecto, según el caso. La propuesta siempre va por escrito antes de firmar.",
+        "items": [
+          {
+            "title": "Contabilidad mensual",
+            "description": "Registramos sus pólizas, conciliamos bancos y entregamos balanza y estados financieros antes del día 10 de cada mes. Incluye el envío de la contabilidad electrónica al SAT y una reunión trimestral con su contador titular para revisar resultados."
+          },
+          {
+            "title": "Impuestos federales y estatales",
+            "description": "Calculamos y presentamos ISR, IVA y retenciones cada mes, además de la declaración anual y las informativas que apliquen. Cada declaración va acompañada de sus papeles de trabajo y del acuse archivado en su expediente digital."
+          },
+          {
+            "title": "Nómina, IMSS e Infonavit",
+            "description": "Timbramos los CFDI de nómina de cada periodo, calculamos cuotas obrero-patronales, presentamos variabilidades y movimientos afiliatorios ante el IMSS y damos seguimiento a los créditos Infonavit de sus empleados."
+          },
+          {
+            "title": "Defensa ante requerimientos del SAT",
+            "description": "Atendemos cartas invitación, requerimientos, revisiones de gabinete y restricciones de sellos digitales. Preparamos la respuesta, integramos el expediente soporte y comparecemos ante la autoridad en representación de su empresa."
+          },
+          {
+            "title": "Devoluciones y saldos a favor",
+            "description": "Integramos el expediente de devolución de IVA e ISR completo desde la primera solicitud: papeles de trabajo, XML y documentación soporte. Damos seguimiento al trámite hasta el depósito y atendemos los requerimientos adicionales que surjan."
+          },
+          {
+            "title": "Constitución y arranque de empresas",
+            "description": "Le acompañamos desde el acta constitutiva hasta la primera factura: elección del régimen fiscal, inscripción al RFC, e.firma, sellos digitales y alta patronal ante el IMSS cuando contrata a su primer empleado."
+          },
+          {
+            "title": "Diagnóstico fiscal inicial",
+            "description": "Antes de firmar cualquier propuesta revisamos su buzón tributario, su opinión de cumplimiento y sus últimas declaraciones. Le entregamos un reporte de riesgos y pendientes, sin costo y sin compromiso de contratación."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Preguntas sobre los servicios",
+        "title": "Dudas específicas sobre alcances y cobros.",
+        "items": [
+          {
+            "question": "¿La iguala mensual cubre la declaración anual?",
+            "answer": "Sí. La declaración anual de la empresa está incluida en la iguala, igual que las informativas ordinarias. Solo los trámites extraordinarios, como una devolución de IVA o la defensa ante una revisión, se cotizan por separado y siempre por escrito."
+          },
+          {
+            "question": "¿Atienden personas físicas con actividad empresarial?",
+            "answer": "Sí, siempre que tengan operación en marcha: actividad empresarial, honorarios, arrendamiento o plataformas digitales. El servicio incluye declaraciones mensuales, la anual y el control de sus CFDI emitidos y recibidos."
+          },
+          {
+            "question": "¿Qué pasa si el SAT restringe mis sellos digitales?",
+            "answer": "Lo tratamos como trámite urgente. Presentamos la aclaración con el expediente soporte y damos seguimiento diario hasta la reactivación. Para clientes del despacho, la vigilancia mensual del buzón tributario reduce mucho el riesgo de llegar a ese punto."
+          },
+          {
+            "question": "¿Cómo me entregan la información cada mes?",
+            "answer": "Recibe balanza, estados financieros y acuses en su expediente digital, junto con un resumen en lenguaje claro de lo que cambió en el mes. Su contador titular lo revisa con usted por videollamada o en la oficina cuando lo necesite."
+          },
+          {
+            "question": "¿Pueden encargarse solo de la nómina?",
+            "answer": "Sí. La maquila de nómina se contrata como servicio independiente e incluye timbrado, IMSS, Infonavit y los reportes contables del periodo, aunque la contabilidad la lleve otro despacho."
+          },
+          {
+            "question": "¿Trabajan con empresas que apenas están arrancando?",
+            "answer": "Sí. Para sociedades de reciente constitución manejamos un esquema de arranque con iguala reducida durante los primeros seis meses, mientras la operación toma volumen y se estabiliza la facturación."
+          }
+        ]
+      },
+      "cta-band": {
+        "title": "¿Quiere saber cuánto costaría en su caso?",
+        "subtitle": "Cuéntenos el tamaño de su operación y le preparamos una propuesta por escrito en menos de tres días hábiles.",
+        "primaryCta": "Llamar al despacho",
+        "secondaryCta": "Escribir por WhatsApp"
+      }
+    }
   },
   "notFound": {
     "title": "Página no encontrada",

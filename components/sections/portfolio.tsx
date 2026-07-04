@@ -12,8 +12,8 @@ type PortfolioItem = { title: string; description: string };
  * Trabajo/casos. Las imágenes vienen de config (section.images, en orden);
  * el copy de messages/es.json → portfolio.items (mismo orden).
  */
-export function Portfolio({ variant = "rows", images = [] }: SectionOf<"portfolio">) {
-  const t = useTranslations("portfolio");
+export function Portfolio({ variant = "rows", images = [], ns }: SectionOf<"portfolio">) {
+  const t = useTranslations(ns ?? "portfolio");
   const items = t.raw("items") as PortfolioItem[];
 
   return (

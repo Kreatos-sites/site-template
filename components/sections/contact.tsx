@@ -8,8 +8,9 @@ import type { SectionOf } from "@/lib/config";
 import { fullAddress } from "@/lib/config";
 import config from "@/site.config";
 
-export function Contact({ showMap = true }: SectionOf<"contact">) {
-  const t = useTranslations("contact");
+export function Contact({ showMap = true, ns }: SectionOf<"contact">) {
+  const nsBase = ns ?? "contact";
+  const t = useTranslations(nsBase);
   const { business, flags } = config;
   const address = fullAddress(business);
   const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(address)}&output=embed`;
@@ -102,7 +103,7 @@ export function Contact({ showMap = true }: SectionOf<"contact">) {
                     {t("form.title")}
                   </h3>
                   <p className="mt-1 text-sm text-muted-foreground">{t("form.intro")}</p>
-                  <ContactForm />
+                  <ContactForm ns={`${nsBase}.form`} />
                 </div>
               </Reveal>
             )}
