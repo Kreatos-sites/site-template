@@ -1,5 +1,6 @@
 import type { SectionConfig } from "@/lib/config";
 
+import { customSections } from "@/components/custom/registry";
 import { About } from "@/components/sections/about";
 import { Contact } from "@/components/sections/contact";
 import { Coverage } from "@/components/sections/coverage";
@@ -27,14 +28,28 @@ export function SectionRenderer({ sections }: { sections: SectionConfig[] }) {
   return (
     <>
       {navbar?.id === "navbar" && <Navbar {...navbar} />}
-      <main id="contenido">{body.map(renderSection)}</main>
+      <main id="contenido">
+        {body.map((section, index) => renderSection(section, index))}
+      </main>
       {footer?.id === "footer" && <Footer {...footer} />}
     </>
   );
 }
 
-function renderSection(section: SectionConfig) {
+function renderSection(section: SectionConfig, index: number) {
   switch (section.id) {
+    case "custom": {
+      const Custom = customSections[section.component];
+      // Componente no registrado = error duro en build/dev, nunca silencio:
+      // validate-config lo detecta antes, pero este throw cubre dev server.
+      if (!Custom) {
+        throw new Error(
+          `[section-renderer] la sección custom "${section.component}" no está registrada en components/custom/registry.ts. ` +
+            `Keys disponibles: ${Object.keys(customSections).join(", ") || "(ninguna)"}`,
+        );
+      }
+      return <Custom key={`custom-${section.component}-${index}`} ns={section.ns} />;
+    }
     case "page-header":
       return <PageHeader key={section.id} {...section} />;
     case "hero":

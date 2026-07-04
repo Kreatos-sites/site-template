@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -13,8 +14,44 @@ import config from "@/site.config";
 
 type NavLink = { href: string; label: string };
 
+/**
+ * Marca del header. NUNCA muestra la razón social completa si existe
+ * `business.shortName`. Con `business.logo`:
+ * - archivo cuyo nombre contiene "wordmark" → el logo ya trae el nombre
+ *   dibujado y se muestra solo (alt = shortName ?? name);
+ * - cualquier otro logo se trata como isotipo y va acompañado del nombre.
+ * Sin logo: inicial generada + nombre corto (comportamiento histórico).
+ */
 function Brand() {
-  const initial = config.business.name
+  const { name, shortName, logo } = config.business;
+  const brandName = shortName ?? name;
+
+  if (logo) {
+    const isWordmark = /wordmark/i.test(logo);
+
+    return (
+      <Link href="/" className="flex items-center gap-3">
+        {/* unoptimized: los logos suelen ser SVG/PNG mínimos y el optimizador
+            de next/image rechaza SVG sin dangerouslyAllowSVG */}
+        <Image
+          src={logo}
+          alt={brandName}
+          width={144}
+          height={32}
+          priority
+          unoptimized
+          className="h-8 w-auto"
+        />
+        {!isWordmark && (
+          <span className="font-display text-lg leading-tight tracking-tight">
+            {brandName}
+          </span>
+        )}
+      </Link>
+    );
+  }
+
+  const initial = brandName
     .replace(/^(Despacho|Grupo|Firma)\s+/i, "")
     .charAt(0)
     .toUpperCase();
@@ -28,7 +65,7 @@ function Brand() {
         {initial}
       </span>
       <span className="font-display text-lg leading-tight tracking-tight">
-        {config.business.name}
+        {brandName}
       </span>
     </Link>
   );

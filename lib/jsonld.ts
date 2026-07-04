@@ -15,6 +15,7 @@ export function buildJsonLd(config: SiteConfig) {
     name: business.name,
     description: seo.description,
     url: `https://${seo.domain}`,
+    ...(business.logo ? { logo: `https://${seo.domain}${business.logo}` } : {}),
     telephone: business.phone,
     ...(business.email ? { email: business.email } : {}),
     ...(business.founded !== undefined

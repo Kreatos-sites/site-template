@@ -10,6 +10,8 @@ import type { SiteConfig } from "@/lib/config";
 const config: SiteConfig = {
   business: {
     name: "Despacho López y Asociados",
+    // Marca corta para header/footer; la razón social queda para lo legal.
+    shortName: "López y Asociados",
     category: "Despacho contable",
     address: {
       street: "Blvd. Independencia 1240 Ote.",
@@ -81,6 +83,9 @@ const config: SiteConfig = {
     { id: "trust-bar" },
     { id: "services", variant: "numbered-list" },
     { id: "about", variant: "portrait", image: "/images/about.svg" },
+    // Sección custom (components/custom/credentials-band.tsx, registrada
+    // en components/custom/registry.ts): el gesto propio de este sitio.
+    { id: "custom", component: "credentials-band", ns: "credentials-band" },
     { id: "process" },
     { id: "testimonials", count: 3 },
     { id: "faq" },

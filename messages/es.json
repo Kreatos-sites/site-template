@@ -93,6 +93,33 @@
       { "year": "2024", "text": "80 empresas activas y un equipo de nueve personas al servicio de La Laguna." }
     ]
   },
+  "credentials-band": {
+    "eyebrow": "Credenciales",
+    "title": "Cifras que usted puede comprobar.",
+    "intro": "No presumimos nada que no pueda verificarse: en nuestra ficha de Google, en el padrón del IMCP o preguntando a cualquiera de nuestros clientes.",
+    "figures": [
+      {
+        "value": "80+",
+        "label": "Empresas activas en cartera",
+        "detail": "Comercios, constructoras, transportistas y despachos profesionales de la Comarca Lagunera."
+      },
+      {
+        "value": "9",
+        "label": "Contadores y auxiliares",
+        "detail": "Cada cliente tiene un contador titular; el socio director revisa personalmente cada cierre anual."
+      },
+      {
+        "value": "2003",
+        "label": "Año de fundación",
+        "detail": "Más de dos décadas de ejercicio continuo en Torreón, con la misma razón social."
+      },
+      {
+        "value": "2018",
+        "label": "Expediente digital completo",
+        "detail": "XML, balanzas y papeles de trabajo en línea desde ese año, disponibles cuando usted los necesite."
+      }
+    ]
+  },
   "process": {
     "eyebrow": "Cómo trabajamos",
     "title": "Cambiar de contador no debería doler.",

@@ -18,7 +18,21 @@ const hoursSchema = z.object({
 });
 
 export const businessSchema = z.object({
+  /** Razón social / nombre completo: footer legal, aviso de privacidad y JSON-LD. */
   name: z.string().min(2),
+  /**
+   * Nombre de marca corto para header y footer ("Zúñiga & Asociados"),
+   * NUNCA la razón social completa. Si existe, el header lo usa siempre.
+   */
+  shortName: z.string().min(2).optional(),
+  /**
+   * Logo del cliente, ruta en public/ ("/images/logo.svg").
+   * Criterio de render (navbar): si el nombre del archivo contiene
+   * "wordmark", el logo ya trae el nombre dibujado y se muestra solo;
+   * cualquier otro logo se trata como isotipo y va acompañado del
+   * shortName. El alt siempre es shortName ?? name.
+   */
+  logo: z.string().optional(),
   /** Categoría legible: "Despacho contable", "Constructora"... */
   category: z.string().min(2),
   address: z.object({
@@ -168,6 +182,19 @@ export const sectionSchema = z.discriminatedUnion("id", [
      */
     id: z.literal("page-header"),
     ns: z.string().min(1),
+  }),
+  z.object({
+    /**
+     * Sección CUSTOM escrita por el agente (ver AGENT.md → "Secciones
+     * custom"). `component` es la key registrada en
+     * components/custom/registry.ts y `ns` su namespace de copy en
+     * es.json (aquí SIEMPRE requerido, también en la home). Puede
+     * aparecer varias veces por página con distinto component/ns;
+     * validate-config verifica que el componente exista en el registry.
+     */
+    id: z.literal("custom"),
+    component: z.string().min(2),
+    ns: z.string().min(2),
   }),
 ]);
 

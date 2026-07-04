@@ -24,7 +24,10 @@ export function Footer({ ns }: SectionOf<"footer">) {
       <div className="mx-auto w-full max-w-6xl px-6 py-14 lg:px-8">
         <div className="flex flex-col justify-between gap-10 lg:flex-row">
           <div className="max-w-sm">
-            <p className="font-display text-xl tracking-tight">{business.name}</p>
+            {/* Marca corta; la razón social completa vive en la línea legal de abajo */}
+            <p className="font-display text-xl tracking-tight">
+              {business.shortName ?? business.name}
+            </p>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
               {t("tagline")}
             </p>

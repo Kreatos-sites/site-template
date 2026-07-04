@@ -8,12 +8,16 @@
  *     en es.json y no hay keys huérfanas (incluye el subárbol pages.*).
  *     En páginas interiores TODA sección debe traer `ns` explícito.
  *  4. Cero colores literales en components/ (solo tokens semánticos).
+ *     Incluye components/custom/ (secciones escritas por el agente).
+ *  5. Toda sección { id: "custom" } referencia un componente registrado
+ *     en components/custom/registry.ts.
  *
  * Sale con código 1 si algo falla. Es motor: NO modificar al personalizar.
  */
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
+import { customSections } from "../components/custom/registry";
 import { siteConfigSchema } from "../lib/config";
 import config from "../site.config";
 
@@ -175,6 +179,26 @@ for (const file of walkFiles(join(root, "components"))) {
   });
 }
 
+/* ---------- 5. Secciones custom <-> registry ---------- */
+const registeredCustom = new Set(Object.keys(customSections));
+
+function checkCustomSections(sections: typeof config.sections, where: string) {
+  sections.forEach((section, index) => {
+    if (section.id !== "custom") return;
+    if (!registeredCustom.has(section.component)) {
+      errors.push(
+        `[custom] ${where} sections[${index}]: el componente "${section.component}" no está registrado en components/custom/registry.ts` +
+          ` (keys registradas: ${[...registeredCustom].join(", ") || "ninguna"})`,
+      );
+    }
+  });
+}
+
+checkCustomSections(config.sections, "home");
+for (const [pi, page] of (config.pages ?? []).entries()) {
+  checkCustomSections(page.sections, `pages[${pi}] (/${page.slug})`);
+}
+
 /* ---------- Resultado ---------- */
 if (errors.length > 0) {
   console.error(`validate-config: ${errors.length} problema(s) encontrados\n`);
@@ -182,4 +206,6 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log("validate-config: OK (schema, copy, espejo de keys y tokens de color)");
+console.log(
+  "validate-config: OK (schema, copy, espejo de keys, tokens de color y registry custom)",
+);

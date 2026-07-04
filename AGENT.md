@@ -5,7 +5,7 @@ negocios locales mexicanos (despachos contables, constructoras, logística,
 distribuidores B2B). Todo lo que no está listado abajo es **motor** y
 funciona sin tocarse.
 
-## El contrato: SOLO se editan 5 cosas
+## El contrato: SOLO se editan 6 cosas
 
 | # | Archivo | Qué es |
 | --- | --- | --- |
@@ -13,11 +13,13 @@ funciona sin tocarse.
 | 2 | `messages/es.json` | El 100% del copy visible, espejando `sections` por id |
 | 3 | `app/theme.css` | Tokens visuales: se copia desde `themes/<preset>.css` y se varía |
 | 4 | `app/fonts.ts` | Par tipográfico: se activa uno de los pares curados |
-| 5 | `public/images/` | Se reemplazan los placeholders por fotos reales |
+| 5 | `public/images/` | Se reemplazan los placeholders por fotos reales (y el logo si hay) |
+| 6 | `components/custom/` | Secciones escritas desde cero + su `registry.ts` (ver "Secciones custom") |
 
-**Nada más.** Si crees que necesitas tocar un componente, un layout o un
-script, es un cambio de motor: no pertenece a la personalización de un
-cliente y rompe la garantía de que todos los sitios se actualizan igual.
+**Nada más.** Si crees que necesitas tocar cualquier otro componente, un
+layout o un script, es un cambio de motor: no pertenece a la
+personalización de un cliente y rompe la garantía de que todos los sitios
+se actualizan igual.
 
 ## Orden de trabajo
 
@@ -32,6 +34,14 @@ cliente y rompe la garantía de que todos los sitios se actualizan igual.
    **`email` y `founded` son opcionales**: si el lead no los tiene,
    omítelos — el motor oculta sus renders automáticamente (contacto,
    footer, trust-bar, aviso de privacidad y JSON-LD). Nunca los inventes.
+   **Identidad de marca**: si el nombre comercial difiere de la razón
+   social, declara `business.shortName` — el header NUNCA muestra la
+   razón social completa cuando hay `shortName` (la razón social queda
+   para la línea legal del footer, el aviso de privacidad y el JSON-LD).
+   Si el brief trae logo del cliente, cópialo a `public/images/` y
+   decláralo en `business.logo`; si el archivo ya trae el nombre
+   dibujado, nómbralo con "wordmark" (ej. `logo-wordmark.svg`) y el
+   header lo mostrará solo, sin duplicar el texto.
 2. **`app/theme.css`** — copia el preset de `themes/` que corresponda al
    giro (obsidiana: despachos/servicios profesionales; cantera:
    construcción/industrial) y varía hue/chroma para el cliente siguiendo
@@ -107,6 +117,45 @@ contrato: solo se tocan `site.config.ts` y `messages/es.json`.
   OpenGraph) los genera el motor desde `config.pages`: no hay nada que
   tocar.
 
+## Secciones custom (`components/custom/`)
+
+Cuando NINGUNA variante del motor logra el gesto memorable que el sitio
+necesita, escribe una sección desde cero. La sección custom ES el gesto:
+**1 a 3 por sitio**, nunca el sitio entero custom — el motor sigue
+poniendo la estructura y las secciones custom ponen la personalidad.
+
+**Flujo:**
+
+1. Escribe el componente en `components/custom/<nombre>.tsx` con props
+   `{ ns: string }` (su namespace de copy).
+2. Regístralo en `components/custom/registry.ts` con key kebab-case.
+3. Úsalo en `site.config.ts` (home o páginas):
+   `{ id: "custom", component: "<key>", ns: "<namespace>" }` — `ns` es
+   siempre requerido; puede haber varias secciones custom por página.
+4. Escribe su copy en `messages/es.json` bajo ese namespace.
+
+`pnpm validate-config` falla si el `component` no existe en el registry,
+y el renderer truena en build con error claro si se le escapa.
+
+**Reglas del contrato (las mismas del motor, sin excepciones):**
+
+- Solo tokens semánticos del theme (`bg-background`, `text-primary`...):
+  cero colores literales — el validador barre `components/custom/` igual
+  que el resto.
+- Copy 100% vía next-intl: `useTranslations(ns)` con el `ns` de props.
+  Nada de strings visibles hardcodeados.
+- Motion SOLO con los primitives del motor (`Reveal`, `HeroStagger`/
+  `HeroItem` de `components/shared/reveal.tsx`): nunca
+  `window.addEventListener("scroll")`, nunca librerías nuevas.
+- Server component por defecto; `"use client"` solo en la isla que de
+  verdad lo necesite.
+- Accesibilidad: headings jerárquicos (h2 dentro de secciones; el h1 es
+  del hero/page-header), `alt` en imágenes, focus visible, contraste AA.
+- Disponibles: componentes de `components/ui/` (shadcn) e iconos de
+  `lucide-react`. **Sin dependencias nuevas.**
+- Patrón de referencia: `components/custom/credentials-band.tsx`
+  (registrada como `"credentials-band"` y usada en la home del ejemplo).
+
 ## Animación (`design.motion`)
 
 El motor trae UNA sola coreografía de entrada (misma curva, misma
@@ -145,7 +194,9 @@ encuentra violaciones.
 
 - `app/` salvo `theme.css` y `fonts.ts` (layout, page, rutas de metadata,
   aviso de privacidad, API de contacto).
-- `components/` completo (secciones, ui de shadcn, shared).
+- `components/` completo (secciones, ui de shadcn, shared) — con UNA
+  excepción: `components/custom/` es superficie editable (ver "Secciones
+  custom").
 - `lib/` completo (schema zod, JSON-LD, i18n, utils).
 - `scripts/`, configs raíz (`next.config.ts`, `tsconfig.json`,
   `postcss.config.mjs`, `eslint.config.mjs`, `package.json`).
@@ -161,7 +212,8 @@ encuentra violaciones.
   (numbered-list | asym-grid | bordered-table), `about` (portrait |
   timeline | plain), `process`, `portfolio` (masonry | rows), `coverage`,
   `testimonials`, `faq`, `cta-band`, `contact` (prop `showMap`), `footer`,
-  `page-header` (solo páginas interiores; keys `title` y `lead`).
+  `page-header` (solo páginas interiores; keys `title` y `lead`),
+  `custom` (props `component` + `ns`, ver "Secciones custom").
 - Toda sección acepta `ns` (namespace de traducción; default = su id).
   Obligatorio en páginas interiores, opcional en la home.
 - `trust-bar` no lleva copy en es.json: sus datos salen de
