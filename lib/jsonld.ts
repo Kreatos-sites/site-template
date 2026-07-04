@@ -35,12 +35,17 @@ export function buildJsonLd(config: SiteConfig) {
       longitude: business.geo.lng,
     },
     hasMap: business.maps.uri,
-    openingHoursSpecification: business.hours.map((h) => ({
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: h.dayOfWeek,
-      opens: h.open,
-      closes: h.close,
-    })),
+    // Sin horario real no se emite la propiedad (nunca un array vacío).
+    ...(business.hours.length > 0
+      ? {
+          openingHoursSpecification: business.hours.map((h) => ({
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: h.dayOfWeek,
+            opens: h.open,
+            closes: h.close,
+          })),
+        }
+      : {}),
     ...(business.maps.reviewsCount > 0
       ? {
           aggregateRating: {

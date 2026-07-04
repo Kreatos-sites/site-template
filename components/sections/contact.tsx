@@ -78,21 +78,23 @@ export function Contact({ showMap = true, ns }: SectionOf<"contact">) {
                   </div>
                 )}
 
-                <div className="flex gap-4">
-                  <Clock className="mt-1 size-5 shrink-0 text-primary" aria-hidden="true" />
-                  <div>
-                    <dt className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase">
-                      {t("hoursLabel")}
-                    </dt>
-                    <dd className="mt-1.5 space-y-0.5 text-[0.95rem]">
-                      {business.hours.map((h) => (
-                        <p key={h.days}>
-                          {h.days}: {h.open}–{h.close}
-                        </p>
-                      ))}
-                    </dd>
+                {business.hours.length > 0 && (
+                  <div className="flex gap-4">
+                    <Clock className="mt-1 size-5 shrink-0 text-primary" aria-hidden="true" />
+                    <div>
+                      <dt className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase">
+                        {t("hoursLabel")}
+                      </dt>
+                      <dd className="mt-1.5 space-y-0.5 text-[0.95rem]">
+                        {business.hours.map((h) => (
+                          <p key={h.days}>
+                            {h.days}: {h.open}–{h.close}
+                          </p>
+                        ))}
+                      </dd>
+                    </div>
                   </div>
-                </div>
+                )}
               </dl>
             </Reveal>
 

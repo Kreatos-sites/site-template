@@ -60,7 +60,9 @@ export const businessSchema = z.object({
   whatsapp: z.string().min(8),
   /** Opcional: los leads de Google Maps rara vez lo publican. Nunca inventarlo. */
   email: z.email().optional(),
-  hours: z.array(hoursSchema).min(1),
+  /** Opcional como todo dato del negocio: sin horario real, contact oculta
+   *  el bloque y el JSON-LD omite openingHours — nunca se inventa. */
+  hours: z.array(hoursSchema).default([]),
   maps: z.object({
     /** URL pública de la ficha de Google Maps */
     uri: z.url(),
