@@ -33,6 +33,15 @@ export const businessSchema = z.object({
    * shortName. El alt siempre es shortName ?? name.
    */
   logo: z.string().optional(),
+  /**
+   * ISOTIPO cuadrado de la marca, ruta en public/ ("/images/icon.svg").
+   * NO es lo mismo que `logo`: `logo` es la marca del header (puede ser
+   * un wordmark horizontal); `icon` es la versión cuadrada/compacta de
+   * la que el motor genera favicon y apple-icon (app/icon.tsx y
+   * app/apple-icon.tsx). Si se omite, el motor cae al monograma con la
+   * inicial del negocio. svg/png/jpg/webp.
+   */
+  icon: z.string().optional(),
   /** Categoría legible: "Despacho contable", "Constructora"... */
   category: z.string().min(2),
   address: z.object({

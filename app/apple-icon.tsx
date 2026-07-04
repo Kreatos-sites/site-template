@@ -3,21 +3,21 @@ import { ImageResponse } from "next/og";
 import { getOgTokens, readPublicImageAsDataUri } from "@/lib/og-theme";
 import config from "@/site.config";
 
-export const size = { width: 64, height: 64 };
+export const size = { width: 180, height: 180 };
 export const contentType = "image/png";
 
 /**
- * Favicon del sitio (motor: no tocar).
- * - Con `business.icon`: isotipo de la ficha de marca, centrado con ~15%
- *   de padding sobre el `--og-background` del theme activo.
- * - Sin `business.icon`: monograma con la inicial del negocio sobre el
- *   acento del theme (comportamiento histórico).
+ * Apple touch icon (motor: no tocar). Mismo criterio que app/icon.tsx
+ * (isotipo de `business.icon` o monograma), con dos diferencias que
+ * exige iOS: fondo SIEMPRE sólido de esquina a esquina (Apple no respeta
+ * transparencia ni esquinas redondeadas propias: aplica su máscara) y
+ * padding mayor (~18%) porque el sistema recorta el borde.
  */
-export default function Icon() {
+export default function AppleIcon() {
   const tokens = getOgTokens();
 
   if (config.business.icon) {
-    const pad = Math.round(size.width * 0.15);
+    const pad = Math.round(size.width * 0.18);
 
     return new ImageResponse(
       (
@@ -30,7 +30,6 @@ export default function Icon() {
             justifyContent: "center",
             backgroundColor: tokens.background,
             padding: pad,
-            borderRadius: 10,
           }}
         >
           {/* Satori (next/og) requiere <img> con data URI, no next/image */}
@@ -63,9 +62,8 @@ export default function Icon() {
           justifyContent: "center",
           backgroundColor: tokens.accent,
           color: tokens.background,
-          fontSize: 40,
+          fontSize: 112,
           fontWeight: 700,
-          borderRadius: 10,
         }}
       >
         {initial}

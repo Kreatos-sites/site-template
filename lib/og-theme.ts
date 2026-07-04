@@ -27,3 +27,39 @@ export function getOgTokens() {
     accent: pick("--og-accent", "#d9a441"),
   };
 }
+
+const mimeByExt: Record<string, string> = {
+  ".svg": "image/svg+xml",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".webp": "image/webp",
+};
+
+/**
+ * Lee un asset de public/ en build y lo devuelve como data URI, para
+ * incrustarlo en Satori (next/og): ImageResponse acepta <img src="data:...">
+ * pero no rutas relativas del sitio. Lo usan app/icon.tsx y
+ * app/apple-icon.tsx cuando `business.icon` está declarado.
+ * Falla FUERTE si el archivo no existe o la extensión no es soportada:
+ * un icon declarado pero roto debe tronar el build, no caer en silencio.
+ */
+export function readPublicImageAsDataUri(publicPath: string): string {
+  const ext = publicPath.slice(publicPath.lastIndexOf(".")).toLowerCase();
+  const mime = mimeByExt[ext];
+  if (!mime) {
+    throw new Error(
+      `[og-theme] extensión no soportada para "${publicPath}": usa svg, png, jpg o webp`,
+    );
+  }
+
+  try {
+    const file = readFileSync(join(process.cwd(), "public", publicPath));
+    return `data:${mime};base64,${file.toString("base64")}`;
+  } catch (cause) {
+    throw new Error(
+      `[og-theme] no se pudo leer "public${publicPath}" (¿business.icon apunta a un archivo que no existe?)`,
+      { cause },
+    );
+  }
+}

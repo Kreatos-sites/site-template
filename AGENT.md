@@ -42,6 +42,14 @@ se actualizan igual.
    decláralo en `business.logo`; si el archivo ya trae el nombre
    dibujado, nómbralo con "wordmark" (ej. `logo-wordmark.svg`) y el
    header lo mostrará solo, sin duplicar el texto.
+   Si el brief trae además un **isotipo cuadrado**, descárgalo a
+   `public/images/icon.<ext>` (svg/png/jpg/webp) y declara
+   `business.icon` — favicon y apple-icon salen SOLOS del motor
+   (`app/icon.tsx` y `app/apple-icon.tsx`, isotipo centrado sobre el
+   fondo del theme); sin `icon`, el motor genera el monograma con la
+   inicial. **Jamás generes favicons a mano** ni agregues un
+   `favicon.ico`: icon.tsx cubre los navegadores modernos y un .ico
+   suelto pisaría la convención de Next.
 2. **`app/theme.css`** — copia el preset de `themes/` que corresponda al
    giro (obsidiana: despachos/servicios profesionales; cantera:
    construcción/industrial) y varía hue/chroma para el cliente siguiendo
