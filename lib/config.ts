@@ -57,7 +57,9 @@ export const businessSchema = z.object({
   }),
   /** Formato internacional legible: "+52 871 712 3456" */
   phone: z.string().min(8),
-  whatsapp: z.string().min(8),
+  /** Opcional: sin número de WhatsApp propio, los enlaces wa.me usan phone
+   *  (en negocios locales casi siempre son el mismo número). */
+  whatsapp: z.string().min(8).optional(),
   /** Opcional: los leads de Google Maps rara vez lo publican. Nunca inventarlo. */
   email: z.email().optional(),
   /** Opcional como todo dato del negocio: sin horario real, contact oculta
@@ -292,9 +294,9 @@ export function yearsInBusiness(business: Business): number | null {
   return Math.max(1, new Date().getFullYear() - business.founded);
 }
 
-/** Solo dígitos, para enlaces wa.me */
+/** Solo dígitos, para enlaces wa.me (fallback: el teléfono del negocio). */
 export function whatsappDigits(business: Business): string {
-  return business.whatsapp.replace(/\D/g, "");
+  return (business.whatsapp ?? business.phone).replace(/\D/g, "");
 }
 
 /** Dirección en una línea, para mapas y JSON-LD */
