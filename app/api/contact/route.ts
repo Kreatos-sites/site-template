@@ -15,6 +15,8 @@ const payloadSchema = z.object({
  * - Si flags.contactForm es false, la ruta se comporta como inexistente (404).
  * - Requiere RESEND_API_KEY en el entorno. Opcional: CONTACT_FROM
  *   (remitente verificado en Resend; por defecto onboarding@resend.dev).
+ * - Destinatario: CONTACT_FORWARD_EMAIL (env) o, en su defecto,
+ *   business.email. Si no existe ninguno, responde 503.
  */
 export async function POST(request: Request) {
   if (!config.flags.contactForm) {
@@ -33,13 +35,25 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "not_configured" }, { status: 503 });
   }
 
+  const forwardTo = process.env.CONTACT_FORWARD_EMAIL ?? config.business.email;
+  if (!forwardTo) {
+    return NextResponse.json(
+      {
+        error: "no_recipient",
+        message:
+          "No hay destinatario configurado: define CONTACT_FORWARD_EMAIL o business.email.",
+      },
+      { status: 503 },
+    );
+  }
+
   const { name, email, phone, message } = parsed.data;
   const { Resend } = await import("resend");
   const resend = new Resend(apiKey);
 
   const { error } = await resend.emails.send({
     from: process.env.CONTACT_FROM ?? "Sitio web <onboarding@resend.dev>",
-    to: [config.business.email],
+    to: [forwardTo],
     replyTo: email,
     subject: `Nuevo mensaje del sitio web: ${name}`,
     text: [

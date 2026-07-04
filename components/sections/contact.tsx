@@ -58,22 +58,24 @@ export function Contact({ showMap = true }: SectionOf<"contact">) {
                   </div>
                 </div>
 
-                <div className="flex gap-4">
-                  <Mail className="mt-1 size-5 shrink-0 text-primary" aria-hidden="true" />
-                  <div>
-                    <dt className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase">
-                      {t("emailLabel")}
-                    </dt>
-                    <dd className="mt-1.5">
-                      <a
-                        href={`mailto:${business.email}`}
-                        className="text-[0.95rem] underline-offset-4 hover:underline"
-                      >
-                        {business.email}
-                      </a>
-                    </dd>
+                {business.email && (
+                  <div className="flex gap-4">
+                    <Mail className="mt-1 size-5 shrink-0 text-primary" aria-hidden="true" />
+                    <div>
+                      <dt className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase">
+                        {t("emailLabel")}
+                      </dt>
+                      <dd className="mt-1.5">
+                        <a
+                          href={`mailto:${business.email}`}
+                          className="text-[0.95rem] underline-offset-4 hover:underline"
+                        >
+                          {business.email}
+                        </a>
+                      </dd>
+                    </div>
                   </div>
-                </div>
+                )}
 
                 <div className="flex gap-4">
                   <Clock className="mt-1 size-5 shrink-0 text-primary" aria-hidden="true" />

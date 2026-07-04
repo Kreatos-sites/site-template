@@ -5,8 +5,9 @@ import { yearsInBusiness } from "@/lib/config";
 import config from "@/site.config";
 
 /**
- * Banda de datos verificables: años (calculados desde founded),
- * rating y reseñas reales de la ficha de Google. Nada inventado.
+ * Banda de datos verificables: años (calculados desde founded, si existe),
+ * rating y reseñas reales de la ficha de Google. Nada inventado: si
+ * `founded` no está en la config, el ítem de años simplemente no se muestra.
  */
 export function TrustBar() {
   const t = useTranslations("trust-bar");
@@ -14,8 +15,8 @@ export function TrustBar() {
   const years = yearsInBusiness(config.business);
   const { rating, reviewsCount, uri } = config.business.maps;
 
-  const items = [
-    { value: String(years), label: t("yearsLabel") },
+  const items: { value: string; label: string; icon?: boolean; href?: string }[] = [
+    ...(years !== null ? [{ value: String(years), label: t("yearsLabel") }] : []),
     {
       value: rating.toFixed(1),
       label: t("ratingLabel"),

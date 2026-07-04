@@ -27,6 +27,9 @@ cliente y rompe la garantía de que todos los sitios se actualizan igual.
    LocalBusiness: `AccountingService`, `GeneralContractor`, `MovingCompany`,
    `WholesaleStore`...). Define `sections` (orden = render) con sus
    variantes, `design` y `flags`. Ejecuta `pnpm validate-config` temprano.
+   **`email` y `founded` son opcionales**: si el lead no los tiene,
+   omítelos — el motor oculta sus renders automáticamente (contacto,
+   footer, trust-bar, aviso de privacidad y JSON-LD). Nunca los inventes.
 2. **`app/theme.css`** — copia el preset de `themes/` que corresponda al
    giro (obsidiana: despachos/servicios profesionales; cantera:
    construcción/industrial) y varía hue/chroma para el cliente siguiendo

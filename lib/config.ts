@@ -35,7 +35,8 @@ export const businessSchema = z.object({
   /** Formato internacional legible: "+52 871 712 3456" */
   phone: z.string().min(8),
   whatsapp: z.string().min(8),
-  email: z.email(),
+  /** Opcional: los leads de Google Maps rara vez lo publican. Nunca inventarlo. */
+  email: z.email().optional(),
   hours: z.array(hoursSchema).min(1),
   maps: z.object({
     /** URL pública de la ficha de Google Maps */
@@ -44,8 +45,11 @@ export const businessSchema = z.object({
     rating: z.number().min(0).max(5),
     reviewsCount: z.number().int().nonnegative(),
   }),
-  /** Año de fundación (los años de experiencia se calculan en el motor) */
-  founded: z.number().int().min(1900).max(2100),
+  /**
+   * Año de fundación (los años de experiencia se calculan en el motor).
+   * Opcional: si el dato no es verificable, omítelo — nunca lo inventes.
+   */
+  founded: z.number().int().min(1900).max(2100).optional(),
   social: z.object({
     facebook: z.url().optional(),
     linkedin: z.url().optional(),
@@ -148,8 +152,12 @@ export type Business = z.infer<typeof businessSchema>;
 /** Extrae la config de una sección concreta del union */
 export type SectionOf<T extends SectionId> = Extract<SectionConfig, { id: T }>;
 
-/** Años de ejercicio, calculados — nunca los escribas a mano en el copy dinámico */
-export function yearsInBusiness(business: Business): number {
+/**
+ * Años de ejercicio, calculados — nunca los escribas a mano en el copy
+ * dinámico. Devuelve null si `founded` no está en la config (dato opcional).
+ */
+export function yearsInBusiness(business: Business): number | null {
+  if (business.founded === undefined) return null;
   return Math.max(1, new Date().getFullYear() - business.founded);
 }
 

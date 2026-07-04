@@ -16,8 +16,10 @@ export function buildJsonLd(config: SiteConfig) {
     description: seo.description,
     url: `https://${seo.domain}`,
     telephone: business.phone,
-    email: business.email,
-    foundingDate: String(business.founded),
+    ...(business.email ? { email: business.email } : {}),
+    ...(business.founded !== undefined
+      ? { foundingDate: String(business.founded) }
+      : {}),
     address: {
       "@type": "PostalAddress",
       streetAddress: `${business.address.street}, ${business.address.colonia}`,

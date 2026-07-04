@@ -73,7 +73,11 @@ export default function AvisoDePrivacidadPage() {
             podremos utilizar sus datos para informarle sobre servicios,
             cambios normativos o comunicaciones relacionadas con nuestra
             actividad. Puede oponerse a estas finalidades secundarias en
-            cualquier momento escribiendo a {business.email}.
+            cualquier momento{" "}
+            {business.email
+              ? `escribiendo a ${business.email}`
+              : `llamando al ${business.phone} o acudiendo a nuestro domicilio`}
+            .
           </p>
         </section>
 
@@ -100,8 +104,9 @@ export default function AvisoDePrivacidadPage() {
             consentimiento otorgado.
           </p>
           <p>
-            Para ejercer estos derechos, envíe una solicitud al correo{" "}
-            {business.email} o preséntela en nuestro domicilio, indicando su
+            {business.email
+              ? `Para ejercer estos derechos, envíe una solicitud al correo ${business.email} o preséntela en nuestro domicilio, indicando su`
+              : `Para ejercer estos derechos, presente una solicitud en nuestro domicilio o comuníquese al teléfono ${business.phone}, indicando su`}{" "}
             nombre completo, el derecho que desea ejercer y un medio para
             comunicarle la respuesta. Responderemos en los plazos que establece
             la LFPDPPP.

@@ -37,13 +37,17 @@ export function Footer() {
               >
                 {business.phone}
               </a>
-              {" · "}
-              <a
-                href={`mailto:${business.email}`}
-                className="underline-offset-4 hover:text-foreground hover:underline"
-              >
-                {business.email}
-              </a>
+              {business.email && (
+                <>
+                  {" · "}
+                  <a
+                    href={`mailto:${business.email}`}
+                    className="underline-offset-4 hover:text-foreground hover:underline"
+                  >
+                    {business.email}
+                  </a>
+                </>
+              )}
             </address>
           </div>
 
