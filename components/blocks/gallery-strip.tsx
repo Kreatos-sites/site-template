@@ -50,20 +50,18 @@ export function GalleryStrip({ ns }: { ns: string }) {
           {images.map((image, index) => (
             <li
               key={image.src}
-              className="w-[78vw] shrink-0 snap-start sm:w-[46vw] lg:w-auto lg:shrink lg:grow lg:snap-align-none"
-              style={{ flexBasis: index % 3 === 1 ? "34%" : "26%" }}
+              className="w-[78vw] shrink-0 snap-start sm:w-[46vw] lg:w-auto lg:shrink lg:grow lg:basis-0 lg:snap-align-none"
             >
               <figure className="group">
                 <div className="overflow-hidden">
+                  {/* Aspect UNIFORME para toda la tira: en un carrusel/strip
+                      las imágenes deben tener el MISMO alto sin importar el
+                      tamaño de origen (object-cover de SmartImage recorta). */}
                   <SmartImage
                     src={image.src}
                     alt={image.alt}
-                    className={
-                      index % 3 === 1
-                        ? "aspect-[3/4] w-full"
-                        : "aspect-[4/5] w-full"
-                    }
-                    sizes="(min-width: 1024px) 34vw, 78vw"
+                    className="aspect-[4/5] w-full"
+                    sizes="(min-width: 1024px) 30vw, 78vw"
                   />
                 </div>
                 {image.caption ? (
