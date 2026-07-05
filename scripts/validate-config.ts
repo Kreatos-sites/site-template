@@ -14,6 +14,7 @@
  *
  * Sale con código 1 si algo falla. Es motor: NO modificar al personalizar.
  */
+import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
@@ -329,6 +330,42 @@ for (const [pi, page] of (config.pages ?? []).entries()) {
         );
       }
     });
+  }
+}
+
+/* ---------- 8. Fotos de contenido duplicadas (misma foto, distinto nombre) ---------- */
+// Cuando faltan fotos reales, el agente a veces COPIA una a varios nombres
+// semánticos (en HR: caso-retail.webp == caso-farma.webp byte a byte). En un
+// demo de venta eso se ve repetitivo. Se detecta por hash de bytes de las
+// imágenes REFERENCIADAS en el copy; el logo/isotipo se excluyen (son marca).
+{
+  const business = (config as { business?: Record<string, unknown> }).business ?? {};
+  const brandPaths = new Set(
+    (["logo", "icon"] as const)
+      .map((k) => business[k])
+      .filter((v): v is string => typeof v === "string" && v.length > 0),
+  );
+  // svg fuera: suelen ser decorativos compartidos a propósito.
+  const contentImgRe = /\.(png|jpg|jpeg|webp|avif)$/i;
+  const referenced = new Set<string>();
+  walkStrings(messages, "", (text) => {
+    if (text.startsWith("/") && contentImgRe.test(text) && !brandPaths.has(text)) {
+      referenced.add(text);
+    }
+  });
+  const byHash = new Map<string, string[]>();
+  for (const p of referenced) {
+    const fp = join(root, "public", p.replace(/^\//, ""));
+    if (!existsSync(fp)) continue;
+    const h = createHash("sha1").update(readFileSync(fp)).digest("hex");
+    byHash.set(h, [...(byHash.get(h) ?? []), p]);
+  }
+  for (const paths of byHash.values()) {
+    if (paths.length >= 2) {
+      errors.push(
+        `[imagenes] la MISMA foto se reutiliza con ${paths.length} nombres distintos (${paths.join(", ")}) — byte a byte idéntica. En un demo de venta se ve repetitivo: usa fotos distintas, stock del giro con treatment, o un placeholder DISEÑADO por sección. No dupliques una foto real para rellenar.`,
+      );
+    }
   }
 }
 
