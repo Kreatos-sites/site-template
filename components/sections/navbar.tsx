@@ -15,20 +15,18 @@ import config from "@/site.config";
 type NavLink = { href: string; label: string };
 
 /**
- * Marca del header. NUNCA muestra la razón social completa si existe
- * `business.shortName`. Con `business.logo`:
- * - archivo cuyo nombre contiene "wordmark" → el logo ya trae el nombre
- *   dibujado y se muestra solo (alt = shortName ?? name);
- * - cualquier otro logo se trata como isotipo y va acompañado del nombre.
- * Sin logo: inicial generada + nombre corto (comportamiento histórico).
+ * Marca del header. Con `business.logo` presente, se muestra SOLO el logo —
+ * sin el nombre en texto al lado (el logo ya ES la marca; duplicar con texto
+ * se ve redundante). El nombre en texto aparece únicamente cuando NO hay logo
+ * (fallback: monograma con la inicial + nombre corto). `alt` del logo lleva el
+ * nombre para accesibilidad. Nunca se muestra la razón social completa si
+ * existe `business.shortName`.
  */
 function Brand() {
   const { name, shortName, logo } = config.business;
   const brandName = shortName ?? name;
 
   if (logo) {
-    const isWordmark = /wordmark/i.test(logo);
-
     return (
       <Link href="/" className="flex items-center gap-3">
         {/* unoptimized: los logos suelen ser SVG/PNG mínimos y el optimizador
@@ -42,11 +40,6 @@ function Brand() {
           unoptimized
           className="h-8 w-auto"
         />
-        {!isWordmark && (
-          <span className="font-display text-lg leading-tight tracking-tight">
-            {brandName}
-          </span>
-        )}
       </Link>
     );
   }
