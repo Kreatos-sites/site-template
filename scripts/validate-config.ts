@@ -199,6 +199,56 @@ for (const [pi, page] of (config.pages ?? []).entries()) {
   checkCustomSections(page.sections, `pages[${pi}] (/${page.slug})`);
 }
 
+/* ---------- 6. Contraste mínimo del theme (texto legible) ---------- */
+// Un theme con foreground/background o muted-foreground demasiado cercanos en
+// lightness produce texto casi invisible — el defecto que más "abarata" un
+// sitio (pasó en un demo real). Heurística por L de oklch (0..1): aproxima el
+// contraste percibido lo bastante para BLOQUEAR lo ilegible antes de entregar.
+{
+  const themePath = join(root, "app", "theme.css");
+  let css = "";
+  try {
+    css = readFileSync(themePath, "utf8");
+  } catch {
+    css = "";
+  }
+  if (css) {
+    const parseBlock = (selector: string): Record<string, number> => {
+      const re = new RegExp(`${selector.replace(/\./g, "\\.")}\\s*\\{([^}]*)\\}`);
+      const body = re.exec(css)?.[1] ?? "";
+      const tokens: Record<string, number> = {};
+      for (const m of body.matchAll(/--([\w-]+):\s*oklch\(\s*([0-9.]+)/g)) {
+        tokens[m[1]] = parseFloat(m[2]);
+      }
+      return tokens;
+    };
+    // [texto, fondo, ΔL mínimo]. El cuerpo exige más separación que lo muted.
+    const pairs: Array<[string, string, number]> = [
+      ["foreground", "background", 0.45],
+      ["card-foreground", "card", 0.45],
+      ["muted-foreground", "background", 0.3],
+      ["muted-foreground", "muted", 0.25],
+      ["muted-foreground", "card", 0.25],
+      ["primary-foreground", "primary", 0.4],
+      ["accent-foreground", "accent", 0.4],
+      ["secondary-foreground", "secondary", 0.4],
+    ];
+    for (const mode of [":root", ".dark"]) {
+      const t = parseBlock(mode);
+      if (Object.keys(t).length === 0) continue;
+      for (const [fg, bg, min] of pairs) {
+        if (t[fg] === undefined || t[bg] === undefined) continue;
+        const delta = Math.abs(t[fg] - t[bg]);
+        if (delta < min) {
+          errors.push(
+            `[contraste] ${mode}: --${fg} (L=${t[fg]}) sobre --${bg} (L=${t[bg]}) casi ilegible (ΔL=${delta.toFixed(2)} < ${min}). Separa más los lightness: texto oscuro sobre fondo claro (o al revés en dark).`,
+          );
+        }
+      }
+    }
+  }
+}
+
 /* ---------- Resultado ---------- */
 if (errors.length > 0) {
   console.error(`validate-config: ${errors.length} problema(s) encontrados\n`);
@@ -207,5 +257,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  "validate-config: OK (schema, copy, espejo de keys, tokens de color y registry custom)",
+  "validate-config: OK (schema, copy, espejo de keys, tokens de color, contraste y registry custom)",
 );

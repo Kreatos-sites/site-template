@@ -129,7 +129,14 @@ export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
   if (variant === "split-image") {
     return (
       <section className="pt-(--section-gap) pb-(--section-gap)">
-        <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-6 lg:grid-cols-2 lg:px-8">
+        <div
+          className={
+            image
+              ? "mx-auto grid w-full max-w-6xl items-center gap-12 px-6 lg:grid-cols-2 lg:px-8"
+              : // Sin imagen: el titular ocupa el ancho, nada de media pantalla vacía.
+                "mx-auto w-full max-w-4xl px-6 lg:px-8"
+          }
+        >
           <HeroStagger>
             <HeroItem>
               <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary uppercase">
@@ -170,8 +177,15 @@ export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
   // y desplazada a la derecha. Asimetría deliberada.
   return (
     <section className="overflow-x-clip pt-[calc(var(--section-gap)*0.8)] pb-(--section-gap)">
-      <div className="mx-auto grid w-full max-w-6xl gap-14 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
-        <div className="lg:col-span-7">
+      <div
+        className={
+          image
+            ? "mx-auto grid w-full max-w-6xl gap-14 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8"
+            : // Sin imagen: una sola columna al ancho del titular — sin hueco muerto.
+              "mx-auto w-full max-w-4xl px-6 lg:px-8"
+        }
+      >
+        <div className={image ? "lg:col-span-7" : ""}>
           <HeroStagger>
             <HeroItem>
               <p className="mb-5 text-xs font-medium tracking-[0.25em] text-primary uppercase">
