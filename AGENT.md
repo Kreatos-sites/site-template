@@ -375,5 +375,9 @@ pnpm typecheck        # tsc --noEmit
 pnpm lint             # eslint
 pnpm validate-config  # schema + copy + espejo de keys + tokens de color
 pnpm qa               # build + validate + screenshots → .qa/qa-report.json
-pnpm screenshots      # solo capturas (requiere build previo) → .qa/screenshots/
+pnpm qa --skip-build --skip-screenshots  # consolida reporte reutilizando lo ya corrido
+pnpm screenshots      # todas las capturas en uno (requiere build previo)
+pnpm screenshots:serve            # server de QA persistente (sandbox: un paso)
+pnpm screenshots:page -- --route /  # captura UNA página contra el server vivo
+pnpm screenshots:stop             # mata el server de QA
 ```

@@ -77,7 +77,27 @@ if (skipBuild) {
 // Solo validamos si el build compiló; si no, el reporte ya trae el fallo.
 if (steps[0].ok) {
   steps.push(runStep("validate-config", "pnpm", ["validate-config"]));
-  steps.push(runStep("screenshots", "pnpm", ["screenshots"]));
+  // --skip-screenshots: el agente ya capturó página por página (flujo por
+  // pasos del sandbox: screenshots:serve → screenshots:page × N → stop);
+  // aquí solo se verifica que existan.
+  if (process.argv.includes("--skip-screenshots")) {
+    const dir = join(root, ".qa", "screenshots");
+    const existing = existsSync(dir)
+      ? readdirSync(dir).filter((f) => f.endsWith(".png")).length
+      : 0;
+    steps.push({
+      name: "screenshots",
+      command: "pnpm screenshots (omitido: --skip-screenshots)",
+      ok: existing > 0,
+      durationMs: 0,
+      outputTail:
+        existing > 0
+          ? `${existing} capturas ya presentes en .qa/screenshots/`
+          : "no hay capturas en .qa/screenshots/ — corre screenshots:serve + screenshots:page primero",
+    });
+  } else {
+    steps.push(runStep("screenshots", "pnpm", ["screenshots"]));
+  }
 }
 
 // Gate duro: build + validate. Screenshots es no-fatal (se reporta, no

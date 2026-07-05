@@ -12,7 +12,10 @@
     "typecheck": "tsc --noEmit",
     "validate-config": "tsx scripts/validate-config.ts",
     "qa": "tsx scripts/qa.ts",
-    "screenshots": "tsx scripts/screenshots.ts"
+    "screenshots": "tsx scripts/screenshots.ts",
+    "screenshots:serve": "tsx scripts/screenshots.ts --serve",
+    "screenshots:page": "tsx scripts/screenshots.ts",
+    "screenshots:stop": "tsx scripts/screenshots.ts --stop"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",

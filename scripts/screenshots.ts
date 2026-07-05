@@ -1,15 +1,21 @@
 /**
- * Screenshots de entrega. Corre con: pnpm screenshots (o vía pnpm qa).
+ * Screenshots de entrega.
  *
- * Levanta el build de producción (next start) y captura cada ruta del sitio
- * con Playwright en tres condiciones: desktop light, desktop dark y mobile
- * light (las interiores solo desktop light + mobile). Los PNG quedan en
- * .qa/screenshots/ — el agente los revisa con visión antes de entregar.
+ * Modos:
+ *  - `pnpm screenshots`            → todo en uno (server + todas las rutas,
+ *    capturas concurrentes). Para uso local/CI.
+ *  - `pnpm screenshots:serve`      → SOLO arranca next start persistente
+ *    (queda vivo entre comandos; pid en .qa/next.pid). Para el sandbox.
+ *  - `pnpm screenshots:page -- --route /servicios` → captura UNA página
+ *    contra el server ya vivo (un comando corto por página; los modos
+ *    salen solos: home = desktop light+dark+mobile, interior = desktop+mobile).
+ *  - `pnpm screenshots:stop`       → mata el server persistente.
  *
- * Requiere `pnpm build` previo (qa.ts lo garantiza).
+ * Los PNG quedan en .qa/screenshots/ — el agente los revisa con visión.
+ * Requiere `pnpm build` previo.
  */
 import { spawn, spawnSync } from "node:child_process";
-import { mkdirSync, rmSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 import { chromium } from "playwright";
@@ -18,10 +24,11 @@ import config from "../site.config";
 
 const root = process.cwd();
 const outDir = join(root, ".qa", "screenshots");
+const pidFile = join(root, ".qa", "next.pid");
 const PORT = Number(process.env.QA_PORT ?? 4321);
 const BASE = `http://127.0.0.1:${PORT}`;
 
-const routes = ["/", ...(config.pages ?? []).map((p) => `/${p.slug}`)].slice(0, 6);
+const allRoutes = ["/", ...(config.pages ?? []).map((p) => `/${p.slug}`)].slice(0, 6);
 
 type Shot = {
   route: string;
@@ -37,7 +44,7 @@ function slugOf(route: string): string {
 const DESKTOP = { width: 1440, height: 900 };
 const MOBILE = { width: 390, height: 844 };
 
-const shots: Shot[] = routes.flatMap((route) => {
+function shotsFor(route: string): Shot[] {
   const slug = slugOf(route);
   const base: Shot[] = [
     { route, name: `${slug}-desktop-light`, viewport: DESKTOP, colorScheme: "light" },
@@ -53,24 +60,27 @@ const shots: Shot[] = routes.flatMap((route) => {
     });
   }
   return base;
-});
+}
+
+async function serverAlive(): Promise<boolean> {
+  try {
+    const res = await fetch(BASE, { redirect: "manual" });
+    return res.status < 500;
+  } catch {
+    return false;
+  }
+}
 
 async function waitForServer(): Promise<void> {
   for (let i = 0; i < 45; i++) {
-    try {
-      const res = await fetch(BASE, { redirect: "manual" });
-      if (res.status < 500) return;
-    } catch {
-      // aún no levanta
-    }
+    if (await serverAlive()) return;
     await new Promise((r) => setTimeout(r, 1000));
   }
   throw new Error(`next start no respondió en ${BASE} tras 45s`);
 }
 
-async function main(): Promise<void> {
-  // Navegador presente (idempotente; en el sandbox corre como root y puede
-  // instalar dependencias del sistema).
+function ensureBrowser(): void {
+  // Idempotente; en el sandbox corre como root y puede instalar deps.
   const installArgs = ["playwright", "install", "chromium"];
   if (typeof process.getuid === "function" && process.getuid() === 0) {
     installArgs.push("--with-deps");
@@ -79,10 +89,140 @@ async function main(): Promise<void> {
   if (install.status !== 0) {
     throw new Error("playwright install chromium falló");
   }
+}
 
+async function capture(browser: import("playwright").Browser, shot: Shot): Promise<void> {
+  const context = await browser.newContext({
+    viewport: shot.viewport,
+    colorScheme: shot.colorScheme,
+    reducedMotion: "reduce", // capturas estables: sin animaciones a medias
+  });
+  try {
+    // next-themes usa defaultTheme fijo del config (no "system"), así que
+    // prefers-color-scheme no basta: se fuerza el modo vía su localStorage.
+    await context.addInitScript((mode: string) => {
+      window.localStorage.setItem("theme", mode);
+    }, shot.colorScheme);
+    const page = await context.newPage();
+    // networkidle puede no llegar (analytics/polling): fallback a load — el
+    // scroll de abajo dispara el lazy-load igual.
+    await page
+      .goto(`${BASE}${shot.route}`, { waitUntil: "networkidle", timeout: 20_000 })
+      .catch(() =>
+        page.goto(`${BASE}${shot.route}`, { waitUntil: "load", timeout: 20_000 }),
+      );
+    // Recorrer la página completa: dispara los reveals whileInView (once:true)
+    // y el lazy-load de imágenes antes del fullPage.
+    await page.evaluate(async () => {
+      const step = window.innerHeight;
+      for (let y = 0; y < document.body.scrollHeight; y += step) {
+        window.scrollTo(0, y);
+        await new Promise((r) => setTimeout(r, 120));
+      }
+      window.scrollTo(0, 0);
+    });
+    await page.waitForTimeout(500); // fonts/imágenes tardías + settle
+    await page.screenshot({ path: join(outDir, `${shot.name}.png`), fullPage: true });
+    console.log(`[screenshots] ${shot.name}.png`);
+  } finally {
+    await context.close();
+  }
+}
+
+async function captureAll(shots: Shot[]): Promise<void> {
+  const browser = await chromium.launch();
+  try {
+    // Pool de 3: en serie, 10+ shots con scroll completo tardan demasiado.
+    const queue = [...shots];
+    const workers = Array.from(
+      { length: Math.min(3, queue.length) },
+      async () => {
+        for (;;) {
+          const shot = queue.shift();
+          if (!shot) return;
+          await capture(browser, shot);
+        }
+      },
+    );
+    await Promise.all(workers);
+  } finally {
+    await browser.close();
+  }
+}
+
+function startDetachedServer(): void {
+  mkdirSync(join(root, ".qa"), { recursive: true });
+  const server = spawn("npx", ["next", "start", "-p", String(PORT)], {
+    cwd: root,
+    detached: true,
+    stdio: "ignore",
+    env: process.env,
+  });
+  server.unref();
+  if (server.pid) writeFileSync(pidFile, String(server.pid));
+}
+
+function stopDetachedServer(): void {
+  if (!existsSync(pidFile)) {
+    console.log("[screenshots] sin server registrado (.qa/next.pid no existe)");
+    return;
+  }
+  const pid = Number(readFileSync(pidFile, "utf8").trim());
+  try {
+    // Grupo negativo: next start crea hijos; el detached lidera su grupo.
+    process.kill(-pid, "SIGTERM");
+  } catch {
+    try {
+      process.kill(pid, "SIGTERM");
+    } catch {
+      // ya no existe
+    }
+  }
+  rmSync(pidFile, { force: true });
+  console.log("[screenshots] server detenido");
+}
+
+async function main(): Promise<void> {
+  const args = process.argv.slice(2);
+
+  if (args.includes("--stop")) {
+    stopDetachedServer();
+    return;
+  }
+
+  if (args.includes("--serve")) {
+    ensureBrowser(); // precalienta aquí: las capturas por página salen rápido
+    if (await serverAlive()) {
+      console.log(`[screenshots] server ya vivo en ${BASE}`);
+      return;
+    }
+    startDetachedServer();
+    await waitForServer();
+    console.log(`[screenshots] server listo en ${BASE} (pid en .qa/next.pid)`);
+    return;
+  }
+
+  const routeIdx = args.indexOf("--route");
+  if (routeIdx !== -1) {
+    // Una página por comando (server ya vivo vía --serve).
+    const route = args[routeIdx + 1];
+    if (!route?.startsWith("/")) {
+      throw new Error('Uso: pnpm screenshots:page -- --route /servicios');
+    }
+    if (!(await serverAlive())) {
+      throw new Error(
+        `El server de QA no responde en ${BASE}: corre \`pnpm screenshots:serve\` primero.`,
+      );
+    }
+    mkdirSync(outDir, { recursive: true });
+    await captureAll(shotsFor(route));
+    return;
+  }
+
+  // Modo todo-en-uno (local/CI): server propio + todas las rutas.
+  ensureBrowser();
   rmSync(outDir, { recursive: true, force: true });
   mkdirSync(outDir, { recursive: true });
-
   const server = spawn("npx", ["next", "start", "-p", String(PORT)], {
     cwd: root,
     stdio: ["ignore", "pipe", "pipe"],
@@ -90,46 +230,11 @@ async function main(): Promise<void> {
   });
   try {
     await waitForServer();
-    const browser = await chromium.launch();
-    try {
-      for (const shot of shots) {
-        const context = await browser.newContext({
-          viewport: shot.viewport,
-          colorScheme: shot.colorScheme,
-          reducedMotion: "reduce", // capturas estables: sin animaciones a medias
-        });
-        // next-themes usa defaultTheme fijo del config (no "system"), así que
-        // prefers-color-scheme no basta: se fuerza el modo vía su localStorage.
-        await context.addInitScript((mode: string) => {
-          window.localStorage.setItem("theme", mode);
-        }, shot.colorScheme);
-        const page = await context.newPage();
-        await page.goto(`${BASE}${shot.route}`, { waitUntil: "networkidle" });
-        // Recorrer la página completa: dispara los reveals whileInView
-        // (once:true) y el lazy-load de imágenes antes del fullPage.
-        await page.evaluate(async () => {
-          const step = window.innerHeight;
-          for (let y = 0; y < document.body.scrollHeight; y += step) {
-            window.scrollTo(0, y);
-            await new Promise((r) => setTimeout(r, 120));
-          }
-          window.scrollTo(0, 0);
-        });
-        await page.waitForTimeout(500); // fonts/imágenes tardías + settle
-        await page.screenshot({
-          path: join(outDir, `${shot.name}.png`),
-          fullPage: true,
-        });
-        await context.close();
-        console.log(`[screenshots] ${shot.name}.png`);
-      }
-    } finally {
-      await browser.close();
-    }
+    await captureAll(allRoutes.flatMap(shotsFor));
   } finally {
     server.kill("SIGTERM");
   }
-  console.log(`[screenshots] ${shots.length} capturas en .qa/screenshots/`);
+  console.log(`[screenshots] capturas en .qa/screenshots/`);
 }
 
 main().catch((error) => {
