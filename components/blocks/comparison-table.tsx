@@ -86,7 +86,10 @@ export function ComparisonTable({ ns }: { ns: string }) {
             </div>
           </Reveal>
 
-          <Reveal className="lg:col-span-8" delay={80}>
+          <Reveal className="min-w-0 lg:col-span-8" delay={80}>
+            {/* min-w-0 en el item del grid: sin él, el min-w-[36rem] de la tabla
+                estira el track a 36rem y desborda el viewport en mobile en vez
+                de dejar que este contenedor haga scroll horizontal de la tabla. */}
             <div className="-mx-6 overflow-x-auto px-6 lg:mx-0 lg:px-0">
               <table className="w-full min-w-[36rem] border-collapse text-left">
                 <caption className="sr-only">{t("title")}</caption>

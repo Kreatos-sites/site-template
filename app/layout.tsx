@@ -53,7 +53,11 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={fontVariables} suppressHydrationWarning>
       <body
-        className="bg-background text-foreground font-body antialiased"
+        /* overflow-x-clip: red de seguridad contra desbordes horizontales en
+           mobile (una sección/tabla/custom más ancha que el viewport no genera
+           scroll horizontal de página). `clip` NO crea contenedor de scroll, así
+           que el `sticky` del navbar sigue funcionando (a diferencia de hidden). */
+        className="overflow-x-clip bg-background text-foreground font-body antialiased"
         data-density={config.design.density}
         data-motion={config.design.motion}
       >
