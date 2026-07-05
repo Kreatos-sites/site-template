@@ -9,7 +9,12 @@ type NavLink = { href: string; label: string };
 /** Sección de sitio: se hereda de la home y se renderiza igual en todas las páginas. */
 export function Footer({ ns }: SectionOf<"footer">) {
   const t = useTranslations(ns ?? "footer");
-  const tNav = useTranslations("navbar");
+  // El ns del navbar sale de config (el art-director puede nombrarlo
+  // "navbar-main", etc.), NUNCA hardcodeado: hardcodear "navbar" tumbaba el
+  // build con MISSING_MESSAGE cuando el ns real difería, y tentaba al agente a
+  // parchar este archivo de motor (prohibido).
+  const navNs = config.sections.find((s) => s.id === "navbar")?.ns ?? "navbar";
+  const tNav = useTranslations(navNs);
   const links = tNav.raw("links") as NavLink[];
   const { business } = config;
   const year = new Date().getFullYear();
