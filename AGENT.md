@@ -15,6 +15,7 @@ funciona sin tocarse.
 | 4 | `app/fonts.ts` | Par tipográfico: se activa uno de los pares curados |
 | 5 | `public/images/` | Se reemplazan los placeholders por fotos reales (y el logo si hay) |
 | 6 | `components/custom/` | Secciones escritas desde cero + su `registry.ts` (ver "Secciones custom") |
+| 7 | `DEMO.md` | Manifiesto de pendientes del demo: `- [ ] <material> → <dónde vive>` (site-manager lo consume al vender) |
 
 **Nada más.** Si crees que necesitas tocar cualquier otro componente, un
 layout o un script, es un cambio de motor: no pertenece a la
