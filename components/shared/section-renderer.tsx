@@ -1,6 +1,7 @@
 import type { ComponentType } from "react";
 import type { SectionConfig } from "@/lib/config";
 
+import { blockSections } from "@/components/blocks/registry";
 import { customSections } from "@/components/custom/registry";
 import { About } from "@/components/sections/about";
 import { Contact } from "@/components/sections/contact";
@@ -55,6 +56,18 @@ function renderSection(section: SectionConfig, index: number) {
         );
       }
       return <Custom key={`custom-${section.component}-${index}`} ns={section.ns} />;
+    }
+    case "block": {
+      // Bloque de la biblioteca curada (components/blocks/). Motor pre-escrito:
+      // el agente solo lo elige del catálogo y llena su copy.
+      const Block = blockSections[section.block];
+      if (!Block) {
+        throw new Error(
+          `[section-renderer] el bloque "${section.block}" no existe en components/blocks/registry.ts. ` +
+            `Bloques disponibles: ${Object.keys(blockSections).join(", ") || "(ninguno)"}`,
+        );
+      }
+      return <Block key={`block-${section.block}-${index}`} ns={section.ns} />;
     }
     case "page-header":
       return <PageHeader key={section.id} {...section} />;

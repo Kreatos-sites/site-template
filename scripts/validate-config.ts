@@ -17,6 +17,7 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
+import { blockSections } from "../components/blocks/registry";
 import { customSections } from "../components/custom/registry";
 import { siteConfigSchema } from "../lib/config";
 import config from "../site.config";
@@ -181,22 +182,28 @@ for (const file of walkFiles(join(root, "components"))) {
 
 /* ---------- 5. Secciones custom <-> registry ---------- */
 const registeredCustom = new Set(Object.keys(customSections));
+const registeredBlocks = new Set(Object.keys(blockSections));
 
-function checkCustomSections(sections: typeof config.sections, where: string) {
+function checkComposedSections(sections: typeof config.sections, where: string) {
   sections.forEach((section, index) => {
-    if (section.id !== "custom") return;
-    if (!registeredCustom.has(section.component)) {
+    if (section.id === "custom" && !registeredCustom.has(section.component)) {
       errors.push(
         `[custom] ${where} sections[${index}]: el componente "${section.component}" no está registrado en components/custom/registry.ts` +
           ` (keys registradas: ${[...registeredCustom].join(", ") || "ninguna"})`,
       );
     }
+    if (section.id === "block" && !registeredBlocks.has(section.block)) {
+      errors.push(
+        `[block] ${where} sections[${index}]: el bloque "${section.block}" no existe en components/blocks/registry.ts` +
+          ` (bloques disponibles: ${[...registeredBlocks].join(", ") || "ninguno"})`,
+      );
+    }
   });
 }
 
-checkCustomSections(config.sections, "home");
+checkComposedSections(config.sections, "home");
 for (const [pi, page] of (config.pages ?? []).entries()) {
-  checkCustomSections(page.sections, `pages[${pi}] (/${page.slug})`);
+  checkComposedSections(page.sections, `pages[${pi}] (/${page.slug})`);
 }
 
 /* ---------- 6. Contraste mínimo del theme (texto legible) ---------- */

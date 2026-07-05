@@ -219,6 +219,19 @@ export const sectionSchema = z.discriminatedUnion("id", [
     component: z.string().min(2),
     ns: z.string().min(2),
   }),
+  z.object({
+    /**
+     * BLOQUE de la biblioteca curada del motor (components/blocks/). A
+     * diferencia de `custom` (que el agente escribe), estos ya vienen
+     * escritos, probados y variados: el agente COMPONE eligiendo bloques del
+     * catálogo (components/blocks/catalog.ts) y solo llena su copy en es.json.
+     * `block` es la key en components/blocks/registry.ts; `ns` su namespace.
+     * Es el camino contra lo genérico: variedad sin escribir .tsx de cero.
+     */
+    id: z.literal("block"),
+    block: z.string().min(2),
+    ns: z.string().min(2),
+  }),
 ]);
 
 /** Slugs que el motor reserva: colisionan con rutas ya existentes en app/. */
