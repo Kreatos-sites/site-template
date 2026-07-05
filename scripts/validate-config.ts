@@ -220,12 +220,38 @@ for (const [pi, page] of (config.pages ?? []).entries()) {
     css = "";
   }
   if (css) {
+    // Lightness perceptual (OKLab L, 0..1) desde un hex sRGB. Necesario porque
+    // un theme puede declararse en HEX (p. ej. cuando el draft lo genera un
+    // modelo chico) — antes solo se parseaba oklch() y TODO el check de
+    // contraste se saltaba en silencio, dejando pasar dark modes ilegibles.
+    const srgbToLinear = (c: number): number => {
+      const s = c / 255;
+      return s <= 0.04045 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4;
+    };
+    const hexToL = (hex: string): number | null => {
+      let h = hex.replace("#", "").trim();
+      if (h.length === 3) h = h.split("").map((c) => c + c).join("");
+      if (h.length !== 6) return null;
+      const r = srgbToLinear(parseInt(h.slice(0, 2), 16));
+      const g = srgbToLinear(parseInt(h.slice(2, 4), 16));
+      const b = srgbToLinear(parseInt(h.slice(4, 6), 16));
+      const l = Math.cbrt(0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b);
+      const m = Math.cbrt(0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b);
+      const s = Math.cbrt(0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b);
+      return 0.2104542553 * l + 0.793617785 * m - 0.0040720468 * s;
+    };
     const parseBlock = (selector: string): Record<string, number> => {
       const re = new RegExp(`${selector.replace(/\./g, "\\.")}\\s*\\{([^}]*)\\}`);
       const body = re.exec(css)?.[1] ?? "";
       const tokens: Record<string, number> = {};
+      // oklch(L ...): la L es el primer número.
       for (const m of body.matchAll(/--([\w-]+):\s*oklch\(\s*([0-9.]+)/g)) {
         tokens[m[1]] = parseFloat(m[2]);
+      }
+      // hex (#rgb / #rrggbb): se convierte a L OKLab para el mismo umbral.
+      for (const m of body.matchAll(/--([\w-]+):\s*(#[0-9a-fA-F]{3,6})\b/g)) {
+        const L = hexToL(m[2]);
+        if (L !== null) tokens[m[1]] = Number(L.toFixed(3));
       }
       return tokens;
     };
