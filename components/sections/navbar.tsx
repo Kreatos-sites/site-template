@@ -161,7 +161,10 @@ export function Navbar({ variant = "minimal", ns }: SectionOf<"navbar">) {
       {open && (
         <nav
           aria-label="principal móvil"
-          className="border-t border-border bg-background px-6 py-4 lg:hidden"
+          /* absolute + top-full: el menú SE MONTA sobre el contenido (drop-down),
+             no empuja la página. Sin esto crecía el header sticky y desplazaba
+             todo hacia abajo. shadow para separarlo del contenido de fondo. */
+          className="absolute inset-x-0 top-full border-b border-border bg-background px-6 py-4 shadow-lg lg:hidden"
         >
           <ul className="flex flex-col gap-1">
             {links.map((link) => (
