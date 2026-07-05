@@ -1,3 +1,4 @@
+import type { ComponentType } from "react";
 import type { SectionConfig } from "@/lib/config";
 
 import { customSections } from "@/components/custom/registry";
@@ -39,7 +40,12 @@ export function SectionRenderer({ sections }: { sections: SectionConfig[] }) {
 function renderSection(section: SectionConfig, index: number) {
   switch (section.id) {
     case "custom": {
-      const Custom = customSections[section.component];
+      // Cast defensivo: el agente reescribe registry.ts y a veces omite el
+      // tipo Record<...> — sin index signature este acceso no compila. El
+      // motor no debe depender de cómo quedó tipado el registry.
+      const Custom = (
+        customSections as Record<string, ComponentType<{ ns: string }>>
+      )[section.component];
       // Componente no registrado = error duro en build/dev, nunca silencio:
       // validate-config lo detecta antes, pero este throw cubre dev server.
       if (!Custom) {
