@@ -16,7 +16,24 @@ export const alt = config.seo.title;
  */
 export default function OpengraphImage() {
   const tokens = getOgTokens();
-  const tagline = messages.hero.eyebrow;
+  // El eyebrow del hero sale del ns REAL del hero en config (puede ser "hero",
+  // "home.hero", etc.), resuelto dinámicamente sobre messages — NUNCA
+  // `messages.hero` hardcodeado: cuando el hero usaba un ns anidado el tsc
+  // tronaba ("Property 'hero' does not exist") y el agente terminaba parchando
+  // este archivo de MOTOR o metiendo un mirror hack. Fallback a la descripción.
+  const heroNs = config.sections.find((s) => s.id === "hero")?.ns ?? "hero";
+  const heroCopy = heroNs
+    .split(".")
+    .reduce<unknown>(
+      (obj, key) =>
+        obj && typeof obj === "object"
+          ? (obj as Record<string, unknown>)[key]
+          : undefined,
+      messages,
+    );
+  const tagline =
+    (heroCopy as { eyebrow?: string } | undefined)?.eyebrow ??
+    config.seo.description;
 
   return new ImageResponse(
     (
