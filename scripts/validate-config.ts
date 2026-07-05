@@ -14,7 +14,7 @@
  *
  * Sale con código 1 si algo falla. Es motor: NO modificar al personalizar.
  */
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
 import { blockSections } from "../components/blocks/registry";
@@ -279,6 +279,56 @@ for (const [pi, page] of (config.pages ?? []).entries()) {
         }
       }
     }
+  }
+}
+
+/* ---------- 7. Assets de marca: logo/isotipo bien usados ---------- */
+// El logo y el isotipo son de MARCA. Dos defectos reales de generación que este
+// gate vuelve deterministas (antes solo los cazaba el review visual):
+//  a) business.logo apuntando a un logo DERIVADO (logo-mark.webp, etc.) en vez
+//     del logo.<ext> que baja fetch_brand_assets — la conversión a webp aplana
+//     la transparencia y encajona el logo en negro en el navbar.
+//  b) el logo/isotipo REUTILIZADO como imagen de contenido de una sección
+//     (salió un monograma gigante llenando un about).
+{
+  const business = (config as { business?: Record<string, unknown> }).business ?? {};
+  const publicOf = (p: string) => join(root, "public", p.replace(/^\//, ""));
+  const baseName = (p: string) => p.split("/").pop() ?? p;
+
+  // a) business.logo / business.icon: archivo real + nombre canónico.
+  const brandAssets: Array<[string, string, RegExp]> = [
+    ["logo", "logo", /^logo\.(png|svg|jpg|jpeg|webp|avif)$/i],
+    ["icon", "icon", /^icon\.(png|svg|jpg|jpeg|webp|avif)$/i],
+  ];
+  for (const [key, canon, re] of brandAssets) {
+    const value = business[key];
+    if (typeof value !== "string" || !value) continue;
+    if (!existsSync(publicOf(value))) {
+      errors.push(`[assets] business.${key} = "${value}" no existe en public/. Declara la ruta que bajó fetch_brand_assets.`);
+    } else if (!re.test(baseName(value))) {
+      errors.push(
+        `[assets] business.${key} = "${value}" no es el ${canon}.<ext> descargado. NO derives el ${canon} (p. ej. a .webp con ffmpeg: aplana la transparencia y lo encajona en negro) — apunta a "/images/${canon}.<ext>" tal cual.`,
+      );
+    }
+  }
+
+  // b) ninguna imagen de sección (en es.json) puede ser el logo o el isotipo.
+  const brandPaths = new Set(
+    (["logo", "icon"] as const)
+      .map((k) => business[k])
+      .filter((v): v is string => typeof v === "string" && v.length > 0)
+      .map((v) => v.replace(/^\//, "")),
+  );
+  const imgRe = /\.(png|svg|jpg|jpeg|webp|avif)$/i;
+  if (brandPaths.size > 0) {
+    walkStrings(messages, "", (text, path) => {
+      if (!imgRe.test(text)) return;
+      if (brandPaths.has(text.replace(/^\//, ""))) {
+        errors.push(
+          `[assets] ${path} usa el logo/isotipo de marca ("${text}") como imagen de sección. El logo va SOLO en navbar/footer/favicon; las imágenes de sección salen de las fotos (hero.webp, nosotros.webp, servicio-N.webp) o stock del giro.`,
+        );
+      }
+    });
   }
 }
 
