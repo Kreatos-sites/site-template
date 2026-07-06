@@ -6,19 +6,44 @@ import { GoogleRatingBadge } from "@/components/shared/google-rating-badge";
 import { HeroItem, HeroStagger, Reveal } from "@/components/shared/reveal";
 import { SmartImage } from "@/components/shared/smart-image";
 import type { SectionOf } from "@/lib/config";
+import { cn } from "@/lib/utils";
 import config from "@/site.config";
 
 type Stat = { value: string; label: string };
 
-function HeroCtas({ primary, secondary }: { primary: string; secondary: string }) {
+// `onDark` = el hero va SOBRE la imagen full-bleed (overlay oscuro). Ahí el
+// texto y el CTA secundario tienen que ser claros: los tokens por defecto son
+// del modo claro (foreground oscuro) e invisibilizan el copy sobre la foto. El
+// botón primario se invierte (relleno claro/texto primario) para no fundirse
+// con el overlay, igual que en cta-bg-image.
+function HeroCtas({
+  primary,
+  secondary,
+  onDark = false,
+}: {
+  primary: string;
+  secondary: string;
+  onDark?: boolean;
+}) {
   return (
     <div className="flex flex-wrap items-center gap-5">
-      <Button asChild size="lg">
+      <Button
+        asChild
+        size="lg"
+        className={
+          onDark
+            ? "bg-primary-foreground text-primary hover:bg-primary-foreground/90"
+            : undefined
+        }
+      >
         <a href="#contacto">{primary}</a>
       </Button>
       <a
         href="#servicios"
-        className="group inline-flex items-center gap-2 text-sm font-medium text-foreground"
+        className={cn(
+          "group inline-flex items-center gap-2 text-sm font-medium",
+          onDark ? "text-primary-foreground" : "text-foreground"
+        )}
       >
         {secondary}
         <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
@@ -59,10 +84,13 @@ export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
           aria-hidden="true"
           className="absolute inset-0 [background:var(--hero-overlay)]"
         />
-        <div className="relative mx-auto w-full max-w-6xl px-6 pt-32 pb-16 lg:px-8">
+        {/* text-primary-foreground: el copy va SOBRE el overlay oscuro, así que
+            hereda el color claro por defecto (el eyebrow/subtítulo solo bajan
+            opacidad). Sin esto, el h1 caía a `foreground` oscuro e invisible. */}
+        <div className="relative mx-auto w-full max-w-6xl px-6 pt-32 pb-16 text-primary-foreground lg:px-8">
           <HeroStagger>
             <HeroItem>
-              <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary uppercase">
+              <p className="mb-4 text-xs font-medium tracking-[0.25em] text-primary-foreground/75 uppercase">
                 {t("eyebrow")}
               </p>
             </HeroItem>
@@ -72,12 +100,16 @@ export function Hero({ variant = "editorial", image, ns }: SectionOf<"hero">) {
               </h1>
             </HeroItem>
             <HeroItem>
-              <p className="mt-6 max-w-xl text-lg text-muted-foreground">
+              <p className="mt-6 max-w-xl text-lg text-primary-foreground/80">
                 {t("subtitle")}
               </p>
             </HeroItem>
             <HeroItem className="mt-9">
-              <HeroCtas primary={t("primaryCta")} secondary={t("secondaryCta")} />
+              <HeroCtas
+                primary={t("primaryCta")}
+                secondary={t("secondaryCta")}
+                onDark
+              />
             </HeroItem>
           </HeroStagger>
         </div>
