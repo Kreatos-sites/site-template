@@ -261,8 +261,9 @@ y el renderer truena en build con error claro si se le escapa.
   que el resto.
 - Copy 100% vía next-intl: `useTranslations(ns)` con el `ns` de props.
   Nada de strings visibles hardcodeados.
-- Motion SOLO con los primitives del motor (`Reveal`, `HeroStagger`/
-  `HeroItem` de `components/shared/reveal.tsx`): nunca
+- Motion SOLO con los primitives del motor: import literal
+  `import { Reveal, HeroStagger, HeroItem } from "@/components/shared/reveal"`
+  (NO abras reveal.tsx — este import es todo lo que necesitas). Nunca
   `window.addEventListener("scroll")`, nunca librerías nuevas.
 - Server component por defecto; `"use client"` solo en la isla que de
   verdad lo necesite.
@@ -281,12 +282,14 @@ y el renderer truena en build con error claro si se le escapa.
   (`<ns>.errors.<key>`; el schema emite keys, nunca texto visible),
   con `aria-invalid` y el error debajo del campo; el foco va al primer
   error al enviar. **Prohibido un `<form>` a mano sin validación.**
-  Patrón de referencia: `components/sections/contact-form.tsx`.
-- Patrón de referencia: `components/custom/credentials-band.tsx`
-  (registrada como `"credentials-band"` y usada en la home del ejemplo).
+  (`contact-form.tsx` es MOTOR — no lo abras; el contrato está descrito aquí.)
+- Al escribir tu PRIMERA custom del run, `components/custom/credentials-band.tsx`
+  es el patrón de imports/props: ábrelo UNA vez si lo necesitas, nunca por cada
+  custom.
 
 **Skills de stack (`.agent/skills/`)** — documentación curada del stack;
-léela ANTES de escribir código en el terreno que toque:
+cárgala SOLO si el build reporta un error de ese terreno (hydration, imagen,
+fuentes, forms) — no como lectura previa obligatoria:
 
 - `.agent/skills/next-best-practices/` — al crear secciones custom:
   `rsc-boundaries.md` y `directives.md` (server vs client), `image.md` y

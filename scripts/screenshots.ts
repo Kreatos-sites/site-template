@@ -90,6 +90,16 @@ async function waitForServer(): Promise<void> {
 }
 
 function ensureBrowser(): void {
+  // Si chromium ya está (precalentado en el sandbox bootstrap), NO reinstales:
+  // el `--with-deps` bajo root re-invoca el gestor de paquetes (dnf) en CADA
+  // serve por nada. executablePath resuelve la ruta esperada; si el binario
+  // existe, saltamos el install completo.
+  try {
+    const exe = chromium.executablePath();
+    if (exe && existsSync(exe)) return;
+  } catch {
+    // executablePath puede lanzar si playwright no ubica el browser → instala.
+  }
   // Idempotente; en el sandbox corre como root y puede instalar deps.
   const installArgs = ["playwright", "install", "chromium"];
   if (typeof process.getuid === "function" && process.getuid() === 0) {
