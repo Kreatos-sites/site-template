@@ -188,7 +188,10 @@ for (const file of walkFiles(join(root, "components"))) {
       errors.push(`[color] ${rel}:${i + 1}: color funcional literal (rgb/hsl/oklch) — usa tokens semánticos`);
     if (twPaletteRe.test(line))
       errors.push(`[color] ${rel}:${i + 1}: clase de paleta Tailwind directa — usa tokens semánticos`);
-    if (fixedWidthRe.test(line))
+    // El guard de anchos aplica al LAYOUT del sitio (blocks/sections/custom),
+    // no a los primitivos shadcn de components/ui/ (un popover/menu tiene ancho
+    // fijo por diseño — es un overlay, no layout de página).
+    if (!rel.startsWith("components/ui/") && fixedWidthRe.test(line))
       errors.push(
         `[ancho] ${rel}:${i + 1}: ancho FIJO no responsive — usa ancho relativo (w-full, fracción de grid, max-w-*, aspect-* para media). Los anchos fijos hacen que el layout se rompa en mobile.`,
       );
