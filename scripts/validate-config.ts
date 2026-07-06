@@ -386,6 +386,60 @@ for (const [pi, page] of (config.pages ?? []).entries()) {
   }
 }
 
+/* ---------- 9. Paridad de keys entre locales (multilenguaje) ---------- */
+// Cada messages/<locale>.json declarado en config.locales debe tener EXACTAMENTE
+// las mismas keys que el locale de referencia (el default = locales[0]). Si un
+// locale traducido pierde o inventa una key, el build truena en runtime con
+// MISSING_MESSAGE — mejor cazarlo aquí. Se salta en sitios de un solo idioma.
+{
+  const locales = (config as { locales?: string[] }).locales ?? ["es"];
+  if (locales.length > 1) {
+    const leafPaths = (obj: unknown): Set<string> => {
+      const set = new Set<string>();
+      walkStrings(obj, "", (_s, p) => set.add(p));
+      return set;
+    };
+    const readLocale = (locale: string): Record<string, unknown> | null => {
+      if (locale === "es") return messages;
+      try {
+        return JSON.parse(
+          readFileSync(join(root, "messages", `${locale}.json`), "utf8"),
+        ) as Record<string, unknown>;
+      } catch {
+        return null;
+      }
+    };
+    const refLocale = locales[0];
+    const refMsgs = readLocale(refLocale);
+    if (!refMsgs) {
+      errors.push(`[i18n] falta messages/${refLocale}.json (locale default)`);
+    } else {
+      const refPaths = leafPaths(refMsgs);
+      for (const locale of locales) {
+        if (locale === refLocale) continue;
+        const msgs = readLocale(locale);
+        if (!msgs) {
+          errors.push(
+            `[i18n] falta messages/${locale}.json (declarado en config.locales) — genéralo traduciendo el copy con las MISMAS keys`,
+          );
+          continue;
+        }
+        const paths = leafPaths(msgs);
+        const missing = [...refPaths].filter((p) => !paths.has(p));
+        const extra = [...paths].filter((p) => !refPaths.has(p));
+        if (missing.length > 0)
+          errors.push(
+            `[i18n] messages/${locale}.json: faltan ${missing.length} key(s) que sí tiene ${refLocale} (ej: ${missing.slice(0, 5).join(", ")})`,
+          );
+        if (extra.length > 0)
+          errors.push(
+            `[i18n] messages/${locale}.json: tiene ${extra.length} key(s) de más que ${refLocale} no tiene (ej: ${extra.slice(0, 5).join(", ")})`,
+          );
+      }
+    }
+  }
+}
+
 /* ---------- Resultado ---------- */
 if (errors.length > 0) {
   console.error(`validate-config: ${errors.length} problema(s) encontrados\n`);
