@@ -1,77 +1,77 @@
 /* ============================================================
- * PRESET: obsidiana
- * Para: despachos contables, jurídicos, consultorías.
- * Carácter: dark-first, azul-negro profundo, marfil, acento
- * ámbar usado con avaricia (solo CTAs y datos duros).
- * Gesto memorable: los números y CTAs son lo único ámbar.
- * Tipografía sugerida: fraunces-albert (serif display + sans).
- * defaultMode recomendado en site.config.ts: "dark".
+ * BASELINE NEUTRAL — REEMPLÁZAME.
+ * Este NO es un preset ni un "look" de marca: es un andamio gris,
+ * válido y con contraste AA, para que el template buildee solo.
+ * El art-director DISEÑA el theme a la medida de cada negocio y
+ * site-builder SOBRESCRIBE este archivo por completo cada corrida:
+ * paleta desde la marca, --radius según el registro (0 = serio/
+ * editorial, 0.5rem+ = cercano), overlay y --og-* derivados de la
+ * paleta. No hay themes/ que copiar — se genera desde cero.
+ * Anatomía y reglas: themes/README.md.
  * ============================================================ */
 
 :root {
-  /* Modo claro: marfil cálido, tinta azul-negra, ámbar profundo */
-  --background: oklch(0.965 0.008 85);
-  --foreground: oklch(0.22 0.025 260);
-  --card: oklch(0.985 0.005 85);
-  --card-foreground: oklch(0.22 0.025 260);
-  --popover: oklch(0.985 0.005 85);
-  --popover-foreground: oklch(0.22 0.025 260);
-  --primary: oklch(0.58 0.125 70);
-  --primary-foreground: oklch(0.985 0.008 85);
-  --secondary: oklch(0.93 0.01 85);
-  --secondary-foreground: oklch(0.28 0.025 260);
-  --muted: oklch(0.925 0.01 85);
-  --muted-foreground: oklch(0.48 0.02 260);
-  --accent: oklch(0.91 0.03 80);
-  --accent-foreground: oklch(0.28 0.025 260);
+  --background: oklch(0.99 0 0);
+  --foreground: oklch(0.2 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0 0);
+  --primary: oklch(0.45 0 0);
+  --primary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.96 0 0);
+  --secondary-foreground: oklch(0.25 0 0);
+  --muted: oklch(0.96 0 0);
+  --muted-foreground: oklch(0.5 0 0);
+  --accent: oklch(0.95 0 0);
+  --accent-foreground: oklch(0.25 0 0);
   --destructive: oklch(0.55 0.2 25);
-  --destructive-foreground: oklch(0.985 0.008 85);
-  --border: oklch(0.87 0.012 85);
-  --input: oklch(0.87 0.012 85);
-  --ring: oklch(0.58 0.125 70);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.9 0 0);
+  --input: oklch(0.9 0 0);
+  --ring: oklch(0.45 0 0);
 
-  --radius: 0.25rem;
+  --radius: 0.5rem;
 
   /* Tokens propios del motor */
   --section-gap: clamp(4.5rem, 10vh, 8rem);
   --hero-overlay: linear-gradient(
     to top,
-    oklch(0.17 0.025 260 / 0.85),
-    oklch(0.17 0.025 260 / 0.35)
+    oklch(0.2 0 0 / 0.85),
+    oklch(0.2 0 0 / 0.35)
   );
 
   /* Equivalentes hex para OG/icon (Satori no soporta oklch) */
-  --og-background: #14181f;
-  --og-foreground: #f2efe6;
-  --og-accent: #d9a441;
+  --og-background: #ffffff;
+  --og-foreground: #1a1a1a;
+  --og-accent: #555555;
 }
 
 .dark {
-  /* Modo oscuro (el protagonista): azul-negro, marfil, ámbar */
-  --background: oklch(0.17 0.02 260);
-  --foreground: oklch(0.94 0.012 85);
-  --card: oklch(0.205 0.022 260);
-  --card-foreground: oklch(0.94 0.012 85);
-  --popover: oklch(0.205 0.022 260);
-  --popover-foreground: oklch(0.94 0.012 85);
-  --primary: oklch(0.8 0.13 80);
-  --primary-foreground: oklch(0.2 0.04 80);
-  --secondary: oklch(0.24 0.022 260);
-  --secondary-foreground: oklch(0.94 0.012 85);
-  --muted: oklch(0.235 0.02 260);
-  --muted-foreground: oklch(0.7 0.015 85);
-  --accent: oklch(0.27 0.03 265);
-  --accent-foreground: oklch(0.94 0.012 85);
+  --background: oklch(0.18 0 0);
+  --foreground: oklch(0.96 0 0);
+  --card: oklch(0.21 0 0);
+  --card-foreground: oklch(0.96 0 0);
+  --popover: oklch(0.21 0 0);
+  --popover-foreground: oklch(0.96 0 0);
+  --primary: oklch(0.72 0 0);
+  --primary-foreground: oklch(0.18 0 0);
+  --secondary: oklch(0.24 0 0);
+  --secondary-foreground: oklch(0.96 0 0);
+  --muted: oklch(0.24 0 0);
+  --muted-foreground: oklch(0.7 0 0);
+  --accent: oklch(0.27 0 0);
+  --accent-foreground: oklch(0.96 0 0);
   --destructive: oklch(0.62 0.19 25);
-  --destructive-foreground: oklch(0.17 0.02 260);
-  --border: oklch(0.29 0.02 260);
-  --input: oklch(0.29 0.02 260);
-  --ring: oklch(0.8 0.13 80);
+  --destructive-foreground: oklch(0.18 0 0);
+  --border: oklch(0.3 0 0);
+  --input: oklch(0.3 0 0);
+  --ring: oklch(0.72 0 0);
 
   --hero-overlay: linear-gradient(
     to top,
-    oklch(0.14 0.02 260 / 0.9),
-    oklch(0.14 0.02 260 / 0.4)
+    oklch(0.14 0 0 / 0.9),
+    oklch(0.14 0 0 / 0.4)
   );
 }
 

@@ -67,12 +67,11 @@ const config: SiteConfig = {
   },
 
   design: {
-    preset: "obsidiana",
-    fontPair: "fraunces-albert",
+    // El theme se genera a la medida (app/theme.css + app/fonts.ts); ya no
+    // hay presets ni pares fijos. preset/fontPair quedaron opcionales.
     defaultMode: "dark",
     density: "airy",
     imageTreatment: "duotone-accent",
-    // Sobrio y editorial, coherente con obsidiana: entrada discreta al scroll.
     motion: "subtle",
   },
 

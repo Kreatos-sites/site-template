@@ -11,8 +11,8 @@ funciona sin tocarse.
 | --- | --- | --- |
 | 1 | `site.config.ts` | Datos del negocio y estructura (orden y variantes de secciones) |
 | 2 | `messages/es.json` | El 100% del copy visible, espejando `sections` por id |
-| 3 | `app/theme.css` | Tokens visuales: se copia desde `themes/<preset>.css` y se varía |
-| 4 | `app/fonts.ts` | Par tipográfico: se activa uno de los pares curados |
+| 3 | `app/theme.css` | Tokens visuales: se ESCRIBE a la medida (paleta, radius, overlay). No hay presets — ver `themes/README.md` |
+| 4 | `app/fonts.ts` | Par tipográfico a la medida: dos fuentes de `next/font/google` (display + body) |
 | 5 | `public/images/` | Se reemplazan los placeholders por fotos reales (y el logo si hay) |
 | 6 | `components/custom/` | Secciones escritas desde cero + su `registry.ts` (ver "Secciones custom") |
 | 7 | `DEMO.md` | Manifiesto de pendientes del demo: `- [ ] <material> → <dónde vive>` (site-manager lo consume al vender) |
@@ -75,14 +75,14 @@ const config: SiteConfig = {
     keywords: ["servicio ciudad", "servicio 2 ciudad", "servicio 3 ciudad"],
   },
   design: {
-    preset: "cantera",
-    fontPair: "archivo-inter",
     defaultMode: "light",
     density: "airy",
     imageTreatment: "duotone-accent",
     motion: "subtle",
-    // OJO: concept/variation_notes/palette/references viven en el SPEC
+    // OJO: concept/palette/radius/fonts/references viven en el SPEC
     // (save_site_version), NUNCA aquí — este design es solo el del motor.
+    // El theme se DISEÑA a la medida (app/theme.css + app/fonts.ts); no hay
+    // presets ni fontPair (quedaron opcionales solo por compatibilidad).
   },
   sections: [
     { id: "navbar", variant: "split" },
@@ -141,12 +141,13 @@ export default config;
    (rect de fondo con el color de acento del theme + la inicial del
    negocio en el foreground, font-family sans genérica) — es texto SVG
    plano, sin dependencias ni riesgo de build.
-2. **`app/theme.css`** — copia el preset de `themes/` que corresponda al
-   giro (obsidiana: despachos/servicios profesionales; cantera:
-   construcción/industrial) y varía hue/chroma para el cliente siguiendo
-   `themes/README.md`. Actualiza `design.preset`.
-3. **`app/fonts.ts`** — activa el par tipográfico coherente con el preset
-   (instrucciones dentro del archivo). Actualiza `design.fontPair`.
+2. **`app/theme.css`** — ESCRÍBELO a la medida del negocio: paleta desde la
+   marca, `--radius` según el registro (serio → 0; casual → 0.5rem+), overlay
+   y `--og-*` derivados de la paleta. No hay preset que copiar — respeta la
+   anatomía de `themes/README.md` (los tres bloques :root / .dark / @theme).
+3. **`app/fonts.ts`** — escribe el par a la medida: dos fuentes de
+   `next/font/google` (display + body) coherentes con el carácter
+   (instrucciones/contrato dentro del archivo).
 4. **`messages/es.json`** — escribe TODO el copy. Reglas abajo.
 5. **`public/images/`** — sustituye `hero.svg` / `about.svg` por fotos
    reales del negocio (idealmente `.jpg`/`.webp`; actualiza las rutas
@@ -309,7 +310,7 @@ nivel y la elección se justifica ahí.
   efecto de presión. Para clientes que lo pidan o giros ultra sobrios.
 - `"subtle"` — fade + subida ligera al entrar cada sección al viewport,
   sin stagger protagónico. El default sensato para despachos y servicios
-  profesionales (va bien con obsidiana).
+  profesionales (giros sobrios).
 - `"expressive"` — lo de subtle, más el hero coreografiado al cargar
   (stagger eyebrow → titular → subtexto → CTAs) y las listas (services,
   process, testimonials, faq) con stagger por ítem. El hero es el ÚNICO

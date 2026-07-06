@@ -105,10 +105,14 @@ export const seoSchema = z.object({
 });
 
 export const designSchema = z.object({
-  /** Nombre del preset copiado a app/theme.css (ver themes/) */
-  preset: z.string().min(2),
-  /** Par tipográfico activo en app/fonts.ts */
-  fontPair: z.string().min(2),
+  /**
+   * Metadata opcional heredada (ya NO hay presets: el theme se genera a la
+   * medida en app/theme.css). Se conserva optional solo por compatibilidad
+   * con specs viejos; el motor no lo lee en runtime.
+   */
+  preset: z.string().min(2).optional(),
+  /** Metadata opcional: el par real vive en app/fonts.ts. */
+  fontPair: z.string().min(2).optional(),
   defaultMode: z.enum(["light", "dark"]),
   density: z.enum(["airy", "compact"]),
   imageTreatment: z.enum(["duotone-accent", "bw", "warm", "none"]),

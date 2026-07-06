@@ -1,19 +1,17 @@
 /**
- * Pares tipográficos curados. SOLO el par activo se exporta.
+ * Par tipográfico del sitio. NO hay pares fijos "curados": el art-director
+ * elige el par a la medida del negocio y site-builder reescribe este archivo
+ * con esas dos familias (cualquiera de next/font/google). Lo de abajo es solo
+ * el DEFAULT del template para que buildee — se sobrescribe cada corrida.
  *
- * Para cambiar de par: comenta el bloque activo, descomenta el elegido
- * y actualiza design.fontPair en site.config.ts. Las variables CSS
- * (--font-display-face / --font-body-face) NO cambian: theme.css las
- * consume sin importar qué familia haya detrás.
- *
- * PARES CURADOS:
- *  - fraunces-albert  → Fraunces + Albert Sans        (obsidiana: serio, editorial)
- *  - barlow-archivo   → Barlow Condensed + Archivo    (cantera: industrial, directo)
- *  - libre-inter      → Libre Caslon Text + Inter     (clásico notarial, alta lectura)
- *  - spectral-public  → Spectral + Public Sans        (institucional, sobrio)
+ * Contrato (respétalo al reescribir):
+ *  - Exactamente dos fuentes de `next/font/google`: display + body.
+ *  - `variable: "--font-display-face"` y `"--font-body-face"` (theme.css las
+ *    consume por esas variables, sin importar la familia detrás).
+ *  - `display: "swap"`, `subsets: ["latin"]`, y los `weight`/`axes` que la
+ *    familia requiera.
+ *  - Export final: `export const fontVariables = ...`.
  */
-
-/* ============ PAR ACTIVO: fraunces-albert ============ */
 import { Fraunces, Albert_Sans } from "next/font/google";
 
 const display = Fraunces({
@@ -28,56 +26,5 @@ const body = Albert_Sans({
   variable: "--font-body-face",
   display: "swap",
 });
-
-/* ============ barlow-archivo (cantera) ============
-import { Barlow_Condensed, Archivo } from "next/font/google";
-
-const display = Barlow_Condensed({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-display-face",
-  display: "swap",
-});
-
-const body = Archivo({
-  subsets: ["latin"],
-  variable: "--font-body-face",
-  display: "swap",
-});
-==================================================== */
-
-/* ============ libre-inter ============
-import { Libre_Caslon_Text, Inter } from "next/font/google";
-
-const display = Libre_Caslon_Text({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-display-face",
-  display: "swap",
-});
-
-const body = Inter({
-  subsets: ["latin"],
-  variable: "--font-body-face",
-  display: "swap",
-});
-==================================================== */
-
-/* ============ spectral-public ============
-import { Spectral, Public_Sans } from "next/font/google";
-
-const display = Spectral({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-display-face",
-  display: "swap",
-});
-
-const body = Public_Sans({
-  subsets: ["latin"],
-  variable: "--font-body-face",
-  display: "swap",
-});
-==================================================== */
 
 export const fontVariables = `${display.variable} ${body.variable}`;
