@@ -3,6 +3,10 @@
 Bloques curados. El agente los COMPONE: \`{ id: "block", block: "<key>", ns }\` en
 config + copy en es.json con la forma \`ns\`. NO se escribe .tsx.
 
+**Esta tabla ES el contrato completo de cada bloque** (arquetipo + forma del \`ns\`).
+NUNCA abras el \`.tsx\` de un bloque: no lo editas y no aporta nada — la columna
+\`ns\` te dice exactamente qué keys de copy necesita. Abrirlos es tiempo tirado.
+
 **Reglas:** no repitas un bloque >2 veces; ALTERNA arquetipos vecinos
 (denso/aireado, oscuro/claro, cifras/lista). Hay HERMANOS por arquetipo
 (features, servicios, procesos, galerías, stats, CTAs, FAQs, about) — elige
