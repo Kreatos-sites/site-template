@@ -1,11 +1,11 @@
 import { ImageResponse } from "next/og";
 
-import { getOgTokens, tryReadPublicImageAsDataUri } from "@/lib/og-theme";
+import { getOgTokens, tryReadOgImageAsDataUri } from "@/lib/og-theme";
 import messages from "@/messages/es.json";
 import config from "@/site.config";
 
-// nodejs (no edge): getOgTokens lee theme.css del disco y el build de
-// @vercel/og para Node decodifica webp/svg en <img> (el de edge no).
+// nodejs (no edge): getOgTokens lee theme.css del disco; y solo el build Node
+// de @vercel/og decodifica <img> (el de edge ni siquiera lee del disco).
 export const runtime = "nodejs";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -43,14 +43,18 @@ export default function OpengraphImage() {
   const tokens = getOgTokens();
   const tagline = taglineText();
 
-  // Foto de fondo: la designada en el spec, o la hero por convención, o una
-  // interior/marca. La PRIMERA que exista y sea decodable (webp/jpg/png/svg).
+  // Foto de fondo: SOLO formatos que Satori decodifica (png/jpeg/svg) — NUNCA
+  // webp, que tumba el build. Las fotos del sitio son webp, así que
+  // fetch_brand_assets genera un `og.jpg` (JPEG) dedicado; el spec puede
+  // apuntar seo.ogImage a un jpg/png. Si nada de eso existe → null → tarjeta
+  // sólida (jamás crashea).
   const bg =
-    tryReadPublicImageAsDataUri(config.seo.ogImage) ??
-    tryReadPublicImageAsDataUri("/images/hero.webp") ??
-    tryReadPublicImageAsDataUri("/images/nosotros.webp") ??
-    tryReadPublicImageAsDataUri("/images/brand-1.webp");
-  const logo = tryReadPublicImageAsDataUri(config.business.logo);
+    tryReadOgImageAsDataUri(config.seo.ogImage) ??
+    tryReadOgImageAsDataUri("/images/og.jpg") ??
+    tryReadOgImageAsDataUri("/images/og.png") ??
+    tryReadOgImageAsDataUri("/images/hero.jpg") ??
+    tryReadOgImageAsDataUri("/images/hero.png");
+  const logo = tryReadOgImageAsDataUri(config.business.logo);
 
   if (bg) {
     return new ImageResponse(

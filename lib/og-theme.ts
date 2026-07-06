@@ -83,3 +83,21 @@ export function tryReadPublicImageAsDataUri(
     return null;
   }
 }
+
+/**
+ * Formatos que Satori (@vercel/og) SÍ decodifica en <img>: png, jpeg y svg.
+ * WEBP/AVIF/GIF NO — un <img> webp truena el prerender con "u2 is not
+ * iterable" y tumba el build ENTERO (el OG se prerenderiza en cada sitio).
+ * Como TODAS las fotos del sitio son webp, el OG NUNCA debe pasarle una foto
+ * directo: usa este loader, que devuelve null para todo lo que no sea
+ * png/jpeg/svg → el OG cae a su tarjeta sólida en vez de romper.
+ */
+const OG_SATORI_SAFE = new Set([".png", ".jpg", ".jpeg", ".svg"]);
+export function tryReadOgImageAsDataUri(
+  publicPath: string | undefined | null,
+): string | null {
+  if (!publicPath) return null;
+  const ext = publicPath.slice(publicPath.lastIndexOf(".")).toLowerCase();
+  if (!OG_SATORI_SAFE.has(ext)) return null;
+  return tryReadPublicImageAsDataUri(publicPath);
+}

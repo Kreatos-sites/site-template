@@ -103,11 +103,12 @@ export const seoSchema = z.object({
   jsonLdType: z.string().min(3),
   keywords: z.array(z.string()).min(3),
   /**
-   * Foto de fondo del Open Graph (ruta en public/, "/images/hero.webp").
-   * app/opengraph-image.tsx la compone: foto full-bleed + overlay oscuro +
-   * logo arriba. Elige una imagen REAL representativa del sitio (hero,
-   * fachada, obra) — no el logo suelto. Si se omite, el OG intenta
-   * "/images/hero.webp" y si no hay foto cae a la tarjeta sólida de marca.
+   * Foto de fondo del Open Graph. DEBE ser JPG/PNG/SVG, NUNCA webp: Satori
+   * (@vercel/og) no decodifica webp y rompe el build del OG. Normalmente NO se
+   * declara: fetch_brand_assets genera "/images/og.jpg" desde la primera foto
+   * de marca y app/opengraph-image.tsx lo toma solo (foto + overlay + logo).
+   * Declárala únicamente para forzar OTRA imagen, y debe ser un jpg/png real
+   * (no la hero.webp del sitio). Sin foto usable → tarjeta sólida de marca.
    */
   ogImage: z.string().optional(),
 });
