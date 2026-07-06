@@ -116,7 +116,17 @@ export function Footer({ ns }: SectionOf<"footer">) {
             >
               {t("privacyLink")}
             </Link>
-            <span>{t("credit")}</span>
+            {/* Crédito de la agencia: FIJO en el motor (no sale del copy) para
+                que todo sitio generado atribuya a Intello con su link, sin que
+                el agente lo pueda cambiar. */}
+            <a
+              href="https://intelloai.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline-offset-4 transition-colors hover:text-foreground hover:underline"
+            >
+              Sitio creado por Intello
+            </a>
           </div>
         </div>
       </div>
