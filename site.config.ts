@@ -118,6 +118,10 @@ const config: SiteConfig = {
     multiLang: false,
     themeToggle: true,
   },
+  // Idiomas del sitio. El primero es el default (vive en "/" sin prefijo).
+  // Un solo idioma = URLs limpias sin cambio. Para bilingüe: ["es", "en"] +
+  // messages/en.json con las mismas keys.
+  locales: ["es"],
 };
 
 export default config;

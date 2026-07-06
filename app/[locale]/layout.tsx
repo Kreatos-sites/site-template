@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
-import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages, getTranslations } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
 
+import { routing } from "@/i18n/routing";
 import { Toaster } from "@/components/ui/sonner";
 import { WhatsappButton } from "@/components/shared/whatsapp-button";
 import { buildJsonLd } from "@/lib/jsonld";
 import config from "@/site.config";
-import { fontVariables } from "./fonts";
-import "./globals.css";
+import { fontVariables } from "../fonts";
+import "../globals.css";
 
 const baseUrl = `https://${config.seo.domain}`;
+
+/** hreflang: cada locale (el default en "/", los demás en "/<locale>"). */
+const languages = Object.fromEntries(
+  routing.locales.map((locale) => [
+    locale,
+    locale === routing.defaultLocale ? "/" : `/${locale}`,
+  ]),
+);
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -22,10 +32,10 @@ export const metadata: Metadata = {
   keywords: config.seo.keywords,
   alternates: {
     canonical: "/",
+    languages,
   },
   openGraph: {
     type: "website",
-    locale: "es_MX",
     url: baseUrl,
     siteName: config.business.name,
     title: config.seo.title,
@@ -42,10 +52,21 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function RootLayout({
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export default async function LocaleLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
-  const locale = await getLocale();
+  params,
+}: Readonly<{
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}>) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
+  setRequestLocale(locale);
+
   const messages = await getMessages();
   const t = await getTranslations("common");
   const jsonLd = buildJsonLd(config);
@@ -54,9 +75,8 @@ export default async function RootLayout({
     <html lang={locale} className={fontVariables} suppressHydrationWarning>
       <body
         /* overflow-x-clip: red de seguridad contra desbordes horizontales en
-           mobile (una sección/tabla/custom más ancha que el viewport no genera
-           scroll horizontal de página). `clip` NO crea contenedor de scroll, así
-           que el `sticky` del navbar sigue funcionando (a diferencia de hidden). */
+           mobile. `clip` NO crea contenedor de scroll, así que el `sticky` del
+           navbar sigue funcionando (a diferencia de hidden). */
         className="overflow-x-clip bg-background text-foreground font-body antialiased"
         data-density={config.design.density}
         data-motion={config.design.motion}

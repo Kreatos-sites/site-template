@@ -284,6 +284,13 @@ export const siteConfigSchema = z
     /** Páginas interiores (/<slug>). Opcional: la mayoría de sitios no las necesita. */
     pages: z.array(pageSchema).optional(),
     flags: flagsSchema,
+    /**
+     * Idiomas del sitio. El PRIMERO es el default y vive en `/` sin prefijo
+     * (localePrefix "as-needed"); los demás en `/<locale>/...`. Cada locale
+     * necesita su `messages/<locale>.json` con las MISMAS keys que el default.
+     * Omitido = `["es"]` (sitio de un solo idioma, URLs sin prefijo, cero cambio).
+     */
+    locales: z.array(z.string().min(2)).min(1).default(["es"]),
   })
   .superRefine((cfg, ctx) => {
     const seen = new Set<string>();

@@ -1,30 +1,33 @@
+import { hasLocale } from "next-intl";
 import { getRequestConfig } from "next-intl/server";
 
+import { routing } from "@/i18n/routing";
+
 /**
- * Configuración de next-intl SIN enrutado i18n: el sitio es es-only,
- * pero la estructura queda lista para agregar locales en fase 2
- * (flags.multiLang) sin tocar componentes.
+ * Configuración de next-intl CON enrutado i18n (locales de config.locales,
+ * `localePrefix: "as-needed"`). Un sitio de un solo idioma sigue igual: su
+ * único locale es el default y vive en `/` sin prefijo.
  */
-export default getRequestConfig(async () => {
-  const locale = "es";
+export default getRequestConfig(async ({ requestLocale }) => {
+  const requested = await requestLocale;
+  const locale = hasLocale(routing.locales, requested)
+    ? requested
+    : routing.defaultLocale;
 
   return {
     locale,
     messages: (await import(`../messages/${locale}.json`)).default,
     // Una clave i18n faltante debe TUMBAR el build, NO renderizar el key crudo.
-    // El default de next-intl en prod pinta "namespace.key" (el cliente veía
-    // "cta-final.primaryCta" literal). Al lanzar en MISSING_MESSAGE, el prerender
-    // de esa ruta falla en `pnpm build` → el agente lo caza y corrige el copy,
-    // en vez de shippear el key visible. Suele significar: el copy de es.json no
-    // trae una clave que el bloque/sección espera (ns shape desalineado).
+    // Al lanzar en MISSING_MESSAGE, el prerender de esa ruta falla en `pnpm
+    // build` → el agente lo caza y corrige el copy. Suele significar: el copy de
+    // messages/<locale>.json no trae una clave que el bloque/sección espera.
     onError(error) {
       if (error.code === "MISSING_MESSAGE") throw error;
       console.error(error);
     },
     getMessageFallback({ namespace, key }) {
-      // Inalcanzable si onError lanza; red de seguridad para nunca pintar el key.
       throw new Error(
-        `Falta la clave i18n "${namespace ? `${namespace}.` : ""}${key}" en messages/es.json`,
+        `Falta la clave i18n "${namespace ? `${namespace}.` : ""}${key}" en messages/${locale}.json`,
       );
     },
   };

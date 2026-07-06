@@ -1,5 +1,6 @@
-import Link from "next/link";
 import { useTranslations } from "next-intl";
+
+import { Link } from "@/i18n/navigation";
 
 import type { SectionOf } from "@/lib/config";
 import config from "@/site.config";
@@ -69,12 +70,12 @@ export function Footer({ ns }: SectionOf<"footer">) {
               <ul className="mt-4 space-y-2.5">
                 {links.map((link) => (
                   <li key={link.href}>
-                    <a
+                    <Link
                       href={link.href}
                       className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
