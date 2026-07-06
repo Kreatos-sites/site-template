@@ -49,7 +49,7 @@ export function ServicesCardsAsym({ ns }: { ns: string }) {
               <article className="group relative flex h-full min-h-[22rem] flex-col justify-between overflow-hidden rounded-3xl bg-primary p-8 text-primary-foreground lg:p-12">
                 <div
                   aria-hidden="true"
-                  className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-primary-foreground/10 blur-2xl"
+                  className="pointer-events-none absolute -right-16 -top-16 size-56 rounded-full bg-primary-foreground/10 blur-2xl"
                 />
                 <div className="flex items-start justify-between gap-6">
                   <span className="font-display text-sm tracking-[0.3em] text-primary-foreground/70">

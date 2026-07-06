@@ -155,6 +155,16 @@ const palettes =
 const twPaletteRe = new RegExp(
   `\\b(?:bg|text|border|from|to|via|fill|stroke|ring|outline|shadow|accent|caret|decoration|divide)-(?:${palettes})-\\d{2,3}\\b`,
 );
+// Anchos FIJOS que rompen el responsive: pixeles literales (w-[420px]) y anchos
+// Tailwind grandes (w-40+ = 10rem+). El ancho de layout debe ser RELATIVO
+// (w-full, fracción de grid, max-w-*, aspect-*). Se permiten anchos chicos
+// (reglas decorativas w-8..w-36, íconos size-*) y max-w/min-w en rem
+// (contenedores acotados legítimos, tabla con scroll).
+// El lookbehind excluye `min-w-`/`max-w-` (mín/máx = responsive, no fijos) del
+// caso `w-N`; el caso pixel sí incluye `min-w-[..px]` (fuerza un mínimo que
+// rompe mobile). `size-*` queda exento (íconos/blobs decorativos cuadrados).
+const fixedWidthRe =
+  /\b(?:w|min-w)-\[\d+(?:\.\d+)?px\]|(?<![-\w])w-(?:40|44|48|52|56|60|64|72|80|96)\b/;
 
 function* walkFiles(dir: string): Generator<string> {
   for (const entry of readdirSync(dir)) {
@@ -178,6 +188,10 @@ for (const file of walkFiles(join(root, "components"))) {
       errors.push(`[color] ${rel}:${i + 1}: color funcional literal (rgb/hsl/oklch) — usa tokens semánticos`);
     if (twPaletteRe.test(line))
       errors.push(`[color] ${rel}:${i + 1}: clase de paleta Tailwind directa — usa tokens semánticos`);
+    if (fixedWidthRe.test(line))
+      errors.push(
+        `[ancho] ${rel}:${i + 1}: ancho FIJO no responsive — usa ancho relativo (w-full, fracción de grid, max-w-*, aspect-* para media). Los anchos fijos hacen que el layout se rompa en mobile.`,
+      );
   });
 }
 

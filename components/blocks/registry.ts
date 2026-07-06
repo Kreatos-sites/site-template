@@ -2,6 +2,7 @@ import type { ComponentType } from "react";
 
 import { AboutPortrait } from "./about-portrait";
 import { AboutSplitMetrics } from "./about-split-metrics";
+import { BannerImage } from "./banner-image";
 import { BannerStatement } from "./banner-statement";
 import { BentoGrid } from "./bento-grid";
 import { CalloutQuote } from "./callout-quote";
@@ -10,12 +11,14 @@ import { ComparisonTable } from "./comparison-table";
 import { ContactHero } from "./contact-hero";
 import { CoverageZones } from "./coverage-zones";
 import { CtaBandCentered } from "./cta-band-centered";
+import { CtaBgImage } from "./cta-bg-image";
 import { CtaInlineSlim } from "./cta-inline-slim";
 import { DownloadBrochure } from "./download-brochure";
 import { EditorialIntro } from "./editorial-intro";
 import { FaqColumns } from "./faq-columns";
 import { FaqEditorial } from "./faq-editorial";
 import { FeatureAlternatingList } from "./feature-alternating-list";
+import { FeatureBgSplit } from "./feature-bg-split";
 import { FeatureCardsIcon } from "./feature-cards-icon";
 import { FeatureListChecks } from "./feature-list-checks";
 import { FeatureSplitSticky } from "./feature-split-sticky";
@@ -42,6 +45,7 @@ import { ServicesIndex } from "./services-index";
 import { ServicesLedger } from "./services-ledger";
 import { SplitCta } from "./split-cta";
 import { StatBand } from "./stat-band";
+import { StatBgImage } from "./stat-bg-image";
 import { StatWall } from "./stat-wall";
 import { StepsCards } from "./steps-cards";
 import { TeamGrid } from "./team-grid";
@@ -57,6 +61,7 @@ import { ValuesCards } from "./values-cards";
 export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "about-portrait": AboutPortrait,
   "about-split-metrics": AboutSplitMetrics,
+  "banner-image": BannerImage,
   "banner-statement": BannerStatement,
   "bento-grid": BentoGrid,
   "callout-quote": CalloutQuote,
@@ -65,12 +70,14 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "contact-hero": ContactHero,
   "coverage-zones": CoverageZones,
   "cta-band-centered": CtaBandCentered,
+  "cta-bg-image": CtaBgImage,
   "cta-inline-slim": CtaInlineSlim,
   "download-brochure": DownloadBrochure,
   "editorial-intro": EditorialIntro,
   "faq-columns": FaqColumns,
   "faq-editorial": FaqEditorial,
   "feature-alternating-list": FeatureAlternatingList,
+  "feature-bg-split": FeatureBgSplit,
   "feature-cards-icon": FeatureCardsIcon,
   "feature-list-checks": FeatureListChecks,
   "feature-split-sticky": FeatureSplitSticky,
@@ -97,6 +104,7 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "services-ledger": ServicesLedger,
   "split-cta": SplitCta,
   "stat-band": StatBand,
+  "stat-bg-image": StatBgImage,
   "stat-wall": StatWall,
   "steps-cards": StepsCards,
   "team-grid": TeamGrid,
