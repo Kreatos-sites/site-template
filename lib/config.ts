@@ -102,6 +102,14 @@ export const seoSchema = z.object({
   /** Subtipo schema.org de LocalBusiness: "AccountingService", "GeneralContractor", "MovingCompany"... */
   jsonLdType: z.string().min(3),
   keywords: z.array(z.string()).min(3),
+  /**
+   * Foto de fondo del Open Graph (ruta en public/, "/images/hero.webp").
+   * app/opengraph-image.tsx la compone: foto full-bleed + overlay oscuro +
+   * logo arriba. Elige una imagen REAL representativa del sitio (hero,
+   * fachada, obra) — no el logo suelto. Si se omite, el OG intenta
+   * "/images/hero.webp" y si no hay foto cae a la tarjeta sólida de marca.
+   */
+  ogImage: z.string().optional(),
 });
 
 export const designSchema = z.object({

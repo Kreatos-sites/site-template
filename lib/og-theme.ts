@@ -63,3 +63,23 @@ export function readPublicImageAsDataUri(publicPath: string): string {
     );
   }
 }
+
+/**
+ * Variante SUAVE: devuelve null en vez de tronar cuando el archivo no existe
+ * o la extensión no es soportada. La usa opengraph-image.tsx, que compone la
+ * foto de fondo/el logo si están y cae a la tarjeta sólida si no — un OG sin
+ * foto NO debe romper el build (a diferencia de un `business.icon` declarado
+ * pero roto, que sí debe tronar).
+ */
+export function tryReadPublicImageAsDataUri(
+  publicPath: string | undefined | null,
+): string | null {
+  if (!publicPath) return null;
+  const ext = publicPath.slice(publicPath.lastIndexOf(".")).toLowerCase();
+  if (!mimeByExt[ext]) return null;
+  try {
+    return readPublicImageAsDataUri(publicPath);
+  } catch {
+    return null;
+  }
+}
