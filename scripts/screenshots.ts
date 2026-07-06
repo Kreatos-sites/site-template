@@ -7,8 +7,9 @@
  *  - `pnpm screenshots:serve`      → SOLO arranca next start persistente
  *    (queda vivo entre comandos; pid en .qa/next.pid). Para el sandbox.
  *  - `pnpm screenshots:page -- --route /servicios` → captura UNA página
- *    contra el server ya vivo (un comando corto por página; los modos
- *    salen solos: home = desktop light+dark+mobile, interior = desktop+mobile).
+ *    contra el server ya vivo (un comando corto por página; los modos salen
+ *    solos según defaultMode/themeToggle: home añade el modo alterno solo si
+ *    hay toggle; un sitio de un solo modo no genera capturas del otro).
  *  - `pnpm screenshots:stop`       → mata el server persistente.
  *
  * Los PNG quedan en .qa/screenshots/ — el agente los revisa con visión.
@@ -46,17 +47,26 @@ const MOBILE = { width: 390, height: 844 };
 
 function shotsFor(route: string): Shot[] {
   const slug = slugOf(route);
+  // Solo se captura lo que el VISITANTE puede ver. El sitio arranca en
+  // defaultMode; el modo alterno solo es alcanzable si hay toggle. Un sitio
+  // light-only (defaultMode=light, themeToggle=false) NO debe generar capturas
+  // dark: el visitante nunca llega ahí, y el reviewer marcaba "critical" por
+  // contraste en un modo muerto (bloqueaba el approval y hacía perder tokens
+  // arreglando dark que nadie ve).
+  const primary = config.design.defaultMode;
+  const toggle = config.flags.themeToggle === true;
   const base: Shot[] = [
-    { route, name: `${slug}-desktop-light`, viewport: DESKTOP, colorScheme: "light" },
-    { route, name: `${slug}-mobile-light`, viewport: MOBILE, colorScheme: "light" },
+    { route, name: `${slug}-desktop-${primary}`, viewport: DESKTOP, colorScheme: primary },
+    { route, name: `${slug}-mobile-${primary}`, viewport: MOBILE, colorScheme: primary },
   ];
-  // Dark completo solo en la home: es donde el theme se juzga.
-  if (route === "/") {
+  // El modo alterno se juzga en la home, y solo si el toggle lo hace alcanzable.
+  if (toggle && route === "/") {
+    const alt = primary === "light" ? "dark" : "light";
     base.splice(1, 0, {
       route,
-      name: `${slug}-desktop-dark`,
+      name: `${slug}-desktop-${alt}`,
       viewport: DESKTOP,
-      colorScheme: "dark",
+      colorScheme: alt,
     });
   }
   return base;
