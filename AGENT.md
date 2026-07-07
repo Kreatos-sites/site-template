@@ -80,6 +80,29 @@ SU markup — el diseño es único por sitio, la plomería es una sola y ya prob
   `GoogleRatingBadge`, `WhatsappButton`, `LocaleSwitcher`, `ThemeToggle`,
   `SectionHeading` — todos en `components/shared/`.
 
+### Contratos de primitivas (firma EXACTA — cópiala, NO inventes props)
+
+```tsx
+// SmartImage — el aspecto/marco va en className. NO existe prop `aspect`.
+<SmartImage src="/images/hero.webp" alt={t("heroAlt")} className="aspect-[4/5] rounded-sm" />
+//   props: { src: string; alt: string; className?: string; sizes?: string; priority?: boolean }
+//   Hace fill + object-cover por dentro: NUNCA le pases fill/width/height.
+
+// MapEmbed — recibe el business ENTERO. NO existe address/mapsHref.
+<MapEmbed business={config.business} title={t("mapTitle")} className="aspect-video w-full" />
+//   props: { business: Business; title: string; className?: string }
+
+// useContactForm — devuelve onSubmit YA envuelto. NO existe handleSubmit/status/selectProps.
+const { t, register, onSubmit, isSubmitting, errors, errorId, errorText, ariaProps } = useContactForm(`${ns}.form`);
+// <form onSubmit={onSubmit}> … <input {...register("name")} {...ariaProps("name")} /> …
+//   isSubmitting: boolean (deshabilita el submit); errorText(field): string | null.
+
+// Reveal — motion de entrada.  delay?: number (ms), className?: string.
+<Reveal delay={80} className="…">…</Reveal>
+```
+
+**Export**: cada custom es NAMED export — `export function <PascalName>({ ns }: { ns: string })` — y `registry.ts` la importa `import { <PascalName> } from "./<archivo>"`. NUNCA `export default`: el registry importa named y el build truena con "has no default export".
+
 ## `reference/` — corpus de inspiración (NO se monta)
 
 `reference/sections/` (15 arquetipos de sección) y `reference/blocks/` (52
@@ -166,9 +189,10 @@ export default config;
    reescribas el archivo entero.
 5. **`messages/es.json`** — escribe TODO el copy, un namespace por sección.
 6. **`public/images/`** — fotos reales. El tratamiento lo aplica el motor.
-7. **Verifica**: `pnpm qa` (build + validate-config + screenshots). Revisa las
-   capturas (desktop/mobile, dark en home): texto cortado, overflow o dark roto
-   se corrigen ANTES de entregar.
+7. **Verifica de barato→caro**: `pnpm validate-config` → `pnpm typecheck`
+   (`tsc --noEmit`, lista TODOS los errores de tipo de una) → `pnpm qa` (build +
+   validate + screenshots). Revisa las capturas (desktop/mobile, dark en home):
+   texto cortado, overflow o dark roto se corrigen ANTES de entregar.
 
 ## Reglas del contrato de una sección custom
 

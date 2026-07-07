@@ -41,6 +41,13 @@ const messages = JSON.parse(messagesRaw) as Record<string, unknown>;
 const loremRe = /\b(lorem|ipsum|dolor sit amet)\b/i;
 const todoRe = /\b(TODO|FIXME|TBD|PLACEHOLDER|XXX)\b/;
 const emojiRe = /\p{Extended_Pictographic}/u;
+// Español sin diacríticos = defecto de calidad (pasó en un run real: el modelo
+// QUITÓ los acentos para "esquivar" un validador → shippeó "Navegacion/Mexico/
+// logistica"). Denylist de formas SIN acento de palabras de copy frecuentes y
+// casi siempre acentuadas; se evitan monosílabos ambiguos (mas/tu/el/si) para
+// no dar falsos positivos. Solo corre sobre es.json (copy en español).
+const sinAcentoRe =
+  /\b(navegacion|informacion|gestion|soluciones?|atencion|logistica|mexico|telefono|categorias?|tecnico|electronico|analisis|garantia|energia|estrategia|paginas?|sesion|direccion|operacion|produccion|distribucion|camion|aereo|maritimo|deposito|tramite|articulo|metodo|numero|tambien|ademas)\b/i;
 
 function walkStrings(value: unknown, path: string, visit: (s: string, p: string) => void) {
   if (typeof value === "string") {
@@ -58,6 +65,11 @@ walkStrings(messages, "", (text, path) => {
   if (loremRe.test(text)) errors.push(`[copy] ${path}: contiene texto lorem/relleno`);
   if (todoRe.test(text)) errors.push(`[copy] ${path}: contiene marcador pendiente (TODO/TBD/...)`);
   if (emojiRe.test(text)) errors.push(`[copy] ${path}: contiene emoji (prohibido en el copy)`);
+  const acc = sinAcentoRe.exec(text);
+  if (acc)
+    errors.push(
+      `[copy] ${path}: "${acc[0]}" sin diacríticos — el copy es-* DEBE llevar acentos. NUNCA elimines los acentos para esquivar un validador; escríbelos bien (p. ej. "${acc[0]}" con tilde).`,
+    );
 });
 
 /* ---------- 3. Espejo secciones <-> keys (home + páginas) ---------- */
@@ -148,6 +160,104 @@ function walkPagesTree(node: unknown, path: string) {
   }
 }
 if ("pages" in messages) walkPagesTree(messages["pages"], "pages");
+
+/* ---------- 3b. Keys t() de custom vs es.json (cascada MISSING_MESSAGE) ---------- */
+// El bloque 3 valida NAMESPACES; esto valida las KEYS HOJA que cada sección
+// custom referencia con t()/t.raw()/t.rich(). Sin esto, una key hoja faltante
+// (p. ej. `hero.lead`) pasa validate y solo revienta en `next build` con
+// MISSING_MESSAGE, de a UNA por ciclo (docenas de builds). Aquí se listan TODAS
+// de golpe. Soporta ambos patrones de traductor: bound `useTranslations(ns)`
+// (keys relativas) y global `getTranslations({...})` + `t(`${ns}.key`)` (ruta
+// completa interpolada). Un componente puede usarse con >1 ns (page-intro en
+// varias páginas): se verifica cada par (componente, ns).
+{
+  const customDir = join(root, "components", "custom");
+  const nsByComponent = new Map<string, Set<string>>();
+  const addUse = (component: string, ns: string | undefined) => {
+    if (!ns) return;
+    if (!nsByComponent.has(component)) nsByComponent.set(component, new Set());
+    nsByComponent.get(component)!.add(ns);
+  };
+  for (const s of config.sections) addUse(s.component, s.ns);
+  for (const page of config.pages ?? [])
+    for (const s of page.sections) addUse(s.component, s.ns);
+
+  // Sustituye ${ns} por el ns real en un template; null si hay OTRA interpolación.
+  const substNs = (raw: string, usageNs: string): string | null => {
+    const r = raw.replace(/\$\{\s*ns\s*\}/g, usageNs);
+    return r.includes("${") ? null : r;
+  };
+  // Namespace base de un binding de traductor. "" = global (getTranslations sin
+  // ns / useTranslations()): sus llamadas ya traen la ruta completa. null = no
+  // resoluble → se ignora ese binding (sin falsos positivos).
+  const resolveBase = (argRaw: string, usageNs: string): string | null => {
+    const arg = argRaw.trim();
+    if (arg === "") return "";
+    if (arg === "ns") return usageNs;
+    const str = /^["'](.+)["']$/.exec(arg);
+    if (str) return str[1];
+    const tpl = /^`([^`]*)`$/.exec(arg);
+    if (tpl) return substNs(tpl[1], usageNs);
+    if (arg.startsWith("{")) {
+      const m = /namespace\s*:\s*["'`]([^"'`]+)/.exec(arg);
+      return m ? substNs(m[1], usageNs) : "";
+    }
+    return null;
+  };
+
+  const missing = new Set<string>();
+  for (const [component, nsSet] of nsByComponent) {
+    const file = join(customDir, `${component}.tsx`);
+    if (!existsSync(file)) continue; // el bloque 5 (registry) reporta el faltante
+    const src = readFileSync(file, "utf8");
+    for (const usageNs of nsSet) {
+      const binders = new Map<string, string>();
+      const addBind = (re: RegExp) => {
+        for (const m of src.matchAll(re)) {
+          const base = resolveBase(m[2] ?? "", usageNs);
+          if (base !== null) binders.set(m[1], base);
+        }
+      };
+      addBind(/(?:const|let)\s+(\w+)\s*=\s*(?:await\s+)?useTranslations\(([^)]*)\)/g);
+      addBind(/(?:const|let)\s+(\w+)\s*=\s*(?:await\s+)?getTranslations\(([^)]*)\)/g);
+      // useContactForm: el alias de `t` en el destructure hereda su ns (`${ns}.form`).
+      for (const m of src.matchAll(
+        /(?:const|let)\s*\{([^}]*)\}\s*=\s*useContactForm\(([^)]*)\)/g,
+      )) {
+        const tAlias = /(?:^|[{,\s])t(?:\s*:\s*(\w+))?\b/.exec(m[1]);
+        if (!tAlias) continue;
+        const base = resolveBase(m[2].trim() || '"contact.form"', usageNs);
+        if (base !== null) binders.set(tAlias[1] ?? "t", base);
+      }
+      for (const [varName, base] of binders) {
+        const callRe = new RegExp(
+          `\\b${varName}(?:\\.(?:raw|rich))?\\(\\s*(["'\`])([^"'\`]*?)\\1`,
+          "g",
+        );
+        for (const m of src.matchAll(callRe)) {
+          let key = m[2];
+          if (m[1] === "`") {
+            const s = substNs(key, usageNs);
+            if (s === null) continue; // interpolación dinámica: no verificable
+            key = s;
+          } else if (key.includes("${")) {
+            continue;
+          }
+          if (!key) continue;
+          const fullKey = base ? `${base}.${key}` : key;
+          if (resolveNs(messages, fullKey) === undefined) {
+            missing.add(`${component} (ns "${usageNs}"): t("${key}") → key inexistente "${fullKey}"`);
+          }
+        }
+      }
+    }
+  }
+  for (const m of [...missing].sort()) {
+    errors.push(
+      `[keys] ${m} en es.json — el build tronaría con MISSING_MESSAGE. Agrega la key al copy o corrígela en el componente.`,
+    );
+  }
+}
 
 /* ---------- 4. Colores literales en components/ ---------- */
 const hexRe = /#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})(?![\w-])/;
@@ -286,8 +396,11 @@ for (const [pi, page] of (config.pages ?? []).entries()) {
         if (t[fg] === undefined || t[bg] === undefined) continue;
         const delta = Math.abs(t[fg] - t[bg]);
         if (delta < min) {
+          // L objetivo del foreground: aléjalo del fondo hasta cumplir ΔL≥min.
+          const target =
+            t[fg] >= t[bg] ? Math.min(1, t[bg] + min) : Math.max(0, t[bg] - min);
           errors.push(
-            `[contraste] ${mode}: --${fg} (L=${t[fg]}) sobre --${bg} (L=${t[bg]}) casi ilegible (ΔL=${delta.toFixed(2)} < ${min}). Separa más los lightness: texto oscuro sobre fondo claro (o al revés en dark).`,
+            `[contraste] ${mode}: --${fg} (L=${t[fg]}) sobre --${bg} (L=${t[bg]}) casi ilegible (ΔL=${delta.toFixed(2)} < ${min}). Pon --${fg} en L≈${target.toFixed(2)} (o más lejos) EN ${mode}, y aplica la MISMA corrección en :root Y .dark.`,
           );
         }
       }
