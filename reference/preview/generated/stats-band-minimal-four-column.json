@@ -1,0 +1,16 @@
+{
+  "key": "stats-band-minimal-four-column",
+  "pascalName": "StatsBandMinimalFourColumn",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `stats-band-minimal-four-column` | stats-band-minimal-four-column — banda minimalista de cuatro cifras clave con números grandes y labels cortos, separadas por líneas divisorias, sin iconos ni tarjetas | { eyebrow, title, stats: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Resultados",
+    "title": "Cifras que respaldan cada entrega",
+    "stats": [
+      { "value": "18", "label": "Años operando en el Bajío" },
+      { "value": "312", "label": "Proyectos ejecutivos entregados" },
+      { "value": "96%", "label": "Obras entregadas en fecha" },
+      { "value": "45", "label": "Ingenieros y arquitectos en plantilla" }
+    ]
+  }
+}

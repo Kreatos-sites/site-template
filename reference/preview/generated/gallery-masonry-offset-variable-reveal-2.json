@@ -1,0 +1,55 @@
+{
+  "key": "gallery-masonry-offset-variable-reveal-2",
+  "pascalName": "GalleryMasonryOffsetVariableReveal2",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-masonry-offset-variable-reveal-2` | gallery-masonry-offset-variable-reveal-2 — muro masonry con tile destacado a dos columnas, alturas variables y foco de hover con ícono de ampliar · úsalo para portafolio de estudio de arquitectura o despacho creativo. | { eyebrow, title, description?, items: [{ image, imageAlt, title, category }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos que hemos diseñado y supervisado hasta su entrega",
+    "description": "Una selección de obras residenciales, corporativas e institucionales desarrolladas por nuestro despacho en los últimos cinco años.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de torre corporativa con celosía de concreto y vidrio",
+        "title": "Torre Cuvier",
+        "category": "Corporativo"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de estar de casa residencial con muro de piedra volcánica",
+        "title": "Casa Milpa Alta",
+        "category": "Residencial"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vestíbulo de hospital privado con iluminación cenital",
+        "title": "Hospital Vitalia Norte",
+        "category": "Institucional"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Patio central de oficinas corporativas con jardín interior",
+        "title": "Corporativo Aranda",
+        "category": "Corporativo"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Terraza de restaurante con pérgola de madera y vegetación",
+        "title": "Restaurante Cedral",
+        "category": "Comercial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Biblioteca universitaria con estanterías a doble altura",
+        "title": "Biblioteca Central UAQ",
+        "category": "Institucional"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Cocina integral de departamento con isla de mármol",
+        "title": "Departamentos Rebozo",
+        "category": "Residencial"
+      }
+    ]
+  }
+}

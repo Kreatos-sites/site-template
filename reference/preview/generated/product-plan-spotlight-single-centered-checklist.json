@@ -1,0 +1,27 @@
+{
+  "key": "product-plan-spotlight-single-centered-checklist",
+  "pascalName": "ProductPlanSpotlightSingleCenteredChecklist",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-plan-spotlight-single-centered-checklist` | product-plan-spotlight-single-centered-checklist — tarjeta de plan único centrada con precio destacado, checklist completo de beneficios, CTA y nota de confianza; para productos o servicios de un solo nivel sin comparación de planes | { eyebrow, title, description, planLabel, price, period, priceNote, features: [{ label }], cta, footnote } |",
+  "fixture": {
+    "eyebrow": "Plan único",
+    "title": "Todo lo que necesita su despacho en un solo plan",
+    "description": "Sin niveles ni letras pequeñas: un plan completo pensado para despachos legales y contables que buscan digitalizar su operación sin complicaciones.",
+    "planLabel": "Plan Integral",
+    "price": "$4,900",
+    "period": "MXN / mes",
+    "priceNote": "Facturación mensual, cancele cuando guste",
+    "features": [
+      { "label": "Gestión ilimitada de expedientes y clientes" },
+      { "label": "Firma electrónica avanzada incluida" },
+      { "label": "Portal de seguimiento para sus clientes" },
+      { "label": "Respaldo automático diario en la nube" },
+      { "label": "Soporte prioritario en horario hábil" },
+      { "label": "Hasta 10 usuarios con roles y permisos" },
+      { "label": "Reportes de facturación y cobranza" },
+      { "label": "Integración con su correo corporativo" }
+    ],
+    "cta": "Solicitar demostración",
+    "footnote": "Utilizado por más de 60 despachos en México"
+  }
+}

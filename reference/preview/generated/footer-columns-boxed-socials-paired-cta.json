@@ -1,0 +1,53 @@
+{
+  "key": "footer-columns-boxed-socials-paired-cta",
+  "pascalName": "FooterColumnsBoxedSocialsPairedCta",
+  "category": "Footers",
+  "catalogRow": "| `footer-columns-boxed-socials-paired-cta` | footer-columns-boxed-socials-paired-cta — footer multi-columna con caja de redes sociales y dos CTAs pareados y prominentes apilados sobre el copyright centrado | { brand, description, socials: [{icon, href, label}], columns: [{title, links: [{label, href}]}], ctas: [{label, href}], copyright, legalLinks: [{label, href}] } |",
+  "fixture": {
+    "brand": "Distribuidora Altiva",
+    "description": "Logística y distribución de insumos industriales para el centro y bajío del país, con cobertura en más de 40 ciudades.",
+    "socials": [
+      { "icon": "globe", "href": "https://distribuidoraaltiva.mx", "label": "Sitio web" },
+      { "icon": "link", "href": "https://distribuidoraaltiva.mx/red", "label": "Red de socios" },
+      { "icon": "email", "href": "mailto:contacto@distribuidoraaltiva.mx", "label": "Correo electrónico" }
+    ],
+    "columns": [
+      {
+        "title": "Servicios",
+        "links": [
+          { "label": "Distribución nacional", "href": "/servicios/distribucion" },
+          { "label": "Almacenaje y fulfillment", "href": "/servicios/almacenaje" },
+          { "label": "Logística inversa", "href": "/servicios/logistica-inversa" },
+          { "label": "Consultoría de cadena de suministro", "href": "/servicios/consultoria" }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          { "label": "Quiénes somos", "href": "/empresa" },
+          { "label": "Cobertura y flota", "href": "/empresa/cobertura" },
+          { "label": "Trabaja con nosotros", "href": "/empresa/vacantes" },
+          { "label": "Proveedores", "href": "/empresa/proveedores" }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          { "label": "Rastreo de envíos", "href": "/recursos/rastreo" },
+          { "label": "Guía de tarifas", "href": "/recursos/tarifas" },
+          { "label": "Preguntas frecuentes", "href": "/recursos/preguntas-frecuentes" },
+          { "label": "Centro de ayuda", "href": "/recursos/ayuda" }
+        ]
+      }
+    ],
+    "ctas": [
+      { "label": "Solicitar cotización", "href": "/cotizar" },
+      { "label": "Agendar una llamada", "href": "/contacto" }
+    ],
+    "copyright": "© 2026 Distribuidora Altiva. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ]
+  }
+}

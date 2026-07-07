@@ -1,0 +1,116 @@
+{
+  "key": "landing-saas-assembled-with-stats-band",
+  "pascalName": "LandingSaasAssembledWithStatsBand",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `landing-saas-assembled-with-stats-band` | landing-saas-assembled-with-stats-band — página SaaS ensamblada de una sola pieza: intro con CTAs, franja de logos de clientes, banda de cifras dedicada, features, testimonio, planes de precio y FAQ | { eyebrow, title, subtitle, ctaPrimary, ctaSecondary, logosLabel, logos: string[], stats: [{icon,value,label}], featuresTitle, features: [{icon,title,description}], testimonial: {quote,name,role,company}, pricingTitle, pricingPlans: [{name,price,period,description,features:string[],cta,highlighted?}], faqTitle, faqs: [{question,answer}], finalCtaTitle, finalCtaSubtitle, finalCtaButton } |",
+  "fixture": {
+    "eyebrow": "Plataforma de gestión",
+    "title": "El software que ordena la operación de su despacho de principio a fin",
+    "subtitle": "Centralice expedientes, facturación, tiempos y reportes de su despacho en una sola plataforma. Sin hojas de cálculo dispersas ni procesos manuales que retrasan el cierre del mes.",
+    "ctaPrimary": "Solicitar demostración",
+    "ctaSecondary": "Ver planes",
+    "logosLabel": "Despachos y firmas que ya operan con nosotros",
+    "logos": [
+      "Corporativo Ledesma",
+      "Grupo Aránzazu",
+      "Vialta Consultores",
+      "Bufete Marín y Asociados",
+      "Ceres Contadores"
+    ],
+    "stats": [
+      { "icon": "users", "value": "1,200+", "label": "Despachos activos en la plataforma" },
+      { "icon": "trending", "value": "38%", "label": "Reducción promedio en tiempo de facturación" },
+      { "icon": "clock", "value": "4.2 hrs", "label": "Ahorradas por semana y por colaborador" },
+      { "icon": "shield", "value": "99.95%", "label": "Disponibilidad del servicio en el último año" }
+    ],
+    "featuresTitle": "Todo lo que necesita su equipo, en un solo lugar",
+    "features": [
+      {
+        "icon": "zap",
+        "title": "Automatización de expedientes",
+        "description": "Genere y actualice expedientes de clientes automáticamente a partir de sus plantillas y catálogos internos."
+      },
+      {
+        "icon": "shield",
+        "title": "Control de accesos por rol",
+        "description": "Defina qué puede ver y modificar cada colaborador según su puesto, con bitácora de cada movimiento."
+      },
+      {
+        "icon": "chart",
+        "title": "Reportes en tiempo real",
+        "description": "Consulte avance de casos, horas facturables y cartera vencida sin esperar al cierre del mes."
+      }
+    ],
+    "testimonial": {
+      "quote": "Desde que migramos, el cierre mensual que nos tomaba una semana ahora se resuelve en dos días. El equipo dejó de perseguir información en correos.",
+      "name": "Renata Villaseñor",
+      "role": "Directora de Operaciones",
+      "company": "Corporativo Ledesma"
+    },
+    "pricingTitle": "Planes para despachos de cualquier tamaño",
+    "pricingPlans": [
+      {
+        "name": "Esencial",
+        "price": "$1,490",
+        "period": "/mes",
+        "description": "Para despachos de hasta 8 colaboradores.",
+        "features": [
+          "Expedientes ilimitados",
+          "Facturación electrónica",
+          "Soporte por correo"
+        ],
+        "cta": "Empezar",
+        "highlighted": false
+      },
+      {
+        "name": "Profesional",
+        "price": "$2,990",
+        "period": "/mes",
+        "description": "Para despachos en crecimiento con varias áreas.",
+        "features": [
+          "Todo lo de Esencial",
+          "Reportes avanzados",
+          "Control de accesos por rol",
+          "Soporte prioritario"
+        ],
+        "cta": "Solicitar demostración",
+        "highlighted": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "personalizada",
+        "description": "Para grupos con varias oficinas y necesidades específicas.",
+        "features": [
+          "Todo lo de Profesional",
+          "Integraciones a la medida",
+          "Gerente de cuenta dedicado"
+        ],
+        "cta": "Hablar con ventas",
+        "highlighted": false
+      }
+    ],
+    "faqTitle": "Preguntas frecuentes",
+    "faqs": [
+      {
+        "question": "¿Cuánto tiempo toma la implementación?",
+        "answer": "En promedio, un despacho queda operando en la plataforma en dos semanas, incluyendo la migración de expedientes existentes."
+      },
+      {
+        "question": "¿La plataforma emite facturas electrónicas válidas ante el SAT?",
+        "answer": "Sí, la facturación electrónica cumple con los requisitos vigentes y se sincroniza automáticamente con su contabilidad."
+      },
+      {
+        "question": "¿Puedo cambiar de plan más adelante?",
+        "answer": "Sí, puede subir o bajar de plan en cualquier momento desde su panel de administración, sin penalizaciones."
+      },
+      {
+        "question": "¿Qué pasa con mi información si cancelo el servicio?",
+        "answer": "Le entregamos un respaldo completo de sus expedientes y datos en un formato estándar dentro de los primeros 30 días posteriores a la cancelación."
+      }
+    ],
+    "finalCtaTitle": "Agende una demostración con nuestro equipo",
+    "finalCtaSubtitle": "Le mostramos cómo su despacho puede reducir el tiempo de facturación desde la primera semana.",
+    "finalCtaButton": "Agendar ahora"
+  }
+}

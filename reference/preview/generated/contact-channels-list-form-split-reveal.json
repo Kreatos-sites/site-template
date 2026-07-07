@@ -1,0 +1,72 @@
+{
+  "key": "contact-channels-list-form-split-reveal",
+  "pascalName": "ContactChannelsListFormSplitReveal",
+  "category": "Contacto",
+  "catalogRow": "| `contact-channels-list-form-split-reveal` | contact-channels-list-form-split-reveal — Panel izquierdo con lista de canales de comunicación (teléfono, correo, dirección, horario, chat) y panel derecho con formulario completo de contacto, scroll-reveal escalonado | { eyebrow, title, subtitle, channels: [{ icon, label, value }], formTitle, fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su siguiente proyecto",
+    "subtitle": "Escríbanos por el canal que le resulte más conveniente o complete el formulario y un asesor de nuestro despacho le responderá en un plazo máximo de un día hábil.",
+    "channels": [
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 (81) 4455 2200"
+      },
+      {
+        "icon": "mail",
+        "label": "Correo electrónico",
+        "value": "contacto@contrerasasociados.mx"
+      },
+      {
+        "icon": "map-pin",
+        "label": "Oficina",
+        "value": "Av. Constitución 1420, Piso 8, Monterrey, Nuevo León"
+      },
+      {
+        "icon": "clock",
+        "label": "Horario de atención",
+        "value": "Lunes a viernes, 9:00 a 18:00 horas"
+      },
+      {
+        "icon": "chat",
+        "label": "Chat directo",
+        "value": "Disponible para clientes con caso activo"
+      }
+    ],
+    "formTitle": "Envíenos su consulta",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nombre completo",
+        "type": "text",
+        "placeholder": "Escriba su nombre"
+      },
+      {
+        "name": "email",
+        "label": "Correo electrónico",
+        "type": "email",
+        "placeholder": "nombre@empresa.com"
+      },
+      {
+        "name": "phone",
+        "label": "Teléfono",
+        "type": "tel",
+        "placeholder": "10 dígitos"
+      },
+      {
+        "name": "subject",
+        "label": "Asunto",
+        "type": "text",
+        "placeholder": "Área legal de su interés"
+      },
+      {
+        "name": "message",
+        "label": "Mensaje",
+        "type": "textarea",
+        "placeholder": "Describa brevemente su caso o consulta"
+      }
+    ],
+    "submitLabel": "Enviar consulta"
+  }
+}

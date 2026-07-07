@@ -1,0 +1,45 @@
+{
+  "key": "features-checklist-dense-two-column-marks",
+  "pascalName": "FeaturesChecklistDenseTwoColumnMarks",
+  "category": "Features y servicios",
+  "catalogRow": "| `features-checklist-dense-two-column-marks` | features-checklist-dense-two-column-marks — checklist denso de dos columnas con marcas cuadradas llenas para enumerar todo lo que incluye un servicio o plan | { eyebrow, title, description, items: [{ title, description }] } |",
+  "fixture": {
+    "eyebrow": "Qué incluye",
+    "title": "Todo lo que cubre nuestro servicio de contabilidad mensual",
+    "description": "Un solo honorario fijo cubre la operación contable y fiscal completa de su empresa, sin cargos adicionales por trámite ni sorpresas al cierre de mes.",
+    "items": [
+      {
+        "title": "Contabilidad electrónica al día",
+        "description": "Registro y conciliación de pólizas cada mes, con papeles de trabajo listos para su revisión."
+      },
+      {
+        "title": "Declaraciones mensuales y anuales",
+        "description": "Cálculo y presentación de ISR, IVA y retenciones dentro de los plazos que marca el SAT."
+      },
+      {
+        "title": "Nómina y dispersión de pagos",
+        "description": "Timbrado de recibos, cálculo de IMSS e Infonavit y dispersión puntual a sus colaboradores."
+      },
+      {
+        "title": "Emisión y control de CFDI",
+        "description": "Facturación electrónica de ingresos y egresos, con validación de comprobantes recibidos."
+      },
+      {
+        "title": "Conciliación bancaria mensual",
+        "description": "Cruce de movimientos bancarios contra registros contables para detectar diferencias a tiempo."
+      },
+      {
+        "title": "Estados financieros mensuales",
+        "description": "Balance general y estado de resultados entregados dentro de los primeros diez días hábiles."
+      },
+      {
+        "title": "Acompañamiento en auditorías",
+        "description": "Atención directa de requerimientos y revisiones del SAT sin costo adicional por hora."
+      },
+      {
+        "title": "Asesoría fiscal permanente",
+        "description": "Consultas ilimitadas por correo o llamada para decisiones que afectan su carga tributaria."
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "key": "email-subscription-band-inline-form",
+  "pascalName": "EmailSubscriptionBandInlineForm",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `email-subscription-band-inline-form` | email-subscription-band-inline-form — franja de ancho completo con formulario de suscripción en línea y nota de privacidad, para captar contactos al cierre de la página | { eyebrow, title, description, emailLabel, placeholder, cta, privacyNote } |",
+  "fixture": {
+    "eyebrow": "Boletín informativo",
+    "title": "Reciba actualizaciones normativas y fiscales antes que su competencia",
+    "description": "Una vez al mes enviamos un resumen breve con cambios regulatorios, plazos fiscales relevantes y criterios de nuestros socios sobre casos reales. Sin relleno, sin spam.",
+    "emailLabel": "Correo electrónico",
+    "placeholder": "Escriba su correo electrónico",
+    "cta": "Suscribirme",
+    "privacyNote": "Usamos su correo únicamente para enviarle el boletín. Puede darse de baja en cualquier momento desde el mismo correo."
+  }
+}

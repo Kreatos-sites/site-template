@@ -1,0 +1,52 @@
+{
+  "key": "contact-form-map-office-locations",
+  "pascalName": "ContactFormMapOfficeLocations",
+  "category": "Contacto",
+  "catalogRow": "| `contact-form-map-office-locations` | contact-form-map-office-locations — formulario de contacto en columna angosta junto a mapa con pines y tarjetas de sedes, layout split asimétrico · úsalo para despachos o constructoras con varias oficinas. | { eyebrow, title, subtitle, formTitle, submitLabel, mapImage, mapImageAlt, fields: [{ name, label, type, placeholder }], locations: [{ icon, name, address, phone, hours }] } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su próximo proyecto",
+    "subtitle": "Escríbanos desde el formulario o visite la oficina más cercana. Un especialista de obra le responde en un plazo máximo de un día hábil.",
+    "formTitle": "Envíe su mensaje",
+    "submitLabel": "Enviar mensaje",
+    "mapImage": "/images/hero.svg",
+    "mapImageAlt": "Mapa con la ubicación de nuestras oficinas en México",
+    "fields": [
+      { "name": "name", "label": "Nombre completo", "type": "text", "placeholder": "Su nombre" },
+      { "name": "company", "label": "Empresa", "type": "text", "placeholder": "Razón social" },
+      { "name": "email", "label": "Correo", "type": "email", "placeholder": "nombre@empresa.com" },
+      { "name": "phone", "label": "Teléfono", "type": "tel", "placeholder": "(55) 0000 0000" },
+      { "name": "message", "label": "Mensaje", "type": "textarea", "placeholder": "Cuéntenos sobre su proyecto" }
+    ],
+    "locations": [
+      {
+        "icon": "office",
+        "name": "Oficina Ciudad de México",
+        "address": "Av. Insurgentes Sur 1898, Col. Florida, Álvaro Obregón, CDMX",
+        "phone": "(55) 4172 3390",
+        "hours": "Lunes a viernes, 9:00 a 18:30"
+      },
+      {
+        "icon": "briefcase",
+        "name": "Oficina Monterrey",
+        "address": "Av. Constitución 444, Col. Centro, Monterrey, Nuevo León",
+        "phone": "(81) 8123 4560",
+        "hours": "Lunes a viernes, 9:00 a 18:00"
+      },
+      {
+        "icon": "buildings",
+        "name": "Oficina Guadalajara",
+        "address": "Av. Vallarta 3233, Col. Vallarta Poniente, Guadalajara, Jalisco",
+        "phone": "(33) 3630 1187",
+        "hours": "Lunes a viernes, 9:00 a 18:00"
+      },
+      {
+        "icon": "map-pin",
+        "name": "Oficina Querétaro",
+        "address": "Blvd. Bernardo Quintana 300, Centro Sur, Querétaro",
+        "phone": "(442) 245 9012",
+        "hours": "Lunes a viernes, 9:30 a 18:00"
+      }
+    ]
+  }
+}

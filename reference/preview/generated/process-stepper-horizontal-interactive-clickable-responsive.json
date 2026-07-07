@@ -1,0 +1,32 @@
+{
+  "key": "process-stepper-horizontal-interactive-clickable-responsive",
+  "pascalName": "ProcessStepperHorizontalInteractiveClickableResponsive",
+  "category": "Proceso",
+  "catalogRow": "| `process-stepper-horizontal-interactive-clickable-responsive` | process-stepper-horizontal-interactive-clickable-responsive — stepper horizontal con línea conectora entre pasos numerados, se apila vertical en móvil, para mostrar el proceso de trabajo paso a paso | { eyebrow, title, steps: [{ title, description }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro proceso",
+    "title": "Cómo trabajamos con usted",
+    "steps": [
+      {
+        "title": "Levantamiento en sitio",
+        "description": "Visitamos el predio, tomamos medidas y evaluamos condiciones del terreno antes de proponer cualquier solución."
+      },
+      {
+        "title": "Anteproyecto y presupuesto",
+        "description": "Le entregamos planos preliminares con costos desglosados por partida para que apruebe alcance y presupuesto."
+      },
+      {
+        "title": "Permisos y contratación",
+        "description": "Gestionamos licencias municipales y firmamos el contrato de obra con calendario y forma de pago definidos."
+      },
+      {
+        "title": "Ejecución de obra",
+        "description": "Supervisamos avance semanal con bitácora fotográfica y reportes al cliente sobre tiempos y calidad."
+      },
+      {
+        "title": "Entrega y garantía",
+        "description": "Realizamos el recorrido final de entrega y cubrimos la obra con garantía por escrito durante doce meses."
+      }
+    ]
+  }
+}

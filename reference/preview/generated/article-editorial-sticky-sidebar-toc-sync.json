@@ -1,0 +1,59 @@
+{
+  "key": "article-editorial-sticky-sidebar-toc-sync",
+  "pascalName": "ArticleEditorialStickySidebarTocSync",
+  "category": "Features y servicios",
+  "catalogRow": "| `article-editorial-sticky-sidebar-toc-sync` | article-editorial-sticky-sidebar-toc-sync — artículo editorial largo con barra lateral de tabla de contenidos fija (sticky) y bloque de cita destacada, para guías o documentación a fondo | { eyebrow, title, description, author: { initials, name, role }, meta: { readingTime, date }, tocLabel, toc: [{ id, label }], sections: [{ id, heading, body }], quote: { text, attribution } } |",
+  "fixture": {
+    "eyebrow": "Guía editorial",
+    "title": "Cumplimiento fiscal para PYMES: guía completa 2026",
+    "description": "Una revisión a fondo de las obligaciones fiscales que enfrentan las pequeñas y medianas empresas en México, con criterios prácticos para cada etapa del ciclo contable.",
+    "author": {
+      "initials": "MR",
+      "name": "Mariana Reyes",
+      "role": "Socia de impuestos, Reyes & Asociados"
+    },
+    "meta": {
+      "readingTime": "14 minutos de lectura",
+      "date": "3 de julio de 2026"
+    },
+    "tocLabel": "En esta guía",
+    "toc": [
+      { "id": "obligaciones", "label": "Obligaciones periódicas" },
+      { "id": "regimen", "label": "Elección del régimen fiscal" },
+      { "id": "deducciones", "label": "Deducciones autorizadas" },
+      { "id": "calendario", "label": "Calendario de declaraciones" },
+      { "id": "riesgos", "label": "Riesgos frecuentes de auditoría" }
+    ],
+    "sections": [
+      {
+        "id": "obligaciones",
+        "heading": "Obligaciones periódicas",
+        "body": "Toda PYME debe presentar declaraciones mensuales de IVA e ISR, además de la declaración anual. Omitir un periodo, aunque sea en ceros, genera requerimientos del SAT que retrasan trámites posteriores como devoluciones o cambios de régimen."
+      },
+      {
+        "id": "regimen",
+        "heading": "Elección del régimen fiscal",
+        "body": "El Régimen Simplificado de Confianza conviene a negocios con ingresos menores a 3.5 millones de pesos anuales, mientras que el Régimen General ofrece más flexibilidad en deducciones para empresas con estructura de costos compleja."
+      },
+      {
+        "id": "deducciones",
+        "heading": "Deducciones autorizadas",
+        "body": "Renta de oficina, nómina, combustibles con comprobante y depreciación de activo fijo son las deducciones que más se rechazan por falta de requisitos fiscales. Cada comprobante debe conciliarse contra el CFDI correspondiente antes de declarar."
+      },
+      {
+        "id": "calendario",
+        "heading": "Calendario de declaraciones",
+        "body": "Las declaraciones mensuales vencen el día 17 del mes siguiente; la declaración anual de personas morales vence el 31 de marzo. Un atraso de un solo día ya genera recargos calculados sobre la totalidad del impuesto a cargo."
+      },
+      {
+        "id": "riesgos",
+        "heading": "Riesgos frecuentes de auditoría",
+        "body": "Las discrepancias entre ingresos declarados y depósitos bancarios, así como los CFDI emitidos a clientes que después cancelan la operación, son las dos causas más comunes de revisión electrónica por parte de la autoridad."
+      }
+    ],
+    "quote": {
+      "text": "El cumplimiento fiscal no es un trámite de fin de mes: es la base sobre la que se sostiene cualquier decisión financiera de la empresa.",
+      "attribution": "Mariana Reyes, socia de impuestos"
+    }
+  }
+}

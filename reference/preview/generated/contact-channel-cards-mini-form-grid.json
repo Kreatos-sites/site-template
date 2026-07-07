@@ -1,0 +1,63 @@
+{
+  "key": "contact-channel-cards-mini-form-grid",
+  "pascalName": "ContactChannelCardsMiniFormGrid",
+  "category": "Contacto",
+  "catalogRow": "| `contact-channel-cards-mini-form-grid` | contact-channel-cards-mini-form-grid — Grid de tarjetas de canales de contacto (correo, documentos, WhatsApp, soporte) con hover-lift y un mini formulario inline al costado, para que el visitante elija cómo prefiere escribir | { eyebrow, title, subtitle, channels: [{ icon, title, description, value, href }], formTitle, fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Escríbanos por el canal que le resulte más cómodo",
+    "subtitle": "Atendemos consultas de nuevos proyectos, seguimiento de expedientes y soporte a clientes actuales del despacho.",
+    "channels": [
+      {
+        "icon": "mail",
+        "title": "Correo directo",
+        "description": "Para consultas generales o solicitud de propuestas de servicio.",
+        "value": "contacto@despacholegalmx.com",
+        "href": "mailto:contacto@despacholegalmx.com"
+      },
+      {
+        "icon": "docs",
+        "title": "Portal de expedientes",
+        "description": "Consulte el estatus de su caso y descargue documentos firmados.",
+        "value": "Ingresar al portal",
+        "href": "/portal"
+      },
+      {
+        "icon": "whatsapp",
+        "title": "WhatsApp corporativo",
+        "description": "Respuesta en horario hábil para clientes con caso activo.",
+        "value": "+52 55 4821 3390",
+        "href": "https://wa.me/525548213390"
+      },
+      {
+        "icon": "phone",
+        "title": "Línea de soporte",
+        "description": "Atención telefónica para dudas urgentes de facturación.",
+        "value": "+52 55 4821 3391",
+        "href": "tel:+525548213391"
+      }
+    ],
+    "formTitle": "Solicite una primera asesoría",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nombre completo",
+        "type": "text",
+        "placeholder": "Su nombre"
+      },
+      {
+        "name": "email",
+        "label": "Correo electrónico",
+        "type": "email",
+        "placeholder": "usted@empresa.com"
+      },
+      {
+        "name": "message",
+        "label": "Mensaje",
+        "type": "textarea",
+        "placeholder": "Cuéntenos brevemente su caso"
+      }
+    ],
+    "submitLabel": "Enviar solicitud"
+  }
+}

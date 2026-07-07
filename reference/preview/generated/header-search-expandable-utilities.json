@@ -1,0 +1,22 @@
+{
+  "key": "header-search-expandable-utilities",
+  "pascalName": "HeaderSearchExpandableUtilities",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-search-expandable-utilities` | header-search-expandable-utilities — navegación superior con campo de búsqueda expandible (CSS puro) y cluster de controles de utilidad (cuenta, idioma) | { logo, navLabel, nav: [{ label, href }], searchLabel, searchPlaceholder, accountLabel, accountHref, localeLabel, menuLabel } |",
+  "fixture": {
+    "logo": "Corteva & Asociados",
+    "navLabel": "Navegación principal",
+    "nav": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "searchLabel": "Buscar en el sitio",
+    "searchPlaceholder": "Buscar área de práctica o abogado",
+    "accountLabel": "Portal de clientes",
+    "accountHref": "#portal",
+    "localeLabel": "Cambiar idioma",
+    "menuLabel": "Abrir menú"
+  }
+}

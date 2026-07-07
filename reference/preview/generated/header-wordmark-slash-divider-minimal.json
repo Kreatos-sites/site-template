@@ -1,0 +1,24 @@
+{
+  "key": "header-wordmark-slash-divider-minimal",
+  "pascalName": "HeaderWordmarkSlashDividerMinimal",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-wordmark-slash-divider-minimal` | header-wordmark-slash-divider-minimal — navegación editorial minimalista con wordmark serif, barra utilitaria y enlaces separados por slash, para despachos y firmas que buscan un encabezado sobrio y tipográfico | { wordmark, navLabel, menuLabel, ctaLabel, ctaHref, meta: [{ label }], links: [{ label, href }] } |",
+  "fixture": {
+    "wordmark": "Iturbide & Asociados",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "meta": [
+      { "label": "Ciudad de México" },
+      { "label": "Monterrey" },
+      { "label": "Lun a Vie, 9:00 a 19:00" }
+    ],
+    "links": [
+      { "label": "Áreas de práctica", "href": "#practica" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

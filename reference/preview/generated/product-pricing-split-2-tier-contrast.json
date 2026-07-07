@@ -1,0 +1,44 @@
+{
+  "key": "product-pricing-split-2-tier-contrast",
+  "pascalName": "ProductPricingSplit2TierContrast",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-pricing-split-2-tier-contrast` | product-pricing-split-2-tier-contrast — panel dividido de 2 planes con contraste visual (Pro relleno vs. Starter plano) y checklist de features, para comparar rápidamente dos niveles de servicio | { eyebrow, title, description, plans: [{ name, tagline, price, period, features: string[], cta, featured, badge? }], footnote } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan por cada etapa de su despacho",
+    "description": "Compare los dos niveles de acompañamiento contable y fiscal que ofrecemos, y elija el que corresponde al tamaño de su operación.",
+    "plans": [
+      {
+        "name": "Starter",
+        "tagline": "Para negocios que están formalizando su contabilidad por primera vez.",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "features": [
+          "Declaraciones mensuales de impuestos",
+          "Conciliación bancaria básica",
+          "Un asesor asignado por correo",
+          "Reporte financiero trimestral"
+        ],
+        "cta": "Empezar con Starter",
+        "featured": false
+      },
+      {
+        "name": "Pro",
+        "tagline": "Para empresas con nómina, múltiples cuentas y auditorías frecuentes.",
+        "price": "$11,500",
+        "period": "MXN / mes",
+        "features": [
+          "Todo lo de Starter",
+          "Gestión completa de nómina y IMSS",
+          "Asesor dedicado con llamadas semanales",
+          "Reporte financiero mensual",
+          "Preparación para auditorías y revisiones del SAT"
+        ],
+        "cta": "Empezar con Pro",
+        "featured": true,
+        "badge": "Más elegido"
+      }
+    ],
+    "footnote": "Los precios no incluyen IVA. Puede cambiar de plan en cualquier momento sin penalización."
+  }
+}

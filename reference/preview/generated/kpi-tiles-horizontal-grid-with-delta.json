@@ -1,0 +1,49 @@
+{
+  "key": "kpi-tiles-horizontal-grid-with-delta",
+  "pascalName": "KpiTilesHorizontalGridWithDelta",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `kpi-tiles-horizontal-grid-with-delta` | kpi-tiles-horizontal-grid-with-delta — franja compacta de seis tiles de métrica con valor grande y delta direccional, sin gráficos ni tablas, para un resumen operativo rápido | { eyebrow, title, period, kpis: [{ label, value, delta, direction }] } |",
+  "fixture": {
+    "eyebrow": "Indicadores",
+    "title": "Desempeño operativo del trimestre",
+    "period": "Q2 2026",
+    "kpis": [
+      {
+        "label": "Envíos entregados",
+        "value": "12,480",
+        "delta": "+8.2%",
+        "direction": "up"
+      },
+      {
+        "label": "Tiempo promedio de tránsito",
+        "value": "2.4 días",
+        "delta": "-6.1%",
+        "direction": "down"
+      },
+      {
+        "label": "Costo por kilómetro",
+        "value": "$14.30",
+        "delta": "-3.4%",
+        "direction": "down"
+      },
+      {
+        "label": "Incidencias reportadas",
+        "value": "0.9%",
+        "delta": "-1.1%",
+        "direction": "down"
+      },
+      {
+        "label": "Clientes activos",
+        "value": "186",
+        "delta": "+5.7%",
+        "direction": "up"
+      },
+      {
+        "label": "Ocupación de flota",
+        "value": "91.4%",
+        "delta": "+2.9%",
+        "direction": "up"
+      }
+    ]
+  }
+}

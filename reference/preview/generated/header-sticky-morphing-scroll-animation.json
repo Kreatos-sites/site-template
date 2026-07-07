@@ -1,0 +1,20 @@
+{
+  "key": "header-sticky-morphing-scroll-animation",
+  "pascalName": "HeaderStickyMorphingScrollAnimation",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-sticky-morphing-scroll-animation` | header-sticky-morphing-scroll-animation — nav sticky de una sola capa con blur intenso permanente que sugiere compactación al hacer scroll, logo + enlaces centrados + teléfono/CTA, menú móvil nativo | { logo, navLabel, links: [{ label, href }], phone, ctaLabel, ctaHref, menuLabel } |",
+  "fixture": {
+    "logo": "Vertexa Legal",
+    "navLabel": "Navegación principal",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "phone": "+52 55 4172 8930",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú de navegación"
+  }
+}

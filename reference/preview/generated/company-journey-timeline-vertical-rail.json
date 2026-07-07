@@ -1,0 +1,60 @@
+{
+  "key": "company-journey-timeline-vertical-rail",
+  "pascalName": "CompanyJourneyTimelineVerticalRail",
+  "category": "Features y servicios",
+  "catalogRow": "| `company-journey-timeline-vertical-rail` | company-journey-timeline-vertical-rail — hito vertical con espina y riel izquierdo, para narrar la historia de la empresa o las fases de un proyecto por fecha y estatus | { eyebrow, title, description, statusLabels: { completado, en-curso, planeado }, milestones: [{ date, status, icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra trayectoria",
+    "title": "De taller local a constructora regional",
+    "description": "Cada etapa de Grupo Solvento responde a un objetivo concreto: crecer con obra bien ejecutada, no con promesas.",
+    "statusLabels": {
+      "completado": "Completado",
+      "en-curso": "En curso",
+      "planeado": "Planeado"
+    },
+    "milestones": [
+      {
+        "date": "2011",
+        "status": "completado",
+        "icon": "flag",
+        "title": "Fundación en Monterrey",
+        "description": "Iniciamos con dos cuadrillas y un solo cliente: remodelación de naves industriales en el parque Apodaca."
+      },
+      {
+        "date": "2015",
+        "status": "completado",
+        "icon": "building",
+        "title": "Primera obra de gran escala",
+        "description": "Entregamos la ampliación de la planta de Distribuidora Kalvor, 4,200 m² en ocho meses sin retrasos."
+      },
+      {
+        "date": "2019",
+        "status": "completado",
+        "icon": "award",
+        "title": "Certificación ISO 9001",
+        "description": "Formalizamos nuestros procesos de control de calidad y seguridad en obra bajo norma internacional."
+      },
+      {
+        "date": "2022",
+        "status": "completado",
+        "icon": "users",
+        "title": "Equipo de 60 colaboradores",
+        "description": "Abrimos área de ingeniería estructural propia para dejar de depender de despachos externos."
+      },
+      {
+        "date": "2024",
+        "status": "en-curso",
+        "icon": "map",
+        "title": "Expansión a Saltillo y Torreón",
+        "description": "Dos obras activas fuera del área metropolitana de Monterrey, con equipo residente en cada sitio."
+      },
+      {
+        "date": "2026",
+        "status": "planeado",
+        "icon": "rocket",
+        "title": "División de mantenimiento industrial",
+        "description": "Nueva línea de servicio para contratos de mantenimiento preventivo en plantas ya construidas por nosotros."
+      }
+    ]
+  }
+}

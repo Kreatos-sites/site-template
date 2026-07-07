@@ -1,0 +1,29 @@
+{
+  "key": "contact-form-parallax-support-visual",
+  "pascalName": "ContactFormParallaxSupportVisual",
+  "category": "Contacto",
+  "catalogRow": "| `contact-form-parallax-support-visual` | contact-form-parallax-support-visual — formulario de soporte junto a panel visual con capas superpuestas (imagen + tarjetas de indicadores), pensado para páginas de soporte/atención a clientes | { eyebrow, title, subtitle, fields: [{name, label, type, placeholder}], submitLabel, note, image, imageAlt, panelTitle, panelSubtitle, highlights: [{icon, label, value}] } |",
+  "fixture": {
+    "eyebrow": "Soporte técnico",
+    "title": "Escríbanos y un especialista le responderá",
+    "subtitle": "Atendemos fallas de equipo, dudas de garantía y pedidos urgentes de refacciones industriales.",
+    "fields": [
+      { "name": "name", "label": "Nombre completo", "type": "text", "placeholder": "Su nombre" },
+      { "name": "email", "label": "Correo", "type": "email", "placeholder": "correo@empresa.com" },
+      { "name": "subject", "label": "Asunto", "type": "text", "placeholder": "Ej. Falla en bomba hidráulica" },
+      { "name": "message", "label": "Mensaje", "type": "textarea", "placeholder": "Describa el equipo, modelo y el problema que presenta" }
+    ],
+    "submitLabel": "Enviar solicitud",
+    "note": "Le responderemos en un plazo máximo de un día hábil.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Técnico de soporte revisando un equipo industrial en planta",
+    "panelTitle": "Un equipo de soporte que conoce sus equipos",
+    "panelSubtitle": "Más de una década atendiendo plantas de manufactura en el Bajío.",
+    "highlights": [
+      { "icon": "clock", "label": "Tiempo de respuesta", "value": "Menos de 24 h" },
+      { "icon": "headset", "label": "Especialistas disponibles", "value": "Lunes a sábado" },
+      { "icon": "chat", "label": "Canales de contacto", "value": "Correo y teléfono" },
+      { "icon": "shield", "label": "Garantía cubierta", "value": "Hasta 24 meses" }
+    ]
+  }
+}

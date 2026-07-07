@@ -1,0 +1,67 @@
+{
+  "key": "pricing-table-matrix-compare-feature-sticky",
+  "pascalName": "PricingTableMatrixCompareFeatureSticky",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-table-matrix-compare-feature-sticky` | pricing-table-matrix-compare-feature-sticky — tabla comparativa de 3 planes con encabezado sticky, secciones de características agrupadas y columna destacada para el plan más contratado | { eyebrow, title, description, plansLabel, popularLabel, includedLabel, notIncludedLabel, plans: [{ name, price, period, description, cta, highlight }], groups: [{ title, features: [{ label, values: [boolean|string] }] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Compare nuestros planes de asesoría legal corporativa",
+    "description": "Tres esquemas de acompañamiento pensados para empresas en distintas etapas de crecimiento. Cambie de plan cuando lo requiera, sin penalizaciones.",
+    "plansLabel": "Planes disponibles",
+    "popularLabel": "Más contratado",
+    "includedLabel": "Incluido",
+    "notIncludedLabel": "No incluido",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$8,900",
+        "period": "MXN / mes",
+        "description": "Para empresas que inician su cumplimiento corporativo.",
+        "cta": "Solicitar información",
+        "highlight": false
+      },
+      {
+        "name": "Profesional",
+        "price": "$16,500",
+        "period": "MXN / mes",
+        "description": "Acompañamiento continuo con revisión prioritaria.",
+        "cta": "Agendar una llamada",
+        "highlight": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Para grupos empresariales con varias filiales.",
+        "cta": "Contactar al despacho",
+        "highlight": false
+      }
+    ],
+    "groups": [
+      {
+        "title": "Consultoría",
+        "features": [
+          { "label": "Sesiones de asesoría mensual", "values": ["2 horas", "6 horas", "Ilimitadas"] },
+          { "label": "Abogado asignado", "values": [false, true, true] },
+          { "label": "Revisión de contratos", "values": [true, true, true] }
+        ]
+      },
+      {
+        "title": "Documentación",
+        "features": [
+          { "label": "Actas y minutas corporativas", "values": [true, true, true] },
+          { "label": "Plantillas de contratos personalizadas", "values": [false, true, true] },
+          { "label": "Gestión ante notarías", "values": [false, false, true] }
+        ]
+      },
+      {
+        "title": "Soporte",
+        "features": [
+          { "label": "Tiempo de respuesta", "values": ["48 horas", "24 horas", "Mismo día"] },
+          { "label": "Acompañamiento en auditorías", "values": [false, true, true] },
+          { "label": "Ejecutivo de cuenta dedicado", "values": [false, false, true] }
+        ]
+      }
+    ]
+  }
+}

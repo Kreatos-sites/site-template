@@ -1,0 +1,77 @@
+{
+  "key": "testimonials-masonry-wall-varied-heights-organic",
+  "pascalName": "TestimonialsMasonryWallVariedHeightsOrganic",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-masonry-wall-varied-heights-organic` | testimonials-masonry-wall-varied-heights-organic — pared de tarjetas en mampostería con alturas variables, calificación en estrellas y avatar · úsalo para reunir muchas voces de clientes de forma orgánica sin que se vea repetitivo. | { eyebrow, title, ratingLabel, testimonials: [{ quote, name, role, company, rating, avatar, avatarAlt, featured? }] } |",
+  "fixture": {
+    "eyebrow": "Testimonios",
+    "title": "Voces reales de clientes que ya trabajaron con nosotros",
+    "ratingLabel": "{rating} de 5 estrellas",
+    "testimonials": [
+      {
+        "quote": "Nos entregaron el dictamen fiscal completo dos semanas antes de la fecha límite del SAT, sin una sola observación.",
+        "name": "Renata Solórzano",
+        "role": "Directora de Finanzas",
+        "company": "Grupo Alimentario del Norte",
+        "rating": 5,
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Renata Solórzano",
+        "featured": true
+      },
+      {
+        "quote": "El despacho llevó nuestra defensa fiscal ante una auditoría compleja. Cada documento se preparó con anticipación y nos explicaron el proceso paso a paso, sin tecnicismos que no pudiéramos entender.",
+        "name": "Ignacio Barragán",
+        "role": "Socio Fundador",
+        "company": "Barragán y Asociados Inmobiliaria",
+        "rating": 5,
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ignacio Barragán"
+      },
+      {
+        "quote": "Su equipo de litigio ganó el caso en primera instancia.",
+        "name": "Daniela Fuentes",
+        "role": "Gerente Legal",
+        "company": "Distribuidora Fuentes",
+        "rating": 4,
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Daniela Fuentes"
+      },
+      {
+        "quote": "Reestructuraron el contrato de sociedad de la empresa familiar sin que se rompiera la relación entre los hermanos socios. Eso solo lo logra un despacho que entiende el lado humano del negocio.",
+        "name": "Rodolfo Camacho",
+        "role": "Director General",
+        "company": "Maquinaria Camacho",
+        "rating": 5,
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Rodolfo Camacho"
+      },
+      {
+        "quote": "Respondieron cada correo el mismo día durante todo el proceso de fusión.",
+        "name": "Valeria Nájera",
+        "role": "Consejera Jurídica",
+        "company": "Constructora Nájera",
+        "rating": 5,
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Valeria Nájera"
+      },
+      {
+        "quote": "Después de dos despachos que no lograron resolver el conflicto laboral, este equipo cerró el caso en menos de tres meses con un acuerdo favorable para ambas partes.",
+        "name": "Emilio Vergara",
+        "role": "Director de Recursos Humanos",
+        "company": "Logística Vergara",
+        "rating": 4,
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Emilio Vergara"
+      },
+      {
+        "quote": "Su asesoría en propiedad intelectual protegió nuestra marca en menos de un mes.",
+        "name": "Sofía Larrañaga",
+        "role": "Directora de Marca",
+        "company": "Estudio Creativo Larrañaga",
+        "rating": 5,
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Sofía Larrañaga"
+      }
+    ]
+  }
+}

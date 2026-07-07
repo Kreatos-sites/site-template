@@ -1,0 +1,16 @@
+{
+  "key": "testimonial-featured-centered-oversized-quote",
+  "pascalName": "TestimonialFeaturedCenteredOversizedQuote",
+  "category": "Features y servicios",
+  "catalogRow": "| `testimonial-featured-centered-oversized-quote` | testimonial-featured-centered-oversized-quote — testimonio spotlight centrado con cita oversized, avatar grande, nombre/rol y logo de la empresa del cliente | { eyebrow, quote, avatar, avatarAlt, name, role, logo, logoAlt } |",
+  "fixture": {
+    "eyebrow": "Testimonio",
+    "quote": "Desde que trabajamos con el despacho, cerramos cada ejercicio fiscal sin sorpresas. Nos explican cada decisión en términos que entendemos y responden antes de que preguntemos.",
+    "avatar": "/images/about.svg",
+    "avatarAlt": "Retrato de Mariana Solís, directora de operaciones",
+    "name": "Mariana Solís",
+    "role": "Directora de Operaciones, Grupo Ferretero del Bajío",
+    "logo": "/images/hero.svg",
+    "logoAlt": "Logotipo de Grupo Ferretero del Bajío"
+  }
+}

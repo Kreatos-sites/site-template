@@ -1,0 +1,37 @@
+{
+  "key": "landing-startup-with-key-stats-section",
+  "pascalName": "LandingStartupWithKeyStatsSection",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `landing-startup-with-key-stats-section` | landing-startup-with-key-stats-section — sección de cifras clave para landing de startup, con eyebrow, título, descripción y grid de 4 métricas con icono, valor y detalle · úsalo justo después del hero para mostrar tracción o alcance operativo. | { eyebrow, title, description, stats: [{ icon, value, label, description }] } |",
+  "fixture": {
+    "eyebrow": "Resultados con nuestros clientes",
+    "title": "La plataforma que conecta a distribuidores y transportistas en todo el país",
+    "description": "Desde 2021 ayudamos a empresas de logística a reducir tiempos muertos y coordinar sus rutas con datos en tiempo real.",
+    "stats": [
+      {
+        "icon": "rocket",
+        "value": "412",
+        "label": "Empresas activas",
+        "description": "Distribuidores y transportistas que operan sobre la plataforma cada mes."
+      },
+      {
+        "icon": "users",
+        "value": "58",
+        "label": "Ciudades cubiertas",
+        "description": "Presencia operativa en las principales zonas industriales del país."
+      },
+      {
+        "icon": "clock",
+        "value": "31%",
+        "label": "Menos tiempo muerto",
+        "description": "Reducción promedio en horas de espera por ruta tras el primer trimestre."
+      },
+      {
+        "icon": "trending",
+        "value": "2.3M",
+        "label": "Envíos coordinados",
+        "description": "Órdenes gestionadas de punta a punta desde el lanzamiento de la plataforma."
+      }
+    ]
+  }
+}

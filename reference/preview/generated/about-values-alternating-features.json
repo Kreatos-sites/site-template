@@ -1,0 +1,54 @@
+{
+  "key": "about-values-alternating-features",
+  "pascalName": "AboutValuesAlternatingFeatures",
+  "category": "Nosotros",
+  "catalogRow": "| `about-values-alternating-features` | about-values-alternating-features — filas alternadas izquierda/derecha que emparejan valores y capacidades de la empresa con imágenes ilustrativas, para la sección Nosotros | { eyebrow, title, rows: [{ eyebrow, title, body, points: string[], image, imageAlt, icon }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Un despacho construido sobre método, no sobre promesas",
+    "rows": [
+      {
+        "eyebrow": "Rigor técnico",
+        "title": "Cada expediente pasa por control cruzado",
+        "body": "Ningún dictamen sale de nuestras manos sin revisión de un segundo socio. Documentamos supuestos, citamos la fuente normativa y dejamos trazabilidad completa de cada decisión fiscal.",
+        "points": [
+          "Doble revisión en todo dictamen",
+          "Bitácora normativa por expediente",
+          "Papeles de trabajo auditables",
+          "Actualización trimestral de criterios"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de contadores revisando expedientes fiscales en sala de juntas",
+        "icon": "shield"
+      },
+      {
+        "eyebrow": "Equipo dedicado",
+        "title": "Un contador senior asignado, no un call center",
+        "body": "Desde la primera reunión conoce al contador que atenderá su cuenta. Responde sus correos, conoce el historial de su empresa y está disponible antes del cierre de mes, no solo en abril.",
+        "points": [
+          "Contador senior fijo por cliente",
+          "Respuesta en menos de 24 horas",
+          "Reuniones trimestrales de cierre",
+          "Sin rotación de personal en su cuenta"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Contador senior en videollamada con cliente corporativo",
+        "icon": "users"
+      },
+      {
+        "eyebrow": "Cumplimiento a tiempo",
+        "title": "Cero declaraciones fuera de plazo en diez años",
+        "body": "Nuestro calendario fiscal se sincroniza con el suyo desde el primer mes. Avisamos con anticipación, preparamos provisiones y evitamos recargos que erosionan el flujo de su empresa.",
+        "points": [
+          "Calendario fiscal compartido",
+          "Alertas 15 días antes de cada plazo",
+          "Provisión de pagos anticipada",
+          "Historial limpio ante el SAT"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Calendario fiscal y documentos organizados sobre escritorio",
+        "icon": "gauge"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "key": "faq-tabbed-pill-filter-categories",
+  "pascalName": "FaqTabbedPillFilterCategories",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-tabbed-pill-filter-categories` | faq-tabbed-pill-filter-categories — FAQ organizado con pills de categorías (instalación, planes, personalización) que filtran el panel visible sin JavaScript · úsalo cuando el catálogo de dudas es amplio y conviene agruparlo por tema. | { eyebrow, title, description, filterLabel, categories: [{ id, label }], items: Record<string, [{ question, answer }]> } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resolvemos sus dudas sobre la plataforma",
+    "description": "Agrupamos las preguntas más comunes de nuestros clientes por tema. Si no encuentra lo que busca, escríbanos y le respondemos el mismo día hábil.",
+    "filterLabel": "Filtrar preguntas por categoría",
+    "categories": [
+      { "id": "cat-0", "label": "Instalación" },
+      { "id": "cat-1", "label": "Planes y precios" },
+      { "id": "cat-2", "label": "Personalización" }
+    ],
+    "items": {
+      "cat-0": [
+        {
+          "question": "¿Cuánto tiempo toma poner en marcha la plataforma en una obra nueva?",
+          "answer": "En promedio, entre 3 y 5 días hábiles. Nuestro equipo de implementación configura los proyectos, importa el catálogo de partidas y capacita al personal de campo antes de dejarlo operando de forma autónoma."
+        },
+        {
+          "question": "¿Necesitamos instalar algo en las computadoras de la oficina?",
+          "answer": "No. La plataforma funciona desde el navegador y desde la aplicación móvil para residentes de obra; no requiere servidores propios ni licencias instaladas por equipo."
+        },
+        {
+          "question": "¿Podemos migrar los proyectos que ya llevamos en hojas de cálculo?",
+          "answer": "Sí. Ofrecemos una migración asistida: usted nos comparte sus archivos y nuestro equipo estructura la información dentro de la plataforma sin que su avance de obra se detenga."
+        }
+      ],
+      "cat-1": [
+        {
+          "question": "¿Los planes se cobran por proyecto o por empresa?",
+          "answer": "Se cobran por número de proyectos activos simultáneos. Puede pausar o archivar proyectos entregados sin perder el historial, y eso libera espacio en su plan sin costo adicional."
+        },
+        {
+          "question": "¿Qué pasa si necesitamos más usuarios a mitad de contrato?",
+          "answer": "Puede añadir usuarios en cualquier momento; el ajuste se prorratea en la siguiente factura mensual. No hay penalización por cambiar de plan hacia uno superior."
+        },
+        {
+          "question": "¿Existe algún costo de cancelación?",
+          "answer": "No. Puede cancelar con 30 días de aviso y conserva acceso de solo lectura a sus proyectos históricos durante 6 meses adicionales sin costo."
+        }
+      ],
+      "cat-2": [
+        {
+          "question": "¿Podemos adaptar los formatos de bitácora a los que ya usamos?",
+          "answer": "Sí. El equipo de onboarding replica sus formatos actuales de bitácora, minutas y reportes fotográficos dentro de la plataforma antes del arranque."
+        },
+        {
+          "question": "¿Se puede personalizar el flujo de aprobaciones por proyecto?",
+          "answer": "Cada proyecto puede tener su propio flujo de aprobación de estimaciones y cambios de alcance, con los responsables que usted defina por rol."
+        },
+        {
+          "question": "¿Ofrecen integración con nuestro sistema contable?",
+          "answer": "Contamos con integración directa para exportar estimaciones aprobadas y órdenes de compra hacia los sistemas contables más usados en México; para casos particulares, evaluamos una conexión a la medida."
+        }
+      ]
+    }
+  }
+}

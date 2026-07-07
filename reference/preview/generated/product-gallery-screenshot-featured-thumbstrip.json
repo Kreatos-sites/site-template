@@ -1,0 +1,24 @@
+{
+  "key": "product-gallery-screenshot-featured-thumbstrip",
+  "pascalName": "ProductGalleryScreenshotFeaturedThumbstrip",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-gallery-screenshot-featured-thumbstrip` | product-gallery-screenshot-featured-thumbstrip — galería de producto con screenshot principal en marco de navegador, badge de versión y franja de 5 miniaturas · úsalo para mostrar el software o plataforma con una vista destacada y pantallas secundarias. | { eyebrow, title, description, featured: { image, imageAlt, version, caption }, thumbnails: [{ image, imageAlt, label }] } |",
+  "fixture": {
+    "eyebrow": "Plataforma",
+    "title": "Visibilidad completa de su operación logística en un solo tablero",
+    "description": "Rastree embarques, controle inventario en tránsito y genere reportes de cumplimiento sin depender de hojas de cálculo dispersas entre sus distintos centros de distribución.",
+    "featured": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Tablero principal de la plataforma de control de flotas mostrando rutas activas y estatus de entregas",
+      "version": "Versión 4.2",
+      "caption": "El tablero de operaciones consolida rutas activas, alertas de retraso y estatus de entrega en tiempo real para cada uno de sus centros de distribución."
+    },
+    "thumbnails": [
+      { "image": "/images/about.svg", "imageAlt": "Vista de inventario en tránsito por centro de distribución", "label": "Inventario en tránsito" },
+      { "image": "/images/about.svg", "imageAlt": "Vista de reportes de cumplimiento de entregas", "label": "Reportes de cumplimiento" },
+      { "image": "/images/about.svg", "imageAlt": "Vista de asignación de rutas por conductor", "label": "Asignación de rutas" },
+      { "image": "/images/about.svg", "imageAlt": "Vista de alertas de retraso configurables", "label": "Alertas de retraso" },
+      { "image": "/images/about.svg", "imageAlt": "Vista de historial de entregas por cliente", "label": "Historial por cliente" }
+    ]
+  }
+}

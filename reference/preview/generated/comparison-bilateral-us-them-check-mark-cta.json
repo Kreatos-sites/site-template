@@ -1,0 +1,30 @@
+{
+  "key": "comparison-bilateral-us-them-check-mark-cta",
+  "pascalName": "ComparisonBilateralUsThemCheckMarkCta",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `comparison-bilateral-us-them-check-mark-cta` | comparison-bilateral-us-them-check-mark-cta — comparativa nosotros vs. ellos fila por fila (check propio, cruz de la competencia) que cierra con CTA de conversión | { eyebrow, title, description?, us: { label, badge? }, them: { label }, points: string[], cta: { label, href }, footnote? } |",
+  "fixture": {
+    "eyebrow": "Por qué cambiarse",
+    "title": "La misma obra, sin las sorpresas de siempre",
+    "description": "Comparamos cómo trabajamos con Constructora Vallarta frente a un despacho de obra tradicional en los puntos que más le cuestan a un proyecto.",
+    "us": {
+      "label": "Constructora Vallarta",
+      "badge": "Recomendado"
+    },
+    "them": {
+      "label": "Despacho tradicional"
+    },
+    "points": [
+      "Costo cerrado desde el contrato, sin extras sorpresa a mitad de obra",
+      "Un solo responsable de obra que usted puede localizar todos los días",
+      "Bitácora fotográfica semanal disponible en línea",
+      "Fechas de entrega con penalización contractual por atraso",
+      "Garantía por escrito de dos años sobre acabados e instalaciones"
+    ],
+    "cta": {
+      "label": "Solicitar cotización",
+      "href": "/contacto"
+    },
+    "footnote": "Cotización sin costo para proyectos residenciales y comerciales en Jalisco y Nayarit."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "key": "pricing-tier-centered-selector-toggle-billing",
+  "pascalName": "PricingTierCenteredSelectorToggleBilling",
+  "category": "Heroes",
+  "catalogRow": "| `pricing-tier-centered-selector-toggle-billing` | pricing-tier-centered-selector-toggle-billing — plan único centrado con chips para cambiar de nivel de servicio y toggle de ciclo de facturación (mensual/anual), útil cuando se quiere destacar un solo plan a la vez sin comparar tarjetas en paralelo | { eyebrow, title, description, featuredLabel, toggle: { monthly, annual, annualNote, periodMonthly, periodAnnual }, tiers: [{ name, description, priceMonthly, priceAnnual, cta, featured?, features: [] }] } |",
+  "fixture": {
+    "eyebrow": "Honorarios",
+    "title": "Un plan claro para cada etapa de su asunto legal",
+    "description": "Seleccione el nivel de acompañamiento que necesita su despacho o empresa y compare el costo mensual o anual antes de agendar una consulta.",
+    "featuredLabel": "Más contratado",
+    "toggle": {
+      "monthly": "Mensual",
+      "annual": "Anual",
+      "annualNote": "El plan anual equivale a dos meses sin costo",
+      "periodMonthly": "/mes",
+      "periodAnnual": "/año"
+    },
+    "tiers": [
+      {
+        "name": "Esencial",
+        "description": "Para empresas que requieren consultas puntuales y revisión de contratos recurrentes.",
+        "priceMonthly": "$8,500",
+        "priceAnnual": "$85,000",
+        "cta": "Agendar consulta",
+        "features": [
+          "Hasta 4 consultas al mes",
+          "Revisión de contratos estándar",
+          "Respuesta en 48 horas",
+          "Acceso a plantillas legales"
+        ]
+      },
+      {
+        "name": "Profesional",
+        "description": "Acompañamiento continuo para empresas con operación jurídica activa.",
+        "priceMonthly": "$16,900",
+        "priceAnnual": "$169,000",
+        "cta": "Agendar consulta",
+        "featured": true,
+        "features": [
+          "Consultas ilimitadas",
+          "Redacción de contratos a medida",
+          "Respuesta en 24 horas",
+          "Representación en trámites administrativos",
+          "Sesión mensual de revisión de riesgos",
+          "Abogado asignado dedicado"
+        ]
+      },
+      {
+        "name": "Corporativo",
+        "description": "Para grupos empresariales con múltiples entidades y necesidades regulatorias complejas.",
+        "priceMonthly": "$32,000",
+        "priceAnnual": "$320,000",
+        "cta": "Solicitar propuesta",
+        "features": [
+          "Equipo legal dedicado",
+          "Cobertura corporativa y fiscal",
+          "Respuesta prioritaria en 12 horas",
+          "Auditoría legal trimestral",
+          "Representación ante autoridades",
+          "Reportes ejecutivos mensuales"
+        ]
+      }
+    ]
+  }
+}

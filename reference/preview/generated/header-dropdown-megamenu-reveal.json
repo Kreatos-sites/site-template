@@ -1,0 +1,57 @@
+{
+  "key": "header-dropdown-megamenu-reveal",
+  "pascalName": "HeaderDropdownMegamenuReveal",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-dropdown-megamenu-reveal` | header-dropdown-megamenu-reveal — navegación superior con megamenú compacto de \"Recursos\" (enlaces con ícono + tarjeta destacada) que se revela suavemente vía `<details>` nativo, sin JS de cliente | { logo, navLabel, nav: [{ label, href }], resourcesLabel, resourceLinks: [{ icon, label, description, href }], resourceHighlight: { label, description, href, cta }, ctaLabel, ctaHref, menuLabel } |",
+  "fixture": {
+    "logo": "Ibarra & Cetina",
+    "navLabel": "Navegación principal",
+    "nav": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "resourcesLabel": "Recursos",
+    "resourceLinks": [
+      {
+        "icon": "guides",
+        "label": "Guías legales",
+        "description": "Explicaciones prácticas sobre cumplimiento y contratos mercantiles.",
+        "href": "#guias"
+      },
+      {
+        "icon": "cases",
+        "label": "Casos resueltos",
+        "description": "Litigios y negociaciones representativas del despacho.",
+        "href": "#casos"
+      },
+      {
+        "icon": "blog",
+        "label": "Boletín jurídico",
+        "description": "Actualizaciones de reformas fiscales y laborales.",
+        "href": "#boletin"
+      },
+      {
+        "icon": "webinars",
+        "label": "Seminarios en línea",
+        "description": "Sesiones grabadas con especialistas del despacho.",
+        "href": "#seminarios"
+      },
+      {
+        "icon": "faq",
+        "label": "Preguntas frecuentes",
+        "description": "Dudas comunes sobre honorarios y procesos.",
+        "href": "#preguntas"
+      }
+    ],
+    "resourceHighlight": {
+      "label": "Diagnóstico de cumplimiento gratuito",
+      "description": "Agende una revisión inicial de 30 minutos con uno de nuestros socios.",
+      "href": "#diagnostico",
+      "cta": "Solicitar"
+    },
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú"
+  }
+}

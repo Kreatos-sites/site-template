@@ -1,0 +1,21 @@
+{
+  "key": "logo-cloud-grid-four-column-card",
+  "pascalName": "LogoCloudGridFourColumnCard",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-grid-four-column-card` | logo-cloud-grid-four-column-card — grid de 4 columnas con cards de icono + nombre bajo heading y subtítulo, para mostrar integraciones, alianzas tecnológicas o certificaciones de un despacho o constructora | { eyebrow, title, subtitle, partners: [{ icon, name }] } |",
+  "fixture": {
+    "eyebrow": "Integraciones y alianzas",
+    "title": "Trabajamos con la infraestructura que ya utiliza su empresa",
+    "subtitle": "Conectamos nuestros procesos de auditoría y control documental con las plataformas que su equipo opera todos los días.",
+    "partners": [
+      { "icon": "cloud", "name": "Microsoft Azure" },
+      { "icon": "database", "name": "SAP Business One" },
+      { "icon": "server", "name": "Oracle NetSuite" },
+      { "icon": "code", "name": "Contpaqi" },
+      { "icon": "shield", "name": "Facturama" },
+      { "icon": "chip", "name": "Aspel COI" },
+      { "icon": "building", "name": "Banorte Empresarial" },
+      { "icon": "globe", "name": "SAT en Línea" }
+    ]
+  }
+}

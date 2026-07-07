@@ -1,0 +1,61 @@
+{
+  "key": "gallery-masonry-css-columns-overlay-2",
+  "pascalName": "GalleryMasonryCssColumnsOverlay2",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-masonry-css-columns-overlay-2` | gallery-masonry-css-columns-overlay-2 — masonry editorial con columnas CSS y proporciones variables; overlay al hover revela categoría, título, año e ícono de \"ver proyecto\", pensado para portafolio de estudio creativo o despacho por proyecto | { eyebrow, title, description, tiles: [{ image, imageAlt, title, category, year, ratio }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos recientes",
+    "description": "Una selección de identidad de marca, espacios y campañas desarrolladas para clientes en México y Latinoamérica.",
+    "tiles": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Identidad de marca para despacho legal Oribe & Asociados",
+        "title": "Identidad Oribe & Asociados",
+        "category": "Branding",
+        "year": "2025",
+        "ratio": "portrait"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Interior de showroom para distribuidora Vantia",
+        "title": "Showroom Vantia",
+        "category": "Interiorismo",
+        "year": "2024",
+        "ratio": "landscape"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Campaña de lanzamiento para constructora Terrena",
+        "title": "Campaña Terrena",
+        "category": "Campaña",
+        "year": "2025",
+        "ratio": "square"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Sistema de señalética para clínica dental Almara",
+        "title": "Señalética Clínica Almara",
+        "category": "Ambientación",
+        "year": "2024",
+        "ratio": "tall"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Empaque para distribuidora de café Cerro Alto",
+        "title": "Empaque Cerro Alto",
+        "category": "Empaque",
+        "year": "2023",
+        "ratio": "wide"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada renovada para estudio inmobiliario Praxis",
+        "title": "Fachada Praxis",
+        "category": "Arquitectura",
+        "year": "2025",
+        "ratio": "portrait"
+      }
+    ]
+  }
+}

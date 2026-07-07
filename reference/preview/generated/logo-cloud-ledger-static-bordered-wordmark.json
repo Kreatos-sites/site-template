@@ -1,0 +1,21 @@
+{
+  "key": "logo-cloud-ledger-static-bordered-wordmark",
+  "pascalName": "LogoCloudLedgerStaticBorderedWordmark",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-ledger-static-bordered-wordmark` | logo-cloud-ledger-static-bordered-wordmark — tabla estática de wordmarks de socios/clientes con bordes y celdas hairline, sin marquee, para listar alianzas comerciales de forma determinista | { eyebrow, title, partners: [{ name, sector }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas comerciales",
+    "title": "Empresas que confían en nuestro despacho",
+    "partners": [
+      { "name": "Grupo Ferretero del Bajío", "sector": "Manufactura" },
+      { "name": "Constructora Peninsular", "sector": "Construcción" },
+      { "name": "Distribuidora Alvear", "sector": "Logística" },
+      { "name": "Corporativo Montesano", "sector": "Bienes raíces" },
+      { "name": "Textiles del Norte", "sector": "Manufactura" },
+      { "name": "Grupo Aduanal Reyes", "sector": "Comercio exterior" },
+      { "name": "Farmacéutica Solvento", "sector": "Salud" },
+      { "name": "Transportes Cabral", "sector": "Logística" },
+      { "name": "Inmobiliaria Vértice", "sector": "Bienes raíces" }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "key": "testimonials-cards-three-column-blur-stagger-rating",
+  "pascalName": "TestimonialsCardsThreeColumnBlurStaggerRating",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-cards-three-column-blur-stagger-rating` | testimonials-cards-three-column-blur-stagger-rating — tres tarjetas de cita con marca de comillas difuminada de fondo, calificación de estrellas y atribución de avatar · úsalo para reforzar confianza con testimonios de clientes reales. | { eyebrow, title, ratingLabel, testimonials: [{ quote, name, role, avatar, avatarAlt, rating }] } |",
+  "fixture": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen los clientes que ya construyeron con nosotros",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "testimonials": [
+      {
+        "quote": "Entregaron la nave industrial dos semanas antes de lo previsto y sin desviarse del presupuesto acordado. La comunicación semanal nos permitió tomar decisiones a tiempo.",
+        "name": "Rodrigo Elizondo",
+        "role": "Director de Operaciones, Grupo Insa",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Rodrigo Elizondo",
+        "rating": 5
+      },
+      {
+        "quote": "El equipo de supervisión detectó un problema de drenaje antes de que afectara la cimentación. Ese tipo de atención es la que buscábamos en un contratista.",
+        "name": "Marcela Villareal",
+        "role": "Gerente de Proyecto, Desarrolladora Cumbres",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Marcela Villareal",
+        "rating": 5
+      },
+      {
+        "quote": "Coordinaron con nuestros propios ingenieros sin fricciones y documentaron cada cambio de obra. El expediente final facilitó el cierre con la aseguradora.",
+        "name": "Héctor Salinas",
+        "role": "Socio Director, Constructora Salinas y Asociados",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Héctor Salinas",
+        "rating": 4
+      }
+    ]
+  }
+}

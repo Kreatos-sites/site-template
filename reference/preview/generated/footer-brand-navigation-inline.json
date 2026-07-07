@@ -1,0 +1,22 @@
+{
+  "key": "footer-brand-navigation-inline",
+  "pascalName": "FooterBrandNavigationInline",
+  "category": "Nosotros",
+  "catalogRow": "| `footer-brand-navigation-inline` | footer-brand-navigation-inline — pie de página compacto de una sola franja con marca e identidad, navegación inline y aviso legal · úsalo para sitios corporativos que buscan un cierre sobrio sin footer de columnas. | { brand, tagline, navLabel, links: [{ label, href }], copyright, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "brand": "Bufete Alcántara y Ríos",
+    "tagline": "Asesoría legal corporativa desde 1998",
+    "navLabel": "Navegación de pie de página",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#practica" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "copyright": "© 2026 Bufete Alcántara y Ríos. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ]
+  }
+}

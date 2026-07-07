@@ -1,0 +1,31 @@
+{
+  "key": "product-integrations-grid-icon-label-dense",
+  "pascalName": "ProductIntegrationsGridIconLabelDense",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-integrations-grid-icon-label-dense` | product-integrations-grid-icon-label-dense — grilla densa de servicios/productos logísticos como tarjetas compactas con icon y nombre, sin descripción ni CTA | { eyebrow, title, description, products: [{ icon, name }] } |",
+  "fixture": {
+    "eyebrow": "Servicios",
+    "title": "Cobertura completa de la cadena logística",
+    "description": "Cada servicio se opera desde nuestro centro de control en Monterrey, con visibilidad en tiempo real para su equipo de compras.",
+    "products": [
+      { "icon": "truck", "name": "Autotransporte terrestre" },
+      { "icon": "warehouse", "name": "Almacenaje y bodega" },
+      { "icon": "container", "name": "Consolidación de carga" },
+      { "icon": "package-check", "name": "Última milla" },
+      { "icon": "clipboard-list", "name": "Gestión de inventario" },
+      { "icon": "route", "name": "Optimización de rutas" },
+      { "icon": "scan-barcode", "name": "Trazabilidad de pedidos" },
+      { "icon": "fuel", "name": "Administración de combustible" },
+      { "icon": "map-pin", "name": "Rastreo satelital" },
+      { "icon": "shield-check", "name": "Seguro de carga" },
+      { "icon": "wrench", "name": "Mantenimiento de flotilla" },
+      { "icon": "forklift", "name": "Carga y descarga" },
+      { "icon": "circle-gauge", "name": "Control de temperatura" },
+      { "icon": "radar", "name": "Monitoreo de flotilla" },
+      { "icon": "anchor", "name": "Transporte marítimo" },
+      { "icon": "plane", "name": "Carga aérea urgente" },
+      { "icon": "ship", "name": "Agenciamiento aduanal" },
+      { "icon": "boxes", "name": "Cross-docking" }
+    ]
+  }
+}

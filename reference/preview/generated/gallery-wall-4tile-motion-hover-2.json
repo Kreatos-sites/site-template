@@ -1,0 +1,45 @@
+{
+  "key": "gallery-wall-4tile-motion-hover-2",
+  "pascalName": "GalleryWall4tileMotionHover2",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-wall-4tile-motion-hover-2` | gallery-wall-4tile-motion-hover-2 — grid de 4 tiles con hover-lift, categoría flotante sobre la imagen y CTA con flecha para showcase de proyectos | { eyebrow, title, description, tiles: [{ category, title, caption, cta, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Proyectos ejecutados",
+    "title": "Obra construida en cuatro sectores clave",
+    "description": "Una muestra de los desarrollos que hemos entregado en los últimos tres años, desde naves industriales hasta corporativos de oficina.",
+    "tiles": [
+      {
+        "category": "Industrial",
+        "title": "Nave logística Apodaca",
+        "caption": "18,500 m² de almacenamiento con andenes de carga y patio de maniobras para transporte pesado.",
+        "cta": "Ver proyecto",
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de nave logística industrial en Apodaca"
+      },
+      {
+        "category": "Corporativo",
+        "title": "Torre de oficinas Valle Oriente",
+        "caption": "Doce niveles con certificación de eficiencia energética y estacionamiento subterráneo para 340 vehículos.",
+        "cta": "Ver proyecto",
+        "image": "/images/hero.svg",
+        "imageAlt": "Torre corporativa de oficinas en Valle Oriente"
+      },
+      {
+        "category": "Infraestructura",
+        "title": "Puente vehicular Río Santa Catarina",
+        "caption": "Estructura de 240 metros que conecta dos municipios y reduce el tiempo de traslado en hora pico.",
+        "cta": "Ver proyecto",
+        "image": "/images/about.svg",
+        "imageAlt": "Puente vehicular sobre el Río Santa Catarina"
+      },
+      {
+        "category": "Residencial",
+        "title": "Conjunto habitacional Los Cristales",
+        "caption": "144 viviendas verticales con áreas comunes, alberca y planta de tratamiento de aguas residuales.",
+        "cta": "Ver proyecto",
+        "image": "/images/hero.svg",
+        "imageAlt": "Conjunto habitacional Los Cristales con áreas comunes"
+      }
+    ]
+  }
+}

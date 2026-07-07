@@ -1,0 +1,68 @@
+{
+  "key": "footer-mega-sitemap-locale-theme-bar",
+  "pascalName": "FooterMegaSitemapLocaleThemeBar",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `footer-mega-sitemap-locale-theme-bar` | footer-mega-sitemap-locale-theme-bar — mega footer corporativo con columna de marca, cuatro columnas de mapa del sitio y una barra inferior distintiva con selector de idioma, tema y avisos legales | { brandName, tagline, socials: [{label, href}], columns: [{heading, links: [{label, href}]}], localeLabel, localeOptions: [{label, href, current}], themeLabel, themeOptions: [{label, icon, current}], legalLinks: [{label, href}], copyright } |",
+  "fixture": {
+    "brandName": "Ferretera del Bajío",
+    "tagline": "Distribuidor industrial de herramienta y materiales para construcción con cobertura en el centro del país.",
+    "socials": [
+      { "label": "Perfil en LinkedIn", "href": "#" },
+      { "label": "Catálogo en línea", "href": "#" },
+      { "label": "Portal de proveedores", "href": "#" }
+    ],
+    "columns": [
+      {
+        "heading": "Compañía",
+        "links": [
+          { "label": "Quiénes somos", "href": "#" },
+          { "label": "Sucursales", "href": "#" },
+          { "label": "Trabaje con nosotros", "href": "#" },
+          { "label": "Proveedores", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Catálogo",
+        "links": [
+          { "label": "Herramienta eléctrica", "href": "#" },
+          { "label": "Ferretería general", "href": "#" },
+          { "label": "Seguridad industrial", "href": "#" },
+          { "label": "Materiales para obra", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Servicio",
+        "links": [
+          { "label": "Cotizaciones", "href": "#" },
+          { "label": "Entregas a obra", "href": "#" },
+          { "label": "Garantías", "href": "#" },
+          { "label": "Soporte técnico", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Recursos",
+        "links": [
+          { "label": "Fichas técnicas", "href": "#" },
+          { "label": "Preguntas frecuentes", "href": "#" },
+          { "label": "Contacto", "href": "#" },
+          { "label": "Aviso de privacidad", "href": "#" }
+        ]
+      }
+    ],
+    "localeLabel": "Idioma",
+    "localeOptions": [
+      { "label": "Español", "href": "#", "current": true },
+      { "label": "English", "href": "#", "current": false }
+    ],
+    "themeLabel": "Apariencia",
+    "themeOptions": [
+      { "label": "Claro", "icon": "sun", "current": true },
+      { "label": "Oscuro", "icon": "moon", "current": false }
+    ],
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "#" },
+      { "label": "Términos y condiciones", "href": "#" }
+    ],
+    "copyright": "© 2026 Ferretera del Bajío. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": "faq-grid-cards-hover-lift",
+  "pascalName": "FaqGridCardsHoverLift",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-grid-cards-hover-lift` | faq-grid-cards-hover-lift — grid de tarjetas FAQ expandibles (2x3) con etiqueta de categoría y hover lift pronunciado, para escanear temas rápido antes de contacto o precios | { eyebrow, title, subtitle?, items: [{ category, question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de empezar, resolvemos sus dudas",
+    "subtitle": "Reunimos las preguntas que más nos hacen los despachos y constructoras antes de contratar el servicio de logística documental.",
+    "items": [
+      {
+        "category": "Contratación",
+        "question": "¿Cuál es el plazo mínimo de contrato?",
+        "answer": "Trabajamos con contratos mensuales renovables; no exigimos permanencia mínima salvo en proyectos con flota dedicada, donde el plazo se define junto con usted según el volumen."
+      },
+      {
+        "category": "Cobertura",
+        "question": "¿En qué ciudades tienen operación propia?",
+        "answer": "Contamos con operación propia en Monterrey, Guadalajara y Ciudad de México; el resto del país lo cubrimos mediante aliados certificados con los mismos tiempos de respuesta."
+      },
+      {
+        "category": "Facturación",
+        "question": "¿Cómo se calculan las tarifas por envío?",
+        "answer": "La tarifa depende de peso volumétrico, distancia y tiempo de entrega solicitado; en la cotización desglosamos cada concepto para que no haya cargos sorpresa al final del mes."
+      },
+      {
+        "category": "Seguridad",
+        "question": "¿Qué pasa si un paquete se daña o se pierde?",
+        "answer": "Todo envío queda asegurado por su valor declarado; el proceso de reclamación se resuelve en un máximo de cinco días hábiles con evidencia fotográfica y reporte de ruta."
+      },
+      {
+        "category": "Tecnología",
+        "question": "¿Puedo dar seguimiento a mis envíos en tiempo real?",
+        "answer": "Sí, cada guía incluye rastreo en línea con actualizaciones de estatus y notificaciones automáticas por correo cuando el envío cambia de fase."
+      },
+      {
+        "category": "Onboarding",
+        "question": "¿Cuánto tarda en activarse una cuenta nueva?",
+        "answer": "Una vez firmado el contrato, la cuenta queda activa en un plazo de 48 horas, incluyendo la capacitación breve para su equipo sobre el portal de rastreo."
+      }
+    ]
+  }
+}

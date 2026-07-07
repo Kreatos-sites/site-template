@@ -1,0 +1,42 @@
+{
+  "key": "feature-bento-asymmetric-expandable-motion",
+  "pascalName": "FeatureBentoAsymmetricExpandableMotion",
+  "category": "Heroes",
+  "catalogRow": "| `feature-bento-asymmetric-expandable-motion` | feature-bento-asymmetric-expandable-motion — bento asimétrico con celda flagship 2x2 y cuatro celdas 1x1, cada una <details>/<summary> nativo que al abrirse revela un detalle y atenúa/difumina a las demás vía CSS puro (sin JS de cliente) | { eyebrow, title, flagship: { icon, title, description, detail }, items: [{ icon, title, description, detail }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro proceso",
+    "title": "Un solo equipo para todo el ciclo de su proyecto",
+    "flagship": {
+      "icon": "building",
+      "title": "Dirección integral de obra",
+      "description": "Coordinamos diseño, permisos, construcción y entrega bajo una sola línea de responsabilidad, con un director de proyecto asignado desde el primer día.",
+      "detail": "Reportamos avance físico-financiero cada semana y validamos cada partida contra el presupuesto original antes de autorizar el siguiente pago a proveedores."
+    },
+    "items": [
+      {
+        "icon": "ruler",
+        "title": "Diseño ejecutivo",
+        "description": "Planos y especificaciones listos para licitar y construir sin retrabajos.",
+        "detail": "Incluye ingenierías de estructura, instalaciones y detalles constructivos revisados en conjunto con el equipo de obra."
+      },
+      {
+        "icon": "hardhat",
+        "title": "Construcción",
+        "description": "Cuadrillas propias y subcontratistas certificados bajo un mismo estándar de calidad.",
+        "detail": "Bitácora de obra digital con evidencia fotográfica diaria disponible para el cliente en todo momento."
+      },
+      {
+        "icon": "clipboard",
+        "title": "Supervisión técnica",
+        "description": "Control de calidad independiente en cada etapa crítica de la obra.",
+        "detail": "Pruebas de laboratorio a concreto y acero, y checklist de recepción antes de cerrar cada partida."
+      },
+      {
+        "icon": "wrench",
+        "title": "Mantenimiento post-entrega",
+        "description": "Acompañamiento durante los primeros doce meses de operación del inmueble.",
+        "detail": "Atendemos garantías de obra y ajustes menores sin costo dentro del periodo contractual establecido."
+      }
+    ]
+  }
+}

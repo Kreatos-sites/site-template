@@ -1,0 +1,27 @@
+{
+  "key": "process-how-it-works-horizontal-icon-trio",
+  "pascalName": "ProcessHowItWorksHorizontalIconTrio",
+  "category": "Proceso",
+  "catalogRow": "| `process-how-it-works-horizontal-icon-trio` | process-how-it-works-horizontal-icon-trio — fila horizontal de tres pasos numerados con icono circular, para explicar un proceso corto (cotización, obra, entrega) de forma compacta | { eyebrow, title, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la primera llamada a la entrega, en tres pasos",
+    "steps": [
+      {
+        "icon": "phone",
+        "title": "Diagnóstico inicial",
+        "description": "Agendamos una llamada de 20 minutos para entender el alcance de su proyecto y los plazos que maneja."
+      },
+      {
+        "icon": "file",
+        "title": "Propuesta y contrato",
+        "description": "Le entregamos una cotización detallada por partida y firmamos el contrato antes de movilizar cuadrilla."
+      },
+      {
+        "icon": "hammer",
+        "title": "Ejecución y entrega",
+        "description": "Ejecutamos la obra con reportes semanales de avance y hacemos entrega formal con acta de cierre."
+      }
+    ]
+  }
+}

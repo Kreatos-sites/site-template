@@ -1,0 +1,56 @@
+{
+  "key": "pricing-cards-tiered-standard-highlight-featured",
+  "pascalName": "PricingCardsTieredStandardHighlightFeatured",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-cards-tiered-standard-highlight-featured` | pricing-cards-tiered-standard-highlight-featured — Tres tarjetas de planes apiladas verticalmente con plan destacado, checklist de características y CTA, estructura clásica para decisión entre opciones. | { eyebrow, title, subtitle, plans: [{ name, description, price, period, features: string[], cta, highlighted?, badge? }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan para cada etapa de su despacho",
+    "subtitle": "Elija el nivel de acompañamiento contable y fiscal que necesita su empresa. Puede cambiar de plan cuando lo requiera, sin penalizaciones.",
+    "plans": [
+      {
+        "name": "Esencial",
+        "description": "Para negocios que inician y necesitan cumplimiento fiscal ordenado.",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "features": [
+          "Contabilidad mensual básica",
+          "Declaraciones fiscales ante el SAT",
+          "Un asesor asignado",
+          "Reporte financiero trimestral"
+        ],
+        "cta": "Empezar con Esencial"
+      },
+      {
+        "name": "Profesional",
+        "description": "Para empresas en crecimiento con nómina y operaciones múltiples.",
+        "price": "$8,900",
+        "period": "MXN / mes",
+        "features": [
+          "Todo lo del plan Esencial",
+          "Gestión de nómina hasta 25 empleados",
+          "Conciliación bancaria mensual",
+          "Reporte financiero mensual",
+          "Línea directa con su contador"
+        ],
+        "cta": "Elegir Profesional",
+        "highlighted": true,
+        "badge": "Más contratado"
+      },
+      {
+        "name": "Corporativo",
+        "description": "Para grupos empresariales con múltiples razones sociales.",
+        "price": "$16,500",
+        "period": "MXN / mes",
+        "features": [
+          "Todo lo del plan Profesional",
+          "Consolidación de hasta 5 empresas",
+          "Auditoría interna semestral",
+          "Planeación fiscal estratégica",
+          "Reunión mensual con socio director"
+        ],
+        "cta": "Contactar a ventas"
+      }
+    ]
+  }
+}

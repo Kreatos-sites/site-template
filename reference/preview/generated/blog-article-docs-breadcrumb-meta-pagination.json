@@ -1,0 +1,51 @@
+{
+  "key": "blog-article-docs-breadcrumb-meta-pagination",
+  "pascalName": "BlogArticleDocsBreadcrumbMetaPagination",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-article-docs-breadcrumb-meta-pagination` | blog-article-docs-breadcrumb-meta-pagination — artículo de blog corporativo con breadcrumb, metadatos de publicación/actualización, cuerpo con cita y bloque de código, y navegación anterior/siguiente entre artículos | { breadcrumbNav, eyebrow, title, publishedOn, updatedOn, readingTime, breadcrumbs: [{ label }], body: [{ type: \"paragraph\", text } | { type: \"quote\", text } | { type: \"code\", language, code }], previous: { label, title }, next: { label, title } } |",
+  "fixture": {
+    "breadcrumbNav": "Ruta de navegación",
+    "eyebrow": "Guía técnica",
+    "title": "Cómo preparamos los expedientes fiscales para la revisión anual del SAT",
+    "publishedOn": "Publicado el 12 de marzo de 2026",
+    "updatedOn": "Actualizado el 2 de julio de 2026",
+    "readingTime": "7 min de lectura",
+    "breadcrumbs": [
+      { "label": "Inicio" },
+      { "label": "Recursos" },
+      { "label": "Guías fiscales" },
+      { "label": "Revisión anual del SAT" }
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Cada año, las empresas que atendemos en el despacho enfrentan la misma pregunta: qué documentos debe tener a la mano su equipo de contabilidad antes de que llegue una solicitud de información del SAT. Esta guía resume el proceso que seguimos con nuestros clientes de manufactura y comercio."
+      },
+      {
+        "type": "quote",
+        "text": "El expediente que se arma con seis meses de anticipación tarda una tercera parte del tiempo que el que se improvisa cuando ya llegó el requerimiento."
+      },
+      {
+        "type": "paragraph",
+        "text": "El primer paso es conciliar los CFDI emitidos y recibidos contra la contabilidad electrónica del ejercicio. Cualquier diferencia debe quedar documentada con su justificación antes de integrar el expediente."
+      },
+      {
+        "type": "code",
+        "language": "checklist.txt",
+        "code": "1. Conciliación de CFDI vs. pólizas contables\n2. Papeles de trabajo de ISR e IVA\n3. Contratos vigentes con proveedores clave\n4. Comprobantes de pagos provisionales\n5. Actas de asamblea del ejercicio"
+      },
+      {
+        "type": "paragraph",
+        "text": "Con esta base, el equipo puede responder cualquier requerimiento de información en menos de cinco días hábiles, que es el plazo que normalmente otorga la autoridad en la primera solicitud."
+      }
+    ],
+    "previous": {
+      "label": "Artículo anterior",
+      "title": "Qué hacer si recibe una carta invitación del SAT"
+    },
+    "next": {
+      "label": "Siguiente artículo",
+      "title": "Deducciones autorizadas para empresas de manufactura en 2026"
+    }
+  }
+}

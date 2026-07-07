@@ -1,0 +1,20 @@
+{
+  "key": "logo-cloud-grid-pulse-focus-active",
+  "pascalName": "LogoCloudGridPulseFocusActive",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-grid-pulse-focus-active` | logo-cloud-grid-pulse-focus-active — grid de logos/aliados donde una marca destacada respira con pulso sutil y, al pasar el cursor, las vecinas se atenúan para enfocar la activa; sirve para mostrar certificaciones, clientes o socios comerciales | { eyebrow, title, allies: [{ name, icon, featured? }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas y certificaciones",
+    "title": "Empresas y organismos que respaldan nuestro trabajo",
+    "allies": [
+      { "name": "Cámara Nacional de la Industria de la Construcción", "icon": "landmark", "featured": true },
+      { "name": "Grupo Logístico del Bajío", "icon": "truck" },
+      { "name": "Consejo Mexicano de Comercio Exterior", "icon": "globe" },
+      { "name": "Distribuidora Industrial Reyes", "icon": "warehouse" },
+      { "name": "Aseguradora Patrimonial S.A.", "icon": "shield" },
+      { "name": "Corporativo Manufacturero del Norte", "icon": "factory" },
+      { "name": "Desarrolladora Urbana Altiva", "icon": "building" },
+      { "name": "Grupo Empacador del Pacífico", "icon": "package" }
+    ]
+  }
+}

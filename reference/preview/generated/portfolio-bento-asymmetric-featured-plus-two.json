@@ -1,0 +1,33 @@
+{
+  "key": "portfolio-bento-asymmetric-featured-plus-two",
+  "pascalName": "PortfolioBentoAsymmetricFeaturedPlusTwo",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-bento-asymmetric-featured-plus-two` | portfolio-bento-asymmetric-featured-plus-two — muro bento asimétrico con un caso de estudio destacado en tile grande y dos proyectos de apoyo en tiles menores, para portafolios de estudios/despachos con un proyecto insignia | { eyebrow, title, featuredCta, featured: { title, category, client, description, image, imageAlt }, supporting: [{ title, category, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que combinan visión estratégica con ejecución precisa",
+    "featuredCta": "Ver caso completo",
+    "featured": {
+      "title": "Rediseño de identidad corporativa para Grupo Ferretero del Bajío",
+      "category": "Identidad de marca",
+      "client": "Grupo Ferretero del Bajío",
+      "description": "Reestructuramos la identidad visual de 14 sucursales y su flota logística, unificando señalética, papelería y presencia digital en un sistema coherente que redujo el tiempo de producción de materiales de marca en 40%.",
+      "image": "/images/hero.svg",
+      "imageAlt": "Fachada de sucursal de Grupo Ferretero del Bajío con nueva identidad de marca"
+    },
+    "supporting": [
+      {
+        "title": "Sistema de señalética para Parque Industrial Altavista",
+        "category": "Señalética",
+        "image": "/images/about.svg",
+        "imageAlt": "Señalética exterior del Parque Industrial Altavista"
+      },
+      {
+        "title": "Empaque y etiquetado para Distribuidora Cítricos del Valle",
+        "category": "Empaque",
+        "image": "/images/about.svg",
+        "imageAlt": "Empaques de cítricos con nuevo diseño para Distribuidora Cítricos del Valle"
+      }
+    ]
+  }
+}

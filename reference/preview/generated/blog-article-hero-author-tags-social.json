@@ -1,0 +1,35 @@
+{
+  "key": "blog-article-hero-author-tags-social",
+  "pascalName": "BlogArticleHeroAuthorTagsSocial",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-article-hero-author-tags-social` | blog-article-hero-author-tags-social — artículo de blog centrado con categoría, autor con avatar y hora de lectura, imagen de portada, cuerpo con encabezados/cita/lista, y pie con etiquetas y botones para compartir | { category, title, deck, author: { name, role, avatar, avatarAlt }, date, readTime, image, imageAlt, body: [{ type, text, items?, cite? }], tags: string[], shareLabel, shareAria, copyLinkAria, printAria } |",
+  "fixture": {
+    "category": "Derecho corporativo",
+    "title": "Qué debe revisar su despacho antes de firmar un contrato de arrendamiento comercial",
+    "deck": "Una guía práctica sobre las cláusulas que con mayor frecuencia generan disputas entre arrendador y arrendatario, y cómo anticiparlas desde la negociación.",
+    "author": {
+      "name": "Renata Bosch Villalobos",
+      "role": "Socia, práctica inmobiliaria",
+      "avatar": "/images/about.svg",
+      "avatarAlt": "Retrato de Renata Bosch Villalobos"
+    },
+    "date": "3 de julio de 2026",
+    "readTime": "7 min de lectura",
+    "image": "/images/hero.svg",
+    "imageAlt": "Firma de un contrato de arrendamiento comercial sobre un escritorio",
+    "body": [
+      { "type": "paragraph", "text": "En los últimos dos años hemos revisado más de cuarenta contratos de arrendamiento comercial para clientes de manufactura y retail. La mayoría de las disputas que después llegan a nuestro despacho no surgen de mala fe, sino de cláusulas que ninguna de las partes cuestionó a tiempo." },
+      { "type": "heading", "text": "1. La cláusula de incremento de renta" },
+      { "type": "paragraph", "text": "Es común indexar la renta a la inflación general, pero pocos contratos especifican qué índice aplica ni la fecha de corte. Sin esa precisión, el arrendador y el arrendatario pueden calcular cifras distintas cada año." },
+      { "type": "quote", "text": "Un contrato bien redactado no elimina el conflicto: elimina la ambigüedad que lo hace costoso.", "cite": "Renata Bosch Villalobos, socia" },
+      { "type": "heading", "text": "2. Responsabilidad sobre mejoras al inmueble" },
+      { "type": "list", "items": ["Quién absorbe el costo de adecuaciones estructurales", "Qué sucede con las mejoras al terminar el contrato", "Si se requiere autorización previa por escrito del arrendador"] },
+      { "type": "paragraph", "text": "Recomendamos a nuestros clientes documentar el estado del inmueble con fotografías fechadas antes de tomar posesión, y anexarlas como parte integral del contrato." }
+    ],
+    "tags": ["Arrendamiento comercial", "Contratos", "Derecho inmobiliario"],
+    "shareLabel": "Compartir",
+    "shareAria": "Compartir este artículo",
+    "copyLinkAria": "Copiar enlace del artículo",
+    "printAria": "Imprimir este artículo"
+  }
+}

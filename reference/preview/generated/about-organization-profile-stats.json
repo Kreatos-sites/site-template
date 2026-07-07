@@ -1,0 +1,32 @@
+{
+  "key": "about-organization-profile-stats",
+  "pascalName": "AboutOrganizationProfileStats",
+  "category": "Nosotros",
+  "catalogRow": "| `about-organization-profile-stats` | about-organization-profile-stats — tarjeta de perfil corporativo con logo, verificación, métricas clave y directorio del equipo, para la sección Nosotros | { eyebrow, title, logo, logoAlt, name, verifiedLabel, description, location, website, email, teamSizeLabel, stats: [{value, label}], teamTitle, members: [{name, role, avatar, avatarAlt}] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Un despacho constituido, con historial verificable",
+    "logo": "/images/about.svg",
+    "logoAlt": "Distintivo de Arcadia Consultoría Jurídica",
+    "name": "Arcadia Consultoría Jurídica",
+    "verifiedLabel": "Colegiado verificado",
+    "description": "Despacho especializado en derecho corporativo y fiscal, con más de doce años acompañando a empresas mexicanas en fusiones, cumplimiento regulatorio y litigio estratégico.",
+    "location": "Ciudad de México, MX",
+    "website": "arcadiaconsultoria.mx",
+    "email": "contacto@arcadiaconsultoria.mx",
+    "teamSizeLabel": "+18",
+    "stats": [
+      { "value": "12", "label": "Años operando" },
+      { "value": "340+", "label": "Casos resueltos" },
+      { "value": "96%", "label": "Retención de clientes" },
+      { "value": "18", "label": "Abogados en plantilla" }
+    ],
+    "teamTitle": "Socios y coordinadores de área",
+    "members": [
+      { "name": "Renata Solórzano", "role": "Socia fundadora", "avatar": "/images/about.svg", "avatarAlt": "Retrato de Renata Solórzano" },
+      { "name": "Ignacio Beltrán", "role": "Derecho corporativo", "avatar": "/images/about.svg", "avatarAlt": "Retrato de Ignacio Beltrán" },
+      { "name": "Paulina Nieto", "role": "Cumplimiento fiscal", "avatar": "/images/about.svg", "avatarAlt": "Retrato de Paulina Nieto" },
+      { "name": "Óscar Villanueva", "role": "Litigio estratégico", "avatar": "/images/about.svg", "avatarAlt": "Retrato de Óscar Villanueva" }
+    ]
+  }
+}

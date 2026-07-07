@@ -1,0 +1,43 @@
+{
+  "key": "faq-accordion-contact-card-alongside",
+  "pascalName": "FaqAccordionContactCardAlongside",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-accordion-contact-card-alongside` | faq-accordion-contact-card-alongside — acordeón de FAQ con tarjeta de contacto de un asesor adherida al costado · úsalo cuando la resolución de dudas debe fluir de autoservicio a contacto humano directo sin salir de la sección. | { eyebrow, title, items: [{ question, answer }], card: { avatar, avatarAlt, name, role, description, primaryHref, primaryLabel, phone, responseTime } } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratarnos, resolvemos sus dudas",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma la constitución de una sociedad mercantil?",
+        "answer": "En promedio, entre 15 y 20 días hábiles desde que recibimos la documentación completa, incluyendo la inscripción en el Registro Público de Comercio. Si el proyecto requiere permisos adicionales, el plazo se ajusta y se lo indicamos desde la primera reunión."
+      },
+      {
+        "question": "¿Manejan asuntos fuera de la Ciudad de México?",
+        "answer": "Sí. Representamos clientes en procedimientos administrativos y judiciales en toda la República a través de correspondencia con despachos aliados en cada entidad, sin que usted tenga que trasladarse."
+      },
+      {
+        "question": "¿Cómo se cobran los honorarios?",
+        "answer": "Depende del tipo de asunto: para trámites corporativos manejamos cuota fija pactada por escrito; para litigio, honorarios por hora o por etapa procesal. Siempre entregamos la propuesta antes de iniciar cualquier gestión."
+      },
+      {
+        "question": "¿Puedo dar seguimiento a mi expediente en línea?",
+        "answer": "Sí, cada cliente recibe acceso a un portal donde puede consultar el estatus de sus trámites, documentos entregados y próximas fechas relevantes."
+      },
+      {
+        "question": "¿Ofrecen una primera consulta sin costo?",
+        "answer": "La primera reunión de diagnóstico, de hasta 30 minutos, no tiene costo. Ahí evaluamos el caso y le indicamos con precisión los honorarios y tiempos estimados."
+      }
+    ],
+    "card": {
+      "avatar": "/images/about.svg",
+      "avatarAlt": "Retrato de Fernanda Ríos, asesora legal",
+      "name": "Fernanda Ríos",
+      "role": "Asesora legal corporativa",
+      "description": "¿Su duda no está en la lista? Escríbame directamente y le respondo el mismo día hábil con la información específica de su caso.",
+      "primaryHref": "mailto:fernanda.rios@despacho.mx",
+      "primaryLabel": "Escribir a la asesora",
+      "phone": "+52 55 4890 2217",
+      "responseTime": "Tiempo de respuesta promedio: menos de 6 horas hábiles."
+    }
+  }
+}

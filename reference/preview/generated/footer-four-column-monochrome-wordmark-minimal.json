@@ -1,0 +1,53 @@
+{
+  "key": "footer-four-column-monochrome-wordmark-minimal",
+  "pascalName": "FooterFourColumnMonochromeWordmarkMinimal",
+  "category": "Footers",
+  "catalogRow": "| `footer-four-column-monochrome-wordmark-minimal` | footer-four-column-monochrome-wordmark-minimal — footer monocromático de cuatro columnas con wordmark centrado en outline y barra de copyright con línea divisoria fina | { columns: [{ title, links: [{ label, href }] }], wordmark, copyright, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "columns": [
+      {
+        "title": "Despacho",
+        "links": [
+          { "label": "Quiénes somos", "href": "#quienes-somos" },
+          { "label": "Equipo", "href": "#equipo" },
+          { "label": "Trayectoria", "href": "#trayectoria" },
+          { "label": "Trabaja con nosotros", "href": "#carreras" }
+        ]
+      },
+      {
+        "title": "Áreas de práctica",
+        "links": [
+          { "label": "Corporativo y M&A", "href": "#corporativo" },
+          { "label": "Litigio civil y mercantil", "href": "#litigio" },
+          { "label": "Laboral", "href": "#laboral" },
+          { "label": "Fiscal", "href": "#fiscal" }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          { "label": "Boletines legales", "href": "#boletines" },
+          { "label": "Casos de estudio", "href": "#casos" },
+          { "label": "Preguntas frecuentes", "href": "#faq" },
+          { "label": "Contacto", "href": "#contacto" }
+        ]
+      },
+      {
+        "title": "Oficinas",
+        "links": [
+          { "label": "Ciudad de México", "href": "#cdmx" },
+          { "label": "Monterrey", "href": "#monterrey" },
+          { "label": "Guadalajara", "href": "#guadalajara" },
+          { "label": "Aviso de privacidad", "href": "#privacidad" }
+        ]
+      }
+    ],
+    "wordmark": "OVIEDO & ASOCIADOS",
+    "copyright": "© 2026 Oviedo & Asociados, S.C. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "#privacidad" },
+      { "label": "Términos de uso", "href": "#terminos" },
+      { "label": "Código de ética", "href": "#etica" }
+    ]
+  }
+}

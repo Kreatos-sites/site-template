@@ -1,0 +1,33 @@
+{
+  "key": "process-stepper-horizontal-numbered-completed-state",
+  "pascalName": "ProcessStepperHorizontalNumberedCompletedState",
+  "category": "Proceso",
+  "catalogRow": "| `process-stepper-horizontal-numbered-completed-state` | process-stepper-horizontal-numbered-completed-state — stepper horizontal con nodos numerados, conectores y estados de completitud (hecho/actual/próximo), útil para mostrar el proceso de trabajo o el flujo de contratación de un servicio. | { eyebrow, title, description, steps: [{ title, description, status: \"done\"\\|\"current\"\\|\"upcoming\" }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro proceso",
+    "title": "Así trabajamos con usted, de principio a fin",
+    "description": "Un proceso claro y ordenado para que sepa en todo momento en qué etapa se encuentra su proyecto.",
+    "steps": [
+      {
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su situación fiscal y contable actual e identificamos áreas de oportunidad.",
+        "status": "done"
+      },
+      {
+        "title": "Propuesta de trabajo",
+        "description": "Le presentamos un plan con alcance, entregables y honorarios definidos.",
+        "status": "done"
+      },
+      {
+        "title": "Implementación",
+        "description": "Ejecutamos el plan y damos seguimiento semanal a los avances con usted.",
+        "status": "current"
+      },
+      {
+        "title": "Cierre y entrega",
+        "description": "Entregamos resultados, documentación y recomendaciones para el siguiente periodo.",
+        "status": "upcoming"
+      }
+    ]
+  }
+}

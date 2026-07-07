@@ -1,0 +1,20 @@
+{
+  "key": "cta-band-horizontal-blur-conversion",
+  "pascalName": "CtaBandHorizontalBlurConversion",
+  "category": "Heroes",
+  "catalogRow": "| `cta-band-horizontal-blur-conversion` | cta-band-horizontal-blur-conversion — banda de conversión horizontal con doble CTA (cotización + llamada) y franja de estadísticas de respaldo, para cerrar cualquier página con una acción clara | { eyebrow, title, description, primaryLabel, primaryHref, secondaryLabel, secondaryHref, stats: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Siguiente paso",
+    "title": "Solicite una cotización para su proyecto de obra",
+    "description": "Nuestro equipo revisa planos, levanta cantidades y le entrega una propuesta con tiempos y costos definidos en menos de 72 horas.",
+    "primaryLabel": "Solicitar cotización",
+    "primaryHref": "/contacto",
+    "secondaryLabel": "Llamar a un asesor",
+    "secondaryHref": "tel:+525512345678",
+    "stats": [
+      { "value": "180+", "label": "Obras entregadas" },
+      { "value": "72h", "label": "Tiempo de respuesta" },
+      { "value": "22", "label": "Años de operación" }
+    ]
+  }
+}

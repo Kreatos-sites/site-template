@@ -1,0 +1,64 @@
+{
+  "key": "footer-newsletter-grouped-columns-social",
+  "pascalName": "FooterNewsletterGroupedColumnsSocial",
+  "category": "Footers",
+  "catalogRow": "| `footer-newsletter-grouped-columns-social` | footer-newsletter-grouped-columns-social — footer con captura de newsletter prominente arriba, columnas de navegación agrupadas al centro y barra inferior de redes + avisos legales | { eyebrow, title, description, newsletter: { placeholder, buttonLabel }, columns: [{ title, links: [{ label, href }] }], brand, socials: [{ icon, href, label }], legalLinks: [{ label, href }], copyright } |",
+  "fixture": {
+    "eyebrow": "Boletín",
+    "title": "Reciba nuestros análisis de mercado cada mes",
+    "description": "Suscríbase para recibir tendencias inmobiliarias, avisos de nuevos desarrollos y guías de inversión directamente en su correo.",
+    "newsletter": {
+      "placeholder": "Su correo electrónico",
+      "buttonLabel": "Suscribirme"
+    },
+    "columns": [
+      {
+        "title": "Propiedades",
+        "links": [
+          { "label": "Residencial", "href": "#residencial" },
+          { "label": "Comercial", "href": "#comercial" },
+          { "label": "Desarrollos nuevos", "href": "#desarrollos" },
+          { "label": "Terrenos", "href": "#terrenos" }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          { "label": "Nosotros", "href": "#nosotros" },
+          { "label": "Nuestro equipo", "href": "#equipo" },
+          { "label": "Casos de éxito", "href": "#casos" },
+          { "label": "Aviso de privacidad", "href": "#privacidad" }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          { "label": "Guías de inversión", "href": "#guias" },
+          { "label": "Calculadora hipotecaria", "href": "#calculadora" },
+          { "label": "Preguntas frecuentes", "href": "#faq" },
+          { "label": "Glosario inmobiliario", "href": "#glosario" }
+        ]
+      },
+      {
+        "title": "Contacto",
+        "links": [
+          { "label": "Agende una visita", "href": "#agenda" },
+          { "label": "Oficinas", "href": "#oficinas" },
+          { "label": "Atención a clientes", "href": "#atencion" },
+          { "label": "Trabaje con nosotros", "href": "#empleo" }
+        ]
+      }
+    ],
+    "brand": "Vértice Inmobiliaria",
+    "socials": [
+      { "icon": "globe", "href": "#sitio", "label": "Visite nuestro sitio" },
+      { "icon": "email", "href": "mailto:contacto@verticeinmobiliaria.mx", "label": "Escríbanos por correo" },
+      { "icon": "link", "href": "#directorio", "label": "Directorio de agentes" }
+    ],
+    "legalLinks": [
+      { "label": "Términos y condiciones", "href": "#terminos" },
+      { "label": "Aviso de privacidad", "href": "#privacidad" }
+    ],
+    "copyright": "© 2026 Vértice Inmobiliaria. Todos los derechos reservados."
+  }
+}

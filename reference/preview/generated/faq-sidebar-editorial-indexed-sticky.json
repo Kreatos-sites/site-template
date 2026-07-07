@@ -1,0 +1,49 @@
+{
+  "key": "faq-sidebar-editorial-indexed-sticky",
+  "pascalName": "FaqSidebarEditorialIndexedSticky",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-sidebar-editorial-indexed-sticky` | faq-sidebar-editorial-indexed-sticky — FAQ editorial con rail lateral indexado por categoría, tira de estadísticas y acordeón nativo por pregunta, pensado para landings extensas | { eyebrow, title, description, indexLabel, stats: [{ icon, value, label }], faqs: [{ id, question, answer, category }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratarnos, resolvemos sus dudas",
+    "description": "Reunimos las preguntas que más nos hacen despachos y áreas legales internas antes de iniciar un proyecto de cumplimiento corporativo.",
+    "indexLabel": "Índice de temas",
+    "stats": [
+      { "icon": "shield", "value": "98%", "label": "Casos resueltos en primera consulta" },
+      { "icon": "clock", "value": "24 h", "label": "Tiempo de respuesta promedio" },
+      { "icon": "layers", "value": "12", "label": "Áreas de práctica cubiertas" }
+    ],
+    "faqs": [
+      {
+        "id": "alcance",
+        "category": "Alcance del servicio",
+        "question": "¿Qué incluye el diagnóstico inicial de cumplimiento?",
+        "answer": "El diagnóstico inicial revisa sus contratos vigentes, políticas internas y obligaciones fiscales para identificar riesgos. Se entrega un reporte por escrito con hallazgos y prioridades antes de proponer cualquier plan de trabajo."
+      },
+      {
+        "id": "tiempos",
+        "category": "Tiempos y entregables",
+        "question": "¿Cuánto tarda la revisión de un contrato marco?",
+        "answer": "Para un contrato marco entre 15 y 40 páginas, la revisión toma de 3 a 5 días hábiles. Le enviamos comentarios en el documento y una llamada de seguimiento para resolver puntos de negociación."
+      },
+      {
+        "id": "honorarios",
+        "category": "Honorarios",
+        "question": "¿El despacho cobra por hora o por proyecto cerrado?",
+        "answer": "Trabajamos con tarifa cerrada por proyecto cuando el alcance está bien definido, y por hora únicamente en litigios con duración incierta. Antes de iniciar, usted recibe una cotización por escrito sin costos ocultos."
+      },
+      {
+        "id": "confidencialidad",
+        "category": "Confidencialidad",
+        "question": "¿Cómo se resguarda la información que compartimos con el despacho?",
+        "answer": "Toda la documentación se maneja bajo acuerdo de confidencialidad firmado desde la primera reunión y se almacena en un repositorio cifrado con acceso restringido al equipo asignado a su caso."
+      },
+      {
+        "id": "seguimiento",
+        "category": "Seguimiento post-entrega",
+        "question": "¿Qué pasa si surge una duda después de cerrado el proyecto?",
+        "answer": "Incluimos 30 días de acompañamiento posterior a la entrega sin costo adicional para aclarar dudas sobre lo entregado. Después de ese periodo, ofrecemos un esquema de asesoría mensual a tarifa preferencial."
+      }
+    ]
+  }
+}

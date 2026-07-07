@@ -1,0 +1,17 @@
+{
+  "key": "about-section-centered-eyebrow-mission-metrics",
+  "pascalName": "AboutSectionCenteredEyebrowMissionMetrics",
+  "category": "Heroes",
+  "catalogRow": "| `about-section-centered-eyebrow-mission-metrics` | about-section-centered-eyebrow-mission-metrics — sección Nosotros centrada con eyebrow tipo badge, declaración de misión y franja horizontal de 4 métricas | { eyebrow, mission, body, metrics: [{ icon, value, label }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "mission": "Construimos la infraestructura logística que sus operaciones necesitan para crecer sin fricciones.",
+    "body": "Desde Monterrey coordinamos flotas propias, almacenes certificados y rutas transfronterizas para distribuidores y manufactureras que no pueden darse el lujo de un envío tarde. Cada ruta se planea con el mismo rigor con el que auditamos nuestros propios procesos.",
+    "metrics": [
+      { "icon": "calendar", "value": "2009", "label": "Año de fundación" },
+      { "icon": "team", "value": "180+", "label": "Colaboradores" },
+      { "icon": "globe", "value": "12", "label": "Países atendidos" },
+      { "icon": "handshake", "value": "340+", "label": "Clientes activos" }
+    ]
+  }
+}

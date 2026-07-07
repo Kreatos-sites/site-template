@@ -1,0 +1,57 @@
+{
+  "key": "roadmap-feature-requests-upvote-interactive",
+  "pascalName": "RoadmapFeatureRequestsUpvoteInteractive",
+  "category": "Heroes",
+  "catalogRow": "| `roadmap-feature-requests-upvote-interactive` | roadmap-feature-requests-upvote-interactive — roadmap público con solicitudes de mejora, votos y estado de avance, para que los clientes vean y prioricen lo que sigue en el producto o servicio | { eyebrow, title, description, statusLabels: { planned, in-progress, shipped }, items: [{ title, description, category, status, votes, progress?, contributors?: [{ name, avatar }] }] } |",
+  "fixture": {
+    "eyebrow": "Ruta de mejoras",
+    "title": "Lo que están pidiendo nuestros clientes",
+    "description": "Cada solicitud llega directo de despachos y equipos que ya usan la plataforma. Vote por lo que más le urge y dele seguimiento a su avance.",
+    "statusLabels": {
+      "planned": "En revisión",
+      "in-progress": "En desarrollo",
+      "shipped": "Disponible"
+    },
+    "items": [
+      {
+        "title": "Exportar expedientes en lote a PDF",
+        "description": "Generar y descargar varios expedientes de clientes al mismo tiempo, con folio y firma del despacho en cada documento.",
+        "category": "Documentos",
+        "status": "in-progress",
+        "votes": 128,
+        "progress": 65,
+        "contributors": [
+          { "name": "Equipo de plataforma", "avatar": "/images/about.svg" },
+          { "name": "Soporte técnico", "avatar": "/images/about.svg" },
+          { "name": "Producto", "avatar": "/images/about.svg" }
+        ]
+      },
+      {
+        "title": "Recordatorios automáticos de vencimiento",
+        "description": "Enviar aviso por correo cuando un contrato o trámite esté por vencer, con la anticipación que cada despacho configure.",
+        "category": "Notificaciones",
+        "status": "shipped",
+        "votes": 214
+      },
+      {
+        "title": "Firma electrónica integrada",
+        "description": "Firmar contratos y anexos directamente desde el portal, sin salir a otra plataforma ni imprimir documentos.",
+        "category": "Contratos",
+        "status": "planned",
+        "votes": 97
+      },
+      {
+        "title": "Panel de honorarios por cliente",
+        "description": "Ver de un vistazo lo facturado, lo cobrado y lo pendiente de cada cliente, filtrado por mes o por área del despacho.",
+        "category": "Facturación",
+        "status": "in-progress",
+        "votes": 76,
+        "progress": 30,
+        "contributors": [
+          { "name": "Finanzas", "avatar": "/images/about.svg" },
+          { "name": "Producto", "avatar": "/images/about.svg" }
+        ]
+      }
+    ]
+  }
+}

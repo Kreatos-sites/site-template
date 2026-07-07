@@ -1,0 +1,48 @@
+{
+  "key": "gallery-marquee-infinite-edge-mask-2",
+  "pascalName": "GalleryMarqueeInfiniteEdgeMask2",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-marquee-infinite-edge-mask-2` | gallery-marquee-infinite-edge-mask-2 — dos franjas de scrolleo infinito en direcciones opuestas con máscara de borde y ficha de proyecto (cliente/entregable) bajo cada imagen · úsalo para exhibir un portafolio de proyectos o clientes con más contexto que un logo cloud. | { eyebrow, title, items: [{ image, imageAlt, caption, subcaption }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que hemos diseñado y construido",
+    "items": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de oficinas corporativas con mobiliario a medida diseñado por el estudio",
+        "caption": "Corporativo Altavista",
+        "subcaption": "Diseño de interiores · 1,200 m²"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de nave industrial renovada para centro de distribución",
+        "caption": "Distribuidora Del Norte",
+        "subcaption": "Remodelación industrial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas con acabados en madera y acero para despacho legal",
+        "caption": "Vargas y Asociados",
+        "subcaption": "Identidad de marca + espacio"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Recepción de clínica dental con iluminación cálida",
+        "caption": "Clínica Dental Reforma",
+        "subcaption": "Diseño de experiencia de paciente"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bodega logística con señalética y sistema de estanterías nuevo",
+        "caption": "Grupo Transportista Sur",
+        "subcaption": "Planeación de bodega"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Sala de exhibición de constructora con maqueta de desarrollo residencial",
+        "caption": "Constructora Loma Alta",
+        "subcaption": "Sala de ventas + maqueta"
+      }
+    ]
+  }
+}

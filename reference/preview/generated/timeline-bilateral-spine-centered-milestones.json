@@ -1,0 +1,54 @@
+{
+  "key": "timeline-bilateral-spine-centered-milestones",
+  "pascalName": "TimelineBilateralSpineCenteredMilestones",
+  "category": "Heroes",
+  "catalogRow": "| `timeline-bilateral-spine-centered-milestones` | timeline-bilateral-spine-centered-milestones — línea de tiempo bilateral con hitos alternados a izquierda/derecha sobre un eje central, cada uno con año, etiqueta e ícono · úsalo para narrar la historia y crecimiento de una constructora o empresa con trayectoria larga. | { eyebrow, title, milestones: [{ year, tag, title, description, icon }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra historia",
+    "title": "Tres décadas construyendo la infraestructura del Bajío",
+    "milestones": [
+      {
+        "year": "1994",
+        "tag": "Fundación",
+        "title": "Nace Constructora Del Valle",
+        "description": "Iniciamos en León como un pequeño taller de obra civil, con dos cuadrillas dedicadas a naves industriales para el sector del calzado.",
+        "icon": "compass"
+      },
+      {
+        "year": "2002",
+        "tag": "Primer contrato mayor",
+        "title": "Adjudicación del parque logístico de Silao",
+        "description": "Ganamos nuestra primera licitación de gran escala: 40,000 metros cuadrados de bodegas para proveedores automotrices.",
+        "icon": "hardhat"
+      },
+      {
+        "year": "2008",
+        "tag": "Expansión",
+        "title": "Apertura de oficina en Querétaro",
+        "description": "La demanda de obra industrial en el corredor Bajío-Querétaro nos llevó a establecer una segunda sede permanente.",
+        "icon": "building"
+      },
+      {
+        "year": "2013",
+        "tag": "Equipo",
+        "title": "Se integra el área de ingeniería estructural",
+        "description": "Formamos un equipo interno de cálculo estructural para reducir tiempos de respuesta en proyectos de gran claro.",
+        "icon": "team"
+      },
+      {
+        "year": "2019",
+        "tag": "Reconocimiento",
+        "title": "Certificación ISO 9001 en gestión de obra",
+        "description": "Obtuvimos la certificación para nuestros procesos de control de calidad y seguridad en sitio, poco común entre constructoras regionales.",
+        "icon": "trophy"
+      },
+      {
+        "year": "2025",
+        "tag": "Alcance",
+        "title": "Presencia en cuatro estados del Bajío",
+        "description": "Hoy operamos en Guanajuato, Querétaro, Jalisco y Aguascalientes, con más de ciento veinte colaboradores en obra y oficina.",
+        "icon": "pin"
+      }
+    ]
+  }
+}

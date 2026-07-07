@@ -1,0 +1,92 @@
+{
+  "key": "integrations-directory-searchable-filterable-grid",
+  "pascalName": "IntegrationsDirectorySearchableFilterableGrid",
+  "category": "Heroes",
+  "catalogRow": "| `integrations-directory-searchable-filterable-grid` | integrations-directory-searchable-filterable-grid — directorio buscable de integraciones con pills de categoría (filtro CSS-only) y grid responsive de tarjetas de apps conectables | { eyebrow, title, description, searchPlaceholder, allLabel, categories: [{ id, label }], integrations: [{ id, name, category, description, icon }] } |",
+  "fixture": {
+    "eyebrow": "Integraciones",
+    "title": "Conecte Núcleo con las herramientas que ya usa su empresa",
+    "description": "Explore el directorio de integraciones certificadas y filtre por categoría para encontrar la conexión que necesita su operación.",
+    "searchPlaceholder": "Buscar una integración",
+    "allLabel": "Todas",
+    "categories": [
+      { "id": "contabilidad", "label": "Contabilidad" },
+      { "id": "pagos", "label": "Pagos" },
+      { "id": "logistica", "label": "Logística" },
+      { "id": "marketplaces", "label": "Marketplaces" },
+      { "id": "crm", "label": "CRM" }
+    ],
+    "integrations": [
+      {
+        "id": "contpaqi",
+        "name": "CONTPAQi",
+        "category": "contabilidad",
+        "description": "Sincronice pólizas y facturas emitidas desde Núcleo directamente con su contabilidad.",
+        "icon": "calculator"
+      },
+      {
+        "id": "aspel",
+        "name": "Aspel SAE",
+        "category": "contabilidad",
+        "description": "Concilie inventarios y órdenes de compra sin capturar la información dos veces.",
+        "icon": "landmark"
+      },
+      {
+        "id": "clip",
+        "name": "Clip",
+        "category": "pagos",
+        "description": "Cobre en punto de venta y concilie cada transacción con su registro de ventas.",
+        "icon": "card"
+      },
+      {
+        "id": "conekta",
+        "name": "Conekta",
+        "category": "pagos",
+        "description": "Acepte pagos en línea y reciba la confirmación del cargo en tiempo real.",
+        "icon": "card"
+      },
+      {
+        "id": "estafeta",
+        "name": "Estafeta",
+        "category": "logistica",
+        "description": "Genere guías de envío y actualice el estatus de entrega sin salir del panel.",
+        "icon": "truck"
+      },
+      {
+        "id": "fedex",
+        "name": "FedEx México",
+        "category": "logistica",
+        "description": "Calcule tarifas y rastree envíos internacionales desde el mismo pedido.",
+        "icon": "boxes"
+      },
+      {
+        "id": "mercadolibre",
+        "name": "Mercado Libre",
+        "category": "marketplaces",
+        "description": "Publique su catálogo y sincronice inventario y pedidos automáticamente.",
+        "icon": "bag"
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon Seller",
+        "category": "marketplaces",
+        "description": "Administre precios y disponibilidad de sus productos en un solo lugar.",
+        "icon": "bag"
+      },
+      {
+        "id": "hubspot",
+        "name": "HubSpot",
+        "category": "crm",
+        "description": "Envíe cada nuevo cliente y su historial de compra a su equipo comercial.",
+        "icon": "users"
+      },
+      {
+        "id": "zapier",
+        "name": "Zapier",
+        "category": "crm",
+        "description": "Cree flujos personalizados entre Núcleo y más de mil aplicaciones.",
+        "icon": "plug"
+      }
+    ]
+  }
+}

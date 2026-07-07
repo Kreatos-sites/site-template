@@ -1,0 +1,56 @@
+{
+  "key": "pricing-carousel-scroll-snap-scale-active",
+  "pascalName": "PricingCarouselScrollSnapScaleActive",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-carousel-scroll-snap-scale-active` | pricing-carousel-scroll-snap-scale-active — carrusel horizontal con scroll-snap donde el plan marcado como activo se muestra más grande y al frente mientras los planes adyacentes se reducen y atenúan, ideal para presentar 3 o más niveles de servicio con foco visual en el recomendado | { eyebrow, title, description, plans: [{ name, price, period, description, active, features: [], cta }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan para cada etapa de su despacho",
+    "description": "Elija el nivel de acompañamiento contable y fiscal que corresponde al tamaño de su operación. Puede cambiar de plan en cualquier momento.",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "description": "Para negocios en arranque que necesitan cumplimiento fiscal básico al día.",
+        "active": false,
+        "features": [
+          "Contabilidad mensual",
+          "Declaraciones ante el SAT",
+          "Un usuario con acceso al portal"
+        ],
+        "cta": "Contratar Esencial"
+      },
+      {
+        "name": "Profesional",
+        "price": "$9,900",
+        "period": "MXN / mes",
+        "description": "Para empresas en crecimiento que requieren seguimiento cercano y reportes ejecutivos.",
+        "active": true,
+        "features": [
+          "Contabilidad y nómina mensual",
+          "Declaraciones ante el SAT",
+          "Reportes financieros trimestrales",
+          "Asesor asignado con línea directa",
+          "Hasta cinco usuarios con acceso al portal"
+        ],
+        "cta": "Contratar Profesional"
+      },
+      {
+        "name": "Corporativo",
+        "price": "$18,500",
+        "period": "MXN / mes",
+        "description": "Para grupos empresariales con varias razones sociales y auditoría constante.",
+        "active": false,
+        "features": [
+          "Contabilidad consolidada multiempresa",
+          "Nómina y dispersión de pagos",
+          "Auditoría interna trimestral",
+          "Asesor senior dedicado",
+          "Usuarios ilimitados con acceso al portal"
+        ],
+        "cta": "Hablar con ventas"
+      }
+    ]
+  }
+}

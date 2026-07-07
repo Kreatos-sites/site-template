@@ -1,0 +1,27 @@
+{
+  "key": "logo-cloud-dual-row-opposite-drift",
+  "pascalName": "LogoCloudDualRowOppositeDrift",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-dual-row-opposite-drift` | logo-cloud-dual-row-opposite-drift — dos filas de logotipos de aliados en drift horizontal continuo y direcciones opuestas, con pausa al pasar el cursor, para transmitir una red de socios activa y en movimiento | { eyebrow, title, description, rowOne: [{ name, image, imageAlt }], rowTwo: [{ name, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Red de aliados",
+    "title": "Despachos y proveedores con los que construimos cada proyecto",
+    "description": "Colaboramos de forma permanente con firmas legales, contables y proveedores especializados para entregar cada mandato con el respaldo técnico correcto.",
+    "rowOne": [
+      { "name": "Aliado 1", "image": "/images/about.svg", "imageAlt": "Logotipo de despacho contable aliado" },
+      { "name": "Aliado 2", "image": "/images/about.svg", "imageAlt": "Logotipo de constructora aliada" },
+      { "name": "Aliado 3", "image": "/images/about.svg", "imageAlt": "Logotipo de firma legal aliada" },
+      { "name": "Aliado 4", "image": "/images/about.svg", "imageAlt": "Logotipo de distribuidora aliada" },
+      { "name": "Aliado 5", "image": "/images/about.svg", "imageAlt": "Logotipo de proveedor logístico aliado" },
+      { "name": "Aliado 6", "image": "/images/about.svg", "imageAlt": "Logotipo de consultora financiera aliada" }
+    ],
+    "rowTwo": [
+      { "name": "Aliado 7", "image": "/images/about.svg", "imageAlt": "Logotipo de aseguradora aliada" },
+      { "name": "Aliado 8", "image": "/images/about.svg", "imageAlt": "Logotipo de notaría aliada" },
+      { "name": "Aliado 9", "image": "/images/about.svg", "imageAlt": "Logotipo de estudio de arquitectura aliado" },
+      { "name": "Aliado 10", "image": "/images/about.svg", "imageAlt": "Logotipo de inmobiliaria aliada" },
+      { "name": "Aliado 11", "image": "/images/about.svg", "imageAlt": "Logotipo de proveedor tecnológico aliado" },
+      { "name": "Aliado 12", "image": "/images/about.svg", "imageAlt": "Logotipo de despacho de comercio exterior aliado" }
+    ]
+  }
+}

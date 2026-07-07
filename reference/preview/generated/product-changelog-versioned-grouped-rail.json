@@ -1,0 +1,50 @@
+{
+  "key": "product-changelog-versioned-grouped-rail",
+  "pascalName": "ProductChangelogVersionedGroupedRail",
+  "category": "Features y servicios",
+  "catalogRow": "| `product-changelog-versioned-grouped-rail` | product-changelog-versioned-grouped-rail — Changelog versionado con rail lateral de fecha/versión y grupos de cambios categorizados (Added, Improved, Fixed), para documentar evoluciones de un producto o plataforma. | { eyebrow, title, description, typeLabels: { added, improved, fixed }, releases: [{ version, date, title, changes: [{ type, text }] }] } |",
+  "fixture": {
+    "eyebrow": "Historial de versiones",
+    "title": "Evolución de la plataforma",
+    "description": "Cada actualización de nuestro sistema de gestión logística se documenta aquí, agrupada por versión, para que su equipo dé seguimiento a los cambios que afectan sus operaciones.",
+    "typeLabels": {
+      "added": "Nuevo",
+      "improved": "Mejora",
+      "fixed": "Corrección"
+    },
+    "versionLabel": "Versión {version}",
+    "releases": [
+      {
+        "version": "3.4.0",
+        "date": "3 de julio de 2026",
+        "title": "Rastreo en tiempo real por ruta",
+        "changes": [
+          { "type": "added", "text": "Panel de rastreo en vivo para cada embarque, con posición del vehículo actualizada cada dos minutos." },
+          { "type": "added", "text": "Alertas automáticas por correo cuando un envío se desvía más de 30 minutos del tiempo estimado." },
+          { "type": "improved", "text": "El reporte de entregas mensuales ahora se exporta en la mitad del tiempo para catálogos con más de 500 órdenes." },
+          { "type": "fixed", "text": "Se corrigió un desfase de zona horaria que mostraba horarios de entrega incorrectos en Baja California." }
+        ]
+      },
+      {
+        "version": "3.3.2",
+        "date": "18 de mayo de 2026",
+        "title": "Ajustes de facturación y accesos",
+        "changes": [
+          { "type": "improved", "text": "Los roles de facturación ahora pueden generar notas de crédito sin pasar por administración." },
+          { "type": "fixed", "text": "Se resolvió un error que duplicaba el folio fiscal al reenviar una factura desde el portal de clientes." },
+          { "type": "fixed", "text": "Corregido el cálculo de flete cuando una orden incluía más de una zona de entrega." }
+        ]
+      },
+      {
+        "version": "3.3.0",
+        "date": "2 de abril de 2026",
+        "title": "Integración con almacenes regionales",
+        "changes": [
+          { "type": "added", "text": "Conexión directa con los almacenes de Monterrey y Guadalajara para consultar inventario disponible antes de confirmar una orden." },
+          { "type": "added", "text": "Nuevo módulo de devoluciones con folio propio y trazabilidad completa." },
+          { "type": "improved", "text": "La búsqueda de órdenes por cliente ahora incluye coincidencias parciales en el nombre de la razón social." }
+        ]
+      }
+    ]
+  }
+}

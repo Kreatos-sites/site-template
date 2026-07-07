@@ -1,0 +1,61 @@
+{
+  "key": "gallery-exhibition-decor-framed-crossfade",
+  "pascalName": "GalleryExhibitionDecorFramedCrossfade",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-exhibition-decor-framed-crossfade` | gallery-exhibition-decor-framed-crossfade — exhibición tipo museo con obra enmarcada al centro, cédula de artista/año y chips de etiquetas, con blur crossfade en loop para galerías y espacios de arte premium | { eyebrow, title, description, items: [{ image, imageAlt, title, artist, year, tags: string[] }] } |",
+  "fixture": {
+    "eyebrow": "Exhibición permanente",
+    "title": "Piezas seleccionadas de la colección",
+    "description": "Un recorrido curado por seis obras de la colección permanente, con su ficha técnica y contexto de cada pieza.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Óleo sobre tela con paisaje desértico en tonos ocres",
+        "title": "Vestigio del Bajío",
+        "artist": "Renata Solórzano",
+        "year": "2019",
+        "tags": ["Óleo sobre tela", "120 x 90 cm", "Paisaje"]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Escultura de bronce con forma orgánica sobre pedestal de piedra",
+        "title": "Raíz Suspendida",
+        "artist": "Ignacio Barreda",
+        "year": "2021",
+        "tags": ["Bronce", "78 cm de altura", "Escultura"]
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fotografía en blanco y negro de un mercado tradicional",
+        "title": "Voces del Tianguis",
+        "artist": "Marcela Quiñones",
+        "year": "2017",
+        "tags": ["Fotografía", "Plata sobre gelatina", "Documental"]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Grabado en tinta con motivos geométricos prehispánicos",
+        "title": "Códice Reinterpretado",
+        "artist": "Tomás Elizondo",
+        "year": "2022",
+        "tags": ["Grabado", "Tinta sobre papel algodón", "Serie limitada"]
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Instalación textil con hilos tejidos en tonos tierra",
+        "title": "Telar de Memoria",
+        "artist": "Alejandra Pineda",
+        "year": "2020",
+        "tags": ["Textil", "Técnica mixta", "Instalación"]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pintura acrílica abstracta con capas de azul profundo",
+        "title": "Profundidad Azul III",
+        "artist": "Diego Camacho",
+        "year": "2023",
+        "tags": ["Acrílico", "150 x 100 cm", "Abstracto"]
+      }
+    ]
+  }
+}

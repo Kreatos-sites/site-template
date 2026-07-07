@@ -1,0 +1,39 @@
+{
+  "key": "process-stepper-vertical-rail-with-descriptions",
+  "pascalName": "ProcessStepperVerticalRailWithDescriptions",
+  "category": "Proceso",
+  "catalogRow": "| `process-stepper-vertical-rail-with-descriptions` | process-stepper-vertical-rail-with-descriptions — stepper vertical con nodos conectados a un rail lateral, título y descripción por paso; sirve para explicar un proceso de trabajo o guía de incorporación | { eyebrow, title, subtitle, stepLabel, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro de principio a fin",
+    "subtitle": "Así acompañamos cada proyecto, desde la primera conversación hasta la entrega final.",
+    "stepLabel": "Paso {number}",
+    "steps": [
+      {
+        "icon": "diagnostico",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos el terreno, el uso que busca darle al espacio y las restricciones normativas antes de proponer cualquier solución."
+      },
+      {
+        "icon": "propuesta",
+        "title": "Propuesta y cotización",
+        "description": "Le presentamos un anteproyecto con alcance, tiempos y costo estimado para que decida con información completa."
+      },
+      {
+        "icon": "contrato",
+        "title": "Firma de contrato",
+        "description": "Formalizamos el acuerdo con un contrato que detalla entregables, calendario y condiciones de pago."
+      },
+      {
+        "icon": "desarrollo",
+        "title": "Desarrollo del proyecto",
+        "description": "Nuestro equipo elabora los planos ejecutivos y coordina con ingenierías mientras usted revisa avances cada dos semanas."
+      },
+      {
+        "icon": "entrega",
+        "title": "Entrega y seguimiento",
+        "description": "Entregamos el expediente completo y damos acompañamiento durante las primeras etapas de construcción."
+      }
+    ]
+  }
+}

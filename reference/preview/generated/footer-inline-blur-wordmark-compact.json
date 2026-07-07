@@ -1,0 +1,17 @@
+{
+  "key": "footer-inline-blur-wordmark-compact",
+  "pascalName": "FooterInlineBlurWordmarkCompact",
+  "category": "Footers",
+  "catalogRow": "| `footer-inline-blur-wordmark-compact` | footer-inline-blur-wordmark-compact — franja de pie minimalista de una sola fila con wordmark, enlaces de navegación horizontales y copyright, entrada escalonada suave | { wordmark, navLabel, copyright, links: [{ label, href }] } |",
+  "fixture": {
+    "wordmark": "Reyna & Ochoa Consultores",
+    "navLabel": "Enlaces del pie de página",
+    "copyright": "© 2026 Reyna & Ochoa Consultores. Todos los derechos reservados.",
+    "links": [
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "key": "hero-left-aligned-dual-cta-metrics-inline",
+  "pascalName": "HeroLeftAlignedDualCtaMetricsInline",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `hero-left-aligned-dual-cta-metrics-inline` | hero-left-aligned-dual-cta-metrics-inline — hero alineado a la izquierda con titular, doble CTA (primario y secundario) y una fila de métricas en línea para anclar la conversión desde el arranque de la página | { eyebrow, title, subtitle, primaryCta: { label, href }, secondaryCta: { label, href }, metrics: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Despacho de logística industrial",
+    "title": "Movemos su carga con trazabilidad total, de origen a destino",
+    "subtitle": "Coordinamos transporte terrestre, almacenaje y última milla para manufactureras y distribuidores en todo el país, con visibilidad en tiempo real de cada embarque.",
+    "primaryCta": {
+      "label": "Solicite una cotización",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver cobertura de rutas",
+      "href": "/servicios"
+    },
+    "metrics": [
+      { "value": "18", "label": "Años operando" },
+      { "value": "1,200+", "label": "Embarques al mes" },
+      { "value": "99.2%", "label": "Entregas a tiempo" },
+      { "value": "32", "label": "Estados con cobertura" }
+    ]
+  }
+}

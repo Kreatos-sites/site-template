@@ -1,0 +1,45 @@
+{
+  "key": "testimonials-carousel-auto-cycle-selector-crossfade",
+  "pascalName": "TestimonialsCarouselAutoCycleSelectorCrossfade",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-carousel-auto-cycle-selector-crossfade` | testimonials-carousel-auto-cycle-selector-crossfade — carrusel de citas con ciclo automático (100% CSS, sin JS de cliente) y chips selectores como indicadores de progreso, con transición de blur crossfade entre voces | { eyebrow, title, selectorLabel, testimonials: [{ quote, author, role, company, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Lo que dicen nuestros clientes",
+    "title": "Despachos y constructoras que ya confían en nuestro acompañamiento legal",
+    "selectorLabel": "Seleccionar testimonio",
+    "testimonials": [
+      {
+        "quote": "Nos acompañaron en la renegociación de tres contratos de obra sin detener el proyecto. La comunicación fue clara desde la primera reunión.",
+        "author": "Renata Solórzano",
+        "role": "Directora de Operaciones",
+        "company": "Constructora Altavista",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Solórzano, Directora de Operaciones en Constructora Altavista"
+      },
+      {
+        "quote": "El equipo revisó a fondo cada cláusula de nuestro contrato de distribución antes de firmarlo. Evitamos un litigio que hubiera costado meses.",
+        "author": "Joaquín Elizondo",
+        "role": "Gerente Comercial",
+        "company": "Distribuidora del Norte",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Joaquín Elizondo, Gerente Comercial en Distribuidora del Norte"
+      },
+      {
+        "quote": "Necesitábamos resolver un conflicto laboral con plazos ajustados. Tuvimos respuesta el mismo día y una estrategia por escrito en 48 horas.",
+        "author": "Paulina Reséndiz",
+        "role": "Directora de Recursos Humanos",
+        "company": "Logística Peninsular",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paulina Reséndiz, Directora de Recursos Humanos en Logística Peninsular"
+      },
+      {
+        "quote": "Llevamos dos años trabajando con ellos en materia fiscal. Explican cada decisión en términos que entendemos y anticipan los riesgos.",
+        "author": "Héctor Villagómez",
+        "role": "Director Financiero",
+        "company": "Grupo Inmobiliario Cimiento",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Héctor Villagómez, Director Financiero en Grupo Inmobiliario Cimiento"
+      }
+    ]
+  }
+}

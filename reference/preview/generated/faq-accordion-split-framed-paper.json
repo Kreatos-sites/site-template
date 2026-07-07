@@ -1,0 +1,33 @@
+{
+  "key": "faq-accordion-split-framed-paper",
+  "pascalName": "FaqAccordionSplitFramedPaper",
+  "category": "Features y servicios",
+  "catalogRow": "| `faq-accordion-split-framed-paper` | faq-accordion-split-framed-paper — FAQ en dos columnas con panel fijo a la izquierda y acordeón enmarcado en tarjeta a la derecha, para resolver dudas frecuentes de un despacho o servicio corporativo | { eyebrow, title, note, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de agendar, resolvemos sus dudas",
+    "note": "Si no encuentra respuesta a su consulta, escríbanos directamente y un asesor le contestará en un plazo máximo de un día hábil.",
+    "items": [
+      {
+        "question": "¿Cómo inicia el proceso de asesoría?",
+        "answer": "Agenda una primera llamada de diagnóstico sin costo. En esa sesión revisamos su caso, definimos alcance y le entregamos una propuesta por escrito con honorarios y tiempos estimados."
+      },
+      {
+        "question": "¿Trabajan con empresas fuera de la Ciudad de México?",
+        "answer": "Sí. Atendemos clientes en toda la República mediante reuniones remotas y, cuando el caso lo requiere, con visitas presenciales acordadas previamente."
+      },
+      {
+        "question": "¿Cómo se calculan los honorarios?",
+        "answer": "Dependiendo del servicio, cobramos por proyecto cerrado o mediante un esquema mensual de destajo. Ambas opciones se detallan en la propuesta antes de firmar cualquier contrato."
+      },
+      {
+        "question": "¿Qué documentos debo tener listos para la primera reunión?",
+        "answer": "Basta con una descripción breve de su situación. Si ya cuenta con contratos, estados financieros o notificaciones relacionadas, revisarlos con anticipación agiliza el diagnóstico."
+      },
+      {
+        "question": "¿Ofrecen seguimiento posterior a la entrega del proyecto?",
+        "answer": "Sí, incluimos un periodo de acompañamiento posterior a cada entregable para resolver ajustes o dudas que surjan durante la implementación."
+      }
+    ]
+  }
+}

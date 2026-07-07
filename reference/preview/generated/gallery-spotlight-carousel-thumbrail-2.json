@@ -1,0 +1,52 @@
+{
+  "key": "gallery-spotlight-carousel-thumbrail-2",
+  "pascalName": "GallerySpotlightCarouselThumbrail2",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-spotlight-carousel-thumbrail-2` | gallery-spotlight-carousel-thumbrail-2 — carrusel spotlight con panel de metadatos y riel de miniaturas, para catálogos de proyectos o piezas con detalle enfocado por selección manual | { eyebrow, title, items: [{ image, imageAlt, title, category, year, description }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos ejecutados con detalle de cada intervención",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de oficinas corporativas con revestimiento en concreto aparente",
+        "title": "Torre corporativa Insurgentes",
+        "category": "Obra nueva",
+        "year": "2024",
+        "description": "Edificio de doce niveles para oficinas corporativas, con estructura de concreto reforzado y fachada ventilada en concreto aparente."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Nave industrial con estructura metálica y cubierta tipo diente de sierra",
+        "title": "Centro de distribución Toluca",
+        "category": "Industrial",
+        "year": "2023",
+        "description": "Nave de veinte mil metros cuadrados con estructura metálica prefabricada, andenes de carga y sistema de iluminación cenital."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Interior de sucursal bancaria con acabados en madera y piedra",
+        "title": "Sucursal bancaria Polanco",
+        "category": "Remodelación",
+        "year": "2023",
+        "description": "Renovación integral de sucursal bancaria: acabados en madera y piedra natural, mobiliario a la medida y accesibilidad universal."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Puente vehicular de concreto presforzado sobre vía rápida",
+        "title": "Puente vehicular Circuito Sur",
+        "category": "Infraestructura",
+        "year": "2022",
+        "description": "Puente de concreto presforzado de ciento veinte metros de claro, con estudio geotécnico y supervisión de calidad en cada colado."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Conjunto residencial con áreas comunes y jardines",
+        "title": "Conjunto residencial Las Lomas",
+        "category": "Residencial",
+        "year": "2022",
+        "description": "Conjunto de ochenta y cuatro viviendas con áreas comunes, jardines y andadores accesibles, entregado en tres etapas de obra."
+      }
+    ]
+  }
+}

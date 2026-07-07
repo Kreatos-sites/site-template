@@ -1,0 +1,68 @@
+{
+  "key": "testimonials-list-dense-rows-avatar-rating-hover",
+  "pascalName": "TestimonialsListDenseRowsAvatarRatingHover",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-list-dense-rows-avatar-rating-hover` | testimonials-list-dense-rows-avatar-rating-hover — Filas densas en dos columnas con avatar, insignia de verificado, calificación de estrellas y efecto hover wash para social proof compacto. | { eyebrow, title, verifiedLabel, ratingLabel, testimonials: [{ quote, name, role, avatar, avatarAlt, rating, verified }] } |",
+  "fixture": {
+    "eyebrow": "Clientes",
+    "title": "Lo que dicen quienes ya trabajan con nosotros",
+    "verifiedLabel": "Cliente verificado",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "testimonials": [
+      {
+        "quote": "Redujimos los tiempos de entrega en la ruta Monterrey-Saltillo en más de una hora por unidad desde que trabajamos con ellos.",
+        "name": "Ricardo Elizondo",
+        "role": "Gerente de Logística, Grupo Transmex",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ricardo Elizondo",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "quote": "El seguimiento de flota en tiempo real nos permitió detectar desviaciones de ruta antes de que afectaran la entrega al cliente final.",
+        "name": "Paola Villarreal",
+        "role": "Directora de Operaciones, Distribuidora del Norte",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paola Villarreal",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "quote": "La implementación tomó tres semanas y el equipo capacitó a todos los operadores sin detener las rutas activas.",
+        "name": "Héctor Domínguez",
+        "role": "Jefe de Flota, Autotransportes Cuauhtémoc",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Héctor Domínguez",
+        "rating": 4,
+        "verified": true
+      },
+      {
+        "quote": "Los reportes mensuales nos dieron argumentos claros para renegociar tarifas con dos de nuestros clientes principales.",
+        "name": "Adriana Castillo",
+        "role": "Coordinadora Administrativa, Carga Continental",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Adriana Castillo",
+        "rating": 5,
+        "verified": false
+      },
+      {
+        "quote": "Bajamos el consumo de diésel en la flota casi ocho por ciento solo por las alertas de conducción que activamos el primer mes.",
+        "name": "Gerardo Salinas",
+        "role": "Director General, Transportes Salinas",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Gerardo Salinas",
+        "rating": 5,
+        "verified": true
+      },
+      {
+        "quote": "El soporte responde en minutos incluso los fines de semana, algo que no habíamos tenido con proveedores anteriores.",
+        "name": "Mariana Robles",
+        "role": "Gerente de Servicio al Cliente, LogísticaMX",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Mariana Robles",
+        "rating": 4,
+        "verified": true
+      }
+    ]
+  }
+}

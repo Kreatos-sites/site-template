@@ -10,7 +10,12 @@ import { fileURLToPath } from "node:url";
 
 const DIR = join(dirname(fileURLToPath(import.meta.url)), "../reference/blocks");
 const LUCIDE = { Instagram: "Camera", Linkedin: "Briefcase", Twitter: "Bird", Facebook: "Globe", Youtube: "Play" };
-const PHOSPHOR = { InstagramIcon: "CameraIcon", LinkedinIcon: "LinkIcon", TwitterIcon: "ButterflyIcon", FacebookIcon: "GlobeIcon", YoutubeIcon: "PlayIcon" };
+const PHOSPHOR = {
+  // Marca (no existen en phosphor) -> neutros.
+  InstagramIcon: "CameraIcon", LinkedinIcon: "LinkIcon", TwitterIcon: "ButterflyIcon", FacebookIcon: "GlobeIcon", YoutubeIcon: "PlayIcon",
+  // Nombres phosphor equivocados frecuentes -> el real.
+  QuoteIcon: "QuotesIcon", LandmarkIcon: "BankIcon", TrendUpIcon: "TrendUpIcon",
+};
 
 let touched = 0;
 for (const f of readdirSync(DIR)) {

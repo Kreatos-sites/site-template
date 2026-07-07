@@ -1,0 +1,30 @@
+{
+  "key": "hero-split-screenshot-dual-cta-side",
+  "pascalName": "HeroSplitScreenshotDualCtaSide",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-screenshot-dual-cta-side` | hero-split-screenshot-dual-cta-side — hero a dos columnas con headline, dos CTAs y una captura de proyecto enmarcada con barra de navegador y tarjeta de confianza flotante, optimizado para conversión | { eyebrow, title, subtitle, primaryCta: {label, href}, secondaryCta: {label, href}, trustItems: [{label}], image, imageAlt, trustBadge: {value, label} } |",
+  "fixture": {
+    "eyebrow": "Despacho contable",
+    "title": "Su contabilidad en orden, sin sorpresas al cierre de mes",
+    "subtitle": "Llevamos la contabilidad, nómina y cumplimiento fiscal de su empresa con un equipo de contadores certificados y reportes que puede revisar en cualquier momento.",
+    "primaryCta": {
+      "label": "Agendar diagnóstico gratuito",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver planes",
+      "href": "#planes"
+    },
+    "trustItems": [
+      { "label": "Contadores certificados" },
+      { "label": "Cumplimiento SAT al día" },
+      { "label": "Más de 12 años de operación" }
+    ],
+    "image": "/images/hero.svg",
+    "imageAlt": "Panel de reportes contables del despacho",
+    "trustBadge": {
+      "value": "+180",
+      "label": "empresas atendidas"
+    }
+  }
+}

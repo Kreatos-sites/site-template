@@ -1,0 +1,34 @@
+{
+  "key": "process-how-it-works-vertical-bordered-rail",
+  "pascalName": "ProcessHowItWorksVerticalBorderedRail",
+  "category": "Proceso",
+  "catalogRow": "| `process-how-it-works-vertical-bordered-rail` | process-how-it-works-vertical-bordered-rail — timeline vertical con rail izquierdo, nodos con icono bordeado, línea conectora y contador monospaced en cuatro pasos; para describir el proceso de un despacho o constructora | { eyebrow, title, description, stepLabel, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la primera llamada a la entrega de llaves",
+    "description": "Un proceso claro en cuatro etapas, con puntos de revisión definidos para que usted sepa en todo momento en qué va su proyecto.",
+    "stepLabel": "Paso {number}",
+    "steps": [
+      {
+        "icon": "file-search",
+        "title": "Diagnóstico y levantamiento",
+        "description": "Visitamos el sitio, revisamos documentación existente y definimos alcance, presupuesto preliminar y plazos con usted."
+      },
+      {
+        "icon": "ruler",
+        "title": "Proyecto ejecutivo",
+        "description": "Elaboramos planos, especificaciones y el calendario de obra que servirá de referencia durante toda la construcción."
+      },
+      {
+        "icon": "hard-hat",
+        "title": "Construcción y supervisión",
+        "description": "Un residente de obra da seguimiento diario y le compartimos avances semanales con fotografías y bitácora."
+      },
+      {
+        "icon": "key-round",
+        "title": "Entrega y cierre",
+        "description": "Realizamos las pruebas finales, tramitamos la documentación de cierre y hacemos entrega formal de la obra."
+      }
+    ]
+  }
+}
