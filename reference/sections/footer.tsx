@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 
+import { AgencyCredit } from "@/components/shared/agency-credit";
 import { Link } from "@/i18n/navigation";
 
 import type { SectionOf } from "@/lib/config";
@@ -10,6 +11,7 @@ type NavLink = { href: string; label: string };
 /** Sección de sitio: se hereda de la home y se renderiza igual en todas las páginas. */
 export function Footer({ ns }: SectionOf<"footer">) {
   const t = useTranslations(ns ?? "footer");
+  const tCommon = useTranslations("common");
   // El ns del navbar sale de config (el art-director puede nombrarlo
   // "navbar-main", etc.), NUNCA hardcodeado: hardcodear "navbar" tumbaba el
   // build con MISSING_MESSAGE cuando el ns real difería, y tentaba al agente a
@@ -38,7 +40,7 @@ export function Footer({ ns }: SectionOf<"footer">) {
               {t("tagline")}
             </p>
             <address className="mt-5 text-sm leading-relaxed text-muted-foreground not-italic">
-              {business.address.street}, Col. {business.address.colonia}
+              {business.address.street}, {tCommon("coloniaPrefix")} {business.address.colonia}
               <br />
               {business.address.zip} {business.address.city}, {business.address.state}
               <br />
@@ -116,17 +118,11 @@ export function Footer({ ns }: SectionOf<"footer">) {
             >
               {t("privacyLink")}
             </Link>
-            {/* Crédito de la agencia: FIJO en el motor (no sale del copy) para
-                que todo sitio generado atribuya a Intello con su link, sin que
-                el agente lo pueda cambiar. */}
-            <a
-              href="https://intelloai.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline-offset-4 transition-colors hover:text-foreground hover:underline"
-            >
-              Sitio creado por Intello
-            </a>
+            {/* Crédito de la agencia: componente MOTOR (texto fijo, no sale del
+                copy) para que todo sitio generado atribuya a Intello con su
+                link, sin que el agente lo pueda cambiar. En P1 lo inyecta el
+                section-renderer; aquí lo monta el footer de referencia. */}
+            <AgencyCredit className="underline-offset-4 transition-colors hover:text-foreground hover:underline" />
           </div>
         </div>
       </div>

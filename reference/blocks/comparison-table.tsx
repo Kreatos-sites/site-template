@@ -27,6 +27,7 @@ const YES = new Set(["check", "sí", "si", "yes", "true", "✓"]);
 const NO = new Set(["", "—", "-", "no", "false", "×", "x"]);
 
 function Cell({ value, featured }: { value: string; featured: boolean }) {
+  const tCommon = useTranslations("common");
   const key = value.trim().toLowerCase();
 
   if (YES.has(key)) {
@@ -40,7 +41,7 @@ function Cell({ value, featured }: { value: string; featured: boolean }) {
         )}
       >
         <Check className="size-3.5" strokeWidth={2.5} aria-hidden="true" />
-        <span className="sr-only">Sí</span>
+        <span className="sr-only">{tCommon("yes")}</span>
       </span>
     );
   }
@@ -49,7 +50,7 @@ function Cell({ value, featured }: { value: string; featured: boolean }) {
     return (
       <span className="inline-flex size-6 items-center justify-center text-muted-foreground/50">
         <Minus className="size-3.5" strokeWidth={2} aria-hidden="true" />
-        <span className="sr-only">No</span>
+        <span className="sr-only">{tCommon("no")}</span>
       </span>
     );
   }

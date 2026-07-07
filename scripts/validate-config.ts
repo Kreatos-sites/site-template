@@ -18,7 +18,6 @@ import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
-import { blockSections } from "../components/blocks/registry";
 import { customSections } from "../components/custom/registry";
 import { siteConfigSchema } from "../lib/config";
 import config from "../site.config";
@@ -63,11 +62,15 @@ walkStrings(messages, "", (text, path) => {
 
 /* ---------- 3. Espejo secciones <-> keys (home + páginas) ---------- */
 // Keys globales permitidas que no corresponden a una sección:
-// ("pages" agrupa el copy de las páginas interiores, validado abajo)
-const allowedGlobalKeys = new Set(["common", "notFound", "privacy", "pages"]);
-// Secciones cuyo copy en es.json es opcional (sus datos salen de site.config.ts):
-const sectionsWithoutCopy = new Set(["trust-bar"]);
-
+// ("pages" agrupa el copy de las páginas interiores, validado abajo;
+//  "email" es el copy de los correos react-email, resuelto en /api/contact)
+const allowedGlobalKeys = new Set([
+  "common",
+  "notFound",
+  "privacy",
+  "pages",
+  "email",
+]);
 /** Resuelve un namespace punteado ("pages.servicios.faq") dentro de es.json */
 function resolveNs(obj: unknown, ns: string): unknown {
   return ns.split(".").reduce<unknown>((acc, key) => {
@@ -82,12 +85,11 @@ function resolveNs(obj: unknown, ns: string): unknown {
 const usedNs = new Set<string>();
 
 for (const section of config.sections) {
-  const ns = section.ns ?? section.id;
+  const ns = section.ns;
   usedNs.add(ns);
-  if (!section.ns && sectionsWithoutCopy.has(section.id)) continue;
   if (resolveNs(messages, ns) === undefined) {
     errors.push(
-      `[espejo] la sección "${section.id}" (home) usa el namespace "${ns}" pero no existe en es.json`,
+      `[espejo] la sección custom "${section.component}" (home) usa el namespace "${ns}" pero no existe en es.json`,
     );
   }
 }
@@ -200,28 +202,21 @@ for (const file of walkFiles(join(root, "components"))) {
 
 /* ---------- 5. Secciones custom <-> registry ---------- */
 const registeredCustom = new Set(Object.keys(customSections));
-const registeredBlocks = new Set(Object.keys(blockSections));
 
-function checkComposedSections(sections: typeof config.sections, where: string) {
+function checkCustomSections(sections: typeof config.sections, where: string) {
   sections.forEach((section, index) => {
-    if (section.id === "custom" && !registeredCustom.has(section.component)) {
+    if (!registeredCustom.has(section.component)) {
       errors.push(
         `[custom] ${where} sections[${index}]: el componente "${section.component}" no está registrado en components/custom/registry.ts` +
           ` (keys registradas: ${[...registeredCustom].join(", ") || "ninguna"})`,
       );
     }
-    if (section.id === "block" && !registeredBlocks.has(section.block)) {
-      errors.push(
-        `[block] ${where} sections[${index}]: el bloque "${section.block}" no existe en components/blocks/registry.ts` +
-          ` (bloques disponibles: ${[...registeredBlocks].join(", ") || "ninguno"})`,
-      );
-    }
   });
 }
 
-checkComposedSections(config.sections, "home");
+checkCustomSections(config.sections, "home");
 for (const [pi, page] of (config.pages ?? []).entries()) {
-  checkComposedSections(page.sections, `pages[${pi}] (/${page.slug})`);
+  checkCustomSections(page.sections, `pages[${pi}] (/${page.slug})`);
 }
 
 /* ---------- 6. Contraste mínimo del theme (texto legible) ---------- */
@@ -436,6 +431,53 @@ for (const [pi, page] of (config.pages ?? []).entries()) {
             `[i18n] messages/${locale}.json: tiene ${extra.length} key(s) de más que ${refLocale} no tiene (ej: ${extra.slice(0, 5).join(", ")})`,
           );
       }
+    }
+  }
+}
+
+/* ---------- 10. Anti-texto-hardcodeado en components/custom/ ---------- */
+// Toda sección custom la escribe el agente; su copy user-facing DEBE salir de
+// next-intl (t()), nunca hardcodeado (objetivo A). Linter heurístico: caza el
+// caso común — literales en atributos de alto riesgo (aria-label/alt/
+// placeholder/title) y nodos de texto JSX con palabras reales que no pasan por
+// {…}. No es exhaustivo (el review visual cubre el resto), pero vuelve
+// determinista el defecto #1. Los .tsx limpios (todo `{t(...)}`/`{expr}` entre
+// tags) no disparan nada.
+{
+  const customDir = join(root, "components", "custom");
+  const letters = "A-Za-zÁÉÍÓÚÜÑáéíóúüñ";
+  const attrRe = new RegExp(
+    `\\b(aria-label|alt|placeholder|title)="([^"{}]*[${letters}]{2,}[^"{}]*)"`,
+    "g",
+  );
+  // Texto entre tags con ≥1 palabra de 3+ letras y SIN llaves (si hubiera `{`
+  // el contenido es una expresión, no literal).
+  const textRe = new RegExp(`>\\s*([^<>{}]*\\b[${letters}]{3,}[^<>{}]*?)\\s*<`, "g");
+  if (existsSync(customDir)) {
+    for (const file of walkFiles(customDir)) {
+      const rel = relative(root, file);
+      readFileSync(file, "utf8")
+        .split("\n")
+        .forEach((line, i) => {
+          const trimmed = line.trim();
+          // Saltar comentarios de línea/bloque.
+          if (/^(\/\/|\*|\/\*)/.test(trimmed)) return;
+          let m: RegExpExecArray | null;
+          attrRe.lastIndex = 0;
+          while ((m = attrRe.exec(line))) {
+            errors.push(
+              `[hardcode] ${rel}:${i + 1}: atributo ${m[1]}="${m[2].trim()}" con texto literal — sácalo a es.json y usa {t(...)}`,
+            );
+          }
+          textRe.lastIndex = 0;
+          while ((m = textRe.exec(line))) {
+            const txt = m[1].trim();
+            if (/^&[a-z]+;$/i.test(txt)) continue; // entidad HTML suelta
+            errors.push(
+              `[hardcode] ${rel}:${i + 1}: texto JSX literal "${txt.slice(0, 50)}" — el copy va por next-intl (t()), no hardcodeado`,
+            );
+          }
+        });
     }
   }
 }

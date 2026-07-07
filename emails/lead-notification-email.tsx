@@ -4,33 +4,46 @@ import type { ContactPayload } from "@/lib/contact-schema";
 import type { EmailBrand } from "@/lib/emails";
 import { BrandedLayout, emailStyles } from "./branded-layout";
 
+/** Copy ya resuelto (i18n) que el route inyecta — cero texto fijo aquí. */
+export interface LeadEmailCopy {
+  lang: string;
+  preview: string;
+  heading: string;
+  intro: string;
+  call: string;
+  labels: { name: string; phone: string; email: string; message: string };
+}
+
 /**
  * Correo al DUEÑO del negocio: un lead nuevo llegó por el formulario de
- * contacto del sitio generado. Brandeado con el color/logo del sitio.
+ * contacto del sitio generado. Brandeado con el color/logo del sitio. Todo el
+ * copy llega resuelto en `copy` (i18n desde messages/es.json vía el route).
  */
 export function LeadNotificationEmail({
   data,
   brand,
+  copy,
 }: {
   data: ContactPayload;
   brand: EmailBrand;
+  copy: LeadEmailCopy;
 }) {
   const rows: Array<[string, string]> = [
-    ["Nombre", data.name],
-    ["Teléfono", data.phone],
-    ...(data.email ? ([["Correo", data.email]] as Array<[string, string]>) : []),
-    ["Mensaje", data.message],
+    [copy.labels.name, data.name],
+    [copy.labels.phone, data.phone],
+    ...(data.email
+      ? ([[copy.labels.email, data.email]] as Array<[string, string]>)
+      : []),
+    [copy.labels.message, data.message],
   ];
 
   return (
-    <BrandedLayout brand={brand} preview={`Nuevo mensaje de ${data.name}`}>
+    <BrandedLayout brand={brand} lang={copy.lang} preview={copy.preview}>
       <Section style={{ padding: "26px 32px 0 32px" }}>
         <Heading as="h1" style={emailStyles.heading}>
-          Nuevo mensaje desde {brand.businessShort}
+          {copy.heading}
         </Heading>
-        <Text style={emailStyles.paragraph}>
-          Un visitante dejó sus datos en el formulario de contacto del sitio.
-        </Text>
+        <Text style={emailStyles.paragraph}>{copy.intro}</Text>
       </Section>
 
       {rows.map(([label, value]) => (
@@ -53,7 +66,7 @@ export function LeadNotificationEmail({
             textDecoration: "none",
           }}
         >
-          Llamar a {data.name}
+          {copy.call}
         </Button>
       </Section>
     </BrandedLayout>

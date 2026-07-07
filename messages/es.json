@@ -8,90 +8,14 @@
     "whatsappMessage": "Hola, vi su sitio web y me gustaría agendar una consulta con el despacho.",
     "googleRating": "{rating} en Google",
     "googleReviews": "{count} reseñas",
-    "viewOnGoogle": "Ver la ficha en Google"
-  },
-  "navbar": {
-    "links": [
-      { "href": "/servicios", "label": "Servicios" },
-      { "href": "/#nosotros", "label": "El despacho" },
-      { "href": "/#proceso", "label": "Cómo trabajamos" },
-      { "href": "/#opiniones", "label": "Opiniones" },
-      { "href": "/#contacto", "label": "Contacto" }
-    ],
-    "cta": "Agendar consulta"
-  },
-  "hero": {
-    "eyebrow": "Despacho contable en Torreón, Coahuila",
-    "title": "Su contabilidad al día. Sus impuestos, sin sorpresas.",
-    "subtitle": "Desde 2003 llevamos la contabilidad, la nómina y las obligaciones fiscales de empresas de La Laguna. Usted dirige su negocio; nosotros respondemos por los números.",
-    "primaryCta": "Agendar una consulta",
-    "secondaryCta": "Conozca los servicios",
-    "imageAlt": "Interior de las oficinas del Despacho López y Asociados en Torreón",
-    "stats": [
-      { "value": "20+", "label": "años de ejercicio profesional" },
-      { "value": "80+", "label": "empresas activas en cartera" },
-      { "value": "4.8", "label": "calificación en Google" }
-    ]
-  },
-  "trust-bar": {
-    "yearsLabel": "años de ejercicio",
-    "ratingLabel": "calificación en Google",
-    "reviewsLabel": "reseñas verificadas",
-    "cityLabel": "Atendemos toda la Comarca Lagunera"
-  },
-  "services": {
-    "eyebrow": "Servicios",
-    "title": "Seis frentes, un solo responsable.",
-    "intro": "Cada servicio tiene entregables y fechas comprometidas por escrito. Sin cobros por llamada ni letras chicas.",
-    "items": [
-      {
-        "title": "Contabilidad mensual",
-        "description": "Registro puntual de sus operaciones, conciliaciones bancarias y estados financieros entregados dentro de los primeros diez días de cada mes."
-      },
-      {
-        "title": "Impuestos federales y estatales",
-        "description": "Cálculo y presentación de declaraciones mensuales y anuales ante el SAT, con papeles de trabajo que respaldan cada cifra."
-      },
-      {
-        "title": "Nómina, IMSS e Infonavit",
-        "description": "Timbrado de CFDI de nómina, cálculo de cuotas obrero-patronales y movimientos afiliatorios presentados en tiempo y forma."
-      },
-      {
-        "title": "Atención a requerimientos del SAT",
-        "description": "Respuesta a cartas invitación, requerimientos y revisiones. Representación directa ante la autoridad, sin intermediarios."
-      },
-      {
-        "title": "Devoluciones y saldos a favor",
-        "description": "Recuperación de saldos a favor de IVA e ISR con expedientes completos desde la primera solicitud, no al tercer rechazo."
-      },
-      {
-        "title": "Constitución de empresas",
-        "description": "Arranque fiscal y contable de su nueva sociedad: régimen adecuado, alta ante el SAT y facturación funcionando desde el primer día."
-      }
-    ]
-  },
-  "about": {
-    "eyebrow": "El despacho",
-    "title": "Un despacho de trato directo, no una mesa de trámites.",
-    "paragraphs": [
-      "López y Asociados nació en 2003 en Torreón con una premisa sencilla: el contador debe contestar el teléfono. Hoy somos un equipo de nueve personas que atiende a comercios, constructoras, transportistas y despachos profesionales de toda la Comarca Lagunera.",
-      "No trabajamos por volumen. Cada cliente tiene un contador titular que conoce su operación, y el socio director revisa personalmente cada cierre anual antes de presentarlo."
-    ],
-    "credentials": [
-      "Contador Público Certificado por el IMCP",
-      "Miembro del Colegio de Contadores Públicos de La Laguna",
-      "Más de 80 empresas activas en cartera",
-      "Equipo de 9 contadores y auxiliares"
-    ],
-    "signatureName": "C.P.C. Ricardo López Anaya",
-    "signatureRole": "Socio director",
-    "imageAlt": "Retrato del socio director del despacho en su oficina",
-    "milestones": [
-      { "year": "2003", "text": "Fundación del despacho en el centro de Torreón, con tres clientes y dos escritorios." },
-      { "year": "2011", "text": "Certificación del socio director ante el IMCP y apertura del área de nóminas." },
-      { "year": "2018", "text": "Migración completa a expediente digital: XML, balanzas y papeles de trabajo en línea." },
-      { "year": "2024", "text": "80 empresas activas y un equipo de nueve personas al servicio de La Laguna." }
-    ]
+    "viewOnGoogle": "Ver la ficha en Google",
+    "primaryNav": "principal",
+    "primaryNavMobile": "principal móvil",
+    "coloniaPrefix": "Col.",
+    "yes": "Sí",
+    "no": "No",
+    "ratingOutOfFive": "{rating} de 5",
+    "reviewsOnGoogle": "{count} reseñas en Google"
   },
   "credentials-band": {
     "eyebrow": "Credenciales",
@@ -120,105 +44,234 @@
       }
     ]
   },
-  "process": {
-    "eyebrow": "Cómo trabajamos",
-    "title": "Cambiar de contador no debería doler.",
-    "steps": [
+  "footer": {
+    "tagline": "Contabilidad, impuestos y nómina para las empresas de La Laguna, con la misma firma al frente desde 2003.",
+    "navTitle": "Explorar",
+    "contactTitle": "Contacto",
+    "followTitle": "Síguenos",
+    "links": [
       {
-        "title": "Diagnóstico sin costo",
-        "description": "Revisamos su buzón tributario, su opinión de cumplimiento y sus últimas declaraciones. Le decimos exactamente dónde está parado."
+        "href": "/servicios",
+        "label": "Servicios"
       },
       {
-        "title": "Propuesta por escrito",
-        "description": "Alcance, entregables y honorarios fijos mensuales. Usted sabe qué recibe y cuánto paga antes de firmar."
+        "href": "/#credenciales",
+        "label": "El despacho"
       },
       {
-        "title": "Migración ordenada",
-        "description": "Recibimos la información de su contador anterior: XML, balanzas y papeles de trabajo. El cambio no detiene su operación."
-      },
-      {
-        "title": "Operación con fechas",
-        "description": "Cierres mensuales antes del día 10, declaraciones antes del 17 y un reporte financiero que sí se entiende."
+        "href": "/#contacto",
+        "label": "Contacto"
       }
-    ]
+    ],
+    "privacyLink": "Aviso de privacidad",
+    "rights": "Todos los derechos reservados."
   },
-  "testimonials": {
-    "eyebrow": "Opiniones",
-    "title": "Lo que dicen quienes ya cambiaron.",
-    "viewAll": "Leer las {count} reseñas en Google",
+  "pages": {
+    "servicios": {
+      "header": {
+        "title": "Servicios contables y fiscales en Torreón",
+        "lead": "Contabilidad mensual, impuestos y declaraciones ante el SAT, nómina e IMSS, defensa fiscal y devoluciones de IVA e ISR. El detalle de cómo trabajamos cada frente del despacho."
+      },
+      "services": {
+        "eyebrow": "Relación de servicios",
+        "title": "Lo que hacemos, renglón por renglón.",
+        "items": [
+          {
+            "name": "Contabilidad mensual",
+            "description": "Registro de sus operaciones, conciliaciones bancarias y estados financieros al corriente, entregados dentro de los primeros diez días hábiles de cada mes."
+          },
+          {
+            "name": "Impuestos y declaraciones ante el SAT",
+            "description": "Cálculo y presentación de pagos provisionales, declaraciones mensuales y la anual, con papeles de trabajo que respaldan cada renglón."
+          },
+          {
+            "name": "Nómina, IMSS e Infonavit",
+            "description": "Timbrado de CFDI de nómina, cálculo de cuotas obrero-patronales y movimientos afiliatorios presentados en tiempo y forma."
+          },
+          {
+            "name": "Defensa fiscal",
+            "description": "Respuesta a requerimientos, cartas invitación y revisiones. Le representamos ante la autoridad de principio a fin, sin intermediarios."
+          },
+          {
+            "name": "Devoluciones de IVA e ISR",
+            "description": "Integración del expediente y seguimiento del trámite hasta recuperar su saldo a favor, con la documentación completa desde la primera solicitud."
+          },
+          {
+            "name": "Constitución de empresas",
+            "description": "Arranque fiscal y contable de su sociedad: elección de régimen, alta ante el SAT y facturación operando desde el primer día."
+          }
+        ]
+      },
+      "cta": {
+        "eyebrow": "Empecemos",
+        "title": "¿Listo para poner sus cuentas en orden?",
+        "subtitle": "Agende una consulta sin costo. Revisamos su situación fiscal y le proponemos un plan de trabajo claro para su empresa.",
+        "cta": "Escríbanos por WhatsApp"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "La página que busca no existe o cambió de dirección.",
+    "back": "Volver al inicio"
+  },
+  "privacy": {
+    "title": "Aviso de privacidad",
+    "updated": "Última actualización: julio de 2026",
+    "back": "Volver al inicio",
+    "metaTitle": "Aviso de privacidad",
+    "metaDescription": "Aviso de privacidad de {business}, conforme a la LFPDPPP.",
+    "identity": {
+      "heading": "Identidad y domicilio del responsable",
+      "body": "{name}, con domicilio en {address} (en adelante, el “Responsable”), es responsable del tratamiento de sus datos personales conforme al presente aviso de privacidad, emitido en cumplimiento de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), su Reglamento y los Lineamientos del Aviso de Privacidad."
+    },
+    "data": {
+      "heading": "Datos personales que recabamos",
+      "body": "Para las finalidades señaladas en este aviso, el Responsable puede recabar los siguientes datos personales: nombre completo, teléfono, correo electrónico, así como la información que usted proporcione voluntariamente a través del formulario de contacto, por teléfono, por WhatsApp o en nuestras oficinas. No recabamos datos personales sensibles a través de este sitio web."
+    },
+    "purposes": {
+      "heading": "Finalidades del tratamiento",
+      "intro": "Sus datos personales serán utilizados para las siguientes finalidades primarias:",
+      "items": [
+        "Atender su solicitud de contacto, información o cotización.",
+        "Agendar y dar seguimiento a citas o consultas.",
+        "Prestar los servicios que, en su caso, usted contrate.",
+        "Emitir los comprobantes fiscales correspondientes."
+      ],
+      "secondary": "De manera secundaria, y solo si usted no manifiesta su negativa, podremos utilizar sus datos para informarle sobre servicios, cambios normativos o comunicaciones relacionadas con nuestra actividad. Puede oponerse a estas finalidades secundarias en cualquier momento {contact}.",
+      "optOutEmail": "escribiendo a {email}",
+      "optOutOffline": "llamando al {phone} o acudiendo a nuestro domicilio"
+    },
+    "transfers": {
+      "heading": "Transferencias de datos",
+      "body": "El Responsable no vende ni cede sus datos personales a terceros. Solo se realizarán transferencias en los casos previstos por el artículo 37 de la LFPDPPP, o cuando sean necesarias para la prestación del servicio con proveedores que actúan por cuenta del Responsable (por ejemplo, servicios de hospedaje web o envío de correo), quienes tratan los datos conforme a este aviso."
+    },
+    "arco": {
+      "heading": "Derechos ARCO y revocación del consentimiento",
+      "body": "Usted tiene derecho a conocer qué datos personales tenemos, para qué los utilizamos y las condiciones de su uso (Acceso); a solicitar su corrección cuando sean inexactos (Rectificación); a pedir que los eliminemos (Cancelación), y a oponerse a su uso para fines específicos (Oposición). Asimismo, puede revocar el consentimiento otorgado.",
+      "howEmail": "Para ejercer estos derechos, envíe una solicitud al correo {email} o preséntela en nuestro domicilio, indicando su",
+      "howOffline": "Para ejercer estos derechos, presente una solicitud en nuestro domicilio o comuníquese al teléfono {phone}, indicando su",
+      "tail": "nombre completo, el derecho que desea ejercer y un medio para comunicarle la respuesta. Responderemos en los plazos que establece la LFPDPPP."
+    },
+    "cookies": {
+      "heading": "Uso de cookies y tecnologías de rastreo",
+      "body": "Este sitio puede utilizar cookies técnicas necesarias para su funcionamiento, como la preferencia de modo claro u oscuro. No utilizamos cookies para crear perfiles publicitarios."
+    },
+    "changes": {
+      "heading": "Cambios al aviso de privacidad",
+      "body": "El presente aviso puede sufrir modificaciones derivadas de nuevos requerimientos legales o de nuestras propias prácticas. Cualquier cambio se publicará en esta misma página. Le recomendamos consultarla periódicamente."
+    },
+    "authority": {
+      "heading": "Autoridad competente",
+      "body": "Si considera que su derecho a la protección de datos personales ha sido vulnerado, puede acudir ante la autoridad competente en materia de protección de datos personales en México."
+    }
+  },
+  "email": {
+    "lead": {
+      "preview": "Nuevo mensaje de {name}",
+      "heading": "Nuevo mensaje desde {short}",
+      "intro": "Un visitante dejó sus datos en el formulario de contacto del sitio.",
+      "labelName": "Nombre",
+      "labelPhone": "Teléfono",
+      "labelEmail": "Correo",
+      "labelMessage": "Mensaje",
+      "call": "Llamar a {name}",
+      "subject": "Nuevo mensaje del sitio: {name}"
+    },
+    "visitor": {
+      "preview": "Recibimos tu mensaje en {business}",
+      "heading": "Gracias por escribirnos, {firstName}",
+      "body": "Recibimos tu mensaje en {business}. Un miembro de nuestro equipo se pondrá en contacto contigo muy pronto para dar seguimiento.",
+      "body2": "Mientras tanto, puedes visitar el sitio para conocer más:",
+      "cta": "Visitar el sitio",
+      "subject": "Gracias por escribirnos — {business}"
+    }
+  },
+  "site-header": {
+    "links": [
+      {
+        "href": "/servicios",
+        "label": "Servicios"
+      },
+      {
+        "href": "/#credenciales",
+        "label": "El despacho"
+      },
+      {
+        "href": "/#contacto",
+        "label": "Contacto"
+      }
+    ],
+    "cta": "Agendar consulta"
+  },
+  "hero-editorial": {
+    "eyebrow": "Contadores públicos certificados",
+    "title": "Cuentas claras, decisiones firmes.",
+    "subtitle": "Desde 2003 llevamos la contabilidad, la nómina y las obligaciones fiscales de las empresas de la Comarca Lagunera. Usted concentra su energía en hacer crecer el negocio; nosotros respondemos por cada cifra ante el SAT.",
+    "ctaPrimary": "Agendar una consulta",
+    "ctaSecondary": "Llámenos",
+    "imageAlt": "Recepción del Despacho López y Asociados en el Centro de Torreón",
+    "imageCaption": "Atención presencial en el Centro de Torreón.",
+    "since": "Desde {year}"
+  },
+  "services-ledger": {
+    "eyebrow": "Relación de servicios",
+    "title": "Lo que hacemos, renglón por renglón.",
     "items": [
       {
-        "quote": "Llevábamos tres años sin que nadie nos explicara nuestros propios números. En la primera reunión con Ricardo entendimos más que en todo ese tiempo.",
-        "author": "Laura Gutiérrez",
-        "role": "Directora administrativa, Ferretera del Norte"
+        "name": "Contabilidad mensual",
+        "description": "Registro de sus operaciones, conciliaciones bancarias y estados financieros al corriente, entregados dentro de los primeros diez días hábiles de cada mes."
       },
       {
-        "quote": "Nos regularizaron dos ejercicios atrasados y las multas quedaron en menos de la mitad. Entregan cuando dicen que van a entregar.",
-        "author": "Jorge Ramírez",
-        "role": "Gerente general, Transportes Ramírez"
+        "name": "Impuestos y declaraciones ante el SAT",
+        "description": "Cálculo y presentación de pagos provisionales, declaraciones mensuales y la anual, con papeles de trabajo que respaldan cada renglón."
       },
       {
-        "quote": "La nómina de cuarenta empleados sale puntual cada quincena desde hace seis años. No tengo que perseguir a nadie.",
-        "author": "Marcela Ávila",
-        "role": "Recursos Humanos, Grupo Constructor Laguna"
+        "name": "Nómina, IMSS e Infonavit",
+        "description": "Timbrado de CFDI de nómina, cálculo de cuotas obrero-patronales y movimientos afiliatorios presentados en tiempo y forma."
+      },
+      {
+        "name": "Defensa fiscal",
+        "description": "Respuesta a requerimientos, cartas invitación y revisiones. Le representamos ante la autoridad de principio a fin, sin intermediarios."
+      },
+      {
+        "name": "Devoluciones de IVA e ISR",
+        "description": "Integración del expediente y seguimiento del trámite hasta recuperar su saldo a favor, con la documentación completa desde la primera solicitud."
+      },
+      {
+        "name": "Constitución de empresas",
+        "description": "Arranque fiscal y contable de su sociedad: elección de régimen, alta ante el SAT y facturación operando desde el primer día."
       }
     ]
   },
-  "faq": {
-    "eyebrow": "Preguntas frecuentes",
-    "title": "Las dudas que nos plantean antes de la primera cita.",
-    "items": [
-      {
-        "question": "¿Puedo cambiar de contador a mitad del ejercicio?",
-        "answer": "Sí, y es más común de lo que parece. Coordinamos la entrega de XML, balanzas y papeles de trabajo con su contador anterior, y asumimos la operación sin interrumpir sus declaraciones. La migración típica toma entre dos y tres semanas."
-      },
-      {
-        "question": "¿Qué necesito para empezar?",
-        "answer": "Su e.firma vigente, los certificados de sello digital, acceso al buzón tributario y las últimas balanzas disponibles. Si algo de esto le falta o está vencido, lo tramitamos con usted como parte del arranque."
-      },
-      {
-        "question": "¿Cómo cobran sus honorarios?",
-        "answer": "Con una iguala mensual fija, definida por el volumen de operaciones y el número de empleados. La propuesta va por escrito y el monto no cambia por llamadas, dudas o requerimientos ordinarios."
-      },
-      {
-        "question": "Tengo declaraciones atrasadas y multas. ¿Me pueden ayudar?",
-        "answer": "Sí. Empezamos con un diagnóstico del buzón tributario y la opinión de cumplimiento, armamos un plan de regularización por etapas y, cuando procede, gestionamos la reducción de multas y recargos ante el SAT."
-      },
-      {
-        "question": "¿Ustedes emiten mi facturación?",
-        "answer": "Como usted prefiera: podemos emitir los CFDI por su cuenta con nuestros sistemas, o capacitar a su equipo para que facture internamente mientras nosotros vigilamos el cumplimiento."
-      },
-      {
-        "question": "¿Atienden empresas fuera de Torreón?",
-        "answer": "Sí. Operamos con expediente digital desde 2018 y atendemos clientes en Gómez Palacio, Lerdo, Saltillo y Monterrey. Las reuniones pueden ser presenciales en nuestra oficina o por videollamada."
-      }
-    ]
+  "cta-panel": {
+    "eyebrow": "Consulta inicial",
+    "title": "Pongamos su contabilidad en orden este mes.",
+    "subtitle": "Cuéntenos cómo está su empresa hoy y le respondemos el mismo día: un diagnóstico claro de su situación fiscal y un plan de trabajo, sin costo ni compromiso.",
+    "cta": "Escríbanos por WhatsApp"
   },
-  "cta-band": {
-    "title": "¿Su contador tarda una semana en contestarle?",
-    "subtitle": "Agende una llamada de veinte minutos con el socio director. Sin costo y sin compromiso.",
-    "primaryCta": "Llamar al despacho",
-    "secondaryCta": "Escribir por WhatsApp"
-  },
-  "contact": {
+  "contact-split": {
     "eyebrow": "Contacto",
-    "title": "Visítenos o escríbanos.",
+    "title": "Hablemos de su contabilidad.",
+    "intro": "Estamos en el Centro de Torreón. Escríbanos, llámenos o pásese por la oficina; en menos de un día hábil sabrá con quién va a trabajar.",
     "addressLabel": "Oficina",
     "phoneLabel": "Teléfono",
+    "whatsappLabel": "WhatsApp",
     "emailLabel": "Correo",
     "hoursLabel": "Horario",
-    "mapTitle": "Ubicación del despacho en Google Maps",
+    "mapLabel": "Cómo llegar",
+    "mapTitle": "Ubicación del despacho López y Asociados en Google Maps",
     "form": {
       "title": "Envíenos un mensaje",
-      "intro": "Respondemos en menos de un día hábil.",
+      "intro": "Cuéntenos brevemente qué necesita y le respondemos en menos de un día hábil.",
       "name": "Nombre",
       "namePlaceholder": "María Fernanda López",
       "phone": "Teléfono",
       "phonePlaceholder": "+52 871 123 4567",
       "email": "Correo electrónico (opcional)",
       "emailPlaceholder": "maria@suempresa.mx",
-      "message": "Cuéntenos en qué podemos ayudarle",
-      "messagePlaceholder": "Cuéntenos de su empresa y qué necesita: contabilidad, nómina, un pendiente con el SAT…",
+      "message": "¿En qué podemos ayudarle?",
+      "messagePlaceholder": "Cuéntenos de su empresa y qué necesita: contabilidad mensual, nómina, un pendiente con el SAT…",
       "submit": "Enviar mensaje",
       "sending": "Enviando…",
       "success": "Listo, su mensaje ya está con nosotros. Le respondemos en menos de un día hábil.",
@@ -232,102 +285,5 @@
         "messageLong": "Nos encantaría leerlo todo, pero 4000 caracteres es nuestro límite."
       }
     }
-  },
-  "footer": {
-    "tagline": "Contabilidad e impuestos para empresas de La Laguna desde 2003.",
-    "navTitle": "Secciones",
-    "contactTitle": "Contacto",
-    "privacyLink": "Aviso de privacidad",
-    "rights": "Todos los derechos reservados.",
-    "credit": "Sitio creado por Intello"
-  },
-  "pages": {
-    "servicios": {
-      "header": {
-        "title": "Todo lo que el despacho hace por su empresa.",
-        "lead": "Cada servicio incluye un contador titular responsable, entregables definidos y fechas comprometidas por escrito. Aquí está el detalle de qué recibe con cada uno y cómo se trabaja."
-      },
-      "services": {
-        "eyebrow": "Catálogo de servicios",
-        "title": "El catálogo completo, con entregables claros.",
-        "intro": "Los servicios se contratan por iguala mensual o por proyecto, según el caso. La propuesta siempre va por escrito antes de firmar.",
-        "items": [
-          {
-            "title": "Contabilidad mensual",
-            "description": "Registramos sus pólizas, conciliamos bancos y entregamos balanza y estados financieros antes del día 10 de cada mes. Incluye el envío de la contabilidad electrónica al SAT y una reunión trimestral con su contador titular para revisar resultados."
-          },
-          {
-            "title": "Impuestos federales y estatales",
-            "description": "Calculamos y presentamos ISR, IVA y retenciones cada mes, además de la declaración anual y las informativas que apliquen. Cada declaración va acompañada de sus papeles de trabajo y del acuse archivado en su expediente digital."
-          },
-          {
-            "title": "Nómina, IMSS e Infonavit",
-            "description": "Timbramos los CFDI de nómina de cada periodo, calculamos cuotas obrero-patronales, presentamos variabilidades y movimientos afiliatorios ante el IMSS y damos seguimiento a los créditos Infonavit de sus empleados."
-          },
-          {
-            "title": "Defensa ante requerimientos del SAT",
-            "description": "Atendemos cartas invitación, requerimientos, revisiones de gabinete y restricciones de sellos digitales. Preparamos la respuesta, integramos el expediente soporte y comparecemos ante la autoridad en representación de su empresa."
-          },
-          {
-            "title": "Devoluciones y saldos a favor",
-            "description": "Integramos el expediente de devolución de IVA e ISR completo desde la primera solicitud: papeles de trabajo, XML y documentación soporte. Damos seguimiento al trámite hasta el depósito y atendemos los requerimientos adicionales que surjan."
-          },
-          {
-            "title": "Constitución y arranque de empresas",
-            "description": "Le acompañamos desde el acta constitutiva hasta la primera factura: elección del régimen fiscal, inscripción al RFC, e.firma, sellos digitales y alta patronal ante el IMSS cuando contrata a su primer empleado."
-          },
-          {
-            "title": "Diagnóstico fiscal inicial",
-            "description": "Antes de firmar cualquier propuesta revisamos su buzón tributario, su opinión de cumplimiento y sus últimas declaraciones. Le entregamos un reporte de riesgos y pendientes, sin costo y sin compromiso de contratación."
-          }
-        ]
-      },
-      "faq": {
-        "eyebrow": "Preguntas sobre los servicios",
-        "title": "Dudas específicas sobre alcances y cobros.",
-        "items": [
-          {
-            "question": "¿La iguala mensual cubre la declaración anual?",
-            "answer": "Sí. La declaración anual de la empresa está incluida en la iguala, igual que las informativas ordinarias. Solo los trámites extraordinarios, como una devolución de IVA o la defensa ante una revisión, se cotizan por separado y siempre por escrito."
-          },
-          {
-            "question": "¿Atienden personas físicas con actividad empresarial?",
-            "answer": "Sí, siempre que tengan operación en marcha: actividad empresarial, honorarios, arrendamiento o plataformas digitales. El servicio incluye declaraciones mensuales, la anual y el control de sus CFDI emitidos y recibidos."
-          },
-          {
-            "question": "¿Qué pasa si el SAT restringe mis sellos digitales?",
-            "answer": "Lo tratamos como trámite urgente. Presentamos la aclaración con el expediente soporte y damos seguimiento diario hasta la reactivación. Para clientes del despacho, la vigilancia mensual del buzón tributario reduce mucho el riesgo de llegar a ese punto."
-          },
-          {
-            "question": "¿Cómo me entregan la información cada mes?",
-            "answer": "Recibe balanza, estados financieros y acuses en su expediente digital, junto con un resumen en lenguaje claro de lo que cambió en el mes. Su contador titular lo revisa con usted por videollamada o en la oficina cuando lo necesite."
-          },
-          {
-            "question": "¿Pueden encargarse solo de la nómina?",
-            "answer": "Sí. La maquila de nómina se contrata como servicio independiente e incluye timbrado, IMSS, Infonavit y los reportes contables del periodo, aunque la contabilidad la lleve otro despacho."
-          },
-          {
-            "question": "¿Trabajan con empresas que apenas están arrancando?",
-            "answer": "Sí. Para sociedades de reciente constitución manejamos un esquema de arranque con iguala reducida durante los primeros seis meses, mientras la operación toma volumen y se estabiliza la facturación."
-          }
-        ]
-      },
-      "cta-band": {
-        "title": "¿Quiere saber cuánto costaría en su caso?",
-        "subtitle": "Cuéntenos el tamaño de su operación y le preparamos una propuesta por escrito en menos de tres días hábiles.",
-        "primaryCta": "Llamar al despacho",
-        "secondaryCta": "Escribir por WhatsApp"
-      }
-    }
-  },
-  "notFound": {
-    "title": "Página no encontrada",
-    "body": "La página que busca no existe o cambió de dirección.",
-    "back": "Volver al inicio"
-  },
-  "privacy": {
-    "title": "Aviso de privacidad",
-    "updated": "Última actualización: julio de 2026",
-    "back": "Volver al inicio"
   }
 }

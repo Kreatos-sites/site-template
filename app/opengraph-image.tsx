@@ -12,23 +12,34 @@ export const contentType = "image/png";
 export const alt = config.seo.title;
 
 /**
- * Eyebrow REAL del hero (ns resuelto sobre messages, no `messages.hero`
- * hardcodeado: el hero puede usar un ns anidado) como tagline; fallback a la
- * descripción SEO.
+ * Tagline del OG: el primer `eyebrow` que aparezca en el copy de alguna sección
+ * (normalmente el del héroe) como frase punchy; fallback a la descripción SEO.
+ * Genérico porque TODAS las secciones son custom: no se asume un id "hero".
  */
 function taglineText(): string {
-  const heroNs = config.sections.find((s) => s.id === "hero")?.ns ?? "hero";
-  const heroCopy = heroNs.split(".").reduce<unknown>(
-    (obj, key) =>
-      obj && typeof obj === "object"
-        ? (obj as Record<string, unknown>)[key]
-        : undefined,
-    messages,
-  );
-  return (
-    (heroCopy as { eyebrow?: string } | undefined)?.eyebrow ??
-    config.seo.description
-  );
+  for (const section of config.sections) {
+    const copy = section.ns.split(".").reduce<unknown>(
+      (obj, key) =>
+        obj && typeof obj === "object"
+          ? (obj as Record<string, unknown>)[key]
+          : undefined,
+      messages,
+    );
+    const eyebrow = (copy as { eyebrow?: unknown } | undefined)?.eyebrow;
+    if (typeof eyebrow === "string" && eyebrow.trim()) return eyebrow;
+  }
+  return config.seo.description;
+}
+
+/**
+ * "{count} reseñas en Google" desde messages (i18n): Satori no tiene contexto
+ * de request, así que se interpola a mano leyendo la key del bundle importado.
+ */
+function reviewsText(count: number): string {
+  const template =
+    (messages.common as { reviewsOnGoogle?: string })?.reviewsOnGoogle ??
+    "{count} reseñas en Google";
+  return template.replace("{count}", String(count));
 }
 
 /**
@@ -185,7 +196,7 @@ export default function OpengraphImage() {
                 {config.business.maps && (
                   <div style={{ display: "flex", fontWeight: 600 }}>
                     {config.business.maps.rating.toFixed(1)} ·{" "}
-                    {config.business.maps.reviewsCount} reseñas en Google
+                    {reviewsText(config.business.maps.reviewsCount)}
                   </div>
                 )}
               </div>
@@ -293,7 +304,7 @@ export default function OpengraphImage() {
               style={{ display: "flex", color: tokens.accent, fontWeight: 600 }}
             >
               {config.business.maps.rating.toFixed(1)} ·{" "}
-              {config.business.maps.reviewsCount} reseñas en Google
+              {reviewsText(config.business.maps.reviewsCount)}
             </div>
           )}
         </div>

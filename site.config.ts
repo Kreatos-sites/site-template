@@ -75,27 +75,25 @@ const config: SiteConfig = {
     motion: "subtle",
   },
 
-  // El orden de este array ES el orden de render en la página.
+  // TODA sección es CUSTOM: escrita a la medida para ESTE sitio. Esta lista es
+  // UN EJEMPLO de composición (la del demo), NO un esqueleto obligatorio — el
+  // art-director decide para cada sitio real qué secciones hay, cuántas y en qué
+  // orden. El orden del array ES el orden de render. `slot` ubica header/footer
+  // en sus landmarks; el resto va en <main> como body.
   sections: [
-    { id: "navbar", variant: "minimal" },
-    { id: "hero", variant: "editorial", image: "/images/hero.svg" },
-    { id: "trust-bar" },
-    { id: "services", variant: "numbered-list" },
-    { id: "about", variant: "portrait", image: "/images/about.svg" },
-    // Sección custom (components/custom/credentials-band.tsx, registrada
-    // en components/custom/registry.ts): el gesto propio de este sitio.
+    { id: "custom", component: "site-header", ns: "site-header", slot: "header" },
+    { id: "custom", component: "hero-editorial", ns: "hero-editorial" },
+    { id: "custom", component: "services-ledger", ns: "services-ledger" },
     { id: "custom", component: "credentials-band", ns: "credentials-band" },
-    { id: "process" },
-    { id: "testimonials", count: 3 },
-    { id: "faq" },
-    { id: "cta-band" },
-    { id: "contact", showMap: true },
-    { id: "footer" },
+    { id: "custom", component: "cta-panel", ns: "cta-panel" },
+    { id: "custom", component: "contact-split", ns: "contact-split" },
+    { id: "custom", component: "site-footer", ns: "footer", slot: "footer" },
   ],
 
-  // Páginas interiores (/<slug>). navbar y footer se heredan de `sections`.
-  // Toda sección de página DEBE declarar `ns` (namespace en es.json bajo
-  // pages.<slug>.*) para no reutilizar el copy de la home.
+  // Páginas interiores (/<slug>). El header y el footer se heredan de la home
+  // (no se declaran aquí). Toda sección de página DEBE declarar `ns` bajo
+  // pages.<slug>.* para no reutilizar el copy de la home. Cuántas páginas y qué
+  // secciones llevan también lo decide el art-director.
   pages: [
     {
       slug: "servicios",
@@ -103,10 +101,9 @@ const config: SiteConfig = {
       description:
         "Contabilidad mensual, impuestos, nómina e IMSS, defensa ante el SAT y devoluciones de IVA e ISR. El detalle de cada servicio del despacho en Torreón.",
       sections: [
-        { id: "page-header", ns: "pages.servicios.header" },
-        { id: "services", variant: "bordered-table", ns: "pages.servicios.services" },
-        { id: "faq", ns: "pages.servicios.faq" },
-        { id: "cta-band", ns: "pages.servicios.cta-band" },
+        { id: "custom", component: "page-intro", ns: "pages.servicios.header" },
+        { id: "custom", component: "services-ledger", ns: "pages.servicios.services" },
+        { id: "custom", component: "cta-panel", ns: "pages.servicios.cta" },
       ],
     },
   ],

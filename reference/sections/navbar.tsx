@@ -81,7 +81,7 @@ export function Navbar({ variant = "minimal", ns }: SectionOf<"navbar">) {
   }, []);
 
   const desktopNav = (
-    <nav aria-label="principal" className="hidden items-center gap-1 lg:flex">
+    <nav aria-label={tCommon("primaryNav")} className="hidden items-center gap-1 lg:flex">
       {links.map((link) => (
         <Link
           key={link.href}
@@ -163,7 +163,7 @@ export function Navbar({ variant = "minimal", ns }: SectionOf<"navbar">) {
 
       {open && (
         <nav
-          aria-label="principal móvil"
+          aria-label={tCommon("primaryNavMobile")}
           /* absolute + top-full: el menú SE MONTA sobre el contenido (drop-down),
              no empuja la página. Sin esto crecía el header sticky y desplazaba
              todo hacia abajo. shadow para separarlo del contenido de fondo. */

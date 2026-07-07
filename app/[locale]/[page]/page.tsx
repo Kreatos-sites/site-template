@@ -46,10 +46,12 @@ export default async function InteriorPage({ params }: PageParams) {
   const pageConfig = (config.pages ?? []).find((p) => p.slug === page);
   if (!pageConfig) notFound();
 
-  const navbar = config.sections.find((s) => s.id === "navbar");
-  const footer = config.sections.find((s) => s.id === "footer");
+  // El header y el footer (slots) se heredan de la home para que sean idénticos
+  // en todo el sitio; las secciones body son propias de la página.
+  const header = config.sections.find((s) => s.slot === "header");
+  const footer = config.sections.find((s) => s.slot === "footer");
   const sections = [
-    ...(navbar ? [navbar] : []),
+    ...(header ? [header] : []),
     ...pageConfig.sections,
     ...(footer ? [footer] : []),
   ];

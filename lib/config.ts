@@ -143,109 +143,28 @@ export const designSchema = z.object({
 });
 
 /**
- * `ns`: namespace de traducción en messages/es.json para la sección.
- * Si se omite, cada componente usa su id como namespace (comportamiento
- * histórico de la home). En páginas interiores (`config.pages`) es
- * OBLIGATORIO declararlo (lo exige scripts/validate-config.ts): sin él
- * la sección renderizaría el copy de la home, que casi siempre es un bug.
- * Convención sugerida para páginas: "pages.<slug>.<seccion>".
+ * TODA sección es CUSTOM: escrita a la medida por el site-builder para ESTE
+ * sitio (ver AGENT.md). No hay secciones fijas ni biblioteca de bloques
+ * montable — cada componente del sitio es único. El corpus de patrones vive en
+ * `reference/` (no se monta; es inspiración few-shot para el agente).
+ *
+ * `slot` ubica la sección en un landmark del motor:
+ *  - "header": el section-renderer la envuelve en <header> (cabecera/nav).
+ *  - "footer": la envuelve en <footer> e INYECTA el crédito de agencia.
+ *  - "body" (default): va dentro de <main>, en el orden del array.
+ * La home DEBE tener exactamente 1 header y 1 footer; las páginas interiores
+ * NO los declaran (se heredan de la home).
+ *
+ * `component` es la key registrada en components/custom/registry.ts; `ns` su
+ * namespace de copy en es.json. validate-config verifica que exista en el
+ * registry y que su copy espeje.
  */
-const nsField = z.string().min(1).optional();
-
-/**
- * El orden del array `sections` ES el orden de render.
- * navbar y footer se colocan fuera de <main> automáticamente.
- */
-export const sectionSchema = z.discriminatedUnion("id", [
-  z.object({
-    id: z.literal("navbar"),
-    variant: z.enum(["minimal", "split", "centered-logo"]).optional(),
-    ns: nsField,
-  }),
-  z.object({
-    id: z.literal("hero"),
-    variant: z.enum(["editorial", "split-image", "full-bleed", "stat-led"]).optional(),
-    image: z.string().optional(),
-    ns: nsField,
-  }),
-  z.object({ id: z.literal("trust-bar"), ns: nsField }),
-  z.object({
-    id: z.literal("services"),
-    variant: z.enum(["numbered-list", "asym-grid", "bordered-table"]).optional(),
-    count: z.number().int().positive().optional(),
-    ns: nsField,
-  }),
-  z.object({
-    id: z.literal("about"),
-    variant: z.enum(["portrait", "timeline", "plain"]).optional(),
-    image: z.string().optional(),
-    ns: nsField,
-  }),
-  z.object({
-    id: z.literal("process"),
-    count: z.number().int().positive().optional(),
-    ns: nsField,
-  }),
-  z.object({
-    id: z.literal("portfolio"),
-    variant: z.enum(["masonry", "rows"]).optional(),
-    images: z.array(z.string()).optional(),
-    ns: nsField,
-  }),
-  z.object({ id: z.literal("coverage"), ns: nsField }),
-  z.object({
-    id: z.literal("testimonials"),
-    count: z.number().int().positive().optional(),
-    ns: nsField,
-  }),
-  z.object({
-    id: z.literal("faq"),
-    count: z.number().int().positive().optional(),
-    ns: nsField,
-  }),
-  z.object({ id: z.literal("cta-band"), ns: nsField }),
-  z.object({
-    id: z.literal("contact"),
-    showMap: z.boolean().optional(),
-    ns: nsField,
-  }),
-  z.object({ id: z.literal("footer"), ns: nsField }),
-  z.object({
-    /**
-     * Encabezado de página interior: h1 + párrafo lead.
-     * Solo tiene sentido dentro de `config.pages`, por eso `ns` es requerido.
-     * Keys esperadas bajo su ns: `title` y `lead`.
-     */
-    id: z.literal("page-header"),
-    ns: z.string().min(1),
-  }),
-  z.object({
-    /**
-     * Sección CUSTOM escrita por el agente (ver AGENT.md → "Secciones
-     * custom"). `component` es la key registrada en
-     * components/custom/registry.ts y `ns` su namespace de copy en
-     * es.json (aquí SIEMPRE requerido, también en la home). Puede
-     * aparecer varias veces por página con distinto component/ns;
-     * validate-config verifica que el componente exista en el registry.
-     */
-    id: z.literal("custom"),
-    component: z.string().min(2),
-    ns: z.string().min(2),
-  }),
-  z.object({
-    /**
-     * BLOQUE de la biblioteca curada del motor (components/blocks/). A
-     * diferencia de `custom` (que el agente escribe), estos ya vienen
-     * escritos, probados y variados: el agente COMPONE eligiendo bloques del
-     * catálogo (components/blocks/catalog.ts) y solo llena su copy en es.json.
-     * `block` es la key en components/blocks/registry.ts; `ns` su namespace.
-     * Es el camino contra lo genérico: variedad sin escribir .tsx de cero.
-     */
-    id: z.literal("block"),
-    block: z.string().min(2),
-    ns: z.string().min(2),
-  }),
-]);
+export const sectionSchema = z.object({
+  id: z.literal("custom"),
+  component: z.string().min(2),
+  ns: z.string().min(2),
+  slot: z.enum(["header", "body", "footer"]).optional(),
+});
 
 /** Slugs que el motor reserva: colisionan con rutas ya existentes en app/. */
 const reservedSlugs = new Set(["aviso-de-privacidad", "api"]);
@@ -253,7 +172,7 @@ const slugRe = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 /**
  * Página interior del sitio, servida en /<slug> por app/[page]/page.tsx.
- * navbar y footer NO se declaran aquí: el motor los inyecta desde
+ * El header y el footer NO se declaran aquí: el motor los inyecta desde
  * `config.sections` de la home para que sean idénticos en todo el sitio.
  */
 export const pageSchema = z.object({
@@ -272,10 +191,10 @@ export const pageSchema = z.object({
     .array(sectionSchema)
     .min(1)
     .refine(
-      (sections) => !sections.some((s) => s.id === "navbar" || s.id === "footer"),
+      (sections) => !sections.some((s) => s.slot === "header" || s.slot === "footer"),
       {
         message:
-          "navbar y footer no van en pages: el motor los hereda de la home",
+          "header y footer no van en pages: el motor los hereda de la home",
       },
     ),
 });
@@ -317,6 +236,28 @@ export const siteConfigSchema = z
       }
       seen.add(page.slug);
     });
+    // Slots de landmark: el motor NO prescribe qué secciones hay — el
+    // art-director compone libremente (cuántas secciones, qué contenido, cuántas
+    // páginas). El único límite es estructural: como mucho UN header y UN footer
+    // (el motor los envuelve en <header>/<footer>; el resto va en <main>). Cero
+    // o uno de cada: un one-pager puede no tener nav propio, y el crédito de
+    // agencia + el landmark <footer> los garantiza el motor de todos modos.
+    const headers = cfg.sections.filter((s) => s.slot === "header").length;
+    const footers = cfg.sections.filter((s) => s.slot === "footer").length;
+    if (headers > 1) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["sections"],
+        message: `a lo más 1 sección con slot "header" (hay ${headers})`,
+      });
+    }
+    if (footers > 1) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["sections"],
+        message: `a lo más 1 sección con slot "footer" (hay ${footers})`,
+      });
+    }
   });
 
 export type SiteConfig = z.infer<typeof siteConfigSchema>;

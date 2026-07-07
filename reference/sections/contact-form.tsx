@@ -1,80 +1,42 @@
 "use client";
 
-import { zodResolver } from "@hookform/resolvers/zod";
 import { Loader2 } from "lucide-react";
-import { useTranslations } from "next-intl";
-import { useForm } from "react-hook-form";
-import { toast } from "sonner";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { contactSchema, type ContactPayload } from "@/lib/contact-schema";
+import { useContactForm } from "@/components/shared/use-contact-form";
+import type { ContactPayload } from "@/lib/contact-schema";
 
 /**
- * Formulario de contacto — ESTÁNDAR de formularios del template:
- * react-hook-form + zodResolver con el schema compartido de
- * lib/contact-schema.ts (el server valida con el MISMO schema).
- * - Placeholder en TODOS los campos, siempre junto a su label visible
- *   (el placeholder jamás sustituye al label).
- * - Errores humanizados desde es.json (`<ns>.errors.<key>`): el schema
- *   emite keys, aquí se traducen. aria-invalid + error bajo el campo;
- *   react-hook-form enfoca solo el primer campo con error al enviar.
- * - Estados: enviando (spinner + disabled), éxito (toast cálido), error
- *   de red (toast reintentable: el form conserva lo escrito).
+ * Formulario de contacto — implementación de REFERENCIA sobre `useContactForm`
+ * (la plomería headless: react-hook-form + zodResolver con el schema compartido,
+ * submit a /api/contact, toasts). Este componente solo aporta el MARKUP; una
+ * sección custom puede cablear su propio diseño al mismo hook.
+ * - Placeholder en TODOS los campos, siempre junto a su label visible.
+ * - Errores humanizados desde es.json (`<ns>.errors.<key>`): aria-invalid +
+ *   error bajo el campo; react-hook-form enfoca el primer campo con error.
+ * - Estados: enviando (spinner + disabled), éxito (toast), error reintentable.
  *
  * Solo se monta si flags.contactForm es true (lo decide contact.tsx).
  * `ns` lo deriva contact.tsx como `${ns del padre}.form`.
  */
 export function ContactForm({ ns = "contact.form" }: { ns?: string }) {
-  const t = useTranslations(ns);
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors, isSubmitting },
-  } = useForm<ContactPayload>({
-    resolver: zodResolver(contactSchema),
-    defaultValues: { name: "", phone: "", email: "", message: "" },
-  });
-
-  async function onSubmit(data: ContactPayload) {
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-
-      if (!res.ok) throw new Error(String(res.status));
-
-      toast.success(t("success"));
-      reset();
-    } catch {
-      // Reintentable: el form conserva los valores; basta volver a enviar.
-      toast.error(t("error"));
-    }
-  }
+  const { t, register, onSubmit, isSubmitting, errorText, errorId, ariaProps } =
+    useContactForm(ns);
 
   function fieldError(key: keyof ContactPayload) {
-    const messageKey = errors[key]?.message;
-    if (!messageKey) return null;
+    const text = errorText(key);
+    if (!text) return null;
     return (
-      <p id={`contact-${key}-error`} className="text-sm text-destructive">
-        {t(`errors.${messageKey}`)}
+      <p id={errorId(key)} className="text-sm text-destructive">
+        {text}
       </p>
     );
   }
 
-  function ariaProps(key: keyof ContactPayload) {
-    return {
-      "aria-invalid": errors[key] ? true : undefined,
-      "aria-describedby": errors[key] ? `contact-${key}-error` : undefined,
-    } as const;
-  }
-
   return (
-    <form onSubmit={handleSubmit(onSubmit)} noValidate className="mt-6 space-y-4">
+    <form onSubmit={onSubmit} noValidate className="mt-6 space-y-4">
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-1.5">
           <label htmlFor="contact-name" className="text-sm font-medium">

@@ -1,99 +1,55 @@
 import type { ComponentType } from "react";
+
+import { AgencyCredit } from "@/components/shared/agency-credit";
+import { customSections } from "@/components/custom/registry";
 import type { SectionConfig } from "@/lib/config";
 
-import { blockSections } from "@/components/blocks/registry";
-import { customSections } from "@/components/custom/registry";
-import { About } from "@/components/sections/about";
-import { Contact } from "@/components/sections/contact";
-import { Coverage } from "@/components/sections/coverage";
-import { CtaBand } from "@/components/sections/cta-band";
-import { Faq } from "@/components/sections/faq";
-import { Footer } from "@/components/sections/footer";
-import { Hero } from "@/components/sections/hero";
-import { Navbar } from "@/components/sections/navbar";
-import { PageHeader } from "@/components/sections/page-header";
-import { Portfolio } from "@/components/sections/portfolio";
-import { Process } from "@/components/sections/process";
-import { Services } from "@/components/sections/services";
-import { Testimonials } from "@/components/sections/testimonials";
-import { TrustBar } from "@/components/sections/trust-bar";
-
 /**
- * Motor de composición: recibe config.sections y renderiza en ese orden.
- * navbar y footer se extraen para envolver <main> con landmarks correctos.
+ * Motor de composición 100%-custom: recibe config.sections (todas custom) y las
+ * renderiza en orden. El motor GARANTIZA los landmarks — <header>, <main>,
+ * <footer> — y el crédito de agencia, envolviendo las secciones custom:
+ *  - slot "header": va en <header> (una sola, va arriba).
+ *  - slot "footer": va en <footer>, con <AgencyCredit/> inyectado debajo
+ *    (fuera del control del autor: el agente no lo puede quitar).
+ *  - slot "body" (default): dentro de <main>, en el orden del array.
+ * Así el DISEÑO de cada sección es único por sitio, pero la semántica de
+ * accesibilidad y la atribución quedan resueltas por el motor.
  */
 export function SectionRenderer({ sections }: { sections: SectionConfig[] }) {
-  const navbar = sections.find((s) => s.id === "navbar");
-  const footer = sections.find((s) => s.id === "footer");
-  const body = sections.filter((s) => s.id !== "navbar" && s.id !== "footer");
+  const header = sections.find((s) => s.slot === "header");
+  const footer = sections.find((s) => s.slot === "footer");
+  const body = sections.filter((s) => (s.slot ?? "body") === "body");
 
   return (
     <>
-      {navbar?.id === "navbar" && <Navbar {...navbar} />}
+      {header && <header>{renderSection(header, "header")}</header>}
       <main id="contenido">
-        {body.map((section, index) => renderSection(section, index))}
+        {body.map((section, index) => renderSection(section, `body-${index}`))}
       </main>
-      {footer?.id === "footer" && <Footer {...footer} />}
+      <footer>
+        {footer && renderSection(footer, "footer")}
+        {/* Crédito de agencia INYECTADO por el motor: agent-proof. */}
+        <div className="border-t border-border">
+          <div className="mx-auto flex w-full max-w-6xl justify-center px-6 py-4 lg:px-8">
+            <AgencyCredit className="text-xs text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline" />
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
 
-function renderSection(section: SectionConfig, index: number) {
-  switch (section.id) {
-    case "custom": {
-      // Cast defensivo: el agente reescribe registry.ts y a veces omite el
-      // tipo Record<...> — sin index signature este acceso no compila. El
-      // motor no debe depender de cómo quedó tipado el registry.
-      const Custom = (
-        customSections as Record<string, ComponentType<{ ns: string }>>
-      )[section.component];
-      // Componente no registrado = error duro en build/dev, nunca silencio:
-      // validate-config lo detecta antes, pero este throw cubre dev server.
-      if (!Custom) {
-        throw new Error(
-          `[section-renderer] la sección custom "${section.component}" no está registrada en components/custom/registry.ts. ` +
-            `Keys disponibles: ${Object.keys(customSections).join(", ") || "(ninguna)"}`,
-        );
-      }
-      return <Custom key={`custom-${section.component}-${index}`} ns={section.ns} />;
-    }
-    case "block": {
-      // Bloque de la biblioteca curada (components/blocks/). Motor pre-escrito:
-      // el agente solo lo elige del catálogo y llena su copy.
-      const Block = blockSections[section.block];
-      if (!Block) {
-        throw new Error(
-          `[section-renderer] el bloque "${section.block}" no existe en components/blocks/registry.ts. ` +
-            `Bloques disponibles: ${Object.keys(blockSections).join(", ") || "(ninguno)"}`,
-        );
-      }
-      return <Block key={`block-${section.block}-${index}`} ns={section.ns} />;
-    }
-    case "page-header":
-      return <PageHeader key={section.id} {...section} />;
-    case "hero":
-      return <Hero key={section.id} {...section} />;
-    case "trust-bar":
-      return <TrustBar key={section.id} {...section} />;
-    case "services":
-      return <Services key={section.id} {...section} />;
-    case "about":
-      return <About key={section.id} {...section} />;
-    case "process":
-      return <Process key={section.id} {...section} />;
-    case "portfolio":
-      return <Portfolio key={section.id} {...section} />;
-    case "coverage":
-      return <Coverage key={section.id} {...section} />;
-    case "testimonials":
-      return <Testimonials key={section.id} {...section} />;
-    case "faq":
-      return <Faq key={section.id} {...section} />;
-    case "cta-band":
-      return <CtaBand key={section.id} {...section} />;
-    case "contact":
-      return <Contact key={section.id} {...section} />;
-    default:
-      return null;
+function renderSection(section: SectionConfig, keyHint: string) {
+  const Custom = (
+    customSections as Record<string, ComponentType<{ ns: string }>>
+  )[section.component];
+  // Componente no registrado = error duro en build/dev, nunca silencio:
+  // validate-config lo detecta antes, pero este throw cubre el dev server.
+  if (!Custom) {
+    throw new Error(
+      `[section-renderer] la sección custom "${section.component}" no está registrada en components/custom/registry.ts. ` +
+        `Keys disponibles: ${Object.keys(customSections).join(", ") || "(ninguna)"}`,
+    );
   }
+  return <Custom key={`${keyHint}-${section.component}`} ns={section.ns} />;
 }

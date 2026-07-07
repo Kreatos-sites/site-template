@@ -2,18 +2,17 @@ import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { ContactForm } from "@/components/sections/contact-form";
+import { MapEmbed } from "@/components/shared/map-embed";
 import { Reveal } from "@/components/shared/reveal";
 import { SectionHeading } from "@/components/shared/section-heading";
 import type { SectionOf } from "@/lib/config";
-import { fullAddress } from "@/lib/config";
 import config from "@/site.config";
 
 export function Contact({ showMap = true, ns }: SectionOf<"contact">) {
   const nsBase = ns ?? "contact";
   const t = useTranslations(nsBase);
+  const tCommon = useTranslations("common");
   const { business, flags } = config;
-  const address = fullAddress(business);
-  const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(address)}&output=embed`;
 
   return (
     <section id="contacto" className="py-(--section-gap)">
@@ -35,7 +34,7 @@ export function Contact({ showMap = true, ns }: SectionOf<"contact">) {
                     <dd className="mt-1.5 text-[0.95rem] leading-relaxed">
                       {business.address.street}
                       <br />
-                      Col. {business.address.colonia}, {business.address.zip}
+                      {tCommon("coloniaPrefix")} {business.address.colonia}, {business.address.zip}
                       <br />
                       {business.address.city}, {business.address.state}
                     </dd>
@@ -114,12 +113,9 @@ export function Contact({ showMap = true, ns }: SectionOf<"contact">) {
           {showMap && (
             <div className="lg:col-span-7">
               <Reveal delay={120} className="h-full">
-                <iframe
-                  src={mapSrc}
+                <MapEmbed
+                  business={business}
                   title={t("mapTitle")}
-                  loading="lazy"
-                  allowFullScreen
-                  referrerPolicy="no-referrer-when-downgrade"
                   className="map-embed h-full min-h-96 w-full border border-border lg:min-h-[560px]"
                 />
               </Reveal>

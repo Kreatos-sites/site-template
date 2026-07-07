@@ -16,6 +16,7 @@ type Testimonial = { quote: string; author: string; role: string };
  */
 export function Testimonials({ count, ns }: SectionOf<"testimonials">) {
   const t = useTranslations(ns ?? "testimonials");
+  const tCommon = useTranslations("common");
   const allItems = t.raw("items") as Testimonial[];
   const items = count ? allItems.slice(0, count) : allItems;
   const maps = config.business.maps;
@@ -39,7 +40,7 @@ export function Testimonials({ count, ns }: SectionOf<"testimonials">) {
                 <div
                   className="flex gap-0.5 text-primary"
                   role="img"
-                  aria-label={`${maps.rating.toFixed(1)} de 5`}
+                  aria-label={tCommon("ratingOutOfFive", { rating: maps.rating.toFixed(1) })}
                 >
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star key={i} className="size-3.5 fill-current" aria-hidden="true" />

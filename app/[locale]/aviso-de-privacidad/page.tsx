@@ -1,28 +1,39 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 import { fullAddress } from "@/lib/config";
 import config from "@/site.config";
 
-export const metadata: Metadata = {
-  title: "Aviso de privacidad",
-  description: `Aviso de privacidad de ${config.business.name}, conforme a la LFPDPPP.`,
-  alternates: { canonical: "/aviso-de-privacidad" },
-  robots: { index: false, follow: true },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("privacy");
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription", { business: config.business.name }),
+    alternates: { canonical: "/aviso-de-privacidad" },
+    robots: { index: false, follow: true },
+  };
+}
 
 /**
  * Aviso de privacidad genérico conforme a la Ley Federal de Protección
  * de Datos Personales en Posesión de los Particulares (LFPDPPP).
  * Es texto motor parametrizado con config.business: NO requiere edición
  * al personalizar el sitio, solo mantener site.config.ts correcto.
- * No sustituye asesoría legal específica del cliente.
+ * Todo el copy vive en messages/es.json (namespace `privacy`) — cero texto
+ * hardcodeado. No sustituye asesoría legal específica del cliente.
  */
 export default function AvisoDePrivacidadPage() {
   const t = useTranslations("privacy");
   const { business } = config;
   const address = fullAddress(business);
+
+  // Contacto para oponerse a finalidades secundarias / ejercer derechos: correo
+  // si existe, si no el teléfono + domicilio.
+  const optOut = business.email
+    ? t("purposes.optOutEmail", { email: business.email })
+    : t("purposes.optOutOffline", { phone: business.phone });
 
   return (
     <main className="mx-auto w-full max-w-3xl px-6 py-20 lg:px-8">
@@ -36,109 +47,55 @@ export default function AvisoDePrivacidadPage() {
 
       <div className="mt-12 space-y-10 text-[0.95rem] leading-relaxed text-muted-foreground [&_h2]:font-display [&_h2]:text-xl [&_h2]:text-foreground">
         <section className="space-y-3">
-          <h2>Identidad y domicilio del responsable</h2>
-          <p>
-            {business.name}, con domicilio en {address} (en adelante, el
-            &ldquo;Responsable&rdquo;), es responsable del tratamiento de sus datos
-            personales conforme al presente aviso de privacidad, emitido en
-            cumplimiento de la Ley Federal de Protección de Datos Personales en
-            Posesión de los Particulares (LFPDPPP), su Reglamento y los
-            Lineamientos del Aviso de Privacidad.
-          </p>
+          <h2>{t("identity.heading")}</h2>
+          <p>{t("identity.body", { name: business.name, address })}</p>
         </section>
 
         <section className="space-y-3">
-          <h2>Datos personales que recabamos</h2>
-          <p>
-            Para las finalidades señaladas en este aviso, el Responsable puede
-            recabar los siguientes datos personales: nombre completo, teléfono,
-            correo electrónico, así como la información que usted proporcione
-            voluntariamente a través del formulario de contacto, por teléfono,
-            por WhatsApp o en nuestras oficinas. No recabamos datos personales
-            sensibles a través de este sitio web.
-          </p>
+          <h2>{t("data.heading")}</h2>
+          <p>{t("data.body")}</p>
         </section>
 
         <section className="space-y-3">
-          <h2>Finalidades del tratamiento</h2>
-          <p>Sus datos personales serán utilizados para las siguientes finalidades primarias:</p>
+          <h2>{t("purposes.heading")}</h2>
+          <p>{t("purposes.intro")}</p>
           <ul className="list-disc space-y-1 pl-5">
-            <li>Atender su solicitud de contacto, información o cotización.</li>
-            <li>Agendar y dar seguimiento a citas o consultas.</li>
-            <li>Prestar los servicios que, en su caso, usted contrate.</li>
-            <li>Emitir los comprobantes fiscales correspondientes.</li>
+            {(t.raw("purposes.items") as string[]).map((item) => (
+              <li key={item}>{item}</li>
+            ))}
           </ul>
-          <p>
-            De manera secundaria, y solo si usted no manifiesta su negativa,
-            podremos utilizar sus datos para informarle sobre servicios,
-            cambios normativos o comunicaciones relacionadas con nuestra
-            actividad. Puede oponerse a estas finalidades secundarias en
-            cualquier momento{" "}
-            {business.email
-              ? `escribiendo a ${business.email}`
-              : `llamando al ${business.phone} o acudiendo a nuestro domicilio`}
-            .
-          </p>
+          <p>{t("purposes.secondary", { contact: optOut })}</p>
         </section>
 
         <section className="space-y-3">
-          <h2>Transferencias de datos</h2>
-          <p>
-            El Responsable no vende ni cede sus datos personales a terceros.
-            Solo se realizarán transferencias en los casos previstos por el
-            artículo 37 de la LFPDPPP, o cuando sean necesarias para la
-            prestación del servicio con proveedores que actúan por cuenta del
-            Responsable (por ejemplo, servicios de hospedaje web o envío de
-            correo), quienes tratan los datos conforme a este aviso.
-          </p>
+          <h2>{t("transfers.heading")}</h2>
+          <p>{t("transfers.body")}</p>
         </section>
 
         <section className="space-y-3">
-          <h2>Derechos ARCO y revocación del consentimiento</h2>
-          <p>
-            Usted tiene derecho a conocer qué datos personales tenemos, para
-            qué los utilizamos y las condiciones de su uso (Acceso); a
-            solicitar su corrección cuando sean inexactos (Rectificación); a
-            pedir que los eliminemos (Cancelación), y a oponerse a su uso para
-            fines específicos (Oposición). Asimismo, puede revocar el
-            consentimiento otorgado.
-          </p>
+          <h2>{t("arco.heading")}</h2>
+          <p>{t("arco.body")}</p>
           <p>
             {business.email
-              ? `Para ejercer estos derechos, envíe una solicitud al correo ${business.email} o preséntela en nuestro domicilio, indicando su`
-              : `Para ejercer estos derechos, presente una solicitud en nuestro domicilio o comuníquese al teléfono ${business.phone}, indicando su`}{" "}
-            nombre completo, el derecho que desea ejercer y un medio para
-            comunicarle la respuesta. Responderemos en los plazos que establece
-            la LFPDPPP.
+              ? t("arco.howEmail", { email: business.email })
+              : t("arco.howOffline", { phone: business.phone })}{" "}
+            {t("arco.tail")}
           </p>
         </section>
 
         <section className="space-y-3">
-          <h2>Uso de cookies y tecnologías de rastreo</h2>
-          <p>
-            Este sitio puede utilizar cookies técnicas necesarias para su
-            funcionamiento, como la preferencia de modo claro u oscuro. No
-            utilizamos cookies para crear perfiles publicitarios.
-          </p>
+          <h2>{t("cookies.heading")}</h2>
+          <p>{t("cookies.body")}</p>
         </section>
 
         <section className="space-y-3">
-          <h2>Cambios al aviso de privacidad</h2>
-          <p>
-            El presente aviso puede sufrir modificaciones derivadas de nuevos
-            requerimientos legales o de nuestras propias prácticas. Cualquier
-            cambio se publicará en esta misma página. Le recomendamos
-            consultarla periódicamente.
-          </p>
+          <h2>{t("changes.heading")}</h2>
+          <p>{t("changes.body")}</p>
         </section>
 
         <section className="space-y-3">
-          <h2>Autoridad competente</h2>
-          <p>
-            Si considera que su derecho a la protección de datos personales ha
-            sido vulnerado, puede acudir ante la autoridad competente en
-            materia de protección de datos personales en México.
-          </p>
+          <h2>{t("authority.heading")}</h2>
+          <p>{t("authority.body")}</p>
         </section>
       </div>
 

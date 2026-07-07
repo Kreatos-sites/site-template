@@ -25,13 +25,16 @@ export function BrandedLayout({
   brand,
   preview,
   children,
+  lang = "es",
 }: {
   brand: EmailBrand;
   preview: string;
   children: React.ReactNode;
+  /** Idioma del correo (locale del sitio); pone <Html lang>. */
+  lang?: string;
 }) {
   return (
-    <Html lang="es">
+    <Html lang={lang}>
       <Head />
       <Preview>{preview}</Preview>
       <Body
