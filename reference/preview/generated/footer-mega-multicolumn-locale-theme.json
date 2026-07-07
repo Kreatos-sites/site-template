@@ -1,0 +1,66 @@
+{
+  "key": "footer-mega-multicolumn-locale-theme",
+  "pascalName": "FooterMegaMulticolumnLocaleTheme",
+  "category": "Footers",
+  "catalogRow": "| `footer-mega-multicolumn-locale-theme` | footer-mega-multicolumn-locale-theme — footer mega con marca, redes, mapa del sitio en columnas y selector de idioma/tema · úsalo para sitios B2B con navegación amplia. | { brandName, tagline, socials: [{type, href, label}], columns: [{heading, links: [{label, href}]}], localeLabel, localeOptions: [{label, href, current}], themeLabel, themeOptions: [{label, icon, current}], legalLinks: [{label, href}], copyright } |",
+  "fixture": {
+    "brandName": "Ferretti & Asociados",
+    "tagline": "Despacho corporativo especializado en derecho mercantil, fiscal y laboral para empresas medianas en México.",
+    "socials": [
+      { "type": "linkedin", "href": "#", "label": "Síganos en LinkedIn" },
+      { "type": "facebook", "href": "#", "label": "Síganos en Facebook" },
+      { "type": "instagram", "href": "#", "label": "Síganos en Instagram" }
+    ],
+    "columns": [
+      {
+        "heading": "Servicios",
+        "links": [
+          { "label": "Derecho corporativo", "href": "#" },
+          { "label": "Derecho fiscal", "href": "#" },
+          { "label": "Derecho laboral", "href": "#" },
+          { "label": "Litigio mercantil", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Despacho",
+        "links": [
+          { "label": "Sobre nosotros", "href": "#" },
+          { "label": "Equipo", "href": "#" },
+          { "label": "Casos de éxito", "href": "#" },
+          { "label": "Carreras", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Recursos",
+        "links": [
+          { "label": "Artículos", "href": "#" },
+          { "label": "Boletín fiscal", "href": "#" },
+          { "label": "Preguntas frecuentes", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Contacto",
+        "links": [
+          { "label": "Agendar consulta", "href": "#" },
+          { "label": "Oficinas", "href": "#" },
+          { "label": "Trabaja con nosotros", "href": "#" }
+        ]
+      }
+    ],
+    "localeLabel": "Idioma",
+    "localeOptions": [
+      { "label": "Español", "href": "#", "current": true },
+      { "label": "English", "href": "#", "current": false }
+    ],
+    "themeLabel": "Apariencia",
+    "themeOptions": [
+      { "label": "Claro", "icon": "sun", "current": true },
+      { "label": "Oscuro", "icon": "moon", "current": false }
+    ],
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "#" },
+      { "label": "Términos y condiciones", "href": "#" }
+    ],
+    "copyright": "© 2026 Ferretti & Asociados. Todos los derechos reservados."
+  }
+}

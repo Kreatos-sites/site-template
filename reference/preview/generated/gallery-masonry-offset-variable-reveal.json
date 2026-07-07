@@ -1,0 +1,61 @@
+{
+  "key": "gallery-masonry-offset-variable-reveal",
+  "pascalName": "GalleryMasonryOffsetVariableReveal",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-masonry-offset-variable-reveal` | gallery-masonry-offset-variable-reveal — muro masonry con alturas variables y escalonado por columnas, foco de hover que atenúa el resto · úsalo para portafolio de trabajo de agencia o estudio creativo. | { eyebrow, title, description?, items: [{ image, imageAlt, title, category }] } |",
+  "fixture": {
+    "eyebrow": "Trabajo de agencia",
+    "title": "Marcas que construimos de la mano de nuestros clientes",
+    "description": "Una muestra de proyectos de identidad, empaque y campaña desarrollados en los últimos dos años para clientes en México y Centroamérica.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Sistema de identidad visual para cadena de cafeterías con paleta terracota",
+        "title": "Café Altavista",
+        "category": "Identidad de marca"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Empaque de línea de cuidado personal con tipografía minimalista",
+        "title": "Línea Osera",
+        "category": "Empaque y etiquetado"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Campaña de temporada para tienda departamental exhibida en aparador",
+        "title": "Grupo Palacio Norte",
+        "category": "Campaña de temporada"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Manual de marca abierto mostrando sistema tipográfico y retícula",
+        "title": "Constructora Ébano",
+        "category": "Manual de identidad"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Etiquetas de botellas de vino con ilustración botánica grabada",
+        "title": "Viñedos del Bajío",
+        "category": "Empaque premium"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de restaurante con señalética y menú rediseñados",
+        "title": "Restaurante Comal 21",
+        "category": "Identidad de espacio"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Aplicación móvil bancaria mostrando pantalla de inicio rediseñada",
+        "title": "Banco Sureste",
+        "category": "Diseño de producto digital"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vehículos de flota rotulados con nueva identidad de logística",
+        "title": "Logística Ferro",
+        "category": "Rotulación de flota"
+      }
+    ]
+  }
+}

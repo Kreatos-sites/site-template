@@ -1,0 +1,15 @@
+{
+  "key": "full-width-conversion-banner",
+  "pascalName": "FullWidthConversionBanner",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `full-width-conversion-banner` | full-width-conversion-banner — banda de cierre a ancho completo con dos CTAs · úsalo para captar leads de alta intención al cierre de una página de servicios. | { eyebrow, title, description, primaryCta, primaryHref, secondaryCta, secondaryHref } |",
+  "fixture": {
+    "eyebrow": "Cotización sin costo",
+    "title": "Solicite el diagnóstico estructural de su proyecto esta semana",
+    "description": "Nuestro equipo de ingenieros revisa planos, terreno y presupuesto para entregarle una propuesta técnica en un plazo máximo de tres días hábiles.",
+    "primaryCta": "Solicitar cotización",
+    "primaryHref": "#contacto",
+    "secondaryCta": "Hablar con un asesor",
+    "secondaryHref": "tel:+525512345678"
+  }
+}

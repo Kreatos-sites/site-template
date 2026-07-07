@@ -1,0 +1,17 @@
+{
+  "key": "about-mission-centered-with-metric-underline",
+  "pascalName": "AboutMissionCenteredWithMetricUnderline",
+  "category": "Heroes",
+  "catalogRow": "| `about-mission-centered-with-metric-underline` | about-mission-centered-with-metric-underline — misión centrada con franja de métricas · úsalo para presentar el origen de la empresa con cifras clave. | { eyebrow, title, description, metrics: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Construimos infraestructura logística que no falla",
+    "description": "Desde Monterrey coordinamos flotas propias y aliados certificados para que sus embarques lleguen a tiempo, con trazabilidad completa y sin sorpresas en la factura.",
+    "metrics": [
+      { "value": "2011", "label": "Año de fundación" },
+      { "value": "480+", "label": "Clientes activos" },
+      { "value": "14", "label": "Países con cobertura" },
+      { "value": "220", "label": "Colaboradores en operación" }
+    ]
+  }
+}

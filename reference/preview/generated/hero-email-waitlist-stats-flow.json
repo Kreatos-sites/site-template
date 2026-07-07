@@ -1,0 +1,50 @@
+{
+  "key": "hero-email-waitlist-stats-flow",
+  "pascalName": "HeroEmailWaitlistStatsFlow",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `hero-email-waitlist-stats-flow` | hero-email-waitlist-stats-flow — landing de preventa con captura de correo, cifras, features, pasos y testimonio · úsalo para lanzar un producto en acceso anticipado. | { eyebrow, title, description, formAction, inputLabel, inputPlaceholder, cta, legal, statsEyebrow, stats: [{ value, label }], featuresEyebrow, featuresTitle, features: [{ icon, title, description }], processEyebrow, processTitle, steps: [{ icon, title, description }], testimonial: { quote, author, role }, waitlistEyebrow, waitlistTitle, waitlistDescription, waitlistFormAction, waitlistInputLabel, waitlistInputPlaceholder, waitlistCta, waitlistLegal } |",
+  "fixture": {
+    "eyebrow": "Acceso anticipado",
+    "title": "Facturación electrónica sin fricción para su despacho contable",
+    "description": "Timbre, concilie y entregue reportes fiscales a sus clientes desde un solo panel. Estamos abriendo acceso anticipado a un grupo limitado de despachos antes del lanzamiento general.",
+    "formAction": "#registro",
+    "inputLabel": "Correo electrónico",
+    "inputPlaceholder": "su.correo@despacho.com",
+    "cta": "Solicitar acceso",
+    "legal": "Sin costo durante el periodo de acceso anticipado. Puede darse de baja cuando lo desee.",
+    "statsEyebrow": "En cifras",
+    "stats": [
+      { "value": "180+", "label": "Despachos en lista de espera" },
+      { "value": "94%", "label": "Reducción de tiempo de conciliación" },
+      { "value": "3 min", "label": "Para timbrar un CFDI completo" }
+    ],
+    "featuresEyebrow": "Qué incluye",
+    "featuresTitle": "Todo lo que un despacho necesita para facturar sin errores",
+    "features": [
+      { "icon": "file", "title": "Timbrado masivo", "description": "Genere y timbre cientos de CFDI en un solo lote, con validación automática antes de enviarlos al SAT." },
+      { "icon": "chart", "title": "Reportes por cliente", "description": "Entregue a cada cliente su reporte fiscal mensual en un formato claro, listo para revisión y firma." },
+      { "icon": "shield", "title": "Respaldo y trazabilidad", "description": "Cada comprobante queda respaldado con historial de cambios, útil ante cualquier revisión o aclaración." }
+    ],
+    "processEyebrow": "Cómo funciona",
+    "processTitle": "De la solicitud al primer timbrado en cuatro pasos",
+    "steps": [
+      { "icon": "send", "title": "Solicite su acceso", "description": "Deje su correo y le confirmamos su lugar en el grupo de acceso anticipado en menos de 24 horas." },
+      { "icon": "calendar", "title": "Agendamos su alta", "description": "Coordinamos una sesión breve para configurar sus certificados y los datos fiscales de su despacho." },
+      { "icon": "time", "title": "Migración de clientes", "description": "Importamos el catálogo de sus clientes actuales sin que usted tenga que capturar nada de nuevo." },
+      { "icon": "chart", "title": "Primer cierre mensual", "description": "Acompañamos su primer cierre de mes para asegurar que los reportes salgan correctos desde el inicio." }
+    ],
+    "testimonial": {
+      "quote": "Redujimos el cierre mensual de tres días a una tarde. El equipo de soporte estuvo presente en cada paso de la migración.",
+      "author": "Rosa Elena Duarte",
+      "role": "Socia directora, Duarte y Asociados Contadores"
+    },
+    "waitlistEyebrow": "Últimos lugares",
+    "waitlistTitle": "Quedan pocos lugares para este grupo de acceso anticipado",
+    "waitlistDescription": "Cerramos el registro en cuanto se cubra el cupo del mes. Déjenos su correo y le avisamos antes de que eso suceda.",
+    "waitlistFormAction": "#registro-final",
+    "waitlistInputLabel": "Correo electrónico",
+    "waitlistInputPlaceholder": "su.correo@despacho.com",
+    "waitlistCta": "Unirme a la lista",
+    "waitlistLegal": "Al registrarse acepta nuestro aviso de privacidad. No compartimos su información con terceros."
+  }
+}

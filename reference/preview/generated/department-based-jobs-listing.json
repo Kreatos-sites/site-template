@@ -1,0 +1,71 @@
+{
+  "key": "department-based-jobs-listing",
+  "pascalName": "DepartmentBasedJobsListing",
+  "category": "Features y servicios",
+  "catalogRow": "| `department-based-jobs-listing` | department-based-jobs-listing — bolsa de trabajo agrupada por departamento · úsalo en la página de carreras para listar vacantes por área con CTA de postulación. | { eyebrow, title, description, departments: [{ name, jobs: [{ title, location, type, href }] }], apply } |",
+  "fixture": {
+    "eyebrow": "Trabaja con nosotros",
+    "title": "Vacantes abiertas",
+    "description": "Consulte las posiciones disponibles en cada área de la constructora y postule directamente desde esta página.",
+    "apply": "Postular",
+    "departments": [
+      {
+        "name": "Obra y construcción",
+        "jobs": [
+          {
+            "title": "Residente de obra",
+            "location": "Monterrey, Nuevo León",
+            "type": "Tiempo completo",
+            "href": "/contacto"
+          },
+          {
+            "title": "Maestro de obra",
+            "location": "Guadalajara, Jalisco",
+            "type": "Tiempo completo",
+            "href": "/contacto"
+          },
+          {
+            "title": "Auxiliar de seguridad e higiene",
+            "location": "Monterrey, Nuevo León",
+            "type": "Medio tiempo",
+            "href": "/contacto"
+          }
+        ]
+      },
+      {
+        "name": "Proyectos y diseño",
+        "jobs": [
+          {
+            "title": "Arquitecto de proyecto",
+            "location": "Ciudad de México",
+            "type": "Tiempo completo",
+            "href": "/contacto"
+          },
+          {
+            "title": "Ingeniero estructural",
+            "location": "Ciudad de México",
+            "type": "Tiempo completo",
+            "href": "/contacto"
+          }
+        ]
+      },
+      {
+        "name": "Administración",
+        "jobs": [
+          {
+            "title": "Analista de costos",
+            "location": "Monterrey, Nuevo León",
+            "type": "Tiempo completo",
+            "href": "/contacto"
+          },
+          {
+            "title": "Coordinador de compras",
+            "location": "Remoto",
+            "type": "Tiempo completo",
+            "href": "/contacto"
+          }
+        ]
+      }
+    ]
+  }
+}

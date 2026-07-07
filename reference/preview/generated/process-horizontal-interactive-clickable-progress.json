@@ -1,0 +1,33 @@
+{
+  "key": "process-horizontal-interactive-clickable-progress",
+  "pascalName": "ProcessHorizontalInteractiveClickableProgress",
+  "category": "Proceso",
+  "catalogRow": "| `process-horizontal-interactive-clickable-progress` | process-horizontal-interactive-clickable-progress — stepper horizontal clickeable con barra de progreso · úsalo para procesos de 4 pasos secuenciales. | { eyebrow, title, groupLabel, steps: [{ icon, title, description }] (4) } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la solicitud a la entrega, sin sorpresas en el camino",
+    "groupLabel": "Etapas del proceso de despacho logístico",
+    "steps": [
+      {
+        "icon": "request",
+        "title": "Solicitud de embarque",
+        "description": "Nos comparte origen, destino y tipo de mercancía. En menos de 24 horas confirmamos la ruta disponible y los documentos que necesitamos de su parte."
+      },
+      {
+        "icon": "quote",
+        "title": "Cotización y aduana",
+        "description": "Calculamos el costo total con fletes, maniobras y trámite aduanal incluidos. Si acepta, gestionamos el pedimento y la clasificación arancelaria."
+      },
+      {
+        "icon": "execution",
+        "title": "Recolección y tránsito",
+        "description": "Nuestra flota o el naviero aliado recoge la carga. Usted da seguimiento a cada tramo desde el portal con horarios de cruce en frontera y aduana."
+      },
+      {
+        "icon": "delivery",
+        "title": "Entrega confirmada",
+        "description": "La mercancía llega a su bodega y le enviamos el POD firmado junto con la factura final. Cerramos el expediente con evidencia fotográfica."
+      }
+    ]
+  }
+}

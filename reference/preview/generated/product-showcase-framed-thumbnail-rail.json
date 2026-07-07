@@ -1,0 +1,22 @@
+{
+  "key": "product-showcase-framed-thumbnail-rail",
+  "pascalName": "ProductShowcaseFramedThumbnailRail",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `product-showcase-framed-thumbnail-rail` | product-showcase-framed-thumbnail-rail — imagen principal enmarcada con insignia y franja de miniaturas · úsalo para mostrar acabados o variantes de un mismo producto. | { eyebrow, title, description, badge, caption, mainImage, mainImageAlt, thumbnails: [{ image, imageAlt, label }] } |",
+  "fixture": {
+    "eyebrow": "Catálogo de producto",
+    "title": "Un mismo modelo, cinco acabados listos para cotizar",
+    "description": "La línea Monterrey de Herrajes del Norte se fabrica bajo pedido en lote mínimo de cien piezas. Cada acabado comparte la misma tolería y el mismo costo de producción.",
+    "badge": "Modelo vigente 2026",
+    "caption": "Herraje de puerta corrediza Monterrey, acabado satinado, longitud de riel de 1.80 m.",
+    "mainImage": "/images/hero.svg",
+    "mainImageAlt": "Herraje de puerta corrediza modelo Monterrey instalado sobre panel de madera",
+    "thumbnails": [
+      { "image": "/images/about.svg", "imageAlt": "Acabado satinado del herraje Monterrey", "label": "Satinado" },
+      { "image": "/images/about.svg", "imageAlt": "Acabado negro mate del herraje Monterrey", "label": "Negro mate" },
+      { "image": "/images/about.svg", "imageAlt": "Acabado bronce cepillado del herraje Monterrey", "label": "Bronce cepillado" },
+      { "image": "/images/about.svg", "imageAlt": "Acabado cromo del herraje Monterrey", "label": "Cromo" },
+      { "image": "/images/about.svg", "imageAlt": "Acabado óxido del herraje Monterrey", "label": "Óxido" }
+    ]
+  }
+}

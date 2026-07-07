@@ -1,0 +1,47 @@
+{
+  "key": "gallery-hover-reveal-portfolio",
+  "pascalName": "GalleryHoverRevealPortfolio",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-hover-reveal-portfolio` | gallery-hover-reveal-portfolio — grid de proyectos con overlay que revela categoría, título y descripción · úsalo para portafolios de arquitectura o constructoras. | { eyebrow, title, projects: [{ image, imageAlt, title, category, description }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que hablan por sí solos",
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de corporativo Torre Alameda con revestimiento de concreto y vidrio",
+        "title": "Torre Alameda",
+        "category": "Uso mixto · CDMX",
+        "description": "Desarrollo de 18 niveles con oficinas corporativas y locales comerciales en planta baja, entregado en 14 meses."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Nave industrial del centro de distribución Bajío Norte",
+        "title": "Centro de Distribución Bajío Norte",
+        "category": "Industrial · Querétaro",
+        "description": "Nave de 22,000 m² con andenes de carga y patio de maniobras diseñado para operación logística 24/7."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Interior de oficinas corporativas Vega & Asociados",
+        "title": "Oficinas Vega & Asociados",
+        "category": "Corporativo · Monterrey",
+        "description": "Remodelación integral de dos plantas con salas de juntas insonorizadas y área de recepción."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Conjunto residencial Los Encinos con áreas verdes",
+        "title": "Residencial Los Encinos",
+        "category": "Vivienda · Puebla",
+        "description": "84 unidades habitacionales con áreas comunes y estacionamiento subterráneo entregadas en tres etapas."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Sucursal bancaria Fintra en plaza comercial",
+        "title": "Sucursal Fintra Reforma",
+        "category": "Retail bancario · CDMX",
+        "description": "Diseño de sucursal modelo replicado en 12 puntos, con mobiliario a la medida y señalética de marca."
+      }
+    ]
+  }
+}

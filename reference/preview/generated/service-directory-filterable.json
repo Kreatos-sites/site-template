@@ -1,0 +1,76 @@
+{
+  "key": "service-directory-filterable",
+  "pascalName": "ServiceDirectoryFilterable",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `service-directory-filterable` | service-directory-filterable — directorio de servicios filtrable por categoría (pills CSS) · úsalo para que un despacho muestre su catálogo de servicios explorable por área. | { eyebrow, title, description, filterAllLabel, filterGroupLabel, categories: string[], services: [{ icon, title, description, category }] } |",
+  "fixture": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Un directorio completo de servicios profesionales para su empresa",
+    "description": "Filtre por área para encontrar la línea de servicio que necesita su empresa. Cada equipo trabaja bajo el mismo estándar de entrega y reporte.",
+    "filterAllLabel": "Todos",
+    "filterGroupLabel": "Filtrar servicios por categoría",
+    "categories": [
+      "Contabilidad y fiscal",
+      "Legal corporativo",
+      "Recursos humanos",
+      "Tecnología",
+      "Comercio exterior"
+    ],
+    "services": [
+      {
+        "icon": "calculator",
+        "title": "Contabilidad mensual",
+        "description": "Registro contable, conciliaciones bancarias y estados financieros entregados dentro de los primeros diez días de cada mes.",
+        "category": "Contabilidad y fiscal"
+      },
+      {
+        "icon": "calculator",
+        "title": "Declaraciones fiscales",
+        "description": "Cálculo y presentación de pagos provisionales, declaración anual y cumplimiento ante el SAT sin recargos ni requerimientos.",
+        "category": "Contabilidad y fiscal"
+      },
+      {
+        "icon": "scales",
+        "title": "Constitución de sociedades",
+        "description": "Trámite completo ante notario para constituir su empresa, con acta constitutiva y alta ante el RFC en un solo proceso.",
+        "category": "Legal corporativo"
+      },
+      {
+        "icon": "scales",
+        "title": "Contratos mercantiles",
+        "description": "Redacción y revisión de contratos con proveedores, clientes y distribuidores, alineados a la operación real de su negocio.",
+        "category": "Legal corporativo"
+      },
+      {
+        "icon": "team",
+        "title": "Nómina y prestaciones",
+        "description": "Cálculo de nómina quincenal, dispersión de pagos y administración de prestaciones conforme a la Ley Federal del Trabajo.",
+        "category": "Recursos humanos"
+      },
+      {
+        "icon": "team",
+        "title": "Reclutamiento especializado",
+        "description": "Búsqueda y evaluación de perfiles para puestos administrativos, operativos y gerenciales con reporte de candidatos en dos semanas.",
+        "category": "Recursos humanos"
+      },
+      {
+        "icon": "laptop",
+        "title": "Facturación electrónica",
+        "description": "Implementación y soporte de su sistema de facturación timbrada, integrado con su contabilidad y punto de venta.",
+        "category": "Tecnología"
+      },
+      {
+        "icon": "shield",
+        "title": "Auditoría de cumplimiento",
+        "description": "Revisión anual de obligaciones fiscales y laborales para identificar riesgos antes de que se conviertan en observaciones de autoridad.",
+        "category": "Legal corporativo"
+      },
+      {
+        "icon": "globe",
+        "title": "Comercio exterior",
+        "description": "Asesoría en clasificación arancelaria, padrón de importadores y trámites ante aduana para operaciones de importación y exportación.",
+        "category": "Comercio exterior"
+      }
+    ]
+  }
+}

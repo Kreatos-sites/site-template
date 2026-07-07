@@ -1,0 +1,36 @@
+{
+  "key": "clinic-metrics-animated-band",
+  "pascalName": "ClinicMetricsAnimatedBand",
+  "category": "Salud y servicios pro",
+  "catalogRow": "| `clinic-metrics-animated-band` | clinic-metrics-animated-band — banda de 4 métricas con cifra grande y delta por tarjeta; úsalo para mostrar resultados cuantitativos de una clínica u organización de salud. | { eyebrow, title, metrics: [{ icon, value, label, delta }] } |",
+  "fixture": {
+    "eyebrow": "Resultados clínicos",
+    "title": "Cifras que respaldan la atención que ofrecemos a nuestros pacientes",
+    "metrics": [
+      {
+        "icon": "pulse",
+        "value": "12,400+",
+        "label": "Pacientes atendidos este año",
+        "delta": "+18% vs. 2025"
+      },
+      {
+        "icon": "thumb",
+        "value": "97%",
+        "label": "Satisfacción reportada tras la consulta",
+        "delta": "+4 pts vs. 2025"
+      },
+      {
+        "icon": "time",
+        "value": "11 min",
+        "label": "Tiempo de espera promedio en sala",
+        "delta": "6 min menos que en 2025"
+      },
+      {
+        "icon": "team",
+        "value": "34",
+        "label": "Especialistas certificados en plantilla",
+        "delta": "+9 incorporaciones"
+      }
+    ]
+  }
+}

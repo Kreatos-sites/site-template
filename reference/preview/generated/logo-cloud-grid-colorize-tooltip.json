@@ -1,0 +1,22 @@
+{
+  "key": "logo-cloud-grid-colorize-tooltip",
+  "pascalName": "LogoCloudGridColorizeTooltip",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-grid-colorize-tooltip` | logo-cloud-grid-colorize-tooltip — cuadrícula fija de ícono monocromático con tooltip de nombre al pasar el cursor · úsalo para marcas, alianzas o líneas distribuidas. | { eyebrow, title, logos: [{ name, icon }] } |",
+  "fixture": {
+    "eyebrow": "Marcas que representamos",
+    "title": "Distribuimos las líneas industriales en las que usted puede confiar",
+    "logos": [
+      { "name": "Acería del Norte", "icon": "factory" },
+      { "name": "Grupo Anclaje Industrial", "icon": "anchor" },
+      { "name": "Compresores Atlas MX", "icon": "cog" },
+      { "name": "Minerales Sierra Gorda", "icon": "mountain" },
+      { "name": "Logística Peninsular", "icon": "truck" },
+      { "name": "Empaques y Cajas del Bajío", "icon": "boxes" },
+      { "name": "Constructora Vitrio", "icon": "building" },
+      { "name": "Recubrimientos Estrato", "icon": "layers" },
+      { "name": "Certificaciones ISO Continental", "icon": "shield" },
+      { "name": "Rutas Precisión Náutica", "icon": "compass" }
+    ]
+  }
+}

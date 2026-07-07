@@ -1,0 +1,63 @@
+{
+  "key": "pricing-three-toggle-billing-cycle",
+  "pascalName": "PricingThreeToggleBillingCycle",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-three-toggle-billing-cycle` | pricing-three-toggle-billing-cycle — tabla de tres planes de precios con toggle CSS de ciclo mensual/anual · úsalo para páginas de precios con conmutador de facturación. | { eyebrow, title, description, toggle: { monthly, annual, annualNote, periodMonthly, periodAnnual }, featuredLabel, tiers: [{ name, description, priceMonthly, priceAnnual, cta, featured?, features: [] }] } |",
+  "fixture": {
+    "eyebrow": "Planes y precios",
+    "title": "Un plan para cada etapa de su despacho",
+    "description": "Elija el plan que se ajuste al tamaño de su cartera de casos. Cambie de ciclo de facturación cuando lo requiera, sin penalizaciones.",
+    "toggle": {
+      "monthly": "Mensual",
+      "annual": "Anual",
+      "annualNote": "Con facturación anual, ahorra el equivalente a dos meses.",
+      "periodMonthly": "/mes",
+      "periodAnnual": "/mes, facturado anual"
+    },
+    "featuredLabel": "Más popular",
+    "tiers": [
+      {
+        "name": "Básico",
+        "description": "Para despachos unipersonales que inician su gestión digital de casos.",
+        "priceMonthly": "$1,490",
+        "priceAnnual": "$1,240",
+        "cta": "Empezar con Básico",
+        "features": [
+          "Hasta 25 expedientes activos",
+          "1 usuario con acceso al portal",
+          "Plantillas de escritos básicas",
+          "Soporte por correo en horario hábil"
+        ]
+      },
+      {
+        "name": "Profesional",
+        "description": "Para despachos en crecimiento con varios abogados y áreas de práctica.",
+        "priceMonthly": "$3,290",
+        "priceAnnual": "$2,740",
+        "cta": "Empezar con Profesional",
+        "featured": true,
+        "features": [
+          "Hasta 150 expedientes activos",
+          "Hasta 8 usuarios con roles y permisos",
+          "Automatización de plazos procesales",
+          "Integración con calendario y notificaciones",
+          "Soporte prioritario por WhatsApp"
+        ]
+      },
+      {
+        "name": "Corporativo",
+        "description": "Para firmas con múltiples oficinas y necesidades de cumplimiento.",
+        "priceMonthly": "$6,890",
+        "priceAnnual": "$5,740",
+        "cta": "Hablar con ventas",
+        "features": [
+          "Expedientes ilimitados",
+          "Usuarios ilimitados y control de accesos por sede",
+          "Auditoría y bitácora de cumplimiento",
+          "Gerente de cuenta dedicado",
+          "SLA de soporte en menos de 2 horas"
+        ]
+      }
+    ]
+  }
+}

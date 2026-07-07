@@ -1,0 +1,28 @@
+{
+  "key": "hero-parallax-editorial-split",
+  "pascalName": "HeroParallaxEditorialSplit",
+  "category": "Heroes",
+  "catalogRow": "| `hero-parallax-editorial-split` | hero-parallax-editorial-split — hero dividido con badge, titular, CTAs, estadísticas y foto con nota flotante · úsalo para abrir la home de un despacho o constructora con cifras. | { badge, eyebrow, title, subtitle, primaryCta: { label, href }, secondaryCta: { label, href }, stats: [{ value, label }], image, imageAlt, floatingNote } |",
+  "fixture": {
+    "badge": "Despacho fundado en 2011",
+    "eyebrow": "Arquitectura corporativa",
+    "title": "Proyectos que resisten el uso, el tiempo y el escrutinio del cliente",
+    "subtitle": "Diseñamos y supervisamos obra para desarrolladores e inversionistas que necesitan certeza de plazo y calidad ejecutiva, no promesas de renderizado.",
+    "primaryCta": {
+      "label": "Agendar una llamada",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver proyectos entregados",
+      "href": "#proyectos"
+    },
+    "stats": [
+      { "value": "58", "label": "Proyectos entregados" },
+      { "value": "13", "label": "Años de operación" },
+      { "value": "0", "label": "Retrasos de obra en 2025" }
+    ],
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada de un corporativo diseñado por el despacho",
+    "floatingNote": "Supervisión de obra directa, sin subcontratar la dirección técnica."
+  }
+}

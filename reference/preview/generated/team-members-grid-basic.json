@@ -1,0 +1,52 @@
+{
+  "key": "team-members-grid-basic",
+  "pascalName": "TeamMembersGridBasic",
+  "category": "Equipo",
+  "catalogRow": "| `team-members-grid-basic` | team-members-grid-basic — grilla básica de tarjetas de equipo con avatar, nombre, rol y redes · úsalo para presentar al equipo directivo en \"quiénes somos\". | { eyebrow, title, members: [{ name, role, image, imageAlt, socials: [{ icon, href, label }] }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Las personas detrás del despacho",
+    "members": [
+      {
+        "name": "Mariana Solís Reyes",
+        "role": "Socia Directora",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mariana Solís Reyes, Socia Directora",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/mariana-solis", "label": "Perfil de LinkedIn de Mariana Solís" },
+          { "icon": "email", "href": "mailto:mariana.solis@despacho.mx", "label": "Enviar correo a Mariana Solís" }
+        ]
+      },
+      {
+        "name": "Rodrigo Cantú Elizondo",
+        "role": "Socio de Litigio Corporativo",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Rodrigo Cantú Elizondo, Socio de Litigio Corporativo",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/rodrigo-cantu", "label": "Perfil de LinkedIn de Rodrigo Cantú" },
+          { "icon": "website", "href": "https://despacho.mx/equipo/rodrigo-cantu", "label": "Ver semblanza de Rodrigo Cantú" }
+        ]
+      },
+      {
+        "name": "Fernanda Ibarra Cortés",
+        "role": "Consultora Fiscal Senior",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernanda Ibarra Cortés, Consultora Fiscal Senior",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/fernanda-ibarra", "label": "Perfil de LinkedIn de Fernanda Ibarra" },
+          { "icon": "email", "href": "mailto:fernanda.ibarra@despacho.mx", "label": "Enviar correo a Fernanda Ibarra" }
+        ]
+      },
+      {
+        "name": "Diego Armenta Villalobos",
+        "role": "Asociado de Derecho Laboral",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diego Armenta Villalobos, Asociado de Derecho Laboral",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/diego-armenta", "label": "Perfil de LinkedIn de Diego Armenta" },
+          { "icon": "twitter", "href": "https://twitter.com/diegoarmenta", "label": "Perfil de Twitter de Diego Armenta" }
+        ]
+      }
+    ]
+  }
+}

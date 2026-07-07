@@ -1,0 +1,56 @@
+{
+  "key": "culinary-staff-showcase",
+  "pascalName": "CulinaryStaffShowcase",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `culinary-staff-showcase` | culinary-staff-showcase — grid de retratos del equipo de cocina con rol, especialidad y enlaces sociales · úsalo para presentar al equipo y humanizar el restaurante. | { eyebrow, title, description, staff: [{ name, role, specialty, image, imageAlt, socials: [{ type, href, label }] }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Las manos detrás de cada platillo",
+    "description": "Un equipo de cocina formado en distintas tradiciones culinarias, unido por el mismo cuidado en cada detalle del menú.",
+    "staff": [
+      {
+        "name": "Rodrigo Salinas",
+        "role": "Chef ejecutivo",
+        "specialty": "Especializado en cocina de temporada con ingredientes del norte del país.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Retrato del chef ejecutivo Rodrigo Salinas en la cocina",
+        "socials": [
+          { "type": "instagram", "href": "https://instagram.com/rodrigosalinas.chef", "label": "Instagram de Rodrigo Salinas" },
+          { "type": "linkedin", "href": "https://linkedin.com/in/rodrigosalinas", "label": "LinkedIn de Rodrigo Salinas" }
+        ]
+      },
+      {
+        "name": "Ana Belén Torres",
+        "role": "Chef pastelera",
+        "specialty": "A cargo de postres y panadería, con formación en repostería francesa.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de la chef pastelera Ana Belén Torres",
+        "socials": [
+          { "type": "instagram", "href": "https://instagram.com/anabelen.pasteleria", "label": "Instagram de Ana Belén Torres" },
+          { "type": "email", "href": "mailto:ana.torres@restaurante.mx", "label": "Enviar correo a Ana Belén Torres" }
+        ]
+      },
+      {
+        "name": "Manuel Ibarra",
+        "role": "Sous chef",
+        "specialty": "Responsable de la línea de cocina caliente y del control de calidad diario.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Retrato del sous chef Manuel Ibarra",
+        "socials": [
+          { "type": "linkedin", "href": "https://linkedin.com/in/manuelibarra", "label": "LinkedIn de Manuel Ibarra" }
+        ]
+      },
+      {
+        "name": "Karla Domínguez",
+        "role": "Encargada de cava y maridajes",
+        "specialty": "Selecciona la carta de vinos y diseña los maridajes de cada temporada.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Karla Domínguez, encargada de cava y maridajes",
+        "socials": [
+          { "type": "instagram", "href": "https://instagram.com/karla.maridajes", "label": "Instagram de Karla Domínguez" },
+          { "type": "email", "href": "mailto:karla.dominguez@restaurante.mx", "label": "Enviar correo a Karla Domínguez" }
+        ]
+      }
+    ]
+  }
+}

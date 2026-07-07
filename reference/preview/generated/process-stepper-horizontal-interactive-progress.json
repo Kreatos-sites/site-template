@@ -1,0 +1,32 @@
+{
+  "key": "process-stepper-horizontal-interactive-progress",
+  "pascalName": "ProcessStepperHorizontalInteractiveProgress",
+  "category": "Proceso",
+  "catalogRow": "| `process-stepper-horizontal-interactive-progress` | process-stepper-horizontal-interactive-progress — stepper horizontal de 4 pasos con progreso por clic, sin JS de cliente · úsalo para explicar tu proceso o metodología de trabajo. | { eyebrow, title, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro proceso",
+    "title": "Así trabajamos con usted, paso a paso",
+    "steps": [
+      {
+        "icon": "search",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su situación fiscal y contable actual para identificar riesgos y oportunidades concretas antes de proponer cualquier cambio."
+      },
+      {
+        "icon": "file",
+        "title": "Propuesta a la medida",
+        "description": "Le presentamos un plan de trabajo con alcance, tiempos y honorarios claros, ajustado al tamaño y giro de su empresa."
+      },
+      {
+        "icon": "handshake",
+        "title": "Implementación",
+        "description": "Nuestro equipo ejecuta el plan acordado y mantiene comunicación constante con usted en cada etapa del proceso."
+      },
+      {
+        "icon": "rocket",
+        "title": "Seguimiento continuo",
+        "description": "Damos seguimiento mensual a sus indicadores y ajustamos la estrategia conforme cambian las necesidades de su empresa."
+      }
+    ]
+  }
+}

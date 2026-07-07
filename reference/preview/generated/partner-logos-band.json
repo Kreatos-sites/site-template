@@ -1,0 +1,52 @@
+{
+  "key": "partner-logos-band",
+  "pascalName": "PartnerLogosBand",
+  "category": "Aliados y logos",
+  "catalogRow": "| `partner-logos-band` | partner-logos-band — banda de logos de aliados/clientes en escala de grises que ganan color al pasar el cursor · úsalo para respaldo institucional tras el hero. | { eyebrow, title, partners: [{ name, logo, logoAlt }] } |",
+  "fixture": {
+    "eyebrow": "Respaldo institucional",
+    "title": "Despachos y proveedores con los que colaboramos",
+    "partners": [
+      {
+        "name": "Grupo Ferretero del Bajío",
+        "logo": "/images/about.svg",
+        "logoAlt": "Logotipo de Grupo Ferretero del Bajío"
+      },
+      {
+        "name": "Constructora Peninsular",
+        "logo": "/images/about.svg",
+        "logoAlt": "Logotipo de Constructora Peninsular"
+      },
+      {
+        "name": "Logística del Norte",
+        "logo": "/images/about.svg",
+        "logoAlt": "Logotipo de Logística del Norte"
+      },
+      {
+        "name": "Distribuidora Aceros MX",
+        "logo": "/images/about.svg",
+        "logoAlt": "Logotipo de Distribuidora Aceros MX"
+      },
+      {
+        "name": "Despacho Contable Iturbide",
+        "logo": "/images/about.svg",
+        "logoAlt": "Logotipo de Despacho Contable Iturbide"
+      },
+      {
+        "name": "Inmobiliaria Altavista",
+        "logo": "/images/about.svg",
+        "logoAlt": "Logotipo de Inmobiliaria Altavista"
+      },
+      {
+        "name": "Estudio Creativo Márgenes",
+        "logo": "/images/about.svg",
+        "logoAlt": "Logotipo de Estudio Creativo Márgenes"
+      },
+      {
+        "name": "Grupo Aduanal Portuario",
+        "logo": "/images/about.svg",
+        "logoAlt": "Logotipo de Grupo Aduanal Portuario"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "key": "article-documentation-with-pagination",
+  "pascalName": "ArticleDocumentationWithPagination",
+  "category": "Blog y noticias",
+  "catalogRow": "| `article-documentation-with-pagination` | article-documentation-with-pagination — artículo de documentación con breadcrumb, bloques de código y paginación · úsalo para guías de integración o referencias de API. | { breadcrumbNav, breadcrumbs: [{ label }], eyebrow, title, lastUpdated, readingTime, body: [{ type: paragraph/code, text, language, code }], previous: { label, title }, next: { label, title } } |",
+  "fixture": {
+    "breadcrumbNav": "Ruta de navegación",
+    "breadcrumbs": [
+      { "label": "Documentación" },
+      { "label": "Integraciones" },
+      { "label": "Webhook de facturación" }
+    ],
+    "eyebrow": "Guía técnica",
+    "title": "Configuración del webhook de facturación",
+    "lastUpdated": "Actualizado el 3 de julio de 2026",
+    "readingTime": "6 min de lectura",
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "El webhook de facturación notifica a su sistema cada vez que se emite, se paga o se cancela una factura dentro de la plataforma. Esta guía describe cómo registrar el endpoint, validar la firma de cada evento y responder correctamente para evitar reintentos innecesarios."
+      },
+      {
+        "type": "paragraph",
+        "text": "Antes de continuar, confirme que su endpoint acepta solicitudes POST sobre HTTPS y que puede procesar el cuerpo en formato JSON. Los eventos se entregan en el orden en que ocurren, pero su servicio debe tolerar entregas duplicadas."
+      },
+      {
+        "type": "code",
+        "language": "bash",
+        "code": "curl -X POST https://api.suempresa.mx/v1/webhooks \\\n  -H \"Authorization: Bearer sk_live_...\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"url\": \"https://miapp.mx/webhooks/facturacion\", \"eventos\": [\"invoice.paid\"]}'"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cada solicitud entrante incluye el encabezado X-Signature. Calcule el HMAC-SHA256 del cuerpo crudo con su clave secreta y compárelo antes de procesar el evento. Si la firma no coincide, responda con un código 401 y descarte la solicitud."
+      },
+      {
+        "type": "code",
+        "language": "typescript",
+        "code": "const isValid = verifyHmacSignature({\n  payload: rawBody,\n  signature: request.headers.get(\"x-signature\"),\n  secret: process.env.WEBHOOK_SECRET,\n});\n\nif (!isValid) {\n  return new Response(\"Firma inválida\", { status: 401 });\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Responda con un código 200 en cuanto reciba y valide el evento; realice el procesamiento pesado de forma asíncrona. Si su endpoint no responde dentro de diez segundos, la plataforma reintentará la entrega con retroceso exponencial durante veinticuatro horas."
+      }
+    ],
+    "previous": {
+      "label": "Anterior",
+      "title": "Autenticación con llaves de API"
+    },
+    "next": {
+      "label": "Siguiente",
+      "title": "Manejo de reintentos y eventos duplicados"
+    }
+  }
+}

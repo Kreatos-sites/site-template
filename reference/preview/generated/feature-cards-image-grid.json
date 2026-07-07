@@ -1,0 +1,50 @@
+{
+  "key": "feature-cards-image-grid",
+  "pascalName": "FeatureCardsImageGrid",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-cards-image-grid` | feature-cards-image-grid — grid de tarjetas con imagen, título y descripción por capacidad · úsalo para mostrar líneas de servicio o áreas con enlace a más detalle. | { eyebrow, title, linkLabel, linkHref, features: [{ image, imageAlt, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Líneas de servicio",
+    "title": "Capacidades que cubrimos de principio a fin",
+    "linkLabel": "Ver todos los servicios",
+    "linkHref": "/servicios",
+    "features": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cuadrilla revisando planos estructurales en obra",
+        "title": "Obra civil e industrial",
+        "description": "Ejecutamos cimentaciones, estructura y acabados con supervisión propia en cada etapa, desde el trazo hasta la entrega."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Ingeniero midiendo avance en fachada de edificio",
+        "title": "Gerencia de proyecto",
+        "description": "Coordinamos contratistas, permisos y calendario de obra para que el cliente reciba avances claros cada semana."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Técnico instalando ductos de aire acondicionado",
+        "title": "Instalaciones especiales",
+        "description": "Diseñamos e instalamos redes eléctricas, hidrosanitarias y de climatización conforme a norma vigente."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Arquitecto presentando maqueta a cliente",
+        "title": "Diseño y preconstrucción",
+        "description": "Elaboramos anteproyecto, presupuesto y programa de obra antes de firmar contrato, sin sorpresas de costo."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Trabajador con casco revisando bitácora de seguridad",
+        "title": "Seguridad y control de calidad",
+        "description": "Aplicamos protocolos de seguridad y bitácoras de calidad en cada frente de trabajo, con auditorías periódicas."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de mantenimiento revisando instalaciones terminadas",
+        "title": "Mantenimiento post-entrega",
+        "description": "Damos seguimiento a garantías y mantenimiento preventivo una vez entregada la obra al cliente."
+      }
+    ]
+  }
+}

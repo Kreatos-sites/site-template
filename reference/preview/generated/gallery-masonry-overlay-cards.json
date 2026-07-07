@@ -1,0 +1,54 @@
+{
+  "key": "gallery-masonry-overlay-cards",
+  "pascalName": "GalleryMasonryOverlayCards",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-masonry-overlay-cards` | gallery-masonry-overlay-cards — masonry de tarjetas con imagen de fondo y copy sobrepuesto en degradado · úsalo para portafolio de proyectos o catálogo de casos con foto fuerte. | { eyebrow, title, cards: [{ image, imageAlt, tag, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos entregados en los últimos cinco años",
+    "cards": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada terminada de nave industrial con estructura metálica",
+        "tag": "Obra industrial",
+        "title": "Nave industrial Parque Logístico Norte",
+        "description": "4,200 m² de nave con andenes de carga y oficinas administrativas, entregada en once meses."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de oficinas corporativas recién remodeladas",
+        "tag": "Remodelación",
+        "title": "Oficinas corporativas Torre Insurgentes",
+        "description": "Remodelación integral de tres niveles sin detener la operación del cliente durante la obra."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cimentación y estructura de edificio residencial en construcción",
+        "tag": "Vivienda vertical",
+        "title": "Residencial Altavista, 48 unidades",
+        "description": "Cimentación especial por tipo de suelo y estructura de concreto para ocho niveles."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bodega con racks de almacenamiento instalados",
+        "tag": "Adecuación",
+        "title": "Centro de distribución Grupo Vertex",
+        "description": "Adecuación de piso, racks y sistema contra incendio para operación de almacén automatizado."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de sucursal bancaria con cancelería de aluminio",
+        "tag": "Comercial",
+        "title": "Sucursal bancaria Plaza Central",
+        "description": "Obra civil, instalaciones especiales y cancelería para apertura de sucursal en quince semanas."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Patio de maniobras de planta con pavimento nuevo",
+        "tag": "Infraestructura",
+        "title": "Patio de maniobras Planta Saltillo",
+        "description": "Pavimento de concreto hidráulico y drenaje pluvial para patio de 6,000 m² de maniobras."
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "key": "contact-image-floating-card",
+  "pascalName": "ContactImageFloatingCard",
+  "category": "Contacto",
+  "catalogRow": "| `contact-image-floating-card` | contact-image-floating-card — contacto con imagen y tarjeta flotante de datos superpuesta · úsalo para una sección de contacto con formulario y datos directos junto a una fotografía. | { eyebrow, title, subtitle, image, imageAlt, details: [{ icon, label, value }], fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su siguiente proyecto",
+    "subtitle": "Cuéntenos el alcance de su obra y le respondemos con un diagnóstico inicial en un plazo máximo de dos días hábiles.",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de Constructora Aldana revisando planos en obra",
+    "details": [
+      {
+        "icon": "mail",
+        "label": "Correo",
+        "value": "contacto@constructora-aldana.mx"
+      },
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 33 1428 5590"
+      },
+      {
+        "icon": "map-pin",
+        "label": "Oficina",
+        "value": "Av. Patria 1780, Zapopan, Jalisco"
+      }
+    ],
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nombre completo",
+        "type": "text",
+        "placeholder": "Escriba su nombre"
+      },
+      {
+        "name": "company",
+        "label": "Empresa",
+        "type": "text",
+        "placeholder": "Nombre de su empresa"
+      },
+      {
+        "name": "email",
+        "label": "Correo electrónico",
+        "type": "email",
+        "placeholder": "usted@empresa.mx"
+      },
+      {
+        "name": "message",
+        "label": "Mensaje",
+        "type": "textarea",
+        "placeholder": "Describa el alcance y la ubicación del proyecto"
+      }
+    ],
+    "submitLabel": "Enviar mensaje"
+  }
+}

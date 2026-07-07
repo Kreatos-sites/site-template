@@ -1,0 +1,26 @@
+{
+  "key": "contact-channel-list-split-form",
+  "pascalName": "ContactChannelListSplitForm",
+  "category": "Contacto",
+  "catalogRow": "| `contact-channel-list-split-form` | contact-channel-list-split-form — split de contacto con canales e icono y formulario dinámico · úsalo para páginas de contacto con varios canales. | { eyebrow, title, subtitle, channels: [{ icon, label, value }], fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su caso",
+    "subtitle": "Escríbanos y un abogado del despacho le responderá en un plazo máximo de un día hábil.",
+    "channels": [
+      { "icon": "phone", "label": "Teléfono", "value": "+52 55 4128 3390" },
+      { "icon": "email", "label": "Correo", "value": "contacto@arizpelegal.mx" },
+      { "icon": "whatsapp", "label": "WhatsApp", "value": "+52 55 1023 7745" },
+      { "icon": "address", "label": "Oficina", "value": "Av. Paseo de la Reforma 342, Piso 8, Cuauhtémoc, CDMX" },
+      { "icon": "hours", "label": "Horario", "value": "Lunes a viernes, 9:00 a 19:00 h" }
+    ],
+    "fields": [
+      { "name": "name", "label": "Nombre completo", "type": "text", "placeholder": "Su nombre" },
+      { "name": "company", "label": "Empresa", "type": "text", "placeholder": "Razón social" },
+      { "name": "email", "label": "Correo", "type": "email", "placeholder": "usted@empresa.com" },
+      { "name": "phone", "label": "Teléfono", "type": "tel", "placeholder": "55 0000 0000" },
+      { "name": "message", "label": "Descripción del caso", "type": "textarea", "placeholder": "Cuéntenos brevemente el motivo de su consulta" }
+    ],
+    "submitLabel": "Enviar mensaje"
+  }
+}

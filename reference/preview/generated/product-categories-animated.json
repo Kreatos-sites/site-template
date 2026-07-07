@@ -1,0 +1,54 @@
+{
+  "key": "product-categories-animated",
+  "pascalName": "ProductCategoriesAnimated",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-categories-animated` | product-categories-animated — grid animado de tarjetas por categoría con ícono, imagen y resumen · úsalo para presentar el catálogo de un distribuidor o fabricante. | { eyebrow, title, categories: [{ icon, title, summary, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Catálogo",
+    "title": "Explore nuestras líneas de producto",
+    "categories": [
+      {
+        "icon": "wrench",
+        "title": "Herramienta industrial",
+        "summary": "Equipo neumático, eléctrico y manual para línea de producción, con refacciones disponibles en stock.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Herramienta industrial ordenada en anaqueles de bodega"
+      },
+      {
+        "icon": "shield",
+        "title": "Seguridad industrial",
+        "summary": "Equipo de protección personal certificado: cascos, arneses, calzado y protección respiratoria.",
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de protección personal en exhibidor de bodega"
+      },
+      {
+        "icon": "boxes",
+        "title": "Almacenaje y manejo de materiales",
+        "summary": "Racks, tarimas, contenedores y sistemas de manejo de carga para optimizar espacio en bodega.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Racks de almacenaje con tarimas cargadas en bodega"
+      },
+      {
+        "icon": "truck",
+        "title": "Logística y transporte interno",
+        "summary": "Montacargas, diablos y carretillas para movimiento de carga dentro y fuera de planta.",
+        "image": "/images/about.svg",
+        "imageAlt": "Montacargas en operación dentro de nave industrial"
+      },
+      {
+        "icon": "layers",
+        "title": "Materiales y consumibles",
+        "summary": "Abrasivos, lubricantes, adhesivos y consumibles de reposición frecuente para mantenimiento.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Consumibles industriales organizados por categoría"
+      },
+      {
+        "icon": "package",
+        "title": "Refacciones y componentes",
+        "summary": "Piezas originales y compatibles para maquinaria, con búsqueda por número de parte.",
+        "image": "/images/about.svg",
+        "imageAlt": "Componentes y refacciones industriales en charolas"
+      }
+    ]
+  }
+}

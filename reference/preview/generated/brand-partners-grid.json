@@ -1,0 +1,73 @@
+{
+  "key": "brand-partners-grid",
+  "pascalName": "BrandPartnersGrid",
+  "category": "Aliados y logos",
+  "catalogRow": "| `brand-partners-grid` | brand-partners-grid — grid dual de logos con hover a color, agrupados en dos secciones · úsalo para mostrar marcas distribuidas y certificaciones/asociaciones del sector. | { eyebrow, title, description, groups: [{ label, partners: [{ name, image, imageAlt }] }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas comerciales",
+    "title": "Marcas y certificaciones que respaldan nuestra operación",
+    "description": "Distribuimos marcas con normativa técnica verificable y mantenemos las certificaciones que exige el sector construcción en el norte del país.",
+    "groups": [
+      {
+        "label": "Marcas que distribuimos",
+        "partners": [
+          {
+            "name": "Aceros del Bajío",
+            "image": "/images/about.svg",
+            "imageAlt": "Logotipo de Aceros del Bajío"
+          },
+          {
+            "name": "Materiales Constructivos S.A.",
+            "image": "/images/about.svg",
+            "imageAlt": "Logotipo de Materiales Constructivos S.A."
+          },
+          {
+            "name": "Ferretera Industrial MTY",
+            "image": "/images/about.svg",
+            "imageAlt": "Logotipo de Ferretera Industrial MTY"
+          },
+          {
+            "name": "Insumos Técnicos del Norte",
+            "image": "/images/about.svg",
+            "imageAlt": "Logotipo de Insumos Técnicos del Norte"
+          },
+          {
+            "name": "Suministros Monclova",
+            "image": "/images/about.svg",
+            "imageAlt": "Logotipo de Suministros Monclova"
+          },
+          {
+            "name": "Grupo Aceros y Perfiles",
+            "image": "/images/about.svg",
+            "imageAlt": "Logotipo de Grupo Aceros y Perfiles"
+          }
+        ]
+      },
+      {
+        "label": "Certificaciones y asociaciones",
+        "partners": [
+          {
+            "name": "Cámara Mexicana de la Industria de la Construcción",
+            "image": "/images/about.svg",
+            "imageAlt": "Distintivo de la Cámara Mexicana de la Industria de la Construcción"
+          },
+          {
+            "name": "Instituto Mexicano del Cemento y del Concreto",
+            "image": "/images/about.svg",
+            "imageAlt": "Distintivo del Instituto Mexicano del Cemento y del Concreto"
+          },
+          {
+            "name": "Norma Oficial Mexicana NOM-017",
+            "image": "/images/about.svg",
+            "imageAlt": "Distintivo de cumplimiento de la Norma Oficial Mexicana NOM-017"
+          },
+          {
+            "name": "Asociación Nacional de Distribuidores de Acero",
+            "image": "/images/about.svg",
+            "imageAlt": "Distintivo de la Asociación Nacional de Distribuidores de Acero"
+          }
+        ]
+      }
+    ]
+  }
+}

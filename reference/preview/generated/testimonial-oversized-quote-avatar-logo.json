@@ -1,0 +1,18 @@
+{
+  "key": "testimonial-oversized-quote-avatar-logo",
+  "pascalName": "TestimonialOversizedQuoteAvatarLogo",
+  "category": "Heroes",
+  "catalogRow": "| `testimonial-oversized-quote-avatar-logo` | testimonial-oversized-quote-avatar-logo — testimonio único a gran formato con cita, avatar y logo del cliente · úsalo para prueba social destacada tipo hero. | { eyebrow, testimonial: { quote, name, role, avatar, avatarAlt, logo, logoAlt } } |",
+  "fixture": {
+    "eyebrow": "Confianza de nuestros clientes",
+    "testimonial": {
+      "quote": "Desde que trabajamos con este despacho, redujimos en más de la mitad el tiempo que dedicábamos a temas fiscales. Nos explican cada decisión en términos claros y siempre están disponibles cuando los necesitamos.",
+      "name": "Regina Elizondo Paz",
+      "role": "Directora de Finanzas, Grupo Industrial Altamira",
+      "avatar": "/images/about.svg",
+      "avatarAlt": "Retrato de Regina Elizondo Paz, Directora de Finanzas de Grupo Industrial Altamira",
+      "logo": "/images/hero.svg",
+      "logoAlt": "Logotipo de Grupo Industrial Altamira"
+    }
+  }
+}

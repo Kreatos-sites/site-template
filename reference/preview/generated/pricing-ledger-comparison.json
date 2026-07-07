@@ -1,0 +1,59 @@
+{
+  "key": "pricing-ledger-comparison",
+  "pascalName": "PricingLedgerComparison",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-ledger-comparison` | pricing-ledger-comparison — comparador de precios tipo libro mayor con 3 columnas y plan destacado · úsalo para mostrar niveles de precio con filas de características alineadas. | { eyebrow, title, subtitle, plans: [{ name, price, period, description, features: string[], cta, highlighted, badge? }] } |",
+  "fixture": {
+    "eyebrow": "Planes y honorarios",
+    "title": "Un mismo tablero, tres niveles de acompañamiento",
+    "subtitle": "Cada plan corre sobre el mismo tablero de expedientes. Usted paga únicamente por el nivel de acompañamiento que su despacho necesita.",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$8,900",
+        "period": "/mes",
+        "description": "Para despachos que inician su primer expediente digital con nosotros.",
+        "features": [
+          "1 expediente activo",
+          "Hasta 3 usuarios",
+          "Tablero de seguimiento básico",
+          "Historial de 30 días",
+          "Soporte por correo"
+        ],
+        "cta": "Comenzar plan Esencial",
+        "highlighted": false
+      },
+      {
+        "name": "Corporativo",
+        "price": "$18,500",
+        "period": "/mes",
+        "description": "Para despachos que operan varios expedientes de forma simultánea.",
+        "features": [
+          "Expedientes ilimitados",
+          "Hasta 15 usuarios",
+          "Alertas de vencimiento automatizadas",
+          "Historial de 12 meses",
+          "Soporte prioritario"
+        ],
+        "cta": "Contratar plan Corporativo",
+        "highlighted": true,
+        "badge": "Más contratado"
+      },
+      {
+        "name": "Firma",
+        "price": "$34,900",
+        "period": "/mes",
+        "description": "Para firmas que estandarizan su operación completa en un solo tablero.",
+        "features": [
+          "Usuarios ilimitados",
+          "Integración con su ERP",
+          "Exportación de bitácora de auditoría",
+          "Historial ilimitado",
+          "Gestor de cuenta dedicado"
+        ],
+        "cta": "Solicitar plan Firma",
+        "highlighted": false
+      }
+    ]
+  }
+}

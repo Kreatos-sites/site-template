@@ -1,0 +1,56 @@
+{
+  "key": "team-grid-hover-reveal",
+  "pascalName": "TeamGridHoverReveal",
+  "category": "Equipo",
+  "catalogRow": "| `team-grid-hover-reveal` | team-grid-hover-reveal — grilla de tarjetas de equipo con velo que revela bio y redes al pasar el mouse o enfocar · úsalo para presentar directivos o áreas con detalle expandible. | { eyebrow, title, members: [{ name, role, bio, image, imageAlt, socials: [{ icon, href, label }] }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Las personas detrás de cada obra",
+    "members": [
+      {
+        "name": "Ricardo Salcedo",
+        "role": "Director de Operaciones",
+        "bio": "Coordina cronogramas de obra y proveedores en más de 40 proyectos residenciales entregados en los últimos ocho años.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ricardo Salcedo, Director de Operaciones",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/ricardo-salcedo", "label": "Perfil de LinkedIn de Ricardo Salcedo" },
+          { "icon": "email", "href": "mailto:ricardo@constructoravertice.mx", "label": "Enviar correo a Ricardo Salcedo" }
+        ]
+      },
+      {
+        "name": "Mariana Uribe",
+        "role": "Gerente de Diseño Estructural",
+        "bio": "Responsable del cálculo estructural y la supervisión técnica que garantiza el cumplimiento normativo en cada etapa de construcción.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mariana Uribe, Gerente de Diseño Estructural",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/mariana-uribe", "label": "Perfil de LinkedIn de Mariana Uribe" },
+          { "icon": "website", "href": "https://marianauribe.mx", "label": "Sitio web de Mariana Uribe" }
+        ]
+      },
+      {
+        "name": "Diego Ferreira",
+        "role": "Jefe de Seguridad e Higiene",
+        "bio": "Audita protocolos de seguridad en obra y capacita a las cuadrillas en prevención de riesgos conforme a la NOM-031-STPS.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diego Ferreira, Jefe de Seguridad e Higiene",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/diego-ferreira", "label": "Perfil de LinkedIn de Diego Ferreira" },
+          { "icon": "email", "href": "mailto:diego@constructoravertice.mx", "label": "Enviar correo a Diego Ferreira" }
+        ]
+      },
+      {
+        "name": "Paulina Gómez",
+        "role": "Coordinadora de Presupuestos",
+        "bio": "Elabora análisis de costos y control presupuestal para clientes corporativos e inmobiliarios en toda la región centro.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paulina Gómez, Coordinadora de Presupuestos",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/paulina-gomez", "label": "Perfil de LinkedIn de Paulina Gómez" },
+          { "icon": "twitter", "href": "https://x.com/paulinagomezmx", "label": "Perfil de X de Paulina Gómez" }
+        ]
+      }
+    ]
+  }
+}

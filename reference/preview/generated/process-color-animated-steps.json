@@ -1,0 +1,37 @@
+{
+  "key": "process-color-animated-steps",
+  "pascalName": "ProcessColorAnimatedSteps",
+  "category": "Proceso",
+  "catalogRow": "| `process-color-animated-steps` | process-color-animated-steps — cinco pasos en tarjetas con fondo alterno y numeración grande · úsalo para explicar una metodología de trabajo paso a paso. | { eyebrow, title, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Metodología",
+    "title": "Cómo llevamos su proyecto de obra de inicio a entrega",
+    "steps": [
+      {
+        "icon": "search",
+        "title": "Levantamiento en sitio",
+        "description": "Visitamos el terreno o inmueble, tomamos medidas y evaluamos condiciones estructurales antes de proponer cualquier solución."
+      },
+      {
+        "icon": "compass",
+        "title": "Anteproyecto y presupuesto",
+        "description": "Entregamos planos preliminares y un presupuesto desglosado por partida para que usted apruebe alcance antes de firmar contrato."
+      },
+      {
+        "icon": "clipboard",
+        "title": "Permisos y programa de obra",
+        "description": "Gestionamos licencias municipales y fijamos un calendario de obra con hitos semanales que usted puede consultar en todo momento."
+      },
+      {
+        "icon": "hammer",
+        "title": "Ejecución supervisada",
+        "description": "Un residente de obra reporta avance físico y financiero cada semana; los cambios de alcance se cotizan antes de ejecutarse."
+      },
+      {
+        "icon": "package",
+        "title": "Entrega y garantía",
+        "description": "Hacemos recorrido final con lista de pendientes, entregamos manual de mantenimiento y cubrimos doce meses de garantía por escrito."
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": "feature-dense-checklist-two-column",
+  "pascalName": "FeatureDenseChecklistTwoColumn",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-dense-checklist-two-column` | feature-dense-checklist-two-column — lista de verificación densa en dos columnas, sin tarjetas ni imágenes · úsalo para enumerar alcance de servicio, entregables o cobertura de plan. | { eyebrow, title, description, items: [{ label, description }] } |",
+  "fixture": {
+    "eyebrow": "Alcance del servicio",
+    "title": "Todo lo que incluye su contrato de mantenimiento",
+    "description": "Un solo contrato cubre la operación completa de sus instalaciones eléctricas, sin cargos ocultos ni visitas adicionales por cotizar.",
+    "items": [
+      {
+        "label": "Diagnóstico eléctrico trimestral",
+        "description": "Revisión de tableros, tierras físicas y circuitos críticos en cada visita."
+      },
+      {
+        "label": "Mano de obra sin costo adicional",
+        "description": "Reparaciones menores incluidas dentro del horario contratado."
+      },
+      {
+        "label": "Reporte fotográfico por visita",
+        "description": "Evidencia y hallazgos entregados al responsable de mantenimiento."
+      },
+      {
+        "label": "Atención prioritaria a fallas",
+        "description": "Respuesta en menos de 24 horas para clientes con contrato vigente."
+      },
+      {
+        "label": "Actualización de planos as-built",
+        "description": "Documentación eléctrica vigente tras cualquier modificación."
+      },
+      {
+        "label": "Repuestos de desgaste incluidos",
+        "description": "Contactores, fusibles y breakers menores sin cobro por pieza."
+      },
+      {
+        "label": "Bitácora digital compartida",
+        "description": "Historial de servicio accesible para su equipo en todo momento."
+      },
+      {
+        "label": "Renovación sin penalización",
+        "description": "Cancele o ajuste el alcance con treinta días de aviso."
+      }
+    ]
+  }
+}

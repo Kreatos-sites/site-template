@@ -1,0 +1,39 @@
+{
+  "key": "logo-cloud-bento-asymmetric-featured",
+  "pascalName": "LogoCloudBentoAsymmetricFeatured",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-bento-asymmetric-featured` | logo-cloud-bento-asymmetric-featured — bento asimétrico con marco de esquinas y aliado principal destacado · úsalo para una alianza estratégica con más peso que el resto de socios. | { eyebrow, title, description, featured: { name, image, imageAlt, description }, partners: [{ name, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas estratégicas",
+    "title": "Respaldados por los proveedores que exige la industria pesada",
+    "description": "Nuestra cadena de suministro se sostiene en alianzas de largo plazo con fabricantes certificados y distribuidores regionales de materiales para construcción industrial.",
+    "featured": {
+      "name": "Aceros del Bajío",
+      "image": "/images/about.svg",
+      "imageAlt": "Logotipo de Aceros del Bajío, proveedor estratégico principal",
+      "description": "Proveedor estratégico desde 2014. Suministra el acero estructural certificado que usamos en más del 60% de nuestros proyectos industriales."
+    },
+    "partners": [
+      {
+        "name": "Cemento Regional del Norte",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Cemento Regional del Norte"
+      },
+      {
+        "name": "Ferretera Industrial MTY",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Ferretera Industrial MTY"
+      },
+      {
+        "name": "Grupo Aceros y Perfiles",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Grupo Aceros y Perfiles"
+      },
+      {
+        "name": "Insumos Técnicos del Norte",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Insumos Técnicos del Norte"
+      }
+    ]
+  }
+}

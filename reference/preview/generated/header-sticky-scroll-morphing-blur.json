@@ -1,0 +1,22 @@
+{
+  "key": "header-sticky-scroll-morphing-blur",
+  "pascalName": "HeaderStickyScrollMorphingBlur",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-sticky-scroll-morphing-blur` | header-sticky-scroll-morphing-blur — header sticky de dos capas con blur permanente · úsalo para sitios corporativos con contacto directo y CTA sobre el menú. | { utilityLabel, phone, email, logo, navLabel, links: [{ label, href }], ctaLabel, ctaHref, menuLabel } |",
+  "fixture": {
+    "utilityLabel": "Despacho Reyna Constructora",
+    "phone": "+52 81 4455 0192",
+    "email": "contacto@reynaconstructora.mx",
+    "logo": "Reyna Constructora",
+    "navLabel": "Navegación principal",
+    "links": [
+      { "label": "Proyectos", "href": "#proyectos" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Nosotros", "href": "#nosotros" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú de navegación"
+  }
+}

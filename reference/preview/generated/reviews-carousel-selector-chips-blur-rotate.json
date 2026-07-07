@@ -1,0 +1,40 @@
+{
+  "key": "reviews-carousel-selector-chips-blur-rotate",
+  "pascalName": "ReviewsCarouselSelectorChipsBlurRotate",
+  "category": "Reseñas",
+  "catalogRow": "| `reviews-carousel-selector-chips-blur-rotate` | reviews-carousel-selector-chips-blur-rotate — carrusel de reseñas con chips de selección manual y crossfade con blur · úsalo para testimonios B2B sin JS de cliente. | { eyebrow, title, reviews: [{ quote, author, role, company, rating }] } |",
+  "fixture": {
+    "eyebrow": "Clientes que confían en nosotros",
+    "title": "Lo que dicen las empresas que ya trabajan con Distribuidora Cardenal",
+    "reviews": [
+      {
+        "quote": "Desde que cambiamos a Distribuidora Cardenal reducimos nuestros tiempos de reabastecimiento a la mitad. El equipo de logística responde cualquier duda el mismo día.",
+        "author": "Ricardo Fuentes",
+        "role": "Gerente de Compras",
+        "company": "Grupo Ferretero del Bajío",
+        "rating": 5
+      },
+      {
+        "quote": "Manejamos más de 40 puntos de venta y necesitábamos un proveedor que no fallara en la entrega. Con ellos llevamos dos años sin un solo retraso.",
+        "author": "Mariana Solís",
+        "role": "Directora de Operaciones",
+        "company": "Comercializadora Solís y Asociados",
+        "rating": 5
+      },
+      {
+        "quote": "Nos apoyaron a rediseñar nuestro esquema de pedidos por volumen. El ahorro en costos logísticos se vio reflejado desde el segundo trimestre.",
+        "author": "Alejandro Peña",
+        "role": "Director de Finanzas",
+        "company": "Materiales del Norte",
+        "rating": 4
+      },
+      {
+        "quote": "La plataforma de seguimiento de pedidos nos da visibilidad total del inventario en tránsito. Es justo lo que necesitábamos para nuestras sucursales.",
+        "author": "Diana Reyes",
+        "role": "Jefa de Cadena de Suministro",
+        "company": "Suministros Industriales Reyes",
+        "rating": 5
+      }
+    ]
+  }
+}

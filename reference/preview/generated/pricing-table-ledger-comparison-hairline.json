@@ -1,0 +1,49 @@
+{
+  "key": "pricing-table-ledger-comparison-hairline",
+  "pascalName": "PricingTableLedgerComparisonHairline",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-table-ledger-comparison-hairline` | pricing-table-ledger-comparison-hairline — tabla de precios tipo libro contable con 3 planes por filas · úsalo en despachos y consultorías con tiers de servicio claros. | { eyebrow, title, description?, featureColumnLabel, highlightedLabel, plans: [{ name, price, period?, note?, highlighted?, cta, href }] (3), rows: [{ feature, values: (boolean/string)[] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Compare nuestros planes de contabilidad y cumplimiento fiscal",
+    "description": "Cada plan incluye la presentación mensual de impuestos ante el SAT. Elija el nivel de acompañamiento que su despacho necesita.",
+    "featureColumnLabel": "Servicio incluido",
+    "highlightedLabel": "Más contratado",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "/mes",
+        "note": "Para negocios con un solo régimen fiscal.",
+        "cta": "Solicitar plan",
+        "href": "/contacto"
+      },
+      {
+        "name": "Integral",
+        "price": "$8,900",
+        "period": "/mes",
+        "note": "Incluye nómina y conciliación bancaria mensual.",
+        "highlighted": true,
+        "cta": "Solicitar plan",
+        "href": "/contacto"
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "note": "Para grupos con más de una razón social.",
+        "cta": "Hablar con un asesor",
+        "href": "/contacto"
+      }
+    ],
+    "rows": [
+      { "feature": "Declaraciones mensuales ante el SAT", "values": [true, true, true] },
+      { "feature": "Cálculo y timbrado de nómina", "values": [false, true, true] },
+      { "feature": "Conciliación bancaria", "values": ["Trimestral", "Mensual", "Semanal"] },
+      { "feature": "Revisión de CFDI y deducciones", "values": [true, true, true] },
+      { "feature": "Cierre contable anual", "values": [true, true, true] },
+      { "feature": "Asesor contable asignado", "values": [false, true, true] },
+      { "feature": "Consolidación multi-razón social", "values": [false, false, true] },
+      { "feature": "Tiempo de respuesta", "values": ["48 horas", "24 horas", "Prioritario"] }
+    ]
+  }
+}

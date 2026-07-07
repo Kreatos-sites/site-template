@@ -1,0 +1,56 @@
+{
+  "key": "pricing-accordion-expandible-vertical",
+  "pascalName": "PricingAccordionExpandibleVertical",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-accordion-expandible-vertical` | pricing-accordion-expandible-vertical — acordeón vertical de planes con precio en el trigger · úsalo para 3-4 planes con features extensas que no caben en tarjetas. | { eyebrow, title, description, tiers: [{ name, price, period, description, badge?, featured?, cta, features: string[] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan para cada etapa de su operación",
+    "description": "Compare el alcance de cada plan y elija el que corresponda al tamaño de su despacho. Puede cambiar de plan en cualquier momento.",
+    "tiers": [
+      {
+        "name": "Esencial",
+        "price": "$4,900 MXN",
+        "period": "/ mes",
+        "description": "Para despachos que inician su práctica corporativa.",
+        "cta": "Solicitar plan Esencial",
+        "features": [
+          "Hasta 5 expedientes activos simultáneos",
+          "Revisión de contratos mercantiles estándar",
+          "Soporte por correo en horario hábil",
+          "Reporte mensual de estatus de casos"
+        ]
+      },
+      {
+        "name": "Corporativo",
+        "price": "$9,800 MXN",
+        "period": "/ mes",
+        "description": "Para despachos con cartera activa de clientes corporativos.",
+        "badge": "Más contratado",
+        "featured": true,
+        "cta": "Solicitar plan Corporativo",
+        "features": [
+          "Hasta 20 expedientes activos simultáneos",
+          "Revisión y redacción de contratos a la medida",
+          "Acompañamiento en due diligence",
+          "Línea directa con abogado asignado",
+          "Reporte quincenal de estatus de casos"
+        ]
+      },
+      {
+        "name": "Empresarial",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Para grupos empresariales con necesidades legales recurrentes.",
+        "cta": "Agendar diagnóstico",
+        "features": [
+          "Expedientes activos ilimitados",
+          "Equipo legal dedicado por sector",
+          "Auditoría de cumplimiento normativo trimestral",
+          "Prioridad en litigios y arbitrajes",
+          "Reporte semanal y sesión de seguimiento mensual"
+        ]
+      }
+    ]
+  }
+}

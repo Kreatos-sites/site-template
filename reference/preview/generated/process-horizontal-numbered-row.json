@@ -1,0 +1,27 @@
+{
+  "key": "process-horizontal-numbered-row",
+  "pascalName": "ProcessHorizontalNumberedRow",
+  "category": "Proceso",
+  "catalogRow": "| `process-horizontal-numbered-row` | process-horizontal-numbered-row — proceso numerado horizontal con icono por paso · úsalo para explicar tu metodología de trabajo en 3 etapas claras. | { eyebrow, title, steps: [{ icon: discover/design/launch, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la primera llamada a la entrega, en tres pasos claros",
+    "steps": [
+      {
+        "icon": "discover",
+        "title": "Diagnóstico",
+        "description": "Revisamos su expediente, plazos y objetivos para definir el alcance real del caso antes de proponer una ruta de acción."
+      },
+      {
+        "icon": "design",
+        "title": "Estrategia",
+        "description": "Preparamos la argumentación y los documentos necesarios, y le presentamos las opciones con sus tiempos y costos estimados."
+      },
+      {
+        "icon": "launch",
+        "title": "Ejecución",
+        "description": "Damos seguimiento a cada trámite y audiencia, y le mantenemos informado por escrito en cada etapa del proceso."
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "key": "public-roadmap-voteable-features",
+  "pascalName": "PublicRoadmapVoteableFeatures",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `public-roadmap-voteable-features` | public-roadmap-voteable-features — roadmap público votable con progreso y colaboradores por función · úsalo para mostrar avance de producto y priorizar funciones con los usuarios. | { eyebrow, title, body, votesLabel, progressLabel, items: [{ title, description, status, statusLabel, category, votes, progress, contributors: [{ initials }] }] } |",
+  "fixture": {
+    "eyebrow": "Roadmap público",
+    "title": "Construimos la plataforma con usted, no para usted",
+    "body": "Vote por las funciones que más le importan y siga el avance de cada una en tiempo real. Su voz define en qué trabajamos primero.",
+    "votesLabel": "Votos",
+    "progressLabel": "{percent}% completado",
+    "items": [
+      {
+        "title": "Exportación de reportes a Excel",
+        "description": "Descargue cualquier reporte de facturación y consumo en formato Excel, con filtros por sucursal y periodo.",
+        "status": "shipped",
+        "statusLabel": "Disponible",
+        "category": "Reportes",
+        "votes": "482",
+        "progress": 100,
+        "contributors": [
+          { "initials": "MR" },
+          { "initials": "JC" },
+          { "initials": "AL" }
+        ]
+      },
+      {
+        "title": "Conciliación bancaria automática",
+        "description": "Vincule sus cuentas bancarias para conciliar movimientos y facturas sin captura manual.",
+        "status": "progress",
+        "statusLabel": "En desarrollo",
+        "category": "Finanzas",
+        "votes": "356",
+        "progress": 65,
+        "contributors": [
+          { "initials": "DP" },
+          { "initials": "SM" }
+        ]
+      },
+      {
+        "title": "Alertas de vencimiento por WhatsApp",
+        "description": "Reciba avisos automáticos de facturas por vencer directamente en el WhatsApp de su despacho.",
+        "status": "review",
+        "statusLabel": "En revisión",
+        "category": "Notificaciones",
+        "votes": "298",
+        "progress": 40,
+        "contributors": [
+          { "initials": "RT" }
+        ]
+      },
+      {
+        "title": "Panel comparativo entre sucursales",
+        "description": "Compare indicadores clave entre sucursales y filtre por región, giro y periodo fiscal.",
+        "status": "planned",
+        "statusLabel": "Planeado",
+        "category": "Analítica",
+        "votes": "214",
+        "progress": 10,
+        "contributors": [
+          { "initials": "LG" },
+          { "initials": "EC" },
+          { "initials": "NF" }
+        ]
+      }
+    ]
+  }
+}

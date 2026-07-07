@@ -1,0 +1,49 @@
+{
+  "key": "feature-alternating-split-image",
+  "pascalName": "FeatureAlternatingSplitImage",
+  "category": "Heroes",
+  "catalogRow": "| `feature-alternating-split-image` | feature-alternating-split-image — filas alternadas texto/imagen con eyebrow, título, cuerpo y bullets · úsalo para desglosar 2-3 etapas o capacidades de un servicio con respaldo visual. | { rows: [{ eyebrow, title, body, bullets: string[], image, imageAlt }] } |",
+  "fixture": {
+    "rows": [
+      {
+        "eyebrow": "Diseño estructural",
+        "title": "Cálculo y planos que resisten la revisión municipal",
+        "body": "Cada proyecto pasa por un doble control de cálculo antes de sellar planos. Trabajamos con las normas NOM vigentes y documentamos cada memoria de cálculo para que el trámite ante la delegación avance sin observaciones.",
+        "bullets": [
+          "Memoria de cálculo sellada por perito autorizado",
+          "Planos estructurales y de instalaciones coordinados",
+          "Revisión sísmica conforme a zona del predio",
+          "Entrega en formato digital y físico para trámite"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Ingeniero revisando planos estructurales sobre una mesa de trabajo"
+      },
+      {
+        "eyebrow": "Supervisión de obra",
+        "title": "Un residente de obra presente toda la semana, no solo los viernes",
+        "body": "La mayoría de los sobrecostos nacen de decisiones tomadas sin supervisión en sitio. Por eso asignamos un residente fijo por proyecto que reporta avance, desviaciones y calidad de materiales antes de que se conviertan en retrabajo.",
+        "bullets": [
+          "Bitácora de obra fotográfica actualizada a diario",
+          "Control de calidad de concreto y acero por lote",
+          "Reporte semanal de avance contra cronograma",
+          "Punto único de contacto para cambios de alcance"
+        ],
+        "image": "/images/hero.svg",
+        "imageAlt": "Residente de obra supervisando el vaciado de concreto en una losa"
+      },
+      {
+        "eyebrow": "Cierre y entrega",
+        "title": "Garantía por escrito y expediente completo al entregar",
+        "body": "La entrega no termina con las llaves. Incluimos el expediente técnico completo, la garantía de obra por doce meses y una visita de seguimiento a los tres meses para detectar cualquier ajuste menor antes de que crezca.",
+        "bullets": [
+          "Expediente técnico y planos as-built entregados",
+          "Garantía de obra de doce meses por escrito",
+          "Visita de seguimiento a los tres meses",
+          "Manual de mantenimiento preventivo del inmueble"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Carpeta con expediente técnico y planos as-built sobre un escritorio"
+      }
+    ]
+  }
+}

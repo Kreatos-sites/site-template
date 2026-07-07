@@ -1,0 +1,51 @@
+{
+  "key": "features-alternating-dense-copy-image",
+  "pascalName": "FeaturesAlternatingDenseCopyImage",
+  "category": "Heroes",
+  "catalogRow": "| `features-alternating-dense-copy-image` | features-alternating-dense-copy-image — filas de copy e imagen alternadas por lado, con lista de puntos por fila · úsalo para explicar procesos o líneas de servicio en detalle. | { eyebrow, title, rows: [{ eyebrow, title, body, points: string[], image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso construido para obra de gran escala",
+    "rows": [
+      {
+        "eyebrow": "Planeación",
+        "title": "Ingeniería y presupuesto antes de mover una sola pala",
+        "body": "Cada proyecto arranca con un levantamiento en sitio y un modelo de costos detallado por partida, para que usted apruebe cifras reales antes de firmar el contrato de obra.",
+        "points": [
+          "Levantamiento topográfico y estudio de suelo",
+          "Presupuesto por partida con márgenes explícitos",
+          "Calendario de obra con hitos verificables",
+          "Revisión conjunta con el equipo de diseño"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Ingenieros revisando planos de construcción en sitio"
+      },
+      {
+        "eyebrow": "Ejecución",
+        "title": "Control diario de avance con bitácora abierta al cliente",
+        "body": "Usted tiene acceso a la bitácora de obra en todo momento: avances, incidencias y ajustes quedan documentados con fotografía y firma del residente responsable.",
+        "points": [
+          "Bitácora digital con evidencia fotográfica diaria",
+          "Residente de obra asignado por proyecto",
+          "Reportes semanales de avance físico y financiero",
+          "Protocolo de seguridad verificado por auditoría externa"
+        ],
+        "image": "/images/hero.svg",
+        "imageAlt": "Cuadrilla de trabajo avanzando en una obra estructural"
+      },
+      {
+        "eyebrow": "Entrega",
+        "title": "Cierre con garantía documentada y manual de mantenimiento",
+        "body": "Al entregar la obra, usted recibe planos as-built, garantía por escrito de estructura e instalaciones, y un manual de mantenimiento preventivo para los primeros dos años.",
+        "points": [
+          "Planos as-built certificados",
+          "Garantía de estructura por veinticuatro meses",
+          "Manual de mantenimiento preventivo",
+          "Acompañamiento post-entrega durante noventa días"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Edificio terminado listo para entrega al cliente"
+      }
+    ]
+  }
+}

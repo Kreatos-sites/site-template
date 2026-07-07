@@ -1,0 +1,55 @@
+{
+  "key": "timeline-milestone-bilateral-alternating-spine",
+  "pascalName": "TimelineMilestoneBilateralAlternatingSpine",
+  "category": "Heroes",
+  "catalogRow": "| `timeline-milestone-bilateral-alternating-spine` | timeline-milestone-bilateral-alternating-spine — línea de tiempo con espina central e hitos alternados · úsalo para narrar la historia de la empresa. | { eyebrow, title, description, milestones: [{ year, tag, title, description, icon }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra trayectoria",
+    "title": "Treinta años construyendo infraestructura para el norte del país",
+    "description": "De un solo proyecto de urbanización en León a una operación con presencia en seis estados: así fue creciendo Constructora Del Bajío obra tras obra.",
+    "milestones": [
+      {
+        "year": "1994",
+        "tag": "Fundación",
+        "title": "Primer proyecto de urbanización",
+        "description": "Iniciamos con la pavimentación de tres fraccionamientos en León, Guanajuato, con un equipo de doce personas.",
+        "icon": "rocket"
+      },
+      {
+        "year": "2002",
+        "tag": "Expansión",
+        "title": "Apertura de la división de obra industrial",
+        "description": "Sumamos naves industriales y patios de maniobra para clientes del corredor automotriz del Bajío.",
+        "icon": "building"
+      },
+      {
+        "year": "2009",
+        "tag": "Certificación",
+        "title": "Certificación ISO 9001 en procesos de obra",
+        "description": "Formalizamos nuestros protocolos de control de calidad y seguridad en todas las etapas de construcción.",
+        "icon": "award"
+      },
+      {
+        "year": "2015",
+        "tag": "Alianza",
+        "title": "Convenio marco con gobiernos municipales",
+        "description": "Firmamos contratos plurianuales de mantenimiento vial con cuatro municipios del estado.",
+        "icon": "handshake"
+      },
+      {
+        "year": "2021",
+        "tag": "Crecimiento",
+        "title": "Flotilla propia de maquinaria pesada",
+        "description": "Adquirimos maquinaria propia para reducir la dependencia de renta y subcontratación en obra crítica.",
+        "icon": "growth"
+      },
+      {
+        "year": "2026",
+        "tag": "Presencia",
+        "title": "Operación activa en seis estados",
+        "description": "Hoy coordinamos obra civil, industrial y vial para gobiernos y desarrolladores privados en todo el norte y centro del país.",
+        "icon": "location"
+      }
+    ]
+  }
+}

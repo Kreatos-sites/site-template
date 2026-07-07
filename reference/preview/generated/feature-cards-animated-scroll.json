@@ -1,0 +1,32 @@
+{
+  "key": "feature-cards-animated-scroll",
+  "pascalName": "FeatureCardsAnimatedScroll",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-cards-animated-scroll` | feature-cards-animated-scroll — grid de tarjetas con icono y revelado escalonado al hacer scroll · úsalo para destacar beneficios o líneas de servicio. | { eyebrow, title, features: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Por qué elegirnos",
+    "title": "Logística con visibilidad total, de la orden a la entrega",
+    "features": [
+      {
+        "icon": "truck",
+        "title": "Flota propia en el Bajío",
+        "description": "Cobertura directa en León, Querétaro e Irapuato sin subcontratar la última milla."
+      },
+      {
+        "icon": "gauge",
+        "title": "Rastreo en tiempo real",
+        "description": "Cada embarque queda georreferenciado y usted lo consulta desde el portal de clientes."
+      },
+      {
+        "icon": "clipboard",
+        "title": "Documentación en regla",
+        "description": "Cartas porte, pólizas y manifiestos listos antes de que la unidad salga de la bodega."
+      },
+      {
+        "icon": "handshake",
+        "title": "Un solo punto de contacto",
+        "description": "Un coordinador asignado da seguimiento a su cuenta desde la cotización hasta la entrega."
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "key": "gallery-filterable-portfolio",
+  "pascalName": "GalleryFilterablePortfolio",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-filterable-portfolio` | gallery-filterable-portfolio — grid de portafolio con leyenda de categorías fija y ficha visible bajo cada imagen · úsalo para estudios con trabajo en varias disciplinas. | { eyebrow, title, categories: [string], projects: [{ image, imageAlt, title, category, description }] } |",
+  "fixture": {
+    "eyebrow": "Trabajo",
+    "title": "Proyectos por disciplina",
+    "categories": ["Todos", "Identidad", "Editorial", "Espacios", "Digital"],
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Sistema de identidad visual para despacho de arquitectura",
+        "title": "Identidad para estudio Larrea Arquitectos",
+        "category": "Identidad",
+        "description": "Sistema de marca completo: logotipo, papelería y señalética para un despacho de arquitectura con quince años de trayectoria en Guadalajara."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Portada de reporte anual impreso",
+        "title": "Reporte anual Grupo Insigna",
+        "category": "Editorial",
+        "description": "Dirección de arte y maquetación del informe anual 2025, con retícula editorial pensada para lectura en oficina y en junta directiva."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Oficinas corporativas con señalética de piso",
+        "title": "Señalética corporativa Torre Aralia",
+        "category": "Espacios",
+        "description": "Sistema de wayfinding para las oficinas centrales, con pictogramas propios y materiales que resisten el tránsito diario de doscientas personas."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interfaz de plataforma web en pantalla",
+        "title": "Plataforma de agenda para clínica dental",
+        "category": "Digital",
+        "description": "Diseño de interfaz y prototipo funcional para el sistema de citas en línea de una red de clínicas con cuatro sucursales."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Catálogo de producto industrial",
+        "title": "Catálogo técnico Distribuidora Ferral",
+        "category": "Editorial",
+        "description": "Catálogo de producto con fichas técnicas ordenadas por línea, pensado para uso en piso de venta y como material de fuerza comercial."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada renovada de local comercial",
+        "title": "Rediseño de fachada Panadería Ceibo",
+        "category": "Espacios",
+        "description": "Rediseño de fachada y rotulación para una panadería con veinte años en el barrio, sin perder la fisonomía que ya reconocían sus clientes."
+      }
+    ]
+  }
+}

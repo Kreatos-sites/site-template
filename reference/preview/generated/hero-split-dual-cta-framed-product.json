@@ -1,0 +1,17 @@
+{
+  "key": "hero-split-dual-cta-framed-product",
+  "pascalName": "HeroSplitDualCtaFramedProduct",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-dual-cta-framed-product` | hero-split-dual-cta-framed-product — hero a dos columnas con doble CTA y producto enmarcado con métricas flotantes · úsalo para portadas de producto o portafolio con prueba social. | { eyebrow, title, subtitle, primaryCta: {label, href}, secondaryCta: {label, href}, image, imageAlt, topStat: {value, label}, bottomStat: {value, label} } |",
+  "fixture": {
+    "eyebrow": "Constructora Del Valle",
+    "title": "Proyectos ejecutivos con control de obra en tiempo real",
+    "subtitle": "Acompañamos a desarrolladores y despachos de arquitectura desde el anteproyecto hasta la entrega, con reportes de avance semanales y trazabilidad de cada partida.",
+    "primaryCta": { "label": "Solicitar cotización", "href": "#contacto" },
+    "secondaryCta": { "label": "Ver proyectos", "href": "#proyectos" },
+    "image": "/images/hero.svg",
+    "imageAlt": "Panel de avance de obra de un proyecto residencial en construcción",
+    "topStat": { "value": "38", "label": "Obras entregadas" },
+    "bottomStat": { "value": "96%", "label": "Cumplimiento de calendario" }
+  }
+}

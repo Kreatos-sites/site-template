@@ -1,0 +1,36 @@
+{
+  "key": "stats-metric-cards",
+  "pascalName": "StatsMetricCards",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `stats-metric-cards` | stats-metric-cards — grid de 4 tarjetas con ícono, cifra destacada, etiqueta y descripción · úsalo para presentar métricas operativas o de desempeño verificables. | { eyebrow, title, stats: [{ icon, value, label, description }] } |",
+  "fixture": {
+    "eyebrow": "Resultados operativos",
+    "title": "Cifras que respaldan nuestra operación logística",
+    "stats": [
+      {
+        "icon": "truck",
+        "value": "180+",
+        "label": "Unidades en ruta",
+        "description": "Flota propia y aliada que cubre entregas diarias en todo el centro y bajío del país."
+      },
+      {
+        "icon": "warehouse",
+        "value": "12",
+        "label": "Centros de distribución",
+        "description": "Bodegas estratégicas que reducen tiempos de tránsito hacia nuestros clientes."
+      },
+      {
+        "icon": "clock",
+        "value": "98.4%",
+        "label": "Entregas a tiempo",
+        "description": "Promedio anual medido con seguimiento GPS en cada embarque despachado."
+      },
+      {
+        "icon": "map",
+        "value": "26",
+        "label": "Estados con cobertura",
+        "description": "Red de distribución que llega a puntos de venta urbanos y rurales por igual."
+      }
+    ]
+  }
+}

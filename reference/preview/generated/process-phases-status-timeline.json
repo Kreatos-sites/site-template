@@ -1,0 +1,48 @@
+{
+  "key": "process-phases-status-timeline",
+  "pascalName": "ProcessPhasesStatusTimeline",
+  "category": "Proceso",
+  "catalogRow": "| `process-phases-status-timeline` | process-phases-status-timeline — timeline vertical de hitos con icono de estado y fecha · úsalo para mostrar el avance de un proyecto por etapas. | { eyebrow, title, description, milestones: [{ date, status: completado/en-curso/planeado, title, description }], status: { completado, en-curso, planeado } } |",
+  "fixture": {
+    "eyebrow": "Metodología",
+    "title": "Así avanza su proyecto con nosotros",
+    "description": "Dividimos cada obra en fases claras, con entregables verificables en cada etapa y comunicación directa con el equipo responsable.",
+    "milestones": [
+      {
+        "date": "Ene 2026",
+        "status": "completado",
+        "title": "Levantamiento y estudio de sitio",
+        "description": "Visita técnica, medición topográfica y análisis de suelo entregados al cliente en un expediente firmado."
+      },
+      {
+        "date": "Feb 2026",
+        "status": "completado",
+        "title": "Proyecto ejecutivo y permisos",
+        "description": "Planos estructurales, instalaciones y trámite de licencia de construcción ante el municipio correspondiente."
+      },
+      {
+        "date": "Mar 2026 – Jun 2026",
+        "status": "en-curso",
+        "title": "Cimentación y obra gris",
+        "description": "Avance semanal reportado con bitácora fotográfica y control de calidad en cada colado."
+      },
+      {
+        "date": "Jul 2026",
+        "status": "planeado",
+        "title": "Instalaciones y acabados",
+        "description": "Electricidad, plomería, pisos y carpintería, con supervisión del residente de obra en cada partida."
+      },
+      {
+        "date": "Ago 2026",
+        "status": "planeado",
+        "title": "Entrega y cierre administrativo",
+        "description": "Recorrido final con el cliente, manual de garantías y cierre de expediente ante la constructora."
+      }
+    ],
+    "status": {
+      "completado": "Completado",
+      "en-curso": "En curso",
+      "planeado": "Planeado"
+    }
+  }
+}

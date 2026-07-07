@@ -1,0 +1,45 @@
+{
+  "key": "reviews-carousel-with-images",
+  "pascalName": "ReviewsCarouselWithImages",
+  "category": "Reseñas",
+  "catalogRow": "| `reviews-carousel-with-images` | reviews-carousel-with-images — carrusel de testimonios con foto de autor y calificación en estrellas · úsalo para reforzar confianza con reseñas visuales de clientes. | { eyebrow, title, ratingLabel, reviews: [{ quote, rating, authorName, authorRole, authorImage, authorImageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen nuestros clientes",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "reviews": [
+      {
+        "quote": "Contratamos al despacho para la due diligence de una adquisición y entregaron el reporte dos días antes de lo acordado, con hallazgos que nuestro equipo interno no había detectado.",
+        "rating": 5,
+        "authorName": "Renata Ibarra",
+        "authorRole": "Directora Jurídica, Grupo Ferretero del Bajío",
+        "authorImage": "/images/about.svg",
+        "authorImageAlt": "Retrato de Renata Ibarra, directora jurídica de Grupo Ferretero del Bajío"
+      },
+      {
+        "quote": "La coordinación con nuestra área de compras fue clara desde la primera llamada. Renegociaron dos contratos de proveeduría y el ahorro se vio reflejado en el siguiente trimestre.",
+        "rating": 5,
+        "authorName": "Héctor Villaseñor",
+        "authorRole": "Gerente de Operaciones, Logística Transmonte",
+        "authorImage": "/images/about.svg",
+        "authorImageAlt": "Retrato de Héctor Villaseñor, gerente de operaciones de Logística Transmonte"
+      },
+      {
+        "quote": "Llevamos tres proyectos de obra con ellos y en cada uno el seguimiento normativo ante autoridades locales se resolvió sin retrasos en el calendario de construcción.",
+        "rating": 4,
+        "authorName": "Paulina Casares",
+        "authorRole": "Directora de Proyectos, Constructora Altavista",
+        "authorImage": "/images/about.svg",
+        "authorImageAlt": "Retrato de Paulina Casares, directora de proyectos de Constructora Altavista"
+      },
+      {
+        "quote": "El equipo entendió desde el inicio la complejidad de nuestra cadena de distribución en tres estados y propuso una estructura contractual que redujo nuestro riesgo fiscal.",
+        "rating": 5,
+        "authorName": "Ignacio Domínguez",
+        "authorRole": "Director Comercial, Distribuidora Norteña",
+        "authorImage": "/images/about.svg",
+        "authorImageAlt": "Retrato de Ignacio Domínguez, director comercial de Distribuidora Norteña"
+      }
+    ]
+  }
+}

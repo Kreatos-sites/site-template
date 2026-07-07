@@ -1,0 +1,49 @@
+{
+  "key": "team-member-card-compact-row",
+  "pascalName": "TeamMemberCardCompactRow",
+  "category": "Equipo",
+  "catalogRow": "| `team-member-card-compact-row` | team-member-card-compact-row — tarjetas de perfil centradas en grid con avatar, rol, ubicación y stats · úsalo para el directorio del equipo directivo o técnico. | { eyebrow, title, description, members: [{ name, role, location, image, imageAlt, stats: [{ label, value }] }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Las personas detrás de cada proyecto",
+    "description": "Un despacho compacto de especialistas que acompañan cada obra desde el diseño hasta la entrega, con responsabilidad directa sobre resultados.",
+    "members": [
+      {
+        "name": "Renata Villaseñor",
+        "role": "Directora de Proyectos",
+        "location": "Monterrey, MX",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Villaseñor, Directora de Proyectos",
+        "stats": [
+          { "label": "Años", "value": "14" },
+          { "label": "Obras", "value": "62" },
+          { "label": "Equipo", "value": "9" }
+        ]
+      },
+      {
+        "name": "Ignacio Del Toro",
+        "role": "Ingeniero Estructural",
+        "location": "Guadalajara, MX",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ignacio Del Toro, Ingeniero Estructural",
+        "stats": [
+          { "label": "Años", "value": "11" },
+          { "label": "Obras", "value": "48" },
+          { "label": "Equipo", "value": "6" }
+        ]
+      },
+      {
+        "name": "Paulina Reséndiz",
+        "role": "Gerente de Operaciones",
+        "location": "Querétaro, MX",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paulina Reséndiz, Gerente de Operaciones",
+        "stats": [
+          { "label": "Años", "value": "8" },
+          { "label": "Obras", "value": "35" },
+          { "label": "Equipo", "value": "5" }
+        ]
+      }
+    ]
+  }
+}

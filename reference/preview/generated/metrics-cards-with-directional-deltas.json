@@ -1,0 +1,40 @@
+{
+  "key": "metrics-cards-with-directional-deltas",
+  "pascalName": "MetricsCardsWithDirectionalDeltas",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `metrics-cards-with-directional-deltas` | metrics-cards-with-directional-deltas — grid de tarjetas de métricas con delta direccional (icono + color) · úsalo para comparativas periodo contra periodo (KPIs, resultados trimestrales). | { eyebrow, title, metrics: [{ label, value, delta, direction: \"up\"/\"down\"/\"flat\", caption }] } |",
+  "fixture": {
+    "eyebrow": "Resultados operativos",
+    "title": "El desempeño de nuestra red logística, trimestre contra trimestre",
+    "metrics": [
+      {
+        "label": "Entregas a tiempo",
+        "value": "97.4%",
+        "delta": "+3.1 pts",
+        "direction": "up",
+        "caption": "Sobre 4,200 rutas monitoreadas en el último trimestre."
+      },
+      {
+        "label": "Costo por envío",
+        "value": "$186 MXN",
+        "delta": "-8.2%",
+        "direction": "down",
+        "caption": "Reducción por consolidación de rutas en el Bajío."
+      },
+      {
+        "label": "Tiempo promedio de tránsito",
+        "value": "1.8 días",
+        "delta": "-0.4 días",
+        "direction": "down",
+        "caption": "Nuevo centro de distribución en Querétaro ya en operación."
+      },
+      {
+        "label": "Incidencias reportadas",
+        "value": "12",
+        "delta": "Sin cambio",
+        "direction": "flat",
+        "caption": "Mismo nivel que el trimestre anterior, dentro de meta."
+      }
+    ]
+  }
+}

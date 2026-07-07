@@ -1,0 +1,31 @@
+{
+  "key": "testimonials-carousel-framed-selector-chips",
+  "pascalName": "TestimonialsCarouselFramedSelectorChips",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-carousel-framed-selector-chips` | testimonials-carousel-framed-selector-chips — carrusel enmarcado de testimonios con crossfade 100% CSS y chips numerados · úsalo para reseñas con navegación manual entre citas. | { eyebrow, title, selectorLabel, testimonials: [{ quote, author, role, company }] } |",
+  "fixture": {
+    "eyebrow": "Voces de clientes",
+    "title": "Despachos y constructoras que ya trabajan con nosotros",
+    "selectorLabel": "Seleccionar testimonio",
+    "testimonials": [
+      {
+        "quote": "Nos entregaron el sistema de trazabilidad de obra tres semanas antes de lo pactado y sin un solo retrabajo. El equipo entendió nuestros procesos de campo desde la primera reunión.",
+        "author": "Renata Cisneros",
+        "role": "Directora de Operaciones",
+        "company": "Constructora Altavista"
+      },
+      {
+        "quote": "Migramos el control de expedientes de veinte despachos regionales a una sola plataforma. La curva de adopción fue de días, no de meses, y el soporte respondió siempre en menos de una hora.",
+        "author": "Joaquín Bermúdez",
+        "role": "Socio Director",
+        "company": "Bermúdez y Asociados"
+      },
+      {
+        "quote": "El tablero de rutas redujo nuestros tiempos muertos de entrega en la zona metropolitana de forma medible desde el primer mes. Hoy tomamos decisiones de flota con datos, no con corazonadas.",
+        "author": "Paola Del Río",
+        "role": "Gerente de Logística",
+        "company": "Distribuidora Del Río"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "key": "hero-split-image-showcase",
+  "pascalName": "HeroSplitImageShowcase",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-image-showcase` | hero-split-image-showcase — hero a dos columnas con captura de producto y tarjetas de estadística · úsalo para abrir sitios de servicios que muestren avance y métricas clave. | { eyebrow, title, subtitle, primaryCta: {label, href}, secondaryCta: {label, href}, image, imageAlt, stats: [{icon, value, label}] (2 items) } |",
+  "fixture": {
+    "eyebrow": "Constructora Peña Blanca",
+    "title": "Obras entregadas en tiempo, con control total del avance",
+    "subtitle": "Damos seguimiento a cada etapa de su proyecto con reportes semanales, bitácora fotográfica y un ingeniero residente asignado desde el primer día.",
+    "primaryCta": { "label": "Solicitar cotización", "href": "#contacto" },
+    "secondaryCta": { "label": "Ver proyectos", "href": "#proyectos" },
+    "image": "/images/hero.svg",
+    "imageAlt": "Avance de obra de un proyecto residencial en construcción",
+    "stats": [
+      { "icon": "trend", "value": "98%", "label": "Obras a tiempo" },
+      { "icon": "users", "value": "42", "label": "Ingenieros en campo" }
+    ]
+  }
+}

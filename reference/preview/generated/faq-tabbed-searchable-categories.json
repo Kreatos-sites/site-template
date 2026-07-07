@@ -1,0 +1,70 @@
+{
+  "key": "faq-tabbed-searchable-categories",
+  "pascalName": "FaqTabbedSearchableCategories",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-tabbed-searchable-categories` | faq-tabbed-searchable-categories — FAQ en pestañas por categoría · úsalo para preguntas frecuentes que cubren varios temas distintos (servicios, honorarios, confidencialidad). | { eyebrow, title, description, categories: [{ id, label, icon, items: [{ question, answer }] }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes antes de contratarnos",
+    "description": "Organizamos las preguntas que más recibimos por tema, para que encuentre la respuesta que necesita sin leer todo el listado.",
+    "categories": [
+      {
+        "id": "servicios",
+        "label": "Servicios",
+        "icon": "question",
+        "items": [
+          {
+            "question": "¿Qué incluye el servicio de contabilidad mensual?",
+            "answer": "Incluye registro contable, conciliaciones bancarias, cálculo y presentación de impuestos federales, y un reporte financiero mensual con los indicadores clave de su negocio."
+          },
+          {
+            "question": "¿Atienden empresas de cualquier tamaño?",
+            "answer": "Trabajamos principalmente con pequeñas y medianas empresas, desde negocios con un solo socio hasta grupos con varias razones sociales que requieren consolidación contable."
+          },
+          {
+            "question": "¿Puedo cambiar de despacho a mitad de año fiscal?",
+            "answer": "Sí. Revisamos su contabilidad de los meses previos, validamos que esté al corriente ante el SAT y continuamos el ejercicio sin interrupciones ni presentaciones fuera de plazo."
+          }
+        ]
+      },
+      {
+        "id": "honorarios",
+        "label": "Honorarios",
+        "icon": "wallet",
+        "items": [
+          {
+            "question": "¿Cómo se calculan los honorarios mensuales?",
+            "answer": "La cuota depende del número de movimientos bancarios, empleados en nómina y régimen fiscal. Se lo confirmamos por escrito antes de firmar el contrato, sin cargos ocultos."
+          },
+          {
+            "question": "¿Hay algún costo adicional por trámites extraordinarios?",
+            "answer": "Trámites fuera del alcance mensual, como una auditoría o un dictamen fiscal, se cotizan aparte y se le presenta la propuesta antes de iniciar cualquier trabajo."
+          },
+          {
+            "question": "¿Aceptan pagos anuales con descuento?",
+            "answer": "Sí, ofrecemos un descuento del diez por ciento sobre la cuota mensual cuando el contrato se liquida de forma anual y por adelantado."
+          }
+        ]
+      },
+      {
+        "id": "confidencialidad",
+        "label": "Confidencialidad",
+        "icon": "shield",
+        "items": [
+          {
+            "question": "¿Cómo resguardan la información financiera de mi empresa?",
+            "answer": "Toda la documentación se almacena en sistemas con acceso restringido por usuario y respaldo cifrado. Solo el equipo asignado a su cuenta puede consultar sus archivos."
+          },
+          {
+            "question": "¿Firman acuerdo de confidencialidad?",
+            "answer": "Sí, firmamos un acuerdo de confidencialidad desde la primera reunión de diagnóstico, antes de compartir cualquier documento con nosotros."
+          },
+          {
+            "question": "¿Qué pasa con mi información si terminamos la relación?",
+            "answer": "Le entregamos una copia completa de su contabilidad y respaldos, y eliminamos la información de nuestros servidores conforme a los plazos que marca la normatividad vigente."
+          }
+        ]
+      }
+    ]
+  }
+}

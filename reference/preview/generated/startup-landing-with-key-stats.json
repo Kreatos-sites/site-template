@@ -1,0 +1,43 @@
+{
+  "key": "startup-landing-with-key-stats",
+  "pascalName": "StartupLandingWithKeyStats",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `startup-landing-with-key-stats` | startup-landing-with-key-stats — landing completa de startup con hero, cifras clave, capacidades, pasos y testimonio · úsalo para páginas de lanzamiento o lista de espera. | { eyebrow, title, description, emailLabel, emailPlaceholder, ctaLabel, legal, stats: [{ value, label }], featuresEyebrow, featuresTitle, features: [{ icon, title, description }], stepsEyebrow, stepsTitle, steps: [{ title, description }], testimonial: { quote, name, role, avatar, avatarAlt } } |",
+  "fixture": {
+    "eyebrow": "Lista de espera",
+    "title": "Automatice la conciliación de facturas de su despacho contable",
+    "description": "Una plataforma que cruza facturas, comprobantes fiscales y estados de cuenta en minutos, para que su equipo deje de revisar hojas de cálculo una por una.",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "su.correo@despacho.mx",
+    "ctaLabel": "Solicitar acceso anticipado",
+    "legal": "Sin costo durante la etapa de prelanzamiento. Cancele cuando lo desee.",
+    "stats": [
+      { "value": "3,200+", "label": "Facturas conciliadas por semana" },
+      { "value": "18 min", "label": "Tiempo promedio de cierre mensual" },
+      { "value": "94%", "label": "Precisión en el cruce automático" },
+      { "value": "40", "label": "Despachos en la lista de espera" }
+    ],
+    "featuresEyebrow": "Qué incluye",
+    "featuresTitle": "Todo lo que su equipo contable necesita para cerrar el mes sin sobresaltos",
+    "features": [
+      { "icon": "rocket", "title": "Cruce automático", "description": "Concilia CFDI, estados de cuenta bancarios y pólizas contables sin exportar archivos manualmente." },
+      { "icon": "layers", "title": "Múltiples clientes", "description": "Administre la contabilidad de varios clientes desde un solo tablero, con reportes separados por cuenta." },
+      { "icon": "shield", "title": "Respaldo fiscal", "description": "Guarda evidencia de cada cruce por si el SAT solicita el soporte documental de una operación." },
+      { "icon": "gauge", "title": "Alertas de discrepancia", "description": "Recibe un aviso apenas detecte una factura sin comprobante o un monto que no cuadra." }
+    ],
+    "stepsEyebrow": "Cómo funciona",
+    "stepsTitle": "Empiece a conciliar en tres pasos",
+    "steps": [
+      { "title": "Conecte sus fuentes", "description": "Vincule el buzón de CFDI, el banco y su sistema contable actual en una sola vez." },
+      { "title": "Revise las coincidencias", "description": "La plataforma agrupa automáticamente lo que cuadra y señala lo que necesita su revisión." },
+      { "title": "Cierre el mes", "description": "Exporte el reporte de conciliación final listo para entregar al cliente o a la dirección." }
+    ],
+    "testimonial": {
+      "quote": "Dejamos de perder dos días completos por cliente en la conciliación mensual. Ahora el equipo revisa excepciones, no hojas enteras.",
+      "name": "Adriana Reséndiz",
+      "role": "Socia, Reséndiz y Asociados Contadores",
+      "avatar": "/images/about.svg",
+      "avatarAlt": "Retrato de Adriana Reséndiz, socia del despacho"
+    }
+  }
+}

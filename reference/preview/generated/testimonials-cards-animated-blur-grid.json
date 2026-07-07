@@ -1,0 +1,37 @@
+{
+  "key": "testimonials-cards-animated-blur-grid",
+  "pascalName": "TestimonialsCardsAnimatedBlurGrid",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-cards-animated-blur-grid` | testimonials-cards-animated-blur-grid — grid de testimonios con estrellas y avatar · úsalo para mostrar reseñas de clientes con nombre, cargo y calificación. | { eyebrow, title, ratingLabel, testimonials: [{ quote, name, role, avatar, avatarAlt, rating }] } |",
+  "fixture": {
+    "eyebrow": "Opiniones de clientes",
+    "title": "Lo que dicen los despachos que ya trabajan con nosotros",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "testimonials": [
+      {
+        "quote": "Desde que contratamos el servicio de nómina, dejamos de perder horas conciliando recibos a fin de mes. El equipo responde el mismo día.",
+        "name": "Marcela Huerta",
+        "role": "Directora administrativa, Grupo Ferretero del Bajío",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Marcela Huerta",
+        "rating": 5
+      },
+      {
+        "quote": "La transición de nuestro despacho contable anterior tomó menos de tres semanas y no perdimos ningún dato histórico.",
+        "name": "Ricardo Salcido",
+        "role": "Socio fundador, Salcido y Asociados",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ricardo Salcido",
+        "rating": 5
+      },
+      {
+        "quote": "Nos ayudaron a ordenar la facturación de nuestras seis sucursales bajo un solo reporte mensual. Antes tardábamos días en cuadrarlo.",
+        "name": "Paulina Rivas",
+        "role": "Gerente de finanzas, Distribuidora Rivas",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Rivas",
+        "rating": 4
+      }
+    ]
+  }
+}

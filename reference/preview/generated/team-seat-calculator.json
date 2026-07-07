@@ -1,0 +1,40 @@
+{
+  "key": "team-seat-calculator",
+  "pascalName": "TeamSeatCalculator",
+  "category": "Precios y planes",
+  "catalogRow": "| `team-seat-calculator` | team-seat-calculator — tabla de precios por rango de asientos con total de ejemplo por rango · úsalo para software o servicios cobrados por usuario/asiento. | { eyebrow, title, description, basePrice, basePriceLabel, seatsLabel, perSeatLabel, totalLabel, brackets: [{ seats, pricePerSeat, exampleTotal }], footnote, cta } |",
+  "fixture": {
+    "eyebrow": "Precios por equipo",
+    "title": "Un precio que crece con su equipo, no con sorpresas",
+    "description": "Cada plan incluye una tarifa base fija y un costo por asiento que baja conforme suma más personas. Calcule su total antes de contratar.",
+    "basePrice": "$2,900 MXN",
+    "basePriceLabel": "Tarifa base mensual, incluye 3 asientos",
+    "seatsLabel": "Tamaño de equipo",
+    "perSeatLabel": "Por asiento adicional",
+    "totalLabel": "Total mensual",
+    "brackets": [
+      {
+        "seats": "4 a 10 asientos",
+        "pricePerSeat": "$390 MXN",
+        "exampleTotal": "$5,830 MXN"
+      },
+      {
+        "seats": "11 a 25 asientos",
+        "pricePerSeat": "$340 MXN",
+        "exampleTotal": "$10,340 MXN"
+      },
+      {
+        "seats": "26 a 50 asientos",
+        "pricePerSeat": "$290 MXN",
+        "exampleTotal": "$16,830 MXN"
+      },
+      {
+        "seats": "Más de 50 asientos",
+        "pricePerSeat": "$240 MXN",
+        "exampleTotal": "Cotización personalizada"
+      }
+    ],
+    "footnote": "Los precios no incluyen IVA. Puede cambiar de rango en cualquier momento sin penalización ni permanencia forzosa.",
+    "cta": "Calcular mi plan"
+  }
+}

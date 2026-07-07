@@ -1,0 +1,41 @@
+{
+  "key": "menu-features-matrix",
+  "pascalName": "MenuFeaturesMatrix",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-features-matrix` | menu-features-matrix — tabla comparativa por grupos con checks/cruces; úsalo para contrastar planes, paquetes o niveles de servicio con columna destacada. | { eyebrow, title, description?, columns: string[], groups: [{ title, rows: [{ label, values: string[] }] }] } |",
+  "fixture": {
+    "eyebrow": "Paquetes de hospedaje",
+    "title": "Compare lo que incluye cada paquete",
+    "description": "Antes de reservar, revise a detalle qué trae cada nivel de servicio para elegir el que mejor se ajuste a su estancia.",
+    "columns": ["Esencial", "Confort", "Premium"],
+    "groups": [
+      {
+        "title": "Habitación",
+        "rows": [
+          { "label": "Vista al jardín", "values": ["check", "check", "check"] },
+          { "label": "Vista al mar", "values": ["no", "bajo disponibilidad", "check"] },
+          { "label": "Terraza privada", "values": ["no", "no", "check"] },
+          { "label": "Servicio de tinaja", "values": ["no", "check", "check"] }
+        ]
+      },
+      {
+        "title": "Alimentos y bebidas",
+        "rows": [
+          { "label": "Desayuno buffet", "values": ["check", "check", "check"] },
+          { "label": "Cena de tres tiempos", "values": ["no", "1 noche", "diario"] },
+          { "label": "Minibar surtido", "values": ["no", "no", "check"] },
+          { "label": "Descorche de vino de bienvenida", "values": ["no", "no", "check"] }
+        ]
+      },
+      {
+        "title": "Áreas comunes y servicios",
+        "rows": [
+          { "label": "Acceso a alberca y jacuzzi", "values": ["check", "check", "check"] },
+          { "label": "Circuito de spa (60 min)", "values": ["no", "1 sesión", "2 sesiones"] },
+          { "label": "Transporte al aeropuerto", "values": ["no", "check", "check"] },
+          { "label": "Concierge dedicado", "values": ["no", "no", "check"] }
+        ]
+      }
+    ]
+  }
+}

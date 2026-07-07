@@ -1,0 +1,61 @@
+{
+  "key": "portfolio-grid-3column-with-metadata",
+  "pascalName": "PortfolioGrid3ColumnWithMetadata",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-grid-3column-with-metadata` | portfolio-grid-3column-with-metadata — grid de 3 columnas con imagen, categoría y metadata (cliente/fecha) por proyecto · úsalo para portafolios de estudios y despachos. | { eyebrow, title, description, items: [{ title, category, client, date, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Trabajo realizado",
+    "title": "Proyectos que respaldan nuestro criterio",
+    "description": "Una muestra de los proyectos que hemos desarrollado para clientes de distintos sectores, desde diagnóstico hasta entrega final.",
+    "items": [
+      {
+        "title": "Renovación de línea de embalaje",
+        "category": "Manufactura",
+        "client": "Grupo Insumex",
+        "date": "Marzo 2025",
+        "image": "/images/about.svg",
+        "imageAlt": "Línea de producción renovada en planta de Grupo Insumex"
+      },
+      {
+        "title": "Optimización de ruta de última milla",
+        "category": "Logística",
+        "client": "Transportes Del Bajío",
+        "date": "Enero 2025",
+        "image": "/images/about.svg",
+        "imageAlt": "Centro de distribución de Transportes Del Bajío"
+      },
+      {
+        "title": "Reestructura fiscal corporativa",
+        "category": "Consultoría",
+        "client": "Despacho Arteaga y Asociados",
+        "date": "Noviembre 2024",
+        "image": "/images/about.svg",
+        "imageAlt": "Oficinas del despacho Arteaga y Asociados"
+      },
+      {
+        "title": "Expansión de bodega regional",
+        "category": "Construcción",
+        "client": "Constructora Peninsular",
+        "date": "Septiembre 2024",
+        "image": "/images/about.svg",
+        "imageAlt": "Bodega regional en construcción para Constructora Peninsular"
+      },
+      {
+        "title": "Sistema de trazabilidad de inventario",
+        "category": "Distribución",
+        "client": "Distribuidora San Rafael",
+        "date": "Julio 2024",
+        "image": "/images/about.svg",
+        "imageAlt": "Almacén con sistema de trazabilidad de Distribuidora San Rafael"
+      },
+      {
+        "title": "Rediseño de planta de proceso",
+        "category": "Manufactura",
+        "client": "Alimentos Cumbre",
+        "date": "Mayo 2024",
+        "image": "/images/about.svg",
+        "imageAlt": "Planta de proceso rediseñada para Alimentos Cumbre"
+      }
+    ]
+  }
+}

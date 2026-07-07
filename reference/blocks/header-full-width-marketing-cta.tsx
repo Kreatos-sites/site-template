@@ -1,0 +1,94 @@
+import { useTranslations } from "next-intl";
+import { Menu, X, ArrowRight } from "lucide-react";
+
+type NavLink = { label: string; href: string };
+
+export function HeaderFullWidthMarketingCta({ ns }: { ns: string }) {
+  const t = useTranslations(ns);
+  const links = t.raw("links") as NavLink[];
+
+  return (
+    <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/80">
+      <div className="border-b border-border bg-secondary">
+        <p className="mx-auto w-full max-w-6xl px-6 py-2 text-center text-xs font-medium text-secondary-foreground lg:px-8">
+          {t("announcement")}
+        </p>
+      </div>
+
+      <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-6 py-4 lg:px-8">
+        <a
+          href="#inicio"
+          className="font-display text-lg font-medium tracking-tight text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+        >
+          {t("logo")}
+        </a>
+
+        <nav aria-label={t("navLabel")} className="hidden items-center gap-8 lg:flex">
+          {links.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+            >
+              {link.label}
+            </a>
+          ))}
+        </nav>
+
+        <div className="hidden items-center gap-6 lg:flex">
+          <a
+            href={t("secondaryHref")}
+            className="text-sm font-medium text-foreground transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+          >
+            {t("secondaryLabel")}
+          </a>
+          <a
+            href={t("ctaHref")}
+            className="inline-flex items-center gap-2 rounded-sm bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+          >
+            {t("ctaLabel")}
+            <ArrowRight className="size-4" strokeWidth={1.75} />
+          </a>
+        </div>
+
+        {/* Menú móvil: <details>/<summary> nativo, sin JS de cliente */}
+        <details className="group relative lg:hidden">
+          <summary
+            aria-label={t("menuLabel")}
+            className="flex size-10 cursor-pointer list-none items-center justify-center rounded-sm border border-border text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary [&::-webkit-details-marker]:hidden"
+          >
+            <Menu className="size-5 group-open:hidden" strokeWidth={1.75} />
+            <X className="hidden size-5 group-open:block" strokeWidth={1.75} />
+          </summary>
+
+          <div className="fixed inset-x-0 top-[calc(4rem+2.25rem)] z-50 border-b border-border bg-background px-6 py-8 shadow-lg">
+            <nav aria-label={t("navLabel")} className="flex flex-col gap-6">
+              {links.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-base font-medium text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                >
+                  {link.label}
+                </a>
+              ))}
+              <a
+                href={t("secondaryHref")}
+                className="text-base font-medium text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+              >
+                {t("secondaryLabel")}
+              </a>
+              <a
+                href={t("ctaHref")}
+                className="mt-2 inline-flex items-center justify-center gap-2 rounded-sm bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+              >
+                {t("ctaLabel")}
+                <ArrowRight className="size-4" strokeWidth={1.75} />
+              </a>
+            </nav>
+          </div>
+        </details>
+      </div>
+    </header>
+  );
+}

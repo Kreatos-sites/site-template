@@ -1,0 +1,44 @@
+{
+  "key": "hospitality-tier-selector",
+  "pascalName": "HospitalityTierSelector",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `hospitality-tier-selector` | hospitality-tier-selector — comparador de dos paquetes o tarifas lado a lado, uno destacado · úsalo para tarifas de hospedaje, planes de servicio o categorías de menú. | { eyebrow, title, description, tiers: [{ icon, name, price, period, description, features: string[], ctaLabel, featured }] } |",
+  "fixture": {
+    "eyebrow": "Tarifas",
+    "title": "Elija la categoría que se ajuste a su estadía",
+    "description": "Dos opciones pensadas para viajeros de negocio: una habitación ejecutiva con todo incluido y una tarifa sencilla para estancias cortas.",
+    "tiers": [
+      {
+        "icon": "crown",
+        "name": "Suite Ejecutiva",
+        "price": "$2,450",
+        "period": "por noche",
+        "description": "Nuestra categoría más solicitada para viajeros de negocio que se hospedan varias noches seguidas.",
+        "features": [
+          "Escritorio de trabajo y wifi dedicado de alta velocidad",
+          "Desayuno de cortesía en habitación o restaurante",
+          "Acceso al lounge ejecutivo de 6:00 a.m. a 10:00 p.m.",
+          "Servicio de lavandería express incluido",
+          "Check-out hasta las 2:00 p.m."
+        ],
+        "ctaLabel": "Reservar Suite Ejecutiva",
+        "featured": true
+      },
+      {
+        "icon": "crown",
+        "name": "Habitación Estándar",
+        "price": "$1,380",
+        "period": "por noche",
+        "description": "Ideal para estancias cortas: cómoda, funcional y con lo esencial para descansar bien.",
+        "features": [
+          "Wifi de alta velocidad incluido",
+          "Escritorio de trabajo",
+          "Café y té de cortesía",
+          "Check-out estándar a las 12:00 p.m."
+        ],
+        "ctaLabel": "Reservar Habitación Estándar",
+        "featured": false
+      }
+    ]
+  }
+}

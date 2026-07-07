@@ -1,0 +1,15 @@
+{
+  "key": "hero-minimalist-statement",
+  "pascalName": "HeroMinimalistStatement",
+  "category": "Heroes",
+  "catalogRow": "| `hero-minimalist-statement` | hero-minimalist-statement — hero centrado minimalista (eyebrow, título, subtítulo, un CTA) · úsalo para abrir el sitio con una declaración de marca sin imagen. | { eyebrow, title, subtitle, cta: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Despacho Contable Rosales",
+    "title": "Claridad fiscal para decisiones de negocio",
+    "subtitle": "Llevamos la contabilidad y el cumplimiento fiscal de empresas medianas en Monterrey, para que usted se enfoque en operar y crecer.",
+    "cta": {
+      "label": "Agendar diagnóstico",
+      "href": "/contacto"
+    }
+  }
+}

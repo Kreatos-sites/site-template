@@ -1,0 +1,51 @@
+{
+  "key": "features-alternating-split-bullet-narrative",
+  "pascalName": "FeaturesAlternatingSplitBulletNarrative",
+  "category": "Heroes",
+  "catalogRow": "| `features-alternating-split-bullet-narrative` | features-alternating-split-bullet-narrative — filas alternadas imagen/texto con viñetas de verificación · úsalo para narrar en detalle 2-4 etapas o capacidades de un servicio. | { eyebrow, title, rows: [{ eyebrow, title, description, bullets: string[], image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro método",
+    "title": "Cómo trabajamos cada expediente de principio a fin",
+    "rows": [
+      {
+        "eyebrow": "Diagnóstico",
+        "title": "Revisión documental exhaustiva antes de cotizar",
+        "description": "Analizamos contratos, estados financieros y antecedentes registrales antes de proponer una estrategia, para que la cotización refleje el alcance real del asunto y no una estimación genérica.",
+        "bullets": [
+          "Lectura completa del expediente por al menos dos abogados",
+          "Identificación de riesgos y plazos críticos en las primeras 48 horas",
+          "Reporte escrito con hallazgos antes de iniciar cualquier gestión",
+          "Cotización cerrada, sin honorarios ocultos por trámite adicional"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Abogado revisando documentos contractuales sobre un escritorio"
+      },
+      {
+        "eyebrow": "Ejecución",
+        "title": "Seguimiento semanal con el socio a cargo del caso",
+        "description": "Cada cliente tiene un socio asignado, no solo un asociado júnior. Las actualizaciones llegan por correo cada semana, con copia de los escritos presentados y fecha de la siguiente audiencia.",
+        "bullets": [
+          "Un solo punto de contacto durante toda la gestión",
+          "Copia digital de cada escrito y notificación presentada",
+          "Aviso previo de audiencias con al menos cinco días hábiles",
+          "Acceso a expediente electrónico las 24 horas"
+        ],
+        "image": "/images/hero.svg",
+        "imageAlt": "Sala de juntas con equipo legal revisando una carpeta de caso"
+      },
+      {
+        "eyebrow": "Cierre",
+        "title": "Entrega de resultado con recomendaciones a futuro",
+        "description": "Al concluir el asunto entregamos un informe final con el resultado obtenido y recomendaciones concretas para reducir riesgo legal en operaciones similares durante los próximos ejercicios fiscales.",
+        "bullets": [
+          "Informe final con resolución y fundamento en lenguaje claro",
+          "Recomendaciones preventivas para contratos futuros",
+          "Archivo digital del expediente completo por diez años",
+          "Sesión de cierre presencial o remota con el equipo directivo"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Cliente firmando documento final junto al equipo del despacho"
+      }
+    ]
+  }
+}

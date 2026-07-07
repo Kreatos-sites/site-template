@@ -1,0 +1,23 @@
+{
+  "key": "pricing-seat-calculator-slider-dynamic",
+  "pascalName": "PricingSeatCalculatorSliderDynamic",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-seat-calculator-slider-dynamic` | pricing-seat-calculator-slider-dynamic — calculadora de precio por asientos con track visual y tarjeta de total · úsalo para software con precio escalonado por número de usuarios. | { eyebrow, title, description, seatsLabel, perSeatLabel, totalLabel, brackets: [{ seats, pricePerSeat, total, featured? }], footnote, cta } |",
+  "fixture": {
+    "eyebrow": "Precio por usuario",
+    "title": "Calcule el costo según el tamaño de su equipo",
+    "description": "Nuestra plataforma de gestión de proyectos escala con su despacho: entre más usuarios activos, menor el costo por asiento.",
+    "seatsLabel": "usuarios",
+    "perSeatLabel": "por usuario al mes",
+    "totalLabel": "Total estimado mensual",
+    "brackets": [
+      { "seats": "5", "pricePerSeat": "$450 MXN", "total": "$2,250 MXN" },
+      { "seats": "10", "pricePerSeat": "$420 MXN", "total": "$4,200 MXN" },
+      { "seats": "25", "pricePerSeat": "$380 MXN", "total": "$9,500 MXN", "featured": true },
+      { "seats": "50", "pricePerSeat": "$340 MXN", "total": "$17,000 MXN" },
+      { "seats": "100", "pricePerSeat": "$300 MXN", "total": "$30,000 MXN" }
+    ],
+    "footnote": "Los precios incluyen soporte técnico y actualizaciones sin costo adicional. Facturación anual con 15% de descuento disponible.",
+    "cta": "Solicitar cotización para mi equipo"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "key": "team-org-culture-alumni",
+  "pascalName": "TeamOrgCultureAlumni",
+  "category": "Equipo",
+  "catalogRow": "| `team-org-culture-alumni` | team-org-culture-alumni — equipo con pilares de cultura, retratos directivos y franja de alumni · úsalo para mostrar cultura interna y red de exalumnos. | { eyebrow, title, intro, pillars: [{ icon, title, description }], members: [{ name, role, image, imageAlt }], alumniLabel, alumni: [{ name, role }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Un despacho que crece por las personas que forma",
+    "intro": "Somos veintidós arquitectos e ingenieros organizados en tres estudios internos. Formamos talento, documentamos criterio y seguimos colaborando con quienes ya construyeron aquí, incluso después de que emprenden su propio camino.",
+    "pillars": [
+      {
+        "icon": "compass",
+        "title": "Criterio antes que estilo",
+        "description": "Cada proyecto pasa por comité técnico antes de salir del estudio. No firmamos nada que no podamos defender ante el cliente y ante la ciudad."
+      },
+      {
+        "icon": "users",
+        "title": "Mentoría estructurada",
+        "description": "Todo colaborador junior tiene un socio asignado durante sus primeros dos años. El seguimiento queda documentado, no depende de la memoria de nadie."
+      },
+      {
+        "icon": "heart",
+        "title": "Puertas abiertas al salir",
+        "description": "Quienes dejan el despacho para abrir su propio estudio siguen recibiendo referidos nuestros cuando el proyecto encaja mejor con su enfoque."
+      }
+    ],
+    "members": [
+      {
+        "name": "Renata Solís Vega",
+        "role": "Directora de diseño",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Solís Vega, directora de diseño del despacho"
+      },
+      {
+        "name": "Gerardo Miranda Ochoa",
+        "role": "Director técnico",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Gerardo Miranda Ochoa, director técnico del despacho"
+      },
+      {
+        "name": "Ivonne Salazar Treviño",
+        "role": "Coordinadora de proyecto",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ivonne Salazar Treviño, coordinadora de proyecto"
+      },
+      {
+        "name": "Adolfo Reyes Camarena",
+        "role": "Líder de sustentabilidad",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Adolfo Reyes Camarena, líder de sustentabilidad"
+      }
+    ],
+    "alumniLabel": "Alumni y colaboradores externos",
+    "alumni": [
+      { "name": "Mauricio Fuentes Islas", "role": "Fundador, Estudio Islas" },
+      { "name": "Karla Nuño Beltrán", "role": "Socia, Nuño Arquitectura" },
+      { "name": "Sebastián Ríos Peña", "role": "Consultor estructural externo" },
+      { "name": "Daniela Ochoa Serrano", "role": "Fundadora, DOS Interiorismo" },
+      { "name": "Pablo Elizondo Marín", "role": "Colaborador de obra, freelance" },
+      { "name": "Fernanda Ibarra Cantú", "role": "Consultora en paisajismo" }
+    ]
+  }
+}

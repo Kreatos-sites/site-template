@@ -1,0 +1,23 @@
+{
+  "key": "article-footer-social-share-tags",
+  "pascalName": "ArticleFooterSocialShareTags",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `article-footer-social-share-tags` | article-footer-social-share-tags — cierre de artículo con tags temáticos y botones para compartir en redes · úsalo para el pie de un post de blog o artículo editorial. | { eyebrow, title, description, tagsLabel, tags: [string], shareLabel, shareFacebookAria, shareTwitterAria, shareLinkedinAria, shareCopyLinkAria } |",
+  "fixture": {
+    "eyebrow": "Cierre de artículo",
+    "title": "Comparta este análisis con su equipo legal",
+    "description": "Si este artículo le resultó útil para evaluar el cumplimiento normativo de su fusión o adquisición, compártalo con sus colegas o guárdelo para consulta posterior.",
+    "tagsLabel": "Temas relacionados",
+    "tags": [
+      "Derecho corporativo",
+      "Fusiones y adquisiciones",
+      "Cumplimiento normativo",
+      "Gobierno corporativo"
+    ],
+    "shareLabel": "Compartir",
+    "shareFacebookAria": "Compartir este artículo en Facebook",
+    "shareTwitterAria": "Compartir este artículo en X",
+    "shareLinkedinAria": "Compartir este artículo en LinkedIn",
+    "shareCopyLinkAria": "Copiar el enlace de este artículo"
+  }
+}

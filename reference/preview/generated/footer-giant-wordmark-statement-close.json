@@ -1,0 +1,61 @@
+{
+  "key": "footer-giant-wordmark-statement-close",
+  "pascalName": "FooterGiantWordmarkStatementClose",
+  "category": "Footers",
+  "catalogRow": "| `footer-giant-wordmark-statement-close` | footer-giant-wordmark-statement-close — cierre con frase de posicionamiento, columnas de navegación y wordmark gigante de contorno · uso: cierre corporativo con identidad fuerte. | { statement, columns: [{ title, links: [{ label, href }] }], statusLabel, socialLinks: [{ icon, label, href }], wordmark, copyright, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "statement": "Construimos con métodos verificables y entregas puntuales, desde el levantamiento hasta la última inspección.",
+    "columns": [
+      {
+        "title": "Constructora",
+        "links": [
+          { "label": "Nosotros", "href": "/nosotros" },
+          { "label": "Equipo técnico", "href": "/equipo" },
+          { "label": "Proyectos entregados", "href": "/proyectos" },
+          { "label": "Trabaje con nosotros", "href": "/carreras" }
+        ]
+      },
+      {
+        "title": "Servicios",
+        "links": [
+          { "label": "Obra civil", "href": "/servicios/obra-civil" },
+          { "label": "Remodelación industrial", "href": "/servicios/remodelacion" },
+          { "label": "Gerencia de proyecto", "href": "/servicios/gerencia" },
+          { "label": "Mantenimiento preventivo", "href": "/servicios/mantenimiento" }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          { "label": "Casos de estudio", "href": "/casos" },
+          { "label": "Normativa y permisos", "href": "/normativa" },
+          { "label": "Preguntas frecuentes", "href": "/preguntas-frecuentes" },
+          { "label": "Contacto", "href": "/contacto" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Aviso de privacidad", "href": "/privacidad" },
+          { "label": "Términos de servicio", "href": "/terminos" },
+          { "label": "Política de calidad", "href": "/calidad" },
+          { "label": "Transparencia", "href": "/transparencia" }
+        ]
+      }
+    ],
+    "statusLabel": "Recibiendo licitaciones para el próximo trimestre",
+    "socialLinks": [
+      { "icon": "linkedin", "label": "LinkedIn de Constructora Peñalva", "href": "https://linkedin.com" },
+      { "icon": "twitter", "label": "X de Constructora Peñalva", "href": "https://x.com" },
+      { "icon": "instagram", "label": "Instagram de Constructora Peñalva", "href": "https://instagram.com" },
+      { "icon": "facebook", "label": "Facebook de Constructora Peñalva", "href": "https://facebook.com" }
+    ],
+    "wordmark": "Peñalva",
+    "copyright": "© 2026 Constructora Peñalva, S.A. de C.V. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Privacidad", "href": "/privacidad" },
+      { "label": "Términos", "href": "/terminos" },
+      { "label": "Cookies", "href": "/cookies" }
+    ]
+  }
+}

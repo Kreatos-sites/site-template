@@ -1,0 +1,41 @@
+{
+  "key": "case-study-immersive",
+  "pascalName": "CaseStudyImmersive",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `case-study-immersive` | case-study-immersive — página inmersiva de caso de estudio con hero, ficha de datos y galería editorial · úsalo para presentar un proyecto ejecutado a detalle. | { eyebrow, title, summary, heroImage, heroImageAlt, meta: [{label, value}], gallery: [{image, imageAlt, caption}] } |",
+  "fixture": {
+    "eyebrow": "Caso de estudio",
+    "title": "Centro de distribución Bajío: de la obra gris a operación en ocho meses",
+    "summary": "Acompañamos a Grupo Sarelva desde el diseño ejecutivo hasta la entrega de su nave logística de 18,000 metros cuadrados en Silao, coordinando estructura, instalaciones y obra exterior bajo un solo calendario maestro.",
+    "heroImage": "/images/hero.svg",
+    "heroImageAlt": "Vista aérea de la nave logística terminada con andenes de carga y patio de maniobras",
+    "meta": [
+      { "label": "Cliente", "value": "Grupo Sarelva" },
+      { "label": "Ubicación", "value": "Silao, Guanajuato" },
+      { "label": "Duración", "value": "8 meses" },
+      { "label": "Superficie", "value": "18,000 m²" }
+    ],
+    "gallery": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Estructura metálica de la nave durante el montaje",
+        "caption": "Montaje de la estructura principal: 420 toneladas de acero erigidas en seis semanas sin detener la obra civil en paralelo."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Andenes de carga con plataformas niveladoras instaladas",
+        "caption": "Doce andenes con plataformas niveladoras hidráulicas, dimensionados para el patrón de flota del cliente."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de la nave con racks de almacenamiento instalados",
+        "caption": "Interior habilitado con racking selectivo a 11 metros de altura y sistema contra incendio tipo ESFR."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Patio de maniobras y cerco perimetral terminados",
+        "caption": "Patio de maniobras pavimentado para tráileres de doble remolque y control de acceso perimetral."
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "key": "gallery-masonry-hover-overlay",
+  "pascalName": "GalleryMasonryHoverOverlay",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `gallery-masonry-hover-overlay` | gallery-masonry-hover-overlay — galería masónica (columnas CSS, alturas variadas) con overlay de caption al hover · úsalo para portafolios de obra o catálogos visuales con muchas imágenes. | { eyebrow, title, items: [{ image, imageAlt, title, category }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos recientes de nuestro estudio",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de oficinas corporativas con acabados en concreto y cristal",
+        "title": "Torre Corporativa Altavista",
+        "category": "Arquitectura comercial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de sala de juntas con iluminación natural",
+        "title": "Remodelación de oficinas Vantia",
+        "category": "Interiorismo"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial con estructura metálica expuesta",
+        "title": "Centro de distribución Norte",
+        "category": "Industrial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada residencial con jardín vertical",
+        "title": "Conjunto residencial Los Encinos",
+        "category": "Residencial"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Recepción de despacho con mobiliario a medida",
+        "title": "Recepción corporativa Bufete Marín",
+        "category": "Interiorismo"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Plaza comercial con áreas verdes y estacionamiento",
+        "title": "Plaza comercial Rincón del Valle",
+        "category": "Arquitectura comercial"
+      }
+    ]
+  }
+}

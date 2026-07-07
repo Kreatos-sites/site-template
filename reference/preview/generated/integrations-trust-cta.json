@@ -1,0 +1,25 @@
+{
+  "key": "integrations-trust-cta",
+  "pascalName": "IntegrationsTrustCta",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `integrations-trust-cta` | integrations-trust-cta — CTA de cierre con anillo de integraciones tipográficas · úsalo para reforzar confianza justo antes del llamado a la acción. | { eyebrow, title, description?, integrations: [{ name }], cta: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Integraciones",
+    "title": "Conecte su operación con las plataformas que ya utiliza",
+    "description": "Nuestra plataforma de distribución se integra de forma nativa con los sistemas de facturación, transporte y pago que su empresa ya opera, sin proyectos de implementación prolongados.",
+    "integrations": [
+      { "name": "SAP Business One" },
+      { "name": "Facturama" },
+      { "name": "Estafeta" },
+      { "name": "FedEx México" },
+      { "name": "Conekta" },
+      { "name": "Mercado Pago" },
+      { "name": "QuickBooks" },
+      { "name": "Contpaqi" }
+    ],
+    "cta": {
+      "label": "Agendar una demostración",
+      "href": "/contacto"
+    }
+  }
+}

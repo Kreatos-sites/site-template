@@ -1,0 +1,65 @@
+{
+  "key": "product-grid-featured",
+  "pascalName": "ProductGridFeatured",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-grid-featured` | product-grid-featured — grid de productos con imagen, colección, precio y distintivo opcional · úsalo para catálogos con varias líneas o colecciones. | { eyebrow, title, description, linkLabel, linkHref, products: [{ image, imageAlt, collection, name, description, price, badge? }] } |",
+  "fixture": {
+    "eyebrow": "Catálogo",
+    "title": "Piezas destacadas de esta temporada",
+    "description": "Una selección de nuestras líneas más solicitadas, disponibles para pedido en mayoreo y menudeo con entrega en toda la República.",
+    "linkLabel": "Ver catálogo completo",
+    "linkHref": "/catalogo",
+    "products": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Silla de comedor de madera de la línea Roble Nogal",
+        "collection": "Línea Roble Nogal",
+        "name": "Silla de comedor Roble Nogal",
+        "description": "Estructura de madera maciza con acabado natural y respaldo tapizado en tela resistente al uso diario.",
+        "price": "Desde $2,890 MXN",
+        "badge": "Nuevo"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Mesa de centro de la colección Piedra Volcánica",
+        "collection": "Colección Piedra Volcánica",
+        "name": "Mesa de centro Basalto",
+        "description": "Cubierta de piedra volcánica pulida sobre base de acero al carbón con recubrimiento electrostático.",
+        "price": "Desde $6,450 MXN"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Repisa flotante de la línea Minimal Metal",
+        "collection": "Línea Minimal Metal",
+        "name": "Repisa flotante Ranura",
+        "description": "Perfil metálico de bajo espesor con anclaje oculto, disponible en tres longitudes para closet u oficina.",
+        "price": "Desde $1,190 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Lámpara de piso de la colección Lino Cálido",
+        "collection": "Colección Lino Cálido",
+        "name": "Lámpara de piso Alcázar",
+        "description": "Pantalla de lino natural sobre pie de madera torneada, con cable textil y atenuador de intensidad.",
+        "price": "Desde $3,275 MXN",
+        "badge": "Edición limitada"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Banca tapizada de la línea Roble Nogal",
+        "collection": "Línea Roble Nogal",
+        "name": "Banca tapizada Sotavento",
+        "description": "Asiento acolchado en tela bouclé sobre estructura de roble nogal, ideal para recibidor o pie de cama.",
+        "price": "Desde $4,120 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Espejo de pared de la colección Piedra Volcánica",
+        "collection": "Colección Piedra Volcánica",
+        "name": "Espejo de pared Obsidiana",
+        "description": "Marco de basalto con corte biselado y sistema de anclaje reforzado para instalación en muro seco o firme.",
+        "price": "Desde $2,340 MXN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "key": "header-full-width-responsive",
+  "pascalName": "HeaderFullWidthResponsive",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-full-width-responsive` | header-full-width-responsive — header sticky con logo, nav de escritorio, CTA y menú móvil vía details/summary sin JS · úsalo como encabezado fijo de cualquier sitio corporativo. | { logo, navLabel, menuLabel, links: [{ label, href }], ctaLabel, ctaHref } |",
+  "fixture": {
+    "logo": "Vergara & Asociados",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú de navegación",
+    "links": [
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "key": "hero-with-analytics-dashboard",
+  "pascalName": "HeroWithAnalyticsDashboard",
+  "category": "Heroes",
+  "catalogRow": "| `hero-with-analytics-dashboard` | hero-with-analytics-dashboard — hero split con dashboard de métricas (barras) · úsalo en SaaS o plataformas de datos para mostrar resultados medibles junto al mensaje. | { eyebrow, title, subtitle, primaryCta: { label, href }, secondaryCta: { label, href }, stats: [{ value, label }], chart: [{ label, value }], dashboard: { label, value, delta, metrics: [{ label, value }] } } |",
+  "fixture": {
+    "eyebrow": "Plataforma de gestión logística",
+    "title": "Visibilidad total de su operación de distribución, en un solo panel",
+    "subtitle": "Rastree entregas, controle inventario y mida el desempeño de su flotilla en tiempo real. Diseñado para distribuidoras que mueven volumen todos los días.",
+    "primaryCta": { "label": "Solicitar una demostración", "href": "#contacto" },
+    "secondaryCta": { "label": "Ver planes", "href": "#planes" },
+    "stats": [
+      { "value": "98.2%", "label": "Entregas a tiempo" },
+      { "value": "+340", "label": "Rutas activas" },
+      { "value": "24/7", "label": "Monitoreo" }
+    ],
+    "chart": [
+      { "label": "Ene", "value": 42 },
+      { "label": "Feb", "value": 51 },
+      { "label": "Mar", "value": 47 },
+      { "label": "Abr", "value": 63 },
+      { "label": "May", "value": 71 },
+      { "label": "Jun", "value": 88 }
+    ],
+    "dashboard": {
+      "label": "Entregas completadas este mes",
+      "value": "12,480",
+      "delta": "+18.4%",
+      "metrics": [
+        { "label": "Tiempo promedio", "value": "2.1 hrs" },
+        { "label": "Costo por ruta", "value": "$412" },
+        { "label": "Incidencias", "value": "0.6%" },
+        { "label": "Flotilla activa", "value": "86 unidades" }
+      ]
+    }
+  }
+}

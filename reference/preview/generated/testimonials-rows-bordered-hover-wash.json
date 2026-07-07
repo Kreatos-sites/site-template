@@ -1,0 +1,53 @@
+{
+  "key": "testimonials-rows-bordered-hover-wash",
+  "pascalName": "TestimonialsRowsBorderedHoverWash",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-rows-bordered-hover-wash` | testimonials-rows-bordered-hover-wash — filas bordeadas con avatar, estrellas y wash de fondo al hover · úsalo para prueba social densa con calificación visible. | { eyebrow, title, ratingLabel, items: [{ quote, name, role, avatar, avatarAlt, rating }] } |",
+  "fixture": {
+    "eyebrow": "Testimonios",
+    "title": "Clientes que han transformado su operación logística con nosotros",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "items": [
+      {
+        "quote": "Redujeron nuestro tiempo de entrega en ruta corta de tres días a uno, con seguimiento en tiempo real de cada embarque.",
+        "name": "Fernando Achach",
+        "role": "Director de operaciones, Distribuidora Achach",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Fernando Achach",
+        "rating": 5
+      },
+      {
+        "quote": "La flota nunca se detiene por mantenimiento sin previo aviso. Su calendario preventivo nos ha evitado pérdidas importantes.",
+        "name": "Lucía Bermúdez",
+        "role": "Gerente de flota, Transportes del Bajío",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Lucía Bermúdez",
+        "rating": 5
+      },
+      {
+        "quote": "Consolidaron tres bodegas regionales en un solo centro de distribución sin que se nos perdiera un solo pedido en la transición.",
+        "name": "Rodrigo Nájera",
+        "role": "Director de cadena de suministro, Grupo Nájera",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Rodrigo Nájera",
+        "rating": 4
+      },
+      {
+        "quote": "El portal de rastreo que nos dieron acceso lo usan hasta nuestros clientes finales para confirmar sus entregas.",
+        "name": "Daniela Oyervides",
+        "role": "Gerente comercial, Logística del Norte",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Daniela Oyervides",
+        "rating": 5
+      },
+      {
+        "quote": "Cambiamos de proveedor hace ocho meses y la puntualidad en entregas foráneas pasó de un problema constante a un no-tema.",
+        "name": "Ismael Treviño",
+        "role": "Director general, Materiales Treviño",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ismael Treviño",
+        "rating": 5
+      }
+    ]
+  }
+}

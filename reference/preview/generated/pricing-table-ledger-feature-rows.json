@@ -1,0 +1,50 @@
+{
+  "key": "pricing-table-ledger-feature-rows",
+  "pascalName": "PricingTableLedgerFeatureRows",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-table-ledger-feature-rows` | pricing-table-ledger-feature-rows — tabla de precios estilo ledger de tres planes con filas de características · úsalo para comparar planes de servicios profesionales. | { eyebrow, title, description?, featureColumnLabel, highlightedLabel, plans: [{ name, price, period?, description?, highlighted?, cta, href }] (3), features: [{ label, values: (boolean/string)[] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Elija el nivel de acompañamiento contable y fiscal que necesita",
+    "description": "Los tres planes incluyen presentación de declaraciones ante el SAT y acceso a su contador asignado. La diferencia está en la profundidad del análisis y los tiempos de respuesta.",
+    "featureColumnLabel": "Características incluidas",
+    "highlightedLabel": "Más contratado",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "/mes",
+        "description": "Para negocios en régimen simplificado con operación de bajo volumen.",
+        "cta": "Solicitar plan Esencial",
+        "href": "/contacto"
+      },
+      {
+        "name": "Corporativo",
+        "price": "$9,800",
+        "period": "/mes",
+        "description": "Para empresas con nómina activa y obligaciones fiscales múltiples.",
+        "highlighted": true,
+        "cta": "Solicitar plan Corporativo",
+        "href": "/contacto"
+      },
+      {
+        "name": "Grupo empresarial",
+        "price": "Cotización",
+        "period": "",
+        "description": "Para grupos con varias razones sociales y consolidación fiscal.",
+        "cta": "Agendar diagnóstico",
+        "href": "/contacto"
+      }
+    ],
+    "features": [
+      { "label": "Declaraciones mensuales ante el SAT", "values": [true, true, true] },
+      { "label": "Contador asignado", "values": [true, true, true] },
+      { "label": "Tiempo de respuesta", "values": ["48 horas", "24 horas", "Mismo día"] },
+      { "label": "Cálculo y timbrado de nómina", "values": [false, true, true] },
+      { "label": "Revisión trimestral de flujo de efectivo", "values": [false, true, true] },
+      { "label": "Consolidación entre razones sociales", "values": [false, false, true] },
+      { "label": "Acompañamiento en auditorías del SAT", "values": [false, true, true] },
+      { "label": "Reportes financieros para socios", "values": ["Básico", "Detallado", "A la medida"] }
+    ]
+  }
+}

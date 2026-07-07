@@ -1,0 +1,27 @@
+{
+  "key": "contact-form-parallax-support",
+  "pascalName": "ContactFormParallaxSupport",
+  "category": "Contacto",
+  "catalogRow": "| `contact-form-parallax-support` | contact-form-parallax-support — formulario con imagen sticky y viñetas de soporte · úsalo para páginas de soporte técnico o contacto pre-venta con formulario extenso. | { eyebrow, title, subtitle, image, imageAlt, highlights: [{ icon, label }], fields: [{ name, label, type, placeholder }], submitLabel, responseNote } |",
+  "fixture": {
+    "eyebrow": "Soporte técnico",
+    "title": "Hablemos de su proyecto antes de firmar",
+    "subtitle": "Escríbanos con el alcance de su obra y un especialista de Estructuras Cardenal le contactará con una propuesta preliminar en menos de un día hábil.",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de soporte técnico de Estructuras Cardenal revisando planos",
+    "highlights": [
+      { "icon": "clock", "label": "Respuesta en menos de 24 horas" },
+      { "icon": "headset", "label": "Asesoría técnica sin costo" },
+      { "icon": "shield", "label": "Cotización con garantía por escrito" }
+    ],
+    "fields": [
+      { "name": "name", "label": "Nombre completo", "type": "text", "placeholder": "Su nombre" },
+      { "name": "company", "label": "Empresa", "type": "text", "placeholder": "Razón social" },
+      { "name": "email", "label": "Correo", "type": "email", "placeholder": "correo@empresa.com" },
+      { "name": "phone", "label": "Teléfono", "type": "tel", "placeholder": "55 0000 0000" },
+      { "name": "message", "label": "Cuéntenos sobre su proyecto", "type": "textarea", "placeholder": "Tipo de obra, ubicación y fecha estimada de inicio" }
+    ],
+    "submitLabel": "Enviar solicitud",
+    "responseNote": "Le responderemos en un plazo máximo de 24 horas hábiles"
+  }
+}

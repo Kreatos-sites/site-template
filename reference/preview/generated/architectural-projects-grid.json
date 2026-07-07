@@ -1,0 +1,61 @@
+{
+  "key": "architectural-projects-grid",
+  "pascalName": "ArchitecturalProjectsGrid",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `architectural-projects-grid` | architectural-projects-grid — cuadrícula de proyectos con foto, categoría y ubicación/año · úsalo para el portafolio de obras de una constructora o inmobiliaria. | { eyebrow, title, description, projects: [{ title, category, location, year, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Desarrollos que hemos entregado en el área metropolitana",
+    "description": "Cada proyecto refleja el mismo estándar técnico: planos ejecutivos verificados, supervisión de obra directa y entrega en la fecha pactada con el cliente.",
+    "projects": [
+      {
+        "title": "Residencial Altavista",
+        "category": "Vivienda vertical",
+        "location": "San Pedro Garza García, N.L.",
+        "year": "2024",
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada del Residencial Altavista al atardecer"
+      },
+      {
+        "title": "Corporativo Cumbres",
+        "category": "Oficinas",
+        "location": "Monterrey, N.L.",
+        "year": "2023",
+        "image": "/images/about.svg",
+        "imageAlt": "Vista exterior del Corporativo Cumbres"
+      },
+      {
+        "title": "Plaza Insurgentes Norte",
+        "category": "Uso mixto",
+        "location": "Guadalupe, N.L.",
+        "year": "2023",
+        "image": "/images/hero.svg",
+        "imageAlt": "Plaza comercial Insurgentes Norte con locales en planta baja"
+      },
+      {
+        "title": "Conjunto Los Encinos",
+        "category": "Vivienda residencial",
+        "location": "Santiago, N.L.",
+        "year": "2022",
+        "image": "/images/about.svg",
+        "imageAlt": "Casas del conjunto residencial Los Encinos"
+      },
+      {
+        "title": "Nave Industrial Apodaca III",
+        "category": "Industrial",
+        "location": "Apodaca, N.L.",
+        "year": "2022",
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial Apodaca III en construcción avanzada"
+      },
+      {
+        "title": "Torre Valle Oriente",
+        "category": "Oficinas",
+        "location": "San Pedro Garza García, N.L.",
+        "year": "2021",
+        "image": "/images/about.svg",
+        "imageAlt": "Torre de oficinas Valle Oriente vista desde la calle"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "key": "team-member-profile-individual-cover",
+  "pascalName": "TeamMemberProfileIndividualCover",
+  "category": "Equipo",
+  "catalogRow": "| `team-member-profile-individual-cover` | team-member-profile-individual-cover — perfil individual fullbleed con cover, avatar, bio y trayectoria · úsalo para presentar a un socio o directivo destacado. | { eyebrow, name, role, coverImage, coverImageAlt, avatar, avatarAlt, stats: [{ value, label }], bioTitle, bioParagraphs: string[], timelineTitle, timeline: [{ period, title, description }], contactLinks: [{ icon: role/location/email/linkedin, label, href }] } |",
+  "fixture": {
+    "eyebrow": "Socio director",
+    "name": "Ricardo Elizondo Mata",
+    "role": "Socio director · Práctica de derecho corporativo",
+    "coverImage": "/images/hero.svg",
+    "coverImageAlt": "Vista del despacho desde la sala de juntas",
+    "avatar": "/images/about.svg",
+    "avatarAlt": "Retrato de Ricardo Elizondo Mata",
+    "stats": [
+      { "value": "18", "label": "Años de práctica" },
+      { "value": "230+", "label": "Casos representados" },
+      { "value": "40", "label": "Fusiones asesoradas" },
+      { "value": "12", "label": "Sectores atendidos" }
+    ],
+    "bioTitle": "Trayectoria",
+    "bioParagraphs": [
+      "Ricardo dirige la práctica de derecho corporativo del despacho desde 2014, con enfoque en fusiones, adquisiciones y estructuración societaria para empresas familiares en proceso de expansión regional.",
+      "Antes de integrarse al despacho, coordinó el área legal de un grupo industrial con operaciones en tres estados, donde participó en la reestructura de gobierno corporativo de más de veinte compañías subsidiarias.",
+      "Actualmente acompaña a consejos de administración en procesos de sucesión patrimonial y en la negociación de contratos de inversión con fondos institucionales."
+    ],
+    "timelineTitle": "Trayectoria profesional",
+    "timeline": [
+      {
+        "period": "2014 — actualidad",
+        "title": "Socio director, práctica corporativa",
+        "description": "Encabeza el equipo de fusiones y adquisiciones, con responsabilidad directa sobre las cuentas de clientes industriales y financieros."
+      },
+      {
+        "period": "2008 — 2014",
+        "title": "Coordinador legal, Grupo Ferralca",
+        "description": "Responsable del área jurídica corporativa en un grupo industrial con presencia en Nuevo León, Coahuila y Tamaulipas."
+      },
+      {
+        "period": "2004 — 2008",
+        "title": "Asociado senior, litigio mercantil",
+        "description": "Representó a clientes corporativos en controversias mercantiles y arbitrajes comerciales ante tribunales estatales y federales."
+      }
+    ],
+    "contactLinks": [
+      { "icon": "email", "label": "Escribir correo a Ricardo Elizondo", "href": "mailto:relizondo@despacho.mx" },
+      { "icon": "linkedin", "label": "Perfil de LinkedIn de Ricardo Elizondo", "href": "https://linkedin.com" }
+    ]
+  }
+}

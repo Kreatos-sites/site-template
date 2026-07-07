@@ -1,0 +1,49 @@
+{
+  "key": "logo-gallery-featured-thumbnail-rail",
+  "pascalName": "LogoGalleryFeaturedThumbnailRail",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-gallery-featured-thumbnail-rail` | logo-gallery-featured-thumbnail-rail — galería con captura destacada en marco de navegador y carril de miniaturas · úsalo para exhibir integraciones o plataformas aliadas. | { eyebrow, title, description, featured: { badge, image, imageAlt, caption }, items: [{ image, imageAlt, label }] } |",
+  "fixture": {
+    "eyebrow": "Integraciones",
+    "title": "Conectado con las plataformas que ya utiliza su operación",
+    "description": "Sincronizamos inventario, pedidos y facturación con los sistemas que sus equipos de compras y almacén usan todos los días, sin duplicar capturas ni hojas de cálculo.",
+    "featured": {
+      "badge": "Panel de sincronización",
+      "image": "/images/hero.svg",
+      "imageAlt": "Panel de sincronización de inventario entre el ERP y el almacén",
+      "caption": "Cada movimiento de entrada y salida se refleja en tiempo real en su ERP, sin intervención manual ni reconciliaciones al cierre del mes."
+    },
+    "items": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Integración con SAP Business One",
+        "label": "SAP Business One"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Integración con Contpaqi Comercial",
+        "label": "Contpaqi Comercial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Integración con plataforma EDI de retail",
+        "label": "EDI Retail"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Integración con el sistema de facturación del SAT",
+        "label": "Facturación CFDI"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Integración con WMS de almacén",
+        "label": "WMS de almacén"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Integración con Shopify B2B",
+        "label": "Shopify B2B"
+      }
+    ]
+  }
+}

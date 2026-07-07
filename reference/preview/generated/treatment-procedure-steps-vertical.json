@@ -1,0 +1,38 @@
+{
+  "key": "treatment-procedure-steps-vertical",
+  "pascalName": "TreatmentProcedureStepsVertical",
+  "category": "Salud y servicios pro",
+  "catalogRow": "| `treatment-procedure-steps-vertical` | treatment-procedure-steps-vertical — stepper vertical de pasos numerados con estado hecho/actual/próximo · úsalo para explicar el flujo de un procedimiento clínico o profesional. | { eyebrow, title, description, steps: [{ title, description, status: done/current/upcoming }] } |",
+  "fixture": {
+    "eyebrow": "Proceso clínico",
+    "title": "Así se desarrolla su tratamiento con nosotros",
+    "description": "Cada etapa está documentada y supervisada por el mismo especialista, de la valoración inicial hasta el seguimiento posterior al procedimiento.",
+    "steps": [
+      {
+        "title": "Valoración inicial",
+        "description": "Revisamos su historial clínico, realizamos los estudios necesarios y definimos el objetivo del tratamiento en una sesión de 45 minutos.",
+        "status": "done"
+      },
+      {
+        "title": "Plan personalizado",
+        "description": "Le entregamos un plan por escrito con las sesiones, tiempos de recuperación estimados y el costo total desglosado.",
+        "status": "done"
+      },
+      {
+        "title": "Procedimiento",
+        "description": "Se realiza en nuestro consultorio con anestesia local cuando aplica; usted permanece en observación durante los primeros 30 minutos.",
+        "status": "current"
+      },
+      {
+        "title": "Seguimiento a 15 días",
+        "description": "Revisión de cicatrización o respuesta al tratamiento y ajuste de indicaciones si es necesario.",
+        "status": "upcoming"
+      },
+      {
+        "title": "Alta y recomendaciones",
+        "description": "Confirmamos los resultados, entregamos su expediente y agendamos el control de mantenimiento anual.",
+        "status": "upcoming"
+      }
+    ]
+  }
+}

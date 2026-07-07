@@ -1,0 +1,54 @@
+{
+  "key": "footer-multi-column-sitemap-locale-theme",
+  "pascalName": "FooterMultiColumnSitemapLocaleTheme",
+  "category": "Contacto",
+  "catalogRow": "| `footer-multi-column-sitemap-locale-theme` | footer-multi-column-sitemap-locale-theme — footer corporativo con sitemap de tres columnas, selector de idioma y tema · úsalo para sitios multilingües con modo claro/oscuro. | { brandName, tagline, localeLabel, localeOptions: [{ label, href, current }], themeLabel, themeOptions: [{ label, current }], columns: [{ heading, links: [{ label, href }] }], legalLinks: [{ label, href }], copyright } |",
+  "fixture": {
+    "brandName": "Rutas Altiva",
+    "tagline": "Logística y distribución multimodal para empresas que exportan desde el Bajío hacia Norteamérica.",
+    "localeLabel": "Idioma",
+    "localeOptions": [
+      { "label": "Español", "href": "/es", "current": true },
+      { "label": "English", "href": "/en", "current": false }
+    ],
+    "themeLabel": "Apariencia",
+    "themeOptions": [
+      { "label": "Claro", "current": true },
+      { "label": "Oscuro", "current": false }
+    ],
+    "columns": [
+      {
+        "heading": "Compañía",
+        "links": [
+          { "label": "Nosotros", "href": "#nosotros" },
+          { "label": "Flota y cobertura", "href": "#flota" },
+          { "label": "Certificaciones", "href": "#certificaciones" },
+          { "label": "Trabaja con nosotros", "href": "#carrera" }
+        ]
+      },
+      {
+        "heading": "Servicios",
+        "links": [
+          { "label": "Transporte terrestre", "href": "#terrestre" },
+          { "label": "Cruce fronterizo", "href": "#frontera" },
+          { "label": "Almacenaje y consolidado", "href": "#almacen" },
+          { "label": "Rastreo de embarques", "href": "#rastreo" }
+        ]
+      },
+      {
+        "heading": "Contacto",
+        "links": [
+          { "label": "Cotizar envío", "href": "#cotizar" },
+          { "label": "Oficina León", "href": "#leon" },
+          { "label": "Oficina Laredo", "href": "#laredo" },
+          { "label": "Aviso de privacidad", "href": "/privacidad" }
+        ]
+      }
+    ],
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ],
+    "copyright": "© 2026 Rutas Altiva. Todos los derechos reservados."
+  }
+}

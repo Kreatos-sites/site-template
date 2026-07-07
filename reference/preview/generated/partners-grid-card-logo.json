@@ -1,0 +1,21 @@
+{
+  "key": "partners-grid-card-logo",
+  "pascalName": "PartnersGridCardLogo",
+  "category": "Features y servicios",
+  "catalogRow": "| `partners-grid-card-logo` | partners-grid-card-logo — grid de tarjetas con icono y etiqueta · úsalo para mostrar socios logísticos, transportistas o certificaciones aduanales. | { eyebrow, title, description, partners: [{ icon, label }] } |",
+  "fixture": {
+    "eyebrow": "Red de socios",
+    "title": "Trabajamos con la red logística que su carga necesita",
+    "description": "Integramos transportistas terrestres, navieras, agentes aduanales e instituciones financieras para que cada embarque llegue a tiempo y con la documentación en regla.",
+    "partners": [
+      { "icon": "truck", "label": "Autotransporte federal" },
+      { "icon": "ship", "label": "Naviera consolidadora" },
+      { "icon": "plane", "label": "Carga aérea express" },
+      { "icon": "building", "label": "Agencia aduanal" },
+      { "icon": "bank", "label": "Financiamiento de comercio exterior" },
+      { "icon": "shield", "label": "Seguro de carga" },
+      { "icon": "global", "label": "Operador logístico internacional" },
+      { "icon": "box", "label": "Almacén y fulfillment" }
+    ]
+  }
+}

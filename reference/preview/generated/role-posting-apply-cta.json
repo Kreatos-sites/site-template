@@ -1,0 +1,27 @@
+{
+  "key": "role-posting-apply-cta",
+  "pascalName": "RolePostingApplyCta",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `role-posting-apply-cta` | role-posting-apply-cta — página de detalle de una vacante corporativa con requisitos y CTA de candidatura · úsalo para publicar una posición de empleo abierta. | { eyebrow, title, department, location, type, compensation, description, requirementsTitle, requirements: string[], ctaTitle, ctaDescription, ctaLabel, ctaHref } |",
+  "fixture": {
+    "eyebrow": "Vacante abierta",
+    "title": "Gerente de Proyectos de Construcción",
+    "department": "Operaciones · Obra",
+    "location": "Monterrey, Nuevo León",
+    "type": "Tiempo completo",
+    "compensation": "$45,000 – $60,000 MXN mensuales",
+    "description": "Buscamos a una persona con experiencia comprobable en dirección de obra para coordinar cuadrillas, proveedores y cronogramas en proyectos residenciales e industriales de mediana escala. Reportará directamente a la dirección general y será responsable de que cada entrega cumpla con presupuesto, calidad y plazo.",
+    "requirementsTitle": "Requisitos",
+    "requirements": [
+      "Título en Ingeniería Civil o Arquitectura, con cédula profesional vigente.",
+      "Mínimo 5 años de experiencia en supervisión de obra, de preferencia en proyectos industriales.",
+      "Manejo de MS Project o software equivalente para control de cronogramas.",
+      "Disponibilidad para viajar a sitios de obra dentro del área metropolitana de Monterrey.",
+      "Licencia de conducir vigente y disposición para reportarse en sitio desde las 7:00 a.m."
+    ],
+    "ctaTitle": "¿Le interesa la posición?",
+    "ctaDescription": "Envíenos su CV y una breve carta de presentación. Revisamos cada candidatura y le contactaremos dentro de los siguientes 5 días hábiles si su perfil coincide con lo que buscamos.",
+    "ctaLabel": "Postularme a esta vacante",
+    "ctaHref": "/contacto"
+  }
+}

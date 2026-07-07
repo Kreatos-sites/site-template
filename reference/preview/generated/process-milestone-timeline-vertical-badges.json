@@ -1,0 +1,60 @@
+{
+  "key": "process-milestone-timeline-vertical-badges",
+  "pascalName": "ProcessMilestoneTimelineVerticalBadges",
+  "category": "Proceso",
+  "catalogRow": "| `process-milestone-timeline-vertical-badges` | process-milestone-timeline-vertical-badges — timeline vertical de hitos con nodo de ícono bordeado y badge de estado · úsalo para contar la trayectoria de la empresa o su plan de expansión. | { eyebrow, title, description, status: { lanzado, en-progreso, planeado }, milestones: [{ date, status, icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra trayectoria",
+    "title": "De ruta local a red nacional de distribución",
+    "description": "Cada etapa de Transportes Cordillera responde a una necesidad concreta de nuestros clientes: más cobertura, más rapidez y más control sobre la carga.",
+    "status": {
+      "lanzado": "Lanzado",
+      "en-progreso": "En progreso",
+      "planeado": "Planeado"
+    },
+    "milestones": [
+      {
+        "date": "2016",
+        "status": "lanzado",
+        "icon": "truck",
+        "title": "Primera ruta entre Monterrey y Saltillo",
+        "description": "Iniciamos operaciones con tres unidades propias y un almacén de transferencia de 400 m² en Apodaca."
+      },
+      {
+        "date": "2018",
+        "status": "lanzado",
+        "icon": "pin",
+        "title": "Apertura de la terminal en Querétaro",
+        "description": "Sumamos una segunda terminal para cubrir el corredor del Bajío y reducir tiempos de entrega a 24 horas."
+      },
+      {
+        "date": "2020",
+        "status": "lanzado",
+        "icon": "shield",
+        "title": "Certificación en manejo de carga refrigerada",
+        "description": "Incorporamos una flota con cadena de frío certificada para clientes de alimentos y farmacéutica."
+      },
+      {
+        "date": "2022",
+        "status": "lanzado",
+        "icon": "building",
+        "title": "Centro de distribución en Ciudad de México",
+        "description": "Ampliamos capacidad de almacenaje a 6,000 m² y sumamos 40 unidades a la flota nacional."
+      },
+      {
+        "date": "2024",
+        "status": "en-progreso",
+        "icon": "team",
+        "title": "Programa de rastreo en tiempo real",
+        "description": "Estamos integrando GPS y reportes automáticos de estatus para todos los clientes con cuenta corporativa."
+      },
+      {
+        "date": "2026",
+        "status": "planeado",
+        "icon": "global",
+        "title": "Cobertura hacia la frontera norte",
+        "description": "Evaluamos una terminal en Nuevo Laredo para atender exportación e importación con Estados Unidos."
+      }
+    ]
+  }
+}

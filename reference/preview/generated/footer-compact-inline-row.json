@@ -1,0 +1,23 @@
+{
+  "key": "footer-compact-inline-row",
+  "pascalName": "FooterCompactInlineRow",
+  "category": "Footers",
+  "catalogRow": "| `footer-compact-inline-row` | footer-compact-inline-row — pie de página minimalista de una sola fila · úsalo para sitios cortos que no necesitan un footer con columnas. | { brand, navLabel, links: [{ label, href }], socials: [{ icon, label, href }], copyright } |",
+  "fixture": {
+    "brand": "Vértice Arquitectos",
+    "navLabel": "Navegación de pie de página",
+    "links": [
+      { "label": "Proyectos", "href": "#proyectos" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Estudio", "href": "#estudio" },
+      { "label": "Contacto", "href": "#contacto" },
+      { "label": "Aviso de privacidad", "href": "/privacidad" }
+    ],
+    "socials": [
+      { "icon": "instagram", "label": "Instagram de Vértice Arquitectos", "href": "https://instagram.com" },
+      { "icon": "linkedin", "label": "LinkedIn de Vértice Arquitectos", "href": "https://linkedin.com" },
+      { "icon": "facebook", "label": "Facebook de Vértice Arquitectos", "href": "https://facebook.com" }
+    ],
+    "copyright": "© 2026 Vértice Arquitectos. Todos los derechos reservados."
+  }
+}

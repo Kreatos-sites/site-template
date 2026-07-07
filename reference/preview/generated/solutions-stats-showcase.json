@@ -1,0 +1,58 @@
+{
+  "key": "solutions-stats-showcase",
+  "pascalName": "SolutionsStatsShowcase",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `solutions-stats-showcase` | solutions-stats-showcase — grid de soluciones con icono, estadísticas y logos de clientes · úsalo en portafolios de consultoras/despachos que muestran capacidades y credibilidad. | { eyebrow, title, description, solutions: [{ icon, title, description }], stats: [{ value, label }], clientsLabel, clients: [{ name, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Soluciones digitales",
+    "title": "Tecnología que ordena la operación de su empresa",
+    "description": "Diseñamos e integramos plataformas a la medida para despachos, constructoras y distribuidores que necesitan visibilidad y control sobre sus procesos.",
+    "solutions": [
+      {
+        "icon": "workflow",
+        "title": "Automatización de procesos",
+        "description": "Sustituimos hojas de cálculo y correos dispersos por flujos de trabajo trazables entre áreas."
+      },
+      {
+        "icon": "cloud",
+        "title": "Infraestructura en la nube",
+        "description": "Migramos sistemas locales a plataformas escalables con respaldo y monitoreo continuo."
+      },
+      {
+        "icon": "database",
+        "title": "Integración de datos",
+        "description": "Conectamos ERP, CRM y sistemas contables en una sola fuente de información confiable."
+      },
+      {
+        "icon": "shield",
+        "title": "Seguridad y cumplimiento",
+        "description": "Aplicamos controles de acceso y cifrado alineados a los requisitos de cada industria."
+      },
+      {
+        "icon": "bars",
+        "title": "Reportes ejecutivos",
+        "description": "Entregamos tableros con indicadores operativos para la toma de decisiones semanal."
+      },
+      {
+        "icon": "network",
+        "title": "Arquitectura de sistemas",
+        "description": "Definimos la estructura técnica que soportará el crecimiento de la operación a tres años."
+      }
+    ],
+    "stats": [
+      { "value": "120+", "label": "Proyectos entregados" },
+      { "value": "98%", "label": "Clientes que renuevan contrato" },
+      { "value": "14", "label": "Años de operación" },
+      { "value": "35", "label": "Especialistas en el equipo" }
+    ],
+    "clientsLabel": "Empresas que confían en nosotros",
+    "clients": [
+      { "name": "Grupo Ferretero del Bajío", "image": "/images/about.svg", "imageAlt": "Logotipo de Grupo Ferretero del Bajío" },
+      { "name": "Constructora Peninsular", "image": "/images/about.svg", "imageAlt": "Logotipo de Constructora Peninsular" },
+      { "name": "Despacho Arellano y Asociados", "image": "/images/about.svg", "imageAlt": "Logotipo de Despacho Arellano y Asociados" },
+      { "name": "Logística Sureste", "image": "/images/about.svg", "imageAlt": "Logotipo de Logística Sureste" },
+      { "name": "Distribuidora Central", "image": "/images/about.svg", "imageAlt": "Logotipo de Distribuidora Central" },
+      { "name": "Inmobiliaria Altavista", "image": "/images/about.svg", "imageAlt": "Logotipo de Inmobiliaria Altavista" }
+    ]
+  }
+}

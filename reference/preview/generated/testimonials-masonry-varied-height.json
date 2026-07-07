@@ -1,0 +1,54 @@
+{
+  "key": "testimonials-masonry-varied-height",
+  "pascalName": "TestimonialsMasonryVariedHeight",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-masonry-varied-height` | testimonials-masonry-varied-height — mosaico masonry de 6-7 reseñas de altura variable · úsalo cuando el negocio tiene volumen real de clientes que mostrar. | { eyebrow, title, testimonials: [{ quote, author, role, company }] } |",
+  "fixture": {
+    "eyebrow": "Clientes",
+    "title": "Lo que dicen los despachos y constructoras que ya trabajan con nosotros",
+    "testimonials": [
+      {
+        "quote": "Redujimos el tiempo de cierre de expedientes fiscales a la mitad desde que llevan nuestra contabilidad.",
+        "author": "Regina Solórzano",
+        "role": "Directora de Operaciones",
+        "company": "Grupo Constructor Altavista"
+      },
+      {
+        "quote": "El equipo detectó un error en nuestra declaración anual que nos hubiera costado una multa considerable.",
+        "author": "Fernando Bustamante",
+        "role": "Socio Fundador",
+        "company": "Bustamante y Asociados"
+      },
+      {
+        "quote": "Nos acompañaron en la due diligence de la adquisición de nuestra planta en Querétaro, con entregas puntuales y comunicación clara en cada etapa del proceso.",
+        "author": "Claudia Reséndiz",
+        "role": "Directora Financiera",
+        "company": "Distribuidora Reséndiz"
+      },
+      {
+        "quote": "Trato directo y respuesta rápida cuando lo necesitamos.",
+        "author": "Ignacio Peralta",
+        "role": "Gerente de Logística",
+        "company": "Transportes Peralta"
+      },
+      {
+        "quote": "Su asesoría en materia laboral nos evitó una demanda que llevaba meses gestándose sin que lo supiéramos.",
+        "author": "Mariana Cotero",
+        "role": "Directora de Recursos Humanos",
+        "company": "Inmobiliaria Cotero"
+      },
+      {
+        "quote": "Migramos nuestra nómina y contabilidad a su sistema sin perder un solo día de operación.",
+        "author": "Emilio Vargas",
+        "role": "Director General",
+        "company": "Manufacturas Vargas"
+      },
+      {
+        "quote": "Cada trimestre nos entregan un reporte que realmente entendemos, no solo cifras.",
+        "author": "Patricia Nieto",
+        "role": "Contralora",
+        "company": "Grupo Logístico del Bajío"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "key": "announcement-centered-with-cta",
+  "pascalName": "AnnouncementCenteredWithCta",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `announcement-centered-with-cta` | announcement-centered-with-cta — tarjeta de anuncio centrada con insignia de versión y CTA · úsalo para lanzar una función, servicio o actualización nueva. | { badge, version, title, description, meta, ctaLabel, ctaHref } |",
+  "fixture": {
+    "badge": "Nuevo",
+    "version": "v2.4",
+    "title": "Ahora agendamos sus auditorías directamente desde el portal",
+    "description": "Incorporamos un módulo de calendario compartido para que su equipo confirme visitas de cumplimiento sin cruzar correos ni llamadas.",
+    "meta": "Disponible desde el 1 de julio de 2026",
+    "ctaLabel": "Ver el módulo",
+    "ctaHref": "/contacto"
+  }
+}

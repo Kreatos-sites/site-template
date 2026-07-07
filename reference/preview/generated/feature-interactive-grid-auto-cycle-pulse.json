@@ -1,0 +1,43 @@
+{
+  "key": "feature-interactive-grid-auto-cycle-pulse",
+  "pascalName": "FeatureInteractiveGridAutoCyclePulse",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-interactive-grid-auto-cycle-pulse` | feature-interactive-grid-auto-cycle-pulse — grid de 6 capacidades con pulso secuencial automático · úsalo para presentar áreas operativas de logística o distribución. | { eyebrow, title, description, capabilities: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Capacidades operativas",
+    "title": "Una red logística que responde en tiempo real",
+    "description": "Coordinamos flota, almacenes y rutas desde un mismo panel de control, con visibilidad completa para su equipo de compras y distribución.",
+    "capabilities": [
+      {
+        "icon": "radar",
+        "title": "Monitoreo en vivo",
+        "description": "Ubicación y estatus de cada unidad de la flota, actualizados cada minuto desde el centro de control."
+      },
+      {
+        "icon": "route",
+        "title": "Ruteo dinámico",
+        "description": "Recalculamos trayectos ante tráfico, clima o incidencias sin detener la entrega."
+      },
+      {
+        "icon": "shield",
+        "title": "Carga asegurada",
+        "description": "Póliza de cobertura total y protocolos de manejo para mercancía sensible o de alto valor."
+      },
+      {
+        "icon": "time",
+        "title": "Ventanas de entrega",
+        "description": "Confirmación de horario con dos horas de margen y aviso automático al destinatario."
+      },
+      {
+        "icon": "truck",
+        "title": "Flota propia",
+        "description": "Unidades refrigeradas y de carga seca disponibles en el centro y norte del país."
+      },
+      {
+        "icon": "chart",
+        "title": "Reportes de desempeño",
+        "description": "Indicadores de tiempo de tránsito y cumplimiento disponibles para su equipo cada semana."
+      }
+    ]
+  }
+}

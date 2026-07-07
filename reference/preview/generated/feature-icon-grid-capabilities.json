@@ -1,0 +1,43 @@
+{
+  "key": "feature-icon-grid-capabilities",
+  "pascalName": "FeatureIconGridCapabilities",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-icon-grid-capabilities` | feature-icon-grid-capabilities — malla de capacidades con icono, título y descripción por tarjeta · úsalo para listar funciones de una plataforma o servicio. | { eyebrow, title, description, capabilities: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Capacidades de la plataforma",
+    "title": "Todo lo que su despacho necesita para operar sin fricción",
+    "description": "Consolidamos el seguimiento de expedientes, la comunicación con clientes y el control financiero en un solo lugar, sin depender de hojas de cálculo dispersas.",
+    "capabilities": [
+      {
+        "icon": "shield",
+        "title": "Control documental seguro",
+        "description": "Cada expediente queda cifrado y con bitácora de accesos, con permisos configurables por rol dentro del despacho."
+      },
+      {
+        "icon": "speed",
+        "title": "Flujos de trabajo más rápidos",
+        "description": "Plantillas de contratos y recordatorios automáticos reducen el tiempo administrativo de cada caso hasta en un tercio."
+      },
+      {
+        "icon": "team",
+        "title": "Colaboración entre áreas",
+        "description": "Los equipos de litigio, corporativo y fiscal comparten avances y notas sin duplicar correos ni versiones de documentos."
+      },
+      {
+        "icon": "chart",
+        "title": "Reportes para socios",
+        "description": "Tableros con horas facturables, avance por cliente y rentabilidad por área, listos para la junta mensual."
+      },
+      {
+        "icon": "support",
+        "title": "Acompañamiento continuo",
+        "description": "Un equipo de soporte dedicado atiende dudas de configuración y migración de casos durante toda la relación."
+      },
+      {
+        "icon": "integration",
+        "title": "Integración con sus herramientas",
+        "description": "Conecta con el correo corporativo, el calendario y el sistema de facturación que el despacho ya utiliza."
+      }
+    ]
+  }
+}

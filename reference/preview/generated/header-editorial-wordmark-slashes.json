@@ -1,0 +1,19 @@
+{
+  "key": "header-editorial-wordmark-slashes",
+  "pascalName": "HeaderEditorialWordmarkSlashes",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-editorial-wordmark-slashes` | header-editorial-wordmark-slashes — header minimalista con wordmark, nav separada por slashes y CTA subrayado · úsalo para estudios creativos o despachos sobrios. | { wordmark, navLabel, menuLabel, links: [{ label, href }], ctaLabel, ctaHref } |",
+  "fixture": {
+    "wordmark": "Estudio Marín",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú de navegación",
+    "links": [
+      { "label": "Proyectos", "href": "#proyectos" },
+      { "label": "Estudio", "href": "#estudio" },
+      { "label": "Prensa", "href": "#prensa" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaLabel": "Agendar llamada",
+    "ctaHref": "#contacto"
+  }
+}

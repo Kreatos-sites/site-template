@@ -1,0 +1,47 @@
+{
+  "key": "testimonials-masonry-varied-heights",
+  "pascalName": "TestimonialsMasonryVariedHeights",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-masonry-varied-heights` | testimonials-masonry-varied-heights — mosaico masonry de tarjetas de testimonio en alturas variadas · úsalo para reseñas de clientes con extractos de longitud desigual. | { eyebrow, title, testimonials: [{ quote, name, role }] } |",
+  "fixture": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen los clientes que ya construyeron con nosotros",
+    "testimonials": [
+      {
+        "quote": "Entregaron la nave industrial dos semanas antes de lo pactado y sin desviaciones en el presupuesto.",
+        "name": "Ricardo Villaseñor",
+        "role": "Director de Operaciones, Grupo Logístico Norte"
+      },
+      {
+        "quote": "El equipo de supervisión estuvo presente todos los días. Cada cambio de alcance se documentó y se cotizó antes de ejecutarse, así que nunca hubo sorpresas en la facturación mensual.",
+        "name": "Alejandra Peña",
+        "role": "Gerente de Proyectos, Inmobiliaria Cantera"
+      },
+      {
+        "quote": "Recomendamos a esta constructora sin dudarlo para cualquier obra de mediana o gran escala.",
+        "name": "Fernando Ibarra",
+        "role": "Socio Director, Desarrollos Ibarra"
+      },
+      {
+        "quote": "La coordinación con nuestros proveedores de acero y concreto redujo los tiempos muertos en obra de forma notable durante los primeros cuatro meses del proyecto.",
+        "name": "Mónica Reyes",
+        "role": "Jefa de Compras, Distribuidora del Bajío"
+      },
+      {
+        "quote": "Cumplieron cada norma de seguridad sin retrasar el calendario.",
+        "name": "Jorge Alanís",
+        "role": "Encargado de Cumplimiento, Parque Industrial Altavista"
+      },
+      {
+        "quote": "Después de dos remodelaciones fallidas con otras constructoras, esta fue la primera vez que el reporte semanal de avance coincidió exactamente con lo que veíamos en sitio.",
+        "name": "Patricia Domínguez",
+        "role": "Directora General, Clínica Domínguez"
+      },
+      {
+        "quote": "Su área de ingeniería resolvió un problema de cimentación complejo en menos de una semana.",
+        "name": "Héctor Salazar",
+        "role": "Gerente Técnico, Terminal de Carga Salazar"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "key": "call-booking-closure",
+  "pascalName": "CallBookingClosure",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `call-booking-closure` | call-booking-closure — banda de cierre con CTA para agendar llamada y agenda visual de la sesión · úsalo para cerrar landings de servicios B2B antes del formulario de contacto. | { eyebrow, title, description, cta, agendaTitle, agenda: [{ icon, label }] } |",
+  "fixture": {
+    "eyebrow": "Siguiente paso",
+    "title": "Agende una llamada de 30 minutos con nuestro equipo",
+    "description": "Revisamos el alcance de su proyecto, resolvemos dudas técnicas y le compartimos un rango de inversión antes de que termine la conversación.",
+    "cta": "Agendar llamada",
+    "agendaTitle": "Qué incluye la sesión",
+    "agenda": [
+      { "icon": "clock", "label": "Duración: 30 minutos, sin costo" },
+      { "icon": "video", "label": "Modalidad: videollamada por Google Meet" },
+      { "icon": "agenda", "label": "Temario: alcance, plazos y presupuesto estimado" },
+      { "icon": "calendar", "label": "Disponibilidad: lunes a viernes, 9:00 a 18:00 hrs" }
+    ]
+  }
+}

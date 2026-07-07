@@ -1,0 +1,36 @@
+{
+  "key": "feature-asymmetric-bento-motion-focus",
+  "pascalName": "FeatureAsymmetricBentoMotionFocus",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-asymmetric-bento-motion-focus` | feature-asymmetric-bento-motion-focus — bento asimétrico con celda insignia y celdas de apoyo que expanden en hover · úsalo para destacar un servicio junto a capacidades afines. | { eyebrow, title, flagshipImage, flagshipImageAlt, flagshipLabel, flagshipDescription, items: [{ icon, label, description }] } |",
+  "fixture": {
+    "eyebrow": "Capacidades",
+    "title": "Una operación logística pensada para que su mercancía nunca se detenga",
+    "flagshipImage": "/images/about.svg",
+    "flagshipImageAlt": "Centro de distribución con montacargas moviendo tarimas entre andenes de carga",
+    "flagshipLabel": "Centro de distribución Monterrey",
+    "flagshipDescription": "Catorce andenes de carga y descarga, cross-docking en menos de dos horas y monitoreo de inventario en tiempo real para sus embarques.",
+    "items": [
+      {
+        "icon": "truck",
+        "label": "Transporte",
+        "description": "Flotilla propia con rastreo satelital para envíos nacionales y transfronterizos."
+      },
+      {
+        "icon": "wrench",
+        "label": "Mantenimiento",
+        "description": "Taller certificado que revisa cada unidad antes de asignarla a ruta."
+      },
+      {
+        "icon": "package",
+        "label": "Almacenaje",
+        "description": "Bodega climatizada de 8,000 m² con control de inventario por lote."
+      },
+      {
+        "icon": "headset",
+        "label": "Soporte 24/7",
+        "description": "Coordinadores disponibles a toda hora para resolver incidencias en ruta."
+      }
+    ]
+  }
+}

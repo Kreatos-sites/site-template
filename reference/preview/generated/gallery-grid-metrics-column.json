@@ -1,0 +1,24 @@
+{
+  "key": "gallery-grid-metrics-column",
+  "pascalName": "GalleryGridMetricsColumn",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `gallery-grid-metrics-column` | gallery-grid-metrics-column — galería split con métricas tabulares y grid de fotos · úsalo para portafolios de obra o manufactura con cifras clave. | { eyebrow, title, description, metrics: [{ value, label }], images: [{ image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio construido",
+    "title": "Cada proyecto, medido con la misma rigurosidad con la que se construye",
+    "description": "Desde 2011 desarrollamos naves industriales, centros de distribución y oficinas corporativas en el Bajío. Estas son las cifras que respaldan nuestro trabajo.",
+    "metrics": [
+      { "value": "142", "label": "Proyectos entregados" },
+      { "value": "38", "label": "Estados y municipios" },
+      { "value": "410,000 m²", "label": "Superficie construida" },
+      { "value": "0", "label": "Retrasos en entrega 2023-2025" }
+    ],
+    "images": [
+      { "image": "/images/hero.svg", "imageAlt": "Nave industrial recién entregada en el parque logístico de Silao" },
+      { "image": "/images/about.svg", "imageAlt": "Fachada de oficinas corporativas en construcción" },
+      { "image": "/images/about.svg", "imageAlt": "Interior de centro de distribución con racks instalados" },
+      { "image": "/images/hero.svg", "imageAlt": "Cuadrilla de obra supervisando losa de concreto" },
+      { "image": "/images/about.svg", "imageAlt": "Vista aérea de planta industrial terminada" }
+    ]
+  }
+}

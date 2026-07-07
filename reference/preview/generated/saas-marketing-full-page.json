@@ -1,0 +1,145 @@
+{
+  "key": "saas-marketing-full-page",
+  "pascalName": "SaasMarketingFullPage",
+  "category": "Features y servicios",
+  "catalogRow": "| `saas-marketing-full-page` | saas-marketing-full-page — landing SaaS completa (hero+precios+FAQ+CTA) en un bloque · úsalo para presentar una plataforma B2B de principio a fin sin ensamblar 8 bloques sueltos. | { eyebrow, title, subtitle, primaryCta: {label,href}, secondaryCta: {label,href}, logosEyebrow, logos: [{name}], featuresEyebrow, featuresTitle, features: [{icon,title,description}], statsEyebrow, stats: [{value,label}], testimonialsEyebrow, testimonialsTitle, testimonials: [{quote,author,role}], pricingEyebrow, pricingTitle, pricingCta, tiers: [{name,price,description,features:[string],featured?}], faqEyebrow, faqTitle, faq: [{question,answer}], closingEyebrow, closingTitle, closingDescription, closingCta: {label,href} } |",
+  "fixture": {
+    "eyebrow": "Plataforma para constructoras",
+    "title": "Controle obra, flotilla y avance de proyecto desde un solo panel",
+    "subtitle": "Software de gestión pensado para constructoras y despachos de obra en México: asigne cuadrillas, dé seguimiento a maquinaria y comparta el avance con el cliente sin hojas de cálculo dispersas.",
+    "primaryCta": { "label": "Solicitar demostración", "href": "#contacto" },
+    "secondaryCta": { "label": "Ver planes", "href": "#precios" },
+    "logosEyebrow": "Constructoras que ya lo usan",
+    "logos": [
+      { "name": "Grupo Constructor Alvear" },
+      { "name": "Edifica Industrial" },
+      { "name": "Obras del Bajío" },
+      { "name": "Cimentaciones del Norte" },
+      { "name": "Vía Terracerías" },
+      { "name": "Ingeniería Peninsular" }
+    ],
+    "featuresEyebrow": "Qué resuelve",
+    "featuresTitle": "Menos WhatsApp y hojas de cálculo, más control real de la obra",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Avance de obra en tiempo real",
+        "description": "Cada residente reporta el avance desde el sitio y el porcentaje se actualiza automáticamente en el cronograma."
+      },
+      {
+        "icon": "shield",
+        "title": "Bitácora con respaldo legal",
+        "description": "Incidencias, entregas y cambios de alcance quedan registrados con fecha y responsable, listos para cualquier auditoría."
+      },
+      {
+        "icon": "team",
+        "title": "Cuadrillas y subcontratos",
+        "description": "Asigne personal y subcontratistas por frente de obra y controle asistencia sin depender de listas en papel."
+      },
+      {
+        "icon": "clock",
+        "title": "Alertas de retraso",
+        "description": "El sistema avisa al responsable de proyecto en cuanto una partida se atrasa más de dos días sobre lo programado."
+      },
+      {
+        "icon": "chart",
+        "title": "Reportes para el cliente",
+        "description": "Genere el reporte quincenal de avance y costo en un clic, con el formato que espera el cliente final."
+      },
+      {
+        "icon": "gauge",
+        "title": "Control de maquinaria",
+        "description": "Ubique la flotilla por proyecto, registre horas de uso y programe el mantenimiento antes de que falle en obra."
+      }
+    ],
+    "statsEyebrow": "En cifras",
+    "stats": [
+      { "value": "180+", "label": "obras activas en la plataforma" },
+      { "value": "32%", "label": "menos retrasos reportados por atraso de partida" },
+      { "value": "6 años", "label": "operando con constructoras en México" },
+      { "value": "24/7", "label": "acceso desde campo y oficina" }
+    ],
+    "testimonialsEyebrow": "Lo que dicen nuestros clientes",
+    "testimonialsTitle": "Constructoras que dejaron de perseguir reportes",
+    "testimonials": [
+      {
+        "quote": "Antes el residente mandaba fotos por WhatsApp y armábamos el reporte a mano cada quincena. Ahora el cliente ve el avance sin que le llamemos.",
+        "author": "Ricardo Villaseñor",
+        "role": "Director de operaciones, Grupo Constructor Alvear"
+      },
+      {
+        "quote": "La bitácora digital nos salvó en una disputa de alcance con un subcontratista: el registro de fechas fue la prueba que necesitábamos.",
+        "author": "Mariana Cobos",
+        "role": "Gerente de proyecto, Edifica Industrial"
+      },
+      {
+        "quote": "Reducimos los tiempos muertos de maquinaria porque ahora sabemos en qué frente está cada equipo antes de rentar uno nuevo.",
+        "author": "Héctor Duarte",
+        "role": "Jefe de flotilla, Obras del Bajío"
+      }
+    ],
+    "pricingEyebrow": "Planes",
+    "pricingTitle": "Un plan por tamaño de operación, sin permanencia forzosa",
+    "pricingCta": "Elegir plan",
+    "tiers": [
+      {
+        "name": "Obra sencilla",
+        "price": "$2,900/mes",
+        "description": "Para despachos con 1 a 3 obras simultáneas.",
+        "features": [
+          "Hasta 3 proyectos activos",
+          "Bitácora digital",
+          "Reporte quincenal automático",
+          "Soporte por correo"
+        ]
+      },
+      {
+        "name": "Constructora",
+        "price": "$7,400/mes",
+        "description": "Para operaciones con varios frentes y flotilla propia.",
+        "features": [
+          "Proyectos ilimitados",
+          "Control de flotilla y mantenimiento",
+          "Alertas de retraso por partida",
+          "Soporte prioritario telefónico"
+        ],
+        "featured": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "description": "Para grupos con varias razones sociales y obra federal.",
+        "features": [
+          "Todo lo de Constructora",
+          "Integración con contabilidad",
+          "Usuarios y permisos por división",
+          "Gerente de cuenta dedicado"
+        ]
+      }
+    ],
+    "faqEyebrow": "Dudas frecuentes",
+    "faqTitle": "Antes de contratar",
+    "faq": [
+      {
+        "question": "¿La plataforma funciona sin internet en obra?",
+        "answer": "Sí. El residente puede capturar avance y fotos sin conexión; la información se sincroniza en cuanto vuelve a tener señal."
+      },
+      {
+        "question": "¿Cuánto tiempo toma implementarla en una obra en curso?",
+        "answer": "En promedio dos semanas: cargamos el cronograma existente y capacitamos a residentes y jefes de frente en una sesión."
+      },
+      {
+        "question": "¿Puedo dar acceso limitado al cliente final?",
+        "answer": "Sí. Puede crear un usuario de solo lectura para que el cliente vea el avance y los reportes sin acceder a costos internos."
+      },
+      {
+        "question": "¿Qué pasa con la información si cancelo el servicio?",
+        "answer": "Puede exportar bitácora, reportes y cronogramas en cualquier momento; no retenemos su información como condición de salida."
+      }
+    ],
+    "closingEyebrow": "Siguiente paso",
+    "closingTitle": "Vea el sistema funcionando con una obra real en 20 minutos",
+    "closingDescription": "Agende una sesión con nuestro equipo y le mostramos la plataforma cargada con un proyecto similar al suyo, sin compromiso.",
+    "closingCta": { "label": "Agendar demostración", "href": "#contacto" }
+  }
+}

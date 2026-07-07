@@ -1,0 +1,18 @@
+{
+  "key": "empty-state-dual-action-centered",
+  "pascalName": "EmptyStateDualActionCentered",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `empty-state-dual-action-centered` | empty-state-dual-action-centered — panel de estado vacío con dos CTA y enlace de soporte · úsalo cuando un portal aún no tiene datos (envíos, pedidos, historiales). | { eyebrow, title, description, primaryCta, primaryHref, secondaryCta, secondaryHref, supportText, supportCta, supportHref } |",
+  "fixture": {
+    "eyebrow": "Portal de clientes",
+    "title": "Todavía no tiene envíos programados",
+    "description": "Cuando registre un embarque aparecerá aquí con su número de guía, ruta asignada y estatus en tiempo real. Programe el primero para empezar a dar seguimiento.",
+    "primaryCta": "Programar un envío",
+    "primaryHref": "/portal/envios/nuevo",
+    "secondaryCta": "Ver historial de envíos",
+    "secondaryHref": "/portal/envios/historial",
+    "supportText": "¿Necesita ayuda para configurar su cuenta?",
+    "supportCta": "Hable con su ejecutivo de cuenta",
+    "supportHref": "/contacto"
+  }
+}

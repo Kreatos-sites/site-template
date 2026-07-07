@@ -1,0 +1,42 @@
+{
+  "key": "contact-form-centered-card",
+  "pascalName": "ContactFormCenteredCard",
+  "category": "Contacto",
+  "catalogRow": "| `contact-form-centered-card` | contact-form-centered-card — tarjeta de contacto centrada con selector de asunto · úsalo en páginas de contacto de despachos o negocios que reciben cotizaciones. | { eyebrow, title, subtitle, fields: { firstName: {label,placeholder}, lastName: {label,placeholder}, email: {label,placeholder}, topic: {label,placeholder}, message: {label,placeholder} }, topics: [{value,label}], submitLabel, privacyNote } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Cuéntenos sobre su proyecto",
+    "subtitle": "Complete el siguiente formulario y un especialista de nuestro despacho le responderá en un plazo máximo de un día hábil.",
+    "fields": {
+      "firstName": {
+        "label": "Nombre",
+        "placeholder": "Ej. Alejandra"
+      },
+      "lastName": {
+        "label": "Apellido",
+        "placeholder": "Ej. Torres Medina"
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "usted@empresa.com"
+      },
+      "topic": {
+        "label": "Asunto",
+        "placeholder": "Seleccione un asunto"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Describa brevemente su caso o consulta"
+      }
+    },
+    "topics": [
+      { "value": "litigio", "label": "Litigio y controversias" },
+      { "value": "corporativo", "label": "Derecho corporativo" },
+      { "value": "fiscal", "label": "Asesoría fiscal" },
+      { "value": "laboral", "label": "Derecho laboral" },
+      { "value": "otro", "label": "Otro asunto" }
+    ],
+    "submitLabel": "Enviar mensaje",
+    "privacyNote": "Sus datos se utilizan únicamente para darle seguimiento a esta solicitud, conforme a nuestro aviso de privacidad."
+  }
+}

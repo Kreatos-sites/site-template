@@ -1,0 +1,42 @@
+{
+  "key": "testimonial-and-case-study-grid",
+  "pascalName": "TestimonialAndCaseStudyGrid",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonial-and-case-study-grid` | testimonial-and-case-study-grid — grid híbrido testimonios + case studies con stat destacado · úsalo para cerrar confianza combinando cita cualitativa y resultado medible. | { eyebrow, title, testimonials: [{ quote, author, role }], caseStudies: [{ icon, stat, label, description }] } |",
+  "fixture": {
+    "eyebrow": "Resultados verificables",
+    "title": "Clientes que confiaron su proyecto y hoy lo comprueban con números",
+    "testimonials": [
+      {
+        "quote": "Antes de contratarlos llevábamos ocho meses con retrasos en la obra. Con su gestión de proyecto entregamos la torre en el plazo pactado y sin sobrecostos.",
+        "author": "Fernanda Ruiz",
+        "role": "Directora de Operaciones, Grupo Constructor Altiva"
+      },
+      {
+        "quote": "Nos ayudaron a rediseñar la ruta logística de distribución en el Bajío. Redujimos tiempos de entrega y el equipo de almacén dejó de trabajar sobre pedidos urgentes.",
+        "author": "Ricardo Peña",
+        "role": "Gerente de Logística, Distribuidora Peña Hermanos"
+      }
+    ],
+    "caseStudies": [
+      {
+        "icon": "trendingup",
+        "stat": "32%",
+        "label": "Reducción de costos operativos",
+        "description": "Rediseño de procesos de compra y renegociación de proveedores para una constructora con obra en tres estados."
+      },
+      {
+        "icon": "clock",
+        "stat": "18 días",
+        "label": "Menos tiempo de entrega promedio",
+        "description": "Optimización de rutas y consolidación de embarques para un distribuidor con cobertura regional."
+      },
+      {
+        "icon": "users",
+        "stat": "94%",
+        "label": "Retención de clientes clave",
+        "description": "Plan de seguimiento y reportes trimestrales que mantuvo a los principales clientes del despacho durante la expansión."
+      }
+    ]
+  }
+}

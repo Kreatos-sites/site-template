@@ -1,0 +1,58 @@
+{
+  "key": "faq-accordion-sticky-support-sidebar",
+  "pascalName": "FaqAccordionStickySupportSidebar",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-accordion-sticky-support-sidebar` | faq-accordion-sticky-support-sidebar — acordeón de FAQ con sidebar de contacto fijo · úsalo para páginas de soporte o preventa donde la duda debe derivar en contacto directo. | { eyebrow, title, items: [{ question, answer }], sidebar: { status, title, description, channels: [{ icon, label, value, href }], hours } } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resolvemos sus dudas antes de iniciar el proyecto",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma un proyecto de remodelación comercial?",
+        "answer": "Depende del alcance y la superficie, pero un local de entre 150 y 400 m² suele tomar de 6 a 10 semanas desde la firma del contrato hasta la entrega, incluyendo permisos y acabados."
+      },
+      {
+        "question": "¿Ofrecen garantía sobre la obra terminada?",
+        "answer": "Sí, cubrimos estructura y acabados por 24 meses e instalaciones eléctricas e hidráulicas por 12 meses, con visitas de seguimiento incluidas en el contrato."
+      },
+      {
+        "question": "¿Puedo solicitar cambios una vez iniciada la obra?",
+        "answer": "Los ajustes menores se integran sin costo adicional durante las primeras dos semanas. Cambios de alcance mayor se cotizan por separado antes de ejecutarse."
+      },
+      {
+        "question": "¿Trabajan con mi propio arquitecto o diseñador de interiores?",
+        "answer": "Con gusto coordinamos con su equipo de diseño. También podemos encargarnos del proyecto ejecutivo completo si lo prefiere."
+      },
+      {
+        "question": "¿Cómo se estructuran los pagos durante la obra?",
+        "answer": "Manejamos anticipo del 30%, dos pagos parciales conforme a avance verificado y liquidación final contra entrega, todo detallado en el contrato de obra."
+      }
+    ],
+    "sidebar": {
+      "status": "Equipo disponible hoy",
+      "title": "¿Su duda no está en la lista?",
+      "description": "Escríbanos con los detalles de su proyecto y un coordinador de obra le responde en menos de un día hábil.",
+      "channels": [
+        {
+          "icon": "email",
+          "label": "Correo",
+          "value": "proyectos@construccionesvarela.mx",
+          "href": "mailto:proyectos@construccionesvarela.mx"
+        },
+        {
+          "icon": "phone",
+          "label": "Teléfono",
+          "value": "+52 81 4455 0192",
+          "href": "tel:+528144550192"
+        },
+        {
+          "icon": "chat",
+          "label": "WhatsApp",
+          "value": "+52 81 2233 4477",
+          "href": "https://wa.me/528122334477"
+        }
+      ],
+      "hours": "Atención en obra y oficina: lunes a viernes de 8:00 a 18:00 h, sábados de 9:00 a 13:00 h."
+    }
+  }
+}

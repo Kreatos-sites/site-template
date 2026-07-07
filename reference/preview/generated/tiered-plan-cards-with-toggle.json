@@ -1,0 +1,65 @@
+{
+  "key": "tiered-plan-cards-with-toggle",
+  "pascalName": "TieredPlanCardsWithToggle",
+  "category": "Precios y planes",
+  "catalogRow": "| `tiered-plan-cards-with-toggle` | tiered-plan-cards-with-toggle — grid de planes con toggle mensual/anual (CSS puro) y checklist de características · úsalo para pricing con descuento anual. | { eyebrow, title, subtitle, toggle: { monthly, annual, annualBadge }, plans: [{ name, description, priceMonthly, priceAnnual, period, cta, featured?, badge?, features: [string] }], note } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan de mantenimiento para cada tamaño de operación",
+    "subtitle": "Elija la periodicidad de facturación que más le convenga. Puede cambiar de plan o cancelar en cualquier momento, sin penalización.",
+    "toggle": {
+      "monthly": "Mensual",
+      "annual": "Anual",
+      "annualBadge": "2 meses gratis"
+    },
+    "plans": [
+      {
+        "name": "Esencial",
+        "description": "Para condominios y locales comerciales con una sola línea de aire acondicionado o refrigeración.",
+        "priceMonthly": "$2,400",
+        "priceAnnual": "$2,000",
+        "period": "MXN / mes",
+        "cta": "Contratar plan Esencial",
+        "features": [
+          "2 visitas de mantenimiento preventivo al año",
+          "Revisión de gas refrigerante y presiones",
+          "Reporte fotográfico por correo",
+          "Soporte telefónico en horario de oficina"
+        ]
+      },
+      {
+        "name": "Operación",
+        "description": "Para plazas comerciales y oficinas con varios equipos y necesidad de respuesta rápida.",
+        "priceMonthly": "$5,900",
+        "priceAnnual": "$4,900",
+        "period": "MXN / mes",
+        "cta": "Contratar plan Operación",
+        "featured": true,
+        "badge": "Más contratado",
+        "features": [
+          "4 visitas de mantenimiento preventivo al año",
+          "Atención correctiva prioritaria en 24 horas",
+          "Bitácora digital de servicio por equipo",
+          "Un responsable de cuenta asignado",
+          "Refacciones menores incluidas en la cuota"
+        ]
+      },
+      {
+        "name": "Corporativo",
+        "description": "Para naves industriales y corporativos con múltiples sitios y equipos críticos.",
+        "priceMonthly": "$11,500",
+        "priceAnnual": "$9,600",
+        "period": "MXN / mes",
+        "cta": "Hablar con ventas",
+        "features": [
+          "Mantenimiento preventivo mensual en todos los sitios",
+          "Atención correctiva prioritaria en 8 horas",
+          "Ingeniero de planta asignado a la cuenta",
+          "Dashboard de servicio y consumo energético",
+          "Póliza de garantía extendida en equipos"
+        ]
+      }
+    ],
+    "note": "Precios más IVA. La facturación anual se cobra en un solo pago y aplica a contratos nuevos y renovaciones."
+  }
+}

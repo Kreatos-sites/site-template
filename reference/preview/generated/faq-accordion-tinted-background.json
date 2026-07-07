@@ -1,0 +1,33 @@
+{
+  "key": "faq-accordion-tinted-background",
+  "pascalName": "FaqAccordionTintedBackground",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-accordion-tinted-background` | faq-accordion-tinted-background — acordeón de preguntas frecuentes sobre panel con fondo tintado · úsalo para dudas de contratación o soporte antes de cerrar un servicio. | { eyebrow, title, description, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de agendar su primera consulta",
+    "description": "Reunimos las dudas que más nos plantean los despachos y áreas legales antes de iniciar un proyecto con nosotros.",
+    "items": [
+      {
+        "question": "¿Cómo determinan el alcance de un proyecto de asesoría?",
+        "answer": "Iniciamos con una sesión de diagnóstico donde revisamos su situación actual, los riesgos identificados y los objetivos del área. Con esa información entregamos una propuesta de alcance y honorarios por escrito antes de comenzar cualquier trabajo."
+      },
+      {
+        "question": "¿Trabajan con contratos por hora o por proyecto cerrado?",
+        "answer": "Ofrecemos ambas modalidades. Para asuntos recurrentes recomendamos un esquema mensual con horas asignadas; para proyectos con entregable definido, como una due diligence, cerramos una tarifa fija acordada desde el inicio."
+      },
+      {
+        "question": "¿Qué documentación necesitan para comenzar?",
+        "answer": "Solicitamos actas constitutivas, poderes vigentes, contratos relevantes y estados financieros recientes. Le compartimos una checklist específica según el tipo de asunto durante la primera reunión."
+      },
+      {
+        "question": "¿Cuánto tiempo toma recibir una primera opinión legal?",
+        "answer": "Para consultas puntuales entregamos una opinión preliminar en un plazo de tres a cinco días hábiles, una vez recibida la documentación completa. Asuntos con mayor complejidad se calendarizan en la propuesta inicial."
+      },
+      {
+        "question": "¿Pueden representarnos ante autoridades fuera de la Ciudad de México?",
+        "answer": "Sí. Contamos con corresponsales en las principales plazas del país y coordinamos representación en trámites administrativos y judiciales foráneos sin costo adicional de desplazamiento en la mayoría de los casos."
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "key": "testimonials-ledger-featured-pull-quote",
+  "pascalName": "TestimonialsLedgerFeaturedPullQuote",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-ledger-featured-pull-quote` | testimonials-ledger-featured-pull-quote — cita destacada en tarjeta con rejilla de testimonios ledger · úsalo para reseñas B2B con clientes corporativos identificables. | { eyebrow, title, featured: { quote, name, role, company, initials }, testimonials: [{ quote, name, role, company, initials }] } |",
+  "fixture": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen los despachos y constructoras que ya trabajan con nosotros",
+    "featured": {
+      "quote": "Migramos nuestra contabilidad de tres obras distintas a un solo tablero en menos de dos semanas. Hoy cerramos el mes con cifras conciliadas el mismo día, no dos semanas después.",
+      "name": "Rodrigo Elizondo",
+      "role": "Director de Finanzas",
+      "company": "Constructora Elizondo Hermanos",
+      "initials": "RE"
+    },
+    "testimonials": [
+      {
+        "quote": "El acompañamiento durante la auditoría fiscal fue puntual y ordenado. No tuvimos observaciones pendientes al cierre.",
+        "name": "Marcela Ibarra",
+        "role": "Directora Jurídica",
+        "company": "Ibarra & Asociados",
+        "initials": "MI"
+      },
+      {
+        "quote": "Redujimos el tiempo de conciliación de rutas de tres días a unas horas. El equipo entendió nuestra operación desde la primera reunión.",
+        "name": "Héctor Villagómez",
+        "role": "Gerente de Logística",
+        "company": "Transportes Villagómez",
+        "initials": "HV"
+      },
+      {
+        "quote": "La claridad de los reportes mensuales nos permitió tomar decisiones de inventario que antes tardaban un trimestre.",
+        "name": "Paulina Reséndiz",
+        "role": "Directora de Operaciones",
+        "company": "Distribuidora Reséndiz",
+        "initials": "PR"
+      },
+      {
+        "quote": "Contamos con un punto de contacto fijo que conoce nuestros contratos línea por línea. Eso nos ha ahorrado semanas de idas y vueltas.",
+        "name": "Sergio Nava",
+        "role": "Socio Fundador",
+        "company": "Nava Consultores Legales",
+        "initials": "SN"
+      },
+      {
+        "quote": "Implementaron el control de obra sin detener ninguno de nuestros tres proyectos activos. La transición fue transparente para el cliente final.",
+        "name": "Daniela Cepeda",
+        "role": "Directora de Proyectos",
+        "company": "Grupo Cepeda Constructores",
+        "initials": "DC"
+      },
+      {
+        "quote": "El corte de nómina y las provisiones quedaron automatizados desde el primer mes. Cerramos sin ajustes manuales.",
+        "name": "Álvaro Montemayor",
+        "role": "Gerente Administrativo",
+        "company": "Montemayor Inmobiliaria",
+        "initials": "AM"
+      }
+    ]
+  }
+}

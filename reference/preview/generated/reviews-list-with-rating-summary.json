@@ -1,0 +1,55 @@
+{
+  "key": "reviews-list-with-rating-summary",
+  "pascalName": "ReviewsListWithRatingSummary",
+  "category": "Reseñas",
+  "catalogRow": "| `reviews-list-with-rating-summary` | reviews-list-with-rating-summary — resumen de calificación con desglose por estrellas y reseñas verificadas · úsalo para prueba social cuantificada y detallada. | { eyebrow, title, average, totalCount, summaryLabel, verifiedLabel, breakdown: [{ stars, percentage }], reviews: [{ author, role, date, rating, comment, verified }] } |",
+  "fixture": {
+    "eyebrow": "Opiniones de clientes",
+    "title": "Lo que dicen los despachos y empresas que ya trabajan con nosotros",
+    "average": "4.8",
+    "totalCount": "312",
+    "summaryLabel": "Basado en {count} reseñas verificadas",
+    "verifiedLabel": "Verificado",
+    "breakdown": [
+      { "stars": 5, "percentage": 78 },
+      { "stars": 4, "percentage": 15 },
+      { "stars": 3, "percentage": 5 },
+      { "stars": 2, "percentage": 1 },
+      { "stars": 1, "percentage": 1 }
+    ],
+    "reviews": [
+      {
+        "author": "Fernanda Ríos",
+        "role": "Directora de Operaciones, Grupo Logístico Andina",
+        "date": "Mayo 2026",
+        "rating": 5,
+        "comment": "Redujeron el tiempo de despacho de nuestra flota en tres semanas de implementación. El equipo entendió nuestro proceso antes de proponer cualquier cambio.",
+        "verified": true
+      },
+      {
+        "author": "Ricardo Elizondo",
+        "role": "Socio Director, Elizondo y Asociados",
+        "date": "Abril 2026",
+        "rating": 5,
+        "comment": "Llevamos ocho meses con el sistema de seguimiento de expedientes. La curva de adopción del equipo fue corta y el soporte respondió siempre dentro del mismo día.",
+        "verified": true
+      },
+      {
+        "author": "Paola Serrano",
+        "role": "Gerente de Compras, Constructora Serrano",
+        "date": "Marzo 2026",
+        "rating": 4,
+        "comment": "El módulo de cotizaciones nos ahorra horas cada semana. Nos faltó documentación más clara al inicio, pero la resolvieron rápido cuando la pedimos.",
+        "verified": true
+      },
+      {
+        "author": "Héctor Villagómez",
+        "role": "Director Comercial, Distribuidora Villagómez",
+        "date": "Febrero 2026",
+        "rating": 5,
+        "comment": "Migramos desde una hoja de cálculo a su plataforma sin perder un solo pedido. La visibilidad de inventario cambió la forma en que planeamos las compras.",
+        "verified": true
+      }
+    ]
+  }
+}

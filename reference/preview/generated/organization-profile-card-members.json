@@ -1,0 +1,33 @@
+{
+  "key": "organization-profile-card-members",
+  "pascalName": "OrganizationProfileCardMembers",
+  "category": "Nosotros",
+  "catalogRow": "| `organization-profile-card-members` | organization-profile-card-members — tarjeta de identidad corporativa con logo verificado, cifras y equipo · úsalo para reforzar credibilidad en la página Nosotros. | { eyebrow, title, logo, logoAlt, name, verifiedLabel, tagline, description, stats: [{ value, label }], members: [{ name, image, imageAlt }], membersLabel, links: [{ label, href, icon: site/mail }] } |",
+  "fixture": {
+    "eyebrow": "Perfil de la organización",
+    "title": "El despacho detrás de cada expediente",
+    "logo": "/images/about.svg",
+    "logoAlt": "Logotipo de Vértice Legal",
+    "name": "Vértice Legal, S.C.",
+    "verifiedLabel": "Despacho verificado",
+    "tagline": "Derecho corporativo y litigio estratégico desde 2011",
+    "description": "Asesoramos a empresas mexicanas en fusiones, cumplimiento regulatorio y disputas comerciales. Nuestro equipo combina experiencia en tribunales locales con práctica internacional para acompañar decisiones que impactan el negocio a largo plazo.",
+    "stats": [
+      { "value": "14", "label": "Años de práctica" },
+      { "value": "320+", "label": "Casos resueltos" },
+      { "value": "96%", "label": "Clientes que nos recontratan" },
+      { "value": "22", "label": "Abogados en plantilla" }
+    ],
+    "members": [
+      { "name": "Renata Solís", "image": "/images/about.svg", "imageAlt": "Retrato de Renata Solís, socia fundadora" },
+      { "name": "Ignacio Del Bosque", "image": "/images/about.svg", "imageAlt": "Retrato de Ignacio Del Bosque, socio de litigio" },
+      { "name": "Paula Chávez", "image": "/images/about.svg", "imageAlt": "Retrato de Paula Chávez, asociada senior" },
+      { "name": "Diego Manrique", "image": "/images/about.svg", "imageAlt": "Retrato de Diego Manrique, asociado senior" }
+    ],
+    "membersLabel": "Socios y asociados que lideran sus expedientes",
+    "links": [
+      { "label": "vertice-legal.mx", "href": "https://vertice-legal.mx", "icon": "site" },
+      { "label": "contacto@vertice-legal.mx", "href": "mailto:contacto@vertice-legal.mx", "icon": "mail" }
+    ]
+  }
+}

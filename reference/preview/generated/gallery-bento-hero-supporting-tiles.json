@@ -1,0 +1,31 @@
+{
+  "key": "gallery-bento-hero-supporting-tiles",
+  "pascalName": "GalleryBentoHeroSupportingTiles",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-bento-hero-supporting-tiles` | gallery-bento-hero-supporting-tiles — bento asimétrico con pieza hero y dos tarjetas de apoyo · úsalo para portafolios de arquitectura o diseño con casos destacados. | { eyebrow, title, description, hero: { image, imageAlt, tag, title }, tiles: [{ image, imageAlt, tag, title }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que combinan forma, función y contexto",
+    "description": "Una selección de obras recientes del estudio, desde intervenciones residenciales hasta espacios comerciales de mediana escala en Guadalajara y Querétaro.",
+    "hero": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Fachada de concreto aparente con celosía de madera en residencia contemporánea",
+      "tag": "Residencial · Zapopan",
+      "title": "Casa Amatlán: luz cenital y patios interiores"
+    },
+    "tiles": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de oficina corporativa con mobiliario de madera y muro verde",
+        "tag": "Corporativo · Querétaro",
+        "title": "Oficinas Cedro: rediseño de planta abierta"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada comercial de local gastronómico con terraza exterior",
+        "tag": "Comercial · Guadalajara",
+        "title": "Restaurante Ceiba: terraza y barra central"
+      }
+    ]
+  }
+}

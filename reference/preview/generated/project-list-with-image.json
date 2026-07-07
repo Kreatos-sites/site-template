@@ -1,0 +1,48 @@
+{
+  "key": "project-list-with-image",
+  "pascalName": "ProjectListWithImage",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `project-list-with-image` | project-list-with-image — lista de proyectos con año, imagen y enlace · úsalo para mostrar trayectoria de obra en despachos y constructoras. | { eyebrow, title, projects: [{ year, title, description, image, imageAlt, linkHref, linkLabel }] } |",
+  "fixture": {
+    "eyebrow": "Proyectos ejecutados",
+    "title": "Obra que respalda cada propuesta",
+    "projects": [
+      {
+        "year": "2025",
+        "title": "Corporativo Altavista, Monterrey",
+        "description": "Torre de oficinas de 12 niveles con certificación LEED, entregada en 14 meses con supervisión estructural propia.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada del Corporativo Altavista en Monterrey",
+        "linkHref": "/proyectos/corporativo-altavista",
+        "linkLabel": "Ver proyecto"
+      },
+      {
+        "year": "2024",
+        "title": "Centro logístico Norte Industrial",
+        "description": "Nave de 8,400 m² con andenes de carga y patio de maniobras, diseñada para operación continua las 24 horas.",
+        "image": "/images/about.svg",
+        "imageAlt": "Nave industrial del Centro logístico Norte Industrial",
+        "linkHref": "/proyectos/centro-logistico-norte",
+        "linkLabel": "Ver proyecto"
+      },
+      {
+        "year": "2023",
+        "title": "Ampliación planta Cementos del Bajío",
+        "description": "Ampliación de línea de producción y obra civil complementaria, ejecutada sin detener la operación existente.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Ampliación de planta industrial Cementos del Bajío",
+        "linkHref": "/proyectos/ampliacion-cementos-bajio",
+        "linkLabel": "Ver proyecto"
+      },
+      {
+        "year": "2022",
+        "title": "Remodelación oficinas corporativas Vialtex",
+        "description": "Renovación integral de 3,200 m² de oficinas administrativas, con nuevas instalaciones eléctricas y de climatización.",
+        "image": "/images/about.svg",
+        "imageAlt": "Oficinas corporativas remodeladas de Vialtex",
+        "linkHref": "/proyectos/oficinas-vialtex",
+        "linkLabel": "Ver proyecto"
+      }
+    ]
+  }
+}

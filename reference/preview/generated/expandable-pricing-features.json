@@ -1,0 +1,53 @@
+{
+  "key": "expandable-pricing-features",
+  "pascalName": "ExpandablePricingFeatures",
+  "category": "Precios y planes",
+  "catalogRow": "| `expandable-pricing-features` | expandable-pricing-features — acordeón de planes de precios: cada tier se expande y revela su lista de características · úsalo para pricing con 2-4 planes detallados. | { eyebrow, title, description, tiers: [{ name, price, period, description, featured?, features: string[] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de asesoría",
+    "title": "Un plan para cada etapa de su despacho",
+    "description": "Elija el nivel de acompañamiento legal que necesita su empresa. Puede cambiar de plan en cualquier momento sin penalización.",
+    "tiers": [
+      {
+        "name": "Consulta básica",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "description": "Para negocios que requieren orientación legal puntual y revisión de documentos.",
+        "features": [
+          "Hasta 4 horas de asesoría mensual",
+          "Revisión de contratos estándar",
+          "Respuesta por correo en 48 horas",
+          "Acceso a plantillas legales básicas"
+        ]
+      },
+      {
+        "name": "Acompañamiento corporativo",
+        "price": "$11,500",
+        "period": "MXN / mes",
+        "description": "Para empresas en crecimiento con necesidades legales recurrentes.",
+        "featured": true,
+        "features": [
+          "Hasta 15 horas de asesoría mensual",
+          "Elaboración y revisión de contratos a la medida",
+          "Acompañamiento en trámites ante autoridades",
+          "Respuesta prioritaria en 24 horas",
+          "Sesión mensual de revisión de cumplimiento"
+        ]
+      },
+      {
+        "name": "Blindaje integral",
+        "price": "$22,000",
+        "period": "MXN / mes",
+        "description": "Para grupos empresariales que buscan cobertura legal completa y proactiva.",
+        "features": [
+          "Horas de asesoría ilimitadas",
+          "Abogado asignado de forma dedicada",
+          "Representación en litigios y procesos administrativos",
+          "Auditoría trimestral de contratos vigentes",
+          "Línea directa para consultas urgentes",
+          "Reportes ejecutivos de riesgo legal"
+        ]
+      }
+    ]
+  }
+}

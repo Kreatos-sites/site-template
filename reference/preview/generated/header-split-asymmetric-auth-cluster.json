@@ -1,0 +1,22 @@
+{
+  "key": "header-split-asymmetric-auth-cluster",
+  "pascalName": "HeaderSplitAsymmetricAuthCluster",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-split-asymmetric-auth-cluster` | header-split-asymmetric-auth-cluster — header asimétrico con tagline, nav central y cluster login/CTA · úsalo para sitios B2B con portal de clientes (despachos, SaaS). | { logo, tagline, navLabel, menuLabel, loginLabel, loginHref, ctaLabel, ctaHref, links: [{ label, href }] } |",
+  "fixture": {
+    "logo": "Corral & Zamudio",
+    "tagline": "Despacho de litigio mercantil",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "loginLabel": "Portal de clientes",
+    "loginHref": "#portal",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

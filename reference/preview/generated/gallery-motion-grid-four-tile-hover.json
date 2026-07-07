@@ -1,0 +1,36 @@
+{
+  "key": "gallery-motion-grid-four-tile-hover",
+  "pascalName": "GalleryMotionGridFourTileHover",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `gallery-motion-grid-four-tile-hover` | gallery-motion-grid-four-tile-hover — grid de 4 tarjetas con hover-lift y overlay de texto · úsalo para mostrar proyectos o casos de estudio destacados. | { eyebrow, title, items: [{ title, caption, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Proyectos destacados",
+    "title": "Obras que reflejan nuestro criterio estructural",
+    "items": [
+      {
+        "title": "Corporativo Cumbres",
+        "caption": "Torre de oficinas, Monterrey — 14,200 m² construidos",
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada del Corporativo Cumbres al atardecer"
+      },
+      {
+        "title": "Centro Logístico Apodaca",
+        "caption": "Nave industrial, Apodaca — entrega en 9 meses",
+        "image": "/images/about.svg",
+        "imageAlt": "Vista aérea del Centro Logístico Apodaca"
+      },
+      {
+        "title": "Residencial Los Encinos",
+        "caption": "Desarrollo habitacional, San Pedro — 86 unidades",
+        "image": "/images/about.svg",
+        "imageAlt": "Área común del Residencial Los Encinos"
+      },
+      {
+        "title": "Plaza Comercial Valle Alto",
+        "caption": "Centro comercial, García — 32 locales",
+        "image": "/images/about.svg",
+        "imageAlt": "Entrada principal de Plaza Comercial Valle Alto"
+      }
+    ]
+  }
+}

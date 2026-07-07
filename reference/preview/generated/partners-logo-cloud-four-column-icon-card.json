@@ -1,0 +1,21 @@
+{
+  "key": "partners-logo-cloud-four-column-icon-card",
+  "pascalName": "PartnersLogoCloudFourColumnIconCard",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `partners-logo-cloud-four-column-icon-card` | partners-logo-cloud-four-column-icon-card — grid de aliados con ícono y nombre en tarjetas de 4 columnas · úsalo para mostrar socios comerciales o certificaciones. | { eyebrow, title, description, partners: [{ icon, name }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas",
+    "title": "Aliados que respaldan cada envío",
+    "description": "Trabajamos con navieras, aduanas y transportistas certificados para que su carga llegue a tiempo y sin contratiempos.",
+    "partners": [
+      { "icon": "truck", "name": "Transportes del Bajío" },
+      { "icon": "global", "name": "Naviera Pacífico" },
+      { "icon": "bank", "name": "Grupo Financiero Aduanal" },
+      { "icon": "shield", "name": "Aseguradora Comercial MX" },
+      { "icon": "box", "name": "Almacenes Industriales del Norte" },
+      { "icon": "building", "name": "Agencia Aduanal Reyes" },
+      { "icon": "truck", "name": "Autotransportes Occidente" },
+      { "icon": "global", "name": "Consolidadora Internacional" }
+    ]
+  }
+}

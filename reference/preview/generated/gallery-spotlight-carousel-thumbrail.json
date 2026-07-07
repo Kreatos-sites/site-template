@@ -1,0 +1,55 @@
+{
+  "key": "gallery-spotlight-carousel-thumbrail",
+  "pascalName": "GallerySpotlightCarouselThumbrail",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-spotlight-carousel-thumbrail` | gallery-spotlight-carousel-thumbrail — carrusel con riel de miniaturas y ficha técnica lateral · úsalo para portafolios de arquitectura, estudios creativos o inmobiliarias. | { eyebrow, title, metaEyebrow, meta: [{ label, value }], items: [{ image, imageAlt, title, category }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Piezas seleccionadas de nuestros últimos proyectos",
+    "metaEyebrow": "Ficha de la colección",
+    "meta": [
+      { "label": "Proyectos incluidos", "value": "6" },
+      { "label": "Disciplina", "value": "Arquitectura residencial" },
+      { "label": "Periodo", "value": "2023 – 2026" },
+      { "label": "Ubicación", "value": "Ciudad de México y Querétaro" }
+    ],
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de casa Alcázar con celosía de concreto y jardín frontal",
+        "title": "Casa Alcázar",
+        "category": "Residencial · Querétaro"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista interior del vestíbulo de oficinas corporativas Nortia",
+        "title": "Corporativo Nortia",
+        "category": "Oficinas · Ciudad de México"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Terraza posterior de casa Los Encinos con alberca y palapa de madera",
+        "title": "Casa Los Encinos",
+        "category": "Residencial · Valle de Bravo"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de vidrio del centro comercial Paseo del Río al atardecer",
+        "title": "Paseo del Río",
+        "category": "Comercial · Querétaro"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Patio central de biblioteca pública con techumbre de madera laminada",
+        "title": "Biblioteca Municipal Amealco",
+        "category": "Institucional · Amealco"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada nocturna del hotel boutique Casona Roma iluminada",
+        "title": "Casona Roma",
+        "category": "Hospitalidad · Ciudad de México"
+      }
+    ]
+  }
+}

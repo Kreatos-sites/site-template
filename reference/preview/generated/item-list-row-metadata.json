@@ -1,0 +1,55 @@
+{
+  "key": "item-list-row-metadata",
+  "pascalName": "ItemListRowMetadata",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `item-list-row-metadata` | item-list-row-metadata — catálogo de servicios en filas con badge de categoría y metadata (precio, duración, ubicación) · úsalo para listar servicios de despachos o consultorías. | { eyebrow, title, priceLabel, durationLabel, locationLabel, items: [{ category, title, description, price, duration, location }] } |",
+  "fixture": {
+    "eyebrow": "Servicios",
+    "title": "Nuestro catálogo de servicios profesionales",
+    "priceLabel": "Precio",
+    "durationLabel": "Duración",
+    "locationLabel": "Ubicación",
+    "items": [
+      {
+        "category": "Consultoría",
+        "title": "Diagnóstico fiscal integral",
+        "description": "Revisión completa de su situación fiscal actual con identificación de riesgos y oportunidades de ahorro conforme a la normativa vigente.",
+        "price": "Desde $8,500 MXN",
+        "duration": "3 a 5 días hábiles",
+        "location": "Presencial o remoto"
+      },
+      {
+        "category": "Litigio",
+        "title": "Representación en juicio mercantil",
+        "description": "Acompañamiento legal en controversias comerciales, desde la demanda inicial hasta la ejecución de sentencia.",
+        "price": "Cotización según caso",
+        "duration": "Variable",
+        "location": "Ciudad de México y área metropolitana"
+      },
+      {
+        "category": "Corporativo",
+        "title": "Constitución de sociedades",
+        "description": "Trámite completo de constitución ante notario, inscripción en el Registro Público de Comercio y alta ante el SAT.",
+        "price": "Desde $12,000 MXN",
+        "duration": "10 a 15 días hábiles",
+        "location": "Nacional"
+      },
+      {
+        "category": "Cumplimiento",
+        "title": "Auditoría de cumplimiento normativo",
+        "description": "Evaluación de políticas internas frente a regulaciones sectoriales, con plan de acción y seguimiento trimestral.",
+        "price": "Desde $15,000 MXN",
+        "duration": "2 a 4 semanas",
+        "location": "Presencial o remoto"
+      },
+      {
+        "category": "Asesoría",
+        "title": "Blindaje contractual para proveedores",
+        "description": "Redacción y revisión de contratos con proveedores y clientes para reducir la exposición a controversias futuras.",
+        "price": "Desde $6,000 MXN por contrato",
+        "duration": "5 días hábiles",
+        "location": "Remoto"
+      }
+    ]
+  }
+}

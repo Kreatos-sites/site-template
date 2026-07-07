@@ -1,0 +1,53 @@
+{
+  "key": "testimonials-dense-rating-rows",
+  "pascalName": "TestimonialsDenseRatingRows",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-dense-rating-rows` | testimonials-dense-rating-rows — filas densas de testimonios con estrellas y foto de cliente · úsalo para prueba social compacta con muchas reseñas. | { eyebrow, title, ratingLabel, testimonials: [{ quote, name, role, avatar, avatarAlt, rating }] } |",
+  "fixture": {
+    "eyebrow": "Clientes",
+    "title": "Despachos y empresas que confían en nuestro trabajo",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "testimonials": [
+      {
+        "quote": "Nos entregaron el dictamen fiscal dos semanas antes de lo previsto y con observaciones que nos evitaron un problema con el SAT.",
+        "name": "Alejandra Ríos",
+        "role": "Directora administrativa, Grupo Ferretero del Norte",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Alejandra Ríos",
+        "rating": 5
+      },
+      {
+        "quote": "La coordinación entre el equipo legal y el contable fue clara desde la primera reunión. No tuvimos que repetir información dos veces.",
+        "name": "Ricardo Villaseñor",
+        "role": "Socio fundador, Constructora Villaseñor",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ricardo Villaseñor",
+        "rating": 5
+      },
+      {
+        "quote": "El seguimiento mensual de nómina redujo nuestras incidencias con el IMSS a prácticamente cero en un año.",
+        "name": "Paulina Serrano",
+        "role": "Gerente de recursos humanos, Distribuidora Serrano",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Serrano",
+        "rating": 4
+      },
+      {
+        "quote": "Explican cada decisión fiscal en términos que entendemos, sin tecnicismos innecesarios ni sorpresas al cierre del ejercicio.",
+        "name": "Jorge Iturbide",
+        "role": "Director general, Logística Iturbide",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Jorge Iturbide",
+        "rating": 5
+      },
+      {
+        "quote": "Migramos de otro despacho hace dos años y la diferencia en tiempos de respuesta ha sido notable desde el primer mes.",
+        "name": "Mariana Cobos",
+        "role": "CFO, Inmobiliaria Cobos y Asociados",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Mariana Cobos",
+        "rating": 5
+      }
+    ]
+  }
+}

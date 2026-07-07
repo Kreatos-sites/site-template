@@ -1,0 +1,44 @@
+{
+  "key": "footer-vertical-dividers-split",
+  "pascalName": "FooterVerticalDividersSplit",
+  "category": "Footers",
+  "catalogRow": "| `footer-vertical-dividers-split` | footer-vertical-dividers-split — footer con marca, indicador de estatus y columnas de enlaces separadas por líneas · úsalo para sitios con varias líneas de servicio. | { brand, description, statusLabel, columns: [{ heading, links: [{ label, href }] }], copyright, legalNavLabel, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "brand": "Aranda & Coín",
+    "description": "Despacho de asesoría fiscal y corporativa para empresas medianas en el centro del país.",
+    "statusLabel": "Todos los sistemas operando con normalidad",
+    "columns": [
+      {
+        "heading": "Servicios",
+        "links": [
+          { "label": "Asesoría fiscal", "href": "/servicios/asesoria-fiscal" },
+          { "label": "Auditoría", "href": "/servicios/auditoria" },
+          { "label": "Cumplimiento corporativo", "href": "/servicios/cumplimiento" }
+        ]
+      },
+      {
+        "heading": "Despacho",
+        "links": [
+          { "label": "Sobre nosotros", "href": "/nosotros" },
+          { "label": "Equipo", "href": "/equipo" },
+          { "label": "Casos de éxito", "href": "/casos" }
+        ]
+      },
+      {
+        "heading": "Contacto",
+        "links": [
+          { "label": "Agendar consulta", "href": "/contacto" },
+          { "label": "Oficinas", "href": "/oficinas" },
+          { "label": "Trabaja con nosotros", "href": "/carreras" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Aranda & Coín. Todos los derechos reservados.",
+    "legalNavLabel": "Enlaces legales",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos de servicio", "href": "/terminos" },
+      { "label": "Cookies", "href": "/cookies" }
+    ]
+  }
+}

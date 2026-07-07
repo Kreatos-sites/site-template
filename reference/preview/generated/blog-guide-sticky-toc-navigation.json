@@ -1,0 +1,54 @@
+{
+  "key": "blog-guide-sticky-toc-navigation",
+  "pascalName": "BlogGuideStickyTocNavigation",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-guide-sticky-toc-navigation` | blog-guide-sticky-toc-navigation — guía larga con tabla de contenido fija que ancla al hacer scroll · úsalo para artículos técnicos o guías extensas con varias secciones. | { eyebrow, title, description, readingTime, sectionsLabel, tocLabel, toc: [{ id, label }], sections: [{ id, heading, body }] } |",
+  "fixture": {
+    "eyebrow": "Guía técnica",
+    "title": "Cómo seleccionar un contratista para obra industrial",
+    "description": "Una guía de referencia para directores de operaciones y gerentes de proyecto que evalúan contratistas para naves industriales, plantas y centros de distribución.",
+    "readingTime": "Lectura de 12 minutos",
+    "sectionsLabel": "6 secciones",
+    "tocLabel": "En esta guía",
+    "toc": [
+      { "id": "alcance-del-proyecto", "label": "Defina el alcance del proyecto" },
+      { "id": "criterios-de-seleccion", "label": "Criterios de selección" },
+      { "id": "verificacion-de-antecedentes", "label": "Verificación de antecedentes" },
+      { "id": "estructura-de-contrato", "label": "Estructura del contrato" },
+      { "id": "gestion-de-riesgos", "label": "Gestión de riesgos en obra" },
+      { "id": "entrega-y-cierre", "label": "Entrega y cierre de obra" }
+    ],
+    "sections": [
+      {
+        "id": "alcance-del-proyecto",
+        "heading": "Defina el alcance del proyecto",
+        "body": "Antes de solicitar cotizaciones, documente el alcance con planos preliminares, especificaciones de carga y plazos por etapa. Un alcance impreciso es la causa más común de sobrecostos durante la ejecución."
+      },
+      {
+        "id": "criterios-de-seleccion",
+        "heading": "Criterios de selección",
+        "body": "Evalúe experiencia comprobable en naves industriales similares, capacidad financiera para el monto de la obra y disponibilidad de cuadrillas propias frente a subcontratación total."
+      },
+      {
+        "id": "verificacion-de-antecedentes",
+        "heading": "Verificación de antecedentes",
+        "body": "Solicite referencias de al menos tres proyectos concluidos en los últimos dos años, constancia de situación fiscal y comprobante de seguro de responsabilidad civil vigente."
+      },
+      {
+        "id": "estructura-de-contrato",
+        "heading": "Estructura del contrato",
+        "body": "Defina si el contrato será a precio alzado, por administración o mixto. Cada esquema traslada el riesgo de forma distinta entre el propietario y el contratista."
+      },
+      {
+        "id": "gestion-de-riesgos",
+        "heading": "Gestión de riesgos en obra",
+        "body": "Establezca desde el inicio los procedimientos de cambio de alcance, las penalizaciones por atraso y la periodicidad de las juntas de avance con el residente de obra."
+      },
+      {
+        "id": "entrega-y-cierre",
+        "heading": "Entrega y cierre de obra",
+        "body": "Acuerde por escrito el proceso de recepción, el periodo de garantía por vicios ocultos y la entrega de planos as-built antes de liberar el finiquito."
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "key": "analytics-kpi-chart-with-trends",
+  "pascalName": "AnalyticsKpiChartWithTrends",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `analytics-kpi-chart-with-trends` | analytics-kpi-chart-with-trends — tarjeta de KPIs con gráfica de tendencia y crecimiento interanual · úsalo para mostrar desempeño operativo o financiero con series mensuales. | { eyebrow, title, kpis: [{ label, value }], chart: [{ label, value }], growth: { value, label }, chartLabel } |",
+  "fixture": {
+    "eyebrow": "Desempeño operativo",
+    "title": "Así evolucionó la ocupación de nuestras obras durante el año",
+    "kpis": [
+      { "label": "Proyectos activos", "value": "34" },
+      { "label": "Mes pico", "value": "Octubre" },
+      { "label": "Obras entregadas en el mes pico", "value": "9" }
+    ],
+    "chart": [
+      { "label": "Ene", "value": 12 },
+      { "label": "Feb", "value": 14 },
+      { "label": "Mar", "value": 15 },
+      { "label": "Abr", "value": 17 },
+      { "label": "May", "value": 19 },
+      { "label": "Jun", "value": 21 },
+      { "label": "Jul", "value": 20 },
+      { "label": "Ago", "value": 24 },
+      { "label": "Sep", "value": 27 },
+      { "label": "Oct", "value": 34 },
+      { "label": "Nov", "value": 30 },
+      { "label": "Dic", "value": 28 }
+    ],
+    "growth": {
+      "value": "+22%",
+      "label": "Interanual respecto al ejercicio anterior"
+    },
+    "chartLabel": "Gráfica de proyectos activos por mes durante el año"
+  }
+}

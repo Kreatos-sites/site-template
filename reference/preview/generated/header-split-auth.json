@@ -1,0 +1,21 @@
+{
+  "key": "header-split-auth",
+  "pascalName": "HeaderSplitAuth",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-split-auth` | header-split-auth — header sticky con logo, nav central y cluster de acceso (login + CTA) · úsalo para sitios con portal de clientes. | { logo, navLabel, menuLabel, loginLabel, loginHref, ctaLabel, ctaHref, links: [{ label, href }] } |",
+  "fixture": {
+    "logo": "Vértice Legal",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "loginLabel": "Portal de clientes",
+    "loginHref": "#portal",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Nuestro equipo", "href": "#equipo" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "key": "process-steps-vertical-rail-quartet",
+  "pascalName": "ProcessStepsVerticalRailQuartet",
+  "category": "Proceso",
+  "catalogRow": "| `process-steps-vertical-rail-quartet` | process-steps-vertical-rail-quartet — riel vertical de 4 pasos numerados con icono en círculo delimitado · úsalo para explicar un proceso operativo secuencial paso a paso. | { eyebrow, title, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro proceso",
+    "title": "Así trabajamos su proyecto de principio a fin",
+    "steps": [
+      {
+        "icon": "clipboard",
+        "title": "Levantamiento y cotización",
+        "description": "Visitamos el sitio, tomamos medidas y le entregamos una cotización detallada en un máximo de cinco días hábiles."
+      },
+      {
+        "icon": "compass",
+        "title": "Planeación e ingeniería",
+        "description": "Definimos planos ejecutivos, permisos y cronograma antes de mover una sola pala en la obra."
+      },
+      {
+        "icon": "hammer",
+        "title": "Ejecución de la obra",
+        "description": "Un residente de obra supervisa cada etapa y le comparte avances semanales con fotografías."
+      },
+      {
+        "icon": "package",
+        "title": "Entrega y garantía",
+        "description": "Entregamos con acta firmada y respaldamos el trabajo con dos años de garantía por escrito."
+      }
+    ]
+  }
+}

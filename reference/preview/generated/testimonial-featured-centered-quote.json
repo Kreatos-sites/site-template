@@ -1,0 +1,17 @@
+{
+  "key": "testimonial-featured-centered-quote",
+  "pascalName": "TestimonialFeaturedCenteredQuote",
+  "category": "Nosotros",
+  "catalogRow": "| `testimonial-featured-centered-quote` | testimonial-featured-centered-quote — spotlight de un solo testimonio con cita centrada y gran formato · úsalo para dar peso a una sola voz de cliente clave. | { eyebrow, quote, author: { name, role, avatar, avatarAlt }, company } |",
+  "fixture": {
+    "eyebrow": "Testimonio",
+    "quote": "Reestructuramos el pasivo de la planta en Monterrey en cuatro meses, sin detener producción ni un solo turno. El equipo de Vantia entendió el negocio antes de tocar los contratos financieros.",
+    "author": {
+      "name": "Ricardo Elizondo",
+      "role": "Director de Operaciones",
+      "avatar": "/images/about.svg",
+      "avatarAlt": "Retrato de Ricardo Elizondo, Director de Operaciones"
+    },
+    "company": "Grupo Industrial Elizondo"
+  }
+}

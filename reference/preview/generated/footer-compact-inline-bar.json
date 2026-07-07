@@ -1,0 +1,19 @@
+{
+  "key": "footer-compact-inline-bar",
+  "pascalName": "FooterCompactInlineBar",
+  "category": "Footers",
+  "catalogRow": "| `footer-compact-inline-bar` | footer-compact-inline-bar — barra de pie de página minimalista de una sola línea con marca+tagline, enlaces en línea y copyright · úsalo para sitios simples sin footer de columnas. | { brand, tagline, navLabel, copyright, links: [{ label, href }] } |",
+  "fixture": {
+    "brand": "Corvera & Asociados",
+    "tagline": "Despacho de litigio corporativo",
+    "navLabel": "Navegación de pie de página",
+    "copyright": "© 2026 Corvera & Asociados. Todos los derechos reservados.",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Aviso de privacidad", "href": "#privacidad" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

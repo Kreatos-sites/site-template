@@ -1,0 +1,19 @@
+{
+  "key": "header-flat-monochrome-drawer",
+  "pascalName": "HeaderFlatMonochromeDrawer",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-flat-monochrome-drawer` | header-flat-monochrome-drawer — header plano monocromático con hairline y CTA de esquinas rectas · úsalo en sitios corporativos con drawer móvil nativo (sin JS). | { logo, navLabel, nav: [{ label, href }], ctaLabel, ctaHref, menuLabel } |",
+  "fixture": {
+    "logo": "Bufete Zaldívar",
+    "navLabel": "Navegación principal",
+    "nav": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú de navegación"
+  }
+}

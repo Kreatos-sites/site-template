@@ -14,9 +14,22 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
+  let messages = (await import(`../messages/${locale}.json`)).default as Record<
+    string,
+    unknown
+  >;
+  // Solo en desarrollo: la galería /preview (reference/preview) monta cada bloque
+  // de la biblioteca con copy de ejemplo. Sus namespaces se mergean aquí para
+  // que next-intl los resuelva. En producción (sitios de cliente) NO se cargan:
+  // cero contaminación del copy real ni del build.
+  if (process.env.NODE_ENV !== "production") {
+    const { previewFixtures } = await import("../reference/preview/fixtures");
+    messages = { ...messages, ...previewFixtures };
+  }
+
   return {
     locale,
-    messages: (await import(`../messages/${locale}.json`)).default,
+    messages,
     // Una clave i18n faltante debe TUMBAR el build, NO renderizar el key crudo.
     // Al lanzar en MISSING_MESSAGE, el prerender de esa ruta falla en `pnpm
     // build` → el agente lo caza y corrige el copy. Suele significar: el copy de

@@ -1,0 +1,38 @@
+{
+  "key": "feature-sticky-scroll-stack-offset-animation",
+  "pascalName": "FeatureStickyScrollStackOffsetAnimation",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-sticky-scroll-stack-offset-animation` | feature-sticky-scroll-stack-offset-animation — tarjetas fijas apiladas con desfase de scroll · úsalo para explicar un proceso operativo paso a paso. | { eyebrow, title, description, features: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso logístico bajo control en cada etapa",
+    "description": "Desde la recolección hasta la entrega final, cada embarque pasa por un flujo verificado que reduce tiempos muertos y evita sorpresas en ruta.",
+    "features": [
+      {
+        "icon": "route",
+        "title": "Planeación de ruta",
+        "description": "Definimos el trayecto óptimo según ventana de entrega, tipo de carga y restricciones viales, con alternativas listas ante contingencias."
+      },
+      {
+        "icon": "team",
+        "title": "Asignación de operador certificado",
+        "description": "Cada unidad sale con un operador capacitado en manejo defensivo y protocolos de carga, asignado según la ruta y el tipo de mercancía."
+      },
+      {
+        "icon": "truck",
+        "title": "Monitoreo en tránsito",
+        "description": "Rastreamos la unidad en tiempo real y avisamos a su equipo ante cualquier desviación de ruta o retraso mayor a treinta minutos."
+      },
+      {
+        "icon": "shield",
+        "title": "Verificación en punto de entrega",
+        "description": "Confirmamos condición de la carga, firma de recepción y evidencia fotográfica antes de cerrar el embarque en el sistema."
+      },
+      {
+        "icon": "chart",
+        "title": "Reporte de cierre",
+        "description": "Recibe un reporte con tiempos reales, incidencias y costos por embarque para que pueda auditar el desempeño de su cadena de suministro."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "key": "benefits-incentives-carousel",
+  "pascalName": "BenefitsIncentivesCarousel",
+  "category": "Features y servicios",
+  "catalogRow": "| `benefits-incentives-carousel` | benefits-incentives-carousel — carrusel horizontal de incentivos y garantías de servicio · úsalo para reforzar confianza tras el hero con beneficios operativos. | { eyebrow, title, incentives: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Garantías de servicio",
+    "title": "Trabajar con nosotros tiene ventajas claras",
+    "incentives": [
+      {
+        "icon": "truck",
+        "title": "Entrega en sitio en toda la zona metropolitana",
+        "description": "Coordinamos la logística de materiales y equipo directamente en su obra, sin costos ocultos de traslado."
+      },
+      {
+        "icon": "shield",
+        "title": "Garantía por escrito en cada proyecto",
+        "description": "Todo contrato incluye garantía de obra civil por 24 meses, respaldada por póliza de cumplimiento."
+      },
+      {
+        "icon": "headset",
+        "title": "Un responsable de proyecto asignado",
+        "description": "Usted trata siempre con la misma persona, disponible por WhatsApp y correo durante toda la obra."
+      },
+      {
+        "icon": "undo",
+        "title": "Ajustes de alcance sin penalización",
+        "description": "Si el proyecto cambia de escala, revisamos el presupuesto junto con usted antes de continuar."
+      },
+      {
+        "icon": "package",
+        "title": "Materiales certificados en cada entrega",
+        "description": "Trabajamos solo con proveedores que documentan fichas técnicas y certificados de calidad."
+      },
+      {
+        "icon": "badge",
+        "title": "Cumplimiento normativo verificado",
+        "description": "Cada obra se entrega con la documentación requerida por las autoridades municipales y estatales."
+      }
+    ]
+  }
+}

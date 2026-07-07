@@ -1,0 +1,61 @@
+{
+  "key": "gallery-grid-uniform-responsive",
+  "pascalName": "GalleryGridUniformResponsive",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-grid-uniform-responsive` | gallery-grid-uniform-responsive — galería en grid de tiles 4:5 con etiqueta y caption por imagen · úsalo para portafolio de proyectos u obras terminadas. | { eyebrow, title, description, items: [{ image, imageAlt, caption, tag }] } |",
+  "fixture": {
+    "eyebrow": "Proyectos realizados",
+    "title": "Un vistazo a nuestro trabajo en campo",
+    "description": "Cada proyecto refleja el mismo estándar de acabados y control de obra, sin importar el tamaño o la complejidad del encargo.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de nave industrial recién entregada en Querétaro",
+        "caption": "Nave industrial de 3,200 m² entregada en 11 meses, Parque Industrial Querétaro.",
+        "tag": "Industrial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de oficinas corporativas con acabados en concreto y madera",
+        "caption": "Remodelación integral de oficinas corporativas para despacho legal en Monterrey.",
+        "tag": "Corporativo"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Estructura de estacionamiento en construcción",
+        "caption": "Ampliación de estacionamiento techado para centro de distribución en Toluca.",
+        "tag": "Infraestructura"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bodega de almacenamiento con racks metálicos instalados",
+        "caption": "Habilitación de bodega con sistema de racks para distribuidor de insumos médicos.",
+        "tag": "Logística"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Cuadrilla de trabajo supervisando avance de obra",
+        "caption": "Supervisión de avance en obra gris para desarrollo habitacional en León.",
+        "tag": "Residencial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas terminada con iluminación integrada",
+        "caption": "Entrega de sala de juntas y recepción para firma consultora en CDMX.",
+        "tag": "Corporativo"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Techumbre metálica instalada en planta de manufactura",
+        "caption": "Sustitución de techumbre en planta de manufactura, cliente automotriz.",
+        "tag": "Industrial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Andén de carga terminado con señalización",
+        "caption": "Construcción de andenes de carga para centro logístico en Guadalajara.",
+        "tag": "Logística"
+      }
+    ]
+  }
+}

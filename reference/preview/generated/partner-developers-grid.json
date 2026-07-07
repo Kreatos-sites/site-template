@@ -1,0 +1,73 @@
+{
+  "key": "partner-developers-grid",
+  "pascalName": "PartnerDevelopersGrid",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `partner-developers-grid` | partner-developers-grid — grid de tarjetas de socios y desarrolladores aliados con logo, rol y ubicación · úsalo para respaldar el portafolio con constructoras y codesarrolladores. | { eyebrow, title, description, partners: [{ name, role, location, since, description, image, imageAlt, icon }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas estratégicas",
+    "title": "Desarrolladores y constructoras que respaldan cada proyecto",
+    "description": "Trabajamos con un grupo selecto de socios de obra y desarrollo con quienes hemos construido más de 40 proyectos residenciales y comerciales en los últimos doce años.",
+    "partners": [
+      {
+        "name": "Grupo Solvento",
+        "role": "Desarrollador maestro",
+        "location": "Monterrey, N.L.",
+        "since": "Socio desde 2014",
+        "description": "Desarrolla los masterplans de nuestros conjuntos residenciales y coordina la gestión de uso de suelo con autoridades municipales.",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Grupo Solvento",
+        "icon": "buildings"
+      },
+      {
+        "name": "Constructora Ferrán",
+        "role": "Constructora ejecutora",
+        "location": "Guadalajara, Jal.",
+        "since": "Socio desde 2017",
+        "description": "Responsable de la obra gris y acabados en nuestros desarrollos verticales, con procesos certificados de control de calidad.",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Constructora Ferrán",
+        "icon": "handshake"
+      },
+      {
+        "name": "Urbania Desarrollos",
+        "role": "Codesarrollador",
+        "location": "Querétaro, Qro.",
+        "since": "Socio desde 2019",
+        "description": "Coinvierte en terrenos y comparte estructura financiera en proyectos de uso mixto de mediana escala.",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Urbania Desarrollos",
+        "icon": "buildings"
+      },
+      {
+        "name": "Ingeniería Roble",
+        "role": "Ingeniería estructural",
+        "location": "Monterrey, N.L.",
+        "since": "Socio desde 2016",
+        "description": "Firma a cargo del cálculo estructural y supervisión técnica de cimentaciones en suelo de alta plasticidad.",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Ingeniería Roble",
+        "icon": "handshake"
+      },
+      {
+        "name": "Vértice Inmobiliaria",
+        "role": "Desarrollador aliado",
+        "location": "San Pedro Garza García, N.L.",
+        "since": "Socio desde 2021",
+        "description": "Aporta terrenos con uso de suelo mixto en el área metropolitana para desarrollos de vivienda vertical.",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Vértice Inmobiliaria",
+        "icon": "buildings"
+      },
+      {
+        "name": "Obras Cantera",
+        "role": "Constructora ejecutora",
+        "location": "Saltillo, Coah.",
+        "since": "Socio desde 2018",
+        "description": "Ejecuta la urbanización y vialidades internas en nuestros fraccionamientos de baja densidad.",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Obras Cantera",
+        "icon": "handshake"
+      }
+    ]
+  }
+}

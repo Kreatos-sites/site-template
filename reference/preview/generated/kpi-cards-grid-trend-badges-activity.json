@@ -1,0 +1,76 @@
+{
+  "key": "kpi-cards-grid-trend-badges-activity",
+  "pascalName": "KpiCardsGridTrendBadgesActivity",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `kpi-cards-grid-trend-badges-activity` | kpi-cards-grid-trend-badges-activity — grid de KPIs con badge de tendencia y feed de actividad · úsalo para paneles de resultados operativos (logística, distribución). | { eyebrow, title, kpis: [{ icon, value, label, trend: up/down, trendValue }], activityTitle, statusLabels: { done, alert, update }, activity: [{ initials, actor, action, status: done/alert/update, timestamp }] } |",
+  "fixture": {
+    "eyebrow": "Operación en vivo",
+    "title": "Así se ve un día normal en nuestro centro de distribución",
+    "kpis": [
+      {
+        "icon": "truck",
+        "value": "482",
+        "label": "Rutas completadas hoy",
+        "trend": "up",
+        "trendValue": "+6.4% vs. semana pasada"
+      },
+      {
+        "icon": "package",
+        "value": "3,120",
+        "label": "Pedidos surtidos",
+        "trend": "up",
+        "trendValue": "+2.1% vs. semana pasada"
+      },
+      {
+        "icon": "clock",
+        "value": "38 min",
+        "label": "Tiempo promedio de entrega",
+        "trend": "down",
+        "trendValue": "-4 min vs. semana pasada"
+      },
+      {
+        "icon": "users",
+        "value": "96.8%",
+        "label": "Satisfacción de clientes",
+        "trend": "up",
+        "trendValue": "+1.2 pts vs. semana pasada"
+      }
+    ],
+    "activityTitle": "Actividad reciente",
+    "statusLabels": {
+      "done": "Completado",
+      "alert": "Atención",
+      "update": "En proceso"
+    },
+    "activity": [
+      {
+        "initials": "RM",
+        "actor": "Ricardo Mena",
+        "action": "cerró la ruta 14 con 96 entregas confirmadas.",
+        "status": "done",
+        "timestamp": "Hace 12 minutos"
+      },
+      {
+        "initials": "CB",
+        "actor": "Carla Beltrán",
+        "action": "reportó retraso en el cruce fronterizo de Nuevo Laredo.",
+        "status": "alert",
+        "timestamp": "Hace 34 minutos"
+      },
+      {
+        "initials": "DL",
+        "actor": "Daniel Lozano",
+        "action": "actualizó el inventario del almacén 3 tras el corte de turno.",
+        "status": "update",
+        "timestamp": "Hace 1 hora"
+      },
+      {
+        "initials": "MG",
+        "actor": "Mariana Gómez",
+        "action": "confirmó la recepción de 12 contenedores en el puerto de Manzanillo.",
+        "status": "done",
+        "timestamp": "Hace 2 horas"
+      }
+    ]
+  }
+}

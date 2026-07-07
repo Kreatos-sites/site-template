@@ -1,0 +1,43 @@
+{
+  "key": "services-link-grid-split",
+  "pascalName": "ServicesLinkGridSplit",
+  "category": "Features y servicios",
+  "catalogRow": "| `services-link-grid-split` | services-link-grid-split — rejilla de servicios con encabezado dividido y filas icono/título/descripción con flecha · úsalo para listar áreas de práctica o líneas de servicio. | { eyebrow, title, description, items: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Áreas de práctica",
+    "title": "Servicios legales y de cumplimiento para su empresa",
+    "description": "Acompañamos a empresas mexicanas en cada etapa de su operación, desde la constitución hasta litigios complejos, con equipos especializados por materia.",
+    "items": [
+      {
+        "icon": "building",
+        "title": "Corporativo y societario",
+        "description": "Constitución de sociedades, gobierno corporativo, fusiones y adquisiciones, y estructuración de inversiones para grupos empresariales."
+      },
+      {
+        "icon": "shield",
+        "title": "Cumplimiento normativo",
+        "description": "Auditorías de cumplimiento, políticas anticorrupción y acompañamiento ante autoridades regulatorias en México."
+      },
+      {
+        "icon": "clipboard",
+        "title": "Contratos y relaciones comerciales",
+        "description": "Redacción y negociación de contratos mercantiles, acuerdos de distribución y alianzas estratégicas."
+      },
+      {
+        "icon": "gauge",
+        "title": "Laboral y seguridad social",
+        "description": "Asesoría en contratación, terminaciones, auditorías de nómina y representación ante juntas de conciliación."
+      },
+      {
+        "icon": "chart",
+        "title": "Fiscal y financiero",
+        "description": "Planeación fiscal, defensa ante el SAT y estructuración de operaciones de financiamiento."
+      },
+      {
+        "icon": "truck",
+        "title": "Litigio y arbitraje",
+        "description": "Representación en controversias civiles, mercantiles y arbitrajes comerciales nacionales e internacionales."
+      }
+    ]
+  }
+}

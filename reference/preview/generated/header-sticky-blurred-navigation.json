@@ -1,0 +1,19 @@
+{
+  "key": "header-sticky-blurred-navigation",
+  "pascalName": "HeaderStickyBlurredNavigation",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-sticky-blurred-navigation` | header-sticky-blurred-navigation — header fijo con blur permanente, logo, nav y CTA · úsalo como header principal de un sitio corporativo. | { logo, navLabel, links: [{ label, href }], ctaLabel, ctaHref, menuLabel } |",
+  "fixture": {
+    "logo": "Ferretería Industrial Regiomontana",
+    "navLabel": "Navegación principal",
+    "links": [
+      { "label": "Catálogo", "href": "#catalogo" },
+      { "label": "Distribución", "href": "#distribucion" },
+      { "label": "Nosotros", "href": "#nosotros" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú de navegación"
+  }
+}

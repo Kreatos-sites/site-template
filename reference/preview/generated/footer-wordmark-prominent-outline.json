@@ -1,0 +1,60 @@
+{
+  "key": "footer-wordmark-prominent-outline",
+  "pascalName": "FooterWordmarkProminentOutline",
+  "category": "Footers",
+  "catalogRow": "| `footer-wordmark-prominent-outline` | footer-wordmark-prominent-outline — footer con columnas de navegación y wordmark gigante en contorno · úsalo como cierre de marca en sitios corporativos. | { columns: [{ title, links: [{ label, href }] }], statusLabel, socialLinks: [{ icon, label, href }], wordmark, copyright, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "columns": [
+      {
+        "title": "Despacho",
+        "links": [
+          { "label": "Nosotros", "href": "/nosotros" },
+          { "label": "Equipo", "href": "/equipo" },
+          { "label": "Casos de éxito", "href": "/casos" },
+          { "label": "Trabaje con nosotros", "href": "/carreras" }
+        ]
+      },
+      {
+        "title": "Servicios",
+        "links": [
+          { "label": "Litigio corporativo", "href": "/servicios/litigio" },
+          { "label": "Derecho fiscal", "href": "/servicios/fiscal" },
+          { "label": "Propiedad intelectual", "href": "/servicios/propiedad-intelectual" },
+          { "label": "Fusiones y adquisiciones", "href": "/servicios/fusiones" }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          { "label": "Blog jurídico", "href": "/blog" },
+          { "label": "Boletines", "href": "/boletines" },
+          { "label": "Preguntas frecuentes", "href": "/preguntas-frecuentes" },
+          { "label": "Contacto", "href": "/contacto" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Aviso de privacidad", "href": "/privacidad" },
+          { "label": "Términos de servicio", "href": "/terminos" },
+          { "label": "Código de ética", "href": "/codigo-etica" },
+          { "label": "Transparencia", "href": "/transparencia" }
+        ]
+      }
+    ],
+    "statusLabel": "Disponible para nuevos casos este trimestre",
+    "socialLinks": [
+      { "icon": "linkedin", "label": "LinkedIn de Vega Salazar Abogados", "href": "https://linkedin.com" },
+      { "icon": "twitter", "label": "X de Vega Salazar Abogados", "href": "https://x.com" },
+      { "icon": "instagram", "label": "Instagram de Vega Salazar Abogados", "href": "https://instagram.com" },
+      { "icon": "facebook", "label": "Facebook de Vega Salazar Abogados", "href": "https://facebook.com" }
+    ],
+    "wordmark": "Vega Salazar",
+    "copyright": "© 2026 Vega Salazar Abogados, S.C. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Privacidad", "href": "/privacidad" },
+      { "label": "Términos", "href": "/terminos" },
+      { "label": "Cookies", "href": "/cookies" }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key": "hero-editorial-with-stat-hairline",
+  "pascalName": "HeroEditorialWithStatHairline",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `hero-editorial-with-stat-hairline` | hero-editorial-with-stat-hairline — hero editorial monócromo con meta indexado y stats hairline · úsalo en portadas de firmas profesionales con cifras de autoridad. | { metaItems: [{ index, label }], eyebrow, title, subtitle, primaryCta: { label, href }, secondaryCta: { label, href }, stats: [{ value, label }] } |",
+  "fixture": {
+    "metaItems": [
+      { "index": "01", "label": "Derecho corporativo" },
+      { "index": "02", "label": "Fusiones y adquisiciones" },
+      { "index": "03", "label": "Ciudad de México" }
+    ],
+    "eyebrow": "Consultoría legal para empresas",
+    "title": "Asesoría jurídica precisa para decisiones que no admiten error",
+    "subtitle": "Acompañamos a consejos de administración y equipos directivos en operaciones corporativas, contratos estratégicos y disputas de alto valor.",
+    "primaryCta": { "label": "Agendar consulta", "href": "/contacto" },
+    "secondaryCta": { "label": "Ver casos representativos", "href": "/casos" },
+    "stats": [
+      { "value": "18", "label": "Años de práctica" },
+      { "value": "230+", "label": "Operaciones cerradas" },
+      { "value": "97%", "label": "Casos resueltos a favor" },
+      { "value": "40", "label": "Clientes corporativos activos" }
+    ]
+  }
+}

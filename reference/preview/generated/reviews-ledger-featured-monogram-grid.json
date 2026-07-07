@@ -1,0 +1,54 @@
+{
+  "key": "reviews-ledger-featured-monogram-grid",
+  "pascalName": "ReviewsLedgerFeaturedMonogramGrid",
+  "category": "Reseñas",
+  "catalogRow": "| `reviews-ledger-featured-monogram-grid` | reviews-ledger-featured-monogram-grid — cita destacada en tarjeta con marco más cuadrícula de reseñas con monograma · úsalo para reforzar confianza justo después del hero. | { eyebrow, title, featured: { quote, name, role, monogram }, reviews: [{ quote, name, role, monogram }] } |",
+  "fixture": {
+    "eyebrow": "Clientes",
+    "title": "Despachos y constructoras que ya trabajan con nosotros",
+    "featured": {
+      "quote": "Migramos la contabilidad de tres obras al sistema en una semana. Ahora conciliamos facturas y avances de obra desde el mismo tablero, sin hojas de cálculo sueltas.",
+      "name": "Rodrigo Salcedo",
+      "role": "Director de Operaciones, Grupo Constructor Altavista",
+      "monogram": "RS"
+    },
+    "reviews": [
+      {
+        "quote": "El corte de caja mensual pasó de tres días a una tarde. El equipo de soporte respondió cada duda durante la implementación.",
+        "name": "Marina Cabrera",
+        "role": "Gerente Administrativa, Distribuidora Cabrera",
+        "monogram": "MC"
+      },
+      {
+        "quote": "Necesitábamos trazabilidad por proyecto y la tuvimos desde el primer cierre. El reporte llega listo para el consejo.",
+        "name": "Ernesto Villagómez",
+        "role": "Socio Director, Villagómez & Asociados",
+        "monogram": "EV"
+      },
+      {
+        "quote": "Redujimos los errores de captura porque cada bodega registra su propio movimiento en tiempo real.",
+        "name": "Paola Rentería",
+        "role": "Jefa de Logística, Transportes Rentería",
+        "monogram": "PR"
+      },
+      {
+        "quote": "La firma electrónica de contratos nos quitó una semana completa de trámite por cada cliente nuevo.",
+        "name": "Héctor Domínguez",
+        "role": "Director Jurídico, Domínguez Consultores",
+        "monogram": "HD"
+      },
+      {
+        "quote": "Antes perdíamos seguimiento entre sucursales. Hoy cada gerente ve el mismo tablero al mismo tiempo.",
+        "name": "Lucía Barrientos",
+        "role": "Directora Regional, Inmobiliaria Barrientos",
+        "monogram": "LB"
+      },
+      {
+        "quote": "El soporte técnico entiende de construcción, no solo de software. Eso marcó la diferencia en la implementación.",
+        "name": "Álvaro Nieto",
+        "role": "Gerente de Proyecto, Constructora Nieto",
+        "monogram": "AN"
+      }
+    ]
+  }
+}

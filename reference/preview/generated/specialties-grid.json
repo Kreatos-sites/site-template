@@ -1,0 +1,61 @@
+{
+  "key": "specialties-grid",
+  "pascalName": "SpecialtiesGrid",
+  "category": "Salud y servicios pro",
+  "catalogRow": "| `specialties-grid` | specialties-grid — grid de tarjetas con imagen, icono y etiqueta por especialidad · úsalo para clínicas o despachos con varias líneas de atención. | { eyebrow, title, description, specialties: [{ icon, title, description, tag, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Áreas de atención",
+    "title": "Especialidades con las que contamos",
+    "description": "Cada especialidad cuenta con personal certificado y equipo propio para el diagnóstico y seguimiento de sus pacientes, sin necesidad de referirlos a otro centro.",
+    "specialties": [
+      {
+        "icon": "heart",
+        "title": "Cardiología",
+        "description": "Valoración, electrocardiograma y ecocardiograma en la misma visita, con seguimiento trimestral para pacientes con hipertensión o antecedentes cardiovasculares.",
+        "tag": "Consulta y estudios",
+        "image": "/images/about.svg",
+        "imageAlt": "Consultorio de cardiología con equipo de diagnóstico"
+      },
+      {
+        "icon": "bone",
+        "title": "Traumatología y ortopedia",
+        "description": "Atención de lesiones deportivas, fracturas y dolor articular crónico, con rayos X en sitio y planes de rehabilitación por escrito.",
+        "tag": "Urgencias menores",
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de traumatología con camilla y equipo de rayos X"
+      },
+      {
+        "icon": "baby",
+        "title": "Pediatría",
+        "description": "Control de niño sano, esquema de vacunación y consulta por enfermedad aguda, con horario extendido entre semana para no interrumpir la escuela.",
+        "tag": "Todas las edades",
+        "image": "/images/about.svg",
+        "imageAlt": "Consultorio pediátrico con área de espera para niños"
+      },
+      {
+        "icon": "eye",
+        "title": "Oftalmología",
+        "description": "Examen de agudeza visual, revisión de fondo de ojo y adaptación de lentes, con laboratorio óptico propio para entrega de armazones en 48 horas.",
+        "tag": "Óptica incluida",
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de exploración oftalmológica en consultorio"
+      },
+      {
+        "icon": "brain",
+        "title": "Neurología",
+        "description": "Diagnóstico y tratamiento de migraña, epilepsia y trastornos del sueño, con electroencefalograma disponible sin necesidad de referencia externa.",
+        "tag": "Estudios especializados",
+        "image": "/images/about.svg",
+        "imageAlt": "Área de estudios de neurología con equipo especializado"
+      },
+      {
+        "icon": "activity",
+        "title": "Medicina interna",
+        "description": "Seguimiento de diabetes, tiroides y enfermedades crónicas con panel de laboratorio completo y ajuste de tratamiento en la misma consulta.",
+        "tag": "Seguimiento continuo",
+        "image": "/images/about.svg",
+        "imageAlt": "Consultorio de medicina interna con área de revisión"
+      }
+    ]
+  }
+}

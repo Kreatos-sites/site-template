@@ -1,0 +1,37 @@
+{
+  "key": "faq-grid-cards-expandable",
+  "pascalName": "FaqGridCardsExpandable",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-grid-cards-expandable` | faq-grid-cards-expandable — grid de tarjetas FAQ expandibles (2x3 desktop) con efecto hover lift · úsalo para secciones extensas de dudas antes de precios o contacto. | { eyebrow, title, subtitle, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre nuestro servicio de logística",
+    "subtitle": "Reunimos las preguntas que más nos hacen los clientes antes de firmar el contrato de operación.",
+    "items": [
+      {
+        "question": "¿En cuántas ciudades tienen cobertura de entrega?",
+        "answer": "Operamos rutas propias en 14 ciudades del país y trabajamos con socios logísticos certificados para el resto del territorio nacional."
+      },
+      {
+        "question": "¿Cómo puedo rastrear un envío en tiempo real?",
+        "answer": "Cada guía incluye un enlace de rastreo con actualizaciones de estatus cada vez que la unidad llega a un punto de control."
+      },
+      {
+        "question": "¿Qué pasa si un paquete llega con daños?",
+        "answer": "Todos los envíos cuentan con seguro de mercancía. Levantamos el reporte en menos de 24 horas y resolvemos la reposición o el reembolso según el caso."
+      },
+      {
+        "question": "¿Manejan carga refrigerada o de temperatura controlada?",
+        "answer": "Sí, contamos con una flotilla de unidades refrigeradas para productos perecederos, farmacéuticos y muestras que requieren cadena de frío."
+      },
+      {
+        "question": "¿Cuál es el tiempo mínimo de entrega para envíos foráneos?",
+        "answer": "Las rutas foráneas tienen un tiempo de entrega de 24 a 72 horas, dependiendo de la distancia y del tipo de carga contratada."
+      },
+      {
+        "question": "¿Puedo contratar el servicio solo para un pico de temporada?",
+        "answer": "Sí, ofrecemos contratos por temporada además del esquema anual, útil para picos de demanda como fin de año o campañas específicas."
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "key": "competitive-advantage-comparison",
+  "pascalName": "CompetitiveAdvantageComparison",
+  "category": "Features y servicios",
+  "catalogRow": "| `competitive-advantage-comparison` | competitive-advantage-comparison — comparativa \"nosotros vs. la competencia\" en dos columnas · úsalo para contrastar ventajas frente al proveedor actual o status quo. | { eyebrow, title, description?, us: { name, points: [string], cta, href }, them: { name, points: [string] } } |",
+  "fixture": {
+    "eyebrow": "Comparativa",
+    "title": "La diferencia entre contratarnos a nosotros y seguir como está",
+    "description": "Muchos despachos de logística siguen operando con procesos manuales que le cuestan tiempo y visibilidad. Así es como cambia con nosotros.",
+    "us": {
+      "name": "Con Rutalink",
+      "points": [
+        "Rastreo de cada embarque en tiempo real, sin llamadas al chofer",
+        "Cotización automática en menos de 2 minutos",
+        "Un solo panel para todas sus rutas y transportistas",
+        "Facturación consolidada mensual, sin sorpresas"
+      ],
+      "cta": "Solicitar una demostración",
+      "href": "/contacto"
+    },
+    "them": {
+      "name": "Con su proveedor actual",
+      "points": [
+        "Ubicación del embarque solo por WhatsApp o llamada",
+        "Cotizaciones que tardan horas en llegar por correo",
+        "Un Excel distinto por cada transportista",
+        "Facturas sueltas y difíciles de conciliar"
+      ]
+    }
+  }
+}

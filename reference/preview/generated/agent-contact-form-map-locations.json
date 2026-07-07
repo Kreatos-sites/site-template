@@ -1,0 +1,51 @@
+{
+  "key": "agent-contact-form-map-locations",
+  "pascalName": "AgentContactFormMapLocations",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `agent-contact-form-map-locations` | agent-contact-form-map-locations — mapa de sedes con pines y formulario de contacto · úsalo para inmobiliarias con varias oficinas que necesitan mostrar ubicaciones y captar citas. | { eyebrow, title, subtitle, mapImage, mapImageAlt, locations: [{ icon, name, address, phone, hours }], formTitle, fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Visite una de nuestras oficinas o agende una asesoría",
+    "subtitle": "Nuestros asesores inmobiliarios le atienden en persona en cualquiera de nuestras sedes o por videollamada, según le convenga.",
+    "mapImage": "/images/hero.svg",
+    "mapImageAlt": "Mapa con la ubicación de nuestras oficinas en la ciudad",
+    "locations": [
+      {
+        "icon": "building",
+        "name": "Oficina Polanco",
+        "address": "Av. Presidente Masaryk 111, Polanco, Ciudad de México",
+        "phone": "+52 55 5280 3311",
+        "hours": "Lunes a viernes, 9:00 a 19:00 h"
+      },
+      {
+        "icon": "home",
+        "name": "Oficina Santa Fe",
+        "address": "Av. Vasco de Quiroga 3900, Santa Fe, Ciudad de México",
+        "phone": "+52 55 5257 9042",
+        "hours": "Lunes a viernes, 9:00 a 18:00 h"
+      },
+      {
+        "icon": "store",
+        "name": "Oficina Guadalajara",
+        "address": "Av. Américas 1500, Country Club, Guadalajara, Jalisco",
+        "phone": "+52 33 3648 2210",
+        "hours": "Lunes a sábado, 10:00 a 18:00 h"
+      },
+      {
+        "icon": "map-pin",
+        "name": "Oficina Monterrey",
+        "address": "Av. Constitución 1200, Centro, Monterrey, Nuevo León",
+        "phone": "+52 81 8344 5567",
+        "hours": "Lunes a viernes, 9:00 a 18:00 h"
+      }
+    ],
+    "formTitle": "Solicite una asesoría",
+    "fields": [
+      { "name": "name", "label": "Nombre completo", "type": "text", "placeholder": "Escriba su nombre" },
+      { "name": "email", "label": "Correo electrónico", "type": "email", "placeholder": "usted@correo.com" },
+      { "name": "phone", "label": "Teléfono", "type": "tel", "placeholder": "10 dígitos" },
+      { "name": "message", "label": "¿Qué propiedad le interesa?", "type": "textarea", "placeholder": "Describa el tipo de propiedad, zona y presupuesto" }
+    ],
+    "submitLabel": "Enviar solicitud"
+  }
+}

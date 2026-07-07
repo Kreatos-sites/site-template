@@ -1,0 +1,16 @@
+{
+  "key": "email-capture-band-horizontal",
+  "pascalName": "EmailCaptureBandHorizontal",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `email-capture-band-horizontal` | email-capture-band-horizontal — banda horizontal con contexto de marca a la izquierda y formulario de correo a la derecha · úsalo para cerrar la página captando suscriptores. | { eyebrow, title, description, formAction, inputLabel, inputPlaceholder, cta, legal } |",
+  "fixture": {
+    "eyebrow": "Manténgase informado",
+    "title": "Reciba actualizaciones normativas de comercio exterior",
+    "description": "Envíamos un resumen mensual con cambios arancelarios y regulatorios relevantes para su operación de importación y exportación.",
+    "formAction": "#suscripcion",
+    "inputLabel": "Correo electrónico",
+    "inputPlaceholder": "su.correo@empresa.com",
+    "cta": "Suscribirme",
+    "legal": "Al suscribirse acepta nuestro aviso de privacidad. Puede darse de baja en cualquier momento."
+  }
+}

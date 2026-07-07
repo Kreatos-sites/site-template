@@ -1,0 +1,18 @@
+{
+  "key": "gallery-marquee-infinite-edge-mask",
+  "pascalName": "GalleryMarqueeInfiniteEdgeMask",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-marquee-infinite-edge-mask` | gallery-marquee-infinite-edge-mask — carrusel horizontal infinito de imágenes con máscara de degradado en los bordes · úsalo para exhibir proyectos u obras entregadas. | { eyebrow, title, images: [{ image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Biblioteca visual",
+    "title": "Proyectos ejecutados en distintas ciudades del país",
+    "images": [
+      { "image": "/images/about.svg", "imageAlt": "Fachada de nave industrial entregada en Querétaro" },
+      { "image": "/images/hero.svg", "imageAlt": "Interior de oficinas corporativas en Monterrey" },
+      { "image": "/images/about.svg", "imageAlt": "Detalle de estructura metálica en obra de Guadalajara" },
+      { "image": "/images/hero.svg", "imageAlt": "Planta de distribución logística en el Bajío" },
+      { "image": "/images/about.svg", "imageAlt": "Área común de desarrollo residencial en Ciudad de México" },
+      { "image": "/images/hero.svg", "imageAlt": "Fachada de despacho corporativo en Puebla" }
+    ]
+  }
+}

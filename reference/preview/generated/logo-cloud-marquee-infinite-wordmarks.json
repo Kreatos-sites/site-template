@@ -1,0 +1,20 @@
+{
+  "key": "logo-cloud-marquee-infinite-wordmarks",
+  "pascalName": "LogoCloudMarqueeInfiniteWordmarks",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-marquee-infinite-wordmarks` | logo-cloud-marquee-infinite-wordmarks — marquesina tipográfica de marcas en scroll infinito · úsalo para mostrar clientes o aliados sin logotipos gráficos. | { eyebrow, title, wordmarks: [{ name }] }",
+  "fixture": {
+    "eyebrow": "Marcas que confían en nosotros",
+    "title": "Despachos, constructoras y distribuidores que ya trabajan con nosotros",
+    "wordmarks": [
+      { "name": "Grupo Ferretero del Bajío" },
+      { "name": "Constructora Peralta" },
+      { "name": "Distribuidora Monclova" },
+      { "name": "Logística Altavista" },
+      { "name": "Inmobiliaria Cardón" },
+      { "name": "Despacho Reyna & Asociados" },
+      { "name": "Aceros del Norte" },
+      { "name": "Transportes Solaris" }
+    ]
+  }
+}

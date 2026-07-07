@@ -1,0 +1,40 @@
+{
+  "key": "metrics-countup-delta-quad-animated",
+  "pascalName": "MetricsCountupDeltaQuadAnimated",
+  "category": "Heroes",
+  "catalogRow": "| `metrics-countup-delta-quad-animated` | metrics-countup-delta-quad-animated — cuarteto de métricas con badge de delta direccional (alza/baja) · úsalo para mostrar KPIs de negocio o resultados de conversión. | { eyebrow, title, metrics: [{ value, suffix?, label, delta, direction: up/down }] } |",
+  "fixture": {
+    "eyebrow": "Resultados",
+    "title": "Números que respaldan cada entrega",
+    "metrics": [
+      {
+        "value": "312",
+        "suffix": "",
+        "label": "Embarques gestionados este trimestre",
+        "delta": "18%",
+        "direction": "up"
+      },
+      {
+        "value": "98.4",
+        "suffix": "%",
+        "label": "Entregas dentro de la ventana pactada",
+        "delta": "2.1 pts",
+        "direction": "up"
+      },
+      {
+        "value": "6.2",
+        "suffix": "h",
+        "label": "Tiempo promedio de respuesta a incidencias",
+        "delta": "0.9 h",
+        "direction": "down"
+      },
+      {
+        "value": "47",
+        "suffix": "",
+        "label": "Clientes corporativos activos",
+        "delta": "5",
+        "direction": "up"
+      }
+    ]
+  }
+}

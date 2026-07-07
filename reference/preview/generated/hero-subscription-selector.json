@@ -1,0 +1,67 @@
+{
+  "key": "hero-subscription-selector",
+  "pascalName": "HeroSubscriptionSelector",
+  "category": "Precios y planes",
+  "catalogRow": "| `hero-subscription-selector` | hero-subscription-selector — hero de precios con toggle mensual/anual y 3 planes · úsalo para landings SaaS o de suscripción con conversión directa a demo/ventas. | { eyebrow, title, subtitle, toggle: { monthly, annual, annualBadge }, plans: [{ name, description, priceMonthly, priceAnnual, period, features: [], cta, featured? }], trustItems: [{ icon, label }] } |",
+  "fixture": {
+    "eyebrow": "Plataforma de gestión de flotillas",
+    "title": "Controle su flotilla desde un solo panel",
+    "subtitle": "Rutas, mantenimiento, combustible y cumplimiento normativo en una sola plataforma. Elija el plan que corresponde al tamaño de su operación y actívelo hoy mismo.",
+    "toggle": {
+      "monthly": "Mensual",
+      "annual": "Anual",
+      "annualBadge": "2 meses gratis"
+    },
+    "plans": [
+      {
+        "name": "Operación",
+        "description": "Para flotillas de hasta 15 unidades que inician su digitalización.",
+        "priceMonthly": "$1,490",
+        "priceAnnual": "$1,240",
+        "period": "/ unidad / mes",
+        "features": [
+          "Rastreo GPS en tiempo real",
+          "Bitácora de mantenimiento",
+          "Reportes de consumo de combustible",
+          "Soporte por correo en horario hábil"
+        ],
+        "cta": "Solicitar demostración"
+      },
+      {
+        "name": "Corporativo",
+        "description": "Para flotillas de 16 a 80 unidades con múltiples rutas y sedes.",
+        "priceMonthly": "$1,190",
+        "priceAnnual": "$990",
+        "period": "/ unidad / mes",
+        "features": [
+          "Todo lo de Operación",
+          "Optimización automática de rutas",
+          "Alertas de cumplimiento normativo",
+          "Panel multi-sede con permisos por rol",
+          "Soporte telefónico prioritario"
+        ],
+        "cta": "Solicitar demostración",
+        "featured": true
+      },
+      {
+        "name": "Empresarial",
+        "description": "Para grupos logísticos con más de 80 unidades y necesidades específicas.",
+        "priceMonthly": "Cotización",
+        "priceAnnual": "Cotización",
+        "period": "según volumen",
+        "features": [
+          "Todo lo de Corporativo",
+          "Integración con su ERP",
+          "Gerente de cuenta dedicado",
+          "Acuerdo de nivel de servicio personalizado"
+        ],
+        "cta": "Hablar con ventas"
+      }
+    ],
+    "trustItems": [
+      { "icon": "shield", "label": "Datos cifrados y respaldados diariamente" },
+      { "icon": "support", "label": "Soporte en español todos los días hábiles" },
+      { "icon": "refresh", "label": "Cancele o cambie de plan cuando lo requiera" }
+    ]
+  }
+}

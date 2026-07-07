@@ -1,0 +1,54 @@
+{
+  "key": "company-history-alternating-spine",
+  "pascalName": "CompanyHistoryAlternatingSpine",
+  "category": "Nosotros",
+  "catalogRow": "| `company-history-alternating-spine` | company-history-alternating-spine — línea de tiempo vertical con hitos alternados a izquierda/derecha · úsalo para narrar la historia y crecimiento de la empresa por año. | { eyebrow, title, milestones: [{ year, tag, title, description, icon }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra trayectoria",
+    "title": "Más de dos décadas construyendo infraestructura en México",
+    "milestones": [
+      {
+        "year": "2003",
+        "tag": "Fundación",
+        "title": "Arranca el despacho en Monterrey",
+        "description": "Iniciamos como una firma de tres socios enfocada en litigio corporativo para empresas familiares del norte del país.",
+        "icon": "flag"
+      },
+      {
+        "year": "2009",
+        "tag": "Expansión",
+        "title": "Abrimos oficina en Ciudad de México",
+        "description": "La demanda de asesoría en fusiones y adquisiciones nos llevó a establecer una segunda sede para atender clientes en el centro del país.",
+        "icon": "building"
+      },
+      {
+        "year": "2014",
+        "tag": "Equipo",
+        "title": "Formamos el área de cumplimiento regulatorio",
+        "description": "Incorporamos especialistas en compliance para acompañar a nuestros clientes ante los nuevos marcos anticorrupción.",
+        "icon": "team"
+      },
+      {
+        "year": "2018",
+        "tag": "Crecimiento",
+        "title": "Superamos los 200 clientes activos",
+        "description": "Consolidamos carteras en los sectores de manufactura, logística e inmobiliario, con contratos de asesoría permanente.",
+        "icon": "rocket"
+      },
+      {
+        "year": "2021",
+        "tag": "Reconocimiento",
+        "title": "Certificación internacional de calidad",
+        "description": "Obtuvimos la certificación ISO 9001 para nuestros procesos de gestión legal, un reconocimiento poco común entre despachos mexicanos.",
+        "icon": "award"
+      },
+      {
+        "year": "2025",
+        "tag": "Alcance",
+        "title": "Presencia en cinco estados de la república",
+        "description": "Hoy acompañamos a empresas en Nuevo León, Ciudad de México, Jalisco, Querétaro y Yucatán, con un equipo de más de sesenta profesionales.",
+        "icon": "global"
+      }
+    ]
+  }
+}

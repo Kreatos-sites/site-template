@@ -1,0 +1,37 @@
+{
+  "key": "gallery-wall-4tile-motion-hover",
+  "pascalName": "GalleryWall4tileMotionHover",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `gallery-wall-4tile-motion-hover` | gallery-wall-4tile-motion-hover — muro de 4 tiles con hover-lift y overlay con título/caption · úsalo para portafolio de proyectos o casos de estudio destacados. | { eyebrow, title, description, tiles: [{ title, caption, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Proyectos destacados",
+    "title": "Espacios que hemos diseñado y construido",
+    "description": "Una muestra de los desarrollos residenciales y comerciales que hemos entregado en los últimos años, desde la planeación hasta la entrega de llaves.",
+    "tiles": [
+      {
+        "title": "Torre Alameda",
+        "caption": "Desarrollo residencial de 18 niveles, Guadalajara",
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de la Torre Alameda al atardecer"
+      },
+      {
+        "title": "Corporativo Vértice",
+        "caption": "Oficinas clase A para 12 empresas, Monterrey",
+        "image": "/images/about.svg",
+        "imageAlt": "Vestíbulo de acceso del Corporativo Vértice"
+      },
+      {
+        "title": "Plaza Los Encinos",
+        "caption": "Centro comercial de uso mixto, Querétaro",
+        "image": "/images/hero.svg",
+        "imageAlt": "Explanada central de Plaza Los Encinos"
+      },
+      {
+        "title": "Residencial Bosque Real",
+        "caption": "42 unidades de vivienda vertical, CDMX",
+        "image": "/images/about.svg",
+        "imageAlt": "Área común y alberca del Residencial Bosque Real"
+      }
+    ]
+  }
+}

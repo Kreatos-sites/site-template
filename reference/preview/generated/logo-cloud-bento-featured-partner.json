@@ -1,0 +1,44 @@
+{
+  "key": "logo-cloud-bento-featured-partner",
+  "pascalName": "LogoCloudBentoFeaturedPartner",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-bento-featured-partner` | logo-cloud-bento-featured-partner — bento: celda grande para un aliado destacado, logos uniformes alrededor · úsalo para resaltar una alianza clave sobre certificaciones. | { eyebrow, title, featuredLabel, featured: { image, imageAlt, tagline }, partners: [{ name, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas",
+    "title": "Respaldados por las instituciones que exige el sector",
+    "featuredLabel": "Aliado estratégico",
+    "featured": {
+      "name": "Grupo Financiero Altamira",
+      "image": "/images/about.svg",
+      "imageAlt": "Logotipo de Grupo Financiero Altamira",
+      "tagline": "Nuestra alianza con Grupo Financiero Altamira nos permite ofrecer estructuras de financiamiento a la medida de cada proyecto constructivo, desde la etapa de anteproyecto hasta la entrega final."
+    },
+    "partners": [
+      {
+        "name": "Cámara Mexicana de la Industria de la Construcción",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de la Cámara Mexicana de la Industria de la Construcción"
+      },
+      {
+        "name": "Instituto Mexicano del Cemento y del Concreto",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo del Instituto Mexicano del Cemento y del Concreto"
+      },
+      {
+        "name": "Colegio de Ingenieros Civiles de México",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo del Colegio de Ingenieros Civiles de México"
+      },
+      {
+        "name": "Consejo de Acreditación en Vivienda Sustentable",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo del Consejo de Acreditación en Vivienda Sustentable"
+      },
+      {
+        "name": "Asociación Mexicana de Seguros",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de la Asociación Mexicana de Seguros"
+      }
+    ]
+  }
+}

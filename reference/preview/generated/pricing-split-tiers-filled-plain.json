@@ -1,0 +1,42 @@
+{
+  "key": "pricing-split-tiers-filled-plain",
+  "pascalName": "PricingSplitTiersFilledPlain",
+  "category": "Heroes",
+  "catalogRow": "| `pricing-split-tiers-filled-plain` | pricing-split-tiers-filled-plain — dos planes en columnas, uno destacado (relleno) y otro sencillo, con precio, checklist y CTA · úsalo para comparar dos paquetes de servicio. | { eyebrow, title, description, plans: [{ name, price, period, description, features: string[], cta, featured: boolean }] } |",
+  "fixture": {
+    "eyebrow": "Honorarios",
+    "title": "Un esquema claro para cada etapa de su asunto",
+    "description": "Dos formas de trabajar con nuestro despacho, según el alcance y la urgencia de su caso. Sin letras pequeñas ni cargos ocultos.",
+    "plans": [
+      {
+        "name": "Acompañamiento Integral",
+        "price": "$18,500",
+        "period": "MXN / mes",
+        "description": "Para empresas que requieren asesoría jurídica constante en materia corporativa, laboral y fiscal.",
+        "features": [
+          "Consultoría ilimitada por correo y llamada",
+          "Revisión de contratos en un plazo máximo de 48 horas",
+          "Representación en trámites ante autoridades",
+          "Reporte mensual de cumplimiento normativo",
+          "Prioridad en atención de urgencias"
+        ],
+        "cta": "Agendar diagnóstico",
+        "featured": true
+      },
+      {
+        "name": "Asesoría por Caso",
+        "price": "$3,200",
+        "period": "MXN / consulta",
+        "description": "Para empresas que necesitan resolver un asunto puntual sin un contrato de servicio permanente.",
+        "features": [
+          "Análisis del caso y ruta de acción por escrito",
+          "Una sesión de consultoría de hasta 90 minutos",
+          "Revisión de un contrato o documento",
+          "Seguimiento por correo durante 15 días"
+        ],
+        "cta": "Solicitar asesoría",
+        "featured": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "key": "about-mission-statement-metrics-strip",
+  "pascalName": "AboutMissionStatementMetricsStrip",
+  "category": "Heroes",
+  "catalogRow": "| `about-mission-statement-metrics-strip` | about-mission-statement-metrics-strip — bloque de misión con franja de 4 métricas · úsalo en \"Nosotros\" para presentar la misión junto a cifras de trayectoria. | { eyebrow, title, body, metrics: [{ icon, value, label }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Construimos espacios que envejecen bien",
+    "body": "Somos un despacho de arquitectura y construcción con sede en Monterrey. Acompañamos cada proyecto desde el anteproyecto hasta la entrega, con un equipo propio de obra que responde directamente ante usted, sin intermediarios ni subcontratos difusos.",
+    "metrics": [
+      { "icon": "calendar", "value": "2009", "label": "Año de fundación" },
+      { "icon": "buildings", "value": "146", "label": "Proyectos entregados" },
+      { "icon": "team", "value": "38", "label": "Colaboradores en plantilla" },
+      { "icon": "handshake", "value": "22", "label": "Clientes que repiten" }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "key": "team-portraits-fullbleed",
+  "pascalName": "TeamPortraitsFullbleed",
+  "category": "Equipo",
+  "catalogRow": "| `team-portraits-fullbleed` | team-portraits-fullbleed — retratos fullbleed alternados con cita personal por integrante · úsalo para presentar socios de un despacho con tono cercano, no como grid de tarjetas. | { eyebrow, title, members: [{ name, role, quote, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes llevan su caso",
+    "title": "Un equipo pequeño, con nombre y apellido en cada expediente",
+    "members": [
+      {
+        "name": "Mariana Elizondo Vega",
+        "role": "Socia fundadora, derecho corporativo",
+        "quote": "A un cliente no se le atiende desde un mostrador. Se le atiende desde el expediente, con el mismo abogado del principio al final.",
+        "image": "/images/about.svg",
+        "imageAlt": "Mariana Elizondo Vega, socia fundadora del despacho, en su oficina"
+      },
+      {
+        "name": "Rodrigo Islas Peña",
+        "role": "Socio, litigio mercantil",
+        "quote": "Los juicios se ganan meses antes de pisar la sala, en el detalle de cada contrato que revisamos por adelantado.",
+        "image": "/images/about.svg",
+        "imageAlt": "Rodrigo Islas Peña, socio de litigio mercantil, revisando documentos"
+      },
+      {
+        "name": "Daniela Cerón Robles",
+        "role": "Asociada senior, fiscal",
+        "quote": "Le explico cada cifra en términos que puede usar en su siguiente junta de consejo, no en jerga que solo entendemos nosotros.",
+        "image": "/images/about.svg",
+        "imageAlt": "Daniela Cerón Robles, asociada senior del área fiscal"
+      }
+    ]
+  }
+}

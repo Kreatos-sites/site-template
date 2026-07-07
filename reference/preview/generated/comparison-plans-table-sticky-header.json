@@ -1,0 +1,92 @@
+{
+  "key": "comparison-plans-table-sticky-header",
+  "pascalName": "ComparisonPlansTableStickyHeader",
+  "category": "Heroes",
+  "catalogRow": "| `comparison-plans-table-sticky-header` | comparison-plans-table-sticky-header — matriz comparativa de 3 planes agrupada por categoría con encabezado sticky · úsalo para precios con muchas características por comparar. | { eyebrow, title, description?, featureColumnLabel, highlightedLabel, plans: [{ name, price, period?, highlighted?, cta, href }] (3), groups: [{ name, rows: [{ feature, values: (boolean/string)[] }] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Compare nuestros esquemas de acompañamiento legal",
+    "description": "Cada esquema cubre distintos niveles de atención según el tamaño y la complejidad de su operación.",
+    "featureColumnLabel": "Característica",
+    "highlightedLabel": "Recomendado",
+    "plans": [
+      {
+        "name": "Básico",
+        "price": "$12,900",
+        "period": "/ mes",
+        "highlighted": false,
+        "cta": "Solicitar información",
+        "href": "/contacto"
+      },
+      {
+        "name": "Corporativo",
+        "price": "$28,500",
+        "period": "/ mes",
+        "highlighted": true,
+        "cta": "Agendar diagnóstico",
+        "href": "/contacto"
+      },
+      {
+        "name": "Integral",
+        "price": "Cotización",
+        "period": "",
+        "highlighted": false,
+        "cta": "Hablar con un socio",
+        "href": "/contacto"
+      }
+    ],
+    "groups": [
+      {
+        "name": "Atención y respuesta",
+        "rows": [
+          {
+            "feature": "Consultas ilimitadas por correo",
+            "values": [true, true, true]
+          },
+          {
+            "feature": "Tiempo de respuesta garantizado",
+            "values": ["48 horas", "24 horas", "Mismo día"]
+          },
+          {
+            "feature": "Abogado asignado de forma fija",
+            "values": [false, true, true]
+          }
+        ]
+      },
+      {
+        "name": "Contratos y cumplimiento",
+        "rows": [
+          {
+            "feature": "Revisión de contratos al mes",
+            "values": ["2", "8", "Sin límite"]
+          },
+          {
+            "feature": "Auditoría de cumplimiento normativo",
+            "values": [false, true, true]
+          },
+          {
+            "feature": "Plantillas legales personalizadas",
+            "values": [false, false, true]
+          }
+        ]
+      },
+      {
+        "name": "Litigio y representación",
+        "rows": [
+          {
+            "feature": "Representación en juntas de conciliación",
+            "values": [false, true, true]
+          },
+          {
+            "feature": "Gestión de litigios mercantiles",
+            "values": [false, false, true]
+          },
+          {
+            "feature": "Reportes trimestrales para el consejo",
+            "values": [false, true, true]
+          }
+        ]
+      }
+    ]
+  }
+}

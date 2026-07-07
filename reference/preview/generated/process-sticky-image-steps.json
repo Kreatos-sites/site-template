@@ -1,0 +1,30 @@
+{
+  "key": "process-sticky-image-steps",
+  "pascalName": "ProcessStickyImageSteps",
+  "category": "Proceso",
+  "catalogRow": "| `process-sticky-image-steps` | process-sticky-image-steps — proceso con columna de título fija y pasos alternados imagen/texto · úsalo para metodologías con evidencia visual por fase. | { eyebrow, title, steps: [{ title, description, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro método",
+    "title": "Así avanza su proyecto de principio a fin",
+    "steps": [
+      {
+        "title": "Levantamiento y diagnóstico en sitio",
+        "description": "Visitamos el predio o las instalaciones, medimos condiciones existentes y documentamos hallazgos antes de proponer cualquier solución.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Equipo técnico realizando levantamiento en sitio"
+      },
+      {
+        "title": "Propuesta técnica y calendario de obra",
+        "description": "Entregamos alcance, presupuesto desglosado y fechas de entrega por etapa, para que apruebe cada fase con información completa.",
+        "image": "/images/about.svg",
+        "imageAlt": "Plano de obra revisado junto con el cliente"
+      },
+      {
+        "title": "Ejecución con seguimiento semanal",
+        "description": "Un responsable de proyecto le comparte avance, fotografías y bitácora cada semana hasta la entrega y el cierre administrativo.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Avance de obra fotografiado para bitácora semanal"
+      }
+    ]
+  }
+}

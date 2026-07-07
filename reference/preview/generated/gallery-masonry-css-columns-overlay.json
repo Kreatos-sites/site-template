@@ -1,0 +1,68 @@
+{
+  "key": "gallery-masonry-css-columns-overlay",
+  "pascalName": "GalleryMasonryCssColumnsOverlay",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-masonry-css-columns-overlay` | gallery-masonry-css-columns-overlay — masonry de columnas CSS con overlay de caption al hover · úsalo para portafolio fotográfico o catálogo de proyectos y obra. | { eyebrow, title, tiles: [{ image, imageAlt, title, category, ratio }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que hemos diseñado y construido en los últimos años",
+    "tiles": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de casa residencial con concreto aparente en Valle de Bravo",
+        "title": "Casa Peña Alta",
+        "category": "Residencial",
+        "ratio": "portrait"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de espera de clínica dental con iluminación indirecta",
+        "title": "Clínica Dental Norvia",
+        "category": "Salud",
+        "ratio": "square"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Lobby corporativo con muro verde y recepción de madera",
+        "title": "Torre Alcázar, lobby",
+        "category": "Corporativo",
+        "ratio": "landscape"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista aérea de conjunto habitacional con áreas comunes",
+        "title": "Conjunto Los Encinos",
+        "category": "Residencial",
+        "ratio": "tall"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terraza de restaurante con pérgola de madera y jardinera",
+        "title": "Restaurante Cardamomo",
+        "category": "Comercial",
+        "ratio": "wide"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Escalera principal de showroom con barandal de acero negro",
+        "title": "Showroom Deraya",
+        "category": "Comercial",
+        "ratio": "portrait"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Patio interior con alberca y muro de piedra volcánica",
+        "title": "Casa Xilonen",
+        "category": "Residencial",
+        "ratio": "square"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas con divisiones de vidrio y vista a la ciudad",
+        "title": "Oficinas Kapital",
+        "category": "Corporativo",
+        "ratio": "landscape"
+      }
+    ]
+  }
+}

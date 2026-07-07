@@ -1,0 +1,48 @@
+{
+  "key": "gallery-spotlight-carousel-crossfade",
+  "pascalName": "GallerySpotlightCarouselCrossfade",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-spotlight-carousel-crossfade` | gallery-spotlight-carousel-crossfade — galería spotlight con foto central en crossfade y miniaturas sincronizadas · úsalo para mostrar un portafolio de proyectos u obra terminada. | { eyebrow, title, description, items: [{ image, imageAlt, title, description, tag }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos que hablan por sí solos",
+    "description": "Una selección de intervenciones recientes de Estudio Cedro, de la primera visita al terreno hasta la entrega de llaves.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de casa residencial con acabados en concreto aparente y madera",
+        "title": "Casa Nogal",
+        "description": "Residencia de dos niveles en Valle de Bravo, con doble altura orientada al bosque y sistema pasivo de ventilación cruzada.",
+        "tag": "Residencial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de oficina corporativa con sala de juntas acristalada",
+        "title": "Corporativo Insurgentes",
+        "description": "Remodelación de 1,800 m² para oficinas centrales de un despacho legal, con sistema modular de divisiones acústicas.",
+        "tag": "Corporativo"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Patio interior de restaurante con estructura de madera y vegetación",
+        "title": "Restaurante Raíz",
+        "description": "Ampliación de terraza y patio central para un restaurante en Roma Norte, con cubierta retráctil y jardinería integrada.",
+        "tag": "Comercial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Nave industrial adaptada como centro de distribución logística",
+        "title": "Centro Logístico Toluca",
+        "description": "Adecuación de nave industrial existente a centro de distribución, con reforzamiento estructural y nueva red contra incendio.",
+        "tag": "Industrial"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vestíbulo de clínica dental con recepción en madera clara",
+        "title": "Clínica Dental Alameda",
+        "description": "Diseño de interiores para clínica dental de tres consultorios, con circulación separada para pacientes y personal.",
+        "tag": "Salud"
+      }
+    ]
+  }
+}

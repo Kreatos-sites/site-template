@@ -1,0 +1,56 @@
+{
+  "key": "pricing-cards-three-column-highlighted",
+  "pascalName": "PricingCardsThreeColumnHighlighted",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-cards-three-column-highlighted` | pricing-cards-three-column-highlighted — tres tarjetas de precios con plan central destacado · úsalo para mostrar planes de servicio con features y CTA por tier. | { eyebrow, title, description, featuredLabel, tiers: [{ name, price, period, description, cta, featured?, features: string[] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan para cada etapa de su despacho",
+    "description": "Elija el nivel de acompañamiento contable y fiscal que corresponde al tamaño y complejidad de su operación.",
+    "featuredLabel": "Más contratado",
+    "tiers": [
+      {
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "description": "Para negocios en arranque que requieren cumplimiento fiscal básico y claridad contable mensual.",
+        "cta": "Solicitar información",
+        "features": [
+          "Contabilidad mensual y conciliación bancaria",
+          "Declaraciones fiscales ante el SAT",
+          "Estado de resultados mensual",
+          "Soporte por correo electrónico"
+        ]
+      },
+      {
+        "name": "Profesional",
+        "price": "$9,800",
+        "period": "MXN / mes",
+        "description": "Para empresas en crecimiento que necesitan control financiero y asesoría fiscal continua.",
+        "cta": "Agendar diagnóstico",
+        "featured": true,
+        "features": [
+          "Todo lo incluido en Esencial",
+          "Nómina y dispersión de pagos",
+          "Asesoría fiscal preventiva trimestral",
+          "Reportes financieros personalizados",
+          "Ejecutivo de cuenta asignado"
+        ]
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Para grupos empresariales con múltiples razones sociales y necesidades de auditoría interna.",
+        "cta": "Contactar al despacho",
+        "features": [
+          "Todo lo incluido en Profesional",
+          "Consolidación de estados financieros",
+          "Auditoría interna y control de riesgos",
+          "Acompañamiento en fusiones y adquisiciones",
+          "Reuniones de consejo mensuales"
+        ]
+      }
+    ]
+  }
+}

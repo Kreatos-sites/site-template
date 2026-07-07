@@ -1,0 +1,69 @@
+{
+  "key": "package-comparison-matrix",
+  "pascalName": "PackageComparisonMatrix",
+  "category": "Precios y planes",
+  "catalogRow": "| `package-comparison-matrix` | package-comparison-matrix — tabla comparativa de paquetes con filas de características y CTA por plan · úsalo con 3+ paquetes y muchas características para comparar de un vistazo. | { eyebrow, title, plans: [{ name, price, cta, href?, featured? }], rows: [{ label, values: [string] }] } |",
+  "fixture": {
+    "eyebrow": "Paquetes de servicio",
+    "title": "Compare nuestros paquetes de administración de nómina y cumplimiento laboral",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$4,900/mes",
+        "cta": "Solicitar cotización",
+        "href": "#contacto"
+      },
+      {
+        "name": "Corporativo",
+        "price": "$9,500/mes",
+        "cta": "Agendar diagnóstico",
+        "href": "#contacto",
+        "featured": true
+      },
+      {
+        "name": "Grupo empresarial",
+        "price": "Cotización a la medida",
+        "cta": "Hablar con un asesor",
+        "href": "#contacto"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Empresas incluidas",
+        "values": ["1 razón social", "Hasta 3 razones sociales", "Ilimitadas"]
+      },
+      {
+        "label": "Colaboradores en nómina",
+        "values": ["Hasta 50", "Hasta 300", "Sin límite"]
+      },
+      {
+        "label": "Timbrado de CFDI de nómina",
+        "values": ["check", "check", "check"]
+      },
+      {
+        "label": "Cálculo de IMSS e INFONAVIT",
+        "values": ["check", "check", "check"]
+      },
+      {
+        "label": "Auditoría de cumplimiento normativo",
+        "values": ["—", "Trimestral", "Mensual"]
+      },
+      {
+        "label": "Acompañamiento en auditorías del IMSS",
+        "values": ["—", "check", "check"]
+      },
+      {
+        "label": "Asesor dedicado",
+        "values": ["—", "check", "check"]
+      },
+      {
+        "label": "Reportes ejecutivos por dirección",
+        "values": ["—", "—", "check"]
+      },
+      {
+        "label": "Tiempo de respuesta",
+        "values": ["48 horas hábiles", "24 horas hábiles", "Prioritario, mismo día"]
+      }
+    ]
+  }
+}

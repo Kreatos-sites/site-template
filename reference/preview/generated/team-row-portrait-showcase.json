@@ -1,0 +1,42 @@
+{
+  "key": "team-row-portrait-showcase",
+  "pascalName": "TeamRowPortraitShowcase",
+  "category": "Nosotros",
+  "catalogRow": "| `team-row-portrait-showcase` | team-row-portrait-showcase — fila horizontal de retratos del equipo, sin bios · úsalo para presentar socios directivos o equipo clave de forma compacta. | { eyebrow, title, members: [{ name, role, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Las personas detrás de cada proyecto",
+    "members": [
+      {
+        "name": "Renata Cisneros",
+        "role": "Socia Directora",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Cisneros, Socia Directora"
+      },
+      {
+        "name": "Ignacio Falcón",
+        "role": "Director de Obra",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ignacio Falcón, Director de Obra"
+      },
+      {
+        "name": "Paulina Vergara",
+        "role": "Gerente de Proyectos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paulina Vergara, Gerente de Proyectos"
+      },
+      {
+        "name": "Diego Montemayor",
+        "role": "Jefe de Ingeniería",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diego Montemayor, Jefe de Ingeniería"
+      },
+      {
+        "name": "Camila Restrepo",
+        "role": "Coordinadora Legal",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Camila Restrepo, Coordinadora Legal"
+      }
+    ]
+  }
+}

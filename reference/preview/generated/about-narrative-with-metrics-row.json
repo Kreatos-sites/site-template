@@ -1,0 +1,22 @@
+{
+  "key": "about-narrative-with-metrics-row",
+  "pascalName": "AboutNarrativeWithMetricsRow",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `about-narrative-with-metrics-row` | about-narrative-with-metrics-row — narrativa de empresa a dos columnas con imagen y fila de métricas al pie · úsalo para la sección Quiénes somos con cifras clave. | { eyebrow, title, image, imageAlt, paragraphs: string[], metrics: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Tres décadas construyendo infraestructura para el norte del país",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de Constructora Del Bajío en una obra en proceso",
+    "paragraphs": [
+      "Constructora Del Bajío inició en 1994 con un solo proyecto de urbanización en León. Hoy coordinamos obra civil, industrial y de infraestructura vial para gobiernos municipales y desarrolladores privados en seis estados.",
+      "Cada proyecto pasa por el mismo equipo de dirección técnica desde el levantamiento hasta la entrega, lo que nos permite responder por los tiempos y el presupuesto que firmamos en el contrato.",
+      "Contamos con maquinaria propia y una plantilla de más de 180 colaboradores certificados, lo que reduce nuestra dependencia de subcontratistas en las etapas críticas de cada obra."
+    ],
+    "metrics": [
+      { "value": "31", "label": "Años de operación continua" },
+      { "value": "214", "label": "Proyectos entregados" },
+      { "value": "6", "label": "Estados con obra activa" }
+    ]
+  }
+}

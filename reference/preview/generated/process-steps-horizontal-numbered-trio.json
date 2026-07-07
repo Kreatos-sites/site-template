@@ -1,0 +1,28 @@
+{
+  "key": "process-steps-horizontal-numbered-trio",
+  "pascalName": "ProcessStepsHorizontalNumberedTrio",
+  "category": "Proceso",
+  "catalogRow": "| `process-steps-horizontal-numbered-trio` | process-steps-horizontal-numbered-trio — tres pasos numerados en línea horizontal con icono y conector · úsalo para explicar un proceso o metodología de un vistazo. | { eyebrow, title, stepNumber, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la solicitud a la entrega, en tres pasos",
+    "stepNumber": "0{number}",
+    "steps": [
+      {
+        "icon": "clipboard",
+        "title": "Levantamos su requerimiento",
+        "description": "Visitamos sus instalaciones o revisamos sus planos para definir volúmenes, rutas y tiempos de entrega."
+      },
+      {
+        "icon": "truck",
+        "title": "Preparamos la logística",
+        "description": "Asignamos unidad, choferes certificados y documentación de carga antes de la fecha acordada."
+      },
+      {
+        "icon": "check",
+        "title": "Confirmamos la entrega",
+        "description": "Le compartimos evidencia fotográfica y acuse de recibo en cuanto la mercancía llega a destino."
+      }
+    ]
+  }
+}

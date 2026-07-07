@@ -1,0 +1,68 @@
+{
+  "key": "pricing-carousel-scroll-snap-filmstrip",
+  "pascalName": "PricingCarouselScrollSnapFilmstrip",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-carousel-scroll-snap-filmstrip` | pricing-carousel-scroll-snap-filmstrip — carrusel de precios con scroll-snap horizontal; la tarjeta enfocada se escala · úsalo para mostrar 3-5 planes de servicio. | { eyebrow, title, description, plans: [{ name, price, period, description, featured?, features: string[], cta }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan para cada etapa de su obra",
+    "description": "Honorarios claros desde el anteproyecto hasta la entrega. Cambie de plan cuando el alcance de su proyecto lo requiera.",
+    "plans": [
+      {
+        "name": "Anteproyecto",
+        "price": "$28,000",
+        "period": "MXN / proyecto",
+        "description": "Para definir alcance y presupuesto antes de construir.",
+        "features": [
+          "Levantamiento y diagnóstico en sitio",
+          "Propuesta arquitectónica preliminar",
+          "Estimación de presupuesto por partidas",
+          "Una ronda de ajustes al anteproyecto"
+        ],
+        "cta": "Solicitar anteproyecto"
+      },
+      {
+        "name": "Proyecto ejecutivo",
+        "price": "$95,000",
+        "period": "MXN / proyecto",
+        "description": "El plan más solicitado por despachos y desarrolladores.",
+        "featured": true,
+        "features": [
+          "Planos arquitectónicos y estructurales",
+          "Ingenierías coordinadas (hidráulica, eléctrica, gas)",
+          "Especificaciones y catálogo de acabados",
+          "Gestión de permisos y licencias de obra",
+          "Tres rondas de ajustes con el cliente"
+        ],
+        "cta": "Contratar proyecto ejecutivo"
+      },
+      {
+        "name": "Supervisión de obra",
+        "price": "$18,500",
+        "period": "MXN / mes",
+        "description": "Acompañamiento continuo durante la construcción.",
+        "features": [
+          "Visitas de obra dos veces por semana",
+          "Reporte fotográfico y bitácora semanal",
+          "Control de avance contra cronograma",
+          "Validación de estimaciones a contratistas"
+        ],
+        "cta": "Agendar supervisión"
+      },
+      {
+        "name": "Llave en mano",
+        "price": "Cotización",
+        "period": "según alcance",
+        "description": "Diseño, permisos y construcción bajo un solo contrato.",
+        "features": [
+          "Proyecto ejecutivo completo incluido",
+          "Construcción con cuadrilla propia",
+          "Supervisión y control de calidad diario",
+          "Entrega con garantía de obra a un año",
+          "Un solo punto de contacto durante todo el proceso"
+        ],
+        "cta": "Solicitar cotización"
+      }
+    ]
+  }
+}

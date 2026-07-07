@@ -1,0 +1,24 @@
+{
+  "key": "hero-customer-success-story",
+  "pascalName": "HeroCustomerSuccessStory",
+  "category": "Heroes",
+  "catalogRow": "| `hero-customer-success-story` | hero-customer-success-story — hero de historia de éxito con cita, autor y métricas · úsalo para landing de caso de éxito o página de testimonios destacados. | { eyebrow, title, quote, authorImage, authorImageAlt, authorName, authorRole, metrics: [{ value, label }], ctaLabel, ctaHref, image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Caso de éxito",
+    "title": "Cómo Grupo Ferretero del Bajío redujo sus tiempos de surtido en un 40%",
+    "quote": "Antes tardábamos casi dos días en consolidar los pedidos de nuestras diez sucursales. Con el sistema que implementaron, hoy cerramos el corte en cuestión de horas y el inventario por fin cuadra entre almacenes.",
+    "authorImage": "/images/about.svg",
+    "authorImageAlt": "Retrato de Refugio Alvarado, gerente de operaciones de Grupo Ferretero del Bajío",
+    "authorName": "Refugio Alvarado",
+    "authorRole": "Gerente de operaciones, Grupo Ferretero del Bajío",
+    "metrics": [
+      { "value": "40%", "label": "Menos tiempo de surtido por pedido" },
+      { "value": "10", "label": "Sucursales integradas al mismo inventario" },
+      { "value": "3 meses", "label": "Tiempo de implementación completa" }
+    ],
+    "ctaLabel": "Leer el caso completo",
+    "ctaHref": "/casos-de-exito/grupo-ferretero-del-bajio",
+    "image": "/images/hero.svg",
+    "imageAlt": "Bodega de Grupo Ferretero del Bajío con estanterías de inventario organizadas"
+  }
+}

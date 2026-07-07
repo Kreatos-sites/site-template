@@ -1,0 +1,33 @@
+{
+  "key": "pricing-inline-single-row-band",
+  "pascalName": "PricingInlineSingleRowBand",
+  "category": "Heroes",
+  "catalogRow": "| `pricing-inline-single-row-band` | pricing-inline-single-row-band — banda de precios en una sola fila, minimalista, sin tarjetas · úsalo para comparar 3-4 tarifas de servicios profesionales. | { eyebrow, title, cta, featuredLabel, tiers: [{ name, price, period, note, featured? }] } |",
+  "fixture": {
+    "eyebrow": "Honorarios",
+    "title": "Tarifas claras para cada etapa de su asunto",
+    "cta": "Agende una consulta",
+    "featuredLabel": "Más solicitado",
+    "tiers": [
+      {
+        "name": "Consulta inicial",
+        "price": "$1,800",
+        "period": "MXN / sesión",
+        "note": "Revisión de su caso y ruta legal recomendada en una sesión de 60 minutos."
+      },
+      {
+        "name": "Gestión mensual",
+        "price": "$12,500",
+        "period": "MXN / mes",
+        "note": "Seguimiento continuo de trámites, litigio y comunicación directa con su abogado asignado.",
+        "featured": true
+      },
+      {
+        "name": "Proyecto cerrado",
+        "price": "Cotización",
+        "period": "según alcance",
+        "note": "Honorario fijo pactado desde el inicio para procesos con alcance y plazo definidos."
+      }
+    ]
+  }
+}

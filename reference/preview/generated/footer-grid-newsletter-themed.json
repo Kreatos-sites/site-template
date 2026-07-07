@@ -1,0 +1,48 @@
+{
+  "key": "footer-grid-newsletter-themed",
+  "pascalName": "FooterGridNewsletterThemed",
+  "category": "Footers",
+  "catalogRow": "| `footer-grid-newsletter-themed` | footer-grid-newsletter-themed — footer en cuadrícula con newsletter, redes, columnas y sellos · úsalo en sitios corporativos con captura de correo y navegación secundaria. | { brand, description, socials: [{icon,href,label}], newsletter: {title,description,placeholder,buttonLabel}, columns: [{title, links:[{label,href}]}], badges: [{icon,label}], copyright, legalLinks: [{label,href}] } |",
+  "fixture": {
+    "brand": "Corvera & Asociados",
+    "description": "Despacho jurídico corporativo especializado en fusiones, adquisiciones y cumplimiento regulatorio para empresas en México.",
+    "socials": [
+      { "icon": "linkedin", "href": "https://linkedin.com", "label": "Síganos en LinkedIn" },
+      { "icon": "twitter", "href": "https://twitter.com", "label": "Síganos en Twitter" },
+      { "icon": "email", "href": "mailto:contacto@corvera.mx", "label": "Escríbanos por correo" }
+    ],
+    "newsletter": {
+      "title": "Boletín legal",
+      "description": "Reciba actualizaciones regulatorias y análisis normativo relevantes para su empresa, una vez al mes.",
+      "placeholder": "Su correo electrónico",
+      "buttonLabel": "Suscribirse"
+    },
+    "columns": [
+      {
+        "title": "Despacho",
+        "links": [
+          { "label": "Quiénes somos", "href": "/nosotros" },
+          { "label": "Áreas de práctica", "href": "/servicios" },
+          { "label": "Casos de éxito", "href": "/casos" }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          { "label": "Contacto", "href": "/contacto" },
+          { "label": "Preguntas frecuentes", "href": "/preguntas-frecuentes" }
+        ]
+      }
+    ],
+    "badges": [
+      { "icon": "certified", "label": "Barra Mexicana de Abogados" },
+      { "icon": "secure", "label": "Datos protegidos" },
+      { "icon": "award", "label": "15 años de trayectoria" }
+    ],
+    "copyright": "© 2026 Corvera & Asociados. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/aviso-de-privacidad" },
+      { "label": "Términos de uso", "href": "/terminos" }
+    ]
+  }
+}

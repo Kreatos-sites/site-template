@@ -1,0 +1,20 @@
+{
+  "key": "header-centered-underline-hover",
+  "pascalName": "HeaderCenteredUnderlineHover",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-centered-underline-hover` | header-centered-underline-hover — header centrado con logo, nav y CTA con subrayado animado en hover · úsalo para sitios corporativos que priorizan una navegación clara y directa. | { logo, navLabel, menuLabel, ctaLabel, ctaHref, links: [{ label, href }] } |",
+  "fixture": {
+    "logo": "Marín & Osorio",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "/contacto",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Nuestro despacho", "href": "#nosotros" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

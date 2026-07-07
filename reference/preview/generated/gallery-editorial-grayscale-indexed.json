@@ -1,0 +1,49 @@
+{
+  "key": "gallery-editorial-grayscale-indexed",
+  "pascalName": "GalleryEditorialGrayscaleIndexed",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-editorial-grayscale-indexed` | gallery-editorial-grayscale-indexed — galería editorial en escala de grises con numeración tipo catálogo · úsalo para portafolios de proyectos u obras. | { eyebrow, title, description, items: [{ title, caption, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos recientes",
+    "description": "Una selección de obras desarrolladas por nuestro estudio, documentadas con el mismo rigor con el que se diseñan.",
+    "items": [
+      {
+        "title": "Torre Cedros",
+        "caption": "Interiorismo corporativo, Monterrey",
+        "image": "/images/hero.svg",
+        "imageAlt": "Vestíbulo de la Torre Cedros con acabados en madera y piedra"
+      },
+      {
+        "title": "Casa Alamar",
+        "caption": "Residencial unifamiliar, Valle de Bravo",
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada posterior de Casa Alamar frente al lago"
+      },
+      {
+        "title": "Oficinas Nortia",
+        "caption": "Espacio de trabajo, Ciudad de México",
+        "image": "/images/hero.svg",
+        "imageAlt": "Sala de juntas de Oficinas Nortia con luz natural"
+      },
+      {
+        "title": "Estudio Marfil",
+        "caption": "Showroom retail, Guadalajara",
+        "image": "/images/about.svg",
+        "imageAlt": "Área de exhibición del Estudio Marfil"
+      },
+      {
+        "title": "Centro Solaris",
+        "caption": "Uso mixto, Querétaro",
+        "image": "/images/hero.svg",
+        "imageAlt": "Plaza central del Centro Solaris al atardecer"
+      },
+      {
+        "title": "Loft Bruma",
+        "caption": "Remodelación, Puebla",
+        "image": "/images/about.svg",
+        "imageAlt": "Sala del Loft Bruma con doble altura"
+      }
+    ]
+  }
+}

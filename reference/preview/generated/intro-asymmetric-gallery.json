@@ -1,0 +1,19 @@
+{
+  "key": "intro-asymmetric-gallery",
+  "pascalName": "IntroAsymmetricGallery",
+  "category": "Nosotros",
+  "catalogRow": "| `intro-asymmetric-gallery` | intro-asymmetric-gallery — introducción con eyebrow, título, cuerpo y galería asimétrica de 3 imágenes · úsalo para presentar la sección Nosotros con respaldo visual. | { eyebrow, title, body: string[], images: [{ src, alt }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Un despacho construido sobre expedientes bien llevados",
+    "body": [
+      "Desde 2011 acompañamos a empresas familiares y corporativos medianos en materia fiscal, laboral y corporativa, con equipos dedicados que conocen cada expediente a fondo.",
+      "No delegamos su caso a terceros ni lo rotamos entre asociados: el abogado que atiende la primera reunión es el mismo que firma el escrito final."
+    ],
+    "images": [
+      { "src": "/images/about.svg", "alt": "Sala de juntas del despacho durante una revisión de expediente" },
+      { "src": "/images/hero.svg", "alt": "Socia del despacho revisando documentación con un cliente" },
+      { "src": "/images/about.svg", "alt": "Archivo físico de expedientes organizados por cliente" }
+    ]
+  }
+}

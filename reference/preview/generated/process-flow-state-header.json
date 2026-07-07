@@ -1,0 +1,32 @@
+{
+  "key": "process-flow-state-header",
+  "pascalName": "ProcessFlowStateHeader",
+  "category": "Proceso",
+  "catalogRow": "| `process-flow-state-header` | process-flow-state-header — stepper con pasos numerados y estados (completado, actual, próximo) · úsalo para encabezar un proceso de etapas (cotización, contratación, onboarding). | { eyebrow, title, steps: [{ title, description, state: completed/current/upcoming }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro proceso",
+    "title": "Cómo iniciamos su proyecto de construcción",
+    "steps": [
+      {
+        "title": "Levantamiento y diagnóstico",
+        "description": "Visitamos el sitio, revisamos planos existentes y definimos alcance con usted en una sola sesión.",
+        "state": "completed"
+      },
+      {
+        "title": "Propuesta técnica y presupuesto",
+        "description": "Le entregamos memoria de cálculo, cronograma y presupuesto desglosado por partida en un plazo de cinco días hábiles.",
+        "state": "completed"
+      },
+      {
+        "title": "Firma de contrato y anticipo",
+        "description": "Formalizamos condiciones, garantías y calendario de pagos antes de movilizar al equipo a obra.",
+        "state": "current"
+      },
+      {
+        "title": "Ejecución y entrega",
+        "description": "Supervisamos avance semanal con bitácora fotográfica y le entregamos el inmueble con manual de mantenimiento.",
+        "state": "upcoming"
+      }
+    ]
+  }
+}

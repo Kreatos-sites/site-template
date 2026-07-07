@@ -1,0 +1,33 @@
+{
+  "key": "organization-profile-stats-avatars-card",
+  "pascalName": "OrganizationProfileStatsAvatarsCard",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `organization-profile-stats-avatars-card` | organization-profile-stats-avatars-card — perfil corporativo con logotipo, cifras y avatares · úsalo para presentar credenciales y equipo en about/empresa. | { eyebrow, title, logoInitials, orgName, orgTagline, description, verifiedLabel, stats: [{ value, label }], members: [{ initials }], teamLabel, contactLinks: [{ icon, label, href }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra firma",
+    "title": "Un despacho que respalda cada decisión con criterio y experiencia comprobable",
+    "logoInitials": "VA",
+    "orgName": "Valdez & Asociados",
+    "orgTagline": "Despacho jurídico corporativo · Ciudad de México",
+    "description": "Asesoramos a empresas mexicanas en materia mercantil, laboral y fiscal desde 2009, con un equipo dedicado a cada cliente.",
+    "verifiedLabel": "Despacho verificado",
+    "stats": [
+      { "value": "180+", "label": "Clientes activos" },
+      { "value": "15", "label": "Años de operación" },
+      { "value": "32", "label": "Abogados en plantilla" },
+      { "value": "98%", "label": "Retención de clientes" }
+    ],
+    "members": [
+      { "initials": "MR" },
+      { "initials": "JL" },
+      { "initials": "AC" },
+      { "initials": "PD" }
+    ],
+    "teamLabel": "Equipo directivo a cargo de su cuenta",
+    "contactLinks": [
+      { "icon": "globe", "label": "valdezasociados.mx", "href": "https://valdezasociados.mx" },
+      { "icon": "mail", "label": "contacto@valdezasociados.mx", "href": "mailto:contacto@valdezasociados.mx" },
+      { "icon": "phone", "label": "+52 55 4455 6677", "href": "tel:+525544556677" }
+    ]
+  }
+}

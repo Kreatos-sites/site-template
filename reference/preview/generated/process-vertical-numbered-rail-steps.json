@@ -1,0 +1,32 @@
+{
+  "key": "process-vertical-numbered-rail-steps",
+  "pascalName": "ProcessVerticalNumberedRailSteps",
+  "category": "Proceso",
+  "catalogRow": "| `process-vertical-numbered-rail-steps` | process-vertical-numbered-rail-steps — timeline vertical con rail numerado e icono por paso · úsalo para explicar un proceso secuencial de cotización a entrega. | { eyebrow, title, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la cotización a la entrega, en cuatro pasos",
+    "steps": [
+      {
+        "icon": "clipboard",
+        "title": "Levantamiento de carga",
+        "description": "Recibimos las medidas, el peso y el origen-destino de su embarque, y confirmamos requisitos aduanales si aplica."
+      },
+      {
+        "icon": "route",
+        "title": "Diseño de ruta",
+        "description": "Elegimos la combinación de transporte terrestre o marítimo que reduce tiempos y costo sin sacrificar trazabilidad."
+      },
+      {
+        "icon": "truck",
+        "title": "Recolección y tránsito",
+        "description": "El operador recoge la mercancía en la fecha acordada; usted da seguimiento a cada tramo desde el portal de rastreo."
+      },
+      {
+        "icon": "check",
+        "title": "Entrega confirmada",
+        "description": "Firmamos de recibido con el destinatario y le enviamos el comprobante de entrega junto con la factura correspondiente."
+      }
+    ]
+  }
+}

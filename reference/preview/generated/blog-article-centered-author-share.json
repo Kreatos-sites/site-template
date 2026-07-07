@@ -1,0 +1,58 @@
+{
+  "key": "blog-article-centered-author-share",
+  "pascalName": "BlogArticleCenteredAuthorShare",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-article-centered-author-share` | blog-article-centered-author-share — artículo de blog centrado con autor y compartir social · úsalo para posts largos con cuerpo mixto (párrafo/cita/lista) y tags. | { eyebrow, title, deck, author: { name, role, avatar, avatarAlt }, date, readTime, image, imageAlt, body: [{ type: paragraph/heading/quote/list, text, cite?, items? }], tags: string[], shareLabel, shareFacebookAria, shareTwitterAria, shareLinkedinAria, shareCopyLinkAria } |",
+  "fixture": {
+    "eyebrow": "Logística y cadena de suministro",
+    "title": "Cómo reducir tiempos de entrega en rutas de última milla en zonas urbanas",
+    "deck": "Un análisis de las variables que más afectan el tiempo de entrega en ciudades con alta congestión y las decisiones operativas que marcan la diferencia.",
+    "author": {
+      "name": "Renata Ibarra",
+      "role": "Gerente de Operaciones, Transportes del Bajío",
+      "avatar": "/images/about.svg",
+      "avatarAlt": "Retrato de Renata Ibarra"
+    },
+    "date": "3 de julio de 2026",
+    "readTime": "7 min de lectura",
+    "image": "/images/hero.svg",
+    "imageAlt": "Camión de reparto en una zona urbana durante la última milla",
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "La última milla concentra una parte considerable del costo total de distribución. En ciudades con tráfico irregular, el margen de error entre la ruta planeada y la ruta real puede superar el treinta por ciento."
+      },
+      {
+        "type": "heading",
+        "text": "El problema no es la distancia, es la variabilidad"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cuando analizamos las rutas de nuestros clientes, encontramos que la variable con mayor impacto no era el kilometraje, sino la falta de ventanas de entrega confirmadas con el destinatario antes de salir a ruta."
+      },
+      {
+        "type": "quote",
+        "text": "Una entrega confirmada con anticipación reduce el tiempo de espera en punto de destino casi a la mitad.",
+        "cite": "Renata Ibarra, Transportes del Bajío"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Confirmar ventana de entrega un día antes por mensaje directo",
+          "Agrupar entregas por zona antes de asignar la ruta",
+          "Dar seguimiento en tiempo real al conductor y al cliente"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Con estos ajustes operativos, sin invertir en flota adicional, es posible recuperar buena parte del tiempo perdido en reintentos y esperas."
+      }
+    ],
+    "tags": ["Última milla", "Rutas urbanas", "Operaciones"],
+    "shareLabel": "Compartir",
+    "shareFacebookAria": "Compartir este artículo en Facebook",
+    "shareTwitterAria": "Compartir este artículo en X",
+    "shareLinkedinAria": "Compartir este artículo en LinkedIn",
+    "shareCopyLinkAria": "Copiar el enlace de este artículo"
+  }
+}

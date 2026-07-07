@@ -1,0 +1,49 @@
+{
+  "key": "gallery-offset-masonry-varied-heights",
+  "pascalName": "GalleryOffsetMasonryVariedHeights",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-offset-masonry-varied-heights` | gallery-offset-masonry-varied-heights — galería masonry con columnas escalonadas y overlay al hover · úsalo para portafolios de obra, proyectos o casos de estudio. | { eyebrow, title, description?, items: [{ image, imageAlt, title, category }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos que hablan por sí solos",
+    "description": "Una selección de intervenciones recientes en vivienda, oficinas y espacio público, documentadas de principio a fin.",
+    "items": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de casa residencial con acabado en concreto aparente",
+        "title": "Residencia Cumbres",
+        "category": "Vivienda unifamiliar"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Interior de oficinas corporativas con doble altura",
+        "title": "Corporativo Valle Oriente",
+        "category": "Oficinas"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Plaza pública con pérgolas de madera y jardineras",
+        "title": "Plaza San Pedro",
+        "category": "Espacio público"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Sala de juntas con muro divisor de madera y vidrio",
+        "title": "Torre Diamante, piso 12",
+        "category": "Remodelación comercial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista aérea de conjunto residencial de tres niveles",
+        "title": "Conjunto Los Encinos",
+        "category": "Vivienda multifamiliar"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Recepción de despacho con mostrador de piedra natural",
+        "title": "Despacho Garza Sada",
+        "category": "Interiorismo corporativo"
+      }
+    ]
+  }
+}

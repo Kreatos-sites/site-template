@@ -1,0 +1,36 @@
+{
+  "key": "contact-single-card-form-privacy",
+  "pascalName": "ContactSingleCardFormPrivacy",
+  "category": "Contacto",
+  "catalogRow": "| `contact-single-card-form-privacy` | contact-single-card-form-privacy — tarjeta única con formulario de contacto y consentimiento; úsalo en despachos que deben registrar el consentimiento de datos. | { eyebrow, title, subtitle, fields: { firstName: {label, placeholder}, lastName: {label, placeholder}, email: {label, placeholder}, phone: {label, placeholder}, message: {label, placeholder} }, consentLabel, submitLabel, privacyNote } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Escríbanos sobre su caso",
+    "subtitle": "Complete el formulario y un abogado del despacho se comunicará con usted en un plazo máximo de un día hábil.",
+    "fields": {
+      "firstName": {
+        "label": "Nombre",
+        "placeholder": "Su nombre"
+      },
+      "lastName": {
+        "label": "Apellido",
+        "placeholder": "Su apellido"
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "usted@ejemplo.com"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "placeholder": "55 0000 0000"
+      },
+      "message": {
+        "label": "Descripción del asunto",
+        "placeholder": "Cuéntenos brevemente el motivo de su consulta"
+      }
+    },
+    "consentLabel": "Autorizo el tratamiento de mis datos personales conforme al aviso de privacidad del despacho para fines de contacto y asesoría legal.",
+    "submitLabel": "Enviar mensaje",
+    "privacyNote": "Sus datos se tratan de forma confidencial y no se comparten con terceros sin su autorización."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "key": "contact-locations-map-form",
+  "pascalName": "ContactLocationsMapForm",
+  "category": "Contacto",
+  "catalogRow": "| `contact-locations-map-form` | contact-locations-map-form — contacto con selector de sedes, mapa con pines y formulario · úsalo para negocios con varias sucursales o plantas. | { eyebrow, title, subtitle, mapImage, mapImageAlt, locations: [{ icon, name, address, phone, hours }], fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Sedes",
+    "title": "Encuéntrenos en la sede más cercana",
+    "subtitle": "Contamos con tres plantas de distribución en el país. Seleccione la más cercana para conocer horarios de atención o escríbanos directamente para cotizar su pedido.",
+    "mapImage": "/images/about.svg",
+    "mapImageAlt": "Mapa con la ubicación de nuestras tres plantas de distribución",
+    "locations": [
+      {
+        "icon": "warehouse",
+        "name": "Planta Monterrey (matriz)",
+        "address": "Av. de la Industria 1450, Parque Industrial Milenium, Apodaca, N.L.",
+        "phone": "+52 81 8123 4500",
+        "hours": "Lun-vie 8:00-18:00, sáb 9:00-13:00"
+      },
+      {
+        "icon": "building",
+        "name": "Centro de distribución CDMX",
+        "address": "Calzada Ignacio Zaragoza 1890, Iztapalapa, Ciudad de México",
+        "phone": "+52 55 5678 1200",
+        "hours": "Lun-vie 8:00-17:30"
+      },
+      {
+        "icon": "store",
+        "name": "Sucursal Guadalajara",
+        "address": "Av. Vallarta 5820, Zapopan, Jalisco",
+        "phone": "+52 33 3540 2200",
+        "hours": "Lun-vie 8:30-17:00, sáb 9:00-13:00"
+      }
+    ],
+    "fields": [
+      {
+        "name": "nombre",
+        "label": "Nombre completo",
+        "type": "text",
+        "placeholder": "Su nombre"
+      },
+      {
+        "name": "empresa",
+        "label": "Empresa",
+        "type": "text",
+        "placeholder": "Nombre de su empresa"
+      },
+      {
+        "name": "correo",
+        "label": "Correo electrónico",
+        "type": "email",
+        "placeholder": "correo@empresa.com"
+      },
+      {
+        "name": "telefono",
+        "label": "Teléfono",
+        "type": "tel",
+        "placeholder": "10 dígitos"
+      },
+      {
+        "name": "mensaje",
+        "label": "Mensaje",
+        "type": "textarea",
+        "placeholder": "Describa el pedido o consulta que desea realizar"
+      }
+    ],
+    "submitLabel": "Enviar mensaje"
+  }
+}

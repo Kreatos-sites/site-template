@@ -1,0 +1,32 @@
+{
+  "key": "organization-contact-card",
+  "pascalName": "OrganizationContactCard",
+  "category": "Contacto",
+  "catalogRow": "| `organization-contact-card` | organization-contact-card — tarjeta de perfil verificado con estadísticas, equipo y enlaces de contacto · úsalo para páginas de contacto de despachos o agencias. | { eyebrow, title, logoImage, logoImageAlt, organizationName, verifiedLabel, description, stats: [{ value, label }], members: [{ name, avatar }], membersLabel, links: [{ icon, label, href }] } |",
+  "fixture": {
+    "eyebrow": "Perfil corporativo",
+    "title": "Un despacho verificado, a su disposición",
+    "logoImage": "/images/about.svg",
+    "logoImageAlt": "Fachada de las oficinas de Contreras & Asociados",
+    "organizationName": "Contreras & Asociados",
+    "verifiedLabel": "Organización verificada",
+    "description": "Despacho de asesoría fiscal y corporativa con presencia en Monterrey y Guadalajara. Atendemos empresas medianas y grupos familiares con estructuras fiscales complejas desde hace más de quince años.",
+    "stats": [
+      { "value": "180+", "label": "Clientes activos" },
+      { "value": "15", "label": "Años de operación" },
+      { "value": "9.4/10", "label": "Satisfacción" }
+    ],
+    "members": [
+      { "name": "Renata Contreras, socia directora", "avatar": "/images/hero.svg" },
+      { "name": "Ignacio Vargas, socio fiscal", "avatar": "/images/hero.svg" },
+      { "name": "Paola Reséndiz, socia corporativa", "avatar": "/images/hero.svg" }
+    ],
+    "membersLabel": "Equipo de socios",
+    "links": [
+      { "icon": "globe", "label": "contrerasasociados.mx", "href": "https://contrerasasociados.mx" },
+      { "icon": "mail", "label": "contacto@contrerasasociados.mx", "href": "mailto:contacto@contrerasasociados.mx" },
+      { "icon": "phone", "label": "+52 81 1234 5678", "href": "tel:+528112345678" },
+      { "icon": "pin", "label": "Monterrey, Nuevo León", "href": "https://maps.google.com/?q=Monterrey" }
+    ]
+  }
+}

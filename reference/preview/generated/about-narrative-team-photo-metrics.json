@@ -1,0 +1,29 @@
+{
+  "key": "about-narrative-team-photo-metrics",
+  "pascalName": "AboutNarrativeTeamPhotoMetrics",
+  "category": "Nosotros",
+  "catalogRow": "| `about-narrative-team-photo-metrics` | about-narrative-team-photo-metrics — narrativa de equipo a dos columnas con foto, highlights con icono y métricas · úsalo para la página Nosotros o Historia. | { eyebrow, title, image, imageAlt, imageCaption, paragraphs: string[], highlights: [{ icon, text }], metrics: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Un despacho construido por la gente que lo integra",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de Vértice Consultores reunido en la sala de juntas de las oficinas en Monterrey",
+    "imageCaption": "El equipo de Vértice Consultores en nuestras oficinas de Monterrey, 2025.",
+    "paragraphs": [
+      "Vértice Consultores nació en 2011 con un equipo de tres contadores y un objetivo claro: llevar la contabilidad fiscal de pequeñas y medianas empresas con el mismo rigor que exige una corporación grande.",
+      "Hoy somos catorce especialistas en materia fiscal, laboral y de comercio exterior, distribuidos entre Monterrey y Saltillo, atendiendo a más de ciento veinte clientes de manera permanente.",
+      "Cada expediente lo revisan al menos dos personas antes de presentarse ante la autoridad. Esa disciplina interna es la razón por la que nuestros clientes nos conservan año tras año."
+    ],
+    "highlights": [
+      { "icon": "team", "text": "Catorce especialistas certificados en materia fiscal, laboral y aduanera." },
+      { "icon": "location", "text": "Oficinas en Monterrey y Saltillo, con atención directa en ambas plazas." },
+      { "icon": "award", "text": "Certificación anual ante el Colegio de Contadores Públicos de Nuevo León." },
+      { "icon": "values", "text": "Revisión cruzada obligatoria en cada expediente antes de su presentación." }
+    ],
+    "metrics": [
+      { "value": "120+", "label": "clientes activos" },
+      { "value": "14 años", "label": "de operación continua" },
+      { "value": "0", "label": "observaciones graves en auditorías 2024" }
+    ]
+  }
+}

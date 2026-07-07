@@ -1,0 +1,69 @@
+{
+  "key": "hero-conversion-landing-complete",
+  "pascalName": "HeroConversionLandingComplete",
+  "category": "Heroes",
+  "catalogRow": "| `hero-conversion-landing-complete` | hero-conversion-landing-complete — landing de conversión con hero, métricas, features, pasos, testimonio y banda de espera · úsalo para preventa o lanzamiento con lista de espera. | { eyebrow, title, subtitle, form: { emailLabel, emailPlaceholder, cta, note }, metrics: [{ value, label }], featuresTitle, features: [{ icon, title, description }], stepsTitle, steps: [{ title, description }], testimonial: { quote, avatar, avatarAlt, name, role }, waitlist: { title, description, emailLabel, emailPlaceholder, cta } }",
+  "fixture": {
+    "eyebrow": "Acceso anticipado",
+    "title": "Automatice la conciliación contable de su despacho antes que su competencia",
+    "subtitle": "Regístrese a la lista de espera y sea de los primeros despachos en México en usar la plataforma que concilia pólizas, CFDI y bancos en minutos, no en días.",
+    "form": {
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "nombre@despacho.com.mx",
+      "cta": "Unirme a la lista",
+      "note": "Sin costo durante el periodo de acceso anticipado. Cupo limitado a 200 despachos."
+    },
+    "metrics": [
+      { "value": "1,240", "label": "Despachos en lista de espera" },
+      { "value": "18 hrs", "label": "Ahorradas por cliente al mes" },
+      { "value": "99.2%", "label": "Precisión en conciliación" }
+    ],
+    "featuresTitle": "Lo que incluye el acceso anticipado",
+    "features": [
+      {
+        "icon": "shield",
+        "title": "Conciliación validada",
+        "description": "Cruce automático de CFDI, pólizas y movimientos bancarios con revisión de consistencia fiscal."
+      },
+      {
+        "icon": "gauge",
+        "title": "Cierre mensual más rápido",
+        "description": "Reduzca el cierre contable de días a horas con reglas configurables por cliente."
+      },
+      {
+        "icon": "users",
+        "title": "Soporte dedicado",
+        "description": "Acompañamiento de un especialista durante la migración de sus primeros tres clientes."
+      }
+    ],
+    "stepsTitle": "Cómo funciona el acceso anticipado",
+    "steps": [
+      {
+        "title": "Regístrese",
+        "description": "Deje su correo y le confirmamos su lugar en la lista de espera en un plazo de 48 horas."
+      },
+      {
+        "title": "Configure su despacho",
+        "description": "Conecte sus fuentes de CFDI y banco con ayuda de nuestro equipo de incorporación."
+      },
+      {
+        "title": "Concilie en minutos",
+        "description": "Reciba su primer cierre automatizado y compare el ahorro de horas frente al proceso manual."
+      }
+    ],
+    "testimonial": {
+      "quote": "Con la versión beta redujimos el cierre mensual de cuatro días a una tarde. El equipo ya no revisa pólizas una por una.",
+      "avatar": "/images/about.svg",
+      "avatarAlt": "Retrato de Fernanda Ríos, socia de Ríos y Asociados",
+      "name": "Fernanda Ríos",
+      "role": "Socia, Ríos y Asociados Contadores"
+    },
+    "waitlist": {
+      "title": "Su lugar en la lista de espera la asegura hoy",
+      "description": "El acceso se habilita por oleadas. Entre antes para recibir su invitación en el primer grupo.",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "nombre@despacho.com.mx",
+      "cta": "Reservar mi acceso"
+    }
+  }
+}

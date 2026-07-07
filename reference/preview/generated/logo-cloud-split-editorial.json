@@ -1,0 +1,21 @@
+{
+  "key": "logo-cloud-split-editorial",
+  "pascalName": "LogoCloudSplitEditorial",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-split-editorial` | logo-cloud-split-editorial — split editorial con copy fijo y grid de aliados en blur-to-sharp · úsalo para presentar alianzas estratégicas y cifras de respaldo. | { eyebrow, title, description, statValue, statLabel, allies: [{ name, sector }] } |",
+  "fixture": {
+    "eyebrow": "Red de aliados",
+    "title": "Construimos cada proyecto junto con despachos y proveedores certificados",
+    "description": "Trabajamos de la mano con firmas legales, constructoras y proveedores logísticos que comparten nuestro estándar de cumplimiento. Cada alianza pasa por un proceso de verificación antes de sumarse a un proyecto.",
+    "statValue": "18",
+    "statLabel": "Alianzas activas en procesos de construcción y logística en curso",
+    "allies": [
+      { "name": "Corvera Abogados", "sector": "Derecho corporativo" },
+      { "name": "Grupo Ferrand", "sector": "Materiales de construcción" },
+      { "name": "Lintec Logística", "sector": "Transporte y distribución" },
+      { "name": "Estudio Baralt", "sector": "Arquitectura e ingeniería" },
+      { "name": "Vantia Seguros", "sector": "Cobertura patrimonial" },
+      { "name": "Rocasa Distribución", "sector": "Insumos industriales" }
+    ]
+  }
+}

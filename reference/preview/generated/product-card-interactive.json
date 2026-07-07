@@ -1,0 +1,43 @@
+{
+  "key": "product-card-interactive",
+  "pascalName": "ProductCardInteractive",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-card-interactive` | product-card-interactive — ficha de producto B2B con galería, specs y selectores de variante/presentación en CSS puro · úsalo para catálogos de fabricantes o distribuidores industriales. | { eyebrow, title, category, sku, description, price, compareAtPrice, availability, note, variantLabel, presentationLabel, images: [{ image, imageAlt }], specs: [{ icon, label }], variants: [{ label, description }], presentations: [{ label }], ctaLabel, secondaryCtaLabel } |",
+  "fixture": {
+    "eyebrow": "Catálogo industrial",
+    "title": "Bomba centrífuga serie HX-200",
+    "category": "Bombeo y hidráulica",
+    "sku": "SKU HX-200-A",
+    "description": "Bomba centrífuga de acero inoxidable para manejo de agua y fluidos no corrosivos, con sello mecánico de doble cara y motor trifásico de alta eficiencia energética.",
+    "price": "$18,450 MXN",
+    "compareAtPrice": "$21,900 MXN",
+    "availability": "Disponible para entrega en 5 días hábiles",
+    "note": "Precio no incluye IVA ni instalación.",
+    "variantLabel": "Acabado del cuerpo",
+    "presentationLabel": "Potencia del motor",
+    "images": [
+      { "image": "/images/hero.svg", "imageAlt": "Bomba centrífuga HX-200 vista frontal" },
+      { "image": "/images/about.svg", "imageAlt": "Bomba centrífuga HX-200 vista lateral" },
+      { "image": "/images/hero.svg", "imageAlt": "Bomba centrífuga HX-200 conexión de succión" },
+      { "image": "/images/about.svg", "imageAlt": "Bomba centrífuga HX-200 placa de motor" }
+    ],
+    "specs": [
+      { "icon": "layers", "label": "Cuerpo en acero inoxidable 316" },
+      { "icon": "ruler", "label": "Caudal máximo de 45 m³/h" },
+      { "icon": "shield", "label": "Sello mecánico de doble cara" },
+      { "icon": "truck", "label": "Entrega foráneo disponible" }
+    ],
+    "variants": [
+      { "label": "Pulido estándar", "description": "Acabado pulido estándar en acero inoxidable" },
+      { "label": "Pulido sanitario", "description": "Acabado pulido sanitario para uso alimenticio" },
+      { "label": "Recubrimiento epóxico", "description": "Recubrimiento epóxico para ambientes corrosivos" }
+    ],
+    "presentations": [
+      { "label": "5 HP" },
+      { "label": "10 HP" },
+      { "label": "15 HP" }
+    ],
+    "ctaLabel": "Solicitar cotización",
+    "secondaryCtaLabel": "Descargar ficha técnica"
+  }
+}

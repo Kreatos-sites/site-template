@@ -1,0 +1,49 @@
+{
+  "key": "footer-asymmetric-split",
+  "pascalName": "FooterAsymmetricSplit",
+  "category": "Footers",
+  "catalogRow": "| `footer-asymmetric-split` | footer-asymmetric-split — footer asimétrico con marca/redes a la izquierda y tres columnas de navegación a la derecha · úsalo en sitios corporativos con navegación extensa. | { brandName, description, social: [{ icon, label, href }], columns: [{ heading, links: [{ label, href }] }], copyright, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "brandName": "Corvallis & Asociados",
+    "description": "Despacho jurídico corporativo especializado en derecho mercantil, fiscal y litigio estratégico para empresas en México.",
+    "social": [
+      { "icon": "linkedin", "label": "LinkedIn de Corvallis & Asociados", "href": "https://linkedin.com" },
+      { "icon": "twitter", "label": "Twitter de Corvallis & Asociados", "href": "https://twitter.com" },
+      { "icon": "instagram", "label": "Instagram de Corvallis & Asociados", "href": "https://instagram.com" }
+    ],
+    "columns": [
+      {
+        "heading": "Áreas de práctica",
+        "links": [
+          { "label": "Derecho corporativo", "href": "/servicios/derecho-corporativo" },
+          { "label": "Derecho fiscal", "href": "/servicios/derecho-fiscal" },
+          { "label": "Litigio estratégico", "href": "/servicios/litigio" },
+          { "label": "Fusiones y adquisiciones", "href": "/servicios/fusiones-adquisiciones" }
+        ]
+      },
+      {
+        "heading": "Despacho",
+        "links": [
+          { "label": "Sobre nosotros", "href": "/nosotros" },
+          { "label": "Equipo", "href": "/equipo" },
+          { "label": "Casos de éxito", "href": "/casos" },
+          { "label": "Contacto", "href": "/contacto" }
+        ]
+      },
+      {
+        "heading": "Recursos",
+        "links": [
+          { "label": "Boletín legal", "href": "/boletin" },
+          { "label": "Preguntas frecuentes", "href": "/preguntas-frecuentes" },
+          { "label": "Aviso de privacidad", "href": "/privacidad" },
+          { "label": "Trabaja con nosotros", "href": "/carreras" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Corvallis & Asociados. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ]
+  }
+}

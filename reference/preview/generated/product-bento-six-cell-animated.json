@@ -1,0 +1,45 @@
+{
+  "key": "product-bento-six-cell-animated",
+  "pascalName": "ProductBentoSixCellAnimated",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-bento-six-cell-animated` | product-bento-six-cell-animated — bento de 6 celdas con una destacada (imagen) y cinco de icono+texto · úsalo para presentar líneas de servicio o producto con jerarquía visual. | { eyebrow, title, items: [{ icon, title, description, image?, imageAlt?, featured? }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro catálogo",
+    "title": "Seis líneas de servicio que cubren toda su cadena de suministro",
+    "items": [
+      {
+        "icon": "truck",
+        "title": "Distribución nacional",
+        "description": "Rutas propias a las 32 entidades con seguimiento de guía en tiempo real y confirmación de entrega firmada.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Camión de reparto de la flotilla propia en carretera",
+        "featured": true
+      },
+      {
+        "icon": "warehouse",
+        "title": "Almacenaje certificado",
+        "description": "Bodegas con control de temperatura y rotación FIFO para más de 4,000 posiciones de tarima."
+      },
+      {
+        "icon": "barcode",
+        "title": "Trazabilidad por lote",
+        "description": "Cada pieza queda registrada con folio único desde la recepción hasta la entrega final."
+      },
+      {
+        "icon": "package",
+        "title": "Empaque a la medida",
+        "description": "Adaptamos embalaje y paletizado según el producto y el destino, sin cargos ocultos."
+      },
+      {
+        "icon": "clock",
+        "title": "Entrega en 24-48 horas",
+        "description": "Cobertura garantizada en el área metropolitana con corte de pedido hasta las 5:00 p.m."
+      },
+      {
+        "icon": "shield",
+        "title": "Mercancía asegurada",
+        "description": "Póliza de cobertura total incluida en cada envío, sin costo adicional para el cliente."
+      }
+    ]
+  }
+}

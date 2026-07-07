@@ -1,0 +1,17 @@
+{
+  "key": "company-mission-intro-with-metrics",
+  "pascalName": "CompanyMissionIntroWithMetrics",
+  "category": "Nosotros",
+  "catalogRow": "| `company-mission-intro-with-metrics` | company-mission-intro-with-metrics — intro de misión centrada con franja de métricas · úsalo en Nosotros para mostrar propósito y cifras clave. | { eyebrow, title, body, metrics: [{ icon, value, label }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Construimos la infraestructura logística que su empresa necesita para crecer sin fricción",
+    "body": "Desde Monterrey coordinamos transporte de carga, almacenaje y distribución para empresas manufactureras y comercializadoras en México y Estados Unidos. Nuestro trabajo consiste en que cada embarque llegue a tiempo y con la trazabilidad que su operación exige.",
+    "metrics": [
+      { "icon": "calendar", "value": "2009", "label": "Año de fundación" },
+      { "icon": "users", "value": "180+", "label": "Clientes activos" },
+      { "icon": "globe", "value": "3", "label": "Países con operación" },
+      { "icon": "briefcase", "value": "95", "label": "Colaboradores" }
+    ]
+  }
+}

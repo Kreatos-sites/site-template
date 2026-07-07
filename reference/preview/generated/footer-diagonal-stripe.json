@@ -1,0 +1,49 @@
+{
+  "key": "footer-diagonal-stripe",
+  "pascalName": "FooterDiagonalStripe",
+  "category": "Footers",
+  "catalogRow": "| `footer-diagonal-stripe` | footer-diagonal-stripe — footer enmarcado con rayado diagonal en la barra inferior; marca y redes junto a tres columnas de enlaces · úsalo para cierres de sitio con navegación secundaria amplia. | { brand, description, socials: [{ icon, href, label }], columns: [{ title, links: [{ label, href }] }], copyright, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "brand": "Despacho Arreola y Salinas",
+    "description": "Asesoría legal corporativa y fiscal para empresas del norte del país, con acompañamiento directo de socios en cada asunto.",
+    "socials": [
+      { "icon": "linkedin", "href": "https://www.linkedin.com/company/arreola-salinas", "label": "LinkedIn de Despacho Arreola y Salinas" },
+      { "icon": "twitter", "href": "https://twitter.com/arreolasalinas", "label": "Twitter de Despacho Arreola y Salinas" },
+      { "icon": "instagram", "href": "https://www.instagram.com/arreolasalinas", "label": "Instagram de Despacho Arreola y Salinas" }
+    ],
+    "columns": [
+      {
+        "title": "Áreas de práctica",
+        "links": [
+          { "label": "Derecho corporativo", "href": "/servicios/derecho-corporativo" },
+          { "label": "Derecho fiscal", "href": "/servicios/derecho-fiscal" },
+          { "label": "Litigio mercantil", "href": "/servicios/litigio-mercantil" },
+          { "label": "Cumplimiento normativo", "href": "/servicios/cumplimiento" }
+        ]
+      },
+      {
+        "title": "Despacho",
+        "links": [
+          { "label": "Sobre nosotros", "href": "/nosotros" },
+          { "label": "Equipo de socios", "href": "/equipo" },
+          { "label": "Casos de éxito", "href": "/casos" },
+          { "label": "Trabaje con nosotros", "href": "/carreras" }
+        ]
+      },
+      {
+        "title": "Contacto",
+        "links": [
+          { "label": "Agendar consulta", "href": "/contacto" },
+          { "label": "Oficina Monterrey", "href": "/contacto#monterrey" },
+          { "label": "Oficina Ciudad de México", "href": "/contacto#cdmx" },
+          { "label": "Aviso de privacidad", "href": "/privacidad" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Despacho Arreola y Salinas, S.C. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Términos y condiciones", "href": "/terminos" },
+      { "label": "Aviso de privacidad", "href": "/privacidad" }
+    ]
+  }
+}

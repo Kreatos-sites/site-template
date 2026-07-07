@@ -1,0 +1,39 @@
+{
+  "key": "faq-support-cta-hybrid",
+  "pascalName": "FaqSupportCtaHybrid",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-support-cta-hybrid` | faq-support-cta-hybrid — FAQ asimétrica con tarjeta de contacto fija y accordion colapsable · úsalo para resolver objeciones antes de la conversión. | { eyebrow, title, description, cta: { title, description, email, phone }, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas antes de contratar el servicio",
+    "description": "Reunimos las preguntas que más nos hacen los despachos y áreas legales antes de iniciar un proyecto de cumplimiento normativo.",
+    "cta": {
+      "title": "¿No encuentra su respuesta?",
+      "description": "Escríbanos directamente y le contestamos en menos de un día hábil.",
+      "email": "contacto@despacholegalmx.com",
+      "phone": "+52 55 4821 0937"
+    },
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma un dictamen de cumplimiento inicial?",
+        "answer": "El diagnóstico preliminar se entrega en un plazo de cinco a ocho días hábiles, dependiendo del número de contratos y áreas involucradas en la revisión."
+      },
+      {
+        "question": "¿Trabajan con empresas fuera de la Ciudad de México?",
+        "answer": "Sí. Atendemos clientes en todo el país mediante reuniones remotas y visitas presenciales programadas según la etapa del proyecto."
+      },
+      {
+        "question": "¿Qué documentos debemos preparar antes de la primera reunión?",
+        "answer": "Basta con los contratos vigentes, el organigrama del área legal y cualquier requerimiento previo de la autoridad, si lo hubiera."
+      },
+      {
+        "question": "¿El acompañamiento incluye representación ante autoridades?",
+        "answer": "Sí, el plan integral incluye representación legal en procedimientos administrativos derivados de la revisión de cumplimiento."
+      },
+      {
+        "question": "¿Cómo se calcula el costo del servicio?",
+        "answer": "El honorario se define por alcance y complejidad del proyecto; entregamos una cotización cerrada tras el diagnóstico inicial, sin cargos ocultos."
+      }
+    ]
+  }
+}

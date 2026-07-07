@@ -1,0 +1,48 @@
+{
+  "key": "masonry-offset-framed",
+  "pascalName": "MasonryOffsetFramed",
+  "category": "Galerías",
+  "catalogRow": "| `masonry-offset-framed` | masonry-offset-framed — masonry desfasado por columna con piezas enmarcadas y foco de hover · úsalo para portafolio fotográfico o galería de estudio creativo. | { eyebrow, title, tiles: [{ image, imageAlt, category, title }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos recientes de fotografía e identidad de marca",
+    "tiles": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Sesión de retrato corporativo en estudio con luz lateral",
+        "category": "Retrato corporativo",
+        "title": "Consultora Aliaga & Ríos"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de restaurante fotografiada al atardecer",
+        "category": "Fotografía de espacio",
+        "title": "Cantina El Zócalo"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Detalle de empaque de producto sobre fondo neutro",
+        "category": "Producto",
+        "title": "Línea Terracota Cerámica"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de trabajo en sesión de planeación",
+        "category": "Editorial",
+        "title": "Reportaje Grupo Ferretero del Bajío"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Interior de despacho de arquitectos con maqueta en mesa",
+        "category": "Arquitectura",
+        "title": "Estudio Vértice Arquitectos"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de fundadora de firma legal en su oficina",
+        "category": "Retrato corporativo",
+        "title": "Bufete Camacho y Asociados"
+      }
+    ]
+  }
+}

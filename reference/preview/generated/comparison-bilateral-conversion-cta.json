@@ -1,0 +1,35 @@
+{
+  "key": "comparison-bilateral-conversion-cta",
+  "pascalName": "ComparisonBilateralConversionCta",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `comparison-bilateral-conversion-cta` | comparison-bilateral-conversion-cta — comparativa bilateral nosotros/ellos con CTA de conversión · úsalo para justificar el cambio de proveedor. | { eyebrow, title, description?, us: { label, badge?, items: string[], ctaLabel, ctaHref }, them: { label, items: string[] }, footnote? } |",
+  "fixture": {
+    "eyebrow": "Comparativa",
+    "title": "Por qué las constructoras cambian a Andamios del Bajío",
+    "description": "Antes de firmar con nosotros, la mayoría de nuestros clientes rentaba andamiaje con proveedores locales sin control de inventario ni respaldo técnico. Esto es lo que cambia.",
+    "us": {
+      "label": "Andamios del Bajío",
+      "badge": "Su nuevo proveedor",
+      "items": [
+        "Inventario propio de más de 40,000 piezas certificadas, sin subcontratar a terceros",
+        "Ingeniero de obra asignado que revisa el armado en sitio antes de operar",
+        "Entrega en un plazo máximo de 48 horas en Bajío y Occidente",
+        "Contrato con póliza de responsabilidad civil incluida sin costo extra",
+        "Reposición de piezas dañadas en menos de 24 horas"
+      ],
+      "ctaLabel": "Solicitar cotización",
+      "ctaHref": "#contacto"
+    },
+    "them": {
+      "label": "Proveedor de renta genérico",
+      "items": [
+        "Inventario disperso entre bodegas de terceros sin trazabilidad",
+        "Sin revisión técnica del armado, la responsabilidad recae en la obra",
+        "Tiempos de entrega de una a dos semanas sin garantía",
+        "Póliza de responsabilidad civil como cargo adicional opcional",
+        "Reposición de piezas dañadas hasta el corte de facturación mensual"
+      ]
+    },
+    "footnote": "Comparativa elaborada con base en contratos de renta estándar del sector en Guanajuato y Jalisco."
+  }
+}

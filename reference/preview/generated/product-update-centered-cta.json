@@ -1,0 +1,17 @@
+{
+  "key": "product-update-centered-cta",
+  "pascalName": "ProductUpdateCenteredCta",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `product-update-centered-cta` | product-update-centered-cta — tarjeta centrada con badge, título, fecha de lanzamiento y CTA · úsalo para anunciar una actualización de producto o changelog. | { eyebrow, badge, title, description, releaseLabel, releaseDate, cta, ctaHref, ctaAriaLabel } |",
+  "fixture": {
+    "eyebrow": "Actualización de producto",
+    "badge": "Versión 4.2",
+    "title": "Rastreo en tiempo real para toda su flota",
+    "description": "Ahora puede visualizar la ubicación exacta de cada unidad, tiempos estimados de entrega y alertas automáticas de retraso desde un solo panel de control.",
+    "releaseLabel": "Disponible desde",
+    "releaseDate": "7 de julio de 2026",
+    "cta": "Ver novedades",
+    "ctaHref": "/plataforma/novedades",
+    "ctaAriaLabel": "Ver todas las novedades de la versión 4.2 de la plataforma"
+  }
+}

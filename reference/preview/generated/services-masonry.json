@@ -1,0 +1,60 @@
+{
+  "key": "services-masonry",
+  "pascalName": "ServicesMasonry",
+  "category": "Salud y servicios pro",
+  "catalogRow": "| `services-masonry` | services-masonry — mosaico de tarjetas con icono, foto opcional y alto variable · úsalo para catálogo de especialidades médicas o servicios profesionales. | { eyebrow, title, description, services: [{ icon, title, description, image?, imageAlt?, tall? }] } |",
+  "fixture": {
+    "eyebrow": "Especialidades",
+    "title": "Atención médica especializada bajo un mismo techo",
+    "description": "Contamos con equipo diagnóstico propio y un cuerpo médico certificado que da seguimiento continuo a cada paciente, desde la primera consulta hasta el alta.",
+    "services": [
+      {
+        "icon": "heart",
+        "title": "Cardiología clínica",
+        "description": "Valoración del riesgo cardiovascular, electrocardiograma y ecocardiograma en la misma visita, con reporte entregado al paciente antes de retirarse.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Consultorio de cardiología con equipo de diagnóstico",
+        "tall": true
+      },
+      {
+        "icon": "baby",
+        "title": "Pediatría",
+        "description": "Control de niño sano, esquema de vacunación y atención de urgencias pediátricas con horario extendido entre semana."
+      },
+      {
+        "icon": "bone",
+        "title": "Traumatología y ortopedia",
+        "description": "Diagnóstico por imagen en sitio para lesiones deportivas, fracturas y dolor articular crónico."
+      },
+      {
+        "icon": "eye",
+        "title": "Oftalmología",
+        "description": "Examen visual completo, medición de presión ocular y adaptación de lentes de contacto.",
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de exploración oftalmológica"
+      },
+      {
+        "icon": "brain",
+        "title": "Neurología",
+        "description": "Valoración de migraña, trastornos del sueño y seguimiento de pacientes con condiciones neurológicas crónicas."
+      },
+      {
+        "icon": "microscope",
+        "title": "Laboratorio clínico",
+        "description": "Toma de muestra en ayuno o sin cita previa, con resultados disponibles en el portal del paciente el mismo día."
+      },
+      {
+        "icon": "syringe",
+        "title": "Medicina preventiva",
+        "description": "Chequeos ejecutivos anuales, esquema completo de vacunación para adultos y detección temprana de factores de riesgo.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Área de vacunación y medicina preventiva"
+      },
+      {
+        "icon": "activity",
+        "title": "Rehabilitación física",
+        "description": "Planes de terapia personalizados con seguimiento semanal del progreso funcional del paciente."
+      }
+    ]
+  }
+}

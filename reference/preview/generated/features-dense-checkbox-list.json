@@ -1,0 +1,36 @@
+{
+  "key": "features-dense-checkbox-list",
+  "pascalName": "FeaturesDenseCheckboxList",
+  "category": "Features y servicios",
+  "catalogRow": "| `features-dense-checkbox-list` | features-dense-checkbox-list — lista compacta de dos columnas con check y texto breve por punto · úsalo para el \"todo incluido\" de un servicio o plan. | { eyebrow, title, items: [{ title, description }] } |",
+  "fixture": {
+    "eyebrow": "Qué incluye el servicio",
+    "title": "Todo lo que necesita su despacho para litigar sin fricción",
+    "items": [
+      {
+        "title": "Gestión documental centralizada",
+        "description": "Expedientes, notificaciones y anexos en un solo repositorio con control de versiones."
+      },
+      {
+        "title": "Cómputo de plazos automático",
+        "description": "Alertas de vencimientos procesales calculadas conforme al calendario judicial vigente."
+      },
+      {
+        "title": "Facturación por asunto",
+        "description": "Horas, gastos y honorarios agrupados por expediente, listos para conciliar con el cliente."
+      },
+      {
+        "title": "Acceso por rol de usuario",
+        "description": "Permisos diferenciados para socios, asociados y personal de apoyo en cada expediente."
+      },
+      {
+        "title": "Portal del cliente",
+        "description": "Consulta de avances y documentos autorizados sin necesidad de llamadas de seguimiento."
+      },
+      {
+        "title": "Respaldo y trazabilidad",
+        "description": "Bitácora de cambios y respaldo diario de la información del despacho."
+      }
+    ]
+  }
+}

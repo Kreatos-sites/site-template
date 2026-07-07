@@ -1,0 +1,42 @@
+{
+  "key": "faq-list-icon-divider",
+  "pascalName": "FaqListIconDivider",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-list-icon-divider` | faq-list-icon-divider — lista abierta de preguntas frecuentes con icono y divisor por renglón · úsalo para FAQ de trámites, pagos o garantías sin acordeón. | { eyebrow, title, items: [{ icon, question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratar, resolvemos sus dudas",
+    "items": [
+      {
+        "icon": "clock",
+        "question": "¿Cuánto tiempo toma la entrega de un proyecto de obra?",
+        "answer": "Depende del alcance, pero un proyecto residencial promedio se entrega entre 12 y 18 semanas. Al firmar el contrato le compartimos un cronograma con fechas por etapa."
+      },
+      {
+        "icon": "wallet",
+        "question": "¿Cómo se estructuran los pagos?",
+        "answer": "Trabajamos con un anticipo del 30%, ministraciones conforme a avance de obra verificado, y una liquidación final contra entrega. Todo queda establecido en el contrato desde el inicio."
+      },
+      {
+        "icon": "file",
+        "question": "¿Qué documentos necesito para iniciar el trámite?",
+        "answer": "Identificación oficial, comprobante de domicilio, escrituras o contrato de arrendamiento del predio, y los planos existentes si ya cuenta con ellos. Nosotros gestionamos los permisos ante el municipio."
+      },
+      {
+        "icon": "shield",
+        "question": "¿La obra cuenta con garantía?",
+        "answer": "Sí. Ofrecemos 12 meses de garantía sobre acabados y 5 años sobre estructura, por escrito en el contrato de obra. Cualquier defecto reportado en ese periodo se corrige sin costo adicional."
+      },
+      {
+        "icon": "truck",
+        "question": "¿Ustedes gestionan los materiales o debo comprarlos yo?",
+        "answer": "Nosotros cotizamos, compramos y coordinamos la logística de todos los materiales incluidos en el presupuesto aprobado. Si desea aportar materiales propios, lo ajustamos en el contrato."
+      },
+      {
+        "icon": "message",
+        "question": "¿Con quién puedo dar seguimiento durante la obra?",
+        "answer": "Le asignamos un residente de obra como punto de contacto único, con reportes semanales por escrito y visitas de avance que puede agendar cuando lo necesite."
+      }
+    ]
+  }
+}

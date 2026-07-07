@@ -1,0 +1,20 @@
+{
+  "key": "logo-cloud-footer-responsive-strip",
+  "pascalName": "LogoCloudFooterResponsiveStrip",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-cloud-footer-responsive-strip` | logo-cloud-footer-responsive-strip — franja de logos de aliados, iconos en móvil y wordmarks en escritorio · úsalo para reforzar confianza antes del cierre. | { eyebrow, title, partners: [{ icon, name }] } |",
+  "fixture": {
+    "eyebrow": "Aliados comerciales",
+    "title": "Empresas que confían en nuestra operación logística",
+    "partners": [
+      { "icon": "building", "name": "Grupo Ferretero del Norte" },
+      { "icon": "landmark", "name": "Banco Industrial Regio" },
+      { "icon": "factory", "name": "Manufacturas Saltillo" },
+      { "icon": "truck", "name": "Transportes Bajío" },
+      { "icon": "warehouse", "name": "Almacenes del Pacífico" },
+      { "icon": "briefcase", "name": "Consultoría Aranda y Asociados" },
+      { "icon": "shield", "name": "Aseguradora Cumbres" },
+      { "icon": "scale", "name": "Despacho Legal Monterrey" }
+    ]
+  }
+}

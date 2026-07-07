@@ -1,0 +1,60 @@
+{
+  "key": "menu-plated-item-card",
+  "pascalName": "MenuPlatedItemCard",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-plated-item-card` | menu-plated-item-card — tarjeta de platillo emplatado con foto, precio y etiqueta opcional (vegetariano/picante/sin gluten) · úsalo para especiales del chef en restaurante u hotel. | { eyebrow, title, description, items: [{ image, imageAlt, name, price, description, tag? }] } |",
+  "fixture": {
+    "eyebrow": "Especiales del chef",
+    "title": "Platillos insignia de temporada",
+    "description": "Una selección corta de la cocina de Fonda Los Encinos, preparada con ingredientes de productores locales de Nuevo León.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Costilla de res braseada con puré de camote sobre plato de barro negro",
+        "name": "Costilla braseada doce horas",
+        "price": "$385",
+        "description": "Costilla de res cocida a baja temperatura con puré de camote, ejotes salteados y reducción de vino tinto.",
+        "tag": "gluten-free"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Tazón de risotto de hongos silvestres con hierbas frescas",
+        "name": "Risotto de hongos silvestres",
+        "price": "$245",
+        "description": "Arroz arborio cremoso con hongos de temporada, queso parmesano añejo y aceite de trufa negra.",
+        "tag": "vegetarian"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Camarones al mojo de ajo con chile de árbol sobre arroz blanco",
+        "name": "Camarones al mojo de chile de árbol",
+        "price": "$310",
+        "description": "Camarones salteados en mantequilla, ajo y chile de árbol tostado, servidos con arroz blanco y limón.",
+        "tag": "spicy"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Filete de robalo a la plancha con vegetales asados",
+        "name": "Robalo a la plancha con vegetales asados",
+        "price": "$355",
+        "description": "Filete de robalo del Golfo sobre cama de calabacitas, zanahoria baby y salsa de mantequilla de hierbas."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Ensalada de betabel asado con queso de cabra y nuez",
+        "name": "Betabel asado con queso de cabra",
+        "price": "$185",
+        "description": "Betabel horneado, queso de cabra local, nuez garapiñada y vinagreta de mostaza sobre cama de arúgula.",
+        "tag": "vegetarian"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Tacos de birria consomé con cebolla y cilantro",
+        "name": "Tacos de birria estilo Los Encinos",
+        "price": "$220",
+        "description": "Tres tacos de birria de res con consomé para acompañar, cebolla, cilantro y salsa de chile guajillo.",
+        "tag": "spicy"
+      }
+    ]
+  }
+}

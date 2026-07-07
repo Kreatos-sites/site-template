@@ -1,0 +1,36 @@
+{
+  "key": "analytics-chart-with-kpi-summary",
+  "pascalName": "AnalyticsChartWithKpiSummary",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `analytics-chart-with-kpi-summary` | analytics-chart-with-kpi-summary — tarjeta de analítica con gráfica de área y 3 KPIs · úsalo para mostrar crecimiento mensual con cifras de respaldo. | { eyebrow, title, cardTitle, cardSubtitle, chartLabel, growth: { value, label }, chart: [{ label, value }], kpis: [{ label, value }] } |",
+  "fixture": {
+    "eyebrow": "Resultados",
+    "title": "El crecimiento de sus expedientes activos, mes con mes",
+    "cardTitle": "Expedientes activos",
+    "cardSubtitle": "Volumen mensual gestionado por el despacho",
+    "chartLabel": "Gráfica de expedientes activos por mes",
+    "growth": {
+      "value": "+18.4%",
+      "label": "vs. año anterior"
+    },
+    "chart": [
+      { "label": "Ene", "value": 62 },
+      { "label": "Feb", "value": 68 },
+      { "label": "Mar", "value": 71 },
+      { "label": "Abr", "value": 79 },
+      { "label": "May", "value": 84 },
+      { "label": "Jun", "value": 90 },
+      { "label": "Jul", "value": 88 },
+      { "label": "Ago", "value": 97 },
+      { "label": "Sep", "value": 103 },
+      { "label": "Oct", "value": 110 },
+      { "label": "Nov", "value": 118 },
+      { "label": "Dic", "value": 124 }
+    ],
+    "kpis": [
+      { "label": "Total del año", "value": "1,094" },
+      { "label": "Mes pico", "value": "Dic · 124" },
+      { "label": "Delta mensual", "value": "+6.8" }
+    ]
+  }
+}

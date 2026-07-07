@@ -17,5 +17,13 @@
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks"
+  },
+  "registries": {
+    "@7ovr": "https://7ovr.com/r/{name}.json",
+    "@bundui": "https://bundui.io/r/{name}.json",
+    "@nusaiba": "https://nusaiba.dev/r/base-nova/{name}.json",
+    "@tailark": "https://tailark.com/r/{name}.json",
+    "@shadcnblocks": "https://shadcnblocks.com/r/{name}.json",
+    "@shadcn-ui-blocks": "https://www.shadcn-ui-blocks.com/r/{name}.json"
   }
 }

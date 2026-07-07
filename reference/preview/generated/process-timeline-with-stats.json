@@ -1,0 +1,40 @@
+{
+  "key": "process-timeline-with-stats",
+  "pascalName": "ProcessTimelineWithStats",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `process-timeline-with-stats` | process-timeline-with-stats — timeline de proceso con panel fijo de stats y CTA · úsalo si el método de trabajo necesita respaldo cuantitativo (obra, consultoría, implementación). | { eyebrow, title, steps: [{ title, description }], stats: [{ value, label }], cta: { title, description, label, href } } |",
+  "fixture": {
+    "eyebrow": "Nuestro proceso",
+    "title": "De la planeación a la entrega, sin sorpresas en el camino",
+    "steps": [
+      {
+        "title": "Levantamiento y diagnóstico en sitio",
+        "description": "Visitamos el predio o la obra existente, documentamos condiciones estructurales y de instalaciones, y validamos el programa arquitectónico con el cliente antes de proponer cualquier solución."
+      },
+      {
+        "title": "Ingeniería y permisos",
+        "description": "Desarrollamos los proyectos ejecutivos de estructura, instalaciones y acabados, y gestionamos directamente las licencias municipales y dictámenes requeridos para iniciar obra sin retrasos."
+      },
+      {
+        "title": "Construcción por etapas",
+        "description": "Ejecutamos con bitácora de obra semanal, control de calidad en cada partida y reportes fotográficos que el cliente revisa en tiempo real desde el portal de seguimiento."
+      },
+      {
+        "title": "Entrega y garantía",
+        "description": "Realizamos el cierre administrativo, entregamos manuales de operación de instalaciones y respaldamos la obra con un año de garantía sobre acabados y sistemas."
+      }
+    ],
+    "stats": [
+      { "value": "98%", "label": "Obras entregadas dentro de la fecha pactada" },
+      { "value": "180+", "label": "Proyectos ejecutados en los últimos ocho años" },
+      { "value": "12 años", "label": "Experiencia promedio de nuestros residentes de obra" },
+      { "value": "0", "label": "Observaciones abiertas en la última auditoría de calidad" }
+    ],
+    "cta": {
+      "title": "¿Tiene un proyecto en puerta?",
+      "description": "Agende una visita de diagnóstico sin costo y reciba una propuesta de alcance en menos de una semana.",
+      "label": "Solicitar diagnóstico",
+      "href": "/contacto"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "key": "reviews-masonry-varied-height-wall-organic",
+  "pascalName": "ReviewsMasonryVariedHeightWallOrganic",
+  "category": "Reseñas",
+  "catalogRow": "| `reviews-masonry-varied-height-wall-organic` | reviews-masonry-varied-height-wall-organic — muro masonry de reseñas con tarjetas de altura orgánica y estrellas · úsalo para negocios con volumen real de clientes que quieren mostrar muchas voces a la vez. | { eyebrow, title, reviews: [{ quote, name, role, image, imageAlt, rating, size: sm/md/lg }] } |",
+  "fixture": {
+    "eyebrow": "Opiniones de nuestros comensales",
+    "title": "Lo que dicen quienes ya nos visitaron",
+    "reviews": [
+      {
+        "quote": "Pedimos la mesa para un cumpleaños y el mole negro fue el platillo que todos recordaron. El servicio estuvo atento sin ser invasivo.",
+        "name": "Renata Aguilar",
+        "role": "Comensal frecuente",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Aguilar",
+        "rating": 5,
+        "size": "lg"
+      },
+      {
+        "quote": "Buena relación calidad-precio en el menú del mediodía.",
+        "name": "Ismael Torres",
+        "role": "Cliente de oficina",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ismael Torres",
+        "rating": 4,
+        "size": "sm"
+      },
+      {
+        "quote": "Llevamos a clientes extranjeros y quedaron sorprendidos con la presentación de los platillos y la explicación que da el mesero sobre cada ingrediente regional.",
+        "name": "Daniela Cordero",
+        "role": "Gerente de cuenta",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Daniela Cordero",
+        "rating": 5,
+        "size": "md"
+      },
+      {
+        "quote": "El tiempo de espera fue más largo de lo esperado un viernes, pero el sabor compensó.",
+        "name": "Gustavo Peña",
+        "role": "Visitante ocasional",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Gustavo Peña",
+        "rating": 4,
+        "size": "sm"
+      },
+      {
+        "quote": "Reservamos para una comida familiar de doce personas y el equipo acomodó todo sin contratiempos, con un menú adaptado para los niños.",
+        "name": "Paola Ibarra",
+        "role": "Cliente desde 2021",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paola Ibarra",
+        "rating": 5,
+        "size": "lg"
+      },
+      {
+        "quote": "El pan de la casa es motivo suficiente para volver.",
+        "name": "Héctor Villaseñor",
+        "role": "Cliente frecuente",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Héctor Villaseñor",
+        "rating": 5,
+        "size": "sm"
+      },
+      {
+        "quote": "Celebramos un cierre de trimestre con el equipo completo y la atención personalizada del capitán hizo que la experiencia se sintiera exclusiva.",
+        "name": "Marcela Ríos",
+        "role": "Directora de operaciones",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Marcela Ríos",
+        "rating": 5,
+        "size": "md"
+      }
+    ]
+  }
+}

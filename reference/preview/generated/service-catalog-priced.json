@@ -1,0 +1,85 @@
+{
+  "key": "service-catalog-priced",
+  "pascalName": "ServiceCatalogPriced",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `service-catalog-priced` | service-catalog-priced — catálogo de servicios con precio, duración e íconos por tarjeta · úsalo para despachos o consultorías que cotizan por paquete. | { eyebrow, title, subtitle, services: [{ icon, title, price, duration, description, deliverables: string[] }] } |",
+  "fixture": {
+    "eyebrow": "Servicios y honorarios",
+    "title": "Paquetes de asesoría con alcance y precio definidos desde el inicio",
+    "subtitle": "Cada paquete incluye entregables específicos y un plazo de entrega comprometido por escrito en la propuesta.",
+    "services": [
+      {
+        "icon": "scale",
+        "title": "Constitución de sociedad",
+        "price": "$18,500 MXN",
+        "duration": "10 días hábiles",
+        "description": "Trámite completo ante notario y Registro Público de Comercio, con acta constitutiva a la medida del giro de su empresa.",
+        "deliverables": [
+          "Acta constitutiva protocolizada",
+          "Inscripción en el RFC",
+          "Poderes para representante legal"
+        ]
+      },
+      {
+        "icon": "calculator",
+        "title": "Contabilidad mensual",
+        "price": "$6,900 MXN / mes",
+        "duration": "Entrega los días 17",
+        "description": "Registro de operaciones, conciliaciones bancarias y presentación de declaraciones ante el SAT dentro del plazo legal.",
+        "deliverables": [
+          "Balanza de comprobación",
+          "Declaraciones mensuales presentadas",
+          "Reporte de flujo de efectivo"
+        ]
+      },
+      {
+        "icon": "clipboard",
+        "title": "Auditoría de cumplimiento",
+        "price": "$32,000 MXN",
+        "duration": "15 días hábiles",
+        "description": "Revisión documental de obligaciones fiscales y laborales para identificar contingencias antes de una revisión de autoridad.",
+        "deliverables": [
+          "Informe de hallazgos por área",
+          "Matriz de riesgos priorizada",
+          "Plan de corrección con responsables"
+        ]
+      },
+      {
+        "icon": "signature",
+        "title": "Contratos comerciales",
+        "price": "$4,200 MXN por contrato",
+        "duration": "5 días hábiles",
+        "description": "Redacción y revisión de contratos de prestación de servicios, distribución o confidencialidad conforme a su operación.",
+        "deliverables": [
+          "Contrato en español e inglés",
+          "Cláusulas de penalización revisadas",
+          "Sesión de firma acompañada"
+        ]
+      },
+      {
+        "icon": "banknote",
+        "title": "Nómina y prestaciones",
+        "price": "$95 MXN por empleado / mes",
+        "duration": "Entrega quincenal",
+        "description": "Cálculo de nómina, IMSS e Infonavit con dispersión de pagos y recibos timbrados listos para cada quincena.",
+        "deliverables": [
+          "Recibos de nómina timbrados",
+          "Pago de cuotas obrero-patronales",
+          "Reporte de incidencias del periodo"
+        ]
+      },
+      {
+        "icon": "shield",
+        "title": "Defensa fiscal",
+        "price": "Desde $28,000 MXN",
+        "duration": "Según etapa del procedimiento",
+        "description": "Representación ante el SAT en revisiones, requerimientos y medios de defensa hasta la resolución del caso.",
+        "deliverables": [
+          "Escrito de respuesta o recurso",
+          "Seguimiento de expediente",
+          "Reporte de avance quincenal"
+        ]
+      }
+    ]
+  }
+}

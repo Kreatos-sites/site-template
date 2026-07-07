@@ -1,0 +1,53 @@
+{
+  "key": "footer-grid-blueprint-bordered",
+  "pascalName": "FooterGridBlueprintBordered",
+  "category": "Footers",
+  "catalogRow": "| `footer-grid-blueprint-bordered` | footer-grid-blueprint-bordered — footer en grid con celdas delimitadas por bordes; marca+redes, newsletter, columnas y selector de tema · úsalo como pie de página principal. | { brand, description, socials: [{icon, href, label}], newsletter: {title, description, placeholder, buttonLabel}, columns: [{title, links: [{label, href}]}], themeLabel, themeOptions: [{icon, label, current}], copyright, legalLinks: [{label, href}] } |",
+  "fixture": {
+    "brand": "Estudio Ánima",
+    "description": "Diseño de marca e identidad visual para negocios que quieren verse tan sólidos como son.",
+    "socials": [
+      { "icon": "linkedin", "href": "https://linkedin.com/company/estudio-anima", "label": "Síganos en LinkedIn" },
+      { "icon": "instagram", "href": "https://instagram.com/estudioanima", "label": "Síganos en Instagram" },
+      { "icon": "twitter", "href": "https://x.com/estudioanima", "label": "Síganos en X" },
+      { "icon": "email", "href": "mailto:hola@estudioanima.mx", "label": "Escríbanos por correo" }
+    ],
+    "newsletter": {
+      "title": "Notas de estudio",
+      "description": "Un correo al mes con casos de estudio y procesos de marca que no publicamos en ningún otro lado.",
+      "placeholder": "Su correo electrónico",
+      "buttonLabel": "Suscribirse"
+    },
+    "columns": [
+      {
+        "title": "Servicios",
+        "links": [
+          { "label": "Identidad de marca", "href": "/servicios/identidad" },
+          { "label": "Diseño editorial", "href": "/servicios/editorial" },
+          { "label": "Sitios y producto digital", "href": "/servicios/digital" },
+          { "label": "Empaque", "href": "/servicios/empaque" }
+        ]
+      },
+      {
+        "title": "Estudio",
+        "links": [
+          { "label": "Nosotros", "href": "/nosotros" },
+          { "label": "Trabajo", "href": "/trabajo" },
+          { "label": "Proceso", "href": "/proceso" },
+          { "label": "Contacto", "href": "/contacto" }
+        ]
+      }
+    ],
+    "themeLabel": "Modo de vista",
+    "themeOptions": [
+      { "icon": "light", "label": "Claro", "current": false },
+      { "icon": "dark", "label": "Oscuro", "current": true },
+      { "icon": "system", "label": "Sistema", "current": false }
+    ],
+    "copyright": "© 2026 Estudio Ánima. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos de uso", "href": "/terminos" }
+    ]
+  }
+}

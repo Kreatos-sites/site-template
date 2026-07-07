@@ -1,0 +1,72 @@
+{
+  "key": "features-tabbed-icon-grid",
+  "pascalName": "FeaturesTabbedIconGrid",
+  "category": "Features y servicios",
+  "catalogRow": "| `features-tabbed-icon-grid` | features-tabbed-icon-grid — pestañas CSS puro por categoría con grid de 3 columnas (icono, título, descripción) · úsalo para catálogos de servicios agrupados por área. | { eyebrow, title, categories: [{ label, items: [{ icon, title, description }] }] } |",
+  "fixture": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Cobertura logística completa, organizada por área",
+    "categories": [
+      {
+        "label": "Almacenamiento",
+        "items": [
+          {
+            "icon": "warehouse",
+            "title": "Bodegas certificadas",
+            "description": "Espacios climatizados con control de acceso y trazabilidad por lote para su inventario."
+          },
+          {
+            "icon": "boxes",
+            "title": "Gestión de inventario",
+            "description": "Conteo cíclico y reportes semanales para que conozca sus existencias en todo momento."
+          },
+          {
+            "icon": "thermometer",
+            "title": "Cadena de frío",
+            "description": "Cámaras refrigeradas para mercancía perecedera con monitoreo continuo de temperatura."
+          }
+        ]
+      },
+      {
+        "label": "Transporte",
+        "items": [
+          {
+            "icon": "truck",
+            "title": "Flota propia",
+            "description": "Unidades de carga seca y refrigerada disponibles para rutas nacionales y de última milla."
+          },
+          {
+            "icon": "route",
+            "title": "Rutas optimizadas",
+            "description": "Planeación de trayectos que reduce tiempos de entrega y costo por kilómetro."
+          },
+          {
+            "icon": "clock",
+            "title": "Entregas puntuales",
+            "description": "Ventanas de entrega acordadas con usted y seguimiento en cada tramo del envío."
+          }
+        ]
+      },
+      {
+        "label": "Tecnología",
+        "items": [
+          {
+            "icon": "radar",
+            "title": "Rastreo en tiempo real",
+            "description": "Ubicación de su carga disponible desde la salida hasta la confirmación de entrega."
+          },
+          {
+            "icon": "chart",
+            "title": "Reportes de desempeño",
+            "description": "Indicadores mensuales de tiempos, incidencias y costo por envío para su operación."
+          },
+          {
+            "icon": "shield",
+            "title": "Seguridad de la carga",
+            "description": "Sellos electrónicos y validación documental en cada punto de la ruta."
+          }
+        ]
+      }
+    ]
+  }
+}

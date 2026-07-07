@@ -1,0 +1,47 @@
+{
+  "key": "status-services-uptime-metrics-list",
+  "pascalName": "StatusServicesUptimeMetricsList",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `status-services-uptime-metrics-list` | status-services-uptime-metrics-list — banner de estado + lista de servicios con uptime 90 días · úsalo para plataformas o sistemas que el cliente deba monitorear. | { eyebrow, title, bannerStatus: operational/degraded/outage, bannerTitle, bannerDescription, bannerMeta, uptimeLabel, services: [{ status: operational/degraded/outage, name, description, uptime }] } |",
+  "fixture": {
+    "eyebrow": "Estado de la plataforma",
+    "title": "Disponibilidad de nuestros sistemas de rastreo y facturación",
+    "bannerStatus": "operational",
+    "bannerTitle": "Todos los sistemas operan con normalidad",
+    "bannerDescription": "Última verificación hace 3 minutos, actualización automática cada hora.",
+    "bannerMeta": "90 días sin interrupciones mayores",
+    "uptimeLabel": "uptime 90 días",
+    "services": [
+      {
+        "status": "operational",
+        "name": "Rastreo de embarques",
+        "description": "Ubicación en tiempo real de unidades y contenedores en tránsito.",
+        "uptime": "99.98%"
+      },
+      {
+        "status": "operational",
+        "name": "Portal de clientes",
+        "description": "Acceso a órdenes, cotizaciones y documentos de aduana.",
+        "uptime": "99.95%"
+      },
+      {
+        "status": "degraded",
+        "name": "Facturación electrónica",
+        "description": "Timbrado y descarga de CFDI para embarques cerrados.",
+        "uptime": "99.61%"
+      },
+      {
+        "status": "operational",
+        "name": "API de integración",
+        "description": "Conexión para clientes que consultan el estatus desde su propio ERP.",
+        "uptime": "99.99%"
+      },
+      {
+        "status": "operational",
+        "name": "Notificaciones y alertas",
+        "description": "Avisos por correo y WhatsApp sobre cambios de estatus del embarque.",
+        "uptime": "99.90%"
+      }
+    ]
+  }
+}

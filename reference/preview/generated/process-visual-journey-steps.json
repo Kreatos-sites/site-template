@@ -1,0 +1,33 @@
+{
+  "key": "process-visual-journey-steps",
+  "pascalName": "ProcessVisualJourneySteps",
+  "category": "Proceso",
+  "catalogRow": "| `process-visual-journey-steps` | process-visual-journey-steps — timeline vertical con pasos numerados e iconos · úsalo para la secuencia de un proceso (consulta, diseño, obra, entrega). | { eyebrow, title, stepLabel, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro proceso",
+    "title": "Cómo trabajamos su proyecto de principio a fin",
+    "stepLabel": "Etapa",
+    "steps": [
+      {
+        "icon": "phone",
+        "title": "Consulta inicial",
+        "description": "Visitamos el terreno o inmueble, escuchamos sus objetivos y definimos alcance, presupuesto y tiempos preliminares."
+      },
+      {
+        "icon": "design",
+        "title": "Diseño y planos ejecutivos",
+        "description": "Nuestro equipo de arquitectura desarrolla los planos ejecutivos y la ingeniería, con revisiones conjuntas antes de aprobar la versión final."
+      },
+      {
+        "icon": "build",
+        "title": "Construcción supervisada",
+        "description": "Ejecutamos la obra con bitácora semanal, control de calidad en cada etapa y visitas programadas para que dé seguimiento al avance."
+      },
+      {
+        "icon": "key",
+        "title": "Entrega y garantía",
+        "description": "Realizamos la entrega formal con manual de mantenimiento y cobertura de garantía por los primeros doce meses de uso."
+      }
+    ]
+  }
+}

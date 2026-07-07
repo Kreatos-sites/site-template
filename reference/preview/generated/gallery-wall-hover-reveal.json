@@ -1,0 +1,36 @@
+{
+  "key": "gallery-wall-hover-reveal",
+  "pascalName": "GalleryWallHoverReveal",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `gallery-wall-hover-reveal` | gallery-wall-hover-reveal — galería de tiles con overlay al pasar el cursor (categoría + título) · úsalo para portafolio de proyectos o casos de estudio de un estudio o despacho. | { eyebrow, title, tiles: [{ title, category, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Proyectos destacados",
+    "title": "Una muestra de lo que hemos construido para nuestros clientes",
+    "tiles": [
+      {
+        "title": "Corporativo Altavista",
+        "category": "Arquitectura corporativa",
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada del edificio corporativo Altavista al atardecer"
+      },
+      {
+        "title": "Centro Logístico Norte",
+        "category": "Nave industrial",
+        "image": "/images/about.svg",
+        "imageAlt": "Interior del centro logístico con andenes de carga"
+      },
+      {
+        "title": "Residencial Los Encinos",
+        "category": "Desarrollo habitacional",
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea del desarrollo residencial Los Encinos"
+      },
+      {
+        "title": "Oficinas Vértice",
+        "category": "Remodelación de interiores",
+        "image": "/images/about.svg",
+        "imageAlt": "Área de trabajo colaborativo en oficinas Vértice"
+      }
+    ]
+  }
+}

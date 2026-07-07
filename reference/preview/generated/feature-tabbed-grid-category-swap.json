@@ -1,0 +1,73 @@
+{
+  "key": "feature-tabbed-grid-category-swap",
+  "pascalName": "FeatureTabbedGridCategorySwap",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-tabbed-grid-category-swap` | feature-tabbed-grid-category-swap — acordeón nativo de categorías con malla de features (icono, título, descripción) · úsalo para agrupar 3+ categorías de servicios o capacidades. | { eyebrow, title, description, categories: [{ label, features: [{ icon, title, description }] }] } |",
+  "fixture": {
+    "eyebrow": "Capacidades de la flota",
+    "title": "Todo lo que mueve su carga, en un solo panel",
+    "description": "Grupo Bajío Logístico organiza sus operaciones en tres frentes: la flota en ruta, la visibilidad tecnológica y el cumplimiento normativo. Elija una categoría para ver el detalle.",
+    "categories": [
+      {
+        "label": "Flota y ruteo",
+        "features": [
+          {
+            "icon": "truck",
+            "title": "Flota propia y aliada",
+            "description": "Más de 80 unidades entre tractocamiones y cajas secas, con respaldo de transportistas aliados certificados para picos de demanda."
+          },
+          {
+            "icon": "route",
+            "title": "Ruteo dinámico",
+            "description": "Recalculamos rutas por tráfico, clima y restricciones viales para sostener las ventanas de entrega pactadas con el cliente."
+          },
+          {
+            "icon": "map-pin",
+            "title": "Cobertura nacional",
+            "description": "Corredores troncales entre el Bajío, el norte industrial y el centro del país, con cross-docking en tres terminales propias."
+          }
+        ]
+      },
+      {
+        "label": "Tecnología y visibilidad",
+        "features": [
+          {
+            "icon": "cpu",
+            "title": "Rastreo satelital",
+            "description": "Cada unidad reporta posición, velocidad y temperatura de carga cada 60 segundos desde el tablero de control."
+          },
+          {
+            "icon": "wifi",
+            "title": "Portal para el cliente",
+            "description": "Acceso directo a la posición de su embarque, documentos de tránsito y tiempos estimados de entrega, sin llamadas de seguimiento."
+          },
+          {
+            "icon": "bell",
+            "title": "Alertas de incidencia",
+            "description": "Notificación inmediata ante desvíos de ruta, retrasos o rupturas de cadena de frío antes de que afecten su operación."
+          }
+        ]
+      },
+      {
+        "label": "Seguridad y cumplimiento",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Custodia armada",
+            "description": "Escoltas certificadas en corredores de riesgo y protocolos de arribo seguro a plantas y centros de distribución."
+          },
+          {
+            "icon": "key",
+            "title": "Candados electrónicos",
+            "description": "Sellos con registro de apertura y cierre vinculados al expediente de cada embarque, auditable en todo momento."
+          },
+          {
+            "icon": "clipboard",
+            "title": "Cumplimiento normativo",
+            "description": "Documentación completa ante SCT y aduanas, con expedientes de manejo de carga peligrosa cuando el embarque lo requiere."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "key": "dining-categories-visual-grid",
+  "pascalName": "DiningCategoriesVisualGrid",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `dining-categories-visual-grid` | dining-categories-visual-grid — grid visual de categorías de menú con imagen, icono y descripción · úsalo para presentar el menú de un restaurante por secciones. | { eyebrow, title, description, categories: [{ icon, name, description, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro menú",
+    "title": "Explore nuestras categorías",
+    "description": "Cada categoría reúne recetas preparadas al momento con ingredientes de temporada, pensadas para compartir en mesa.",
+    "categories": [
+      {
+        "icon": "entradas",
+        "name": "Entradas",
+        "description": "Platillos ligeros para abrir el apetito, servidos en porciones pensadas para compartir.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Entrada servida en plato de piedra con guarnición fresca"
+      },
+      {
+        "icon": "fuertes",
+        "name": "Fuertes",
+        "description": "Cortes y guisados de cocción lenta, acompañados de guarniciones de temporada.",
+        "image": "/images/about.svg",
+        "imageAlt": "Plato fuerte con corte de carne y vegetales asados"
+      },
+      {
+        "icon": "mariscos",
+        "name": "Mariscos",
+        "description": "Producto fresco de la costa, preparado a la parrilla o en salsas de la casa.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Plato de mariscos frescos con limón y hierbas"
+      },
+      {
+        "icon": "postres",
+        "name": "Postres",
+        "description": "Recetas de repostería propia, con opciones frías y calientes para cerrar la comida.",
+        "image": "/images/about.svg",
+        "imageAlt": "Postre de chocolate con fruta fresca en plato blanco"
+      },
+      {
+        "icon": "bebidas",
+        "name": "Bebidas",
+        "description": "Coctelería de autor, vinos de la región y opciones sin alcohol.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Copa de coctel servido con guarnición de cítricos"
+      },
+      {
+        "icon": "especialidades",
+        "name": "Especialidades de la casa",
+        "description": "Recetas insignia del chef, disponibles solo por temporada.",
+        "image": "/images/about.svg",
+        "imageAlt": "Platillo especial de la casa presentado en tabla de madera"
+      }
+    ]
+  }
+}

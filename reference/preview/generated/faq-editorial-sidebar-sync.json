@@ -1,0 +1,64 @@
+{
+  "key": "faq-editorial-sidebar-sync",
+  "pascalName": "FaqEditorialSidebarSync",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-editorial-sidebar-sync` | faq-editorial-sidebar-sync — FAQ editorial con panel lateral sticky de temas y anclas nativas · úsalo para páginas largas con preguntas agrupadas por categoría. | { eyebrow, title, description, navAriaLabel, categories: [{ id, label, items: [{ question, answer }] }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratarnos, resolvemos sus dudas",
+    "description": "Reunimos las preguntas que más nos hacen despachos y empresas antes de firmar un contrato de asesoría legal continua con nosotros.",
+    "navAriaLabel": "Temas de preguntas frecuentes",
+    "categories": [
+      {
+        "id": "honorarios",
+        "label": "Honorarios y contratos",
+        "items": [
+          {
+            "question": "¿Cómo calculan la cuota mensual de asesoría?",
+            "answer": "La cuota se fija según el número de áreas que requiere su empresa (corporativo, laboral, fiscal) y el volumen estimado de consultas al mes. Se lo detallamos por escrito antes de firmar."
+          },
+          {
+            "question": "¿Puedo cancelar el contrato de asesoría en cualquier momento?",
+            "answer": "Sí. El contrato contempla un aviso de cancelación con 30 días naturales de anticipación, sin penalización adicional sobre los meses ya cubiertos."
+          },
+          {
+            "question": "¿Los litigios se cobran aparte de la asesoría mensual?",
+            "answer": "Sí, la asesoría mensual cubre consultas y revisión documental; los procedimientos ante tribunales se cotizan por separado según la instancia y el tiempo estimado."
+          }
+        ]
+      },
+      {
+        "id": "alcance",
+        "label": "Alcance del servicio",
+        "items": [
+          {
+            "question": "¿Qué áreas del derecho cubre la asesoría continua?",
+            "answer": "Cubrimos corporativo, laboral, fiscal y contratos comerciales. Si su empresa necesita propiedad intelectual o comercio exterior, lo coordinamos con un asociado especializado sin costo de intermediación."
+          },
+          {
+            "question": "¿Revisan contratos con proveedores extranjeros?",
+            "answer": "Sí, revisamos y negociamos cláusulas de contratos internacionales, incluyendo jurisdicción aplicable y mecanismos de resolución de controversias."
+          }
+        ]
+      },
+      {
+        "id": "tiempos",
+        "label": "Tiempos de respuesta",
+        "items": [
+          {
+            "question": "¿Cuánto tardan en responder una consulta urgente?",
+            "answer": "Las consultas marcadas como urgentes se atienden en un plazo máximo de 24 horas hábiles. El resto de las consultas se responde en un plazo de 3 días hábiles."
+          },
+          {
+            "question": "¿Tienen un canal directo para emergencias legales?",
+            "answer": "Sí, cada cliente con contrato de asesoría continua recibe el contacto directo del abogado asignado a su cuenta para casos que no puedan esperar el ciclo normal de respuesta."
+          },
+          {
+            "question": "¿Entregan reportes periódicos del estatus de los asuntos abiertos?",
+            "answer": "Enviamos un reporte mensual con el estatus de cada asunto abierto, próximos vencimientos y recomendaciones, además de una reunión trimestral de seguimiento."
+          }
+        ]
+      }
+    ]
+  }
+}

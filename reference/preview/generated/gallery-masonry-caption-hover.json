@@ -1,0 +1,48 @@
+{
+  "key": "gallery-masonry-caption-hover",
+  "pascalName": "GalleryMasonryCaptionHover",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-masonry-caption-hover` | gallery-masonry-caption-hover — galería masonry de columnas CSS con overlay de categoría y título al pasar el cursor · úsalo para portafolios de proyectos o casos de estudio. | { eyebrow, title, items: [{ image, imageAlt, title, category }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que hemos diseñado y construido",
+    "items": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de estar con ventanales de piso a techo en residencia contemporánea",
+        "title": "Residencia Los Encinos",
+        "category": "Vivienda unifamiliar"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de oficinas corporativas con celosía de concreto",
+        "title": "Corporativo Altavista",
+        "category": "Oficinas"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Recepción de hotel boutique con acabados en madera y piedra",
+        "title": "Hotel Casona del Valle",
+        "category": "Hospitalidad"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Terraza y jardín interior de complejo residencial",
+        "title": "Conjunto Jacarandas",
+        "category": "Vivienda multifamiliar"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de exhibición de showroom de mobiliario",
+        "title": "Showroom Nogal",
+        "category": "Retail"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vestíbulo de clínica dental con iluminación natural",
+        "title": "Clínica Dental Reforma",
+        "category": "Salud"
+      }
+    ]
+  }
+}

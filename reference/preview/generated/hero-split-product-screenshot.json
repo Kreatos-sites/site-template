@@ -1,0 +1,26 @@
+{
+  "key": "hero-split-product-screenshot",
+  "pascalName": "HeroSplitProductScreenshot",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-product-screenshot` | hero-split-product-screenshot — hero de producto a dos columnas con captura enmarcada y tarjeta flotante · úsalo para SaaS, dashboards o apps con interfaz visual que mostrar. | { eyebrow, title, subtitle, primaryCta: {label, href}, secondaryCta: {label, href}, trustNote, image, imageAlt, floatingCard: {label, value} } |",
+  "fixture": {
+    "eyebrow": "Plataforma de gestión documental",
+    "title": "Organice los expedientes de su despacho en un solo panel",
+    "subtitle": "Centralice contratos, escritos y evidencia procesal con control de versiones y bitácora de acceso para cada colaborador.",
+    "primaryCta": {
+      "label": "Solicitar una demostración",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver funcionalidades",
+      "href": "#funcionalidades"
+    },
+    "trustNote": "Usado por despachos corporativos en Ciudad de México, Monterrey y Guadalajara.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Panel de control mostrando expedientes activos, plazos procesales y actividad reciente del equipo",
+    "floatingCard": {
+      "label": "Expedientes activos",
+      "value": "128"
+    }
+  }
+}

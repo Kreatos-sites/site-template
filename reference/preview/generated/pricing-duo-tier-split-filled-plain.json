@@ -1,0 +1,40 @@
+{
+  "key": "pricing-duo-tier-split-filled-plain",
+  "pascalName": "PricingDuoTierSplitFilledPlain",
+  "category": "Heroes",
+  "catalogRow": "| `pricing-duo-tier-split-filled-plain` | pricing-duo-tier-split-filled-plain — dos planes lado a lado, uno destacado, con precio y checklist · úsalo para presentar planes de servicio B2B con un nivel recomendado. | { eyebrow, title, tiers: [{ name, price, period, description, cta, featured?, features: string[] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan para cada etapa de su despacho",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "$4,900",
+        "period": "/mes",
+        "description": "Para despachos que llevan hasta 15 casos activos y necesitan orden documental.",
+        "cta": "Solicitar información",
+        "features": [
+          "Gestión de hasta 15 expedientes activos",
+          "Repositorio documental centralizado",
+          "Recordatorios de vencimientos y audiencias",
+          "Soporte por correo en horario hábil"
+        ]
+      },
+      {
+        "name": "Corporativo",
+        "price": "$11,500",
+        "period": "/mes",
+        "description": "Para despachos con múltiples abogados y clientes corporativos recurrentes.",
+        "cta": "Agendar una llamada",
+        "featured": true,
+        "features": [
+          "Expedientes activos ilimitados",
+          "Portal de seguimiento para clientes",
+          "Reportes mensuales de facturación por caso",
+          "Soporte prioritario con ejecutivo asignado",
+          "Integración con su sistema contable"
+        ]
+      }
+    ]
+  }
+}

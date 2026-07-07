@@ -1,0 +1,61 @@
+{
+  "key": "footer-mega-localized",
+  "pascalName": "FooterMegaLocalized",
+  "category": "Footers",
+  "catalogRow": "| `footer-mega-localized` | footer-mega-localized — footer corporativo con sitemap de 4 columnas, selector de idioma y aviso legal · úsalo para sitios multiidioma con navegación extensa. | { brandName, description, address, email, phone, columns: [{ heading, links: [{ label, href }] }], locales: [{ label, href }], themeNote, legalLinks: [{ label, href }], copyright } |",
+  "fixture": {
+    "brandName": "Corvera & Asociados",
+    "description": "Despacho de abogados corporativos especializado en fusiones, adquisiciones y cumplimiento regulatorio para empresas en México y Latinoamérica.",
+    "address": "Av. Paseo de la Reforma 350, Piso 12, Ciudad de México",
+    "email": "contacto@corveraasociados.mx",
+    "phone": "+52 55 4173 2890",
+    "columns": [
+      {
+        "heading": "Despacho",
+        "links": [
+          { "label": "Nosotros", "href": "#nosotros" },
+          { "label": "Equipo", "href": "#equipo" },
+          { "label": "Casos de éxito", "href": "#casos" },
+          { "label": "Carrera profesional", "href": "#carrera" }
+        ]
+      },
+      {
+        "heading": "Áreas de práctica",
+        "links": [
+          { "label": "Fusiones y adquisiciones", "href": "#fusiones" },
+          { "label": "Cumplimiento regulatorio", "href": "#cumplimiento" },
+          { "label": "Derecho corporativo", "href": "#corporativo" },
+          { "label": "Litigio comercial", "href": "#litigio" }
+        ]
+      },
+      {
+        "heading": "Recursos",
+        "links": [
+          { "label": "Boletín legal", "href": "#boletin" },
+          { "label": "Preguntas frecuentes", "href": "#faq" },
+          { "label": "Agendar consulta", "href": "#contacto" },
+          { "label": "Directorio de socios", "href": "#directorio" }
+        ]
+      },
+      {
+        "heading": "Contacto",
+        "links": [
+          { "label": "Oficina Ciudad de México", "href": "#cdmx" },
+          { "label": "Oficina Monterrey", "href": "#monterrey" },
+          { "label": "Solicitar propuesta", "href": "#propuesta" },
+          { "label": "Aviso de privacidad", "href": "/privacidad" }
+        ]
+      }
+    ],
+    "locales": [
+      { "label": "Español", "href": "/es" },
+      { "label": "English", "href": "/en" }
+    ],
+    "themeNote": "El tema claro u oscuro se ajusta según las preferencias de su dispositivo.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ],
+    "copyright": "© 2026 Corvera & Asociados. Todos los derechos reservados."
+  }
+}

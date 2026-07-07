@@ -1,0 +1,97 @@
+{
+  "key": "property-tiers-pricing-cards-highlighted",
+  "pascalName": "PropertyTiersPricingCardsHighlighted",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-tiers-pricing-cards-highlighted` | property-tiers-pricing-cards-highlighted — tres planes de inversión con nivel destacado · úsalo para ofertas inmobiliarias por niveles con rendimiento estimado. | { eyebrow, title, description, featuredLabel, tiers: [{ name, icon, price, period, description, statLabel, statValue, cta, featured?, groups: [{ label, items: string[] }] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de inversión",
+    "title": "Un plan para cada horizonte patrimonial",
+    "description": "Tres esquemas de participación en nuestros desarrollos residenciales, con condiciones de entrada, acompañamiento y rendimiento estimado claramente diferenciados.",
+    "featuredLabel": "Más solicitado",
+    "tiers": [
+      {
+        "name": "Plan Fundamental",
+        "icon": "landscape",
+        "price": "$850,000",
+        "period": "inversión mínima",
+        "description": "Ingreso a preventa en desarrollos seleccionados con acompañamiento básico durante todo el proceso.",
+        "statLabel": "Rendimiento estimado",
+        "statValue": "8.5% anual",
+        "cta": "Solicitar información",
+        "groups": [
+          {
+            "label": "Acceso",
+            "items": [
+              "Participación en preventa de un desarrollo por ciclo",
+              "Contrato de inversión notariado"
+            ]
+          },
+          {
+            "label": "Acompañamiento",
+            "items": [
+              "Reporte trimestral de avance de obra",
+              "Asesor asignado por correo electrónico"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plan Preferente",
+        "icon": "building",
+        "price": "$2,100,000",
+        "period": "inversión mínima",
+        "description": "Cartera diversificada en dos o más desarrollos con prioridad de asignación y condiciones preferenciales de salida.",
+        "statLabel": "Rendimiento estimado",
+        "statValue": "12.2% anual",
+        "cta": "Agendar con un asesor",
+        "featured": true,
+        "groups": [
+          {
+            "label": "Acceso",
+            "items": [
+              "Participación en hasta tres desarrollos simultáneos",
+              "Prioridad de asignación de unidades",
+              "Condiciones preferenciales de salida anticipada"
+            ]
+          },
+          {
+            "label": "Acompañamiento",
+            "items": [
+              "Reporte mensual de avance de obra",
+              "Asesor patrimonial dedicado",
+              "Visita guiada semestral a obra"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plan Patrimonial",
+        "icon": "star",
+        "price": "$5,000,000",
+        "period": "inversión mínima",
+        "description": "Estructura a la medida para portafolios patrimoniales, con participación directa en el comité de proyecto.",
+        "statLabel": "Rendimiento estimado",
+        "statValue": "15.8% anual",
+        "cta": "Contactar dirección patrimonial",
+        "groups": [
+          {
+            "label": "Acceso",
+            "items": [
+              "Participación sin límite de desarrollos activos",
+              "Silla en el comité de seguimiento de proyecto",
+              "Estructura fiscal personalizada"
+            ]
+          },
+          {
+            "label": "Acompañamiento",
+            "items": [
+              "Reporte mensual y sesión de revisión en vivo",
+              "Director patrimonial dedicado",
+              "Acceso anticipado a nuevos desarrollos"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

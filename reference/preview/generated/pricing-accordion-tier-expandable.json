@@ -1,0 +1,63 @@
+{
+  "key": "pricing-accordion-tier-expandable",
+  "pascalName": "PricingAccordionTierExpandable",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-accordion-tier-expandable` | pricing-accordion-tier-expandable — acordeón de precios con un tier por panel · úsalo en pricing de 3-5 planes, priorizando escaneo vertical en móvil sobre comparación en columnas. | { eyebrow, title, description, tiers: [{ name, price, period, summary, highlighted?, features: string[], cta }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un plan para cada etapa de su operación logística",
+    "description": "Compare la cobertura de cada plan y elija el nivel de soporte que corresponde al volumen de envíos de su empresa.",
+    "tiers": [
+      {
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "summary": "Para operaciones con hasta 200 envíos mensuales.",
+        "features": [
+          "Rastreo en tiempo real de hasta 200 envíos",
+          "Cobertura en las 16 alcaldías de la Ciudad de México",
+          "Soporte por correo con respuesta en 24 horas",
+          "1 usuario con acceso al panel de seguimiento",
+          "Reporte mensual de entregas en PDF",
+          "Integración vía API con documentación básica"
+        ],
+        "cta": "Contratar plan Esencial"
+      },
+      {
+        "name": "Profesional",
+        "price": "$11,500",
+        "period": "MXN / mes",
+        "summary": "Para distribuidores con rutas diarias y varios almacenes.",
+        "highlighted": true,
+        "features": [
+          "Rastreo en tiempo real de hasta 1,500 envíos",
+          "Cobertura nacional con 3 centros de distribución",
+          "Soporte telefónico con respuesta en 4 horas",
+          "5 usuarios con roles y permisos por almacén",
+          "Panel de indicadores de tiempos de entrega",
+          "Integración vía API con soporte técnico dedicado",
+          "Notificaciones automáticas por WhatsApp al cliente final",
+          "Gestión de devoluciones incluida"
+        ],
+        "cta": "Contratar plan Profesional"
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "summary": "Para grupos con flota propia y múltiples marcas.",
+        "features": [
+          "Envíos ilimitados con SLA contractual",
+          "Cobertura nacional y transfronteriza",
+          "Gerente de cuenta asignado con línea directa",
+          "Usuarios ilimitados con auditoría de accesos",
+          "Panel de indicadores exportable a su ERP",
+          "Integración vía API con ambiente de pruebas dedicado",
+          "Notificaciones por WhatsApp y correo personalizadas",
+          "Revisión trimestral de rutas y costos logísticos"
+        ],
+        "cta": "Solicitar cotización"
+      }
+    ]
+  }
+}

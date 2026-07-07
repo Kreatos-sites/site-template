@@ -1,0 +1,89 @@
+{
+  "key": "news-release-log-sidebar",
+  "pascalName": "NewsReleaseLogSidebar",
+  "category": "Blog y noticias",
+  "catalogRow": "| `news-release-log-sidebar` | news-release-log-sidebar — changelog de producto con rail lateral fecha/versión y grupos por tipo · úsalo para notas de versión de una plataforma o servicio. | { eyebrow, title, description, releases: [{ version, date, title, groups: [{ type, label, items: [] }] }] } |",
+  "fixture": {
+    "eyebrow": "Novedades de la plataforma",
+    "title": "Registro de actualizaciones",
+    "description": "Consulte los cambios que hemos incorporado a nuestro portal de seguimiento de envíos, ordenados por versión y fecha de publicación.",
+    "releases": [
+      {
+        "version": "v3.4",
+        "date": "3 de julio de 2026",
+        "title": "Rutas multi-parada y alertas de aduana",
+        "groups": [
+          {
+            "type": "added",
+            "label": "Añadido",
+            "items": [
+              "Planificación de rutas con hasta 8 paradas por unidad de reparto.",
+              "Alertas automáticas cuando un embarque queda retenido en aduana.",
+              "Exportación del historial de entregas en formato CSV."
+            ]
+          },
+          {
+            "type": "improved",
+            "label": "Mejorado",
+            "items": [
+              "El mapa de rastreo ahora actualiza la posición cada 30 segundos.",
+              "Los reportes de kilometraje se generan hasta 4 veces más rápido."
+            ]
+          },
+          {
+            "type": "fixed",
+            "label": "Corregido",
+            "items": [
+              "Se corrigió un cálculo erróneo del tiempo estimado de llegada en rutas nocturnas."
+            ]
+          }
+        ]
+      },
+      {
+        "version": "v3.3",
+        "date": "12 de mayo de 2026",
+        "title": "Panel de flota para administradores",
+        "groups": [
+          {
+            "type": "added",
+            "label": "Añadido",
+            "items": [
+              "Nuevo panel de flota con estado en vivo de cada unidad.",
+              "Notificaciones por correo cuando vence la verificación vehicular."
+            ]
+          },
+          {
+            "type": "improved",
+            "label": "Mejorado",
+            "items": [
+              "Se simplificó el flujo de asignación de choferes a rutas.",
+              "El buscador de guías ahora tolera folios incompletos."
+            ]
+          }
+        ]
+      },
+      {
+        "version": "v3.2",
+        "date": "20 de marzo de 2026",
+        "title": "Facturación electrónica integrada",
+        "groups": [
+          {
+            "type": "added",
+            "label": "Añadido",
+            "items": [
+              "Generación de CFDI directamente desde cada orden de envío."
+            ]
+          },
+          {
+            "type": "fixed",
+            "label": "Corregido",
+            "items": [
+              "Se resolvió un error que duplicaba el folio fiscal al reintentar el pago.",
+              "Se corrigió la conversión de peso volumétrico en paquetes irregulares."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

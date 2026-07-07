@@ -1,0 +1,43 @@
+{
+  "key": "product-spotlight-thumbnail-rail",
+  "pascalName": "ProductSpotlightThumbnailRail",
+  "category": "Galerías",
+  "catalogRow": "| `product-spotlight-thumbnail-rail` | product-spotlight-thumbnail-rail — proyecto destacado con imagen principal grande y miniaturas para hojear variantes · úsalo para mostrar un proyecto insignia con sus etapas. | { eyebrow, title, description, frameLabel, badge, mainImage, mainImageAlt, caption, thumbnails: [{ image, imageAlt, label }] } |",
+  "fixture": {
+    "eyebrow": "Proyecto destacado",
+    "title": "Corporativo Cumbres: de la maqueta ejecutiva a obra entregada",
+    "description": "Seguimos el proyecto desde el anteproyecto hasta la entrega de llaves, con visitas de supervisión documentadas en cada etapa para el cliente.",
+    "frameLabel": "Corporativo Cumbres — Torre A",
+    "badge": "Entregado",
+    "mainImage": "/images/hero.svg",
+    "mainImageAlt": "Fachada principal del Corporativo Cumbres al atardecer",
+    "caption": "Vista frontal tras la entrega final: fachada de cristal templado y remate en cantera regional.",
+    "thumbnails": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Maqueta ejecutiva del anteproyecto",
+        "label": "Anteproyecto"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Avance de obra gris de la torre",
+        "label": "Obra gris"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Instalación de fachada de cristal",
+        "label": "Fachada"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vestíbulo principal terminado",
+        "label": "Vestíbulo"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista nocturna del acceso principal",
+        "label": "Acceso nocturno"
+      }
+    ]
+  }
+}

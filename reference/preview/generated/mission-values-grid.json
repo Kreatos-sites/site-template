@@ -1,0 +1,38 @@
+{
+  "key": "mission-values-grid",
+  "pascalName": "MissionValuesGrid",
+  "category": "Nosotros",
+  "catalogRow": "| `mission-values-grid` | mission-values-grid — sección de misión (imagen + relato) y grid de valores corporativos con iconos · úsalo en la página de nosotros para transmitir identidad de la firma. | { eyebrow, title, image, imageAlt, missionBody: [string], values: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra firma",
+    "title": "Construimos certeza jurídica para decisiones de negocio",
+    "image": "/images/about.svg",
+    "imageAlt": "Sala de juntas del despacho durante una revisión de contrato",
+    "missionBody": [
+      "Acompañamos a empresas mexicanas en las decisiones que definen su operación: contratos, cumplimiento regulatorio y estructuras societarias.",
+      "Nuestro trabajo se mide en riesgos evitados y tiempos de cierre, no en horas facturadas. Cada expediente pasa por al menos dos socios antes de salir del despacho."
+    ],
+    "values": [
+      {
+        "icon": "target",
+        "title": "Precisión",
+        "description": "Cada opinión legal se respalda con la normativa vigente y precedentes aplicables al caso concreto."
+      },
+      {
+        "icon": "handshake",
+        "title": "Trato directo",
+        "description": "Usted habla con el socio responsable de su expediente, no con un intermediario."
+      },
+      {
+        "icon": "shield",
+        "title": "Confidencialidad",
+        "description": "Protocolos de manejo documental que resguardan la información sensible de su operación."
+      },
+      {
+        "icon": "compass",
+        "title": "Criterio de negocio",
+        "description": "Evaluamos el impacto comercial de cada recomendación, no solo su validez legal."
+      }
+    ]
+  }
+}

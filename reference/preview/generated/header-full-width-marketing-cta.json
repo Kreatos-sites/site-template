@@ -1,0 +1,22 @@
+{
+  "key": "header-full-width-marketing-cta",
+  "pascalName": "HeaderFullWidthMarketingCta",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-full-width-marketing-cta` | header-full-width-marketing-cta — header de marketing con barra de aviso, nav, CTA secundario y primario, menú móvil nativo · úsalo como cabecera de landing enfocada en conversión. | { announcement, logo, navLabel, menuLabel, links: [{ label, href }], secondaryLabel, secondaryHref, ctaLabel, ctaHref } |",
+  "fixture": {
+    "announcement": "Entregas foráneas en 24 a 48 horas a todo el país",
+    "logo": "Rutas del Bajío",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú de navegación",
+    "links": [
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Cobertura", "href": "#cobertura" },
+      { "label": "Flota", "href": "#flota" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "secondaryLabel": "Rastrear envío",
+    "secondaryHref": "#rastreo",
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#contacto"
+  }
+}

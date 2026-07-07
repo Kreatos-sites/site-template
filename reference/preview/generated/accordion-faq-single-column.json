@@ -1,0 +1,32 @@
+{
+  "key": "accordion-faq-single-column",
+  "pascalName": "AccordionFaqSingleColumn",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `accordion-faq-single-column` | accordion-faq-single-column — acordeón simple de preguntas en una columna centrada · úsalo para resolver dudas directas en sitios con aire visual de sobra, sin sidebar sticky. | { eyebrow, title, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratarnos",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma un proyecto de remodelación de oficina?",
+        "answer": "Depende del alcance. Un rediseño de área común toma entre 3 y 5 semanas; una remodelación integral de piso completo puede llevar de 8 a 12 semanas, incluyendo permisos y acabados."
+      },
+      {
+        "question": "¿Trabajan con el edificio ocupado o necesitamos desalojar?",
+        "answer": "La mayoría de nuestros proyectos corporativos se ejecutan por etapas para que su operación continúe. Coordinamos horarios de obra, rutas de acceso y control de polvo con su equipo antes de iniciar."
+      },
+      {
+        "question": "¿El presupuesto que entregan incluye mobiliario y equipamiento?",
+        "answer": "El presupuesto base cubre obra civil, instalaciones y acabados. Mobiliario y equipamiento especializado se cotizan por separado, aunque los incluimos en el mismo cronograma si usted lo solicita."
+      },
+      {
+        "question": "¿Qué pasa si necesitamos cambios una vez iniciada la obra?",
+        "answer": "Los cambios de alcance se documentan como adenda al contrato original, con impacto en costo y fecha de entrega antes de ejecutarse. Nunca modificamos el proyecto sin su autorización por escrito."
+      },
+      {
+        "question": "¿Ofrecen garantía sobre el trabajo entregado?",
+        "answer": "Sí, cubrimos instalaciones y acabados por doce meses posteriores a la entrega. Cualquier desperfecto atribuible a la obra se repara sin costo dentro de ese periodo."
+      }
+    ]
+  }
+}

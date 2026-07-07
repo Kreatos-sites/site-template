@@ -1,0 +1,22 @@
+{
+  "key": "bordered-conversion-panel-split",
+  "pascalName": "BorderedConversionPanelSplit",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `bordered-conversion-panel-split` | bordered-conversion-panel-split — panel de conversión con marco y doble CTA, franja de referencia y barra de confianza · úsalo para cerrar una landing o página de servicios. | { eyebrow, title, description, primaryCta: { label, href }, secondaryCta: { label, href }, footnote, reference, trustLine } |",
+  "fixture": {
+    "eyebrow": "Siguiente paso",
+    "title": "Agende su diagnóstico fiscal sin costo",
+    "description": "Nuestro equipo revisa su situación fiscal y societaria actual y le entrega, en una sesión de 45 minutos, un plan de acción con los riesgos y oportunidades detectados.",
+    "primaryCta": {
+      "label": "Agendar diagnóstico",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Hablar con un asesor",
+      "href": "/contacto"
+    },
+    "footnote": "Sin costo — respuesta en 24 horas hábiles",
+    "reference": "DF-2026",
+    "trustLine": "Más de 180 empresas mexicanas confían su cumplimiento fiscal a nuestro despacho"
+  }
+}

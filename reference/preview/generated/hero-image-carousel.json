@@ -1,0 +1,18 @@
+{
+  "key": "hero-image-carousel",
+  "pascalName": "HeroImageCarousel",
+  "category": "Heroes",
+  "catalogRow": "| `hero-image-carousel` | hero split con carrusel de fotos en loop (CSS puro) · úsalo para constructoras o inmobiliarias con varios proyectos que mostrar. | { eyebrow, title, subtitle, slides: [{ src, alt }], primaryCta: { label, href }, secondaryCta?: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Constructora Del Valle",
+    "title": "Proyectos que se entregan a tiempo, sin sorpresas en el presupuesto",
+    "subtitle": "Diseñamos y construimos naves industriales, oficinas corporativas y desarrollos residenciales en el Bajío, con control de obra semanal y un solo punto de contacto durante todo el proyecto.",
+    "slides": [
+      { "src": "/images/hero.svg", "alt": "Nave industrial en construcción con estructura metálica a la vista" },
+      { "src": "/images/about.svg", "alt": "Fachada terminada de oficinas corporativas en León, Guanajuato" },
+      { "src": "/images/hero.svg", "alt": "Cuadrilla de obra revisando planos en sitio durante avance de obra" }
+    ],
+    "primaryCta": { "label": "Solicitar cotización", "href": "#contacto" },
+    "secondaryCta": { "label": "Ver proyectos entregados", "href": "#proyectos" }
+  }
+}

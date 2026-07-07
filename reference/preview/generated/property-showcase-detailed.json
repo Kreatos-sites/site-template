@@ -1,0 +1,52 @@
+{
+  "key": "property-showcase-detailed",
+  "pascalName": "PropertyShowcaseDetailed",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-showcase-detailed` | property-showcase-detailed — ficha detallada de un desarrollo inmobiliario · úsalo para presentar a fondo un proyecto arquitectónico específico. | { eyebrow, title, description, heroImage, heroImageAlt, specs: [{ label, value }], visionTitle, visions: [{ icon, title, description }], galleryTitle, gallery: [{ image, imageAlt, caption }], materialsTitle, materials: [{ name, description }], detailImage, detailImageAlt } |",
+  "fixture": {
+    "eyebrow": "Desarrollo residencial",
+    "title": "Residencial Altavista, Torre Norte",
+    "description": "Un conjunto de 24 residencias distribuidas en ocho niveles, orientado para aprovechar la luz natural durante todo el día y las vistas hacia la sierra. El proyecto combina concreto aparente, madera certificada y cancelería de piso a techo.",
+    "heroImage": "/images/hero.svg",
+    "heroImageAlt": "Fachada principal de la Torre Norte al atardecer",
+    "specs": [
+      { "label": "Superficie", "value": "185 m²" },
+      { "label": "Recámaras", "value": "3" },
+      { "label": "Niveles", "value": "8" },
+      { "label": "Entrega", "value": "Q3 2027" }
+    ],
+    "visionTitle": "Principios del proyecto",
+    "visions": [
+      {
+        "icon": "compass",
+        "title": "Orientación solar",
+        "description": "Cada unidad se posicionó tras un estudio de asoleamiento para reducir la carga térmica sin sacrificar iluminación natural en las áreas comunes."
+      },
+      {
+        "icon": "trees",
+        "title": "Integración con el entorno",
+        "description": "Los jardines interiores y las terrazas escalonadas conservan el 40% del predio como área verde permeable."
+      },
+      {
+        "icon": "layers",
+        "title": "Materialidad honesta",
+        "description": "Concreto visto, madera y piedra se dejan expuestos sin recubrimientos que oculten su textura original."
+      }
+    ],
+    "galleryTitle": "Recorrido fotográfico",
+    "gallery": [
+      { "image": "/images/about.svg", "imageAlt": "Vista de la sala principal con doble altura", "caption": "Sala principal, doble altura" },
+      { "image": "/images/about.svg", "imageAlt": "Terraza con vista hacia la sierra", "caption": "Terraza norte" },
+      { "image": "/images/about.svg", "imageAlt": "Cocina integrada con isla de concreto", "caption": "Cocina, isla de concreto" },
+      { "image": "/images/about.svg", "imageAlt": "Vestíbulo de acceso con muro de piedra volcánica", "caption": "Vestíbulo de acceso" }
+    ],
+    "materialsTitle": "Materiales y acabados",
+    "materials": [
+      { "name": "Concreto aparente", "description": "Muros estructurales colados en sitio, con cimbra de triplay para una superficie lisa sin aplanados." },
+      { "name": "Madera de encino certificada", "description": "Duela y carpintería interior con certificación FSC, tratada con aceite natural." },
+      { "name": "Cancelería de aluminio termoacústico", "description": "Vanos de piso a techo con doble acristalamiento para aislamiento térmico y sonoro." }
+    ],
+    "detailImage": "/images/about.svg",
+    "detailImageAlt": "Detalle constructivo del encuentro entre concreto y cancelería"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "key": "footer-grid-bordered-cells-newsletter",
+  "pascalName": "FooterGridBorderedCellsNewsletter",
+  "category": "Footers",
+  "catalogRow": "| `footer-grid-bordered-cells-newsletter` | footer-grid-bordered-cells-newsletter — footer tipo blueprint con cuadrícula de celdas delimitadas por bordes · úsalo para pie de página con newsletter, columnas de enlaces y selector de tema claro/oscuro/sistema. | { brand, description, socials: [{icon, href, label}], newsletter: {title, description, placeholder, buttonLabel}, columns: [{title, links: [{label, href}]}], themeLegend, themeOptions: [{icon, label}], copyright, legalLinks: [{label, href}] } |",
+  "fixture": {
+    "brand": "Ferretería Industrial Domínguez",
+    "description": "Distribuidor mayorista de herramienta, sujetadores y equipo de seguridad industrial para constructoras y talleres del Bajío desde 1988.",
+    "socials": [
+      { "icon": "linkedin", "href": "https://linkedin.com/company/ferreteria-dominguez", "label": "LinkedIn de Ferretería Industrial Domínguez" },
+      { "icon": "facebook", "href": "https://facebook.com/ferreteriadominguez", "label": "Facebook de Ferretería Industrial Domínguez" },
+      { "icon": "email", "href": "mailto:ventas@ferreteriadominguez.mx", "label": "Escribir a ventas@ferreteriadominguez.mx" }
+    ],
+    "newsletter": {
+      "title": "Boletín de inventario y precios",
+      "description": "Reciba mensualmente novedades de catálogo, promociones por volumen y avisos de disponibilidad.",
+      "placeholder": "Su correo corporativo",
+      "buttonLabel": "Suscribirme"
+    },
+    "columns": [
+      {
+        "title": "Catálogo",
+        "links": [
+          { "label": "Herramienta manual", "href": "/catalogo/herramienta-manual" },
+          { "label": "Sujetadores y anclajes", "href": "/catalogo/sujetadores" },
+          { "label": "Equipo de seguridad", "href": "/catalogo/seguridad" },
+          { "label": "Maquinaria ligera", "href": "/catalogo/maquinaria" }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          { "label": "Quiénes somos", "href": "/nosotros" },
+          { "label": "Cobertura y sucursales", "href": "/sucursales" },
+          { "label": "Trabaje con nosotros", "href": "/vacantes" },
+          { "label": "Contacto", "href": "/contacto" }
+        ]
+      }
+    ],
+    "themeLegend": "Preferencia de apariencia",
+    "themeOptions": [
+      { "icon": "light", "label": "Claro" },
+      { "icon": "dark", "label": "Oscuro" },
+      { "icon": "system", "label": "Sistema" }
+    ],
+    "copyright": "© 2026 Ferretería Industrial Domínguez, S.A. de C.V. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/aviso-de-privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "key": "faq-tabs-live-search",
+  "pascalName": "FaqTabsLiveSearch",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-tabs-live-search` | faq-tabs-live-search — FAQ con pestañas por categoría y chips de filtro por tema, 100% CSS · úsalo para páginas de soporte con muchas preguntas agrupadas en temas. | { eyebrow, title, description, allLabel, categories: [{ id, label, icon, tags: [{ id, label }], items: [{ question, answer, tags: string[] }] }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resuelva sus dudas antes de contratar",
+    "description": "Filtre por categoría y por tema para llegar directo a la respuesta que necesita sobre nuestros servicios de logística y distribución.",
+    "allLabel": "Todas",
+    "categories": [
+      {
+        "id": "general",
+        "label": "General",
+        "icon": "question",
+        "tags": [
+          { "id": "cobertura", "label": "Cobertura" },
+          { "id": "contratacion", "label": "Contratación" }
+        ],
+        "items": [
+          {
+            "question": "¿En qué estados de la república operan?",
+            "answer": "Contamos con cobertura directa en el centro y bajío del país, y trabajamos con socios logísticos certificados para llegar al resto del territorio nacional en un plazo de 48 a 72 horas.",
+            "tags": ["cobertura"]
+          },
+          {
+            "question": "¿Cómo doy de alta mi empresa como cliente?",
+            "answer": "El proceso inicia con una llamada de diagnóstico de 20 minutos, seguida del envío de su ficha técnica de embarques. En un plazo máximo de 3 días hábiles le confirmamos tarifas y disponibilidad de rutas.",
+            "tags": ["contratacion"]
+          },
+          {
+            "question": "¿Manejan mercancía que requiere cadena de frío?",
+            "answer": "Sí, disponemos de una flota refrigerada independiente para productos perecederos, con monitoreo de temperatura en tiempo real durante todo el trayecto.",
+            "tags": ["cobertura"]
+          }
+        ]
+      },
+      {
+        "id": "billing",
+        "label": "Facturación",
+        "icon": "wallet",
+        "tags": [
+          { "id": "pagos", "label": "Pagos" },
+          { "id": "cfdi", "label": "CFDI" }
+        ],
+        "items": [
+          {
+            "question": "¿Qué métodos de pago aceptan?",
+            "answer": "Aceptamos transferencia bancaria SPEI y tarjeta corporativa. Para clientes con más de seis meses de antigüedad ofrecemos línea de crédito con pago a 30 días.",
+            "tags": ["pagos"]
+          },
+          {
+            "question": "¿Cuándo recibo mi factura de cada embarque?",
+            "answer": "El CFDI se timbra automáticamente al confirmarse la entrega y se envía a su correo administrativo el mismo día hábil.",
+            "tags": ["cfdi", "pagos"]
+          },
+          {
+            "question": "¿Puedo consolidar varias facturas en un solo pago mensual?",
+            "answer": "Sí, para cuentas con volumen recurrente generamos un estado de cuenta consolidado el último día de cada mes, con un único CFDI de resumen si así lo prefiere.",
+            "tags": ["cfdi", "pagos"]
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "label": "Seguridad",
+        "icon": "shield",
+        "tags": [
+          { "id": "seguro", "label": "Seguro de carga" },
+          { "id": "rastreo", "label": "Rastreo" }
+        ],
+        "items": [
+          {
+            "question": "¿La mercancía viaja asegurada?",
+            "answer": "Toda carga transportada cuenta con póliza de responsabilidad civil y seguro de mercancía por el valor declarado en la orden de embarque.",
+            "tags": ["seguro"]
+          },
+          {
+            "question": "¿Puedo rastrear mi embarque en tiempo real?",
+            "answer": "Sí, cada unidad cuenta con GPS y compartimos un enlace de rastreo en vivo desde que la carga sale de nuestra terminal hasta la entrega final.",
+            "tags": ["rastreo"]
+          },
+          {
+            "question": "¿Qué pasa si hay un siniestro durante el traslado?",
+            "answer": "Activamos el protocolo de reporte en menos de 2 horas y el ajuste con la aseguradora inicia en un plazo no mayor a 5 días hábiles.",
+            "tags": ["seguro", "rastreo"]
+          }
+        ]
+      }
+    ]
+  }
+}

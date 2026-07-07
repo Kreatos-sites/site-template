@@ -1,0 +1,60 @@
+{
+  "key": "team-portraits-grid-hover-details",
+  "pascalName": "TeamPortraitsGridHoverDetails",
+  "category": "Equipo",
+  "catalogRow": "| `team-portraits-grid-hover-details` | team-portraits-grid-hover-details — grilla de retratos del equipo con bio, especialidades y redes ocultas; úsalo para presentar socios o directivos con detalle al pasar el cursor. | { eyebrow, title, members: [{ name, role, bio, expertise: [string], image, imageAlt, socials: [{ icon, href, label }] }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Los socios detrás de cada expediente",
+    "members": [
+      {
+        "name": "Fernanda Aguilar Ríos",
+        "role": "Socia fundadora, Derecho corporativo",
+        "bio": "Encabeza el despacho desde hace catorce años, con enfoque en fusiones, adquisiciones y estructuración societaria para empresas familiares en expansión.",
+        "expertise": ["M&A", "Gobierno corporativo", "Contratos mercantiles"],
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernanda Aguilar Ríos, socia fundadora",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/fernanda-aguilar", "label": "LinkedIn de Fernanda Aguilar" },
+          { "icon": "email", "href": "mailto:fernanda.aguilar@despacho.mx", "label": "Escribir a Fernanda Aguilar" }
+        ]
+      },
+      {
+        "name": "Rodrigo Espinosa Del Toro",
+        "role": "Socio, Litigio comercial",
+        "bio": "Representa a clientes industriales en controversias mercantiles y arbitrajes, con particular experiencia en disputas de proveeduría y cadena de suministro.",
+        "expertise": ["Arbitraje", "Litigio mercantil", "Cobranza judicial"],
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Rodrigo Espinosa Del Toro, socio de litigio comercial",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/rodrigo-espinosa", "label": "LinkedIn de Rodrigo Espinosa" },
+          { "icon": "website", "href": "https://despacho.mx/equipo/rodrigo-espinosa", "label": "Perfil de Rodrigo Espinosa" }
+        ]
+      },
+      {
+        "name": "Camila Torres Ibarra",
+        "role": "Asociada senior, Derecho laboral",
+        "bio": "Asesora a empresas manufactureras en cumplimiento laboral, auditorías de nómina y negociación colectiva ante autoridades del trabajo.",
+        "expertise": ["Cumplimiento laboral", "Negociación colectiva", "Auditorías"],
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Camila Torres Ibarra, asociada senior de derecho laboral",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/camila-torres", "label": "LinkedIn de Camila Torres" },
+          { "icon": "email", "href": "mailto:camila.torres@despacho.mx", "label": "Escribir a Camila Torres" }
+        ]
+      },
+      {
+        "name": "Diego Salazar Mendoza",
+        "role": "Asociado, Derecho fiscal",
+        "bio": "Diseña estrategias de planeación fiscal y acompaña a clientes en revisiones y controversias ante el SAT, con foco en el sector logístico.",
+        "expertise": ["Planeación fiscal", "Defensa ante el SAT", "Precios de transferencia"],
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diego Salazar Mendoza, asociado de derecho fiscal",
+        "socials": [
+          { "icon": "linkedin", "href": "https://linkedin.com/in/diego-salazar", "label": "LinkedIn de Diego Salazar" },
+          { "icon": "twitter", "href": "https://twitter.com/diegosalazarmx", "label": "Twitter de Diego Salazar" }
+        ]
+      }
+    ]
+  }
+}

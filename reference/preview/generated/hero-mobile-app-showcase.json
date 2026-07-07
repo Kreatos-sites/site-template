@@ -1,0 +1,38 @@
+{
+  "key": "hero-mobile-app-showcase",
+  "pascalName": "HeroMobileAppShowcase",
+  "category": "Heroes",
+  "catalogRow": "| `hero-mobile-app-showcase` | hero-mobile-app-showcase — hero split con mockup a la derecha y stats con icono · úsalo para promover la descarga de una app móvil corporativa. | { eyebrow, title, subtitle, ctaPrimary: {label, href}, ctaSecondary: {label, href}, stats: [{icon, value, label}], image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "App de rastreo Rutas Bajío",
+    "title": "Su envío, visible en tiempo real desde el celular",
+    "subtitle": "Consulte el estatus de cada embarque, reciba notificaciones de entrega y descargue su documentación sin llamar a servicio al cliente.",
+    "ctaPrimary": {
+      "label": "Descargar la app",
+      "href": "#descargar"
+    },
+    "ctaSecondary": {
+      "label": "Ver cómo funciona",
+      "href": "#demo"
+    },
+    "stats": [
+      {
+        "icon": "star",
+        "value": "4.8/5",
+        "label": "Calificación en tiendas"
+      },
+      {
+        "icon": "users",
+        "value": "+3,200",
+        "label": "Clientes activos"
+      },
+      {
+        "icon": "download",
+        "value": "+18,000",
+        "label": "Descargas acumuladas"
+      }
+    ],
+    "image": "/images/hero.svg",
+    "imageAlt": "Aplicación móvil de Rutas Bajío mostrando el rastreo de un envío"
+  }
+}

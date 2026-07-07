@@ -1,0 +1,37 @@
+{
+  "key": "process-sidebar-rail-steps",
+  "pascalName": "ProcessSidebarRailSteps",
+  "category": "Proceso",
+  "catalogRow": "| `process-sidebar-rail-steps` | process-sidebar-rail-steps — línea de tiempo vertical con rail de iconos y línea conectora · úsalo para explicar el proceso de trabajo paso a paso. | { eyebrow, title, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro, de la primera llamada a la entrega",
+    "steps": [
+      {
+        "icon": "search",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su situación actual, expedientes y objetivos de negocio para identificar los puntos que requieren atención inmediata."
+      },
+      {
+        "icon": "compass",
+        "title": "Estrategia a la medida",
+        "description": "Definimos junto con usted el plan de acción, los plazos y los responsables de cada etapa del proyecto."
+      },
+      {
+        "icon": "handshake",
+        "title": "Acuerdo y arranque",
+        "description": "Formalizamos alcance, honorarios y entregables en un documento único antes de iniciar cualquier trabajo."
+      },
+      {
+        "icon": "hammer",
+        "title": "Ejecución y seguimiento",
+        "description": "Nuestro equipo avanza en las tareas acordadas y le comparte reportes de avance en cada corte establecido."
+      },
+      {
+        "icon": "rocket",
+        "title": "Entrega y cierre",
+        "description": "Presentamos resultados, documentación final y recomendaciones para el siguiente periodo de la relación."
+      }
+    ]
+  }
+}

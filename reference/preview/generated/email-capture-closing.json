@@ -1,0 +1,16 @@
+{
+  "key": "email-capture-closing",
+  "pascalName": "EmailCaptureClosing",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `email-capture-closing` | email-capture-closing — CTA final centrado con captura de correo y aviso legal · úsalo como último bloque antes del footer para convertir la visita en un lead calificado. | { eyebrow, title, description, formAction, inputLabel, inputPlaceholder, cta, legal } |",
+  "fixture": {
+    "eyebrow": "Da el siguiente paso",
+    "title": "Reciba nuestro diagnóstico de cumplimiento fiscal sin costo",
+    "description": "Déjenos su correo y le enviamos una revisión inicial de su situación fiscal en menos de 48 horas, sin compromiso.",
+    "formAction": "#contacto",
+    "inputLabel": "Correo electrónico",
+    "inputPlaceholder": "su.correo@empresa.com",
+    "cta": "Solicitar diagnóstico",
+    "legal": "Al enviar su correo acepta nuestro aviso de privacidad. No compartimos su información con terceros."
+  }
+}

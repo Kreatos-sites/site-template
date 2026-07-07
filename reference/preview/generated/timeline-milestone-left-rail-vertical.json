@@ -1,0 +1,60 @@
+{
+  "key": "timeline-milestone-left-rail-vertical",
+  "pascalName": "TimelineMilestoneLeftRailVertical",
+  "category": "Heroes",
+  "catalogRow": "| `timeline-milestone-left-rail-vertical` | timeline-milestone-left-rail-vertical — timeline vertical de riel izquierdo con nodos de icono y badge de estatus · úsalo para mostrar la trayectoria o los hitos de la empresa. | { eyebrow, title, description, statusLabels: { completado, en-progreso, planeado }, milestones: [{ icon, date, status, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra trayectoria",
+    "title": "De despacho local a firma con presencia nacional",
+    "description": "Un recorrido por las decisiones que definieron cómo trabajamos y a quién atendemos.",
+    "statusLabels": {
+      "completado": "Completado",
+      "en-progreso": "En progreso",
+      "planeado": "Planeado"
+    },
+    "milestones": [
+      {
+        "icon": "flag",
+        "date": "2014",
+        "status": "completado",
+        "title": "Fundación del despacho",
+        "description": "Iniciamos con dos socios y una cartera de ocho clientes en Monterrey, enfocados en derecho corporativo y fiscal."
+      },
+      {
+        "icon": "building",
+        "date": "2017",
+        "status": "completado",
+        "title": "Apertura de oficina en CDMX",
+        "description": "La demanda de clientes con operaciones federales nos llevó a abrir nuestra segunda sede en la Ciudad de México."
+      },
+      {
+        "icon": "team",
+        "date": "2019",
+        "status": "completado",
+        "title": "Integración del área de litigio",
+        "description": "Formamos un equipo dedicado a controversias mercantiles y laborales, hoy con doce abogados de planta."
+      },
+      {
+        "icon": "award",
+        "date": "2022",
+        "status": "completado",
+        "title": "Certificación ISO en gestión de calidad",
+        "description": "Formalizamos nuestros procesos internos de atención y confidencialidad bajo la norma ISO 9001:2015."
+      },
+      {
+        "icon": "rocket",
+        "date": "2025",
+        "status": "en-progreso",
+        "title": "Plataforma de seguimiento de casos",
+        "description": "Desarrollamos un portal para que los clientes consulten el avance de sus expedientes en tiempo real."
+      },
+      {
+        "icon": "global",
+        "date": "2027",
+        "status": "planeado",
+        "title": "Alianza con despachos en Estados Unidos",
+        "description": "Buscamos formalizar convenios de referencia para atender operaciones transfronterizas de nuestros clientes."
+      }
+    ]
+  }
+}

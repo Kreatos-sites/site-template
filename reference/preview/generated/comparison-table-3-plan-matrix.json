@@ -1,0 +1,67 @@
+{
+  "key": "comparison-table-3-plan-matrix",
+  "pascalName": "ComparisonTable3PlanMatrix",
+  "category": "Features y servicios",
+  "catalogRow": "| `comparison-table-3-plan-matrix` | comparison-table-3-plan-matrix — matriz comparativa de 3 planes con columna destacada · úsalo para comparar paquetes de precios o servicios. | { eyebrow, title, description?, featureColumnLabel, highlightedLabel, plans: [{ name, price, period?, highlighted?, cta, href }] (3), rows: [{ feature, values: (boolean/string)[] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Compare nuestros paquetes de contabilidad y elija el que se ajuste a su despacho",
+    "description": "Las tres opciones incluyen soporte en español y entregas puntuales; la diferencia está en el alcance y el acompañamiento mensual.",
+    "featureColumnLabel": "Característica",
+    "highlightedLabel": "Más contratado",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "cta": "Empezar",
+        "href": "/contacto?plan=esencial"
+      },
+      {
+        "name": "Profesional",
+        "price": "$8,900",
+        "period": "MXN / mes",
+        "highlighted": true,
+        "cta": "Solicitar información",
+        "href": "/contacto?plan=profesional"
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "cta": "Agendar llamada",
+        "href": "/contacto?plan=corporativo"
+      }
+    ],
+    "rows": [
+      {
+        "feature": "Declaraciones mensuales de impuestos",
+        "values": [true, true, true]
+      },
+      {
+        "feature": "Conciliación bancaria",
+        "values": [true, true, true]
+      },
+      {
+        "feature": "Nómina y prestaciones",
+        "values": [false, true, true]
+      },
+      {
+        "feature": "Reunión de revisión financiera",
+        "values": ["Trimestral", "Mensual", "Quincenal"]
+      },
+      {
+        "feature": "Contador dedicado a su cuenta",
+        "values": [false, true, true]
+      },
+      {
+        "feature": "Auditoría preventiva anual",
+        "values": [false, false, true]
+      },
+      {
+        "feature": "Tiempo de respuesta a dudas",
+        "values": ["48 horas", "24 horas", "Mismo día"]
+      }
+    ]
+  }
+}

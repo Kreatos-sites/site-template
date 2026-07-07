@@ -1,0 +1,27 @@
+{
+  "key": "narrative-staggered-photos",
+  "pascalName": "NarrativeStaggeredPhotos",
+  "category": "Nosotros",
+  "catalogRow": "| `narrative-staggered-photos` | narrative-staggered-photos — bloque de historia con prosa, estadísticas y galería fotográfica escalonada de 4 imágenes · úsalo para contar la trayectoria de la empresa. | { eyebrow, title, paragraphs: string[], stats: [{ value, label }], imagePrimary, imagePrimaryAlt, imageSecondary, imageSecondaryAlt, imageTertiary, imageTertiaryAlt, imageQuaternary, imageQuaternaryAlt } |",
+  "fixture": {
+    "eyebrow": "Nuestra historia",
+    "title": "Tres generaciones construyendo espacios que perduran",
+    "paragraphs": [
+      "Fundamos este despacho en 1987 con un solo compromiso: entregar cada obra con la misma seriedad con la que firmamos un contrato. Esa disciplina no ha cambiado en casi cuarenta años.",
+      "Hoy dirigimos proyectos de vivienda, industria y remodelación integral en el centro del país, con un equipo propio de arquitectos, ingenieros y maestros de obra que supervisan cada etapa de principio a fin.",
+      "No subcontratamos la responsabilidad. Cada cliente tiene un solo interlocutor durante todo el proyecto, desde el levantamiento inicial hasta la entrega de llaves."
+    ],
+    "stats": [
+      { "value": "38", "label": "Años de operación" },
+      { "value": "410+", "label": "Proyectos entregados" }
+    ],
+    "imagePrimary": "/images/about.svg",
+    "imagePrimaryAlt": "Equipo de arquitectos revisando planos en obra",
+    "imageSecondary": "/images/hero.svg",
+    "imageSecondaryAlt": "Fachada terminada de proyecto residencial",
+    "imageTertiary": "/images/about.svg",
+    "imageTertiaryAlt": "Detalle de acabados en interior",
+    "imageQuaternary": "/images/hero.svg",
+    "imageQuaternaryAlt": "Maestro de obra supervisando estructura"
+  }
+}

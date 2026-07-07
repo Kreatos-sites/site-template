@@ -1,0 +1,16 @@
+{
+  "key": "testimonial-spotlight-centered",
+  "pascalName": "TestimonialSpotlightCentered",
+  "category": "Heroes",
+  "catalogRow": "| `testimonial-spotlight-centered` | testimonial-spotlight-centered — testimonio único y centrado con cita destacada, avatar y logo · úsalo para reforzar confianza con la voz de un cliente clave. | { eyebrow, quote, name, role, avatar, avatarAlt, companyLogo, companyLogoAlt } |",
+  "fixture": {
+    "eyebrow": "Lo que dicen nuestros clientes",
+    "quote": "Desde que trabajamos con el despacho, redujimos el tiempo de cierre contable de tres semanas a cinco días. La claridad con la que explican cada decisión fiscal nos permitió tomar mejores decisiones de inversión este año.",
+    "name": "Rodrigo Villaseñor",
+    "role": "Director de Finanzas, Grupo Industrial Altamira",
+    "avatar": "/images/about.svg",
+    "avatarAlt": "Retrato de Rodrigo Villaseñor, Director de Finanzas de Grupo Industrial Altamira",
+    "companyLogo": "/images/hero.svg",
+    "companyLogoAlt": "Logotipo de Grupo Industrial Altamira"
+  }
+}

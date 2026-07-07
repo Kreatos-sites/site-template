@@ -1,0 +1,63 @@
+{
+  "key": "feature-carousel-slides",
+  "pascalName": "FeatureCarouselSlides",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-carousel-slides` | feature-carousel-slides — carrusel horizontal de tarjetas con icono, imagen y descripción · úsalo para exhibir varias capacidades o servicios logísticos por slide. | { eyebrow, title, intro, navLabel, goToSlide, slides: [{ id, icon, title, description, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Capacidades de operación",
+    "title": "Cada etapa de su cadena de suministro, cubierta",
+    "intro": "Coordinamos transporte, almacenaje y última milla desde un mismo centro de control, con visibilidad en tiempo real para su equipo.",
+    "navLabel": "Navegación del carrusel de capacidades",
+    "goToSlide": "Ir a la capacidad {number}",
+    "slides": [
+      {
+        "id": "slide-ruta",
+        "icon": "route",
+        "title": "Planeación de rutas",
+        "description": "Diseñamos rutas óptimas por zona y ventana de entrega, reduciendo kilómetros muertos y tiempos de espera en cada unidad.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Mapa de rutas de distribución con puntos de entrega marcados"
+      },
+      {
+        "id": "slide-almacen",
+        "icon": "warehouse",
+        "title": "Almacenaje y cross-docking",
+        "description": "Recibimos, clasificamos y despachamos su inventario en centros estratégicos, con trazabilidad de cada tarima.",
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de bodega con tarimas organizadas para distribución"
+      },
+      {
+        "id": "slide-flota",
+        "icon": "truck",
+        "title": "Flota propia y monitoreada",
+        "description": "Unidades con GPS y mantenimiento preventivo programado, listas para cargas de temperatura controlada o carga seca.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Camión de reparto en patio de carga al amanecer"
+      },
+      {
+        "id": "slide-visibilidad",
+        "icon": "gauge",
+        "title": "Visibilidad en tiempo real",
+        "description": "Su equipo consulta el estatus de cada embarque desde un panel único, sin llamadas ni correos de seguimiento.",
+        "image": "/images/about.svg",
+        "imageAlt": "Panel de control mostrando el estatus de embarques activos"
+      },
+      {
+        "id": "slide-ultima-milla",
+        "icon": "compass",
+        "title": "Última milla",
+        "description": "Entregamos directo al destino final con confirmación fotográfica y firma digital en cada parada.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Repartidor entregando un paquete en la puerta de un negocio"
+      },
+      {
+        "id": "slide-consolidacion",
+        "icon": "boxes",
+        "title": "Consolidación de carga",
+        "description": "Agrupamos embarques de distintos clientes en la misma ruta para bajar su costo por unidad sin sacrificar tiempos.",
+        "image": "/images/about.svg",
+        "imageAlt": "Cajas y paquetes consolidados listos para embarque"
+      }
+    ]
+  }
+}

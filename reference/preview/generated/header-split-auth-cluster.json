@@ -1,0 +1,21 @@
+{
+  "key": "header-split-auth-cluster",
+  "pascalName": "HeaderSplitAuthCluster",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-split-auth-cluster` | header-split-auth-cluster — header minimalista con marca sola y cluster de auth (login + CTA) en pastilla a la derecha · úsalo para SaaS o portales con inicio de sesión. | { logo, navLabel, menuLabel, loginLabel, loginHref, ctaLabel, ctaHref, links: [{ label, href }] } |",
+  "fixture": {
+    "logo": "Rutas del Bajío",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "loginLabel": "Portal de clientes",
+    "loginHref": "#portal",
+    "ctaLabel": "Cotizar envío",
+    "ctaHref": "#contacto",
+    "links": [
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Cobertura", "href": "#cobertura" },
+      { "label": "Flotilla", "href": "#flotilla" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

@@ -105,12 +105,15 @@ const { t, register, onSubmit, isSubmitting, errors, errorId, errorText, ariaPro
 
 ## `reference/` — corpus de inspiración (NO se monta)
 
-`reference/sections/` (15 arquetipos de sección) y `reference/blocks/` (52
-bloques) son un CORPUS de patrones probados: léelos para robar composición,
-estructura y técnica, y luego DIVERGE hacia algo propio del cliente. **Nunca los
-importes ni los montes** (no compilan; no están en el registry). Copiar uno
-verbatim a `components/custom/` es reúso disfrazado y traiciona el objetivo —
-cada sección debe ser única.
+`reference/sections/` (15 arquetipos de sección) y `reference/blocks/` (240+
+bloques, **agrupados por familia en `reference/blocks/catalog.md`** — heroes,
+features, precios, galerías, reseñas, proceso, contacto, footers, catálogo,
+hospitality, portafolio, etc.) son un CORPUS de patrones probados: ójealos por
+familia para robar composición, estructura y técnica, y luego DIVERGE hacia algo
+propio del cliente. **Nunca los importes ni los montes** (no compilan como set;
+no están en ningún registry). Copiar uno verbatim a `components/custom/` es reúso
+disfrazado y traiciona el objetivo — cada sección debe ser única. Usan tokens del
+theme (color y `--radius`) e iconos de lucide/phosphor/remix/hugeicons.
 
 ## Config mínimo que COMPILA (cópialo y rellena — no adivines el schema)
 
@@ -222,8 +225,13 @@ Cada `components/custom/<nombre>.tsx`:
   interiores; el resto h2/h3), `alt` en imágenes, focus visible, contraste AA.
 - **Anclas estables**: si el header linkea a `/#contacto`, la sección de contacto
   DEBE tener `id="contacto"`. Los anclajes cross-página van como `/#seccion`.
-- Disponibles: `components/ui/` (shadcn) e iconos de `lucide-react`. **Sin
-  dependencias nuevas.**
+- Disponibles: `components/ui/` (shadcn) y **cuatro librerías de iconos** (elige
+  la que mejor calce; puedes mezclar entre secciones para variedad visual):
+  - `lucide-react` → `import { Truck } from "lucide-react"` · `<Truck className="size-5" />`
+  - `@phosphor-icons/react` → `import { TruckIcon } from "@phosphor-icons/react"` · `<TruckIcon className="size-5" />`
+  - `@remixicon/react` → `import { RiTruckLine } from "@remixicon/react"` · `<RiTruckLine className="size-5" />`
+  - `@hugeicons/react` (free) → `import { HugeiconsIcon } from "@hugeicons/react"` + `import { Truck01Icon } from "@hugeicons/core-free-icons"` · `<HugeiconsIcon icon={Truck01Icon} className="size-5" />`
+  **Sin OTRAS dependencias nuevas.**
 - `components/custom/credentials-band.tsx` es el patrón canónico de estilo:
   ábrelo UNA vez si necesitas el molde de imports/props.
 

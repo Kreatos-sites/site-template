@@ -1,0 +1,105 @@
+{
+  "key": "menu-category-sections",
+  "pascalName": "MenuCategorySections",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-category-sections` | menu-category-sections — carta de menú por categorías con navegación por anclas e imagen hero · úsalo para restaurantes, catering y hoteles con cartas extensas. | { eyebrow, title, description, navLabel, categories: [{ id, name, image, imageAlt, description, items: [{ name, description, price }] }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra carta",
+    "title": "Un menú organizado por temporada y origen",
+    "description": "Cada categoría reúne los platillos que preparamos con productores locales, agrupados para que su elección sea clara desde la entrada hasta el postre.",
+    "navLabel": "Categorías del menú",
+    "categories": [
+      {
+        "id": "entradas",
+        "name": "Entradas",
+        "image": "/images/hero.svg",
+        "imageAlt": "Entradas de temporada servidas en mesa de mantel blanco",
+        "description": "Preparaciones ligeras pensadas para abrir el apetito, con vegetales de temporada y fondos elaborados en casa.",
+        "items": [
+          {
+            "name": "Tostada de atún aleta amarilla",
+            "description": "Atún sellado, aguacate, chile serrano y aceite de cilantro sobre tostada artesanal.",
+            "price": "$185 MXN"
+          },
+          {
+            "name": "Crema de flor de calabaza",
+            "description": "Elote tierno, epazote y queso panela ahumado en casa.",
+            "price": "$145 MXN"
+          },
+          {
+            "name": "Ensalada de betabel asado",
+            "description": "Queso de cabra, nueces garapiñadas y vinagreta de mandarina.",
+            "price": "$160 MXN"
+          }
+        ]
+      },
+      {
+        "id": "platos-fuertes",
+        "name": "Platos fuertes",
+        "image": "/images/about.svg",
+        "imageAlt": "Corte de carne servido con guarnición de vegetales asados",
+        "description": "El corazón de la carta: cortes y pescados de proveedores certificados, cocinados a la parrilla o al horno de leña.",
+        "items": [
+          {
+            "name": "Rib eye de 350 g",
+            "description": "Madurado 21 días, puré de papa trufado y jugo de res reducido.",
+            "price": "$620 MXN"
+          },
+          {
+            "name": "Robalo al horno de leña",
+            "description": "Costra de hierbas, risotto de poro y salsa de mantequilla al limón.",
+            "price": "$495 MXN"
+          },
+          {
+            "name": "Short rib braseado 8 horas",
+            "description": "Puré de camote, col morada encurtida y jus de vino tinto.",
+            "price": "$460 MXN"
+          }
+        ]
+      },
+      {
+        "id": "postres",
+        "name": "Postres",
+        "image": "/images/hero.svg",
+        "imageAlt": "Postre de chocolate servido en plato de cerámica",
+        "description": "Cierre dulce elaborado por nuestra pastelería, con ingredientes de productores mexicanos.",
+        "items": [
+          {
+            "name": "Tarta de chocolate de Tabasco",
+            "description": "Ganache al 70%, sal de mar y helado de vainilla de Papantla.",
+            "price": "$135 MXN"
+          },
+          {
+            "name": "Flan de queso y naranja",
+            "description": "Caramelo de piloncillo y ralladura de naranja fresca.",
+            "price": "$115 MXN"
+          }
+        ]
+      },
+      {
+        "id": "bebidas",
+        "name": "Bebidas",
+        "image": "/images/about.svg",
+        "imageAlt": "Copa de vino y cóctel servidos en barra de madera",
+        "description": "Carta de vinos nacionales, cócteles de autor y bebidas sin alcohol preparadas en barra.",
+        "items": [
+          {
+            "name": "Copa de tinto Valle de Guadalupe",
+            "description": "Mezcla de nebbiolo y tempranillo, cosecha reciente.",
+            "price": "$165 MXN"
+          },
+          {
+            "name": "Margarita de maracuyá",
+            "description": "Tequila reposado, maracuyá natural y sal de chile piquín.",
+            "price": "$150 MXN"
+          },
+          {
+            "name": "Agua fresca de temporada",
+            "description": "Fruta de mercado, sin azúcar añadida.",
+            "price": "$65 MXN"
+          }
+        ]
+      }
+    ]
+  }
+}

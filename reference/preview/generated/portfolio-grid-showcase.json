@@ -1,0 +1,62 @@
+{
+  "key": "portfolio-grid-showcase",
+  "pascalName": "PortfolioGridShowcase",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-grid-showcase` | portfolio-grid-showcase — cuadrícula de proyectos con categoría, ubicación y año · úsalo para exhibir el portafolio de obra de una constructora o despacho de arquitectura. | { eyebrow, title, description, categories: [string], projects: [{ image, imageAlt, title, category, location, year }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos que hablan por sí solos",
+    "description": "Una selección de desarrollos residenciales, comerciales e industriales que hemos entregado en los últimos años, cada uno con su propio reto de sitio, plazo y presupuesto.",
+    "categories": ["Residencial", "Comercial", "Industrial"],
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de conjunto residencial de tres niveles con balcones",
+        "title": "Conjunto Residencial Altavista",
+        "category": "Residencial",
+        "location": "Monterrey, N.L.",
+        "year": "2025"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de oficinas corporativas con doble altura",
+        "title": "Torre Corporativa Cumbres",
+        "category": "Comercial",
+        "location": "Monterrey, N.L.",
+        "year": "2024"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial con estructura metálica expuesta",
+        "title": "Nave Logística Apodaca",
+        "category": "Industrial",
+        "location": "Apodaca, N.L.",
+        "year": "2024"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Plaza comercial con fachada de cristal iluminada de noche",
+        "title": "Plaza Comercial Valle Sur",
+        "category": "Comercial",
+        "location": "San Pedro Garza García, N.L.",
+        "year": "2023"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Casas en hilera con jardines frontales",
+        "title": "Fraccionamiento Los Encinos",
+        "category": "Residencial",
+        "location": "García, N.L.",
+        "year": "2023"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Centro de distribución con andenes de carga",
+        "title": "Centro de Distribución Escobedo",
+        "category": "Industrial",
+        "location": "Escobedo, N.L.",
+        "year": "2022"
+      }
+    ]
+  }
+}

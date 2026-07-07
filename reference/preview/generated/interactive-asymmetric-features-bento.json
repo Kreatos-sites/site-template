@@ -1,0 +1,47 @@
+{
+  "key": "interactive-asymmetric-features-bento",
+  "pascalName": "InteractiveAsymmetricFeaturesBento",
+  "category": "Features y servicios",
+  "catalogRow": "| `interactive-asymmetric-features-bento` | interactive-asymmetric-features-bento — bento asimétrico con celda insignia expandida y satélites con hover · úsalo para destacar 5 capacidades o servicios con jerarquía visual. | { eyebrow, title, features: [{ icon, title, description, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Operación logística",
+    "title": "Cada envío, bajo control desde que sale del almacén",
+    "features": [
+      {
+        "icon": "route",
+        "title": "Rastreo en tiempo real",
+        "description": "Consulte la ubicación y el estatus de cada unidad desde un solo panel, con alertas automáticas ante cualquier desviación de ruta.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Panel de rastreo de flota en tiempo real"
+      },
+      {
+        "icon": "truck",
+        "title": "Flota propia",
+        "description": "Unidades con mantenimiento certificado y choferes capacitados, sin subcontratar terceros en ninguna etapa de la ruta.",
+        "image": "/images/about.svg",
+        "imageAlt": "Unidad de la flota propia en patio de carga"
+      },
+      {
+        "icon": "package",
+        "title": "Almacenaje certificado",
+        "description": "Bodegas con control de temperatura y trazabilidad por lote, listas para recibir carga industrial y de consumo.",
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de bodega con estanterías certificadas"
+      },
+      {
+        "icon": "globe",
+        "title": "Cobertura nacional",
+        "description": "Presencia en 28 estados con tiempos de tránsito garantizados por corredor.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Mapa de cobertura nacional de rutas"
+      },
+      {
+        "icon": "headset",
+        "title": "Atención personalizada",
+        "description": "Un ejecutivo asignado a su cuenta, disponible para resolver incidencias durante todo el tránsito de su carga.",
+        "image": "/images/about.svg",
+        "imageAlt": "Ejecutivo de cuenta atendiendo a un cliente"
+      }
+    ]
+  }
+}

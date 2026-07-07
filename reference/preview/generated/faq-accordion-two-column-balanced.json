@@ -1,0 +1,37 @@
+{
+  "key": "faq-accordion-two-column-balanced",
+  "pascalName": "FaqAccordionTwoColumnBalanced",
+  "category": "Heroes",
+  "catalogRow": "| `faq-accordion-two-column-balanced` | faq-accordion-two-column-balanced — FAQ en dos columnas con acordeones nativos separados por línea · úsalo para listas largas de preguntas frecuentes. | { eyebrow, title, description?, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resolvemos sus dudas antes de comenzar",
+    "description": "Reunimos las preguntas que más nos hacen los despachos y áreas legales antes de contratar nuestro servicio de gestión documental.",
+    "items": [
+      {
+        "question": "¿Cómo protegen la confidencialidad de los expedientes?",
+        "answer": "Cada expediente se resguarda con cifrado en tránsito y en reposo, control de acceso por rol y bitácora de consultas. Solo el personal asignado a su cuenta puede abrir los documentos."
+      },
+      {
+        "question": "¿Qué pasa si necesito un documento fuera de horario?",
+        "answer": "El portal está disponible las 24 horas para consulta y descarga. Si requiere una gestión que implique a un asesor, la solicitud queda en cola y se atiende al inicio del siguiente día hábil."
+      },
+      {
+        "question": "¿Pueden integrar el sistema con nuestro gestor documental actual?",
+        "answer": "Sí. Trabajamos con conectores para los gestores más usados en despachos mexicanos y, si el suyo no está en la lista, evaluamos una integración a la medida durante el diagnóstico inicial."
+      },
+      {
+        "question": "¿Cuánto tiempo toma la migración de expedientes existentes?",
+        "answer": "Depende del volumen. Una migración de hasta cinco mil expedientes suele completarse entre tres y cinco semanas, con validaciones parciales para que su equipo revise el avance."
+      },
+      {
+        "question": "¿Ofrecen capacitación para el equipo interno?",
+        "answer": "Incluimos una sesión de capacitación por área al inicio del contrato y material de referencia en video. Las dudas posteriores se atienden por su ejecutivo asignado sin costo adicional."
+      },
+      {
+        "question": "¿Qué sucede si cancelamos el servicio?",
+        "answer": "Entregamos una copia completa de sus expedientes en el formato que prefiera y mantenemos acceso de solo lectura durante treinta días para que complete cualquier descarga pendiente."
+      }
+    ]
+  }
+}

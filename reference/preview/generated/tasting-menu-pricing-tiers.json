@@ -1,0 +1,56 @@
+{
+  "key": "tasting-menu-pricing-tiers",
+  "pascalName": "TastingMenuPricingTiers",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `tasting-menu-pricing-tiers` | tasting-menu-pricing-tiers — tarjetas comparativas de paquetes de degustación con precio y tiempos incluidos · úsalo para restaurantes con niveles de menú a elegir. | { eyebrow, title, description?, tiers: [{ name, price, period?, highlighted?, badge?, features: string[], cta, href }] } |",
+  "fixture": {
+    "eyebrow": "Menú de temporada",
+    "title": "Elija su experiencia de degustación",
+    "description": "Tres recorridos de cocina de temporada, pensados para compartir, celebrar o simplemente sentarse a la mesa sin prisa.",
+    "tiers": [
+      {
+        "name": "Recorrido Esencial",
+        "price": "$890",
+        "period": "por persona",
+        "features": [
+          "5 tiempos de temporada",
+          "Pan de casa y mantequilla ahumada",
+          "Maridaje sugerido de vinos mexicanos (opcional)",
+          "Duración aproximada de 1 hora 45 minutos"
+        ],
+        "cta": "Reservar recorrido esencial",
+        "href": "/reservaciones"
+      },
+      {
+        "name": "Recorrido de Chef",
+        "price": "$1,350",
+        "period": "por persona",
+        "highlighted": true,
+        "badge": "Más solicitado",
+        "features": [
+          "8 tiempos con ingredientes de productores locales",
+          "Presentación en mesa a cargo del chef",
+          "Maridaje de vinos incluido",
+          "Pan de casa y petit fours de cierre",
+          "Duración aproximada de 2 horas 30 minutos"
+        ],
+        "cta": "Reservar recorrido de chef",
+        "href": "/reservaciones"
+      },
+      {
+        "name": "Mesa del Chef",
+        "price": "$2,100",
+        "period": "por persona",
+        "features": [
+          "10 tiempos con piezas de cosecha propia",
+          "Ubicación frente a la cocina abierta",
+          "Maridaje de autor con etiquetas limitadas",
+          "Conversación con el chef durante el servicio",
+          "Cupo máximo de 6 comensales por noche"
+        ],
+        "cta": "Reservar mesa del chef",
+        "href": "/reservaciones"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "key": "faq-accordion-two-column-bordered",
+  "pascalName": "FaqAccordionTwoColumnBordered",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-accordion-two-column-bordered` | faq-accordion-two-column-bordered — FAQ en dos columnas con acordeón nativo · úsalo para secciones con muchas preguntas frecuentes de despachos o constructoras. | { eyebrow, title, description, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratarnos, resolvemos sus dudas",
+    "description": "Reunimos las preguntas que más nos hacen clientes que están por iniciar un proyecto de construcción o remodelación con nosotros.",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma un presupuesto detallado?",
+        "answer": "Entre 5 y 7 días hábiles, dependiendo de la complejidad del proyecto y de si requiere visita técnica al sitio."
+      },
+      {
+        "question": "¿Manejan permisos y trámites municipales?",
+        "answer": "Sí. Gestionamos licencias de construcción, dictámenes estructurales y demás trámites ante las autoridades correspondientes."
+      },
+      {
+        "question": "¿Ofrecen garantía sobre la obra terminada?",
+        "answer": "Toda obra entregada cuenta con garantía de 12 meses sobre estructura y acabados, documentada en el contrato de servicio."
+      },
+      {
+        "question": "¿Puedo dar seguimiento al avance en obra?",
+        "answer": "Sí, cada proyecto tiene un reporte quincenal con fotografías, avance porcentual y bitácora de actividades."
+      },
+      {
+        "question": "¿Trabajan con planos de un arquitecto externo?",
+        "answer": "Con gusto. Revisamos el proyecto ejecutivo, validamos factibilidad estructural y ajustamos presupuesto conforme a esos planos."
+      },
+      {
+        "question": "¿Cuál es la forma de pago durante la obra?",
+        "answer": "Se define un calendario de pagos por avance de obra, verificado en conjunto por nuestro residente y el cliente antes de cada ministración."
+      }
+    ]
+  }
+}

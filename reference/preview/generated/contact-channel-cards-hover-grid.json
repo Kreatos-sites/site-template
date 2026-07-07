@@ -1,0 +1,42 @@
+{
+  "key": "contact-channel-cards-hover-grid",
+  "pascalName": "ContactChannelCardsHoverGrid",
+  "category": "Contacto",
+  "catalogRow": "| `contact-channel-cards-hover-grid` | contact-channel-cards-hover-grid — grid de tarjetas de contacto con hover-lift · úsalo para mostrar correo, teléfono, oficina y chat con captura rápida. | { eyebrow, title, subtitle, channels: [{ icon, title, description, value }], form: { emailLabel, emailPlaceholder, submitLabel } } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hable directamente con nuestro equipo",
+    "subtitle": "Elija el canal que le resulte más cómodo. Respondemos consultas de nuevos proyectos y clientes actuales en un plazo máximo de un día hábil.",
+    "channels": [
+      {
+        "icon": "mail",
+        "title": "Correo electrónico",
+        "description": "Para enviar requerimientos, documentos o dar seguimiento a un expediente en curso.",
+        "value": "contacto@ramirezyasociados.mx"
+      },
+      {
+        "icon": "phone",
+        "title": "Teléfono",
+        "description": "Línea directa con recepción de lunes a viernes, de 9:00 a 18:00 horas.",
+        "value": "+52 (81) 8123 4567"
+      },
+      {
+        "icon": "map",
+        "title": "Oficina",
+        "description": "Visítenos con cita previa en nuestras oficinas del centro de Monterrey.",
+        "value": "Av. Constitución 400, Monterrey, N.L."
+      },
+      {
+        "icon": "chat",
+        "title": "Chat corporativo",
+        "description": "Para clientes con contrato vigente, disponible desde el portal de clientes.",
+        "value": "portal.ramirezyasociados.mx"
+      }
+    ],
+    "form": {
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "nombre@empresa.com",
+      "submitLabel": "Solicitar contacto"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "key": "quote-carousel-with-selector-chips",
+  "pascalName": "QuoteCarouselWithSelectorChips",
+  "category": "Reseñas",
+  "catalogRow": "| `quote-carousel-with-selector-chips` | quote-carousel-with-selector-chips — carrusel de testimonios con chips de avatar, transición 100% CSS · úsalo para citas de clientes con selección manual, sin JS. | { eyebrow, title, quotes: [{ quote, author, role, avatar, avatarAlt }] } |",
+  "fixture": {
+    "eyebrow": "Clientes que confían en nosotros",
+    "title": "Lo que dicen los despachos y empresas que ya trabajan con nosotros",
+    "quotes": [
+      {
+        "quote": "Contratamos a Vértice Legal para la due diligence de una adquisición y el reporte llegó dos días antes de lo acordado, con cada riesgo fiscal documentado y priorizado.",
+        "author": "Renata Solís",
+        "role": "Directora Jurídica, Grupo Andamio",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Renata Solís"
+      },
+      {
+        "quote": "Llevamos tres años delegándoles el cumplimiento laboral de nuestras doce sucursales. Nunca hemos tenido una multa por un tema que ellos debieran haber anticipado.",
+        "author": "Ignacio Beltrán",
+        "role": "Gerente de Recursos Humanos, Distribuidora Palmar",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ignacio Beltrán"
+      },
+      {
+        "quote": "El equipo nos explicó cada cláusula del contrato de arrendamiento industrial en términos que entendía todo el consejo, no solo los abogados.",
+        "author": "Marisol Treviño",
+        "role": "CEO, Construcciones Treviño",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Marisol Treviño"
+      },
+      {
+        "quote": "Manejaron el litigio mercantil con una comunicación semanal puntual. Siempre supimos en qué etapa estaba el proceso y qué seguía.",
+        "author": "Héctor Ramos",
+        "role": "Socio Fundador, Ramos y Asociados Logística",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Héctor Ramos"
+      }
+    ]
+  }
+}

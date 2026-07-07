@@ -1,0 +1,53 @@
+{
+  "key": "reviews-list-dense-row-avatar-stars-hover",
+  "pascalName": "ReviewsListDenseRowAvatarStarsHover",
+  "category": "Reseñas",
+  "catalogRow": "| `reviews-list-dense-row-avatar-stars-hover` | reviews-list-dense-row-avatar-stars-hover — lista densa de reseñas en fila con avatar, nombre, empresa y estrellas · úsalo para mostrar muchas reseñas en poco espacio con lectura rápida. | { eyebrow, title, ratingLabel, reviews: [{ quote, name, company, avatar, avatarAlt, rating }] } |",
+  "fixture": {
+    "eyebrow": "Clientes",
+    "title": "Lo que dicen los despachos que ya trabajan con nosotros",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "reviews": [
+      {
+        "quote": "Redujimos el tiempo de cierre contable de ocho a tres días desde que integramos su plataforma con nuestro ERP. El soporte responde el mismo día.",
+        "name": "Mariana Ortiz Beltrán",
+        "company": "Directora de Finanzas, Grupo Industrial Cobalto",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Mariana Ortiz Beltrán",
+        "rating": 5
+      },
+      {
+        "quote": "La migración de nuestros contratos históricos se hizo sin errores y sin detener operaciones. Eso nos dio confianza para firmar el contrato anual.",
+        "name": "Rodrigo Salcido Peña",
+        "company": "Gerente de Operaciones, Constructora Altavista",
+        "avatar": "/images/hero.svg",
+        "avatarAlt": "Retrato de Rodrigo Salcido Peña",
+        "rating": 5
+      },
+      {
+        "quote": "Antes conciliábamos facturas en hojas de cálculo. Ahora el sistema nos avisa de discrepancias antes de que lleguen a auditoría.",
+        "name": "Fernanda López Aguilar",
+        "company": "Contralora, Distribuidora Regional del Bajío",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Fernanda López Aguilar",
+        "rating": 4
+      },
+      {
+        "quote": "El equipo de implementación entendió nuestros procesos de logística desde la primera llamada. No tuvimos que explicar dos veces nada.",
+        "name": "Héctor Villareal Cantú",
+        "company": "Director de Cadena de Suministro, Transportes del Norte",
+        "avatar": "/images/hero.svg",
+        "avatarAlt": "Retrato de Héctor Villareal Cantú",
+        "rating": 5
+      },
+      {
+        "quote": "Nos ayudaron a ordenar el catálogo de proveedores en menos de un mes. El reporte mensual ahora lo genera el sistema, no nuestro equipo.",
+        "name": "Paulina Reséndiz Ibarra",
+        "company": "Jefa de Compras, Manufacturas del Centro",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Reséndiz Ibarra",
+        "rating": 4
+      }
+    ]
+  }
+}

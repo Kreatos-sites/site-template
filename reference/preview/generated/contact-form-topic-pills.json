@@ -1,0 +1,26 @@
+{
+  "key": "contact-form-topic-pills",
+  "pascalName": "ContactFormTopicPills",
+  "category": "Contacto",
+  "catalogRow": "| `contact-form-topic-pills` | contact-form-topic-pills — formulario de contacto con pills de tema seleccionables · úsalo para clasificar la solicitud (asesoría, soporte, cotización, alianzas) antes de enrutar. | { eyebrow, title, subtitle, topicLabel, topics: [{ value, label, icon }], fields: [{ name, label, type, placeholder }], submitLabel, privacyNote } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Cuéntenos qué necesita y lo canalizamos con el área correcta",
+    "subtitle": "Seleccione el tema de su solicitud para que un especialista de Arata Consultoría le responda en menos de 24 horas hábiles.",
+    "topicLabel": "Tema de su solicitud",
+    "topics": [
+      { "value": "asesoria", "label": "Asesoría fiscal", "icon": "briefcase" },
+      { "value": "soporte", "label": "Soporte a cliente", "icon": "support" },
+      { "value": "cotizacion", "label": "Cotización", "icon": "document" },
+      { "value": "alianzas", "label": "Alianzas", "icon": "team" }
+    ],
+    "fields": [
+      { "name": "name", "label": "Nombre completo", "type": "text", "placeholder": "Escriba su nombre" },
+      { "name": "email", "label": "Correo electrónico", "type": "email", "placeholder": "nombre@empresa.com" },
+      { "name": "company", "label": "Empresa", "type": "text", "placeholder": "Nombre de su empresa" },
+      { "name": "message", "label": "Mensaje", "type": "textarea", "placeholder": "Describa brevemente su solicitud" }
+    ],
+    "submitLabel": "Enviar solicitud",
+    "privacyNote": "Al enviar este formulario acepta que Arata Consultoría use sus datos únicamente para dar seguimiento a su solicitud, conforme a nuestro aviso de privacidad."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "key": "comparison-us-vs-them-check-cross-duality",
+  "pascalName": "ComparisonUsVsThemCheckCrossDuality",
+  "category": "Heroes",
+  "catalogRow": "| `comparison-us-vs-them-check-cross-duality` | comparison-us-vs-them-check-cross-duality — matriz nosotros vs. competencia por criterio · úsalo para contrastar ventajas propias con check/cruz frente a la alternativa. | { eyebrow, title, description?, usLabel, themLabel, rows: [{ label, us: boolean, them: boolean }], footnote? } |",
+  "fixture": {
+    "eyebrow": "Comparativa",
+    "title": "Por qué los despachos cambian a nuestro sistema de gestión",
+    "description": "Así se compara el seguimiento de expedientes con hojas de cálculo y correos sueltos frente a una plataforma centralizada para su despacho.",
+    "usLabel": "Nuestra plataforma",
+    "themLabel": "Hojas de cálculo y correo",
+    "rows": [
+      {
+        "label": "Expedientes y plazos en un solo lugar, visibles para todo el equipo",
+        "us": true,
+        "them": false
+      },
+      {
+        "label": "Alertas automáticas antes de que venza un término procesal",
+        "us": true,
+        "them": false
+      },
+      {
+        "label": "Historial de cambios por expediente con quién hizo qué",
+        "us": true,
+        "them": false
+      },
+      {
+        "label": "Acceso del cliente al estatus de su caso sin llamar",
+        "us": true,
+        "them": false
+      },
+      {
+        "label": "Depende de que alguien recuerde actualizar el archivo",
+        "us": false,
+        "them": true
+      },
+      {
+        "label": "Riesgo de perder la versión más reciente entre varios correos",
+        "us": false,
+        "them": true
+      }
+    ],
+    "footnote": "Migramos su información existente sin costo adicional durante la implementación."
+  }
+}

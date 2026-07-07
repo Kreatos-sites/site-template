@@ -1,0 +1,47 @@
+{
+  "key": "team-lineup-centered-portrait",
+  "pascalName": "TeamLineupCenteredPortrait",
+  "category": "Equipo",
+  "catalogRow": "| `team-lineup-centered-portrait` | team-lineup-centered-portrait — retratos circulares en fila con nombre, puesto y Linkedin opcional · úsalo para presentar al equipo directivo o socios de un despacho. | { badge, title, description, members: [{ name, role, image, imageAlt, linkedin? }], linkedinLabel } |",
+  "fixture": {
+    "badge": "Nuestro equipo",
+    "title": "Los socios detrás de cada expediente",
+    "description": "Un equipo multidisciplinario de abogados especializados en derecho corporativo, fiscal y laboral, con más de quince años de experiencia asesorando empresas en México.",
+    "members": [
+      {
+        "name": "Ricardo Elizondo",
+        "role": "Socio fundador · Derecho corporativo",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ricardo Elizondo, socio fundador del despacho",
+        "linkedin": "https://linkedin.com/in/ricardo-elizondo"
+      },
+      {
+        "name": "Mariana Solís",
+        "role": "Socia · Derecho fiscal",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mariana Solís, socia de derecho fiscal",
+        "linkedin": "https://linkedin.com/in/mariana-solis"
+      },
+      {
+        "name": "Fernando Aguilar",
+        "role": "Socio · Derecho laboral",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernando Aguilar, socio de derecho laboral"
+      },
+      {
+        "name": "Paulina Vega",
+        "role": "Asociada senior · Litigio civil",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paulina Vega, asociada senior de litigio civil",
+        "linkedin": "https://linkedin.com/in/paulina-vega"
+      },
+      {
+        "name": "Daniel Ochoa",
+        "role": "Asociado senior · Contratos mercantiles",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Daniel Ochoa, asociado senior de contratos mercantiles"
+      }
+    ],
+    "linkedinLabel": "Ver el perfil de LinkedIn de {name}"
+  }
+}

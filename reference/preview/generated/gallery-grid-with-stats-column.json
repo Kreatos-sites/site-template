@@ -1,0 +1,50 @@
+{
+  "key": "gallery-grid-with-stats-column",
+  "pascalName": "GalleryGridWithStatsColumn",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-grid-with-stats-column` | gallery-grid-with-stats-column — galería en grid con columna lateral de estadísticas · úsalo para mostrar portafolio de proyectos junto a cifras de respaldo. | { eyebrow, title, description, images: [{ image, imageAlt, caption }], statsTitle, stats: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Obra construida en todo el país",
+    "description": "Una muestra de los proyectos que hemos entregado en los últimos años, con el respaldo de cifras que reflejan nuestra capacidad de ejecución.",
+    "images": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de nave industrial en Querétaro",
+        "caption": "Nave industrial, Querétaro"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de centro de distribución en Monterrey",
+        "caption": "Centro de distribución, Monterrey"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Estructura metálica en obra en León",
+        "caption": "Estructura metálica, León"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Oficinas corporativas terminadas en Puebla",
+        "caption": "Oficinas corporativas, Puebla"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Cimentación de proyecto residencial en Toluca",
+        "caption": "Proyecto residencial, Toluca"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Planta de logística en construcción en Guadalajara",
+        "caption": "Planta logística, Guadalajara"
+      }
+    ],
+    "statsTitle": "En cifras",
+    "stats": [
+      { "value": "142", "label": "Proyectos entregados" },
+      { "value": "18", "label": "Estados con obra activa" },
+      { "value": "97%", "label": "Entregas a tiempo" },
+      { "value": "22", "label": "Años de operación" }
+    ]
+  }
+}

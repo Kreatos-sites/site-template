@@ -1,0 +1,55 @@
+{
+  "key": "exhibition-framed-metadata",
+  "pascalName": "ExhibitionFramedMetadata",
+  "category": "Galerías",
+  "catalogRow": "| `exhibition-framed-metadata` | exhibition-framed-metadata — grid de galería con piezas enmarcadas y metadata centrada · úsalo para portafolios de estudios de arquitectura, diseño o arte. | { eyebrow, title, description, pieces: [{ image, imageAlt, title, category, year }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que hablan por sí solos",
+    "description": "Una selección curada de nuestros desarrollos recientes, organizados por tipo de intervención y año de entrega.",
+    "pieces": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de vivienda unifamiliar con acabados en concreto aparente",
+        "title": "Casa Los Encinos",
+        "category": "Residencial",
+        "year": "2025"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vestíbulo corporativo con doble altura e iluminación natural",
+        "title": "Torre Alameda",
+        "category": "Corporativo",
+        "year": "2024"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Interior de restaurante con barra central en madera",
+        "title": "Restaurante Fonda Norte",
+        "category": "Comercial",
+        "year": "2024"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Patio interior de centro cultural con jardín vertical",
+        "title": "Centro Cultural Alameda",
+        "category": "Institucional",
+        "year": "2023"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Remodelación de oficinas con muros divisorios de vidrio",
+        "title": "Oficinas Reforma 220",
+        "category": "Remodelación",
+        "year": "2023"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Nave industrial reconvertida en bodega logística",
+        "title": "Bodega Vallejo",
+        "category": "Industrial",
+        "year": "2022"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "key": "gallery-grid-responsive-uniform",
+  "pascalName": "GalleryGridResponsiveUniform",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-grid-responsive-uniform` | gallery-grid-responsive-uniform — grid de galería con tiles cuadrados uniformes y overlay al pasar el cursor · úsalo para mostrar portafolio de proyectos o trabajos realizados. | { eyebrow, title, description, items: [{ image, imageAlt, caption }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos recientes",
+    "description": "Una selección de espacios y campañas que hemos desarrollado para clientes en distintos sectores durante el último año.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de oficinas corporativas renovada por el estudio",
+        "caption": "Renovación de oficinas corporativas, Monterrey"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sesión de fotografía de producto para catálogo",
+        "caption": "Campaña de producto, temporada otoño"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Interior de restaurante con iluminación cálida",
+        "caption": "Diseño de interiores, restaurante Casa Del Valle"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de trabajo en sesión de planeación creativa",
+        "caption": "Identidad de marca para despacho legal"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Exhibición de mobiliario en showroom",
+        "caption": "Showroom y punto de venta, línea de mobiliario"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Empaque de producto fotografiado en estudio",
+        "caption": "Rediseño de empaque, línea de cuidado personal"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea de desarrollo residencial",
+        "caption": "Fotografía aérea, desarrollo residencial Los Pinos"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Evento corporativo con asistentes en sala principal",
+        "caption": "Cobertura de evento, lanzamiento anual"
+      }
+    ]
+  }
+}
