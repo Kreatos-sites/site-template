@@ -1,0 +1,102 @@
+{
+  "key": "pricing-comparison-table-multi-tier-sticky",
+  "pascalName": "PricingComparisonTableMultiTierSticky",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-comparison-table-multi-tier-sticky` | pricing-comparison-table-multi-tier-sticky — Tabla comparativa de planes multi-nivel con encabezado fijo, secciones de características agrupadas y columna destacada para el plan recomendado. | { eyebrow, title, description, plansLabel, popularLabel, includedLabel, notIncludedLabel, plans: [{ name, price, period, tagline, cta, highlighted }], groups: [{ title, features: [{ label, values: (string\\|boolean)[] }] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Compare los niveles de acompañamiento contable",
+    "description": "Cada plan incluye los mismos entregables base; la diferencia está en el nivel de asesoría, tiempos de respuesta y reportes que recibe cada mes.",
+    "plansLabel": "Planes disponibles",
+    "popularLabel": "Más elegido",
+    "includedLabel": "Incluido",
+    "notIncludedLabel": "No incluido",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "/mes",
+        "tagline": "Para empresas en etapa inicial con obligaciones fiscales básicas.",
+        "cta": "Solicitar Esencial",
+        "highlighted": false
+      },
+      {
+        "name": "Crecimiento",
+        "price": "$8,900",
+        "period": "/mes",
+        "tagline": "Para empresas con operación activa que requieren cierres mensuales.",
+        "cta": "Solicitar Crecimiento",
+        "highlighted": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "$15,900",
+        "period": "/mes",
+        "tagline": "Para grupos empresariales con varias razones sociales.",
+        "cta": "Solicitar Corporativo",
+        "highlighted": false
+      }
+    ],
+    "groups": [
+      {
+        "title": "Contabilidad y cumplimiento",
+        "features": [
+          {
+            "label": "Declaraciones mensuales de impuestos",
+            "values": [true, true, true]
+          },
+          {
+            "label": "Conciliación bancaria",
+            "values": [true, true, true]
+          },
+          {
+            "label": "Cierre contable mensual con estados financieros",
+            "values": [false, true, true]
+          },
+          {
+            "label": "Consolidación de múltiples razones sociales",
+            "values": [false, false, true]
+          }
+        ]
+      },
+      {
+        "title": "Asesoría y reportes",
+        "features": [
+          {
+            "label": "Sesión de asesoría fiscal",
+            "values": ["Trimestral", "Mensual", "Quincenal"]
+          },
+          {
+            "label": "Tiempo de respuesta a consultas",
+            "values": ["3 días hábiles", "24 horas", "Mismo día"]
+          },
+          {
+            "label": "Contador dedicado a la cuenta",
+            "values": [false, true, true]
+          },
+          {
+            "label": "Reporte de indicadores financieros",
+            "values": [false, false, true]
+          }
+        ]
+      },
+      {
+        "title": "Nómina y soporte adicional",
+        "features": [
+          {
+            "label": "Timbrado de nómina",
+            "values": ["Hasta 5 empleados", "Hasta 20 empleados", "Sin límite"]
+          },
+          {
+            "label": "Auditoría preventiva anual",
+            "values": [false, false, true]
+          },
+          {
+            "label": "Acompañamiento en revisiones del SAT",
+            "values": [false, true, true]
+          }
+        ]
+      }
+    ]
+  }
+}

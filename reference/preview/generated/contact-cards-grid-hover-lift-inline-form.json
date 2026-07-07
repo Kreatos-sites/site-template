@@ -1,0 +1,40 @@
+{
+  "key": "contact-cards-grid-hover-lift-inline-form",
+  "pascalName": "ContactCardsGridHoverLiftInlineForm",
+  "category": "Contacto",
+  "catalogRow": "| `contact-cards-grid-hover-lift-inline-form` | contact-cards-grid-hover-lift-inline-form — grid de tarjetas de canal con hover-lift (correo, oficina, chat) más un mini-formulario en línea para enrutar contactos rápido | { eyebrow, title, description, channels: [{ icon, label, value, href }], form: { nameLabel, namePlaceholder, emailLabel, emailPlaceholder, messageLabel, messagePlaceholder, submit } } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su proyecto",
+    "description": "Elija el canal que le convenga o escríbanos directamente. Respondemos sus mensajes dentro del siguiente día hábil.",
+    "channels": [
+      {
+        "icon": "email",
+        "label": "Correo",
+        "value": "contacto@aguilardespacho.mx",
+        "href": "mailto:contacto@aguilardespacho.mx"
+      },
+      {
+        "icon": "office",
+        "label": "Oficina",
+        "value": "Av. Constituyentes 1420, Querétaro",
+        "href": "https://maps.google.com/?q=Av.+Constituyentes+1420+Queretaro"
+      },
+      {
+        "icon": "chat",
+        "label": "WhatsApp",
+        "value": "+52 442 123 4567",
+        "href": "https://wa.me/524421234567"
+      }
+    ],
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Su nombre completo",
+      "emailLabel": "Correo",
+      "emailPlaceholder": "usted@empresa.mx",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntenos brevemente qué necesita",
+      "submit": "Enviar mensaje"
+    }
+  }
+}

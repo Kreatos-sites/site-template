@@ -1,0 +1,62 @@
+{
+  "key": "testimonials-masonry-seven-card-organic-wall",
+  "pascalName": "TestimonialsMasonrySevenCardOrganicWall",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-masonry-seven-card-organic-wall` | testimonials-masonry-seven-card-organic-wall — muro tipo masonry de siete tarjetas de testimonio con alturas variadas, avatar, nombre y puesto, para transmitir volumen de clientes satisfechos de un vistazo | { eyebrow, title, testimonials: [{ quote, name, role, avatar, avatarAlt, emphasis? }] } |",
+  "fixture": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen los despachos y empresas que ya trabajan con nosotros",
+    "testimonials": [
+      {
+        "quote": "Redujimos el cierre contable mensual de ocho días a tres. El equipo entendió nuestra operación desde la primera reunión.",
+        "name": "Renata Salcido",
+        "role": "Directora de Finanzas, Grupo Vallarta Textil",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Renata Salcido",
+        "emphasis": true
+      },
+      {
+        "quote": "La migración de nuestra contabilidad no tuvo un solo día de interrupción.",
+        "name": "Ismael Contreras",
+        "role": "Gerente de Administración, Constructora Del Bajío",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ismael Contreras"
+      },
+      {
+        "quote": "Nos acompañaron en una auditoría del SAT y salimos sin observaciones.",
+        "name": "Paulina Escamilla",
+        "role": "Directora General, Distribuidora Escamilla",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Escamilla"
+      },
+      {
+        "quote": "Por fin tenemos reportes financieros que entiende todo el consejo, no solo el contador.",
+        "name": "Héctor Villareal",
+        "role": "Socio Fundador, Logística Villareal",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Héctor Villareal"
+      },
+      {
+        "quote": "Contestan en menos de un día, incluso en temporada de declaración anual.",
+        "name": "Cynthia Rangel",
+        "role": "Directora de Operaciones, Clínica Rangel",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Cynthia Rangel"
+      },
+      {
+        "quote": "El dictamen fiscal de este año fue el proceso más ordenado que hemos tenido en doce años de empresa.",
+        "name": "Jorge Aldana",
+        "role": "Director Administrativo, Inmobiliaria Aldana",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Jorge Aldana"
+      },
+      {
+        "quote": "Nos ayudaron a reestructurar la nómina antes de una expansión a tres nuevas plantas.",
+        "name": "Marisol Peña",
+        "role": "Gerente de Recursos Humanos, Manufacturas Peña",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Marisol Peña"
+      }
+    ]
+  }
+}

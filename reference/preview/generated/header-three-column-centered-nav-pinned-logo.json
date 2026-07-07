@@ -1,0 +1,21 @@
+{
+  "key": "header-three-column-centered-nav-pinned-logo",
+  "pascalName": "HeaderThreeColumnCenteredNavPinnedLogo",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-three-column-centered-nav-pinned-logo` | header-three-column-centered-nav-pinned-logo — encabezado tripartito con logo anclado a la izquierda, navegación centrada en línea y cluster de acceso + CTA primaria a la derecha · úsalo para despachos o firmas con portal de clientes. | { logo, navLabel, menuLabel, loginLabel, loginHref, ctaLabel, ctaHref, links: [{ label, href }] } |",
+  "fixture": {
+    "logo": "Orozco & Valdés",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "loginLabel": "Portal de clientes",
+    "loginHref": "#portal",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

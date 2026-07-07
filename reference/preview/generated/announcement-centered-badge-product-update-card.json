@@ -1,0 +1,14 @@
+{
+  "key": "announcement-centered-badge-product-update-card",
+  "pascalName": "AnnouncementCenteredBadgeProductUpdateCard",
+  "category": "Heroes",
+  "catalogRow": "| `announcement-centered-badge-product-update-card` | announcement-centered-badge-product-update-card — Tarjeta centrada tipo anuncio con badge de versión, titular de novedad, detalle de soporte, metadatos de lanzamiento y botón CTA principal | { badge, title, description, meta, ctaLabel, ctaHref } |",
+  "fixture": {
+    "badge": "Versión 3.2",
+    "title": "Ahora puede firmar contratos directamente desde el portal",
+    "description": "Integramos la firma electrónica al flujo de expedientes: sus clientes reciben, revisan y firman sin salir de la plataforma, y el documento queda archivado automáticamente en su carpeta del caso.",
+    "meta": "Publicado el 3 de julio de 2026 · Disponible para todos los planes",
+    "ctaLabel": "Ver la actualización",
+    "ctaHref": "/actualizaciones"
+  }
+}

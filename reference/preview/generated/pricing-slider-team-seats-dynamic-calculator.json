@@ -1,0 +1,33 @@
+{
+  "key": "pricing-slider-team-seats-dynamic-calculator",
+  "pascalName": "PricingSliderTeamSeatsDynamicCalculator",
+  "category": "Features y servicios",
+  "catalogRow": "| `pricing-slider-team-seats-dynamic-calculator` | pricing-slider-team-seats-dynamic-calculator — control deslizante interactivo para calcular el precio de una membresía o plan corporativo según el número de asientos de equipo, con total dinámico en tiempo real | { eyebrow, title, description, sliderLabel, sliderAriaLabel, sliderValueText, seatsUnit, minSeats, maxSeats, defaultSeats, basePrice, perSeatPrice, totalLabel, periodLabel, breakdown, included: string[], ctaLabel, ctaHref } |",
+  "fixture": {
+    "eyebrow": "Planes por equipo",
+    "title": "Calcule el costo exacto según el tamaño de su equipo",
+    "description": "Ajuste el número de asientos y vea el total mensual actualizarse al instante. Sin letras chiquitas ni cargos ocultos.",
+    "sliderLabel": "Número de asientos",
+    "sliderAriaLabel": "Seleccionar número de asientos del equipo",
+    "sliderValueText": "{seats} asientos seleccionados",
+    "seatsUnit": "asientos",
+    "minSeats": "1",
+    "maxSeats": "50",
+    "defaultSeats": "8",
+    "basePrice": "1470",
+    "perSeatPrice": "245",
+    "totalLabel": "Total mensual",
+    "periodLabel": "/ mes",
+    "breakdown": "Incluye una cuota base de ${base} más ${perSeat} por cada uno de los {seats} asientos contratados.",
+    "included": [
+      "Acceso ilimitado para todos los asientos contratados",
+      "Panel de administración centralizado para el despacho",
+      "Soporte prioritario por correo y teléfono",
+      "Reportes mensuales de uso por asiento",
+      "Actualizaciones y nuevas funciones sin costo adicional",
+      "Cancelación o ajuste de asientos en cualquier momento"
+    ],
+    "ctaLabel": "Contratar plan",
+    "ctaHref": "/contacto"
+  }
+}

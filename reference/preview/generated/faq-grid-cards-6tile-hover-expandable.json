@@ -1,0 +1,36 @@
+{
+  "key": "faq-grid-cards-6tile-hover-expandable",
+  "pascalName": "FaqGridCards6tileHoverExpandable",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-grid-cards-6tile-hover-expandable` | faq-grid-cards-6tile-hover-expandable — grid de 6 tarjetas FAQ expandibles (2x3) con efecto hover lift, para escanear tópicos frecuentes por tema antes de la sección de precios | { eyebrow, title, items: [{ question, answer }] (6) } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de solicitar su cotización",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma un proyecto de remodelación comercial?",
+        "answer": "Depende del alcance y la superficie intervenida. Un local de hasta 200 m² suele tomar entre 6 y 10 semanas, desde el levantamiento hasta la entrega final. Le compartimos un calendario detallado antes de firmar el contrato."
+      },
+      {
+        "question": "¿Trabajan con planos que ya tenemos o necesitan hacer el diseño desde cero?",
+        "answer": "Podemos partir de planos existentes elaborados por su despacho de arquitectura o desarrollar el diseño ejecutivo completo. En ambos casos revisamos factibilidad estructural antes de iniciar obra."
+      },
+      {
+        "question": "¿Qué incluye la cotización inicial?",
+        "answer": "Materiales, mano de obra, permisos municipales aplicables y supervisión de obra. Los acabados de gama alta o mobiliario especial se cotizan por separado con opciones claras de costo."
+      },
+      {
+        "question": "¿Pueden trabajar en horario nocturno para no afectar la operación del negocio?",
+        "answer": "Sí, ofrecemos cuadrillas en turno vespertino y nocturno para locales que necesitan seguir operando de día, con reportes fotográficos de avance cada mañana."
+      },
+      {
+        "question": "¿Qué pasa si surge un imprevisto estructural durante la obra?",
+        "answer": "Detenemos la partida afectada, documentamos el hallazgo con fotografías y le presentamos opciones de solución con su respectivo costo antes de continuar. Ningún cambio se ejecuta sin su autorización por escrito."
+      },
+      {
+        "question": "¿Ofrecen garantía sobre el trabajo entregado?",
+        "answer": "Sí, todos los proyectos incluyen doce meses de garantía sobre instalaciones y acabados, con visitas de revisión a los tres y seis meses posteriores a la entrega."
+      }
+    ]
+  }
+}

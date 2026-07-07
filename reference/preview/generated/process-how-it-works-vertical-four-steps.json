@@ -1,0 +1,32 @@
+{
+  "key": "process-how-it-works-vertical-four-steps",
+  "pascalName": "ProcessHowItWorksVerticalFourSteps",
+  "category": "Proceso",
+  "catalogRow": "| `process-how-it-works-vertical-four-steps` | process-how-it-works-vertical-four-steps — riel vertical de cuatro pasos numerados con ícono circular, línea conectora y descripción a la derecha; para explicar un proceso de trabajo o incorporación paso a paso | { eyebrow, title, steps: [{ title, description, icon }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la primera llamada a la entrega, en cuatro pasos claros",
+    "steps": [
+      {
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su situación fiscal y contable actual, identificamos riesgos y definimos el alcance del servicio con usted.",
+        "icon": "file"
+      },
+      {
+        "title": "Análisis y plan de trabajo",
+        "description": "Nuestro equipo audita la información disponible y propone un plan con responsables, plazos y entregables definidos.",
+        "icon": "search"
+      },
+      {
+        "title": "Implementación",
+        "description": "Ejecutamos el plan: ajustes contables, presentaciones fiscales y procesos internos quedan documentados paso a paso.",
+        "icon": "tools"
+      },
+      {
+        "title": "Seguimiento y cierre",
+        "description": "Validamos resultados con usted, entregamos reportes finales y dejamos un calendario de revisiones periódicas.",
+        "icon": "check"
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { Quote as QuoteIcon } from "lucide-react";
+import { Quote as QuotesIcon } from "lucide-react";
 
 import { Reveal } from "@/components/shared/reveal";
 import { SmartImage } from "@/components/shared/smart-image";
@@ -72,7 +72,7 @@ export function QuoteCarouselWithSelectorChips({ ns }: { ns: string }) {
             ))}
 
             <div className="relative min-h-56 rounded-lg border border-border bg-card p-8 sm:p-12">
-              <QuoteIcon
+              <QuotesIcon
                 aria-hidden="true"
                 className="size-8 text-primary/30"
                 strokeWidth={1.5}

@@ -1,0 +1,66 @@
+{
+  "key": "footer-veil-design-kit-variant-4",
+  "pascalName": "FooterVeilDesignKitVariant4",
+  "category": "Footers",
+  "catalogRow": "| `footer-veil-design-kit-variant-4` | footer-veil-design-kit-variant-4 — footer con banda de cierre centrada (declaración + CTA) arriba y retícula de celdas con bordes (marca + contacto + columnas de navegación) debajo, cerrando con barra legal inferior | { eyebrow, title, cta: { label, href }, brand, description, contacts: [{ icon, label, href }], columns: [{ title, links: [{ label, href }] }], legalLinks: [{ label, href }], copyright } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de la siguiente etapa de su proyecto",
+    "cta": {
+      "label": "Agendar una llamada",
+      "href": "#contacto"
+    },
+    "brand": "Vértice Construcciones",
+    "description": "Despacho de dirección de obra y gerencia de proyectos para desarrollos comerciales e industriales en el norte del país.",
+    "contacts": [
+      {
+        "icon": "mail",
+        "label": "contacto@verticeconstrucciones.mx",
+        "href": "mailto:contacto@verticeconstrucciones.mx"
+      },
+      {
+        "icon": "phone",
+        "label": "+52 81 4455 2200",
+        "href": "tel:+528144552200"
+      },
+      {
+        "icon": "location",
+        "label": "Av. Constitución 1200, Monterrey, N.L.",
+        "href": "#ubicacion"
+      }
+    ],
+    "columns": [
+      {
+        "title": "Servicios",
+        "links": [
+          { "label": "Gerencia de proyectos", "href": "#gerencia" },
+          { "label": "Dirección de obra", "href": "#direccion-obra" },
+          { "label": "Control de costos", "href": "#control-costos" },
+          { "label": "Supervisión técnica", "href": "#supervision" }
+        ]
+      },
+      {
+        "title": "Despacho",
+        "links": [
+          { "label": "Casos de estudio", "href": "#casos" },
+          { "label": "Equipo directivo", "href": "#equipo" },
+          { "label": "Certificaciones", "href": "#certificaciones" },
+          { "label": "Trabaje con nosotros", "href": "#carreras" }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          { "label": "Cotización de proyecto", "href": "#cotizacion" },
+          { "label": "Preguntas frecuentes", "href": "#preguntas" },
+          { "label": "Aviso de privacidad", "href": "#privacidad" }
+        ]
+      }
+    ],
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "#privacidad" },
+      { "label": "Términos y condiciones", "href": "#terminos" }
+    ],
+    "copyright": "© 2026 Vértice Construcciones. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": "property-tier-split-comparison-dual-cta",
+  "pascalName": "PropertyTierSplitComparisonDualCta",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-tier-split-comparison-dual-cta` | property-tier-split-comparison-dual-cta — comparación lado a lado de dos planes de administración de propiedades con lista de beneficios y CTA independiente por plan | { eyebrow, title, subtitle, tiers: [{ name, price, period, description, cta, featured?, features: [] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de administración",
+    "title": "Elija el nivel de administración para su propiedad",
+    "subtitle": "Dos esquemas de servicio pensados para propietarios que rentan una sola unidad y para quienes administran un portafolio completo.",
+    "tiers": [
+      {
+        "name": "Propietario individual",
+        "price": "$2,900",
+        "period": "/mes por unidad",
+        "description": "Para dueños de una sola propiedad en renta que buscan cobranza puntual y mantenimiento coordinado.",
+        "cta": "Solicitar diagnóstico",
+        "features": [
+          "Publicación y filtrado de inquilinos",
+          "Cobranza mensual con reporte digital",
+          "Coordinación de mantenimiento correctivo",
+          "Contrato de arrendamiento revisado por abogado",
+          "Atención a inquilino en horario hábil"
+        ]
+      },
+      {
+        "name": "Portafolio",
+        "price": "$2,300",
+        "period": "/mes por unidad desde 5 propiedades",
+        "description": "Para inversionistas y familias con varias propiedades que necesitan un solo punto de control y reportes consolidados.",
+        "cta": "Agendar con asesor",
+        "featured": true,
+        "features": [
+          "Todo lo incluido en Propietario individual",
+          "Reporte financiero consolidado mensual",
+          "Mantenimiento preventivo programado",
+          "Renovación y ajuste de rentas por mercado",
+          "Ejecutivo de cuenta dedicado",
+          "Soporte a inquilino 24/7"
+        ]
+      }
+    ]
+  }
+}

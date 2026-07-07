@@ -1,0 +1,43 @@
+{
+  "key": "features-bento-grid-six-cell-symmetric",
+  "pascalName": "FeaturesBentoGridSixCellSymmetric",
+  "category": "Features y servicios",
+  "catalogRow": "| `features-bento-grid-six-cell-symmetric` | features-bento-grid-six-cell-symmetric — Bento grid simétrico de 6 celdas con icono, título y descripción para presentar capacidades de servicio logístico o corporativo | { eyebrow, title, description, features: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Capacidades de operación",
+    "title": "Lo que respalda cada envío que gestionamos",
+    "description": "Infraestructura, procesos y equipo dedicados a que su carga llegue en tiempo, con trazabilidad completa desde el origen hasta la entrega.",
+    "features": [
+      {
+        "icon": "truck",
+        "title": "Flota propia certificada",
+        "description": "Unidades con mantenimiento preventivo programado y monitoreo GPS en tiempo real para cada ruta."
+      },
+      {
+        "icon": "route",
+        "title": "Rutas optimizadas",
+        "description": "Planeación diaria de rutas según tráfico, ventanas de entrega y capacidad disponible."
+      },
+      {
+        "icon": "shield",
+        "title": "Carga asegurada",
+        "description": "Cobertura contra daño, robo o extravío en cada embarque, sin costo adicional para el cliente."
+      },
+      {
+        "icon": "clock",
+        "title": "Entregas en ventana pactada",
+        "description": "Cumplimiento del 97% en horarios acordados durante los últimos doce meses."
+      },
+      {
+        "icon": "file",
+        "title": "Documentación en regla",
+        "description": "Manifiestos, cartas porte y comprobantes fiscales listos antes de que la unidad salga de patio."
+      },
+      {
+        "icon": "support",
+        "title": "Coordinación dedicada",
+        "description": "Un ejecutivo de cuenta da seguimiento a su embarque de principio a fin, sin intermediarios."
+      }
+    ]
+  }
+}

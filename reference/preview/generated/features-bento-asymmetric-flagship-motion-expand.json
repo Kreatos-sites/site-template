@@ -1,0 +1,38 @@
+{
+  "key": "features-bento-asymmetric-flagship-motion-expand",
+  "pascalName": "FeaturesBentoAsymmetricFlagshipMotionExpand",
+  "category": "Features y servicios",
+  "catalogRow": "| `features-bento-asymmetric-flagship-motion-expand` | features-bento-asymmetric-flagship-motion-expand — Bento asimétrico con celda de movimiento (flagship) destacada a la izquierda; en hover la celda activa se expande y las demás se atenúan | { eyebrow, title, description, flagshipImage, flagshipImageAlt, flagshipEyebrow, flagshipLabel, flagshipDescription, cells: [{ icon, label, description }] } |",
+  "fixture": {
+    "eyebrow": "Operación logística",
+    "title": "Una red de distribución pensada para no fallarle a su entrega",
+    "description": "Coordinamos almacenaje, ruteo y última milla desde un solo panel, con visibilidad completa de cada embarque en tránsito.",
+    "flagshipImage": "/images/about.svg",
+    "flagshipImageAlt": "Centro de distribución con montacargas moviendo pallets entre andenes",
+    "flagshipEyebrow": "Centro de control",
+    "flagshipLabel": "Visibilidad en tiempo real de toda la flota",
+    "flagshipDescription": "Seguimiento GPS de cada unidad, alertas de desviación de ruta y tiempos de llegada actualizados cada cinco minutos.",
+    "cells": [
+      {
+        "icon": "warehouse",
+        "label": "Almacenaje certificado",
+        "description": "Tres bodegas con control de temperatura y cámaras en cada pasillo, auditadas trimestralmente."
+      },
+      {
+        "icon": "route",
+        "label": "Ruteo dinámico",
+        "description": "El sistema recalcula rutas ante tráfico o cierres viales sin intervención manual del despachador."
+      },
+      {
+        "icon": "shield",
+        "label": "Carga asegurada",
+        "description": "Cobertura total contra daño o pérdida en cada embarque, sin costo adicional para el cliente."
+      },
+      {
+        "icon": "clock",
+        "label": "Entregas a tiempo",
+        "description": "Cumplimiento de ventana de entrega superior al noventa y cinco por ciento el trimestre pasado."
+      }
+    ]
+  }
+}

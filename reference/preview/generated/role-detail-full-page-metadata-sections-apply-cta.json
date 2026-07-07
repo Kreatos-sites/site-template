@@ -1,0 +1,50 @@
+{
+  "key": "role-detail-full-page-metadata-sections-apply-cta",
+  "pascalName": "RoleDetailFullPageMetadataSectionsApplyCta",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `role-detail-full-page-metadata-sections-apply-cta` | role-detail-full-page-metadata-sections-apply-cta — Página completa de detalle de vacante con metadatos del puesto, secciones de contenido y botones de aplicación prominentes | { eyebrow, title, summary, meta: [{icon, label}], applyHeading, applySubtext, applyLabel, applyHref, sections: [{title, items: string[]}], closingText } |",
+  "fixture": {
+    "eyebrow": "Vacante abierta",
+    "title": "Gerente de Operaciones Logísticas",
+    "summary": "Buscamos a una persona con experiencia comprobada en gestión de flotas y centros de distribución para liderar la operación diaria de nuestra red logística en el Bajío.",
+    "meta": [
+      { "icon": "briefcase", "label": "Tiempo completo" },
+      { "icon": "map-pin", "label": "León, Guanajuato" },
+      { "icon": "building", "label": "Operaciones" },
+      { "icon": "clock", "label": "Publicado hace 3 días" }
+    ],
+    "applyHeading": "¿Le interesa esta posición?",
+    "applySubtext": "Envíe su solicitud y nuestro equipo de reclutamiento le contactará en un plazo de cinco días hábiles.",
+    "applyLabel": "Aplicar a esta vacante",
+    "applyHref": "#aplicar",
+    "sections": [
+      {
+        "title": "Sobre el puesto",
+        "items": [
+          "Coordinará la operación de tres centros de distribución y una flota de 40 unidades.",
+          "Reportará directamente a la Dirección de Operaciones y trabajará de la mano con Ventas y Finanzas.",
+          "El puesto requiere presencia en sitio con visitas periódicas a las sucursales de Querétaro e Irapuato."
+        ]
+      },
+      {
+        "title": "Responsabilidades",
+        "items": [
+          "Supervisar la planeación de rutas y los tiempos de entrega de la flota.",
+          "Dar seguimiento a los indicadores de costo por kilómetro y nivel de servicio.",
+          "Gestionar la relación con transportistas externos y proveedores de mantenimiento.",
+          "Capacitar y evaluar al equipo de coordinadores de almacén."
+        ]
+      },
+      {
+        "title": "Requisitos",
+        "items": [
+          "Licenciatura en Ingeniería Industrial, Logística o carrera afín.",
+          "Cinco años de experiencia en operación logística o cadena de suministro.",
+          "Manejo de sistemas de gestión de transporte (TMS) y Excel avanzado.",
+          "Disponibilidad para viajar dentro de la región del Bajío."
+        ]
+      }
+    ],
+    "closingText": "El proceso de selección incluye entrevista con Recursos Humanos y con la Dirección de Operaciones."
+  }
+}

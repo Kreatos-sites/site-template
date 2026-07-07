@@ -1,0 +1,57 @@
+{
+  "key": "blog-post-listing-divider-rows-excerpt-minimal",
+  "pascalName": "BlogPostListingDividerRowsExcerptMinimal",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-post-listing-divider-rows-excerpt-minimal` | blog-post-listing-divider-rows-excerpt-minimal — feed de posts de blog en filas separadas por divisor, con categoría, fecha, excerpt, avatar de autor con iniciales y botón de lectura, sin tarjetas ni imágenes. | { eyebrow, title, posts: [{ category, date, title, excerpt, authorName, authorInitials, readMoreLabel }] } |",
+  "fixture": {
+    "eyebrow": "Blog corporativo",
+    "title": "Análisis y actualizaciones del despacho",
+    "posts": [
+      {
+        "category": "Fiscal",
+        "date": "3 de julio, 2026",
+        "title": "Cambios en el régimen simplificado de confianza para 2026",
+        "excerpt": "Repasamos las modificaciones que el SAT publicó este trimestre y qué implicaciones tienen para personas físicas con actividad empresarial.",
+        "authorName": "Renata Solórzano",
+        "authorInitials": "RS",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Corporativo",
+        "date": "28 de junio, 2026",
+        "title": "Qué revisar antes de firmar un contrato de fusión",
+        "excerpt": "Una guía práctica sobre las cláusulas que con más frecuencia generan disputas posteriores entre las partes involucradas.",
+        "authorName": "Iván Cordero",
+        "authorInitials": "IC",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Laboral",
+        "date": "15 de junio, 2026",
+        "title": "Reforma a la subcontratación: dos años después",
+        "excerpt": "Evaluamos el impacto real de la reforma en las empresas que migraron a esquemas de outsourcing especializado.",
+        "authorName": "Renata Solórzano",
+        "authorInitials": "RS",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Litigio",
+        "date": "2 de junio, 2026",
+        "title": "Medios alternos de solución de controversias en materia mercantil",
+        "excerpt": "Por qué el arbitraje comercial se ha vuelto la vía preferida frente a los tiempos del litigio tradicional.",
+        "authorName": "Diego Marroquín",
+        "authorInitials": "DM",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Fiscal",
+        "date": "20 de mayo, 2026",
+        "title": "Deducciones personales que su empresa podría estar pasando por alto",
+        "excerpt": "Un repaso de los conceptos deducibles menos conocidos y los requisitos para comprobarlos correctamente.",
+        "authorName": "Iván Cordero",
+        "authorInitials": "IC",
+        "readMoreLabel": "Leer artículo"
+      }
+    ]
+  }
+}

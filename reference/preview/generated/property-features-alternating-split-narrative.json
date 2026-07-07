@@ -1,0 +1,76 @@
+{
+  "key": "property-features-alternating-split-narrative",
+  "pascalName": "PropertyFeaturesAlternatingSplitNarrative",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-features-alternating-split-narrative` | property-features-alternating-split-narrative — Sección de características con layout alternante (texto-imagen, imagen-texto), tres bloques narrativos con lista de puntos, dato destacado e imagen, para presentar ubicación, acabados y amenidades de un desarrollo inmobiliario | { eyebrow, title, rows: [{ icon, eyebrow, title, body, points: string[], statValue, statLabel, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Desarrollo Cumbres Norte",
+    "title": "Un desarrollo pensado para cada etapa de vida",
+    "rows": [
+      {
+        "icon": "location",
+        "eyebrow": "Ubicación",
+        "title": "A 8 minutos de Valle Oriente",
+        "body": "El desarrollo se ubica sobre Avenida Lázaro Cárdenas, con acceso directo a la Carretera Nacional y a menos de 10 minutos de los principales corredores de oficinas y centros comerciales de San Pedro Garza García.",
+        "points": [
+          "Acceso controlado sobre avenida principal",
+          "A 5 minutos de Colegio Valle Alto",
+          "Rutas de transporte público cercanas",
+          "Ciclovía integrada al desarrollo"
+        ],
+        "statValue": "8 min",
+        "statLabel": "a Valle Oriente en auto",
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea del acceso principal y avenida del desarrollo"
+      },
+      {
+        "icon": "finishes",
+        "eyebrow": "Acabados",
+        "title": "Acabados de nivel residencial premium",
+        "body": "Cada unidad se entrega con pisos de porcelanato rectificado, cocina integral con cubierta de cuarzo y cancelería de aluminio con vidrio templado, listas para habitarse desde el día de la entrega.",
+        "points": [
+          "Pisos de porcelanato rectificado 60x60",
+          "Cocina integral con cubierta de cuarzo",
+          "Cancelería de aluminio y vidrio templado",
+          "Closets con puertas corredizas de piso a techo"
+        ],
+        "statValue": "2 años",
+        "statLabel": "de garantía en acabados",
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de cocina y sala con acabados premium"
+      },
+      {
+        "icon": "layout",
+        "eyebrow": "Distribución",
+        "title": "Espacios que crecen con la familia",
+        "body": "Las plantas van de 78 a 145 metros cuadrados, con opción de recámara adicional en planta baja y terraza techada en todas las unidades, pensadas para recibir visitas sin perder privacidad.",
+        "points": [
+          "Plantas de 78 a 145 m² construidos",
+          "Recámara adicional opcional en planta baja",
+          "Terraza techada en todas las unidades",
+          "Cuarto de lavado independiente"
+        ],
+        "statValue": "145 m²",
+        "statLabel": "en la planta más amplia",
+        "image": "/images/hero.svg",
+        "imageAlt": "Plano de distribución de una de las unidades del desarrollo"
+      },
+      {
+        "icon": "security",
+        "eyebrow": "Seguridad",
+        "title": "Vigilancia y control de acceso 24/7",
+        "body": "El desarrollo cuenta con caseta de vigilancia permanente, circuito cerrado de cámaras en áreas comunes y control de acceso vehicular y peatonal con tarjetón, para tranquilidad de cada familia.",
+        "points": [
+          "Caseta de vigilancia las 24 horas",
+          "Circuito cerrado de cámaras en áreas comunes",
+          "Control de acceso vehicular con tarjetón",
+          "Bardas perimetrales de 3 metros de altura"
+        ],
+        "statValue": "24/7",
+        "statLabel": "vigilancia en el residencial",
+        "image": "/images/about.svg",
+        "imageAlt": "Caseta de acceso y control de vigilancia del residencial"
+      }
+    ]
+  }
+}

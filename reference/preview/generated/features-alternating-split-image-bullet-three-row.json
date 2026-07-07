@@ -1,0 +1,51 @@
+{
+  "key": "features-alternating-split-image-bullet-three-row",
+  "pascalName": "FeaturesAlternatingSplitImageBulletThreeRow",
+  "category": "Heroes",
+  "catalogRow": "| `features-alternating-split-image-bullet-three-row` | features-alternating-split-image-bullet-three-row — tres filas alternadas izquierda/derecha, cada una con copy + lista de 4 bullets frente a una imagen decorativa, ideal para explicar capacidades o etapas de servicio | { eyebrow, title, rows: [{ eyebrow, title, body, points: string[4], image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro para cada proyecto de construcción",
+    "rows": [
+      {
+        "eyebrow": "Etapa 1",
+        "title": "Planeación y presupuesto",
+        "body": "Levantamos el proyecto en sitio, revisamos planos con el cliente y entregamos un presupuesto detallado antes de mover una sola herramienta.",
+        "points": [
+          "Visita técnica sin costo",
+          "Presupuesto por partida",
+          "Calendario de obra",
+          "Permisos y trámites"
+        ],
+        "image": "/images/hero.svg",
+        "imageAlt": "Ingeniero revisando planos de construcción en obra"
+      },
+      {
+        "eyebrow": "Etapa 2",
+        "title": "Ejecución supervisada",
+        "body": "Cada frente de obra tiene un residente asignado que reporta avances semanales y coordina a los subcontratistas.",
+        "points": [
+          "Residente de obra dedicado",
+          "Bitácora semanal fotográfica",
+          "Control de materiales",
+          "Seguridad industrial"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Cuadrilla trabajando en una obra en construcción"
+      },
+      {
+        "eyebrow": "Etapa 3",
+        "title": "Entrega y garantía",
+        "body": "Al cierre de obra hacemos recorrido conjunto de aceptación y respaldamos el trabajo con garantía por escrito.",
+        "points": [
+          "Recorrido de aceptación",
+          "Manual de mantenimiento",
+          "Garantía por escrito",
+          "Soporte posterior a entrega"
+        ],
+        "image": "/images/hero.svg",
+        "imageAlt": "Edificio recién terminado listo para entrega"
+      }
+    ]
+  }
+}

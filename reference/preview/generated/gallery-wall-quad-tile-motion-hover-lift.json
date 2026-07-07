@@ -1,0 +1,32 @@
+{
+  "key": "gallery-wall-quad-tile-motion-hover-lift",
+  "pascalName": "GalleryWallQuadTileMotionHoverLift",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-wall-quad-tile-motion-hover-lift` | gallery-wall-quad-tile-motion-hover-lift — galería de cuatro tiles con caption nativa y efecto hover-lift, para mostrar obra, proyectos o instalaciones terminadas | { eyebrow, title, tiles: [{ image, imageAlt, caption }] } |",
+  "fixture": {
+    "eyebrow": "Proyectos entregados",
+    "title": "Obra reciente en distintos giros de la industria",
+    "tiles": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Nave industrial con estructura metálica recién instalada",
+        "caption": "Ampliación de nave industrial — Parque Industrial Toluca"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de oficinas corporativas con acabados en concreto aparente",
+        "caption": "Edificio corporativo — Corredor Reforma, Ciudad de México"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de bodega logística con racks y montacargas",
+        "caption": "Centro de distribución — León, Guanajuato"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Área común de conjunto residencial con jardinería y andadores",
+        "caption": "Conjunto residencial Los Encinos — Querétaro"
+      }
+    ]
+  }
+}

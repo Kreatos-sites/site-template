@@ -1,0 +1,37 @@
+{
+  "key": "process-steps-horizontal-clickable-interactive-mobile",
+  "pascalName": "ProcessStepsHorizontalClickableInteractiveMobile",
+  "category": "Proceso",
+  "catalogRow": "| `process-steps-horizontal-clickable-interactive-mobile` | process-steps-horizontal-clickable-interactive-mobile — stepper horizontal con barra de progreso y pasos desplegables (acordeón nativo, sin JS de cliente), que se apila en vertical en móvil, para explicar el proceso de trabajo de un despacho, constructora o distribuidora | { eyebrow, title, steps: [{ title, summary, detail }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro, del primer contacto a la entrega",
+    "steps": [
+      {
+        "title": "Diagnóstico inicial",
+        "summary": "Levantamos el requerimiento y revisamos el inventario disponible.",
+        "detail": "Un asesor de cuenta se reúne con usted para entender el volumen, los destinos y los plazos de entrega. Con esa información preparamos una propuesta de ruta y capacidad de flota ajustada a su operación."
+      },
+      {
+        "title": "Cotización y contrato",
+        "summary": "Entregamos una cotización detallada por ruta y tipo de carga.",
+        "detail": "La cotización incluye tarifas por kilómetro, tiempos de tránsito estimados y condiciones de seguro de carga. Una vez aprobada, formalizamos el contrato de servicio con los niveles de cumplimiento acordados."
+      },
+      {
+        "title": "Programación de ruta",
+        "summary": "Asignamos unidad, operador y ventana de carga.",
+        "detail": "El área de tráfico programa la unidad y confirma la ventana de carga con el almacén de origen. Usted recibe la confirmación con el número de guía y el contacto directo del operador asignado."
+      },
+      {
+        "title": "Ejecución y monitoreo",
+        "summary": "Rastreamos el embarque en tiempo real hasta destino.",
+        "detail": "Durante el tránsito, el equipo de monitoreo da seguimiento a la unidad y notifica cualquier desviación de ruta o retraso. Usted puede consultar el estatus del embarque en cualquier momento."
+      },
+      {
+        "title": "Entrega y cierre",
+        "summary": "Confirmamos la recepción y cerramos el expediente.",
+        "detail": "Al llegar a destino, el operador recaba el acuse de recibo firmado y lo carga al expediente digital. El área de facturación cierra el servicio y envía el reporte de cumplimiento al cliente."
+      }
+    ]
+  }
+}

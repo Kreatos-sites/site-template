@@ -1,0 +1,148 @@
+import { useTranslations } from "next-intl";
+
+import { Reveal } from "@/components/shared/reveal";
+import {
+  RiMailLine,
+  RiPhoneLine,
+  RiMapPinLine,
+  RiTimeLine,
+  RiWhatsappLine,
+  RiGlobalLine,
+  type RemixiconComponentType,
+} from "@remixicon/react";
+
+type Channel = { icon: string; label: string; value: string };
+type Field = {
+  name: string;
+  label: string;
+  type: string;
+  placeholder: string;
+};
+
+const ICONS: Record<string, RemixiconComponentType> = {
+  mail: RiMailLine,
+  phone: RiPhoneLine,
+  "map-pin": RiMapPinLine,
+  clock: RiTimeLine,
+  whatsapp: RiWhatsappLine,
+  globe: RiGlobalLine,
+};
+
+export function ContactChannelsListFormScrollStagger({ ns }: { ns: string }) {
+  const t = useTranslations(ns);
+  const channels = t.raw("channels") as Channel[];
+  const fields = t.raw("fields") as Field[];
+
+  return (
+    <section className="border-t border-border bg-background py-(--section-gap)">
+      <div className="mx-auto w-full max-w-6xl px-6 lg:px-8">
+        <Reveal>
+          <p className="text-xs font-medium tracking-[0.25em] text-primary uppercase">
+            {t("eyebrow")}
+          </p>
+          <h2 className="mt-5 max-w-2xl font-display text-[clamp(2rem,4vw,3.25rem)] leading-[1.05] tracking-tight text-balance text-foreground">
+            {t("title")}
+          </h2>
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground text-pretty">
+            {t("subtitle")}
+          </p>
+        </Reveal>
+
+        <div className="mt-14 grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-start">
+          {/* Izquierda: lista de canales con scroll interno */}
+          <div className="lg:col-span-4">
+            <Reveal>
+              <h3 className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase">
+                {t("channelsTitle")}
+              </h3>
+            </Reveal>
+            <div className="mt-5 max-h-[26rem] overflow-y-auto rounded-sm border border-border bg-card">
+              <ul className="flex flex-col divide-y divide-border">
+                {channels.map((channel, index) => {
+                  const Icon = ICONS[channel.icon] ?? RiMailLine;
+                  return (
+                    <li key={channel.label} className="contents">
+                      <Reveal delay={index * 60}>
+                        <article className="flex items-start gap-4 p-6">
+                          <span
+                            aria-hidden="true"
+                            className="grid size-10 shrink-0 place-items-center rounded-full bg-primary/10 text-primary"
+                          >
+                            <Icon className="size-5" />
+                          </span>
+                          <div className="flex flex-col gap-1">
+                            <p className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase">
+                              {channel.label}
+                            </p>
+                            <p className="text-base leading-relaxed text-foreground">
+                              {channel.value}
+                            </p>
+                          </div>
+                        </article>
+                      </Reveal>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          </div>
+
+          {/* Derecha: formulario a todo lo ancho de su columna */}
+          <div className="lg:col-span-8">
+            <Reveal delay={120}>
+              <form className="flex flex-col gap-6 rounded-sm border border-border bg-card p-8 lg:p-10">
+                <h3 className="font-display text-lg tracking-tight text-foreground">
+                  {t("formTitle")}
+                </h3>
+                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                  {fields.map((field, index) => (
+                    <Reveal key={field.name} delay={160 + index * 40}>
+                      <div
+                        className={
+                          field.type === "textarea"
+                            ? "flex flex-col gap-2 sm:col-span-2"
+                            : "flex flex-col gap-2"
+                        }
+                      >
+                        <label
+                          htmlFor={field.name}
+                          className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase"
+                        >
+                          {field.label}
+                        </label>
+                        {field.type === "textarea" ? (
+                          <textarea
+                            id={field.name}
+                            name={field.name}
+                            placeholder={field.placeholder}
+                            rows={5}
+                            className="resize-none rounded-sm border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:ring-2 focus:ring-primary focus:outline-none"
+                          />
+                        ) : (
+                          <input
+                            id={field.name}
+                            name={field.name}
+                            type={field.type}
+                            placeholder={field.placeholder}
+                            className="rounded-sm border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:ring-2 focus:ring-primary focus:outline-none"
+                          />
+                        )}
+                      </div>
+                    </Reveal>
+                  ))}
+                </div>
+
+                <button
+                  type="submit"
+                  className="mt-2 inline-flex items-center justify-center rounded-sm bg-primary px-8 py-4 text-sm font-medium tracking-wide text-primary-foreground uppercase transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                >
+                  {t("submitLabel")}
+                </button>
+              </form>
+            </Reveal>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

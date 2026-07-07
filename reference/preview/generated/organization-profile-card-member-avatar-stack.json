@@ -1,0 +1,32 @@
+{
+  "key": "organization-profile-card-member-avatar-stack",
+  "pascalName": "OrganizationProfileCardMemberAvatarStack",
+  "category": "Equipo",
+  "catalogRow": "| `organization-profile-card-member-avatar-stack` | organization-profile-card-member-avatar-stack — tarjeta de perfil organizacional con logo verificado, descripción, franja de métricas y stack de avatares del equipo | { eyebrow, title, logo, logoAlt, companyName, verifiedLabel, tagline, description, websiteLabel, websiteHref, contactEmail, membersLabel, metrics: [{ value, label }], members: [{ name, avatar }] } |",
+  "fixture": {
+    "eyebrow": "Perfil corporativo",
+    "title": "El despacho detrás de sus proyectos",
+    "logo": "/images/about.svg",
+    "logoAlt": "Logotipo de Cobos & Ibarra Arquitectos",
+    "companyName": "Cobos & Ibarra Arquitectos",
+    "verifiedLabel": "Empresa verificada",
+    "tagline": "Despacho de arquitectura y dirección de obra, Monterrey",
+    "description": "Coordinamos diseño, permisos y dirección de obra en un solo equipo, con entregas documentadas en cada etapa del proyecto.",
+    "websiteLabel": "cobosibarra.mx",
+    "websiteHref": "https://cobosibarra.mx",
+    "contactEmail": "contacto@cobosibarra.mx",
+    "membersLabel": "Equipo directivo y de proyecto",
+    "metrics": [
+      { "value": "18", "label": "Años operando" },
+      { "value": "126", "label": "Proyectos entregados" },
+      { "value": "34", "label": "Colaboradores" },
+      { "value": "9", "label": "Estados atendidos" }
+    ],
+    "members": [
+      { "name": "Renata Cobos, socia directora", "avatar": "/images/about.svg" },
+      { "name": "Emilio Ibarra, socio de obra", "avatar": "/images/about.svg" },
+      { "name": "Paulina Salas, gerente de proyectos", "avatar": "/images/about.svg" },
+      { "name": "Héctor Ramos, coordinador técnico", "avatar": "/images/about.svg" }
+    ]
+  }
+}

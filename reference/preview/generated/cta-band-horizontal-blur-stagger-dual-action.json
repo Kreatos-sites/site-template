@@ -1,0 +1,19 @@
+{
+  "key": "cta-band-horizontal-blur-stagger-dual-action",
+  "pascalName": "CtaBandHorizontalBlurStaggerDualAction",
+  "category": "Heroes",
+  "catalogRow": "| `cta-band-horizontal-blur-stagger-dual-action` | cta-band-horizontal-blur-stagger-dual-action — banda horizontal de conversión con halo desenfocado de fondo y dos acciones en stagger, ideal como cierre de página o quiebre entre secciones | { eyebrow, title, description, primaryCta: { label, href }, secondaryCta: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Siguiente paso",
+    "title": "Agende una revisión de su expediente con nuestro despacho",
+    "description": "Un socio del área correspondiente revisa su caso y le comparte una ruta clara de trabajo, con honorarios definidos antes de iniciar.",
+    "primaryCta": {
+      "label": "Agendar consulta",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer áreas de práctica",
+      "href": "/servicios"
+    }
+  }
+}

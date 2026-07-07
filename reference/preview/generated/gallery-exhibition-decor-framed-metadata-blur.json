@@ -1,0 +1,67 @@
+{
+  "key": "gallery-exhibition-decor-framed-metadata-blur",
+  "pascalName": "GalleryExhibitionDecorFramedMetadataBlur",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `gallery-exhibition-decor-framed-metadata-blur` | gallery-exhibition-decor-framed-metadata-blur — grid de exhibición con marco decorativo por pieza, metadatos centrados (categoría, título, año) y crossfade con blur al pasar el cursor, para portafolios curados de estudios creativos o inmobiliarias. | { eyebrow, title, description, items: [{ image, imageAlt, hoverImage, hoverImageAlt, category, title, year }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de proyectos",
+    "title": "Una selección de nuestro trabajo reciente",
+    "description": "Cada proyecto refleja el criterio de diseño y la ejecución técnica que aplicamos con nuestros clientes, desde la conceptualización hasta la entrega final.",
+    "items": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista general de las oficinas corporativas Alameda",
+        "hoverImage": "/images/hero.svg",
+        "hoverImageAlt": "Detalle del área de recepción de oficinas corporativas Alameda",
+        "category": "Interiorismo corporativo",
+        "title": "Oficinas Alameda",
+        "year": "2025"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada del centro logístico Norte industrial",
+        "hoverImage": "/images/about.svg",
+        "hoverImageAlt": "Interior de nave del centro logístico Norte industrial",
+        "category": "Arquitectura industrial",
+        "title": "Centro Logístico Norte",
+        "year": "2024"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas del despacho jurídico Reforma",
+        "hoverImage": "/images/hero.svg",
+        "hoverImageAlt": "Pasillo principal del despacho jurídico Reforma",
+        "category": "Interiorismo corporativo",
+        "title": "Despacho Reforma",
+        "year": "2024"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea del desarrollo residencial Cumbres",
+        "hoverImage": "/images/about.svg",
+        "hoverImageAlt": "Amenidades del desarrollo residencial Cumbres",
+        "category": "Desarrollo residencial",
+        "title": "Residencial Cumbres",
+        "year": "2023"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Showroom de la marca automotriz Sierra",
+        "hoverImage": "/images/hero.svg",
+        "hoverImageAlt": "Área de exhibición de vehículos Sierra",
+        "category": "Retail y showrooms",
+        "title": "Showroom Sierra",
+        "year": "2023"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Planta de manufactura Vértice desde el patio de maniobras",
+        "hoverImage": "/images/about.svg",
+        "hoverImageAlt": "Línea de producción de la planta Vértice",
+        "category": "Arquitectura industrial",
+        "title": "Planta Vértice",
+        "year": "2022"
+      }
+    ]
+  }
+}

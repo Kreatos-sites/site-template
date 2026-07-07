@@ -1,0 +1,20 @@
+{
+  "key": "logo-cloud-marquee-infinite-responsive-drift",
+  "pascalName": "LogoCloudMarqueeInfiniteResponsiveDrift",
+  "category": "Features y servicios",
+  "catalogRow": "| `logo-cloud-marquee-infinite-responsive-drift` | logo-cloud-marquee-infinite-responsive-drift — marquesina infinita de logotipos de clientes/aliados con máscara de desvanecimiento en los bordes y pausa al pasar el ratón, para transmitir confianza y cartera de clientes | { eyebrow, title, logos: [{ name }] } |",
+  "fixture": {
+    "eyebrow": "Empresas que confían en nosotros",
+    "title": "Despachos y constructoras que ya trabajan con nuestro sistema",
+    "logos": [
+      { "name": "Grupo Constructor Altavista" },
+      { "name": "Corporativo Ferretero del Norte" },
+      { "name": "Despacho Medina y Asociados" },
+      { "name": "Logística Peninsular" },
+      { "name": "Inmobiliaria San Rafael" },
+      { "name": "Distribuidora Industrial Cuatro Caminos" },
+      { "name": "Estudio Arquitectónico Vértice" },
+      { "name": "Transportes del Bajío" }
+    ]
+  }
+}

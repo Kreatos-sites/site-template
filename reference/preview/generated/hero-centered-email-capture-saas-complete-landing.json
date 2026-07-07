@@ -1,0 +1,93 @@
+{
+  "key": "hero-centered-email-capture-saas-complete-landing",
+  "pascalName": "HeroCenteredEmailCaptureSaasCompleteLanding",
+  "category": "Heroes",
+  "catalogRow": "| `hero-centered-email-capture-saas-complete-landing` | hero-centered-email-capture-saas-complete-landing — landing de producto en preventa: hero centrado con captura de correo, cifras clave, grid de características con icono, línea de tiempo de cómo funciona, testimonio destacado y banda final de registro | { eyebrow, title, description, formAction, inputLabel, inputPlaceholder, cta, legal, statsEyebrow, stats: [{value, label}], featuresEyebrow, featuresTitle, features: [{icon, title, description}], processEyebrow, processTitle, steps: [{icon, title, description}], testimonial: {quote, author, role}, waitlistEyebrow, waitlistTitle, waitlistDescription, waitlistFormAction, waitlistInputLabel, waitlistInputPlaceholder, waitlistCta, waitlistLegal } |",
+  "fixture": {
+    "eyebrow": "Acceso anticipado",
+    "title": "El software de gestión para despachos jurídicos que por fin habla su idioma",
+    "description": "Centralice expedientes, plazos procesales y facturación de su despacho en una sola plataforma. Regístrese para obtener acceso anticipado y una tarifa preferencial de lanzamiento.",
+    "formAction": "/api/waitlist",
+    "inputLabel": "Correo electrónico",
+    "inputPlaceholder": "usted@despacho.com.mx",
+    "cta": "Solicitar acceso",
+    "legal": "Sin costo durante el periodo de acceso anticipado. Cancele cuando lo desee.",
+    "statsEyebrow": "En cifras",
+    "stats": [
+      { "value": "180+", "label": "Despachos en lista de espera" },
+      { "value": "32%", "label": "Menos horas administrativas al mes" },
+      { "value": "4.8/5", "label": "Calificación en pruebas piloto" }
+    ],
+    "featuresEyebrow": "Qué incluye",
+    "featuresTitle": "Todo lo que un despacho necesita para operar sin fricciones",
+    "features": [
+      {
+        "icon": "checklist",
+        "title": "Control de expedientes",
+        "description": "Organice cada asunto por cliente, materia y etapa procesal, con historial completo de actuaciones."
+      },
+      {
+        "icon": "timer",
+        "title": "Alertas de plazos",
+        "description": "Reciba avisos automáticos de audiencias, vencimientos y términos antes de que se conviertan en un riesgo."
+      },
+      {
+        "icon": "file",
+        "title": "Facturación integrada",
+        "description": "Genere honorarios y notas de gastos directamente desde cada expediente, sin hojas de cálculo aparte."
+      },
+      {
+        "icon": "shield",
+        "title": "Resguardo de información",
+        "description": "Cifrado de documentos y control de accesos por rol, pensado para el manejo de información confidencial."
+      },
+      {
+        "icon": "bars",
+        "title": "Reportes por socio",
+        "description": "Visualice carga de trabajo, facturación y avance por abogado o por área del despacho."
+      },
+      {
+        "icon": "users",
+        "title": "Portal para clientes",
+        "description": "Comparta el avance de cada asunto con sus clientes sin necesidad de correos ni llamadas de seguimiento."
+      }
+    ],
+    "processEyebrow": "Cómo funciona",
+    "processTitle": "De la solicitud a su despacho operando en unos días",
+    "steps": [
+      {
+        "icon": "rocket",
+        "title": "Solicite acceso",
+        "description": "Deje su correo y le contactamos para agendar una breve llamada de diagnóstico."
+      },
+      {
+        "icon": "checklist",
+        "title": "Configuramos su despacho",
+        "description": "Migramos sus expedientes activos y ajustamos los flujos a la forma de trabajar de su equipo."
+      },
+      {
+        "icon": "users",
+        "title": "Capacitamos a su equipo",
+        "description": "Sesión guiada para abogados y personal administrativo, sin curva de aprendizaje prolongada."
+      },
+      {
+        "icon": "chart",
+        "title": "Empiece a operar",
+        "description": "Su despacho queda funcionando con seguimiento cercano durante las primeras semanas."
+      }
+    ],
+    "testimonial": {
+      "quote": "Dejamos de perseguir plazos en hojas de cálculo. Hoy sabemos exactamente en qué etapa está cada asunto del despacho.",
+      "author": "Renata Off Solórzano",
+      "role": "Socia directora, Off & Barranco Abogados"
+    },
+    "waitlistEyebrow": "Lugares limitados",
+    "waitlistTitle": "Asegure su lugar en el acceso anticipado",
+    "waitlistDescription": "Estamos incorporando despachos de forma gradual para dar una implementación cercana a cada equipo. Regístrese hoy para no quedar fuera de esta primera etapa.",
+    "waitlistFormAction": "/api/waitlist",
+    "waitlistInputLabel": "Correo electrónico",
+    "waitlistInputPlaceholder": "usted@despacho.com.mx",
+    "waitlistCta": "Unirme a la lista",
+    "waitlistLegal": "Al registrarse acepta recibir correos sobre el lanzamiento de la plataforma."
+  }
+}

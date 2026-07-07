@@ -1,0 +1,37 @@
+{
+  "key": "hero-split-dashboard-screenshot-dual-cta-left",
+  "pascalName": "HeroSplitDashboardScreenshotDualCtaLeft",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-dashboard-screenshot-dual-cta-left` | hero-split-dashboard-screenshot-dual-cta-left — hero dividido a dos columnas con titular y doble CTA a la izquierda, panel tipo dashboard enmarcado (tarjetas de estadísticas, gráfica de barras y tabla) a la derecha | { eyebrow, title, subtitle, primaryCta: {label, href}, secondaryCta: {label, href}, screenshot: { label, tableCaption, headers: {name, status, value}, stats: [{value, label}], chart: [{label, value}], rows: [{name, status, value}] } } |",
+  "fixture": {
+    "eyebrow": "Control de obra",
+    "title": "Supervise cada obra desde un solo panel",
+    "subtitle": "Grupo Alba Constructora centraliza avances, costos y entregas de todos sus proyectos en tiempo real, sin depender de reportes dispersos por correo.",
+    "primaryCta": { "label": "Solicitar demostración", "href": "#contacto" },
+    "secondaryCta": { "label": "Ver casos de obra", "href": "#proyectos" },
+    "screenshot": {
+      "label": "Panel de obras · julio 2026",
+      "tableCaption": "Avance de proyectos activos",
+      "headers": { "name": "Proyecto", "status": "Estatus", "value": "Avance" },
+      "stats": [
+        { "value": "18", "label": "Obras activas" },
+        { "value": "92%", "label": "Entregas a tiempo" },
+        { "value": "$46M", "label": "Presupuesto en obra" }
+      ],
+      "chart": [
+        { "label": "Ene", "value": 32 },
+        { "label": "Feb", "value": 41 },
+        { "label": "Mar", "value": 38 },
+        { "label": "Abr", "value": 52 },
+        { "label": "May", "value": 61 },
+        { "label": "Jun", "value": 74 }
+      ],
+      "rows": [
+        { "name": "Torre Reforma Norte", "status": "En obra gris", "value": "68%" },
+        { "name": "Nave Industrial Toluca", "status": "Cimentación", "value": "24%" },
+        { "name": "Plaza Comercial Vía 5", "status": "Acabados", "value": "89%" },
+        { "name": "Bodega Logística Sur", "status": "Entregada", "value": "100%" }
+      ]
+    }
+  }
+}

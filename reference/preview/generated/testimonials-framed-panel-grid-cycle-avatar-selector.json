@@ -1,0 +1,37 @@
+{
+  "key": "testimonials-framed-panel-grid-cycle-avatar-selector",
+  "pascalName": "TestimonialsFramedPanelGridCycleAvatarSelector",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-framed-panel-grid-cycle-avatar-selector` | testimonials-framed-panel-grid-cycle-avatar-selector — panel enmarcado con fondo de retícula y cita central que rota entre testimonios 100% CSS · avatares como chips selectores para elegir cuál se muestra. | { eyebrow, title, selectorLabel, testimonials: [{ quote, author, role, company, avatar, avatarAlt }] } |",
+  "fixture": {
+    "eyebrow": "Clientes que confían en nosotros",
+    "title": "Resultados que nuestros clientes pueden medir",
+    "selectorLabel": "Seleccionar testimonio",
+    "testimonials": [
+      {
+        "quote": "Redujimos el tiempo de cierre de expedientes catastrales de seis semanas a diez días. El equipo se integró a nuestro flujo de trabajo sin fricción y con reportes que nuestro consejo entiende de inmediato.",
+        "author": "Ileana Vargas",
+        "role": "Directora Jurídica",
+        "company": "Vargas Inmobiliaria",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ileana Vargas, Directora Jurídica de Vargas Inmobiliaria"
+      },
+      {
+        "quote": "Consolidamos el inventario de nueve bodegas en un solo panel. Hoy detectamos faltantes antes de que afecten una entrega, algo que antes nos tomaba días descubrir.",
+        "author": "Marco Tinoco",
+        "role": "Gerente de Cadena de Suministro",
+        "company": "Grupo Tinoco Distribución",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Marco Tinoco, Gerente de Cadena de Suministro de Grupo Tinoco Distribución"
+      },
+      {
+        "quote": "El sistema de cotización automática nos permitió responder a licitaciones el mismo día en vez de la semana siguiente. Ganamos tres contratos que antes se nos iban por tiempos de respuesta.",
+        "author": "Fernanda Ocampo",
+        "role": "Directora Comercial",
+        "company": "Constructora Ocampo",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Fernanda Ocampo, Directora Comercial de Constructora Ocampo"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "key": "pricing-duo-split-filled-plain-asymmetric",
+  "pascalName": "PricingDuoSplitFilledPlainAsymmetric",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-duo-split-filled-plain-asymmetric` | pricing-duo-split-filled-plain-asymmetric — dos planes lado a lado en contraste directo (Pro relleno con bg-primary a la izquierda, Starter plano sobre bg-card a la derecha), sin grid de tres columnas, para cuando el sitio solo maneja dos niveles de servicio | { eyebrow, title, plans: [{ name, price, period, description, features: string[], ctaLabel, featured }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Dos formas de trabajar con nuestro despacho",
+    "plans": [
+      {
+        "name": "Acompañamiento integral",
+        "price": "$18,500",
+        "period": "MXN / mes",
+        "description": "Para empresas que requieren asesoría fiscal y contable permanente, con revisión mensual de obligaciones.",
+        "features": [
+          "Contador asignado de forma directa",
+          "Declaraciones mensuales y anuales incluidas",
+          "Revisión de nómina y CFDI",
+          "Reuniones trimestrales de cierre"
+        ],
+        "ctaLabel": "Agendar diagnóstico",
+        "featured": true
+      },
+      {
+        "name": "Consulta por proyecto",
+        "price": "$3,200",
+        "period": "MXN / consulta",
+        "description": "Para trámites puntuales: constitución de sociedad, dictamen fiscal o una revisión específica.",
+        "features": [
+          "Sesión de diagnóstico de 90 minutos",
+          "Entregable por escrito con recomendaciones",
+          "Sin permanencia mínima"
+        ],
+        "ctaLabel": "Solicitar consulta",
+        "featured": false
+      }
+    ]
+  }
+}

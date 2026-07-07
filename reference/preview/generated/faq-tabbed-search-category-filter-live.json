@@ -1,0 +1,71 @@
+{
+  "key": "faq-tabbed-search-category-filter-live",
+  "pascalName": "FaqTabbedSearchCategoryFilterLive",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-tabbed-search-category-filter-live` | faq-tabbed-search-category-filter-live — barra de búsqueda + tabs de categoría (General, Facturación, Seguridad) con acordeón, para bases de FAQ extensas organizadas por tema | { eyebrow, title, description, searchPlaceholder, categories: [{ id, label, icon, items: [{ question, answer }] }] } |",
+  "fixture": {
+    "eyebrow": "Centro de ayuda",
+    "title": "Preguntas frecuentes por tema",
+    "description": "Consulte las dudas más comunes sobre nuestros servicios de asesoría fiscal y contable, organizadas por categoría para que encuentre la respuesta con rapidez.",
+    "searchPlaceholder": "Buscar por palabra clave dentro de la categoría seleccionada",
+    "categories": [
+      {
+        "id": "general",
+        "label": "General",
+        "icon": "question",
+        "items": [
+          {
+            "question": "¿Qué servicios ofrece el despacho?",
+            "answer": "Brindamos contabilidad mensual, declaraciones fiscales, nómina y acompañamiento en auditorías ante el SAT para empresas y personas físicas con actividad empresarial."
+          },
+          {
+            "question": "¿Con qué anticipación debo contratar el servicio?",
+            "answer": "Recomendamos iniciar el proceso al menos dos semanas antes del cierre del periodo fiscal correspondiente, para revisar su información sin contratiempos."
+          },
+          {
+            "question": "¿Atienden clientes fuera de Guadalajara?",
+            "answer": "Sí, trabajamos de forma remota con clientes en todo México mediante juntas por videollamada y una carpeta compartida para el intercambio de documentos."
+          }
+        ]
+      },
+      {
+        "id": "billing",
+        "label": "Facturación",
+        "icon": "receipt",
+        "items": [
+          {
+            "question": "¿Cómo se calculan las cuotas mensuales?",
+            "answer": "La cuota depende del régimen fiscal, el volumen de movimientos bancarios y el número de empleados en nómina; se la confirmamos por escrito antes de iniciar."
+          },
+          {
+            "question": "¿Qué métodos de pago aceptan?",
+            "answer": "Aceptamos transferencia bancaria y domiciliación mensual. Emitimos su CFDI de honorarios dentro de los primeros cinco días de cada mes."
+          },
+          {
+            "question": "¿Puedo cancelar el servicio en cualquier momento?",
+            "answer": "Sí, el contrato es mes a mes sin permanencia forzosa; basta con avisar con quince días de anticipación al corte de facturación."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "label": "Seguridad",
+        "icon": "shield",
+        "items": [
+          {
+            "question": "¿Cómo protegen la información de mi empresa?",
+            "answer": "Sus documentos se almacenan en una carpeta cifrada con acceso restringido al equipo asignado a su cuenta, y firmamos un acuerdo de confidencialidad al inicio."
+          },
+          {
+            "question": "¿Quién tiene acceso a mis claves del SAT?",
+            "answer": "Únicamente el contador responsable de su cuenta y el socio a cargo del despacho; el acceso queda registrado y se revoca al terminar la relación comercial."
+          },
+          {
+            "question": "¿Guardan copia de mis contraseñas fiscales?",
+            "answer": "No las almacenamos en texto plano: usamos un gestor de contraseñas cifrado y las eliminamos de nuestros sistemas al cierre del contrato, previa solicitud por escrito."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "key": "cta-card-minimal-bordered-centered-button",
+  "pascalName": "CtaCardMinimalBorderedCenteredButton",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `cta-card-minimal-bordered-centered-button` | cta-card-minimal-bordered-centered-button — tarjeta compacta con borde sobre fondo muted, copy mínimo y botón primario centrado de ancho completo, ideal para un momento de conversión puntual y contenido | { eyebrow, title, description, ctaLabel, ctaHref } |",
+  "fixture": {
+    "eyebrow": "Agende su cita",
+    "title": "Hable con un especialista esta semana",
+    "description": "Una llamada de 20 minutos para revisar su caso y definir los siguientes pasos, sin costo.",
+    "ctaLabel": "Agendar llamada",
+    "ctaHref": "/contacto"
+  }
+}

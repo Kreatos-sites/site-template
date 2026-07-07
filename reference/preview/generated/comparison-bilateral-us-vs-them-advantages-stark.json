@@ -1,0 +1,40 @@
+{
+  "key": "comparison-bilateral-us-vs-them-advantages-stark",
+  "pascalName": "ComparisonBilateralUsVsThemAdvantagesStark",
+  "category": "Heroes",
+  "catalogRow": "| `comparison-bilateral-us-vs-them-advantages-stark` | comparison-bilateral-us-vs-them-advantages-stark — comparativa bilateral de dos columnas (nosotros vs. otros despachos) con check en cada ventaja propia y texto tachado en el punto de dolor del competidor, por fila de criterio | { eyebrow, title, subtitle, usLabel, themLabel, items: [{ label, us, them }] } |",
+  "fixture": {
+    "eyebrow": "Comparativa",
+    "title": "Por qué las empresas cambian a nuestro despacho",
+    "subtitle": "La misma pregunta que nos hacen los clientes que llegan de otro despacho: qué cambia en la práctica. Aquí la respuesta, criterio por criterio.",
+    "usLabel": "Nuestro despacho",
+    "themLabel": "Otros despachos",
+    "items": [
+      {
+        "label": "Tiempo de respuesta",
+        "us": "Contestamos consultas urgentes en menos de 4 horas hábiles, con el abogado a cargo del caso.",
+        "them": "El primer contacto pasa por una mesa de atención y la respuesta tarda varios días."
+      },
+      {
+        "label": "Honorarios",
+        "us": "Cotización cerrada por caso, sin cargos adicionales por llamadas o correos.",
+        "them": "Facturación por hora sin techo, con sorpresas al final del mes."
+      },
+      {
+        "label": "Equipo asignado",
+        "us": "Un socio y un asociado fijos que conocen su expediente de principio a fin.",
+        "them": "El caso rota entre distintos abogados junior según la carga del despacho."
+      },
+      {
+        "label": "Reportes",
+        "us": "Informe de avance por escrito cada dos semanas, sin que usted tenga que pedirlo.",
+        "them": "Hay que llamar para enterarse en qué va el trámite."
+      },
+      {
+        "label": "Especialización",
+        "us": "Práctica enfocada en derecho corporativo y mercantil, con casos comparables al suyo.",
+        "them": "Despacho generalista que atiende desde lo laboral hasta lo penal."
+      }
+    ]
+  }
+}

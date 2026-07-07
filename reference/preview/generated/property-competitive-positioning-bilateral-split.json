@@ -1,0 +1,39 @@
+{
+  "key": "property-competitive-positioning-bilateral-split",
+  "pascalName": "PropertyCompetitivePositioningBilateralSplit",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-competitive-positioning-bilateral-split` | property-competitive-positioning-bilateral-split — Layout de comparación en dos paneles lado a lado ('nuestra propiedad' vs 'promedio del mercado') con lista de ventajas y desventajas, para posicionar un desarrollo frente a la competencia | { eyebrow, title, description, columns: [{ badge, name, summary, highlight, points: [{ text, included }] }] } |",
+  "fixture": {
+    "eyebrow": "Posicionamiento",
+    "title": "Cómo se compara Altavista Residencial frente al promedio de la zona",
+    "description": "Antes de agendar su visita, revise en qué se diferencia este desarrollo de otras opciones similares en Santa Fe con la misma superficie y rango de precio.",
+    "columns": [
+      {
+        "badge": "Altavista Residencial",
+        "name": "Nuestra propiedad",
+        "summary": "Desarrollo de 48 unidades con entrega inmediata y escrituración incluida en el precio publicado.",
+        "highlight": true,
+        "points": [
+          { "text": "Escrituración y gastos notariales incluidos", "included": true },
+          { "text": "Entrega inmediata, sin preventa", "included": true },
+          { "text": "Bodega y cajón de estacionamiento asignados", "included": true },
+          { "text": "Cuota de mantenimiento fija los primeros 24 meses", "included": true },
+          { "text": "Amenidades sin costo de membresía", "included": true }
+        ]
+      },
+      {
+        "badge": "Promedio de la zona",
+        "name": "Otras opciones en Santa Fe",
+        "summary": "Con base en 14 desarrollos comparables publicados en el mismo corredor durante los últimos seis meses.",
+        "highlight": false,
+        "points": [
+          { "text": "Gastos notariales por cuenta del comprador", "included": false },
+          { "text": "Entrega estimada a 18-24 meses", "included": false },
+          { "text": "Estacionamiento con costo adicional", "included": false },
+          { "text": "Cuota de mantenimiento sujeta a incrementos anuales", "included": false },
+          { "text": "Membresía de amenidades por separado", "included": false }
+        ]
+      }
+    ]
+  }
+}

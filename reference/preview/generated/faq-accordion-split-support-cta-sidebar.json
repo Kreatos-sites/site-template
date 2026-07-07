@@ -1,0 +1,55 @@
+{
+  "key": "faq-accordion-split-support-cta-sidebar",
+  "pascalName": "FaqAccordionSplitSupportCtaSidebar",
+  "category": "Features y servicios",
+  "catalogRow": "| `faq-accordion-split-support-cta-sidebar` | faq-accordion-split-support-cta-sidebar — diseño de dos columnas con panel de contacto/soporte fijo a la izquierda y acordeón de preguntas frecuentes a la derecha, útil cuando el visitante que no resuelve su duda necesita una salida directa a contacto | { eyebrow, title, support: { title, description, contacts: [{ icon, label, value }], ctaLabel, ctaHref }, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resolvemos sus dudas sobre nuestros servicios legales corporativos",
+    "support": {
+      "title": "¿No encuentra su respuesta?",
+      "description": "Nuestro equipo de atención a clientes está disponible para orientarlo sobre el servicio que mejor se ajuste a su empresa.",
+      "contacts": [
+        {
+          "icon": "phone",
+          "label": "Teléfono",
+          "value": "+52 55 4021 8873"
+        },
+        {
+          "icon": "mail",
+          "label": "Correo",
+          "value": "contacto@despacholegalmx.com"
+        },
+        {
+          "icon": "support",
+          "label": "Horario de atención",
+          "value": "Lunes a viernes, 9:00 a 18:00"
+        }
+      ],
+      "ctaLabel": "Agendar una consulta",
+      "ctaHref": "/contacto"
+    },
+    "items": [
+      {
+        "question": "¿Qué tipo de empresas pueden solicitar sus servicios?",
+        "answer": "Atendemos a empresas constituidas en México de cualquier tamaño, desde despachos y constructoras hasta distribuidoras y empresas de logística que requieren asesoría legal corporativa recurrente o por proyecto."
+      },
+      {
+        "question": "¿Cómo se define el costo de una asesoría?",
+        "answer": "El costo depende del alcance del proyecto y del tiempo estimado de dedicación. Después de una primera llamada de diagnóstico, le entregamos una propuesta con honorarios fijos o por destajo, según convenga a su caso."
+      },
+      {
+        "question": "¿Manejan contratos y procesos en más de un estado?",
+        "answer": "Sí. Contamos con convenios con despachos asociados en distintas entidades para dar seguimiento a trámites, notificaciones y procesos que requieran presencia local fuera de la Ciudad de México."
+      },
+      {
+        "question": "¿Cuánto tiempo toma la revisión de un contrato?",
+        "answer": "Para contratos estándar, el tiempo de revisión es de dos a tres días hábiles. Para acuerdos con mayor complejidad o negociación entre varias partes, el plazo se define durante la consulta inicial."
+      },
+      {
+        "question": "¿Ofrecen acompañamiento continuo, no solo por proyecto?",
+        "answer": "Sí, contamos con planes de asesoría mensual para empresas que requieren consulta legal recurrente, revisión de contratos y acompañamiento en cumplimiento normativo a lo largo del año."
+      }
+    ]
+  }
+}

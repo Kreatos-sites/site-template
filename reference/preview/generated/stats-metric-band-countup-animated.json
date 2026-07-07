@@ -1,0 +1,40 @@
+{
+  "key": "stats-metric-band-countup-animated",
+  "pascalName": "StatsMetricBandCountupAnimated",
+  "category": "Features y servicios",
+  "catalogRow": "| `stats-metric-band-countup-animated` | stats-metric-band-countup-animated — banda horizontal de 4 métricas con icono, cifra grande y badge de variación (tendencia), separada por líneas verticales; para mostrar indicadores operativos de logística/distribución de un vistazo | { eyebrow, title, metrics: [{ icon, value, label, delta, trend }] } |",
+  "fixture": {
+    "eyebrow": "Indicadores de operación",
+    "title": "Los números detrás de cada entrega",
+    "metrics": [
+      {
+        "icon": "truck",
+        "value": "1,240",
+        "label": "Envíos gestionados este trimestre",
+        "delta": "+8.2%",
+        "trend": "up"
+      },
+      {
+        "icon": "time",
+        "value": "96.4%",
+        "label": "Entregas dentro del tiempo pactado",
+        "delta": "+1.5 pp",
+        "trend": "up"
+      },
+      {
+        "icon": "user",
+        "value": "312",
+        "label": "Clientes activos con ruta asignada",
+        "delta": "+14%",
+        "trend": "up"
+      },
+      {
+        "icon": "pin",
+        "value": "18",
+        "label": "Estados de la República con cobertura",
+        "delta": "-2 vs. plan anual",
+        "trend": "down"
+      }
+    ]
+  }
+}

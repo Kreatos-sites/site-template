@@ -1,0 +1,40 @@
+{
+  "key": "testimonials-carousel-framed-auto-advance-selector-blur",
+  "pascalName": "TestimonialsCarouselFramedAutoAdvanceSelectorBlur",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-carousel-framed-auto-advance-selector-blur` | testimonials-carousel-framed-auto-advance-selector-blur — carrusel enmarcado de testimonios con avance automático (CSS puro) y transición de desenfoque entre voces, con chips selectores sincronizados | { eyebrow, title, items: [{ quote, name, role, company, initials }] } |",
+  "fixture": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen los clientes que ya trabajan con nosotros",
+    "items": [
+      {
+        "quote": "Desde que Valtierra Abogados lleva nuestros contratos de proveeduría, dejamos de perder semanas en revisiones. Entregan a tiempo y explican cada cláusula en términos que entendemos.",
+        "name": "Ricardo Muñoz",
+        "role": "Director de Operaciones",
+        "company": "Grupo Ferretero del Bajío",
+        "initials": "RM"
+      },
+      {
+        "quote": "Nos acompañaron en una disputa laboral compleja y mantuvieron informado a nuestro equipo directivo en cada etapa. La diferencia estuvo en la claridad de sus reportes.",
+        "name": "Paulina Escamilla",
+        "role": "Gerente de Recursos Humanos",
+        "company": "Manufacturas Industriales del Norte",
+        "initials": "PE"
+      },
+      {
+        "quote": "Renegociamos tres contratos de arrendamiento comercial con su apoyo y logramos condiciones que antes no habíamos conseguido por cuenta propia.",
+        "name": "Hugo Villaseñor",
+        "role": "Socio Fundador",
+        "company": "Inmobiliaria Cedros",
+        "initials": "HV"
+      },
+      {
+        "quote": "Su equipo de cumplimiento normativo nos ayudó a pasar una auditoría fiscal sin observaciones. Trabajan con orden y responden rápido cuando surge una duda.",
+        "name": "Daniela Ríos",
+        "role": "Directora Administrativa",
+        "company": "Distribuidora Sinaloa",
+        "initials": "DR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "key": "faq-sidebar-sticky-topic-rail-stats-synced",
+  "pascalName": "FaqSidebarStickyTopicRailStatsSynced",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-sidebar-sticky-topic-rail-stats-synced` | faq-sidebar-sticky-topic-rail-stats-synced — Sidebar sticky con rail de temas indexados (uno por pregunta) y bloque de estadísticas, sincronizado con acordeón de respuestas; para FAQs largas de landings editoriales. | { eyebrow, title, description, indexLabel, faqs: [{ id, topic, question, answer }], stats: [{ icon, value, label }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratar al despacho, resolvemos sus dudas",
+    "description": "Reunimos las preguntas que más nos hacen clientes corporativos antes de iniciar un mandato. Si su duda no aparece aquí, escríbanos y le respondemos en menos de un día hábil.",
+    "indexLabel": "Índice de temas",
+    "faqs": [
+      {
+        "id": "honorarios",
+        "topic": "Honorarios",
+        "question": "¿Cómo calculan los honorarios de un mandato?",
+        "answer": "Cotizamos por proyecto cerrado en litigios y contratos, y por iguala mensual en acompañamiento corporativo continuo. Antes de iniciar, le entregamos una propuesta por escrito con alcance, entregables y monto, sin cargos ocultos ni horas por facturar sin aviso previo."
+      },
+      {
+        "id": "plazos",
+        "topic": "Plazos",
+        "question": "¿En cuánto tiempo resuelven un caso mercantil?",
+        "answer": "Depende de la vía y de la instancia, pero en promedio un procedimiento mercantil ordinario toma entre ocho y catorce meses en primera instancia. En la propuesta inicial le compartimos un calendario estimado con las etapas procesales y los puntos de decisión."
+      },
+      {
+        "id": "confidencialidad",
+        "topic": "Confidencialidad",
+        "question": "¿Qué controles tienen sobre la información de mi empresa?",
+        "answer": "Firmamos acuerdo de confidencialidad desde la primera reunión, restringimos el acceso a expedientes por equipo asignado y almacenamos documentos en repositorio cifrado con bitácora de accesos. Ningún tercero recibe información del caso sin su autorización expresa."
+      },
+      {
+        "id": "seguimiento",
+        "topic": "Seguimiento",
+        "question": "¿Cómo doy seguimiento al avance de mi caso?",
+        "answer": "Cada cliente tiene un abogado responsable como punto de contacto directo y recibe un reporte quincenal por correo con el estatus del expediente. Para mandatos corporativos continuos agendamos una llamada mensual de revisión."
+      },
+      {
+        "id": "alcance",
+        "topic": "Alcance",
+        "question": "¿Atienden empresas fuera de la Ciudad de México?",
+        "answer": "Sí. Representamos clientes en procedimientos federales y en varias entidades a través de correspondencia procesal y, cuando el caso lo requiere, desplazamiento del equipo. La cobertura geográfica se define en la propuesta inicial junto con los costos de representación foránea."
+      }
+    ],
+    "stats": [
+      { "icon": "scale", "value": "180+", "label": "Mandatos resueltos" },
+      { "icon": "time", "value": "24 h", "label": "Tiempo de respuesta" },
+      { "icon": "team", "value": "12", "label": "Abogados asociados" },
+      { "icon": "scale", "value": "17 años", "label": "De operación" }
+    ]
+  }
+}

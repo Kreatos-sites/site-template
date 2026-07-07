@@ -1,0 +1,22 @@
+{
+  "key": "about-partners-split-narrative-logo-marks-blur-reveal",
+  "pascalName": "AboutPartnersSplitNarrativeLogoMarksBlurReveal",
+  "category": "Nosotros",
+  "catalogRow": "| `about-partners-split-narrative-logo-marks-blur-reveal` | about-partners-split-narrative-logo-marks-blur-reveal — split con texto narrativo a la izquierda y una retícula de marcas/despachos aliados que aparecen con efecto blur-a-sharp a la derecha | { eyebrow, title, paragraphs: string[], partners: [{ name, role }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas",
+    "title": "Construimos cada proyecto con especialistas de confianza",
+    "paragraphs": [
+      "Desde 2012 trabajamos junto con despachos de ingeniería, proveedores certificados y consultores independientes para entregar obra de calidad en tiempo y forma.",
+      "Cada alianza se elige por su historial verificable, no por conveniencia. Así respondemos por el resultado final ante nuestros clientes."
+    ],
+    "partners": [
+      { "name": "Estructuras Del Valle", "role": "Ingeniería estructural" },
+      { "name": "Mecánica Ferro", "role": "Instalaciones industriales" },
+      { "name": "Grupo Cimentar", "role": "Cimentaciones especiales" },
+      { "name": "Consultoría Reyna", "role": "Supervisión de obra" },
+      { "name": "Aceros del Norte", "role": "Proveeduría de acero" },
+      { "name": "Térmica Sáenz", "role": "Climatización industrial" }
+    ]
+  }
+}

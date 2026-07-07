@@ -1,0 +1,44 @@
+{
+  "key": "gallery-masonry-offset-framed-directional-reveal",
+  "pascalName": "GalleryMasonryOffsetFramedDirectionalReveal",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `gallery-masonry-offset-framed-directional-reveal` | gallery-masonry-offset-framed-directional-reveal — galería masonry con columnas desfasadas, marco de tarjeta y overlay direccional al hover para mostrar proyectos de portafolio | { eyebrow, title, tiles: [{ image, imageAlt, title, category, aspect: \"tall\"\\|\"square\"\\|\"wide\", offset: \"up\"\\|\"down\"\\|\"none\" }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos ejecutados por nuestro estudio de arquitectura",
+    "tiles": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de oficinas corporativas con revestimiento de piedra",
+        "title": "Torre corporativa Altamira",
+        "category": "Uso mixto",
+        "aspect": "tall",
+        "offset": "none"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de sala de juntas con iluminación natural",
+        "title": "Sala de juntas Cumbres",
+        "category": "Interiorismo",
+        "aspect": "square",
+        "offset": "down"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial con estructura metálica expuesta",
+        "title": "Centro logístico Apodaca",
+        "category": "Industrial",
+        "aspect": "wide",
+        "offset": "up"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada residencial de dos niveles con jardín frontal",
+        "title": "Residencial Los Encinos",
+        "category": "Residencial",
+        "aspect": "tall",
+        "offset": "down"
+      }
+    ]
+  }
+}

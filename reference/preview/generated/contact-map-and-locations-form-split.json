@@ -1,0 +1,42 @@
+{
+  "key": "contact-map-and-locations-form-split",
+  "pascalName": "ContactMapAndLocationsFormSplit",
+  "category": "Contacto",
+  "catalogRow": "| `contact-map-and-locations-form-split` | contact-map-and-locations-form-split — layout dividido con mapa e indicadores de sedes a la izquierda y formulario de contacto a la derecha, para negocios con varias ubicaciones | { eyebrow, title, subtitle, mapImage, mapImageAlt, locations: [{ icon, name, address, phone }], formTitle, fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Visítenos o escríbanos",
+    "subtitle": "Contamos con tres centros de distribución en el país. Elija la sede más cercana o envíenos su solicitud y le responderemos en menos de 24 horas.",
+    "mapImage": "/images/hero.svg",
+    "mapImageAlt": "Mapa con la ubicación de nuestros centros de distribución",
+    "locations": [
+      {
+        "icon": "map-pin",
+        "name": "Centro de Distribución CDMX",
+        "address": "Av. Ejército Nacional 843, Granada, Miguel Hidalgo, 11520",
+        "phone": "+52 55 4123 8890"
+      },
+      {
+        "icon": "map-pin",
+        "name": "Centro de Distribución Guadalajara",
+        "address": "Av. Vallarta 6503, Ciudad Granja, Zapopan, 45010",
+        "phone": "+52 33 3812 4467"
+      },
+      {
+        "icon": "map-pin",
+        "name": "Centro de Distribución Monterrey",
+        "address": "Av. Gonzalitos 1150, Mitras Centro, Monterrey, 64460",
+        "phone": "+52 81 8347 2210"
+      }
+    ],
+    "formTitle": "Envíenos su solicitud",
+    "fields": [
+      { "name": "name", "label": "Nombre", "type": "text", "placeholder": "Su nombre completo" },
+      { "name": "company", "label": "Empresa", "type": "text", "placeholder": "Nombre de su empresa" },
+      { "name": "email", "label": "Correo", "type": "email", "placeholder": "correo@empresa.com" },
+      { "name": "phone", "label": "Teléfono", "type": "tel", "placeholder": "10 dígitos" },
+      { "name": "message", "label": "Mensaje", "type": "textarea", "placeholder": "Describa el volumen y tipo de mercancía a distribuir" }
+    ],
+    "submitLabel": "Solicitar cotización"
+  }
+}

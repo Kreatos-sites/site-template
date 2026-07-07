@@ -1,0 +1,42 @@
+{
+  "key": "contact-form-visual-panel-parallax",
+  "pascalName": "ContactFormVisualPanelParallax",
+  "category": "Contacto",
+  "catalogRow": "| `contact-form-visual-panel-parallax` | contact-form-visual-panel-parallax — Formulario de contacto junto a un panel visual con overlay de datos de contacto, para páginas de soporte o consultas | { eyebrow, title, description, formLabel, form: { nameLabel, namePlaceholder, emailLabel, emailPlaceholder, subjectLabel, subjectPlaceholder, messageLabel, messagePlaceholder, submitLabel }, image, imageAlt, points: [{ icon, label, value }] } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Escríbanos y le respondemos en menos de un día hábil",
+    "description": "Nuestro equipo de atención revisa cada consulta de manera personal. Cuéntenos el motivo de su mensaje y le contactaremos con la información precisa.",
+    "formLabel": "Formulario de contacto",
+    "form": {
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Escriba su nombre",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "nombre@empresa.com",
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "¿Sobre qué desea consultarnos?",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Describa su consulta con el mayor detalle posible",
+      "submitLabel": "Enviar mensaje"
+    },
+    "image": "/images/about.svg",
+    "imageAlt": "Recepción del despacho donde se atienden las consultas de clientes",
+    "points": [
+      {
+        "icon": "mail",
+        "label": "Correo",
+        "value": "contacto@despacholegal.mx"
+      },
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 55 4021 8873"
+      },
+      {
+        "icon": "location",
+        "label": "Oficina",
+        "value": "Av. Paseo de la Reforma 350, Ciudad de México"
+      }
+    ]
+  }
+}

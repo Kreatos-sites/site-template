@@ -1,0 +1,69 @@
+{
+  "key": "gallery-masonry-css-columns-caption-hover-overlay",
+  "pascalName": "GalleryMasonryCssColumnsCaptionHoverOverlay",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-masonry-css-columns-caption-hover-overlay` | gallery-masonry-css-columns-caption-hover-overlay — galería masonry con columnas CSS y tiles de proporción variable que revelan una leyenda al pasar el cursor, para mostrar obra, proyectos o espacios | { eyebrow, title, description, items: [{ image, imageAlt, category, caption, aspect }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos ejecutados por Estudio Cardenal",
+    "description": "Una muestra de intervenciones residenciales y corporativas entregadas en los últimos años, documentadas en sitio tras el cierre de cada proyecto.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de oficinas corporativas con revestimiento de concreto aparente",
+        "category": "Corporativo",
+        "caption": "Torre Insurgentes — remodelación de fachada",
+        "aspect": "aspect-[4/5]"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas con muro divisorio de madera y luz cenital",
+        "category": "Interiorismo",
+        "caption": "Despacho legal Vidal & Asociados",
+        "aspect": "aspect-[3/4]"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Patio central de casa residencial con jardinera de piedra",
+        "category": "Residencial",
+        "caption": "Casa Roble — ampliación y patio central",
+        "aspect": "aspect-square"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Recepción de clínica dental con mostrador de cuarzo",
+        "category": "Salud",
+        "caption": "Clínica Dental Monterrey — recepción",
+        "aspect": "aspect-[4/5]"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial con estructura metálica y bodega de distribución",
+        "category": "Industrial",
+        "caption": "Centro logístico Apodaca — nave 2",
+        "aspect": "aspect-[3/4]"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terraza de restaurante con pérgola de madera y vegetación",
+        "category": "Hospitalidad",
+        "caption": "Restaurante Tejida — terraza principal",
+        "aspect": "aspect-square"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Lobby de edificio residencial con muro verde y luz natural",
+        "category": "Residencial",
+        "caption": "Edificio Alameda — lobby de acceso",
+        "aspect": "aspect-[4/5]"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de exhibición inmobiliaria con maqueta y ventanales",
+        "category": "Comercial",
+        "caption": "Sala de ventas Fraccionamiento Norte",
+        "aspect": "aspect-[3/4]"
+      }
+    ]
+  }
+}

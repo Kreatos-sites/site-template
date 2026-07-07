@@ -1,0 +1,42 @@
+{
+  "key": "product-gallery-screenshot-featured-thumbstrip-inline",
+  "pascalName": "ProductGalleryScreenshotFeaturedThumbstripInline",
+  "category": "Heroes",
+  "catalogRow": "| `product-gallery-screenshot-featured-thumbstrip-inline` | product-gallery-screenshot-featured-thumbstrip-inline — captura de producto principal en marco de navegador con badge de versión y descripción, más una tira de cinco miniaturas de pantallas secundarias debajo | { eyebrow, title, description, versionBadge, featuredImage, featuredImageAlt, caption, thumbnails: [{ image, imageAlt, label }] } |",
+  "fixture": {
+    "eyebrow": "Plataforma",
+    "title": "Un panel de control diseñado para despachos contables",
+    "description": "Concilie cuentas, genere reportes fiscales y dé seguimiento a sus clientes desde una sola pantalla, sin hojas de cálculo dispersas.",
+    "versionBadge": "Versión 3.2",
+    "featuredImage": "/images/hero.svg",
+    "featuredImageAlt": "Panel de control principal mostrando el resumen de conciliaciones del mes",
+    "caption": "El panel principal concentra el estado de conciliación de cada cliente, con alertas automáticas cuando un movimiento requiere revisión.",
+    "thumbnails": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de reportes fiscales por cliente",
+        "label": "Reportes fiscales"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de conciliación bancaria",
+        "label": "Conciliación bancaria"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de seguimiento de clientes",
+        "label": "Seguimiento de clientes"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de calendario fiscal",
+        "label": "Calendario fiscal"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de exportación de reportes",
+        "label": "Exportación de reportes"
+      }
+    ]
+  }
+}

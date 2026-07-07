@@ -1,0 +1,25 @@
+{
+  "key": "gallery-grid-uniform-with-stats-sidebar",
+  "pascalName": "GalleryGridUniformWithStatsSidebar",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-grid-uniform-with-stats-sidebar` | gallery-grid-uniform-with-stats-sidebar — grid de imágenes uniforme (aspect-square) junto a una tabla de métricas con icono, para mostrar obra/proyectos y cifras corporativas lado a lado | { eyebrow, title, images: [{ image, imageAlt }], metricsTitle, metrics: [{ icon, value, label }] } |",
+  "fixture": {
+    "eyebrow": "Obra terminada",
+    "title": "Proyectos entregados en los últimos cinco años",
+    "images": [
+      { "image": "/images/about.svg", "imageAlt": "Fachada de nave industrial en Apodaca, Nuevo León" },
+      { "image": "/images/about.svg", "imageAlt": "Interior de oficinas corporativas en Monterrey" },
+      { "image": "/images/about.svg", "imageAlt": "Estructura de concreto en etapa de acabados" },
+      { "image": "/images/about.svg", "imageAlt": "Plaza comercial con fachada de cristal" },
+      { "image": "/images/about.svg", "imageAlt": "Vista aérea de conjunto residencial" },
+      { "image": "/images/about.svg", "imageAlt": "Centro de distribución logística en construcción" }
+    ],
+    "metricsTitle": "En cifras",
+    "metrics": [
+      { "icon": "buildings", "value": "84", "label": "Proyectos entregados" },
+      { "icon": "ruler", "value": "312,000 m²", "label": "Superficie construida" },
+      { "icon": "calendar", "value": "18 años", "label": "Operando en el noreste" },
+      { "icon": "users", "value": "96%", "label": "Clientes que vuelven a contratarnos" }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "key": "header-editorial-wordmark-slashes-baseline-rule",
+  "pascalName": "HeaderEditorialWordmarkSlashesBaselineRule",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-editorial-wordmark-slashes-baseline-rule` | header-editorial-wordmark-slashes-baseline-rule — Navegación editorial minimalista con wordmark de marca, enlaces separados por slashes diagonales y una regla doble (línea neutra + acento primary) como línea base del header. | { wordmark, navLabel, menuLabel, ctaLabel, ctaHref, links: [{label, href}] } |",
+  "fixture": {
+    "wordmark": "Bureau Alcázar",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "ctaLabel": "Agende una consulta",
+    "ctaHref": "#contacto",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Socios", "href": "#socios" },
+      { "label": "Casos", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

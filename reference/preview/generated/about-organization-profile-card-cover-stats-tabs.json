@@ -1,0 +1,66 @@
+{
+  "key": "about-organization-profile-card-cover-stats-tabs",
+  "pascalName": "AboutOrganizationProfileCardCoverStatsTabs",
+  "category": "Nosotros",
+  "catalogRow": "| `about-organization-profile-card-cover-stats-tabs` | about-organization-profile-card-cover-stats-tabs — perfil público de la organización con portada, avatar superpuesto, bio, estadísticas y pestañas navegables (servicios, equipo, reconocimientos) | { eyebrow, title, coverImage, coverImageAlt, avatarImage, avatarImageAlt, name, role, locationLabel, contactLabel, bio, stats: [{value, label}], tabs: [{id, icon, label, heading, body, items: [string]}] } |",
+  "fixture": {
+    "eyebrow": "Perfil de la firma",
+    "title": "Conozca al despacho detrás de cada asesoría",
+    "coverImage": "/images/hero.svg",
+    "coverImageAlt": "Vista del corredor principal de las oficinas de Salinas y Barragán Abogados",
+    "avatarImage": "/images/about.svg",
+    "avatarImageAlt": "Distintivo de Salinas y Barragán Abogados",
+    "name": "Salinas y Barragán Abogados",
+    "role": "Derecho corporativo, fiscal y litigio mercantil",
+    "locationLabel": "Ciudad de México, MX",
+    "contactLabel": "Solicitar consulta",
+    "bio": "Despacho especializado en acompañar a empresas mexicanas en fusiones, cumplimiento fiscal y controversias mercantiles, con presencia en cuatro estados y más de dos décadas de trayectoria.",
+    "stats": [
+      { "value": "24", "label": "Años de operación" },
+      { "value": "310+", "label": "Casos resueltos" },
+      { "value": "18", "label": "Abogados asociados" },
+      { "value": "4", "label": "Sedes en el país" }
+    ],
+    "tabs": [
+      {
+        "id": "servicios",
+        "icon": "briefcase",
+        "label": "Servicios",
+        "heading": "Áreas de práctica",
+        "body": "Atendemos asuntos corporativos de principio a fin, desde la constitución de sociedades hasta la representación en tribunales.",
+        "items": [
+          "Fusiones y adquisiciones",
+          "Cumplimiento fiscal corporativo",
+          "Litigio mercantil",
+          "Contratos comerciales internacionales"
+        ]
+      },
+      {
+        "id": "equipo",
+        "icon": "users",
+        "label": "Equipo",
+        "heading": "Un equipo multidisciplinario",
+        "body": "Socios y asociados senior con formación en México y el extranjero, organizados por especialidad para dar respuesta directa a cada cliente.",
+        "items": [
+          "8 socios directores",
+          "10 asociados senior",
+          "Equipo de cumplimiento dedicado",
+          "Cobertura en español e inglés"
+        ]
+      },
+      {
+        "id": "reconocimientos",
+        "icon": "trophy",
+        "label": "Reconocimientos",
+        "heading": "Trayectoria reconocida por la industria",
+        "body": "Nuestro trabajo ha sido distinguido por cámaras empresariales y publicaciones especializadas en derecho corporativo en México.",
+        "items": [
+          "Despacho destacado en fusiones 2025",
+          "Reconocimiento a la ética profesional",
+          "Miembro activo de la Barra Mexicana",
+          "Certificación en cumplimiento anticorrupción"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "key": "footer-single-row-inline-wordmark-blur-compact",
+  "pascalName": "FooterSingleRowInlineWordmarkBlurCompact",
+  "category": "Footers",
+  "catalogRow": "| `footer-single-row-inline-wordmark-blur-compact` | footer-single-row-inline-wordmark-blur-compact — footer compacto de una sola fila con wordmark, navegación inline, copyright y botón de regreso arriba, dentro de una tarjeta con efecto blur | { wordmark, navLabel, links: [{ label, href }], copyright, backToTopLabel } |",
+  "fixture": {
+    "wordmark": "Ferretería Industrial Coahuila",
+    "navLabel": "Enlaces del pie de página",
+    "links": [
+      { "label": "Catálogo", "href": "#catalogo" },
+      { "label": "Cotizaciones", "href": "#cotizaciones" },
+      { "label": "Sucursales", "href": "#sucursales" },
+      { "label": "Aviso de privacidad", "href": "/privacidad" }
+    ],
+    "copyright": "© 2026 Ferretería Industrial Coahuila. Todos los derechos reservados.",
+    "backToTopLabel": "Volver arriba"
+  }
+}

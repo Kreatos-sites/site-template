@@ -1,0 +1,48 @@
+{
+  "key": "footer-grid-modular-bordered-newsletter-controls",
+  "pascalName": "FooterGridModularBorderedNewsletterControls",
+  "category": "Footers",
+  "catalogRow": "| `footer-grid-modular-bordered-newsletter-controls` | footer-grid-modular-bordered-newsletter-controls — footer tipo blueprint con celdas delimitadas por bordes (marca, columnas de enlaces, newsletter) y una barra inferior de controles en pill (idioma, modo de color) más copyright/legal | { brand, description, contactEmail, columns: [{ title, links: [{ label, href }] }], newsletter: { title, description, placeholder, buttonLabel }, controls: [{ icon, label }], legalLinks: [{ label, href }], copyright } |",
+  "fixture": {
+    "brand": "Constructora Altavista",
+    "description": "Despacho de ingeniería y construcción especializado en obra industrial y comercial en el centro del país.",
+    "contactEmail": "contacto@altavista-constructora.mx",
+    "columns": [
+      {
+        "title": "Servicios",
+        "links": [
+          { "label": "Obra industrial", "href": "/servicios/obra-industrial" },
+          { "label": "Obra comercial", "href": "/servicios/obra-comercial" },
+          { "label": "Supervisión técnica", "href": "/servicios/supervision" },
+          { "label": "Mantenimiento", "href": "/servicios/mantenimiento" }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          { "label": "Nosotros", "href": "/nosotros" },
+          { "label": "Proyectos", "href": "/proyectos" },
+          { "label": "Certificaciones", "href": "/certificaciones" },
+          { "label": "Trabaja con nosotros", "href": "/carreras" }
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Boletín técnico",
+      "description": "Reciba cada mes avances de obra, normativas de construcción y estudios de caso seleccionados.",
+      "placeholder": "Su correo electrónico",
+      "buttonLabel": "Suscribirse"
+    },
+    "controls": [
+      { "icon": "language", "label": "Español (MX)" },
+      { "icon": "light", "label": "Modo claro" },
+      { "icon": "dark", "label": "Modo oscuro" },
+      { "icon": "system", "label": "Automático" }
+    ],
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/aviso-de-privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ],
+    "copyright": "© 2026 Constructora Altavista. Todos los derechos reservados."
+  }
+}

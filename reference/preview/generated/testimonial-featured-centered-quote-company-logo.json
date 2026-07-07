@@ -1,0 +1,17 @@
+{
+  "key": "testimonial-featured-centered-quote-company-logo",
+  "pascalName": "TestimonialFeaturedCenteredQuoteCompanyLogo",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonial-featured-centered-quote-company-logo` | testimonial-featured-centered-quote-company-logo — testimonio único a modo de reflector, cita centrada de gran tamaño, avatar destacado y logotipo de la empresa, sin tarjetas ni grid, para dar máximo peso a una sola voz | { logo, logoAlt, quote, author: { name, role, avatar, avatarAlt } } |",
+  "fixture": {
+    "logo": "/images/about.svg",
+    "logoAlt": "Logotipo de Constructora Del Valle",
+    "quote": "Desde que trabajamos con este despacho, nuestros procesos de licitación se resolvieron en la mitad del tiempo. Su equipo entendió nuestra operación desde la primera reunión y nunca tuvimos que explicar dos veces lo mismo.",
+    "author": {
+      "name": "Ricardo Alemán",
+      "role": "Director de Operaciones, Constructora Del Valle",
+      "avatar": "/images/hero.svg",
+      "avatarAlt": "Retrato de Ricardo Alemán"
+    }
+  }
+}

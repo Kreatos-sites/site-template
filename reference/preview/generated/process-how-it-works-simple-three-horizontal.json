@@ -1,0 +1,27 @@
+{
+  "key": "process-how-it-works-simple-three-horizontal",
+  "pascalName": "ProcessHowItWorksSimpleThreeHorizontal",
+  "category": "Proceso",
+  "catalogRow": "| `process-how-it-works-simple-three-horizontal` | process-how-it-works-simple-three-horizontal — fila horizontal de tres pasos numerados con icono y descripción, para explicar un flujo de trabajo simple | { eyebrow, title, steps: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro, de la primera llamada a la entrega",
+    "steps": [
+      {
+        "icon": "phone",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su necesidad logística y las condiciones del sitio para proponer una ruta de trabajo realista, sin compromisos de por medio."
+      },
+      {
+        "icon": "signature",
+        "title": "Firma y planeación",
+        "description": "Formalizamos el acuerdo y definimos calendario, unidades asignadas y puntos de contacto para dar seguimiento a cada etapa."
+      },
+      {
+        "icon": "truck",
+        "title": "Ejecución y entrega",
+        "description": "Coordinamos la operación con reportes periódicos hasta confirmar la entrega en el destino acordado."
+      }
+    ]
+  }
+}

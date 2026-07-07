@@ -2,6 +2,87 @@
  * ÍNDICE GENERADO — reescrito por scripts/assemble-reference.mjs. No editar a mano.
  */
 export const generatedFixtures: Record<string, Record<string, unknown>> = {
+  "about-capabilities-vertical-list-accent-bar-stat-expand": {
+    "eyebrow": "Áreas de práctica",
+    "title": "Capacidades del despacho, respaldadas por resultados",
+    "capabilities": [
+      {
+        "icon": "scale",
+        "title": "Litigio civil y mercantil",
+        "description": "Representamos a la empresa en controversias contractuales, cobranza judicial y procedimientos ante juzgados civiles y mercantiles.",
+        "statValue": "312",
+        "statLabel": "casos resueltos en los últimos cinco años",
+        "detail": "El equipo da seguimiento a cada expediente desde la etapa prejudicial hasta la ejecución de sentencia, con reportes mensuales al cliente sobre el estado procesal."
+      },
+      {
+        "icon": "building",
+        "title": "Derecho corporativo",
+        "description": "Constitución de sociedades, gobierno corporativo, contratos entre accionistas y operaciones de fusión y adquisición.",
+        "statValue": "48",
+        "statLabel": "operaciones societarias cerradas en 2025",
+        "detail": "Asesoramos desde la due diligence hasta el cierre, coordinando con contadores y notarios para que la operación quede protocolizada sin retrasos."
+      },
+      {
+        "icon": "file",
+        "title": "Cumplimiento regulatorio",
+        "description": "Diagnóstico y actualización de políticas internas para cumplir con obligaciones fiscales, laborales y de protección de datos.",
+        "statValue": "96%",
+        "statLabel": "de clientes sin observaciones en su última auditoría",
+        "detail": "Revisamos el marco normativo aplicable a cada industria y entregamos un plan de remediación con responsables y fechas límite claras."
+      },
+      {
+        "icon": "handshake",
+        "title": "Negociación y contratos",
+        "description": "Redacción y revisión de contratos comerciales, acuerdos de distribución y convenios de confidencialidad.",
+        "statValue": "1,200+",
+        "statLabel": "contratos revisados",
+        "detail": "Cada contrato pasa por un checklist interno de riesgos antes de la firma, para que la empresa conozca su exposición real antes de comprometerse."
+      },
+      {
+        "icon": "gavel",
+        "title": "Arbitraje comercial",
+        "description": "Representación en procedimientos arbitrales nacionales e internacionales para resolver disputas fuera de tribunales ordinarios.",
+        "statValue": "18",
+        "statLabel": "laudos favorables obtenidos",
+        "detail": "Trabajamos con árbitros y peritos especializados por sector, lo que reduce el tiempo promedio de resolución frente al litigio tradicional."
+      },
+      {
+        "icon": "shield",
+        "title": "Protección de activos",
+        "description": "Estructuración patrimonial y estrategias legales para proteger activos de la empresa ante contingencias.",
+        "statValue": "$450M",
+        "statLabel": "en activos bajo estructuras de protección",
+        "detail": "Diseñamos vehículos legales acordes a la operación de cada cliente, revisados periódicamente conforme cambia la normatividad aplicable."
+      }
+    ]
+  },
+  "about-mission-centered-four-metrics-strip": {
+    "eyebrow": "Quiénes somos",
+    "title": "Construimos infraestructura logística para el comercio mexicano",
+    "mission": "Desde Monterrey coordinamos transporte, almacenaje y distribución para empresas que necesitan que su carga llegue a tiempo, sin sorpresas y con visibilidad completa de cada envío.",
+    "metrics": [
+      {
+        "icon": "calendar",
+        "value": "2011",
+        "label": "Año de fundación"
+      },
+      {
+        "icon": "team",
+        "value": "180+",
+        "label": "Colaboradores"
+      },
+      {
+        "icon": "global",
+        "value": "12",
+        "label": "Países atendidos"
+      },
+      {
+        "icon": "handshake",
+        "value": "340+",
+        "label": "Clientes activos"
+      }
+    ]
+  },
   "about-mission-centered-with-metric-underline": {
     "eyebrow": "Quiénes somos",
     "title": "Construimos infraestructura logística que no falla",
@@ -121,6 +202,78 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "about-organization-profile-card-cover-stats-tabs": {
+    "eyebrow": "Perfil de la firma",
+    "title": "Conozca al despacho detrás de cada asesoría",
+    "coverImage": "/images/hero.svg",
+    "coverImageAlt": "Vista del corredor principal de las oficinas de Salinas y Barragán Abogados",
+    "avatarImage": "/images/about.svg",
+    "avatarImageAlt": "Distintivo de Salinas y Barragán Abogados",
+    "name": "Salinas y Barragán Abogados",
+    "role": "Derecho corporativo, fiscal y litigio mercantil",
+    "locationLabel": "Ciudad de México, MX",
+    "contactLabel": "Solicitar consulta",
+    "bio": "Despacho especializado en acompañar a empresas mexicanas en fusiones, cumplimiento fiscal y controversias mercantiles, con presencia en cuatro estados y más de dos décadas de trayectoria.",
+    "stats": [
+      {
+        "value": "24",
+        "label": "Años de operación"
+      },
+      {
+        "value": "310+",
+        "label": "Casos resueltos"
+      },
+      {
+        "value": "18",
+        "label": "Abogados asociados"
+      },
+      {
+        "value": "4",
+        "label": "Sedes en el país"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "servicios",
+        "icon": "briefcase",
+        "label": "Servicios",
+        "heading": "Áreas de práctica",
+        "body": "Atendemos asuntos corporativos de principio a fin, desde la constitución de sociedades hasta la representación en tribunales.",
+        "items": [
+          "Fusiones y adquisiciones",
+          "Cumplimiento fiscal corporativo",
+          "Litigio mercantil",
+          "Contratos comerciales internacionales"
+        ]
+      },
+      {
+        "id": "equipo",
+        "icon": "users",
+        "label": "Equipo",
+        "heading": "Un equipo multidisciplinario",
+        "body": "Socios y asociados senior con formación en México y el extranjero, organizados por especialidad para dar respuesta directa a cada cliente.",
+        "items": [
+          "8 socios directores",
+          "10 asociados senior",
+          "Equipo de cumplimiento dedicado",
+          "Cobertura en español e inglés"
+        ]
+      },
+      {
+        "id": "reconocimientos",
+        "icon": "trophy",
+        "label": "Reconocimientos",
+        "heading": "Trayectoria reconocida por la industria",
+        "body": "Nuestro trabajo ha sido distinguido por cámaras empresariales y publicaciones especializadas en derecho corporativo en México.",
+        "items": [
+          "Despacho destacado en fusiones 2025",
+          "Reconocimiento a la ética profesional",
+          "Miembro activo de la Barra Mexicana",
+          "Certificación en cumplimiento anticorrupción"
+        ]
+      }
+    ]
+  },
   "about-organization-profile-stats": {
     "eyebrow": "Quiénes somos",
     "title": "Un despacho constituido, con historial verificable",
@@ -179,6 +332,40 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "about-partners-split-narrative-logo-marks-blur-reveal": {
+    "eyebrow": "Alianzas",
+    "title": "Construimos cada proyecto con especialistas de confianza",
+    "paragraphs": [
+      "Desde 2012 trabajamos junto con despachos de ingeniería, proveedores certificados y consultores independientes para entregar obra de calidad en tiempo y forma.",
+      "Cada alianza se elige por su historial verificable, no por conveniencia. Así respondemos por el resultado final ante nuestros clientes."
+    ],
+    "partners": [
+      {
+        "name": "Estructuras Del Valle",
+        "role": "Ingeniería estructural"
+      },
+      {
+        "name": "Mecánica Ferro",
+        "role": "Instalaciones industriales"
+      },
+      {
+        "name": "Grupo Cimentar",
+        "role": "Cimentaciones especiales"
+      },
+      {
+        "name": "Consultoría Reyna",
+        "role": "Supervisión de obra"
+      },
+      {
+        "name": "Aceros del Norte",
+        "role": "Proveeduría de acero"
+      },
+      {
+        "name": "Térmica Sáenz",
+        "role": "Climatización industrial"
+      }
+    ]
+  },
   "about-section-centered-eyebrow-mission-metrics": {
     "eyebrow": "Quiénes somos",
     "mission": "Construimos la infraestructura logística que sus operaciones necesitan para crecer sin fricciones.",
@@ -203,6 +390,81 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "icon": "handshake",
         "value": "340+",
         "label": "Clientes activos"
+      }
+    ]
+  },
+  "about-team-photo-narrative-metrics-split-two-column": {
+    "eyebrow": "Nuestro estudio",
+    "title": "Un equipo de arquitectos que proyecta con criterio, no con moda",
+    "paragraphs": [
+      "Fundamos el estudio en Guadalajara con una premisa simple: cada encargo merece una solución propia, no un catálogo de fachadas repetidas. Desde entonces hemos acompañado a despachos, desarrolladoras y particulares en proyectos que van del anteproyecto a la obra terminada.",
+      "El equipo está formado por arquitectos, ingenieros estructurales y un área de gestión de obra que da seguimiento a cada etapa. Trabajamos con planos coordinados, presupuestos revisados y visitas semanales, para que usted reciba avances verificables y no solo renders."
+    ],
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo del estudio revisando planos en la mesa de trabajo",
+    "metrics": [
+      {
+        "icon": "team",
+        "value": "18",
+        "label": "Arquitectos e ingenieros en plantilla"
+      },
+      {
+        "icon": "founded",
+        "value": "2011",
+        "label": "Año de fundación del estudio"
+      },
+      {
+        "icon": "location",
+        "value": "3",
+        "label": "Ciudades con obra en ejecución"
+      }
+    ]
+  },
+  "about-timeline-bilateral-alternating-spine": {
+    "eyebrow": "Nuestra historia",
+    "title": "Dos décadas construyendo con la misma disciplina",
+    "items": [
+      {
+        "year": "2006",
+        "tag": "Fundación",
+        "title": "Arranca Constructora Del Bravo",
+        "description": "Iniciamos operaciones en Monterrey con un equipo de ocho personas enfocado en obra industrial ligera para la zona metropolitana.",
+        "icon": "flag"
+      },
+      {
+        "year": "2011",
+        "tag": "Expansión",
+        "title": "Abrimos oficina en Saltillo",
+        "description": "La demanda de naves industriales en el corredor automotriz nos llevó a establecer una segunda base de operaciones permanente.",
+        "icon": "building"
+      },
+      {
+        "year": "2015",
+        "tag": "Alianza",
+        "title": "Sociedad con grupo desarrollador regional",
+        "description": "Firmamos una alianza a largo plazo para ejecutar proyectos de uso mixto, sumando capacidad de obra civil y vertical.",
+        "icon": "handshake"
+      },
+      {
+        "year": "2019",
+        "tag": "Certificación",
+        "title": "Certificación ISO 9001 en procesos de obra",
+        "description": "Formalizamos nuestros procedimientos de control de calidad y seguridad, requisito ya estándar para clientes corporativos.",
+        "icon": "award"
+      },
+      {
+        "year": "2022",
+        "tag": "Crecimiento",
+        "title": "Superamos los 120 proyectos entregados",
+        "description": "Consolidamos un portafolio de naves industriales, centros de distribución y edificios corporativos en el noreste del país.",
+        "icon": "rocket"
+      },
+      {
+        "year": "2025",
+        "tag": "Presencia nacional",
+        "title": "Primer proyecto fuera de la región noreste",
+        "description": "Iniciamos obra en el Bajío, ampliando nuestra operación más allá de Nuevo León y Coahuila.",
+        "icon": "globe"
       }
     ]
   },
@@ -493,6 +755,90 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     },
     "chartLabel": "Gráfica de proyectos activos por mes durante el año"
   },
+  "analytics-kpi-summary-row-area-chart-badge": {
+    "eyebrow": "Desempeño operativo",
+    "title": "Volumen de expedientes gestionados por mes",
+    "cardTitle": "Expedientes activos",
+    "cardSubtitle": "Últimos 12 meses, todas las áreas de práctica",
+    "chartLabel": "Gráfico de área con el volumen mensual de expedientes activos",
+    "growth": {
+      "value": "+18.4%",
+      "label": "vs. año anterior",
+      "direction": "up"
+    },
+    "kpis": [
+      {
+        "label": "Total del periodo",
+        "value": "1,842"
+      },
+      {
+        "label": "Mes pico",
+        "value": "196"
+      },
+      {
+        "label": "Variación",
+        "value": "+18.4%"
+      }
+    ],
+    "chart": [
+      {
+        "label": "Ene",
+        "value": 118
+      },
+      {
+        "label": "Feb",
+        "value": 124
+      },
+      {
+        "label": "Mar",
+        "value": 131
+      },
+      {
+        "label": "Abr",
+        "value": 129
+      },
+      {
+        "label": "May",
+        "value": 142
+      },
+      {
+        "label": "Jun",
+        "value": 151
+      },
+      {
+        "label": "Jul",
+        "value": 148
+      },
+      {
+        "label": "Ago",
+        "value": 160
+      },
+      {
+        "label": "Sep",
+        "value": 168
+      },
+      {
+        "label": "Oct",
+        "value": 174
+      },
+      {
+        "label": "Nov",
+        "value": 183
+      },
+      {
+        "label": "Dic",
+        "value": 196
+      }
+    ]
+  },
+  "announcement-centered-badge-product-update-card": {
+    "badge": "Versión 3.2",
+    "title": "Ahora puede firmar contratos directamente desde el portal",
+    "description": "Integramos la firma electrónica al flujo de expedientes: sus clientes reciben, revisan y firman sin salir de la plataforma, y el documento queda archivado automáticamente en su carpeta del caso.",
+    "meta": "Publicado el 3 de julio de 2026 · Disponible para todos los planes",
+    "ctaLabel": "Ver la actualización",
+    "ctaHref": "/actualizaciones"
+  },
   "announcement-centered-with-cta": {
     "badge": "Nuevo",
     "version": "v2.4",
@@ -696,6 +1042,51 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "shareLinkedinAria": "Compartir este artículo en LinkedIn",
     "shareCopyLinkAria": "Copiar el enlace de este artículo"
   },
+  "article-search-results-cards-snippet-badge-date": {
+    "eyebrow": "Centro de conocimiento",
+    "title": "Resultados de búsqueda",
+    "description": "Consulte nuestras guías, artículos y casos de estudio sobre cumplimiento fiscal, contratación y estructuración corporativa en México.",
+    "searchLabel": "Buscar en el centro de conocimiento",
+    "searchPlaceholder": "Buscar por tema, por ejemplo: retención de ISR",
+    "resultsCount": "{count} resultados encontrados",
+    "typeLabels": {
+      "guia": "Guía",
+      "articulo": "Artículo",
+      "caso": "Caso de estudio"
+    },
+    "results": [
+      {
+        "type": "guia",
+        "title": "Cómo calcular la retención de ISR para trabajadores por honorarios",
+        "snippet": "Explicamos el procedimiento vigente ante el SAT para calcular y enterar la retención de ISR en pagos a personas físicas con actividad profesional.",
+        "date": "Actualizado el 3 de julio de 2026"
+      },
+      {
+        "type": "articulo",
+        "title": "Cambios en la NOM-035 y su impacto en la política interna de la empresa",
+        "snippet": "Un repaso de las obligaciones vigentes en materia de riesgo psicosocial y las adecuaciones que deben hacer los despachos de recursos humanos.",
+        "date": "Actualizado el 28 de junio de 2026"
+      },
+      {
+        "type": "caso",
+        "title": "Reestructuración societaria de un grupo constructor con presencia en tres estados",
+        "snippet": "Describimos el proceso de fusión de tres razones sociales en una sola entidad operativa, incluyendo el manejo de contratos vigentes con clientes.",
+        "date": "Actualizado el 15 de junio de 2026"
+      },
+      {
+        "type": "guia",
+        "title": "Requisitos para constituir una sociedad anónima promotora de inversión",
+        "snippet": "Detallamos los pasos ante notario público, el capital social mínimo y los órganos de gobierno que exige este tipo societario.",
+        "date": "Actualizado el 2 de junio de 2026"
+      },
+      {
+        "type": "articulo",
+        "title": "Diferencias entre outsourcing autorizado y prestación de servicios especializados",
+        "snippet": "Aclaramos qué actividades pueden subcontratarse bajo el marco actual y cómo registrar correctamente al proveedor ante el REPSE.",
+        "date": "Actualizado el 20 de mayo de 2026"
+      }
+    ]
+  },
   "benefits-incentives-carousel": {
     "eyebrow": "Garantías de servicio",
     "title": "Trabajar con nosotros tiene ventajas claras",
@@ -787,6 +1178,78 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "shareTwitterAria": "Compartir este artículo en X",
     "shareLinkedinAria": "Compartir este artículo en LinkedIn",
     "shareCopyLinkAria": "Copiar el enlace de este artículo"
+  },
+  "blog-article-centered-editorial-author-meta-share": {
+    "category": "Actualización normativa",
+    "title": "Qué cambia en el cumplimiento fiscal para empresas con operación transfronteriza",
+    "deck": "Un repaso de las modificaciones recientes al régimen de precios de transferencia y su impacto directo en la planeación anual de las empresas con proveedores en Estados Unidos.",
+    "authorAvatar": "/images/about.svg",
+    "authorAvatarAlt": "Retrato de Mariana Fuentes Ibarra",
+    "authorName": "Mariana Fuentes Ibarra",
+    "authorRole": "Socia de práctica fiscal, Fuentes Ibarra Abogados",
+    "publishedDate": "3 de julio de 2026",
+    "readTime": "7 min de lectura",
+    "coverImage": "/images/hero.svg",
+    "coverImageAlt": "Documentos de cumplimiento fiscal sobre un escritorio",
+    "body": [
+      {
+        "type": "p",
+        "text": "Durante el último trimestre, las autoridades fiscales publicaron ajustes que modifican los plazos y requisitos de documentación para empresas con operaciones intercompañía. Para los despachos que asesoramos a clientes con proveedores en Estados Unidos, esto implica revisar de inmediato los estudios de precios de transferencia vigentes."
+      },
+      {
+        "type": "h3",
+        "text": "Qué documentación se vuelve obligatoria"
+      },
+      {
+        "type": "p",
+        "text": "El nuevo marco exige que las empresas conserven evidencia detallada de la metodología usada para fijar precios entre partes relacionadas, además de justificar por qué esa metodología resulta la más adecuada frente a las alternativas disponibles."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Estudio comparativo actualizado con empresas de referencia del mismo sector",
+          "Contratos intercompañía vigentes, firmados y con fecha cierta",
+          "Análisis funcional que describa activos, riesgos y funciones de cada parte"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Las empresas que dejan esta revisión para el cierre de año suelen encontrarse con hallazgos que ya no tienen tiempo de corregir.",
+        "cite": "Mariana Fuentes Ibarra, socia de práctica fiscal"
+      },
+      {
+        "type": "p",
+        "text": "Recomendamos a nuestros clientes iniciar la revisión documental con al menos cuatro meses de anticipación al cierre fiscal, de forma que cualquier ajuste a la metodología de precios se pueda implementar sin presión de calendario."
+      }
+    ],
+    "tags": [
+      {
+        "label": "Fiscal"
+      },
+      {
+        "label": "Precios de transferencia"
+      },
+      {
+        "label": "Cumplimiento"
+      }
+    ],
+    "shareLinks": [
+      {
+        "label": "Copiar enlace",
+        "icon": "link",
+        "href": "#"
+      },
+      {
+        "label": "Compartir por correo",
+        "icon": "mail",
+        "href": "mailto:"
+      },
+      {
+        "label": "Ver publicación original",
+        "icon": "web",
+        "href": "#"
+      }
+    ]
   },
   "blog-article-docs-breadcrumb-meta-pagination": {
     "breadcrumbNav": "Ruta de navegación",
@@ -963,6 +1426,57 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "id": "entrega-y-cierre",
         "heading": "Entrega y cierre de obra",
         "body": "Acuerde por escrito el proceso de recepción, el periodo de garantía por vicios ocultos y la entrega de planos as-built antes de liberar el finiquito."
+      }
+    ]
+  },
+  "blog-post-listing-divider-rows-excerpt-minimal": {
+    "eyebrow": "Blog corporativo",
+    "title": "Análisis y actualizaciones del despacho",
+    "posts": [
+      {
+        "category": "Fiscal",
+        "date": "3 de julio, 2026",
+        "title": "Cambios en el régimen simplificado de confianza para 2026",
+        "excerpt": "Repasamos las modificaciones que el SAT publicó este trimestre y qué implicaciones tienen para personas físicas con actividad empresarial.",
+        "authorName": "Renata Solórzano",
+        "authorInitials": "RS",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Corporativo",
+        "date": "28 de junio, 2026",
+        "title": "Qué revisar antes de firmar un contrato de fusión",
+        "excerpt": "Una guía práctica sobre las cláusulas que con más frecuencia generan disputas posteriores entre las partes involucradas.",
+        "authorName": "Iván Cordero",
+        "authorInitials": "IC",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Laboral",
+        "date": "15 de junio, 2026",
+        "title": "Reforma a la subcontratación: dos años después",
+        "excerpt": "Evaluamos el impacto real de la reforma en las empresas que migraron a esquemas de outsourcing especializado.",
+        "authorName": "Renata Solórzano",
+        "authorInitials": "RS",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Litigio",
+        "date": "2 de junio, 2026",
+        "title": "Medios alternos de solución de controversias en materia mercantil",
+        "excerpt": "Por qué el arbitraje comercial se ha vuelto la vía preferida frente a los tiempos del litigio tradicional.",
+        "authorName": "Diego Marroquín",
+        "authorInitials": "DM",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Fiscal",
+        "date": "20 de mayo, 2026",
+        "title": "Deducciones personales que su empresa podría estar pasando por alto",
+        "excerpt": "Un repaso de los conceptos deducibles menos conocidos y los requisitos para comprobarlos correctamente.",
+        "authorName": "Iván Cordero",
+        "authorInitials": "IC",
+        "readMoreLabel": "Leer artículo"
       }
     ]
   },
@@ -1415,6 +1929,40 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     },
     "footnote": "Cotización sin costo para proyectos residenciales y comerciales en Jalisco y Nayarit."
   },
+  "comparison-bilateral-us-vs-them-advantages-stark": {
+    "eyebrow": "Comparativa",
+    "title": "Por qué las empresas cambian a nuestro despacho",
+    "subtitle": "La misma pregunta que nos hacen los clientes que llegan de otro despacho: qué cambia en la práctica. Aquí la respuesta, criterio por criterio.",
+    "usLabel": "Nuestro despacho",
+    "themLabel": "Otros despachos",
+    "items": [
+      {
+        "label": "Tiempo de respuesta",
+        "us": "Contestamos consultas urgentes en menos de 4 horas hábiles, con el abogado a cargo del caso.",
+        "them": "El primer contacto pasa por una mesa de atención y la respuesta tarda varios días."
+      },
+      {
+        "label": "Honorarios",
+        "us": "Cotización cerrada por caso, sin cargos adicionales por llamadas o correos.",
+        "them": "Facturación por hora sin techo, con sorpresas al final del mes."
+      },
+      {
+        "label": "Equipo asignado",
+        "us": "Un socio y un asociado fijos que conocen su expediente de principio a fin.",
+        "them": "El caso rota entre distintos abogados junior según la carga del despacho."
+      },
+      {
+        "label": "Reportes",
+        "us": "Informe de avance por escrito cada dos semanas, sin que usted tenga que pedirlo.",
+        "them": "Hay que llamar para enterarse en qué va el trámite."
+      },
+      {
+        "label": "Especialización",
+        "us": "Práctica enfocada en derecho corporativo y mercantil, con casos comparables al suyo.",
+        "them": "Despacho generalista que atiende desde lo laboral hasta lo penal."
+      }
+    ]
+  },
   "comparison-plans-table-sticky-header": {
     "eyebrow": "Planes de servicio",
     "title": "Compare nuestros esquemas de acompañamiento legal",
@@ -1691,6 +2239,40 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       ]
     }
   },
+  "contact-cards-grid-hover-lift-inline-form": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su proyecto",
+    "description": "Elija el canal que le convenga o escríbanos directamente. Respondemos sus mensajes dentro del siguiente día hábil.",
+    "channels": [
+      {
+        "icon": "email",
+        "label": "Correo",
+        "value": "contacto@aguilardespacho.mx",
+        "href": "mailto:contacto@aguilardespacho.mx"
+      },
+      {
+        "icon": "office",
+        "label": "Oficina",
+        "value": "Av. Constituyentes 1420, Querétaro",
+        "href": "https://maps.google.com/?q=Av.+Constituyentes+1420+Queretaro"
+      },
+      {
+        "icon": "chat",
+        "label": "WhatsApp",
+        "value": "+52 442 123 4567",
+        "href": "https://wa.me/524421234567"
+      }
+    ],
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Su nombre completo",
+      "emailLabel": "Correo",
+      "emailPlaceholder": "usted@empresa.mx",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntenos brevemente qué necesita",
+      "submit": "Enviar mensaje"
+    }
+  },
   "contact-channel-cards-hover-grid": {
     "eyebrow": "Contacto",
     "title": "Hable directamente con nuestro equipo",
@@ -1848,6 +2430,78 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ],
     "submitLabel": "Enviar mensaje"
+  },
+  "contact-channels-list-form-scroll-stagger": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su proyecto",
+    "subtitle": "Cuéntenos qué necesita y un especialista de Corvera Consultores le responderá en un plazo máximo de un día hábil.",
+    "channelsTitle": "Canales de atención",
+    "channels": [
+      {
+        "icon": "mail",
+        "label": "Correo",
+        "value": "contacto@corveraconsultores.mx"
+      },
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 55 1234 5678"
+      },
+      {
+        "icon": "whatsapp",
+        "label": "WhatsApp",
+        "value": "+52 55 8765 4321"
+      },
+      {
+        "icon": "map-pin",
+        "label": "Oficina",
+        "value": "Av. Paseo de la Reforma 350, Piso 12, Col. Juárez, CDMX"
+      },
+      {
+        "icon": "clock",
+        "label": "Horario",
+        "value": "Lunes a viernes, de 9:00 a 18:00 horas"
+      },
+      {
+        "icon": "globe",
+        "label": "Zona de cobertura",
+        "value": "Atendemos clientes en toda la República Mexicana"
+      }
+    ],
+    "formTitle": "Envíenos su solicitud",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nombre completo",
+        "type": "text",
+        "placeholder": "Escriba su nombre"
+      },
+      {
+        "name": "company",
+        "label": "Empresa",
+        "type": "text",
+        "placeholder": "Nombre de su empresa"
+      },
+      {
+        "name": "email",
+        "label": "Correo electrónico",
+        "type": "email",
+        "placeholder": "correo@empresa.com"
+      },
+      {
+        "name": "phone",
+        "label": "Teléfono",
+        "type": "tel",
+        "placeholder": "55 0000 0000"
+      },
+      {
+        "name": "message",
+        "label": "Mensaje",
+        "type": "textarea",
+        "placeholder": "Describa brevemente su solicitud"
+      }
+    ],
+    "submitLabel": "Enviar solicitud"
   },
   "contact-channels-list-form-split-reveal": {
     "eyebrow": "Contacto",
@@ -2207,6 +2861,42 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "submitLabel": "Enviar solicitud",
     "privacyNote": "Al enviar este formulario acepta que Arata Consultoría use sus datos únicamente para dar seguimiento a su solicitud, conforme a nuestro aviso de privacidad."
   },
+  "contact-form-visual-panel-parallax": {
+    "eyebrow": "Contacto",
+    "title": "Escríbanos y le respondemos en menos de un día hábil",
+    "description": "Nuestro equipo de atención revisa cada consulta de manera personal. Cuéntenos el motivo de su mensaje y le contactaremos con la información precisa.",
+    "formLabel": "Formulario de contacto",
+    "form": {
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Escriba su nombre",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "nombre@empresa.com",
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "¿Sobre qué desea consultarnos?",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Describa su consulta con el mayor detalle posible",
+      "submitLabel": "Enviar mensaje"
+    },
+    "image": "/images/about.svg",
+    "imageAlt": "Recepción del despacho donde se atienden las consultas de clientes",
+    "points": [
+      {
+        "icon": "mail",
+        "label": "Correo",
+        "value": "contacto@despacholegal.mx"
+      },
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 55 4021 8873"
+      },
+      {
+        "icon": "location",
+        "label": "Oficina",
+        "value": "Av. Paseo de la Reforma 350, Ciudad de México"
+      }
+    ]
+  },
   "contact-image-floating-card": {
     "eyebrow": "Contacto",
     "title": "Hablemos de su siguiente proyecto",
@@ -2321,6 +3011,67 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     ],
     "submitLabel": "Enviar mensaje"
   },
+  "contact-map-and-locations-form-split": {
+    "eyebrow": "Contacto",
+    "title": "Visítenos o escríbanos",
+    "subtitle": "Contamos con tres centros de distribución en el país. Elija la sede más cercana o envíenos su solicitud y le responderemos en menos de 24 horas.",
+    "mapImage": "/images/hero.svg",
+    "mapImageAlt": "Mapa con la ubicación de nuestros centros de distribución",
+    "locations": [
+      {
+        "icon": "map-pin",
+        "name": "Centro de Distribución CDMX",
+        "address": "Av. Ejército Nacional 843, Granada, Miguel Hidalgo, 11520",
+        "phone": "+52 55 4123 8890"
+      },
+      {
+        "icon": "map-pin",
+        "name": "Centro de Distribución Guadalajara",
+        "address": "Av. Vallarta 6503, Ciudad Granja, Zapopan, 45010",
+        "phone": "+52 33 3812 4467"
+      },
+      {
+        "icon": "map-pin",
+        "name": "Centro de Distribución Monterrey",
+        "address": "Av. Gonzalitos 1150, Mitras Centro, Monterrey, 64460",
+        "phone": "+52 81 8347 2210"
+      }
+    ],
+    "formTitle": "Envíenos su solicitud",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nombre",
+        "type": "text",
+        "placeholder": "Su nombre completo"
+      },
+      {
+        "name": "company",
+        "label": "Empresa",
+        "type": "text",
+        "placeholder": "Nombre de su empresa"
+      },
+      {
+        "name": "email",
+        "label": "Correo",
+        "type": "email",
+        "placeholder": "correo@empresa.com"
+      },
+      {
+        "name": "phone",
+        "label": "Teléfono",
+        "type": "tel",
+        "placeholder": "10 dígitos"
+      },
+      {
+        "name": "message",
+        "label": "Mensaje",
+        "type": "textarea",
+        "placeholder": "Describa el volumen y tipo de mercancía a distribuir"
+      }
+    ],
+    "submitLabel": "Solicitar cotización"
+  },
   "contact-single-card-form-privacy": {
     "eyebrow": "Contacto",
     "title": "Escríbanos sobre su caso",
@@ -2351,6 +3102,15 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "submitLabel": "Enviar mensaje",
     "privacyNote": "Sus datos se tratan de forma confidencial y no se comparten con terceros sin su autorización."
   },
+  "cta-band-full-width-inverted-primary-split": {
+    "eyebrow": "Agende una consulta",
+    "title": "Resuelva su siguiente proyecto de construcción con un equipo que responde",
+    "description": "Cotizaciones claras, cronogramas realistas y un solo punto de contacto durante toda la obra. Cuéntenos el alcance y le devolvemos una propuesta en menos de 48 horas.",
+    "primaryLabel": "Solicitar cotización",
+    "primaryHref": "/contacto",
+    "secondaryLabel": "Llamar al despacho",
+    "secondaryHref": "tel:+525512345678"
+  },
   "cta-band-horizontal-blur-conversion": {
     "eyebrow": "Siguiente paso",
     "title": "Solicite una cotización para su proyecto de obra",
@@ -2373,6 +3133,26 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "label": "Años de operación"
       }
     ]
+  },
+  "cta-band-horizontal-blur-stagger-dual-action": {
+    "eyebrow": "Siguiente paso",
+    "title": "Agende una revisión de su expediente con nuestro despacho",
+    "description": "Un socio del área correspondiente revisa su caso y le comparte una ruta clara de trabajo, con honorarios definidos antes de iniciar.",
+    "primaryCta": {
+      "label": "Agendar consulta",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer áreas de práctica",
+      "href": "/servicios"
+    }
+  },
+  "cta-card-minimal-bordered-centered-button": {
+    "eyebrow": "Agende su cita",
+    "title": "Hable con un especialista esta semana",
+    "description": "Una llamada de 20 minutos para revisar su caso y definir los siguientes pasos, sin costo.",
+    "ctaLabel": "Agendar llamada",
+    "ctaHref": "/contacto"
   },
   "culinary-staff-showcase": {
     "eyebrow": "Nuestro equipo",
@@ -2793,6 +3573,55 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "faq-accordion-split-support-cta-sidebar": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resolvemos sus dudas sobre nuestros servicios legales corporativos",
+    "support": {
+      "title": "¿No encuentra su respuesta?",
+      "description": "Nuestro equipo de atención a clientes está disponible para orientarlo sobre el servicio que mejor se ajuste a su empresa.",
+      "contacts": [
+        {
+          "icon": "phone",
+          "label": "Teléfono",
+          "value": "+52 55 4021 8873"
+        },
+        {
+          "icon": "mail",
+          "label": "Correo",
+          "value": "contacto@despacholegalmx.com"
+        },
+        {
+          "icon": "support",
+          "label": "Horario de atención",
+          "value": "Lunes a viernes, 9:00 a 18:00"
+        }
+      ],
+      "ctaLabel": "Agendar una consulta",
+      "ctaHref": "/contacto"
+    },
+    "items": [
+      {
+        "question": "¿Qué tipo de empresas pueden solicitar sus servicios?",
+        "answer": "Atendemos a empresas constituidas en México de cualquier tamaño, desde despachos y constructoras hasta distribuidoras y empresas de logística que requieren asesoría legal corporativa recurrente o por proyecto."
+      },
+      {
+        "question": "¿Cómo se define el costo de una asesoría?",
+        "answer": "El costo depende del alcance del proyecto y del tiempo estimado de dedicación. Después de una primera llamada de diagnóstico, le entregamos una propuesta con honorarios fijos o por destajo, según convenga a su caso."
+      },
+      {
+        "question": "¿Manejan contratos y procesos en más de un estado?",
+        "answer": "Sí. Contamos con convenios con despachos asociados en distintas entidades para dar seguimiento a trámites, notificaciones y procesos que requieran presencia local fuera de la Ciudad de México."
+      },
+      {
+        "question": "¿Cuánto tiempo toma la revisión de un contrato?",
+        "answer": "Para contratos estándar, el tiempo de revisión es de dos a tres días hábiles. Para acuerdos con mayor complejidad o negociación entre varias partes, el plazo se define durante la consulta inicial."
+      },
+      {
+        "question": "¿Ofrecen acompañamiento continuo, no solo por proyecto?",
+        "answer": "Sí, contamos con planes de asesoría mensual para empresas que requieren consulta legal recurrente, revisión de contratos y acompañamiento en cumplimiento normativo a lo largo del año."
+      }
+    ]
+  },
   "faq-accordion-sticky-support-sidebar": {
     "eyebrow": "Preguntas frecuentes",
     "title": "Resolvemos sus dudas antes de iniciar el proyecto",
@@ -2992,6 +3821,36 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "faq-grid-cards-6tile-hover-expandable": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de solicitar su cotización",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma un proyecto de remodelación comercial?",
+        "answer": "Depende del alcance y la superficie intervenida. Un local de hasta 200 m² suele tomar entre 6 y 10 semanas, desde el levantamiento hasta la entrega final. Le compartimos un calendario detallado antes de firmar el contrato."
+      },
+      {
+        "question": "¿Trabajan con planos que ya tenemos o necesitan hacer el diseño desde cero?",
+        "answer": "Podemos partir de planos existentes elaborados por su despacho de arquitectura o desarrollar el diseño ejecutivo completo. En ambos casos revisamos factibilidad estructural antes de iniciar obra."
+      },
+      {
+        "question": "¿Qué incluye la cotización inicial?",
+        "answer": "Materiales, mano de obra, permisos municipales aplicables y supervisión de obra. Los acabados de gama alta o mobiliario especial se cotizan por separado con opciones claras de costo."
+      },
+      {
+        "question": "¿Pueden trabajar en horario nocturno para no afectar la operación del negocio?",
+        "answer": "Sí, ofrecemos cuadrillas en turno vespertino y nocturno para locales que necesitan seguir operando de día, con reportes fotográficos de avance cada mañana."
+      },
+      {
+        "question": "¿Qué pasa si surge un imprevisto estructural durante la obra?",
+        "answer": "Detenemos la partida afectada, documentamos el hallazgo con fotografías y le presentamos opciones de solución con su respectivo costo antes de continuar. Ningún cambio se ejecuta sin su autorización por escrito."
+      },
+      {
+        "question": "¿Ofrecen garantía sobre el trabajo entregado?",
+        "answer": "Sí, todos los proyectos incluyen doce meses de garantía sobre instalaciones y acabados, con visitas de revisión a los tres y seis meses posteriores a la entrega."
+      }
+    ]
+  },
   "faq-grid-cards-expandable": {
     "eyebrow": "Preguntas frecuentes",
     "title": "Dudas comunes sobre nuestro servicio de logística",
@@ -3151,6 +4010,97 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "faq-sidebar-sticky-topic-rail-stats-synced": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratar al despacho, resolvemos sus dudas",
+    "description": "Reunimos las preguntas que más nos hacen clientes corporativos antes de iniciar un mandato. Si su duda no aparece aquí, escríbanos y le respondemos en menos de un día hábil.",
+    "indexLabel": "Índice de temas",
+    "faqs": [
+      {
+        "id": "honorarios",
+        "topic": "Honorarios",
+        "question": "¿Cómo calculan los honorarios de un mandato?",
+        "answer": "Cotizamos por proyecto cerrado en litigios y contratos, y por iguala mensual en acompañamiento corporativo continuo. Antes de iniciar, le entregamos una propuesta por escrito con alcance, entregables y monto, sin cargos ocultos ni horas por facturar sin aviso previo."
+      },
+      {
+        "id": "plazos",
+        "topic": "Plazos",
+        "question": "¿En cuánto tiempo resuelven un caso mercantil?",
+        "answer": "Depende de la vía y de la instancia, pero en promedio un procedimiento mercantil ordinario toma entre ocho y catorce meses en primera instancia. En la propuesta inicial le compartimos un calendario estimado con las etapas procesales y los puntos de decisión."
+      },
+      {
+        "id": "confidencialidad",
+        "topic": "Confidencialidad",
+        "question": "¿Qué controles tienen sobre la información de mi empresa?",
+        "answer": "Firmamos acuerdo de confidencialidad desde la primera reunión, restringimos el acceso a expedientes por equipo asignado y almacenamos documentos en repositorio cifrado con bitácora de accesos. Ningún tercero recibe información del caso sin su autorización expresa."
+      },
+      {
+        "id": "seguimiento",
+        "topic": "Seguimiento",
+        "question": "¿Cómo doy seguimiento al avance de mi caso?",
+        "answer": "Cada cliente tiene un abogado responsable como punto de contacto directo y recibe un reporte quincenal por correo con el estatus del expediente. Para mandatos corporativos continuos agendamos una llamada mensual de revisión."
+      },
+      {
+        "id": "alcance",
+        "topic": "Alcance",
+        "question": "¿Atienden empresas fuera de la Ciudad de México?",
+        "answer": "Sí. Representamos clientes en procedimientos federales y en varias entidades a través de correspondencia procesal y, cuando el caso lo requiere, desplazamiento del equipo. La cobertura geográfica se define en la propuesta inicial junto con los costos de representación foránea."
+      }
+    ],
+    "stats": [
+      {
+        "icon": "scale",
+        "value": "180+",
+        "label": "Mandatos resueltos"
+      },
+      {
+        "icon": "time",
+        "value": "24 h",
+        "label": "Tiempo de respuesta"
+      },
+      {
+        "icon": "team",
+        "value": "12",
+        "label": "Abogados asociados"
+      },
+      {
+        "icon": "scale",
+        "value": "17 años",
+        "label": "De operación"
+      }
+    ]
+  },
+  "faq-split-indexed-accordion-hairline-rows": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratarnos, resolvemos sus dudas",
+    "note": "Si su pregunta no aparece aquí, escríbanos y le respondemos en un plazo máximo de un día hábil.",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma un proceso de constitución de sociedad?",
+        "answer": "En promedio, de tres a cinco semanas desde que recibimos la documentación completa, dependiendo del giro y del estado donde se constituya la sociedad."
+      },
+      {
+        "question": "¿Manejan casos de litigio mercantil fuera de la Ciudad de México?",
+        "answer": "Sí. Contamos con corresponsales en Jalisco, Nuevo León y Querétaro, y coordinamos audiencias en cualquier entidad del país."
+      },
+      {
+        "question": "¿Cómo se calculan los honorarios de una consulta inicial?",
+        "answer": "La primera reunión de diagnóstico no tiene costo. A partir de ahí, cotizamos por proyecto o por destajo mensual, según la complejidad del asunto."
+      },
+      {
+        "question": "¿Pueden asesorarnos en una fusión con una empresa extranjera?",
+        "answer": "Sí, trabajamos de la mano con despachos aliados en Estados Unidos y España para procesos de fusión, adquisición y due diligence transfronterizo."
+      },
+      {
+        "question": "¿Qué documentos necesito para iniciar un trámite de propiedad industrial?",
+        "answer": "Basta con una identificación oficial, el comprobante de domicilio de la empresa y una descripción técnica de la marca o invención a registrar."
+      },
+      {
+        "question": "¿Ofrecen seguimiento posterior a la firma del contrato?",
+        "answer": "Sí, incluimos hasta seis meses de acompañamiento sin costo adicional para resolver dudas de implementación o ajustes menores al documento."
+      }
+    ]
+  },
   "faq-support-cta-hybrid": {
     "eyebrow": "Preguntas frecuentes",
     "title": "Dudas antes de contratar el servicio",
@@ -3247,6 +4197,71 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         }
       ]
     }
+  },
+  "faq-tabbed-search-category-filter-live": {
+    "eyebrow": "Centro de ayuda",
+    "title": "Preguntas frecuentes por tema",
+    "description": "Consulte las dudas más comunes sobre nuestros servicios de asesoría fiscal y contable, organizadas por categoría para que encuentre la respuesta con rapidez.",
+    "searchPlaceholder": "Buscar por palabra clave dentro de la categoría seleccionada",
+    "categories": [
+      {
+        "id": "general",
+        "label": "General",
+        "icon": "question",
+        "items": [
+          {
+            "question": "¿Qué servicios ofrece el despacho?",
+            "answer": "Brindamos contabilidad mensual, declaraciones fiscales, nómina y acompañamiento en auditorías ante el SAT para empresas y personas físicas con actividad empresarial."
+          },
+          {
+            "question": "¿Con qué anticipación debo contratar el servicio?",
+            "answer": "Recomendamos iniciar el proceso al menos dos semanas antes del cierre del periodo fiscal correspondiente, para revisar su información sin contratiempos."
+          },
+          {
+            "question": "¿Atienden clientes fuera de Guadalajara?",
+            "answer": "Sí, trabajamos de forma remota con clientes en todo México mediante juntas por videollamada y una carpeta compartida para el intercambio de documentos."
+          }
+        ]
+      },
+      {
+        "id": "billing",
+        "label": "Facturación",
+        "icon": "receipt",
+        "items": [
+          {
+            "question": "¿Cómo se calculan las cuotas mensuales?",
+            "answer": "La cuota depende del régimen fiscal, el volumen de movimientos bancarios y el número de empleados en nómina; se la confirmamos por escrito antes de iniciar."
+          },
+          {
+            "question": "¿Qué métodos de pago aceptan?",
+            "answer": "Aceptamos transferencia bancaria y domiciliación mensual. Emitimos su CFDI de honorarios dentro de los primeros cinco días de cada mes."
+          },
+          {
+            "question": "¿Puedo cancelar el servicio en cualquier momento?",
+            "answer": "Sí, el contrato es mes a mes sin permanencia forzosa; basta con avisar con quince días de anticipación al corte de facturación."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "label": "Seguridad",
+        "icon": "shield",
+        "items": [
+          {
+            "question": "¿Cómo protegen la información de mi empresa?",
+            "answer": "Sus documentos se almacenan en una carpeta cifrada con acceso restringido al equipo asignado a su cuenta, y firmamos un acuerdo de confidencialidad al inicio."
+          },
+          {
+            "question": "¿Quién tiene acceso a mis claves del SAT?",
+            "answer": "Únicamente el contador responsable de su cuenta y el socio a cargo del despacho; el acceso queda registrado y se revoca al terminar la relación comercial."
+          },
+          {
+            "question": "¿Guardan copia de mis contraseñas fiscales?",
+            "answer": "No las almacenamos en texto plano: usamos un gestor de contraseñas cifrado y las eliminamos de nuestros sistemas al cierre del contrato, previa solicitud por escrito."
+          }
+        ]
+      }
+    ]
   },
   "faq-tabbed-searchable-categories": {
     "eyebrow": "Preguntas frecuentes",
@@ -3972,6 +4987,120 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         ],
         "image": "/images/about.svg",
         "imageAlt": "Cliente firmando documento final junto al equipo del despacho"
+      }
+    ]
+  },
+  "features-alternating-split-image-bullet-three-row": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro para cada proyecto de construcción",
+    "rows": [
+      {
+        "eyebrow": "Etapa 1",
+        "title": "Planeación y presupuesto",
+        "body": "Levantamos el proyecto en sitio, revisamos planos con el cliente y entregamos un presupuesto detallado antes de mover una sola herramienta.",
+        "points": [
+          "Visita técnica sin costo",
+          "Presupuesto por partida",
+          "Calendario de obra",
+          "Permisos y trámites"
+        ],
+        "image": "/images/hero.svg",
+        "imageAlt": "Ingeniero revisando planos de construcción en obra"
+      },
+      {
+        "eyebrow": "Etapa 2",
+        "title": "Ejecución supervisada",
+        "body": "Cada frente de obra tiene un residente asignado que reporta avances semanales y coordina a los subcontratistas.",
+        "points": [
+          "Residente de obra dedicado",
+          "Bitácora semanal fotográfica",
+          "Control de materiales",
+          "Seguridad industrial"
+        ],
+        "image": "/images/about.svg",
+        "imageAlt": "Cuadrilla trabajando en una obra en construcción"
+      },
+      {
+        "eyebrow": "Etapa 3",
+        "title": "Entrega y garantía",
+        "body": "Al cierre de obra hacemos recorrido conjunto de aceptación y respaldamos el trabajo con garantía por escrito.",
+        "points": [
+          "Recorrido de aceptación",
+          "Manual de mantenimiento",
+          "Garantía por escrito",
+          "Soporte posterior a entrega"
+        ],
+        "image": "/images/hero.svg",
+        "imageAlt": "Edificio recién terminado listo para entrega"
+      }
+    ]
+  },
+  "features-bento-asymmetric-flagship-motion-expand": {
+    "eyebrow": "Operación logística",
+    "title": "Una red de distribución pensada para no fallarle a su entrega",
+    "description": "Coordinamos almacenaje, ruteo y última milla desde un solo panel, con visibilidad completa de cada embarque en tránsito.",
+    "flagshipImage": "/images/about.svg",
+    "flagshipImageAlt": "Centro de distribución con montacargas moviendo pallets entre andenes",
+    "flagshipEyebrow": "Centro de control",
+    "flagshipLabel": "Visibilidad en tiempo real de toda la flota",
+    "flagshipDescription": "Seguimiento GPS de cada unidad, alertas de desviación de ruta y tiempos de llegada actualizados cada cinco minutos.",
+    "cells": [
+      {
+        "icon": "warehouse",
+        "label": "Almacenaje certificado",
+        "description": "Tres bodegas con control de temperatura y cámaras en cada pasillo, auditadas trimestralmente."
+      },
+      {
+        "icon": "route",
+        "label": "Ruteo dinámico",
+        "description": "El sistema recalcula rutas ante tráfico o cierres viales sin intervención manual del despachador."
+      },
+      {
+        "icon": "shield",
+        "label": "Carga asegurada",
+        "description": "Cobertura total contra daño o pérdida en cada embarque, sin costo adicional para el cliente."
+      },
+      {
+        "icon": "clock",
+        "label": "Entregas a tiempo",
+        "description": "Cumplimiento de ventana de entrega superior al noventa y cinco por ciento el trimestre pasado."
+      }
+    ]
+  },
+  "features-bento-grid-six-cell-symmetric": {
+    "eyebrow": "Capacidades de operación",
+    "title": "Lo que respalda cada envío que gestionamos",
+    "description": "Infraestructura, procesos y equipo dedicados a que su carga llegue en tiempo, con trazabilidad completa desde el origen hasta la entrega.",
+    "features": [
+      {
+        "icon": "truck",
+        "title": "Flota propia certificada",
+        "description": "Unidades con mantenimiento preventivo programado y monitoreo GPS en tiempo real para cada ruta."
+      },
+      {
+        "icon": "route",
+        "title": "Rutas optimizadas",
+        "description": "Planeación diaria de rutas según tráfico, ventanas de entrega y capacidad disponible."
+      },
+      {
+        "icon": "shield",
+        "title": "Carga asegurada",
+        "description": "Cobertura contra daño, robo o extravío en cada embarque, sin costo adicional para el cliente."
+      },
+      {
+        "icon": "clock",
+        "title": "Entregas en ventana pactada",
+        "description": "Cumplimiento del 97% en horarios acordados durante los últimos doce meses."
+      },
+      {
+        "icon": "file",
+        "title": "Documentación en regla",
+        "description": "Manifiestos, cartas porte y comprobantes fiscales listos antes de que la unidad salga de patio."
+      },
+      {
+        "icon": "support",
+        "title": "Coordinación dedicada",
+        "description": "Un ejecutivo de cuenta da seguimiento a su embarque de principio a fin, sin intermediarios."
       }
     ]
   },
@@ -4951,6 +6080,90 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "footer-grid-modular-bordered-newsletter-controls": {
+    "brand": "Constructora Altavista",
+    "description": "Despacho de ingeniería y construcción especializado en obra industrial y comercial en el centro del país.",
+    "contactEmail": "contacto@altavista-constructora.mx",
+    "columns": [
+      {
+        "title": "Servicios",
+        "links": [
+          {
+            "label": "Obra industrial",
+            "href": "/servicios/obra-industrial"
+          },
+          {
+            "label": "Obra comercial",
+            "href": "/servicios/obra-comercial"
+          },
+          {
+            "label": "Supervisión técnica",
+            "href": "/servicios/supervision"
+          },
+          {
+            "label": "Mantenimiento",
+            "href": "/servicios/mantenimiento"
+          }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          {
+            "label": "Nosotros",
+            "href": "/nosotros"
+          },
+          {
+            "label": "Proyectos",
+            "href": "/proyectos"
+          },
+          {
+            "label": "Certificaciones",
+            "href": "/certificaciones"
+          },
+          {
+            "label": "Trabaja con nosotros",
+            "href": "/carreras"
+          }
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Boletín técnico",
+      "description": "Reciba cada mes avances de obra, normativas de construcción y estudios de caso seleccionados.",
+      "placeholder": "Su correo electrónico",
+      "buttonLabel": "Suscribirse"
+    },
+    "controls": [
+      {
+        "icon": "language",
+        "label": "Español (MX)"
+      },
+      {
+        "icon": "light",
+        "label": "Modo claro"
+      },
+      {
+        "icon": "dark",
+        "label": "Modo oscuro"
+      },
+      {
+        "icon": "system",
+        "label": "Automático"
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Aviso de privacidad",
+        "href": "/aviso-de-privacidad"
+      },
+      {
+        "label": "Términos y condiciones",
+        "href": "/terminos"
+      }
+    ],
+    "copyright": "© 2026 Constructora Altavista. Todos los derechos reservados."
+  },
   "footer-grid-newsletter-themed": {
     "brand": "Corvera & Asociados",
     "description": "Despacho jurídico corporativo especializado en fusiones, adquisiciones y cumplimiento regulatorio para empresas en México.",
@@ -5057,6 +6270,176 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "href": "#contacto"
       }
     ]
+  },
+  "footer-mega-columns-sitemap-locale-controls": {
+    "brandName": "Zavala Cortés Abogados",
+    "tagline": "Despacho especializado en derecho corporativo, fiscal y laboral con presencia en Ciudad de México, Monterrey y Guadalajara.",
+    "contactLines": [
+      {
+        "label": "Correo",
+        "value": "contacto@zavalacortes.mx"
+      },
+      {
+        "label": "Teléfono",
+        "value": "+52 55 5280 1194"
+      },
+      {
+        "label": "Oficina central",
+        "value": "Paseo de la Reforma 250, CDMX"
+      }
+    ],
+    "columns": [
+      {
+        "heading": "Prácticas",
+        "links": [
+          {
+            "label": "Derecho corporativo",
+            "href": "/practicas/corporativo"
+          },
+          {
+            "label": "Derecho fiscal",
+            "href": "/practicas/fiscal"
+          },
+          {
+            "label": "Derecho laboral",
+            "href": "/practicas/laboral"
+          },
+          {
+            "label": "Litigio civil y mercantil",
+            "href": "/practicas/litigio"
+          },
+          {
+            "label": "Propiedad intelectual",
+            "href": "/practicas/propiedad-intelectual"
+          }
+        ]
+      },
+      {
+        "heading": "Despacho",
+        "links": [
+          {
+            "label": "Quiénes somos",
+            "href": "/nosotros"
+          },
+          {
+            "label": "Socios y asociados",
+            "href": "/equipo"
+          },
+          {
+            "label": "Casos de éxito",
+            "href": "/casos"
+          },
+          {
+            "label": "Trabaja con nosotros",
+            "href": "/carreras"
+          },
+          {
+            "label": "Oficinas",
+            "href": "/oficinas"
+          }
+        ]
+      },
+      {
+        "heading": "Recursos",
+        "links": [
+          {
+            "label": "Boletín legal",
+            "href": "/boletin"
+          },
+          {
+            "label": "Guías y publicaciones",
+            "href": "/publicaciones"
+          },
+          {
+            "label": "Preguntas frecuentes",
+            "href": "/preguntas-frecuentes"
+          },
+          {
+            "label": "Calculadora de honorarios",
+            "href": "/honorarios"
+          }
+        ]
+      },
+      {
+        "heading": "Clientes",
+        "links": [
+          {
+            "label": "Portal de clientes",
+            "href": "/portal"
+          },
+          {
+            "label": "Agendar consulta",
+            "href": "/contacto"
+          },
+          {
+            "label": "Facturación",
+            "href": "/facturacion"
+          },
+          {
+            "label": "Soporte",
+            "href": "/soporte"
+          }
+        ]
+      },
+      {
+        "heading": "Legal",
+        "links": [
+          {
+            "label": "Aviso de privacidad",
+            "href": "/privacidad"
+          },
+          {
+            "label": "Términos de uso",
+            "href": "/terminos"
+          },
+          {
+            "label": "Código de ética",
+            "href": "/etica"
+          },
+          {
+            "label": "Cumplimiento",
+            "href": "/cumplimiento"
+          }
+        ]
+      }
+    ],
+    "localeLabel": "Idioma",
+    "localeOptions": [
+      {
+        "label": "Español",
+        "href": "/es",
+        "current": true
+      },
+      {
+        "label": "English",
+        "href": "/en",
+        "current": false
+      }
+    ],
+    "themeLabel": "Tema",
+    "themeOptions": [
+      {
+        "label": "Claro",
+        "icon": "sun",
+        "current": true
+      },
+      {
+        "label": "Oscuro",
+        "icon": "moon",
+        "current": false
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Aviso de privacidad",
+        "href": "/privacidad"
+      },
+      {
+        "label": "Términos de uso",
+        "href": "/terminos"
+      }
+    ],
+    "copyright": "© 2026 Zavala Cortés Abogados, S.C. Todos los derechos reservados."
   },
   "footer-mega-localized": {
     "brandName": "Corvera & Asociados",
@@ -5678,6 +7061,129 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     ],
     "copyright": "© 2026 Vértice Inmobiliaria. Todos los derechos reservados."
   },
+  "footer-single-row-inline-wordmark-blur-compact": {
+    "wordmark": "Ferretería Industrial Coahuila",
+    "navLabel": "Enlaces del pie de página",
+    "links": [
+      {
+        "label": "Catálogo",
+        "href": "#catalogo"
+      },
+      {
+        "label": "Cotizaciones",
+        "href": "#cotizaciones"
+      },
+      {
+        "label": "Sucursales",
+        "href": "#sucursales"
+      },
+      {
+        "label": "Aviso de privacidad",
+        "href": "/privacidad"
+      }
+    ],
+    "copyright": "© 2026 Ferretería Industrial Coahuila. Todos los derechos reservados.",
+    "backToTopLabel": "Volver arriba"
+  },
+  "footer-veil-design-kit-variant-4": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de la siguiente etapa de su proyecto",
+    "cta": {
+      "label": "Agendar una llamada",
+      "href": "#contacto"
+    },
+    "brand": "Vértice Construcciones",
+    "description": "Despacho de dirección de obra y gerencia de proyectos para desarrollos comerciales e industriales en el norte del país.",
+    "contacts": [
+      {
+        "icon": "mail",
+        "label": "contacto@verticeconstrucciones.mx",
+        "href": "mailto:contacto@verticeconstrucciones.mx"
+      },
+      {
+        "icon": "phone",
+        "label": "+52 81 4455 2200",
+        "href": "tel:+528144552200"
+      },
+      {
+        "icon": "location",
+        "label": "Av. Constitución 1200, Monterrey, N.L.",
+        "href": "#ubicacion"
+      }
+    ],
+    "columns": [
+      {
+        "title": "Servicios",
+        "links": [
+          {
+            "label": "Gerencia de proyectos",
+            "href": "#gerencia"
+          },
+          {
+            "label": "Dirección de obra",
+            "href": "#direccion-obra"
+          },
+          {
+            "label": "Control de costos",
+            "href": "#control-costos"
+          },
+          {
+            "label": "Supervisión técnica",
+            "href": "#supervision"
+          }
+        ]
+      },
+      {
+        "title": "Despacho",
+        "links": [
+          {
+            "label": "Casos de estudio",
+            "href": "#casos"
+          },
+          {
+            "label": "Equipo directivo",
+            "href": "#equipo"
+          },
+          {
+            "label": "Certificaciones",
+            "href": "#certificaciones"
+          },
+          {
+            "label": "Trabaje con nosotros",
+            "href": "#carreras"
+          }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          {
+            "label": "Cotización de proyecto",
+            "href": "#cotizacion"
+          },
+          {
+            "label": "Preguntas frecuentes",
+            "href": "#preguntas"
+          },
+          {
+            "label": "Aviso de privacidad",
+            "href": "#privacidad"
+          }
+        ]
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Aviso de privacidad",
+        "href": "#privacidad"
+      },
+      {
+        "label": "Términos y condiciones",
+        "href": "#terminos"
+      }
+    ],
+    "copyright": "© 2026 Vértice Construcciones. Todos los derechos reservados."
+  },
   "footer-vertical-dividers-split": {
     "brand": "Aranda & Coín",
     "description": "Despacho de asesoría fiscal y corporativa para empresas medianas en el centro del país.",
@@ -5888,6 +7394,34 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "secondaryCta": "Hablar con un asesor",
     "secondaryHref": "tel:+525512345678"
   },
+  "gallery-bento-asymmetric-hero-tiles-supporting": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que definen nuestro estudio",
+    "description": "Una selección de intervenciones arquitectónicas donde el diseño responde al contexto y al uso real del espacio.",
+    "hero": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Fachada principal del corporativo Altavista con revestimiento de piedra volcánica",
+      "category": "Arquitectura corporativa",
+      "title": "Corporativo Altavista",
+      "year": "2025 — Monterrey, N.L."
+    },
+    "pieces": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vestíbulo de acceso del centro cultural con estructura de madera vista",
+        "category": "Equipamiento cultural",
+        "title": "Centro Cultural Norte",
+        "year": "2024 — Saltillo, Coah."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Patio interior de la ampliación de oficinas con vegetación y luz natural",
+        "category": "Interiorismo comercial",
+        "title": "Ampliación Oficinas Rivera",
+        "year": "2023 — Querétaro, Qro."
+      }
+    ]
+  },
   "gallery-bento-hero-supporting-tiles": {
     "eyebrow": "Portafolio",
     "title": "Proyectos que combinan forma, función y contexto",
@@ -6032,6 +7566,67 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
           "150 x 100 cm",
           "Abstracto"
         ]
+      }
+    ]
+  },
+  "gallery-exhibition-decor-framed-metadata-blur": {
+    "eyebrow": "Portafolio de proyectos",
+    "title": "Una selección de nuestro trabajo reciente",
+    "description": "Cada proyecto refleja el criterio de diseño y la ejecución técnica que aplicamos con nuestros clientes, desde la conceptualización hasta la entrega final.",
+    "items": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista general de las oficinas corporativas Alameda",
+        "hoverImage": "/images/hero.svg",
+        "hoverImageAlt": "Detalle del área de recepción de oficinas corporativas Alameda",
+        "category": "Interiorismo corporativo",
+        "title": "Oficinas Alameda",
+        "year": "2025"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada del centro logístico Norte industrial",
+        "hoverImage": "/images/about.svg",
+        "hoverImageAlt": "Interior de nave del centro logístico Norte industrial",
+        "category": "Arquitectura industrial",
+        "title": "Centro Logístico Norte",
+        "year": "2024"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas del despacho jurídico Reforma",
+        "hoverImage": "/images/hero.svg",
+        "hoverImageAlt": "Pasillo principal del despacho jurídico Reforma",
+        "category": "Interiorismo corporativo",
+        "title": "Despacho Reforma",
+        "year": "2024"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea del desarrollo residencial Cumbres",
+        "hoverImage": "/images/about.svg",
+        "hoverImageAlt": "Amenidades del desarrollo residencial Cumbres",
+        "category": "Desarrollo residencial",
+        "title": "Residencial Cumbres",
+        "year": "2023"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Showroom de la marca automotriz Sierra",
+        "hoverImage": "/images/hero.svg",
+        "hoverImageAlt": "Área de exhibición de vehículos Sierra",
+        "category": "Retail y showrooms",
+        "title": "Showroom Sierra",
+        "year": "2023"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Planta de manufactura Vértice desde el patio de maniobras",
+        "hoverImage": "/images/about.svg",
+        "hoverImageAlt": "Línea de producción de la planta Vértice",
+        "category": "Arquitectura industrial",
+        "title": "Planta Vértice",
+        "year": "2022"
       }
     ]
   },
@@ -6182,6 +7777,40 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "gallery-grid-three-column-card-metadata-blog": {
+    "eyebrow": "Blog",
+    "title": "Análisis y criterio para decisiones de negocio",
+    "description": "Artículos escritos por nuestro equipo de consultoría sobre estructuración fiscal, cumplimiento normativo y planeación financiera.",
+    "posts": [
+      {
+        "category": "Fiscal",
+        "title": "Cambios al régimen simplificado de confianza en 2026",
+        "excerpt": "Qué debe revisar su despacho antes del cierre del ejercicio para evitar contingencias con el SAT.",
+        "date": "3 de julio, 2026",
+        "readTime": "6 min de lectura",
+        "image": "/images/about.svg",
+        "imageAlt": "Documentos fiscales sobre un escritorio de oficina"
+      },
+      {
+        "category": "Cumplimiento",
+        "title": "Due diligence en fusiones: la checklist que evita sorpresas",
+        "excerpt": "Los puntos que con más frecuencia se pasan por alto durante la revisión de una adquisición.",
+        "date": "24 de junio, 2026",
+        "readTime": "8 min de lectura",
+        "image": "/images/hero.svg",
+        "imageAlt": "Reunión de trabajo revisando contratos"
+      },
+      {
+        "category": "Planeación financiera",
+        "title": "Estructurar el flujo de caja de una constructora por obra",
+        "excerpt": "Un modelo práctico para separar costos directos e indirectos por proyecto y anticipar déficits.",
+        "date": "10 de junio, 2026",
+        "readTime": "5 min de lectura",
+        "image": "/images/about.svg",
+        "imageAlt": "Planos de construcción y calculadora sobre una mesa"
+      }
+    ]
+  },
   "gallery-grid-uniform-responsive": {
     "eyebrow": "Proyectos realizados",
     "title": "Un vistazo a nuestro trabajo en campo",
@@ -6234,6 +7863,59 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "imageAlt": "Andén de carga terminado con señalización",
         "caption": "Construcción de andenes de carga para centro logístico en Guadalajara.",
         "tag": "Logística"
+      }
+    ]
+  },
+  "gallery-grid-uniform-with-stats-sidebar": {
+    "eyebrow": "Obra terminada",
+    "title": "Proyectos entregados en los últimos cinco años",
+    "images": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de nave industrial en Apodaca, Nuevo León"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de oficinas corporativas en Monterrey"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Estructura de concreto en etapa de acabados"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Plaza comercial con fachada de cristal"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista aérea de conjunto residencial"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Centro de distribución logística en construcción"
+      }
+    ],
+    "metricsTitle": "En cifras",
+    "metrics": [
+      {
+        "icon": "buildings",
+        "value": "84",
+        "label": "Proyectos entregados"
+      },
+      {
+        "icon": "ruler",
+        "value": "312,000 m²",
+        "label": "Superficie construida"
+      },
+      {
+        "icon": "calendar",
+        "value": "18 años",
+        "label": "Operando en el noreste"
+      },
+      {
+        "icon": "users",
+        "value": "96%",
+        "label": "Clientes que vuelven a contratarnos"
       }
     ]
   },
@@ -6448,6 +8130,69 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "gallery-masonry-css-columns-caption-hover-overlay": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos ejecutados por Estudio Cardenal",
+    "description": "Una muestra de intervenciones residenciales y corporativas entregadas en los últimos años, documentadas en sitio tras el cierre de cada proyecto.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de oficinas corporativas con revestimiento de concreto aparente",
+        "category": "Corporativo",
+        "caption": "Torre Insurgentes — remodelación de fachada",
+        "aspect": "aspect-[4/5]"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas con muro divisorio de madera y luz cenital",
+        "category": "Interiorismo",
+        "caption": "Despacho legal Vidal & Asociados",
+        "aspect": "aspect-[3/4]"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Patio central de casa residencial con jardinera de piedra",
+        "category": "Residencial",
+        "caption": "Casa Roble — ampliación y patio central",
+        "aspect": "aspect-square"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Recepción de clínica dental con mostrador de cuarzo",
+        "category": "Salud",
+        "caption": "Clínica Dental Monterrey — recepción",
+        "aspect": "aspect-[4/5]"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial con estructura metálica y bodega de distribución",
+        "category": "Industrial",
+        "caption": "Centro logístico Apodaca — nave 2",
+        "aspect": "aspect-[3/4]"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terraza de restaurante con pérgola de madera y vegetación",
+        "category": "Hospitalidad",
+        "caption": "Restaurante Tejida — terraza principal",
+        "aspect": "aspect-square"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Lobby de edificio residencial con muro verde y luz natural",
+        "category": "Residencial",
+        "caption": "Edificio Alameda — lobby de acceso",
+        "aspect": "aspect-[4/5]"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de exhibición inmobiliaria con maqueta y ventanales",
+        "category": "Comercial",
+        "caption": "Sala de ventas Fraccionamiento Norte",
+        "aspect": "aspect-[3/4]"
+      }
+    ]
+  },
   "gallery-masonry-css-columns-overlay-2": {
     "eyebrow": "Portafolio",
     "title": "Proyectos recientes",
@@ -6604,6 +8349,44 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "imageAlt": "Plaza comercial con áreas verdes y estacionamiento",
         "title": "Plaza comercial Rincón del Valle",
         "category": "Arquitectura comercial"
+      }
+    ]
+  },
+  "gallery-masonry-offset-framed-directional-reveal": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos ejecutados por nuestro estudio de arquitectura",
+    "tiles": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de oficinas corporativas con revestimiento de piedra",
+        "title": "Torre corporativa Altamira",
+        "category": "Uso mixto",
+        "aspect": "tall",
+        "offset": "none"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de sala de juntas con iluminación natural",
+        "title": "Sala de juntas Cumbres",
+        "category": "Interiorismo",
+        "aspect": "square",
+        "offset": "down"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial con estructura metálica expuesta",
+        "title": "Centro logístico Apodaca",
+        "category": "Industrial",
+        "aspect": "wide",
+        "offset": "up"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada residencial de dos niveles con jardín frontal",
+        "title": "Residencial Los Encinos",
+        "category": "Residencial",
+        "aspect": "tall",
+        "offset": "down"
       }
     ]
   },
@@ -7081,6 +8864,32 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "gallery-wall-quad-tile-motion-hover-lift": {
+    "eyebrow": "Proyectos entregados",
+    "title": "Obra reciente en distintos giros de la industria",
+    "tiles": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Nave industrial con estructura metálica recién instalada",
+        "caption": "Ampliación de nave industrial — Parque Industrial Toluca"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de oficinas corporativas con acabados en concreto aparente",
+        "caption": "Edificio corporativo — Corredor Reforma, Ciudad de México"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de bodega logística con racks y montacargas",
+        "caption": "Centro de distribución — León, Guanajuato"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Área común de conjunto residencial con jardinería y andadores",
+        "caption": "Conjunto residencial Los Encinos — Querétaro"
+      }
+    ]
+  },
   "header-centered-underline-hover": {
     "logo": "Marín & Osorio",
     "navLabel": "Navegación principal",
@@ -7169,6 +8978,31 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "ctaLabel": "Agendar consulta",
     "ctaHref": "#contacto",
     "menuLabel": "Abrir menú"
+  },
+  "header-editorial-wordmark-slashes-baseline-rule": {
+    "wordmark": "Bureau Alcázar",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "ctaLabel": "Agende una consulta",
+    "ctaHref": "#contacto",
+    "links": [
+      {
+        "label": "Áreas de práctica",
+        "href": "#areas"
+      },
+      {
+        "label": "Socios",
+        "href": "#socios"
+      },
+      {
+        "label": "Casos",
+        "href": "#casos"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ]
   },
   "header-editorial-wordmark-slashes": {
     "wordmark": "Estudio Marín",
@@ -7383,6 +9217,33 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "header-split-minimal-brand-auth": {
+    "logo": "Bufete Larrea",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "loginLabel": "Portal de clientes",
+    "loginHref": "#portal",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "links": [
+      {
+        "label": "Áreas de práctica",
+        "href": "#areas"
+      },
+      {
+        "label": "Equipo",
+        "href": "#equipo"
+      },
+      {
+        "label": "Casos",
+        "href": "#casos"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ]
+  },
   "header-sticky-blurred-navigation": {
     "logo": "Ferretería Industrial Regiomontana",
     "navLabel": "Navegación principal",
@@ -7462,6 +9323,60 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "ctaHref": "#contacto",
     "menuLabel": "Abrir menú de navegación"
   },
+  "header-sticky-scroll-padding-blur-morph": {
+    "utilityLabel": "Despacho de arquitectura e ingeniería",
+    "phone": "+52 55 4720 1183",
+    "logo": "Corvera Arquitectos",
+    "navLabel": "Navegación principal",
+    "links": [
+      {
+        "label": "Proyectos",
+        "href": "#proyectos"
+      },
+      {
+        "label": "Servicios",
+        "href": "#servicios"
+      },
+      {
+        "label": "Nosotros",
+        "href": "#nosotros"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ],
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú de navegación"
+  },
+  "header-three-column-centered-nav-pinned-logo": {
+    "logo": "Orozco & Valdés",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "loginLabel": "Portal de clientes",
+    "loginHref": "#portal",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "links": [
+      {
+        "label": "Áreas de práctica",
+        "href": "#areas"
+      },
+      {
+        "label": "Equipo",
+        "href": "#equipo"
+      },
+      {
+        "label": "Casos",
+        "href": "#casos"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ]
+  },
   "header-wordmark-slash-divider-minimal": {
     "wordmark": "Iturbide & Asociados",
     "navLabel": "Navegación principal",
@@ -7496,6 +9411,123 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "label": "Contacto",
         "href": "#contacto"
       }
+    ]
+  },
+  "hero-centered-email-capture-saas-complete-landing": {
+    "eyebrow": "Acceso anticipado",
+    "title": "El software de gestión para despachos jurídicos que por fin habla su idioma",
+    "description": "Centralice expedientes, plazos procesales y facturación de su despacho en una sola plataforma. Regístrese para obtener acceso anticipado y una tarifa preferencial de lanzamiento.",
+    "formAction": "/api/waitlist",
+    "inputLabel": "Correo electrónico",
+    "inputPlaceholder": "usted@despacho.com.mx",
+    "cta": "Solicitar acceso",
+    "legal": "Sin costo durante el periodo de acceso anticipado. Cancele cuando lo desee.",
+    "statsEyebrow": "En cifras",
+    "stats": [
+      {
+        "value": "180+",
+        "label": "Despachos en lista de espera"
+      },
+      {
+        "value": "32%",
+        "label": "Menos horas administrativas al mes"
+      },
+      {
+        "value": "4.8/5",
+        "label": "Calificación en pruebas piloto"
+      }
+    ],
+    "featuresEyebrow": "Qué incluye",
+    "featuresTitle": "Todo lo que un despacho necesita para operar sin fricciones",
+    "features": [
+      {
+        "icon": "checklist",
+        "title": "Control de expedientes",
+        "description": "Organice cada asunto por cliente, materia y etapa procesal, con historial completo de actuaciones."
+      },
+      {
+        "icon": "timer",
+        "title": "Alertas de plazos",
+        "description": "Reciba avisos automáticos de audiencias, vencimientos y términos antes de que se conviertan en un riesgo."
+      },
+      {
+        "icon": "file",
+        "title": "Facturación integrada",
+        "description": "Genere honorarios y notas de gastos directamente desde cada expediente, sin hojas de cálculo aparte."
+      },
+      {
+        "icon": "shield",
+        "title": "Resguardo de información",
+        "description": "Cifrado de documentos y control de accesos por rol, pensado para el manejo de información confidencial."
+      },
+      {
+        "icon": "bars",
+        "title": "Reportes por socio",
+        "description": "Visualice carga de trabajo, facturación y avance por abogado o por área del despacho."
+      },
+      {
+        "icon": "users",
+        "title": "Portal para clientes",
+        "description": "Comparta el avance de cada asunto con sus clientes sin necesidad de correos ni llamadas de seguimiento."
+      }
+    ],
+    "processEyebrow": "Cómo funciona",
+    "processTitle": "De la solicitud a su despacho operando en unos días",
+    "steps": [
+      {
+        "icon": "rocket",
+        "title": "Solicite acceso",
+        "description": "Deje su correo y le contactamos para agendar una breve llamada de diagnóstico."
+      },
+      {
+        "icon": "checklist",
+        "title": "Configuramos su despacho",
+        "description": "Migramos sus expedientes activos y ajustamos los flujos a la forma de trabajar de su equipo."
+      },
+      {
+        "icon": "users",
+        "title": "Capacitamos a su equipo",
+        "description": "Sesión guiada para abogados y personal administrativo, sin curva de aprendizaje prolongada."
+      },
+      {
+        "icon": "chart",
+        "title": "Empiece a operar",
+        "description": "Su despacho queda funcionando con seguimiento cercano durante las primeras semanas."
+      }
+    ],
+    "testimonial": {
+      "quote": "Dejamos de perseguir plazos en hojas de cálculo. Hoy sabemos exactamente en qué etapa está cada asunto del despacho.",
+      "author": "Renata Off Solórzano",
+      "role": "Socia directora, Off & Barranco Abogados"
+    },
+    "waitlistEyebrow": "Lugares limitados",
+    "waitlistTitle": "Asegure su lugar en el acceso anticipado",
+    "waitlistDescription": "Estamos incorporando despachos de forma gradual para dar una implementación cercana a cada equipo. Regístrese hoy para no quedar fuera de esta primera etapa.",
+    "waitlistFormAction": "/api/waitlist",
+    "waitlistInputLabel": "Correo electrónico",
+    "waitlistInputPlaceholder": "usted@despacho.com.mx",
+    "waitlistCta": "Unirme a la lista",
+    "waitlistLegal": "Al registrarse acepta recibir correos sobre el lanzamiento de la plataforma."
+  },
+  "hero-centered-with-logo-trust-band": {
+    "eyebrow": "Despacho jurídico corporativo",
+    "title": "Asesoría legal que protege el crecimiento de su empresa",
+    "description": "Acompañamos a empresas mexicanas en fusiones, cumplimiento regulatorio y litigio estratégico, con un equipo que responde en menos de 24 horas.",
+    "primaryCta": {
+      "label": "Agendar consulta",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer al equipo",
+      "href": "#equipo"
+    },
+    "trustLabel": "Empresas que ya confían en nosotros",
+    "logos": [
+      "Grupo Altamira",
+      "Constructora Del Valle",
+      "Logística Cardón",
+      "Distribuidora Nortex",
+      "Inmobiliaria Sereno"
     ]
   },
   "hero-conversion-landing-complete": {
@@ -7852,6 +9884,90 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "image": "/images/hero.svg",
     "imageAlt": "Fachada de un corporativo diseñado por el despacho",
     "floatingNote": "Supervisión de obra directa, sin subcontratar la dirección técnica."
+  },
+  "hero-split-dashboard-screenshot-dual-cta-left": {
+    "eyebrow": "Control de obra",
+    "title": "Supervise cada obra desde un solo panel",
+    "subtitle": "Grupo Alba Constructora centraliza avances, costos y entregas de todos sus proyectos en tiempo real, sin depender de reportes dispersos por correo.",
+    "primaryCta": {
+      "label": "Solicitar demostración",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver casos de obra",
+      "href": "#proyectos"
+    },
+    "screenshot": {
+      "label": "Panel de obras · julio 2026",
+      "tableCaption": "Avance de proyectos activos",
+      "headers": {
+        "name": "Proyecto",
+        "status": "Estatus",
+        "value": "Avance"
+      },
+      "stats": [
+        {
+          "value": "18",
+          "label": "Obras activas"
+        },
+        {
+          "value": "92%",
+          "label": "Entregas a tiempo"
+        },
+        {
+          "value": "$46M",
+          "label": "Presupuesto en obra"
+        }
+      ],
+      "chart": [
+        {
+          "label": "Ene",
+          "value": 32
+        },
+        {
+          "label": "Feb",
+          "value": 41
+        },
+        {
+          "label": "Mar",
+          "value": 38
+        },
+        {
+          "label": "Abr",
+          "value": 52
+        },
+        {
+          "label": "May",
+          "value": 61
+        },
+        {
+          "label": "Jun",
+          "value": 74
+        }
+      ],
+      "rows": [
+        {
+          "name": "Torre Reforma Norte",
+          "status": "En obra gris",
+          "value": "68%"
+        },
+        {
+          "name": "Nave Industrial Toluca",
+          "status": "Cimentación",
+          "value": "24%"
+        },
+        {
+          "name": "Plaza Comercial Vía 5",
+          "status": "Acabados",
+          "value": "89%"
+        },
+        {
+          "name": "Bodega Logística Sur",
+          "status": "Entregada",
+          "value": "100%"
+        }
+      ]
+    }
   },
   "hero-split-dual-cta-framed-product": {
     "eyebrow": "Constructora Del Valle",
@@ -8655,6 +10771,51 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "logo-bento-featured-partner-asymmetric-with-frame": {
+    "eyebrow": "Alianzas",
+    "title": "Un ecosistema de socios que respalda cada proyecto",
+    "description": "Trabajamos con despachos, proveedores y certificadoras que comparten nuestros estándares de calidad y cumplimiento.",
+    "featured": {
+      "name": "Grupo Constructor Meridiano",
+      "image": "/images/about.svg",
+      "imageAlt": "Logotipo de Grupo Constructor Meridiano",
+      "tier": "Socio estratégico",
+      "description": "Alianza de largo plazo para el desarrollo de proyectos industriales y logísticos en el Bajío, con más de 40 obras entregadas en conjunto.",
+      "ctaLabel": "Conocer la alianza"
+    },
+    "partners": [
+      {
+        "name": "Aceros del Norte",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Aceros del Norte"
+      },
+      {
+        "name": "Certificadora ISO Bajío",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Certificadora ISO Bajío"
+      },
+      {
+        "name": "Logística Cardenal",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Logística Cardenal"
+      },
+      {
+        "name": "Materiales Insurgentes",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Materiales Insurgentes"
+      },
+      {
+        "name": "Ingeniería Vértice",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Ingeniería Vértice"
+      },
+      {
+        "name": "Seguros Andamio",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Seguros Andamio"
+      }
+    ]
+  },
   "logo-cloud-bento-asymmetric-featured": {
     "eyebrow": "Alianzas estratégicas",
     "title": "Respaldados por los proveedores que exige la industria pesada",
@@ -8999,6 +11160,36 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "logo-cloud-marquee-infinite-responsive-drift": {
+    "eyebrow": "Empresas que confían en nosotros",
+    "title": "Despachos y constructoras que ya trabajan con nuestro sistema",
+    "logos": [
+      {
+        "name": "Grupo Constructor Altavista"
+      },
+      {
+        "name": "Corporativo Ferretero del Norte"
+      },
+      {
+        "name": "Despacho Medina y Asociados"
+      },
+      {
+        "name": "Logística Peninsular"
+      },
+      {
+        "name": "Inmobiliaria San Rafael"
+      },
+      {
+        "name": "Distribuidora Industrial Cuatro Caminos"
+      },
+      {
+        "name": "Estudio Arquitectónico Vértice"
+      },
+      {
+        "name": "Transportes del Bajío"
+      }
+    ]
+  },
   "logo-cloud-marquee-infinite-wordmarks": {
     "eyebrow": "Marcas que confían en nosotros",
     "title": "Despachos, constructoras y distribuidores que ya trabajan con nosotros",
@@ -9102,6 +11293,124 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "image": "/images/about.svg",
         "imageAlt": "Integración con Shopify B2B",
         "label": "Shopify B2B"
+      }
+    ]
+  },
+  "logo-orbital-hub-rotating-brands-center-focus": {
+    "eyebrow": "Red de aliados",
+    "title": "Una red de socios logísticos que opera como un solo equipo",
+    "description": "Coordinamos transportistas, aduanas, almacenes y navieras desde un mismo tablero, para que cada envío tenga trazabilidad completa de punta a punta.",
+    "hubLabel": "Su carga",
+    "stats": [
+      {
+        "value": "9",
+        "label": "Socios estratégicos activos"
+      },
+      {
+        "value": "18",
+        "label": "Años operando en la región"
+      }
+    ],
+    "partners": [
+      {
+        "name": "Naviera del Golfo",
+        "icon": "warehouse"
+      },
+      {
+        "name": "Aduanas Integrales",
+        "icon": "shield"
+      },
+      {
+        "name": "Transportes Bajío",
+        "icon": "truck"
+      },
+      {
+        "name": "Grupo Portuario Altamira",
+        "icon": "landmark"
+      },
+      {
+        "name": "Distribuidora Central",
+        "icon": "package"
+      },
+      {
+        "name": "Manufacturas del Norte",
+        "icon": "factory"
+      },
+      {
+        "name": "Corporativo Andina",
+        "icon": "building"
+      },
+      {
+        "name": "Enlace Global de Carga",
+        "icon": "globe"
+      },
+      {
+        "name": "Red Ferroviaria Sureste",
+        "icon": "link"
+      }
+    ]
+  },
+  "logo-vertical-three-column-carousel-alternating-drift": {
+    "eyebrow": "Aliados",
+    "title": "Despachos y constructoras que ya trabajan con nosotros",
+    "description": "Acompañamos a firmas de distintos giros en la administración de sus proyectos, desde la licitación hasta la entrega.",
+    "columns": [
+      {
+        "items": [
+          {
+            "name": "Grupo Ferretero del Bajío"
+          },
+          {
+            "name": "Constructora Peninsular"
+          },
+          {
+            "name": "Despacho Arana y Asociados"
+          },
+          {
+            "name": "Inmobiliaria Cedro"
+          },
+          {
+            "name": "Logística Monteverde"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "Distribuidora Sarabia"
+          },
+          {
+            "name": "Corporativo Aldava"
+          },
+          {
+            "name": "Estudio Nortec"
+          },
+          {
+            "name": "Manufacturas del Golfo"
+          },
+          {
+            "name": "Consultoría Iberá"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "Transportes Cuvara"
+          },
+          {
+            "name": "Grupo Inmobiliario Larra"
+          },
+          {
+            "name": "Despacho Uriel & Cano"
+          },
+          {
+            "name": "Aceros del Centro"
+          },
+          {
+            "name": "Fábrica Textil Onda"
+          }
+        ]
       }
     ]
   },
@@ -9491,6 +11800,48 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "metrics-strip-horizontal-six-tiles-delta": {
+    "eyebrow": "Indicadores del trimestre",
+    "title": "El desempeño de nuestra operación logística en cifras",
+    "tiles": [
+      {
+        "label": "Entregas a tiempo",
+        "value": "97.4%",
+        "delta": "+2.1 pts",
+        "direction": "up"
+      },
+      {
+        "label": "Envíos gestionados",
+        "value": "18,320",
+        "delta": "+840",
+        "direction": "up"
+      },
+      {
+        "label": "Costo por envío",
+        "value": "$142",
+        "delta": "-8%",
+        "direction": "down"
+      },
+      {
+        "label": "Incidencias reportadas",
+        "value": "0.6%",
+        "delta": "-0.3 pts",
+        "direction": "down"
+      },
+      {
+        "label": "Rutas activas",
+        "value": "64",
+        "delta": "Sin cambio",
+        "direction": "flat"
+      },
+      {
+        "label": "Satisfacción del cliente",
+        "value": "4.8/5",
+        "delta": "+0.2",
+        "direction": "up"
+      }
+    ]
+  },
   "mission-values-grid": {
     "eyebrow": "Nuestra firma",
     "title": "Construimos certeza jurídica para decisiones de negocio",
@@ -9601,6 +11952,82 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "type": "improved",
         "title": "Historial de cambios por expediente",
         "description": "Cada expediente muestra ahora quién y cuándo modificó un dato clave, con la posibilidad de revertir a una versión anterior."
+      }
+    ]
+  },
+  "news-feed-activity-updates-vertical-rail-day-grouped": {
+    "eyebrow": "Actualizaciones",
+    "title": "Lo que está pasando en sus proyectos",
+    "description": "Un registro cronológico de los avances, entregas y decisiones de cada obra a cargo de Grupo Vantia.",
+    "days": [
+      {
+        "date": "Hoy",
+        "updates": [
+          {
+            "avatarLabel": "RM",
+            "icon": "check",
+            "actor": "Renata Molina",
+            "action": "cerró la inspección estructural",
+            "time": "10:14 a. m.",
+            "title": "Inspección estructural aprobada — Torre Alameda",
+            "description": "El dictamen de la Dirección de Obras confirma que la cimentación y los primeros seis niveles cumplen con la norma NTC vigente. Se autoriza continuar con la colocación de losas."
+          },
+          {
+            "avatarLabel": "JC",
+            "icon": "shipment",
+            "actor": "Julián Contreras",
+            "action": "confirmó la llegada de materiales",
+            "time": "8:40 a. m.",
+            "title": "Entrega de acero estructural en sitio",
+            "description": "Llegaron las 40 toneladas de varilla programadas para la etapa dos. El almacén confirmó que la calidad y el calibre corresponden a la orden de compra."
+          }
+        ]
+      },
+      {
+        "date": "Ayer",
+        "updates": [
+          {
+            "avatarLabel": "PL",
+            "icon": "document",
+            "actor": "Paulina Lira",
+            "action": "subió el reporte mensual de avance",
+            "time": "6:05 p. m.",
+            "title": "Reporte de avance de obra — junio",
+            "description": "El avance físico acumulado es del 34%, un punto porcentual arriba de lo programado. El reporte incluye curva S actualizada y bitácora fotográfica."
+          },
+          {
+            "avatarLabel": "DO",
+            "icon": "message",
+            "actor": "Diego Orozco",
+            "action": "respondió a la observación del cliente",
+            "time": "1:20 p. m.",
+            "title": "Aclaración sobre el cambio de acabados",
+            "description": "Se explicó al comité de obra el impacto en tiempo y costo de sustituir el piso porcelanato por duela en las áreas comunes del nivel 3."
+          },
+          {
+            "avatarLabel": "GT",
+            "icon": "alert",
+            "actor": "Gabriela Treviño",
+            "action": "reportó una desviación de programa",
+            "time": "9:52 a. m.",
+            "title": "Retraso de dos días en instalación eléctrica",
+            "description": "El proveedor de tablero principal notificó un retraso de fabricación. El equipo de planeación ya reacomodó frentes de trabajo para no afectar la ruta crítica."
+          }
+        ]
+      },
+      {
+        "date": "3 de julio",
+        "updates": [
+          {
+            "avatarLabel": "RM",
+            "icon": "progress",
+            "actor": "Renata Molina",
+            "action": "actualizó el estatus del proyecto",
+            "time": "5:30 p. m.",
+            "title": "Etapa de cimentación cerrada",
+            "description": "Se concluyó el colado de la última zapata del edificio B. Comienza la etapa de estructura de concreto conforme al programa maestro."
+          }
+        ]
       }
     ]
   },
@@ -9744,6 +12171,56 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "icon": "pin",
         "label": "Monterrey, Nuevo León",
         "href": "https://maps.google.com/?q=Monterrey"
+      }
+    ]
+  },
+  "organization-profile-card-member-avatar-stack": {
+    "eyebrow": "Perfil corporativo",
+    "title": "El despacho detrás de sus proyectos",
+    "logo": "/images/about.svg",
+    "logoAlt": "Logotipo de Cobos & Ibarra Arquitectos",
+    "companyName": "Cobos & Ibarra Arquitectos",
+    "verifiedLabel": "Empresa verificada",
+    "tagline": "Despacho de arquitectura y dirección de obra, Monterrey",
+    "description": "Coordinamos diseño, permisos y dirección de obra en un solo equipo, con entregas documentadas en cada etapa del proyecto.",
+    "websiteLabel": "cobosibarra.mx",
+    "websiteHref": "https://cobosibarra.mx",
+    "contactEmail": "contacto@cobosibarra.mx",
+    "membersLabel": "Equipo directivo y de proyecto",
+    "metrics": [
+      {
+        "value": "18",
+        "label": "Años operando"
+      },
+      {
+        "value": "126",
+        "label": "Proyectos entregados"
+      },
+      {
+        "value": "34",
+        "label": "Colaboradores"
+      },
+      {
+        "value": "9",
+        "label": "Estados atendidos"
+      }
+    ],
+    "members": [
+      {
+        "name": "Renata Cobos, socia directora",
+        "avatar": "/images/about.svg"
+      },
+      {
+        "name": "Emilio Ibarra, socio de obra",
+        "avatar": "/images/about.svg"
+      },
+      {
+        "name": "Paulina Salas, gerente de proyectos",
+        "avatar": "/images/about.svg"
+      },
+      {
+        "name": "Héctor Ramos, coordinador técnico",
+        "avatar": "/images/about.svg"
       }
     ]
   },
@@ -10508,6 +12985,53 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "pricing-carousel-filmstrip-scale-active-tier": {
+    "eyebrow": "Planes y tarifas",
+    "title": "Un plan para cada etapa de su despacho",
+    "description": "Deslice para comparar los planes de asesoría legal y elija el que se ajuste al volumen de casos de su firma.",
+    "highlightedLabel": "Más contratado",
+    "tiers": [
+      {
+        "name": "Esencial",
+        "price": "$8,900",
+        "period": "MXN / mes",
+        "description": "Para despachos que inician con gestión digital de casos.",
+        "features": [
+          "Hasta 15 expedientes activos",
+          "Portal de seguimiento para clientes",
+          "Soporte por correo en horario hábil"
+        ],
+        "cta": "Solicitar información"
+      },
+      {
+        "name": "Profesional",
+        "price": "$16,500",
+        "period": "MXN / mes",
+        "description": "Para firmas con carga constante de litigio y corporativo.",
+        "features": [
+          "Hasta 60 expedientes activos",
+          "Portal de seguimiento para clientes",
+          "Reportes mensuales de avance",
+          "Soporte prioritario por teléfono"
+        ],
+        "cta": "Agendar demostración",
+        "highlighted": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Para grupos jurídicos con múltiples sedes y áreas.",
+        "features": [
+          "Expedientes ilimitados",
+          "Integración con sistemas internos",
+          "Gerente de cuenta dedicado",
+          "Reportes personalizados"
+        ],
+        "cta": "Contactar ventas"
+      }
+    ]
+  },
   "pricing-carousel-scroll-snap-filmstrip": {
     "eyebrow": "Planes de servicio",
     "title": "Un plan para cada etapa de su obra",
@@ -10617,6 +13141,179 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
           "Usuarios ilimitados con acceso al portal"
         ],
         "cta": "Hablar con ventas"
+      }
+    ]
+  },
+  "pricing-comparison-table-multi-tier-sticky": {
+    "eyebrow": "Planes de servicio",
+    "title": "Compare los niveles de acompañamiento contable",
+    "description": "Cada plan incluye los mismos entregables base; la diferencia está en el nivel de asesoría, tiempos de respuesta y reportes que recibe cada mes.",
+    "plansLabel": "Planes disponibles",
+    "popularLabel": "Más elegido",
+    "includedLabel": "Incluido",
+    "notIncludedLabel": "No incluido",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "/mes",
+        "tagline": "Para empresas en etapa inicial con obligaciones fiscales básicas.",
+        "cta": "Solicitar Esencial",
+        "highlighted": false
+      },
+      {
+        "name": "Crecimiento",
+        "price": "$8,900",
+        "period": "/mes",
+        "tagline": "Para empresas con operación activa que requieren cierres mensuales.",
+        "cta": "Solicitar Crecimiento",
+        "highlighted": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "$15,900",
+        "period": "/mes",
+        "tagline": "Para grupos empresariales con varias razones sociales.",
+        "cta": "Solicitar Corporativo",
+        "highlighted": false
+      }
+    ],
+    "groups": [
+      {
+        "title": "Contabilidad y cumplimiento",
+        "features": [
+          {
+            "label": "Declaraciones mensuales de impuestos",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Conciliación bancaria",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Cierre contable mensual con estados financieros",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Consolidación de múltiples razones sociales",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asesoría y reportes",
+        "features": [
+          {
+            "label": "Sesión de asesoría fiscal",
+            "values": [
+              "Trimestral",
+              "Mensual",
+              "Quincenal"
+            ]
+          },
+          {
+            "label": "Tiempo de respuesta a consultas",
+            "values": [
+              "3 días hábiles",
+              "24 horas",
+              "Mismo día"
+            ]
+          },
+          {
+            "label": "Contador dedicado a la cuenta",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Reporte de indicadores financieros",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nómina y soporte adicional",
+        "features": [
+          {
+            "label": "Timbrado de nómina",
+            "values": [
+              "Hasta 5 empleados",
+              "Hasta 20 empleados",
+              "Sin límite"
+            ]
+          },
+          {
+            "label": "Auditoría preventiva anual",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "Acompañamiento en revisiones del SAT",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pricing-duo-split-filled-plain-asymmetric": {
+    "eyebrow": "Planes de servicio",
+    "title": "Dos formas de trabajar con nuestro despacho",
+    "plans": [
+      {
+        "name": "Acompañamiento integral",
+        "price": "$18,500",
+        "period": "MXN / mes",
+        "description": "Para empresas que requieren asesoría fiscal y contable permanente, con revisión mensual de obligaciones.",
+        "features": [
+          "Contador asignado de forma directa",
+          "Declaraciones mensuales y anuales incluidas",
+          "Revisión de nómina y CFDI",
+          "Reuniones trimestrales de cierre"
+        ],
+        "ctaLabel": "Agendar diagnóstico",
+        "featured": true
+      },
+      {
+        "name": "Consulta por proyecto",
+        "price": "$3,200",
+        "period": "MXN / consulta",
+        "description": "Para trámites puntuales: constitución de sociedad, dictamen fiscal o una revisión específica.",
+        "features": [
+          "Sesión de diagnóstico de 90 minutos",
+          "Entregable por escrito con recomendaciones",
+          "Sin permanencia mínima"
+        ],
+        "ctaLabel": "Solicitar consulta",
+        "featured": false
       }
     ]
   },
@@ -10772,6 +13469,28 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "footnote": "Los precios incluyen soporte técnico y actualizaciones sin costo adicional. Facturación anual con 15% de descuento disponible.",
     "cta": "Solicitar cotización para mi equipo"
   },
+  "pricing-single-spotlight-centered-featured": {
+    "eyebrow": "Plan único",
+    "title": "Un solo plan, sin letras chiquitas",
+    "subtitle": "Diseñado para despachos que necesitan gestión documental completa sin escalonar módulos ni negociar por asiento.",
+    "badge": "Más contratado",
+    "socialProof": "Utilizado por más de 40 despachos y constructoras en México",
+    "plan": {
+      "name": "Plan corporativo",
+      "price": "$4,900",
+      "period": "MXN / mes",
+      "description": "Incluye implementación, migración de expedientes y soporte directo con el equipo técnico.",
+      "features": [
+        "Usuarios ilimitados dentro de la organización",
+        "Gestión documental con control de versiones",
+        "Firma electrónica integrada",
+        "Reportes de cumplimiento mensuales",
+        "Soporte prioritario por correo y teléfono",
+        "Migración de expedientes sin costo adicional"
+      ],
+      "cta": "Solicitar acceso"
+    }
+  },
   "pricing-slider-team-seats-animated-calculator": {
     "eyebrow": "Precios por equipo",
     "title": "Calcule el costo según el tamaño de su equipo",
@@ -10820,6 +13539,33 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     ],
     "footnote": "Incluye soporte prioritario y actualizaciones sin costo adicional. Puede cambiar de tramo en cualquier momento.",
     "cta": "Solicitar una demostración"
+  },
+  "pricing-slider-team-seats-dynamic-calculator": {
+    "eyebrow": "Planes por equipo",
+    "title": "Calcule el costo exacto según el tamaño de su equipo",
+    "description": "Ajuste el número de asientos y vea el total mensual actualizarse al instante. Sin letras chiquitas ni cargos ocultos.",
+    "sliderLabel": "Número de asientos",
+    "sliderAriaLabel": "Seleccionar número de asientos del equipo",
+    "sliderValueText": "{seats} asientos seleccionados",
+    "seatsUnit": "asientos",
+    "minSeats": "1",
+    "maxSeats": "50",
+    "defaultSeats": "8",
+    "basePrice": "1470",
+    "perSeatPrice": "245",
+    "totalLabel": "Total mensual",
+    "periodLabel": "/ mes",
+    "breakdown": "Incluye una cuota base de ${base} más ${perSeat} por cada uno de los {seats} asientos contratados.",
+    "included": [
+      "Acceso ilimitado para todos los asientos contratados",
+      "Panel de administración centralizado para el despacho",
+      "Soporte prioritario por correo y teléfono",
+      "Reportes mensuales de uso por asiento",
+      "Actualizaciones y nuevas funciones sin costo adicional",
+      "Cancelación o ajuste de asientos en cualquier momento"
+    ],
+    "ctaLabel": "Contratar plan",
+    "ctaHref": "/contacto"
   },
   "pricing-split-tiers-filled-plain": {
     "eyebrow": "Honorarios",
@@ -11180,6 +13926,57 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "pricing-three-card-tiers-highlighted-standard": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un paquete para cada etapa de su empresa",
+    "description": "Elija el nivel de acompañamiento legal que corresponde al tamaño y complejidad de su operación. Puede cambiar de plan cuando lo requiera.",
+    "featuredLabel": "Más recomendado",
+    "tiers": [
+      {
+        "name": "Esencial",
+        "price": "$8,500",
+        "period": "/mes",
+        "description": "Para empresas en etapa temprana que necesitan cobertura legal básica y consultas puntuales.",
+        "cta": "Contratar plan Esencial",
+        "features": [
+          "Hasta 4 consultas al mes",
+          "Revisión de un contrato al mes",
+          "Respuesta en 48 horas hábiles",
+          "Acceso a plantillas contractuales"
+        ]
+      },
+      {
+        "name": "Profesional",
+        "price": "$18,900",
+        "period": "/mes",
+        "description": "Para empresas en crecimiento con operación activa que requieren asesoría continua.",
+        "cta": "Contratar plan Profesional",
+        "featured": true,
+        "features": [
+          "Consultas ilimitadas",
+          "Revisión de hasta 6 contratos al mes",
+          "Respuesta en 24 horas hábiles",
+          "Acompañamiento en negociaciones",
+          "Sesión mensual de revisión de riesgos"
+        ]
+      },
+      {
+        "name": "Corporativo",
+        "price": "$34,500",
+        "period": "/mes",
+        "description": "Para grupos empresariales con estructuras societarias complejas y necesidades regulatorias.",
+        "cta": "Contratar plan Corporativo",
+        "features": [
+          "Consultas ilimitadas prioritarias",
+          "Revisión ilimitada de contratos",
+          "Respuesta en 4 horas hábiles",
+          "Abogado asignado dedicado",
+          "Cumplimiento regulatorio y corporativo",
+          "Reportes trimestrales para el consejo"
+        ]
+      }
+    ]
+  },
   "pricing-three-toggle-billing-cycle": {
     "eyebrow": "Planes y precios",
     "title": "Un plan para cada etapa de su despacho",
@@ -11422,6 +14219,27 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "process-how-it-works-simple-three-horizontal": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro, de la primera llamada a la entrega",
+    "steps": [
+      {
+        "icon": "phone",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su necesidad logística y las condiciones del sitio para proponer una ruta de trabajo realista, sin compromisos de por medio."
+      },
+      {
+        "icon": "signature",
+        "title": "Firma y planeación",
+        "description": "Formalizamos el acuerdo y definimos calendario, unidades asignadas y puntos de contacto para dar seguimiento a cada etapa."
+      },
+      {
+        "icon": "truck",
+        "title": "Ejecución y entrega",
+        "description": "Coordinamos la operación con reportes periódicos hasta confirmar la entrega en el destino acordado."
+      }
+    ]
+  },
   "process-how-it-works-vertical-bordered-rail": {
     "eyebrow": "Cómo trabajamos",
     "title": "De la primera llamada a la entrega de llaves",
@@ -11447,6 +14265,32 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "icon": "key-round",
         "title": "Entrega y cierre",
         "description": "Realizamos las pruebas finales, tramitamos la documentación de cierre y hacemos entrega formal de la obra."
+      }
+    ]
+  },
+  "process-how-it-works-vertical-four-steps": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la primera llamada a la entrega, en cuatro pasos claros",
+    "steps": [
+      {
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su situación fiscal y contable actual, identificamos riesgos y definimos el alcance del servicio con usted.",
+        "icon": "file"
+      },
+      {
+        "title": "Análisis y plan de trabajo",
+        "description": "Nuestro equipo audita la información disponible y propone un plan con responsables, plazos y entregables definidos.",
+        "icon": "search"
+      },
+      {
+        "title": "Implementación",
+        "description": "Ejecutamos el plan: ajustes contables, presentaciones fiscales y procesos internos quedan documentados paso a paso.",
+        "icon": "tools"
+      },
+      {
+        "title": "Seguimiento y cierre",
+        "description": "Validamos resultados con usted, entregamos reportes finales y dejamos un calendario de revisiones periódicas.",
+        "icon": "check"
       }
     ]
   },
@@ -11686,6 +14530,37 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "icon": "entrega",
         "title": "Entrega y seguimiento",
         "description": "Entregamos el expediente completo y damos acompañamiento durante las primeras etapas de construcción."
+      }
+    ]
+  },
+  "process-steps-horizontal-clickable-interactive-mobile": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso claro, del primer contacto a la entrega",
+    "steps": [
+      {
+        "title": "Diagnóstico inicial",
+        "summary": "Levantamos el requerimiento y revisamos el inventario disponible.",
+        "detail": "Un asesor de cuenta se reúne con usted para entender el volumen, los destinos y los plazos de entrega. Con esa información preparamos una propuesta de ruta y capacidad de flota ajustada a su operación."
+      },
+      {
+        "title": "Cotización y contrato",
+        "summary": "Entregamos una cotización detallada por ruta y tipo de carga.",
+        "detail": "La cotización incluye tarifas por kilómetro, tiempos de tránsito estimados y condiciones de seguro de carga. Una vez aprobada, formalizamos el contrato de servicio con los niveles de cumplimiento acordados."
+      },
+      {
+        "title": "Programación de ruta",
+        "summary": "Asignamos unidad, operador y ventana de carga.",
+        "detail": "El área de tráfico programa la unidad y confirma la ventana de carga con el almacén de origen. Usted recibe la confirmación con el número de guía y el contacto directo del operador asignado."
+      },
+      {
+        "title": "Ejecución y monitoreo",
+        "summary": "Rastreamos el embarque en tiempo real hasta destino.",
+        "detail": "Durante el tránsito, el equipo de monitoreo da seguimiento a la unidad y notifica cualquier desviación de ruta o retraso. Usted puede consultar el estatus del embarque en cualquier momento."
+      },
+      {
+        "title": "Entrega y cierre",
+        "summary": "Confirmamos la recepción y cerramos el expediente.",
+        "detail": "Al llegar a destino, el operador recaba el acuse de recibo firmado y lo carga al expediente digital. El área de facturación cierra el servicio y envía el reporte de cumplimiento al cliente."
       }
     ]
   },
@@ -12097,6 +14972,42 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "product-gallery-screenshot-featured-thumbstrip-inline": {
+    "eyebrow": "Plataforma",
+    "title": "Un panel de control diseñado para despachos contables",
+    "description": "Concilie cuentas, genere reportes fiscales y dé seguimiento a sus clientes desde una sola pantalla, sin hojas de cálculo dispersas.",
+    "versionBadge": "Versión 3.2",
+    "featuredImage": "/images/hero.svg",
+    "featuredImageAlt": "Panel de control principal mostrando el resumen de conciliaciones del mes",
+    "caption": "El panel principal concentra el estado de conciliación de cada cliente, con alertas automáticas cuando un movimiento requiere revisión.",
+    "thumbnails": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de reportes fiscales por cliente",
+        "label": "Reportes fiscales"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de conciliación bancaria",
+        "label": "Conciliación bancaria"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de seguimiento de clientes",
+        "label": "Seguimiento de clientes"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de calendario fiscal",
+        "label": "Calendario fiscal"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pantalla de exportación de reportes",
+        "label": "Exportación de reportes"
+      }
+    ]
+  },
   "product-gallery-screenshot-featured-thumbstrip": {
     "eyebrow": "Plataforma",
     "title": "Visibilidad completa de su operación logística en un solo tablero",
@@ -12474,6 +15385,139 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "property-competitive-positioning-bilateral-split": {
+    "eyebrow": "Posicionamiento",
+    "title": "Cómo se compara Altavista Residencial frente al promedio de la zona",
+    "description": "Antes de agendar su visita, revise en qué se diferencia este desarrollo de otras opciones similares en Santa Fe con la misma superficie y rango de precio.",
+    "columns": [
+      {
+        "badge": "Altavista Residencial",
+        "name": "Nuestra propiedad",
+        "summary": "Desarrollo de 48 unidades con entrega inmediata y escrituración incluida en el precio publicado.",
+        "highlight": true,
+        "points": [
+          {
+            "text": "Escrituración y gastos notariales incluidos",
+            "included": true
+          },
+          {
+            "text": "Entrega inmediata, sin preventa",
+            "included": true
+          },
+          {
+            "text": "Bodega y cajón de estacionamiento asignados",
+            "included": true
+          },
+          {
+            "text": "Cuota de mantenimiento fija los primeros 24 meses",
+            "included": true
+          },
+          {
+            "text": "Amenidades sin costo de membresía",
+            "included": true
+          }
+        ]
+      },
+      {
+        "badge": "Promedio de la zona",
+        "name": "Otras opciones en Santa Fe",
+        "summary": "Con base en 14 desarrollos comparables publicados en el mismo corredor durante los últimos seis meses.",
+        "highlight": false,
+        "points": [
+          {
+            "text": "Gastos notariales por cuenta del comprador",
+            "included": false
+          },
+          {
+            "text": "Entrega estimada a 18-24 meses",
+            "included": false
+          },
+          {
+            "text": "Estacionamiento con costo adicional",
+            "included": false
+          },
+          {
+            "text": "Cuota de mantenimiento sujeta a incrementos anuales",
+            "included": false
+          },
+          {
+            "text": "Membresía de amenidades por separado",
+            "included": false
+          }
+        ]
+      }
+    ]
+  },
+  "property-features-alternating-split-narrative": {
+    "eyebrow": "Desarrollo Cumbres Norte",
+    "title": "Un desarrollo pensado para cada etapa de vida",
+    "rows": [
+      {
+        "icon": "location",
+        "eyebrow": "Ubicación",
+        "title": "A 8 minutos de Valle Oriente",
+        "body": "El desarrollo se ubica sobre Avenida Lázaro Cárdenas, con acceso directo a la Carretera Nacional y a menos de 10 minutos de los principales corredores de oficinas y centros comerciales de San Pedro Garza García.",
+        "points": [
+          "Acceso controlado sobre avenida principal",
+          "A 5 minutos de Colegio Valle Alto",
+          "Rutas de transporte público cercanas",
+          "Ciclovía integrada al desarrollo"
+        ],
+        "statValue": "8 min",
+        "statLabel": "a Valle Oriente en auto",
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea del acceso principal y avenida del desarrollo"
+      },
+      {
+        "icon": "finishes",
+        "eyebrow": "Acabados",
+        "title": "Acabados de nivel residencial premium",
+        "body": "Cada unidad se entrega con pisos de porcelanato rectificado, cocina integral con cubierta de cuarzo y cancelería de aluminio con vidrio templado, listas para habitarse desde el día de la entrega.",
+        "points": [
+          "Pisos de porcelanato rectificado 60x60",
+          "Cocina integral con cubierta de cuarzo",
+          "Cancelería de aluminio y vidrio templado",
+          "Closets con puertas corredizas de piso a techo"
+        ],
+        "statValue": "2 años",
+        "statLabel": "de garantía en acabados",
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de cocina y sala con acabados premium"
+      },
+      {
+        "icon": "layout",
+        "eyebrow": "Distribución",
+        "title": "Espacios que crecen con la familia",
+        "body": "Las plantas van de 78 a 145 metros cuadrados, con opción de recámara adicional en planta baja y terraza techada en todas las unidades, pensadas para recibir visitas sin perder privacidad.",
+        "points": [
+          "Plantas de 78 a 145 m² construidos",
+          "Recámara adicional opcional en planta baja",
+          "Terraza techada en todas las unidades",
+          "Cuarto de lavado independiente"
+        ],
+        "statValue": "145 m²",
+        "statLabel": "en la planta más amplia",
+        "image": "/images/hero.svg",
+        "imageAlt": "Plano de distribución de una de las unidades del desarrollo"
+      },
+      {
+        "icon": "security",
+        "eyebrow": "Seguridad",
+        "title": "Vigilancia y control de acceso 24/7",
+        "body": "El desarrollo cuenta con caseta de vigilancia permanente, circuito cerrado de cámaras en áreas comunes y control de acceso vehicular y peatonal con tarjetón, para tranquilidad de cada familia.",
+        "points": [
+          "Caseta de vigilancia las 24 horas",
+          "Circuito cerrado de cámaras en áreas comunes",
+          "Control de acceso vehicular con tarjetón",
+          "Bardas perimetrales de 3 metros de altura"
+        ],
+        "statValue": "24/7",
+        "statLabel": "vigilancia en el residencial",
+        "image": "/images/about.svg",
+        "imageAlt": "Caseta de acceso y control de vigilancia del residencial"
+      }
+    ]
+  },
   "property-showcase-detailed": {
     "eyebrow": "Desarrollo residencial",
     "title": "Residencial Altavista, Torre Norte",
@@ -12556,6 +15600,43 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     ],
     "detailImage": "/images/about.svg",
     "detailImageAlt": "Detalle constructivo del encuentro entre concreto y cancelería"
+  },
+  "property-tier-split-comparison-dual-cta": {
+    "eyebrow": "Planes de administración",
+    "title": "Elija el nivel de administración para su propiedad",
+    "subtitle": "Dos esquemas de servicio pensados para propietarios que rentan una sola unidad y para quienes administran un portafolio completo.",
+    "tiers": [
+      {
+        "name": "Propietario individual",
+        "price": "$2,900",
+        "period": "/mes por unidad",
+        "description": "Para dueños de una sola propiedad en renta que buscan cobranza puntual y mantenimiento coordinado.",
+        "cta": "Solicitar diagnóstico",
+        "features": [
+          "Publicación y filtrado de inquilinos",
+          "Cobranza mensual con reporte digital",
+          "Coordinación de mantenimiento correctivo",
+          "Contrato de arrendamiento revisado por abogado",
+          "Atención a inquilino en horario hábil"
+        ]
+      },
+      {
+        "name": "Portafolio",
+        "price": "$2,300",
+        "period": "/mes por unidad desde 5 propiedades",
+        "description": "Para inversionistas y familias con varias propiedades que necesitan un solo punto de control y reportes consolidados.",
+        "cta": "Agendar con asesor",
+        "featured": true,
+        "features": [
+          "Todo lo incluido en Propietario individual",
+          "Reporte financiero consolidado mensual",
+          "Mantenimiento preventivo programado",
+          "Renovación y ajuste de rentas por mercado",
+          "Ejecutivo de cuenta dedicado",
+          "Soporte a inquilino 24/7"
+        ]
+      }
+    ]
   },
   "property-tiers-pricing-cards-highlighted": {
     "eyebrow": "Planes de inversión",
@@ -12761,6 +15842,68 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "avatarAlt": "Retrato de Héctor Ramos"
       }
     ]
+  },
+  "real-estate-homepage-hero-stats-services-testimonial": {
+    "eyebrow": "Bienes raíces en Guadalajara",
+    "title": "Encuentre la propiedad que su familia merece",
+    "subtitle": "Acompañamos cada compra, venta y arrendamiento con asesoría certificada, desde la primera visita hasta la firma.",
+    "primaryCtaLabel": "Ver propiedades disponibles",
+    "primaryCtaHref": "#propiedades",
+    "secondaryCtaLabel": "Agendar una asesoría",
+    "secondaryCtaHref": "#contacto",
+    "heroImage": "/images/hero.svg",
+    "heroImageAlt": "Fachada de residencia moderna en zona residencial de Guadalajara",
+    "stats": [
+      {
+        "value": "18",
+        "label": "Años de operación"
+      },
+      {
+        "value": "620+",
+        "label": "Propiedades colocadas"
+      },
+      {
+        "value": "94%",
+        "label": "Clientes que nos recomiendan"
+      },
+      {
+        "value": "35",
+        "label": "Asesores certificados"
+      }
+    ],
+    "servicesEyebrow": "Lo que hacemos",
+    "servicesTitle": "Servicios inmobiliarios para cada etapa de su decisión",
+    "services": [
+      {
+        "icon": "home",
+        "title": "Venta de residencias",
+        "description": "Valuación, promoción y negociación de casas y departamentos en las zonas de mayor plusvalía de la ciudad."
+      },
+      {
+        "icon": "key",
+        "title": "Arrendamiento",
+        "description": "Filtramos inquilinos, redactamos el contrato y damos seguimiento durante toda la vigencia de la renta."
+      },
+      {
+        "icon": "building",
+        "title": "Desarrollos nuevos",
+        "description": "Acceso preferente a preventas y entregas inmediatas de desarrollos verificados por nuestro equipo legal."
+      },
+      {
+        "icon": "chart",
+        "title": "Asesoría de inversión",
+        "description": "Análisis de retorno y plusvalía para quienes buscan construir un portafolio inmobiliario sólido."
+      }
+    ],
+    "testimonialAvatar": "/images/about.svg",
+    "testimonialAvatarAlt": "Retrato de cliente que vendió su casa con la inmobiliaria",
+    "testimonialQuote": "Vendimos la casa de mis padres en menos de dos meses y al precio que esperábamos. La asesoría fue clara en cada paso, sin presiones.",
+    "testimonialName": "Beatriz Solórzano",
+    "testimonialRole": "Cliente, venta de residencia en Providencia",
+    "ctaTitle": "Agende una visita sin compromiso",
+    "ctaSubtitle": "Un asesor certificado le contactará en menos de 24 horas para conocer lo que busca.",
+    "ctaLabel": "Solicitar contacto",
+    "ctaHref": "#contacto"
   },
   "reviews-carousel-selector-chips-blur-rotate": {
     "eyebrow": "Clientes que confían en nosotros",
@@ -13128,6 +16271,62 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         ]
       }
     ]
+  },
+  "role-detail-full-page-metadata-sections-apply-cta": {
+    "eyebrow": "Vacante abierta",
+    "title": "Gerente de Operaciones Logísticas",
+    "summary": "Buscamos a una persona con experiencia comprobada en gestión de flotas y centros de distribución para liderar la operación diaria de nuestra red logística en el Bajío.",
+    "meta": [
+      {
+        "icon": "briefcase",
+        "label": "Tiempo completo"
+      },
+      {
+        "icon": "map-pin",
+        "label": "León, Guanajuato"
+      },
+      {
+        "icon": "building",
+        "label": "Operaciones"
+      },
+      {
+        "icon": "clock",
+        "label": "Publicado hace 3 días"
+      }
+    ],
+    "applyHeading": "¿Le interesa esta posición?",
+    "applySubtext": "Envíe su solicitud y nuestro equipo de reclutamiento le contactará en un plazo de cinco días hábiles.",
+    "applyLabel": "Aplicar a esta vacante",
+    "applyHref": "#aplicar",
+    "sections": [
+      {
+        "title": "Sobre el puesto",
+        "items": [
+          "Coordinará la operación de tres centros de distribución y una flota de 40 unidades.",
+          "Reportará directamente a la Dirección de Operaciones y trabajará de la mano con Ventas y Finanzas.",
+          "El puesto requiere presencia en sitio con visitas periódicas a las sucursales de Querétaro e Irapuato."
+        ]
+      },
+      {
+        "title": "Responsabilidades",
+        "items": [
+          "Supervisar la planeación de rutas y los tiempos de entrega de la flota.",
+          "Dar seguimiento a los indicadores de costo por kilómetro y nivel de servicio.",
+          "Gestionar la relación con transportistas externos y proveedores de mantenimiento.",
+          "Capacitar y evaluar al equipo de coordinadores de almacén."
+        ]
+      },
+      {
+        "title": "Requisitos",
+        "items": [
+          "Licenciatura en Ingeniería Industrial, Logística o carrera afín.",
+          "Cinco años de experiencia en operación logística o cadena de suministro.",
+          "Manejo de sistemas de gestión de transporte (TMS) y Excel avanzado.",
+          "Disponibilidad para viajar dentro de la región del Bajío."
+        ]
+      }
+    ],
+    "closingText": "El proceso de selección incluye entrevista con Recursos Humanos y con la Dirección de Operaciones."
   },
   "role-posting-apply-cta": {
     "eyebrow": "Vacante abierta",
@@ -13834,6 +17033,40 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "stats-metric-band-countup-animated": {
+    "eyebrow": "Indicadores de operación",
+    "title": "Los números detrás de cada entrega",
+    "metrics": [
+      {
+        "icon": "truck",
+        "value": "1,240",
+        "label": "Envíos gestionados este trimestre",
+        "delta": "+8.2%",
+        "trend": "up"
+      },
+      {
+        "icon": "time",
+        "value": "96.4%",
+        "label": "Entregas dentro del tiempo pactado",
+        "delta": "+1.5 pp",
+        "trend": "up"
+      },
+      {
+        "icon": "user",
+        "value": "312",
+        "label": "Clientes activos con ruta asignada",
+        "delta": "+14%",
+        "trend": "up"
+      },
+      {
+        "icon": "pin",
+        "value": "18",
+        "label": "Estados de la República con cobertura",
+        "delta": "-2 vs. plan anual",
+        "trend": "down"
+      }
+    ]
+  },
   "stats-metric-cards": {
     "eyebrow": "Resultados operativos",
     "title": "Cifras que respaldan nuestra operación logística",
@@ -14077,6 +17310,29 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ],
     "linkedinLabel": "Ver el perfil de LinkedIn de {name}"
+  },
+  "team-member-card-compact-centered-role-location-stats": {
+    "eyebrow": "Socio director",
+    "title": "La persona detrás de cada proyecto",
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Fernanda Rivas, socia directora del despacho",
+    "name": "Fernanda Rivas",
+    "role": "Socia directora, práctica fiscal",
+    "location": "Monterrey, Nuevo León",
+    "stats": [
+      {
+        "label": "Años de práctica",
+        "value": "18"
+      },
+      {
+        "label": "Casos resueltos",
+        "value": "240+"
+      },
+      {
+        "label": "Clientes activos",
+        "value": "35"
+      }
+    ]
   },
   "team-member-card-compact-row": {
     "eyebrow": "Nuestro equipo",
@@ -14493,6 +17749,42 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "team-row-horizontal-centered-avatar-role-stacked": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Los socios detrás de cada expediente",
+    "members": [
+      {
+        "name": "Fernando Elizondo",
+        "role": "Socio director, litigio corporativo",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernando Elizondo, socio director de litigio corporativo"
+      },
+      {
+        "name": "Renata Uribe",
+        "role": "Socia, derecho fiscal",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Uribe, socia de derecho fiscal"
+      },
+      {
+        "name": "Diego Sáenz",
+        "role": "Socio, derecho laboral",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diego Sáenz, socio de derecho laboral"
+      },
+      {
+        "name": "Ximena Cárdenas",
+        "role": "Asociada senior, contratos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ximena Cárdenas, asociada senior de contratos"
+      },
+      {
+        "name": "Óscar Villanueva",
+        "role": "Asociado senior, propiedad intelectual",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Óscar Villanueva, asociado senior de propiedad intelectual"
+      }
+    ]
+  },
   "team-row-portrait-showcase": {
     "eyebrow": "Nuestro equipo",
     "title": "Las personas detrás de cada proyecto",
@@ -14609,6 +17901,17 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "logo": "/images/hero.svg",
     "logoAlt": "Logotipo de Grupo Ferretero del Bajío"
   },
+  "testimonial-featured-centered-quote-company-logo": {
+    "logo": "/images/about.svg",
+    "logoAlt": "Logotipo de Constructora Del Valle",
+    "quote": "Desde que trabajamos con este despacho, nuestros procesos de licitación se resolvieron en la mitad del tiempo. Su equipo entendió nuestra operación desde la primera reunión y nunca tuvimos que explicar dos veces lo mismo.",
+    "author": {
+      "name": "Ricardo Alemán",
+      "role": "Director de Operaciones, Constructora Del Valle",
+      "avatar": "/images/hero.svg",
+      "avatarAlt": "Retrato de Ricardo Alemán"
+    }
+  },
   "testimonial-featured-centered-quote": {
     "eyebrow": "Testimonio",
     "quote": "Reestructuramos el pasivo de la planta en Monterrey en cuatro meses, sin detener producción ni un solo turno. El equipo de Vantia entendió el negocio antes de tocar los contratos financieros.",
@@ -14669,6 +17972,37 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "role": "Gerente de finanzas, Distribuidora Rivas",
         "avatar": "/images/about.svg",
         "avatarAlt": "Retrato de Paulina Rivas",
+        "rating": 4
+      }
+    ]
+  },
+  "testimonials-cards-blur-stagger-three-column-rating": {
+    "eyebrow": "Clientes",
+    "title": "Lo que dicen los despachos y constructoras que ya trabajan con nosotros",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "testimonials": [
+      {
+        "quote": "Redujimos el tiempo de cierre de expedientes en un 30% desde que integramos su plataforma.",
+        "name": "Renata Solís",
+        "role": "Directora de Operaciones, Vertice Legal",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Renata Solís",
+        "rating": 5
+      },
+      {
+        "quote": "El soporte durante la migración fue puntual y sin sorpresas en la facturación.",
+        "name": "Ignacio Barrera",
+        "role": "Gerente de Proyectos, Constructora Altiva",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ignacio Barrera",
+        "rating": 5
+      },
+      {
+        "quote": "Nos dieron visibilidad real de inventario en todas nuestras sucursales en menos de un mes.",
+        "name": "Paulina Cárdenas",
+        "role": "Directora Comercial, Distribuidora Norvia",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Cárdenas",
         "rating": 4
       }
     ]
@@ -14743,6 +18077,40 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "testimonials-carousel-framed-auto-advance-selector-blur": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen los clientes que ya trabajan con nosotros",
+    "items": [
+      {
+        "quote": "Desde que Valtierra Abogados lleva nuestros contratos de proveeduría, dejamos de perder semanas en revisiones. Entregan a tiempo y explican cada cláusula en términos que entendemos.",
+        "name": "Ricardo Muñoz",
+        "role": "Director de Operaciones",
+        "company": "Grupo Ferretero del Bajío",
+        "initials": "RM"
+      },
+      {
+        "quote": "Nos acompañaron en una disputa laboral compleja y mantuvieron informado a nuestro equipo directivo en cada etapa. La diferencia estuvo en la claridad de sus reportes.",
+        "name": "Paulina Escamilla",
+        "role": "Gerente de Recursos Humanos",
+        "company": "Manufacturas Industriales del Norte",
+        "initials": "PE"
+      },
+      {
+        "quote": "Renegociamos tres contratos de arrendamiento comercial con su apoyo y logramos condiciones que antes no habíamos conseguido por cuenta propia.",
+        "name": "Hugo Villaseñor",
+        "role": "Socio Fundador",
+        "company": "Inmobiliaria Cedros",
+        "initials": "HV"
+      },
+      {
+        "quote": "Su equipo de cumplimiento normativo nos ayudó a pasar una auditoría fiscal sin observaciones. Trabajan con orden y responden rápido cuando surge una duda.",
+        "name": "Daniela Ríos",
+        "role": "Directora Administrativa",
+        "company": "Distribuidora Sinaloa",
+        "initials": "DR"
+      }
+    ]
+  },
   "testimonials-carousel-framed-selector-chips": {
     "eyebrow": "Voces de clientes",
     "title": "Despachos y constructoras que ya trabajan con nosotros",
@@ -14812,6 +18180,37 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "avatar": "/images/about.svg",
         "avatarAlt": "Retrato de Mariana Cobos",
         "rating": 5
+      }
+    ]
+  },
+  "testimonials-framed-panel-grid-cycle-avatar-selector": {
+    "eyebrow": "Clientes que confían en nosotros",
+    "title": "Resultados que nuestros clientes pueden medir",
+    "selectorLabel": "Seleccionar testimonio",
+    "testimonials": [
+      {
+        "quote": "Redujimos el tiempo de cierre de expedientes catastrales de seis semanas a diez días. El equipo se integró a nuestro flujo de trabajo sin fricción y con reportes que nuestro consejo entiende de inmediato.",
+        "author": "Ileana Vargas",
+        "role": "Directora Jurídica",
+        "company": "Vargas Inmobiliaria",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ileana Vargas, Directora Jurídica de Vargas Inmobiliaria"
+      },
+      {
+        "quote": "Consolidamos el inventario de nueve bodegas en un solo panel. Hoy detectamos faltantes antes de que afecten una entrega, algo que antes nos tomaba días descubrir.",
+        "author": "Marco Tinoco",
+        "role": "Gerente de Cadena de Suministro",
+        "company": "Grupo Tinoco Distribución",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Marco Tinoco, Gerente de Cadena de Suministro de Grupo Tinoco Distribución"
+      },
+      {
+        "quote": "El sistema de cotización automática nos permitió responder a licitaciones el mismo día en vez de la semana siguiente. Ganamos tres contratos que antes se nos iban por tiempos de respuesta.",
+        "author": "Fernanda Ocampo",
+        "role": "Directora Comercial",
+        "company": "Constructora Ocampo",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Fernanda Ocampo, Directora Comercial de Constructora Ocampo"
       }
     ]
   },
@@ -14929,6 +18328,62 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "avatarAlt": "Retrato de Mariana Robles",
         "rating": 4,
         "verified": true
+      }
+    ]
+  },
+  "testimonials-masonry-seven-card-organic-wall": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen los despachos y empresas que ya trabajan con nosotros",
+    "testimonials": [
+      {
+        "quote": "Redujimos el cierre contable mensual de ocho días a tres. El equipo entendió nuestra operación desde la primera reunión.",
+        "name": "Renata Salcido",
+        "role": "Directora de Finanzas, Grupo Vallarta Textil",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Renata Salcido",
+        "emphasis": true
+      },
+      {
+        "quote": "La migración de nuestra contabilidad no tuvo un solo día de interrupción.",
+        "name": "Ismael Contreras",
+        "role": "Gerente de Administración, Constructora Del Bajío",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ismael Contreras"
+      },
+      {
+        "quote": "Nos acompañaron en una auditoría del SAT y salimos sin observaciones.",
+        "name": "Paulina Escamilla",
+        "role": "Directora General, Distribuidora Escamilla",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Escamilla"
+      },
+      {
+        "quote": "Por fin tenemos reportes financieros que entiende todo el consejo, no solo el contador.",
+        "name": "Héctor Villareal",
+        "role": "Socio Fundador, Logística Villareal",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Héctor Villareal"
+      },
+      {
+        "quote": "Contestan en menos de un día, incluso en temporada de declaración anual.",
+        "name": "Cynthia Rangel",
+        "role": "Directora de Operaciones, Clínica Rangel",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Cynthia Rangel"
+      },
+      {
+        "quote": "El dictamen fiscal de este año fue el proceso más ordenado que hemos tenido en doce años de empresa.",
+        "name": "Jorge Aldana",
+        "role": "Director Administrativo, Inmobiliaria Aldana",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Jorge Aldana"
+      },
+      {
+        "quote": "Nos ayudaron a reestructurar la nómina antes de una expansión a tres nuevas plantas.",
+        "name": "Marisol Peña",
+        "role": "Gerente de Recursos Humanos, Manufacturas Peña",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Marisol Peña"
       }
     ]
   },
@@ -15349,6 +18804,59 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "timeline-vertical-milestone-dated-badges": {
+    "eyebrow": "Nuestra trayectoria",
+    "title": "Veinte años construyendo infraestructura para el norte del país",
+    "statusLabels": {
+      "done": "Completado",
+      "active": "En curso",
+      "upcoming": "Próximo"
+    },
+    "items": [
+      {
+        "date": "2006",
+        "status": "done",
+        "title": "Fundación en Monterrey",
+        "description": "Iniciamos operaciones con un equipo de ocho personas y el primer contrato de urbanización para un parque industrial en García, Nuevo León.",
+        "icon": "flag"
+      },
+      {
+        "date": "2011",
+        "status": "done",
+        "title": "Primera obra vertical",
+        "description": "Entregamos nuestro primer edificio de uso mixto de doce niveles, ampliando la operación de urbanización a construcción vertical certificada.",
+        "icon": "buildings"
+      },
+      {
+        "date": "2015",
+        "status": "done",
+        "title": "Alianza con desarrolladoras regionales",
+        "description": "Firmamos convenios marco con tres desarrolladoras para ejecutar obra civil en Saltillo, Torreón y San Luis Potosí de forma continua.",
+        "icon": "handshake"
+      },
+      {
+        "date": "2019",
+        "status": "done",
+        "title": "Certificación ISO 9001",
+        "description": "Obtuvimos la certificación de calidad en procesos constructivos, requisito que hoy nos abre licitaciones con clientes institucionales.",
+        "icon": "trophy"
+      },
+      {
+        "date": "2023",
+        "status": "active",
+        "title": "Expansión a Bajío",
+        "description": "Abrimos oficina en Querétaro para atender el corredor industrial del Bajío, con dos plantas en ejecución y una tercera en licitación.",
+        "icon": "rocket"
+      },
+      {
+        "date": "2027",
+        "status": "upcoming",
+        "title": "Nueva sede en Guadalajara",
+        "description": "Planeamos abrir nuestra tercera oficina regional para consolidar presencia en el occidente del país durante el próximo ciclo fiscal.",
+        "icon": "pin"
+      }
+    ]
+  },
   "treatment-procedure-steps-vertical": {
     "eyebrow": "Proceso clínico",
     "title": "Así se desarrolla su tratamiento con nosotros",
@@ -15398,9 +18906,14 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Inmobiliaria",
     "keys": [
+      "blog-post-listing-divider-rows-excerpt-minimal",
       "department-based-jobs-listing",
+      "property-competitive-positioning-bilateral-split",
+      "property-features-alternating-split-narrative",
       "property-showcase-detailed",
-      "property-tiers-pricing-cards-highlighted"
+      "property-tier-split-comparison-dual-cta",
+      "property-tiers-pricing-cards-highlighted",
+      "real-estate-homepage-hero-stats-services-testimonial"
     ]
   },
   {
@@ -15414,7 +18927,10 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Empleo",
     "keys": [
-      "role-posting-apply-cta"
+      "role-detail-full-page-metadata-sections-apply-cta",
+      "role-posting-apply-cta",
+      "team-member-card-compact-centered-role-location-stats",
+      "team-row-horizontal-centered-avatar-role-stacked"
     ]
   },
   {
@@ -15424,13 +18940,16 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "case-study-immersive",
       "exhibition-framed-metadata",
       "gallery-exhibition-decor-framed-crossfade",
+      "gallery-exhibition-decor-framed-metadata-blur",
       "gallery-filterable-portfolio",
       "gallery-hover-reveal-portfolio",
       "portfolio-bento-asymmetric-featured-plus-two",
       "portfolio-grid-3column-with-metadata",
       "portfolio-grid-showcase",
       "process-how-it-works-horizontal-icon-trio",
+      "process-how-it-works-simple-three-horizontal",
       "process-how-it-works-vertical-bordered-rail",
+      "process-how-it-works-vertical-four-steps",
       "project-list-with-image",
       "testimonial-and-case-study-grid"
     ]
@@ -15438,18 +18957,24 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Blog y noticias",
     "keys": [
+      "announcement-centered-badge-product-update-card",
       "article-documentation-with-pagination",
       "article-editorial-sticky-sidebar-toc-sync",
       "article-footer-social-share-tags",
+      "article-search-results-cards-snippet-badge-date",
       "blog-article-centered-author-share",
+      "blog-article-centered-editorial-author-meta-share",
       "blog-article-docs-breadcrumb-meta-pagination",
       "blog-article-hero-author-tags-social",
       "blog-guide-sticky-toc-navigation",
       "changelog-versioned-grouped-rail",
       "footer-grid-bordered-cells-newsletter",
+      "footer-grid-modular-bordered-newsletter-controls",
       "footer-grid-newsletter-themed",
       "footer-newsletter-grouped-columns-social",
+      "gallery-grid-three-column-card-metadata-blog",
       "news-changelog-tabbed-type-filter",
+      "news-feed-activity-updates-vertical-rail-day-grouped",
       "news-release-log-sidebar",
       "product-changelog-versioned-grouped-rail",
       "product-update-centered-cta"
@@ -15464,6 +18989,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "product-card-interactive",
       "product-categories-animated",
       "product-gallery-screenshot-featured-thumbstrip",
+      "product-gallery-screenshot-featured-thumbstrip-inline",
       "product-grid-featured",
       "product-integrations-grid-icon-label-dense",
       "product-plan-spotlight-single-centered-checklist",
@@ -15485,15 +19011,20 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "reviews-masonry-varied-height-wall-organic",
       "testimonial-featured-centered-oversized-quote",
       "testimonial-featured-centered-quote",
+      "testimonial-featured-centered-quote-company-logo",
       "testimonial-oversized-quote-avatar-logo",
       "testimonial-spotlight-centered",
       "testimonials-cards-animated-blur-grid",
+      "testimonials-cards-blur-stagger-three-column-rating",
       "testimonials-cards-three-column-blur-stagger-rating",
       "testimonials-carousel-auto-cycle-selector-crossfade",
+      "testimonials-carousel-framed-auto-advance-selector-blur",
       "testimonials-carousel-framed-selector-chips",
       "testimonials-dense-rating-rows",
+      "testimonials-framed-panel-grid-cycle-avatar-selector",
       "testimonials-ledger-featured-pull-quote",
       "testimonials-list-dense-rows-avatar-rating-hover",
+      "testimonials-masonry-seven-card-organic-wall",
       "testimonials-masonry-varied-height",
       "testimonials-masonry-varied-heights",
       "testimonials-masonry-wall-varied-heights-organic",
@@ -15505,6 +19036,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
     "keys": [
       "comparison-bilateral-conversion-cta",
       "comparison-bilateral-us-them-check-mark-cta",
+      "comparison-bilateral-us-vs-them-advantages-stark",
       "comparison-plans-table-sticky-header",
       "comparison-table-3-plan-matrix",
       "comparison-us-vs-them-check-cross-duality",
@@ -15516,17 +19048,23 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "pricing-accordion-tier-expandable",
       "pricing-cards-three-column-highlighted",
       "pricing-cards-tiered-standard-highlight-featured",
+      "pricing-carousel-filmstrip-scale-active-tier",
       "pricing-carousel-scroll-snap-filmstrip",
       "pricing-carousel-scroll-snap-scale-active",
+      "pricing-comparison-table-multi-tier-sticky",
+      "pricing-duo-split-filled-plain-asymmetric",
       "pricing-duo-tier-split-filled-plain",
       "pricing-inline-single-row-band",
       "pricing-ledger-comparison",
       "pricing-seat-calculator-slider-dynamic",
+      "pricing-single-spotlight-centered-featured",
       "pricing-slider-team-seats-animated-calculator",
+      "pricing-slider-team-seats-dynamic-calculator",
       "pricing-split-tiers-filled-plain",
       "pricing-table-ledger-comparison-hairline",
       "pricing-table-ledger-feature-rows",
       "pricing-table-matrix-compare-feature-sticky",
+      "pricing-three-card-tiers-highlighted-standard",
       "pricing-three-toggle-billing-cycle",
       "pricing-tier-centered-selector-toggle-billing",
       "team-seat-calculator",
@@ -15540,17 +19078,22 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "faq-accordion-contact-card-alongside",
       "faq-accordion-minimal-text-only",
       "faq-accordion-split-framed-paper",
+      "faq-accordion-split-support-cta-sidebar",
       "faq-accordion-sticky-support-sidebar",
       "faq-accordion-tinted-background",
       "faq-accordion-two-column-balanced",
       "faq-accordion-two-column-bordered",
       "faq-editorial-sidebar-sync",
+      "faq-grid-cards-6tile-hover-expandable",
       "faq-grid-cards-expandable",
       "faq-grid-cards-hover-lift",
       "faq-list-icon-divider",
       "faq-sidebar-editorial-indexed-sticky",
+      "faq-sidebar-sticky-topic-rail-stats-synced",
+      "faq-split-indexed-accordion-hairline-rows",
       "faq-support-cta-hybrid",
       "faq-tabbed-pill-filter-categories",
+      "faq-tabbed-search-category-filter-live",
       "faq-tabbed-searchable-categories",
       "faq-tabs-live-search"
     ]
@@ -15559,6 +19102,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
     "category": "Equipo",
     "keys": [
       "about-narrative-team-photo-metrics",
+      "about-team-photo-narrative-metrics-split-two-column",
       "team-grid-hover-reveal",
       "team-lineup-centered-portrait",
       "team-member-card-compact-row",
@@ -15583,10 +19127,13 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "footer-giant-wordmark-statement-close",
       "footer-grid-blueprint-bordered",
       "footer-inline-blur-wordmark-compact",
+      "footer-mega-columns-sitemap-locale-controls",
       "footer-mega-localized",
       "footer-mega-multicolumn-locale-theme",
       "footer-mega-sitemap-locale-theme-bar",
       "footer-multi-column-sitemap-locale-theme",
+      "footer-single-row-inline-wordmark-blur-compact",
+      "footer-veil-design-kit-variant-4",
       "footer-vertical-dividers-split",
       "footer-wordmark-prominent-outline",
       "logo-cloud-footer-responsive-strip"
@@ -15598,6 +19145,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "header-centered-underline-hover",
       "header-dropdown-megamenu-reveal",
       "header-editorial-wordmark-slashes",
+      "header-editorial-wordmark-slashes-baseline-rule",
       "header-flat-monochrome-drawer",
       "header-full-width-marketing-cta",
       "header-full-width-responsive",
@@ -15605,9 +19153,12 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "header-split-asymmetric-auth-cluster",
       "header-split-auth",
       "header-split-auth-cluster",
+      "header-split-minimal-brand-auth",
       "header-sticky-blurred-navigation",
       "header-sticky-morphing-scroll-animation",
       "header-sticky-scroll-morphing-blur",
+      "header-sticky-scroll-padding-blur-morph",
+      "header-three-column-centered-nav-pinned-logo",
       "header-wordmark-slash-divider-minimal",
       "process-flow-state-header"
     ]
@@ -15615,22 +19166,28 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Contacto",
     "keys": [
+      "about-organization-profile-card-cover-stats-tabs",
       "about-organization-profile-stats",
       "agent-contact-form-map-locations",
       "call-booking-closure",
+      "contact-cards-grid-hover-lift-inline-form",
       "contact-channel-cards-hover-grid",
       "contact-channel-cards-mini-form-grid",
       "contact-channel-list-split-form",
+      "contact-channels-list-form-scroll-stagger",
       "contact-channels-list-form-split-reveal",
       "contact-form-centered-card",
       "contact-form-map-office-locations",
       "contact-form-parallax-support",
       "contact-form-parallax-support-visual",
       "contact-form-topic-pills",
+      "contact-form-visual-panel-parallax",
       "contact-image-floating-card",
       "contact-locations-map-form",
+      "contact-map-and-locations-form-split",
       "contact-single-card-form-privacy",
       "organization-contact-card",
+      "organization-profile-card-member-avatar-stack",
       "organization-profile-card-members",
       "organization-profile-stats-avatars-card"
     ]
@@ -15638,6 +19195,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Proceso",
     "keys": [
+      "about-timeline-bilateral-alternating-spine",
       "company-journey-timeline-vertical-rail",
       "process-color-animated-steps",
       "process-horizontal-interactive-clickable-progress",
@@ -15649,6 +19207,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "process-stepper-horizontal-interactive-progress",
       "process-stepper-horizontal-numbered-completed-state",
       "process-stepper-vertical-rail-with-descriptions",
+      "process-steps-horizontal-clickable-interactive-mobile",
       "process-steps-horizontal-numbered-trio",
       "process-steps-vertical-rail-quartet",
       "process-sticky-image-steps",
@@ -15657,21 +19216,26 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "process-visual-journey-steps",
       "timeline-bilateral-spine-centered-milestones",
       "timeline-milestone-bilateral-alternating-spine",
-      "timeline-milestone-left-rail-vertical"
+      "timeline-milestone-left-rail-vertical",
+      "timeline-vertical-milestone-dated-badges"
     ]
   },
   {
     "category": "Cifras y resultados",
     "keys": [
+      "about-capabilities-vertical-list-accent-bar-stat-expand",
+      "about-mission-centered-four-metrics-strip",
       "about-mission-centered-with-metric-underline",
       "about-mission-statement-metrics-strip",
       "about-narrative-with-metrics-row",
       "about-section-centered-eyebrow-mission-metrics",
       "analytics-chart-with-kpi-summary",
       "analytics-kpi-chart-with-trends",
+      "analytics-kpi-summary-row-area-chart-badge",
       "company-mission-intro-with-metrics",
       "empty-state-dual-action-centered",
       "gallery-grid-metrics-column",
+      "gallery-grid-uniform-with-stats-sidebar",
       "gallery-grid-with-stats-column",
       "hero-editorial-with-stat-hairline",
       "hero-email-waitlist-stats-flow",
@@ -15685,10 +19249,12 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "logo-cloud-ledger-static-bordered-wordmark",
       "metrics-cards-with-directional-deltas",
       "metrics-countup-delta-quad-animated",
+      "metrics-strip-horizontal-six-tiles-delta",
       "solutions-stats-showcase",
       "startup-landing-with-key-stats",
       "stats-band-minimal-four-column",
       "stats-bento-narrative",
+      "stats-metric-band-countup-animated",
       "stats-metric-cards",
       "status-services-uptime-metrics-list"
     ]
@@ -15696,6 +19262,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Galerías",
     "keys": [
+      "gallery-bento-asymmetric-hero-tiles-supporting",
       "gallery-bento-hero-supporting-tiles",
       "gallery-editorial-grayscale-indexed",
       "gallery-grid-responsive-uniform",
@@ -15703,9 +19270,11 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "gallery-marquee-infinite-edge-mask",
       "gallery-marquee-infinite-edge-mask-2",
       "gallery-masonry-caption-hover",
+      "gallery-masonry-css-columns-caption-hover-overlay",
       "gallery-masonry-css-columns-overlay",
       "gallery-masonry-css-columns-overlay-2",
       "gallery-masonry-hover-overlay",
+      "gallery-masonry-offset-framed-directional-reveal",
       "gallery-masonry-offset-variable-reveal",
       "gallery-masonry-offset-variable-reveal-2",
       "gallery-masonry-overlay-cards",
@@ -15717,6 +19286,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "gallery-wall-4tile-motion-hover",
       "gallery-wall-4tile-motion-hover-2",
       "gallery-wall-hover-reveal",
+      "gallery-wall-quad-tile-motion-hover-lift",
       "intro-asymmetric-gallery",
       "logo-gallery-featured-thumbnail-rail",
       "masonry-offset-framed",
@@ -15728,11 +19298,16 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
     "keys": [
       "announcement-centered-with-cta",
       "bordered-conversion-panel-split",
+      "cta-band-full-width-inverted-primary-split",
       "cta-band-horizontal-blur-conversion",
+      "cta-band-horizontal-blur-stagger-dual-action",
+      "cta-card-minimal-bordered-centered-button",
       "email-capture-band-horizontal",
       "email-capture-closing",
       "full-width-conversion-banner",
+      "hero-centered-email-capture-saas-complete-landing",
       "hero-conversion-landing-complete",
+      "hero-split-dashboard-screenshot-dual-cta-left",
       "hero-split-screenshot-dual-cta-side",
       "integrations-trust-cta"
     ]
@@ -15740,16 +19315,22 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Aliados y logos",
     "keys": [
+      "about-partners-split-narrative-logo-marks-blur-reveal",
       "brand-partners-grid",
+      "hero-centered-with-logo-trust-band",
       "integrations-directory-searchable-filterable-grid",
+      "logo-bento-featured-partner-asymmetric-with-frame",
       "logo-cloud-bento-asymmetric-featured",
       "logo-cloud-bento-featured-partner",
       "logo-cloud-dual-row-opposite-drift",
       "logo-cloud-grid-colorize-tooltip",
       "logo-cloud-grid-four-column-card",
       "logo-cloud-grid-pulse-focus-active",
+      "logo-cloud-marquee-infinite-responsive-drift",
       "logo-cloud-marquee-infinite-wordmarks",
       "logo-cloud-split-editorial",
+      "logo-orbital-hub-rotating-brands-center-focus",
+      "logo-vertical-three-column-carousel-alternating-drift",
       "partner-developers-grid",
       "partner-logos-band",
       "partners-grid-card-logo",
@@ -15782,6 +19363,9 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "feature-sticky-scroll-stack-offset-animation",
       "feature-tabbed-grid-category-swap",
       "features-alternating-dense-copy-image",
+      "features-alternating-split-image-bullet-three-row",
+      "features-bento-asymmetric-flagship-motion-expand",
+      "features-bento-grid-six-cell-symmetric",
       "features-checklist-dense-two-column-marks",
       "features-dense-checkbox-list",
       "features-tabbed-icon-grid",

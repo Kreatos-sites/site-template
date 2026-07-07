@@ -1,0 +1,21 @@
+{
+  "key": "header-sticky-scroll-padding-blur-morph",
+  "pascalName": "HeaderStickyScrollPaddingBlurMorph",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-sticky-scroll-padding-blur-morph` | header-sticky-scroll-padding-blur-morph — nav sticky de dos capas (franja de contacto + barra principal) con blur permanente y padding compacto que sugiere el efecto de morfismo al hacer scroll, sin JS de cliente | { utilityLabel, phone, logo, navLabel, links: [{ label, href }], ctaLabel, ctaHref, menuLabel } |",
+  "fixture": {
+    "utilityLabel": "Despacho de arquitectura e ingeniería",
+    "phone": "+52 55 4720 1183",
+    "logo": "Corvera Arquitectos",
+    "navLabel": "Navegación principal",
+    "links": [
+      { "label": "Proyectos", "href": "#proyectos" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Nosotros", "href": "#nosotros" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú de navegación"
+  }
+}

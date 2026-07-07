@@ -1,0 +1,21 @@
+{
+  "key": "header-split-minimal-brand-auth",
+  "pascalName": "HeaderSplitMinimalBrandAuth",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-split-minimal-brand-auth` | header-split-minimal-brand-auth — navegación split minimal que agrupa marca y enlaces en un bloque a la izquierda, separado por un borde vertical del cluster de autenticación a la derecha | { logo, navLabel, menuLabel, loginLabel, loginHref, ctaLabel, ctaHref, links: [{ label, href }] } |",
+  "fixture": {
+    "logo": "Bufete Larrea",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "loginLabel": "Portal de clientes",
+    "loginHref": "#portal",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "links": [
+      { "label": "Áreas de práctica", "href": "#areas" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Casos", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

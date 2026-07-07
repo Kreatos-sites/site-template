@@ -1,0 +1,27 @@
+{
+  "key": "hero-centered-with-logo-trust-band",
+  "pascalName": "HeroCenteredWithLogoTrustBand",
+  "category": "Features y servicios",
+  "catalogRow": "| `hero-centered-with-logo-trust-band` | hero-centered-with-logo-trust-band — hero centrado con titular, descripción, dos CTAs y una banda inferior con logotipos de clientes de confianza | { eyebrow, title, description, primaryCta: { label, href }, secondaryCta: { label, href }, trustLabel, logos: string[] } |",
+  "fixture": {
+    "eyebrow": "Despacho jurídico corporativo",
+    "title": "Asesoría legal que protege el crecimiento de su empresa",
+    "description": "Acompañamos a empresas mexicanas en fusiones, cumplimiento regulatorio y litigio estratégico, con un equipo que responde en menos de 24 horas.",
+    "primaryCta": {
+      "label": "Agendar consulta",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer al equipo",
+      "href": "#equipo"
+    },
+    "trustLabel": "Empresas que ya confían en nosotros",
+    "logos": [
+      "Grupo Altamira",
+      "Constructora Del Valle",
+      "Logística Cardón",
+      "Distribuidora Nortex",
+      "Inmobiliaria Sereno"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "key": "real-estate-homepage-hero-stats-services-testimonial",
+  "pascalName": "RealEstateHomepageHeroStatsServicesTestimonial",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `real-estate-homepage-hero-stats-services-testimonial` | real-estate-homepage-hero-stats-services-testimonial — Landing page completa de inmobiliaria: hero centrado con imagen y CTAs, banda de estadísticas, grid de servicios, testimonial destacado y banda CTA final de conversión | { eyebrow, title, subtitle, primaryCtaLabel, primaryCtaHref, secondaryCtaLabel, secondaryCtaHref, heroImage, heroImageAlt, stats: [{value,label}], servicesEyebrow, servicesTitle, services: [{icon,title,description}], testimonialAvatar, testimonialAvatarAlt, testimonialQuote, testimonialName, testimonialRole, ctaTitle, ctaSubtitle, ctaLabel, ctaHref } |",
+  "fixture": {
+    "eyebrow": "Bienes raíces en Guadalajara",
+    "title": "Encuentre la propiedad que su familia merece",
+    "subtitle": "Acompañamos cada compra, venta y arrendamiento con asesoría certificada, desde la primera visita hasta la firma.",
+    "primaryCtaLabel": "Ver propiedades disponibles",
+    "primaryCtaHref": "#propiedades",
+    "secondaryCtaLabel": "Agendar una asesoría",
+    "secondaryCtaHref": "#contacto",
+    "heroImage": "/images/hero.svg",
+    "heroImageAlt": "Fachada de residencia moderna en zona residencial de Guadalajara",
+    "stats": [
+      { "value": "18", "label": "Años de operación" },
+      { "value": "620+", "label": "Propiedades colocadas" },
+      { "value": "94%", "label": "Clientes que nos recomiendan" },
+      { "value": "35", "label": "Asesores certificados" }
+    ],
+    "servicesEyebrow": "Lo que hacemos",
+    "servicesTitle": "Servicios inmobiliarios para cada etapa de su decisión",
+    "services": [
+      { "icon": "home", "title": "Venta de residencias", "description": "Valuación, promoción y negociación de casas y departamentos en las zonas de mayor plusvalía de la ciudad." },
+      { "icon": "key", "title": "Arrendamiento", "description": "Filtramos inquilinos, redactamos el contrato y damos seguimiento durante toda la vigencia de la renta." },
+      { "icon": "building", "title": "Desarrollos nuevos", "description": "Acceso preferente a preventas y entregas inmediatas de desarrollos verificados por nuestro equipo legal." },
+      { "icon": "chart", "title": "Asesoría de inversión", "description": "Análisis de retorno y plusvalía para quienes buscan construir un portafolio inmobiliario sólido." }
+    ],
+    "testimonialAvatar": "/images/about.svg",
+    "testimonialAvatarAlt": "Retrato de cliente que vendió su casa con la inmobiliaria",
+    "testimonialQuote": "Vendimos la casa de mis padres en menos de dos meses y al precio que esperábamos. La asesoría fue clara en cada paso, sin presiones.",
+    "testimonialName": "Beatriz Solórzano",
+    "testimonialRole": "Cliente, venta de residencia en Providencia",
+    "ctaTitle": "Agende una visita sin compromiso",
+    "ctaSubtitle": "Un asesor certificado le contactará en menos de 24 horas para conocer lo que busca.",
+    "ctaLabel": "Solicitar contacto",
+    "ctaHref": "#contacto"
+  }
+}

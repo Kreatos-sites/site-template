@@ -1,0 +1,37 @@
+{
+  "key": "faq-split-indexed-accordion-hairline-rows",
+  "pascalName": "FaqSplitIndexedAccordionHairlineRows",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-split-indexed-accordion-hairline-rows` | faq-split-indexed-accordion-hairline-rows — layout split con panel fijo a la izquierda y filas de preguntas indexadas (01, 02, 03...) separadas por divisores hairline a la derecha, estilo ledger denso y compacto | { eyebrow, title, note, items: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contratarnos, resolvemos sus dudas",
+    "note": "Si su pregunta no aparece aquí, escríbanos y le respondemos en un plazo máximo de un día hábil.",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo toma un proceso de constitución de sociedad?",
+        "answer": "En promedio, de tres a cinco semanas desde que recibimos la documentación completa, dependiendo del giro y del estado donde se constituya la sociedad."
+      },
+      {
+        "question": "¿Manejan casos de litigio mercantil fuera de la Ciudad de México?",
+        "answer": "Sí. Contamos con corresponsales en Jalisco, Nuevo León y Querétaro, y coordinamos audiencias en cualquier entidad del país."
+      },
+      {
+        "question": "¿Cómo se calculan los honorarios de una consulta inicial?",
+        "answer": "La primera reunión de diagnóstico no tiene costo. A partir de ahí, cotizamos por proyecto o por destajo mensual, según la complejidad del asunto."
+      },
+      {
+        "question": "¿Pueden asesorarnos en una fusión con una empresa extranjera?",
+        "answer": "Sí, trabajamos de la mano con despachos aliados en Estados Unidos y España para procesos de fusión, adquisición y due diligence transfronterizo."
+      },
+      {
+        "question": "¿Qué documentos necesito para iniciar un trámite de propiedad industrial?",
+        "answer": "Basta con una identificación oficial, el comprobante de domicilio de la empresa y una descripción técnica de la marca o invención a registrar."
+      },
+      {
+        "question": "¿Ofrecen seguimiento posterior a la firma del contrato?",
+        "answer": "Sí, incluimos hasta seis meses de acompañamiento sin costo adicional para resolver dudas de implementación o ajustes menores al documento."
+      }
+    ]
+  }
+}

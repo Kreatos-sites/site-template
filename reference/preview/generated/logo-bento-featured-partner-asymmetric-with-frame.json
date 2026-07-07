@@ -1,0 +1,27 @@
+{
+  "key": "logo-bento-featured-partner-asymmetric-with-frame",
+  "pascalName": "LogoBentoFeaturedPartnerAsymmetricWithFrame",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-bento-featured-partner-asymmetric-with-frame` | logo-bento-featured-partner-asymmetric-with-frame — grid bento asimétrico con marco punteado y esquinas decorativas, celda de socio destacado ampliada con insignia de nivel y CTA, rodeada de logos de aliados en celdas cuadradas | { eyebrow, title, description, featured: { name, image, imageAlt, tier, description, ctaLabel }, partners: [{ name, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Alianzas",
+    "title": "Un ecosistema de socios que respalda cada proyecto",
+    "description": "Trabajamos con despachos, proveedores y certificadoras que comparten nuestros estándares de calidad y cumplimiento.",
+    "featured": {
+      "name": "Grupo Constructor Meridiano",
+      "image": "/images/about.svg",
+      "imageAlt": "Logotipo de Grupo Constructor Meridiano",
+      "tier": "Socio estratégico",
+      "description": "Alianza de largo plazo para el desarrollo de proyectos industriales y logísticos en el Bajío, con más de 40 obras entregadas en conjunto.",
+      "ctaLabel": "Conocer la alianza"
+    },
+    "partners": [
+      { "name": "Aceros del Norte", "image": "/images/hero.svg", "imageAlt": "Logotipo de Aceros del Norte" },
+      { "name": "Certificadora ISO Bajío", "image": "/images/hero.svg", "imageAlt": "Logotipo de Certificadora ISO Bajío" },
+      { "name": "Logística Cardenal", "image": "/images/hero.svg", "imageAlt": "Logotipo de Logística Cardenal" },
+      { "name": "Materiales Insurgentes", "image": "/images/hero.svg", "imageAlt": "Logotipo de Materiales Insurgentes" },
+      { "name": "Ingeniería Vértice", "image": "/images/hero.svg", "imageAlt": "Logotipo de Ingeniería Vértice" },
+      { "name": "Seguros Andamio", "image": "/images/hero.svg", "imageAlt": "Logotipo de Seguros Andamio" }
+    ]
+  }
+}

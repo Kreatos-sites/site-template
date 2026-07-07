@@ -1,0 +1,78 @@
+{
+  "key": "contact-channels-list-form-scroll-stagger",
+  "pascalName": "ContactChannelsListFormScrollStagger",
+  "category": "Contacto",
+  "catalogRow": "| `contact-channels-list-form-scroll-stagger` | contact-channels-list-form-scroll-stagger — layout de dos columnas: lista de canales de contacto con scroll interno a la izquierda y formulario completo a la derecha, con animación de aparición escalonada; para páginas de contacto de despachos, constructoras o firmas con varios canales de atención. | { eyebrow, title, subtitle, channelsTitle, channels: [{ icon, label, value }], formTitle, fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su proyecto",
+    "subtitle": "Cuéntenos qué necesita y un especialista de Corvera Consultores le responderá en un plazo máximo de un día hábil.",
+    "channelsTitle": "Canales de atención",
+    "channels": [
+      {
+        "icon": "mail",
+        "label": "Correo",
+        "value": "contacto@corveraconsultores.mx"
+      },
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 55 1234 5678"
+      },
+      {
+        "icon": "whatsapp",
+        "label": "WhatsApp",
+        "value": "+52 55 8765 4321"
+      },
+      {
+        "icon": "map-pin",
+        "label": "Oficina",
+        "value": "Av. Paseo de la Reforma 350, Piso 12, Col. Juárez, CDMX"
+      },
+      {
+        "icon": "clock",
+        "label": "Horario",
+        "value": "Lunes a viernes, de 9:00 a 18:00 horas"
+      },
+      {
+        "icon": "globe",
+        "label": "Zona de cobertura",
+        "value": "Atendemos clientes en toda la República Mexicana"
+      }
+    ],
+    "formTitle": "Envíenos su solicitud",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nombre completo",
+        "type": "text",
+        "placeholder": "Escriba su nombre"
+      },
+      {
+        "name": "company",
+        "label": "Empresa",
+        "type": "text",
+        "placeholder": "Nombre de su empresa"
+      },
+      {
+        "name": "email",
+        "label": "Correo electrónico",
+        "type": "email",
+        "placeholder": "correo@empresa.com"
+      },
+      {
+        "name": "phone",
+        "label": "Teléfono",
+        "type": "tel",
+        "placeholder": "55 0000 0000"
+      },
+      {
+        "name": "message",
+        "label": "Mensaje",
+        "type": "textarea",
+        "placeholder": "Describa brevemente su solicitud"
+      }
+    ],
+    "submitLabel": "Enviar solicitud"
+  }
+}

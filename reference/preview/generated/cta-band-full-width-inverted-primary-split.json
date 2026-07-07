@@ -1,0 +1,15 @@
+{
+  "key": "cta-band-full-width-inverted-primary-split",
+  "pascalName": "CtaBandFullWidthInvertedPrimarySplit",
+  "category": "Heroes",
+  "catalogRow": "| `cta-band-full-width-inverted-primary-split` | cta-band-full-width-inverted-primary-split — banda de ancho completo sobre bg-primary invertido, con encabezado, línea de apoyo y botón secundario de alto contraste en layout horizontal, para cerrar la conversión al final de la página | { eyebrow, title, description, primaryLabel, primaryHref, secondaryLabel, secondaryHref } |",
+  "fixture": {
+    "eyebrow": "Agende una consulta",
+    "title": "Resuelva su siguiente proyecto de construcción con un equipo que responde",
+    "description": "Cotizaciones claras, cronogramas realistas y un solo punto de contacto durante toda la obra. Cuéntenos el alcance y le devolvemos una propuesta en menos de 48 horas.",
+    "primaryLabel": "Solicitar cotización",
+    "primaryHref": "/contacto",
+    "secondaryLabel": "Llamar al despacho",
+    "secondaryHref": "tel:+525512345678"
+  }
+}

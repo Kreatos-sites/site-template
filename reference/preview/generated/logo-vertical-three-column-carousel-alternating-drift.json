@@ -1,0 +1,40 @@
+{
+  "key": "logo-vertical-three-column-carousel-alternating-drift",
+  "pascalName": "LogoVerticalThreeColumnCarouselAlternatingDrift",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-vertical-three-column-carousel-alternating-drift` | logo-vertical-three-column-carousel-alternating-drift — tres columnas de wordmarks en scroll vertical continuo con dirección alternada por columna y pausa al pasar el cursor · úsalo para mostrar una cartera amplia de clientes o aliados sin ocupar mucho espacio horizontal. | { eyebrow, title, description, columns: [{ items: [{ name }] }] } |",
+  "fixture": {
+    "eyebrow": "Aliados",
+    "title": "Despachos y constructoras que ya trabajan con nosotros",
+    "description": "Acompañamos a firmas de distintos giros en la administración de sus proyectos, desde la licitación hasta la entrega.",
+    "columns": [
+      {
+        "items": [
+          { "name": "Grupo Ferretero del Bajío" },
+          { "name": "Constructora Peninsular" },
+          { "name": "Despacho Arana y Asociados" },
+          { "name": "Inmobiliaria Cedro" },
+          { "name": "Logística Monteverde" }
+        ]
+      },
+      {
+        "items": [
+          { "name": "Distribuidora Sarabia" },
+          { "name": "Corporativo Aldava" },
+          { "name": "Estudio Nortec" },
+          { "name": "Manufacturas del Golfo" },
+          { "name": "Consultoría Iberá" }
+        ]
+      },
+      {
+        "items": [
+          { "name": "Transportes Cuvara" },
+          { "name": "Grupo Inmobiliario Larra" },
+          { "name": "Despacho Uriel & Cano" },
+          { "name": "Aceros del Centro" },
+          { "name": "Fábrica Textil Onda" }
+        ]
+      }
+    ]
+  }
+}

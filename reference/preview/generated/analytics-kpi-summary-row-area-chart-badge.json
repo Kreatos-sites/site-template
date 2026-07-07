@@ -1,0 +1,37 @@
+{
+  "key": "analytics-kpi-summary-row-area-chart-badge",
+  "pascalName": "AnalyticsKpiSummaryRowAreaChartBadge",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `analytics-kpi-summary-row-area-chart-badge` | analytics-kpi-summary-row-area-chart-badge — tarjeta de analítica con gráfico de área degradado, franja de tres KPI (total, pico, delta) y badge de crecimiento interanual | { eyebrow, title, cardTitle, cardSubtitle, chartLabel, growth: { value, label, direction }, kpis: [{ label, value }], chart: [{ label, value }] } |",
+  "fixture": {
+    "eyebrow": "Desempeño operativo",
+    "title": "Volumen de expedientes gestionados por mes",
+    "cardTitle": "Expedientes activos",
+    "cardSubtitle": "Últimos 12 meses, todas las áreas de práctica",
+    "chartLabel": "Gráfico de área con el volumen mensual de expedientes activos",
+    "growth": {
+      "value": "+18.4%",
+      "label": "vs. año anterior",
+      "direction": "up"
+    },
+    "kpis": [
+      { "label": "Total del periodo", "value": "1,842" },
+      { "label": "Mes pico", "value": "196" },
+      { "label": "Variación", "value": "+18.4%" }
+    ],
+    "chart": [
+      { "label": "Ene", "value": 118 },
+      { "label": "Feb", "value": 124 },
+      { "label": "Mar", "value": 131 },
+      { "label": "Abr", "value": 129 },
+      { "label": "May", "value": 142 },
+      { "label": "Jun", "value": 151 },
+      { "label": "Jul", "value": 148 },
+      { "label": "Ago", "value": 160 },
+      { "label": "Sep", "value": 168 },
+      { "label": "Oct", "value": 174 },
+      { "label": "Nov", "value": 183 },
+      { "label": "Dic", "value": 196 }
+    ]
+  }
+}

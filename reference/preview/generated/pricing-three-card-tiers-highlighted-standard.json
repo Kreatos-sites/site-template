@@ -1,0 +1,57 @@
+{
+  "key": "pricing-three-card-tiers-highlighted-standard",
+  "pascalName": "PricingThreeCardTiersHighlightedStandard",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-three-card-tiers-highlighted-standard` | pricing-three-card-tiers-highlighted-standard — tres tarjetas de precios en columna con el plan intermedio destacado como más recomendado, para paquetes de servicios estandarizados | { eyebrow, title, description, featuredLabel, tiers: [{ name, price, period, description, cta, featured?, features: [] }] } |",
+  "fixture": {
+    "eyebrow": "Planes de servicio",
+    "title": "Un paquete para cada etapa de su empresa",
+    "description": "Elija el nivel de acompañamiento legal que corresponde al tamaño y complejidad de su operación. Puede cambiar de plan cuando lo requiera.",
+    "featuredLabel": "Más recomendado",
+    "tiers": [
+      {
+        "name": "Esencial",
+        "price": "$8,500",
+        "period": "/mes",
+        "description": "Para empresas en etapa temprana que necesitan cobertura legal básica y consultas puntuales.",
+        "cta": "Contratar plan Esencial",
+        "features": [
+          "Hasta 4 consultas al mes",
+          "Revisión de un contrato al mes",
+          "Respuesta en 48 horas hábiles",
+          "Acceso a plantillas contractuales"
+        ]
+      },
+      {
+        "name": "Profesional",
+        "price": "$18,900",
+        "period": "/mes",
+        "description": "Para empresas en crecimiento con operación activa que requieren asesoría continua.",
+        "cta": "Contratar plan Profesional",
+        "featured": true,
+        "features": [
+          "Consultas ilimitadas",
+          "Revisión de hasta 6 contratos al mes",
+          "Respuesta en 24 horas hábiles",
+          "Acompañamiento en negociaciones",
+          "Sesión mensual de revisión de riesgos"
+        ]
+      },
+      {
+        "name": "Corporativo",
+        "price": "$34,500",
+        "period": "/mes",
+        "description": "Para grupos empresariales con estructuras societarias complejas y necesidades regulatorias.",
+        "cta": "Contratar plan Corporativo",
+        "features": [
+          "Consultas ilimitadas prioritarias",
+          "Revisión ilimitada de contratos",
+          "Respuesta en 4 horas hábiles",
+          "Abogado asignado dedicado",
+          "Cumplimiento regulatorio y corporativo",
+          "Reportes trimestrales para el consejo"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "key": "footer-mega-columns-sitemap-locale-controls",
+  "pascalName": "FooterMegaColumnsSitemapLocaleControls",
+  "category": "Footers",
+  "catalogRow": "| `footer-mega-columns-sitemap-locale-controls` | footer-mega-columns-sitemap-locale-controls — mega footer con cinco columnas de sitemap, datos de contacto, y barra inferior con selector de idioma y de tema, para sitios corporativos con muchas secciones | { brandName, tagline, contactLines: [{label, value}], columns: [{heading, links: [{label, href}]}], localeLabel, localeOptions: [{label, href, current}], themeLabel, themeOptions: [{label, icon, current}], legalLinks: [{label, href}], copyright } |",
+  "fixture": {
+    "brandName": "Zavala Cortés Abogados",
+    "tagline": "Despacho especializado en derecho corporativo, fiscal y laboral con presencia en Ciudad de México, Monterrey y Guadalajara.",
+    "contactLines": [
+      { "label": "Correo", "value": "contacto@zavalacortes.mx" },
+      { "label": "Teléfono", "value": "+52 55 5280 1194" },
+      { "label": "Oficina central", "value": "Paseo de la Reforma 250, CDMX" }
+    ],
+    "columns": [
+      {
+        "heading": "Prácticas",
+        "links": [
+          { "label": "Derecho corporativo", "href": "/practicas/corporativo" },
+          { "label": "Derecho fiscal", "href": "/practicas/fiscal" },
+          { "label": "Derecho laboral", "href": "/practicas/laboral" },
+          { "label": "Litigio civil y mercantil", "href": "/practicas/litigio" },
+          { "label": "Propiedad intelectual", "href": "/practicas/propiedad-intelectual" }
+        ]
+      },
+      {
+        "heading": "Despacho",
+        "links": [
+          { "label": "Quiénes somos", "href": "/nosotros" },
+          { "label": "Socios y asociados", "href": "/equipo" },
+          { "label": "Casos de éxito", "href": "/casos" },
+          { "label": "Trabaja con nosotros", "href": "/carreras" },
+          { "label": "Oficinas", "href": "/oficinas" }
+        ]
+      },
+      {
+        "heading": "Recursos",
+        "links": [
+          { "label": "Boletín legal", "href": "/boletin" },
+          { "label": "Guías y publicaciones", "href": "/publicaciones" },
+          { "label": "Preguntas frecuentes", "href": "/preguntas-frecuentes" },
+          { "label": "Calculadora de honorarios", "href": "/honorarios" }
+        ]
+      },
+      {
+        "heading": "Clientes",
+        "links": [
+          { "label": "Portal de clientes", "href": "/portal" },
+          { "label": "Agendar consulta", "href": "/contacto" },
+          { "label": "Facturación", "href": "/facturacion" },
+          { "label": "Soporte", "href": "/soporte" }
+        ]
+      },
+      {
+        "heading": "Legal",
+        "links": [
+          { "label": "Aviso de privacidad", "href": "/privacidad" },
+          { "label": "Términos de uso", "href": "/terminos" },
+          { "label": "Código de ética", "href": "/etica" },
+          { "label": "Cumplimiento", "href": "/cumplimiento" }
+        ]
+      }
+    ],
+    "localeLabel": "Idioma",
+    "localeOptions": [
+      { "label": "Español", "href": "/es", "current": true },
+      { "label": "English", "href": "/en", "current": false }
+    ],
+    "themeLabel": "Tema",
+    "themeOptions": [
+      { "label": "Claro", "icon": "sun", "current": true },
+      { "label": "Oscuro", "icon": "moon", "current": false }
+    ],
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos de uso", "href": "/terminos" }
+    ],
+    "copyright": "© 2026 Zavala Cortés Abogados, S.C. Todos los derechos reservados."
+  }
+}

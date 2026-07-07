@@ -1,0 +1,82 @@
+{
+  "key": "news-feed-activity-updates-vertical-rail-day-grouped",
+  "pascalName": "NewsFeedActivityUpdatesVerticalRailDayGrouped",
+  "category": "Blog y noticias",
+  "catalogRow": "| `news-feed-activity-updates-vertical-rail-day-grouped` | news-feed-activity-updates-vertical-rail-day-grouped — feed de noticias y actualizaciones en timeline vertical agrupado por día, con avatar e icono de estado por actualización conectados por un rail | { eyebrow, title, description, days: [{ date, updates: [{ avatarLabel, icon, actor, action, time, title, description }] }] } |",
+  "fixture": {
+    "eyebrow": "Actualizaciones",
+    "title": "Lo que está pasando en sus proyectos",
+    "description": "Un registro cronológico de los avances, entregas y decisiones de cada obra a cargo de Grupo Vantia.",
+    "days": [
+      {
+        "date": "Hoy",
+        "updates": [
+          {
+            "avatarLabel": "RM",
+            "icon": "check",
+            "actor": "Renata Molina",
+            "action": "cerró la inspección estructural",
+            "time": "10:14 a. m.",
+            "title": "Inspección estructural aprobada — Torre Alameda",
+            "description": "El dictamen de la Dirección de Obras confirma que la cimentación y los primeros seis niveles cumplen con la norma NTC vigente. Se autoriza continuar con la colocación de losas."
+          },
+          {
+            "avatarLabel": "JC",
+            "icon": "shipment",
+            "actor": "Julián Contreras",
+            "action": "confirmó la llegada de materiales",
+            "time": "8:40 a. m.",
+            "title": "Entrega de acero estructural en sitio",
+            "description": "Llegaron las 40 toneladas de varilla programadas para la etapa dos. El almacén confirmó que la calidad y el calibre corresponden a la orden de compra."
+          }
+        ]
+      },
+      {
+        "date": "Ayer",
+        "updates": [
+          {
+            "avatarLabel": "PL",
+            "icon": "document",
+            "actor": "Paulina Lira",
+            "action": "subió el reporte mensual de avance",
+            "time": "6:05 p. m.",
+            "title": "Reporte de avance de obra — junio",
+            "description": "El avance físico acumulado es del 34%, un punto porcentual arriba de lo programado. El reporte incluye curva S actualizada y bitácora fotográfica."
+          },
+          {
+            "avatarLabel": "DO",
+            "icon": "message",
+            "actor": "Diego Orozco",
+            "action": "respondió a la observación del cliente",
+            "time": "1:20 p. m.",
+            "title": "Aclaración sobre el cambio de acabados",
+            "description": "Se explicó al comité de obra el impacto en tiempo y costo de sustituir el piso porcelanato por duela en las áreas comunes del nivel 3."
+          },
+          {
+            "avatarLabel": "GT",
+            "icon": "alert",
+            "actor": "Gabriela Treviño",
+            "action": "reportó una desviación de programa",
+            "time": "9:52 a. m.",
+            "title": "Retraso de dos días en instalación eléctrica",
+            "description": "El proveedor de tablero principal notificó un retraso de fabricación. El equipo de planeación ya reacomodó frentes de trabajo para no afectar la ruta crítica."
+          }
+        ]
+      },
+      {
+        "date": "3 de julio",
+        "updates": [
+          {
+            "avatarLabel": "RM",
+            "icon": "progress",
+            "actor": "Renata Molina",
+            "action": "actualizó el estatus del proyecto",
+            "time": "5:30 p. m.",
+            "title": "Etapa de cimentación cerrada",
+            "description": "Se concluyó el colado de la última zapata del edificio B. Comienza la etapa de estructura de concreto conforme al programa maestro."
+          }
+        ]
+      }
+    ]
+  }
+}

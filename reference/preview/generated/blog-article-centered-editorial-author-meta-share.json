@@ -1,0 +1,60 @@
+{
+  "key": "blog-article-centered-editorial-author-meta-share",
+  "pascalName": "BlogArticleCenteredEditorialAuthorMetaShare",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-article-centered-editorial-author-meta-share` | blog-article-centered-editorial-author-meta-share — artículo de blog centrado con autor, tags de categoría, metadatos y botones de compartir para lectura editorial de largo formato | { category, title, deck, authorAvatar, authorAvatarAlt, authorName, authorRole, publishedDate, readTime, coverImage, coverImageAlt, body: [{ type: \"p\"\\|\"h3\"\\|\"quote\"\\|\"list\", text?, cite?, items? }], tags: [{ label }], shareLinks: [{ label, icon, href }] } |",
+  "fixture": {
+    "category": "Actualización normativa",
+    "title": "Qué cambia en el cumplimiento fiscal para empresas con operación transfronteriza",
+    "deck": "Un repaso de las modificaciones recientes al régimen de precios de transferencia y su impacto directo en la planeación anual de las empresas con proveedores en Estados Unidos.",
+    "authorAvatar": "/images/about.svg",
+    "authorAvatarAlt": "Retrato de Mariana Fuentes Ibarra",
+    "authorName": "Mariana Fuentes Ibarra",
+    "authorRole": "Socia de práctica fiscal, Fuentes Ibarra Abogados",
+    "publishedDate": "3 de julio de 2026",
+    "readTime": "7 min de lectura",
+    "coverImage": "/images/hero.svg",
+    "coverImageAlt": "Documentos de cumplimiento fiscal sobre un escritorio",
+    "body": [
+      {
+        "type": "p",
+        "text": "Durante el último trimestre, las autoridades fiscales publicaron ajustes que modifican los plazos y requisitos de documentación para empresas con operaciones intercompañía. Para los despachos que asesoramos a clientes con proveedores en Estados Unidos, esto implica revisar de inmediato los estudios de precios de transferencia vigentes."
+      },
+      {
+        "type": "h3",
+        "text": "Qué documentación se vuelve obligatoria"
+      },
+      {
+        "type": "p",
+        "text": "El nuevo marco exige que las empresas conserven evidencia detallada de la metodología usada para fijar precios entre partes relacionadas, además de justificar por qué esa metodología resulta la más adecuada frente a las alternativas disponibles."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Estudio comparativo actualizado con empresas de referencia del mismo sector",
+          "Contratos intercompañía vigentes, firmados y con fecha cierta",
+          "Análisis funcional que describa activos, riesgos y funciones de cada parte"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Las empresas que dejan esta revisión para el cierre de año suelen encontrarse con hallazgos que ya no tienen tiempo de corregir.",
+        "cite": "Mariana Fuentes Ibarra, socia de práctica fiscal"
+      },
+      {
+        "type": "p",
+        "text": "Recomendamos a nuestros clientes iniciar la revisión documental con al menos cuatro meses de anticipación al cierre fiscal, de forma que cualquier ajuste a la metodología de precios se pueda implementar sin presión de calendario."
+      }
+    ],
+    "tags": [
+      { "label": "Fiscal" },
+      { "label": "Precios de transferencia" },
+      { "label": "Cumplimiento" }
+    ],
+    "shareLinks": [
+      { "label": "Copiar enlace", "icon": "link", "href": "#" },
+      { "label": "Compartir por correo", "icon": "mail", "href": "mailto:" },
+      { "label": "Ver publicación original", "icon": "web", "href": "#" }
+    ]
+  }
+}

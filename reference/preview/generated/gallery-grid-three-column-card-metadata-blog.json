@@ -1,0 +1,40 @@
+{
+  "key": "gallery-grid-three-column-card-metadata-blog",
+  "pascalName": "GalleryGridThreeColumnCardMetadataBlog",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-grid-three-column-card-metadata-blog` | gallery-grid-three-column-card-metadata-blog — grid de tres columnas con imagen, categoría y metadatos (fecha, tiempo de lectura) para listados de blog o artículos. | { eyebrow, title, description, posts: [{ category, title, excerpt, date, readTime, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Blog",
+    "title": "Análisis y criterio para decisiones de negocio",
+    "description": "Artículos escritos por nuestro equipo de consultoría sobre estructuración fiscal, cumplimiento normativo y planeación financiera.",
+    "posts": [
+      {
+        "category": "Fiscal",
+        "title": "Cambios al régimen simplificado de confianza en 2026",
+        "excerpt": "Qué debe revisar su despacho antes del cierre del ejercicio para evitar contingencias con el SAT.",
+        "date": "3 de julio, 2026",
+        "readTime": "6 min de lectura",
+        "image": "/images/about.svg",
+        "imageAlt": "Documentos fiscales sobre un escritorio de oficina"
+      },
+      {
+        "category": "Cumplimiento",
+        "title": "Due diligence en fusiones: la checklist que evita sorpresas",
+        "excerpt": "Los puntos que con más frecuencia se pasan por alto durante la revisión de una adquisición.",
+        "date": "24 de junio, 2026",
+        "readTime": "8 min de lectura",
+        "image": "/images/hero.svg",
+        "imageAlt": "Reunión de trabajo revisando contratos"
+      },
+      {
+        "category": "Planeación financiera",
+        "title": "Estructurar el flujo de caja de una constructora por obra",
+        "excerpt": "Un modelo práctico para separar costos directos e indirectos por proyecto y anticipar déficits.",
+        "date": "10 de junio, 2026",
+        "readTime": "5 min de lectura",
+        "image": "/images/about.svg",
+        "imageAlt": "Planos de construcción y calculadora sobre una mesa"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "key": "timeline-vertical-milestone-dated-badges",
+  "pascalName": "TimelineVerticalMilestoneDatedBadges",
+  "category": "Proceso",
+  "catalogRow": "| `timeline-vertical-milestone-dated-badges` | timeline-vertical-milestone-dated-badges — línea de tiempo vertical de un solo carril con fecha, insignia de estatus (completado/en curso/próximo) y descripción por hito, para narrar la historia de la empresa | { eyebrow, title, statusLabels: { done, active, upcoming }, items: [{ date, status, title, description, icon }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra trayectoria",
+    "title": "Veinte años construyendo infraestructura para el norte del país",
+    "statusLabels": {
+      "done": "Completado",
+      "active": "En curso",
+      "upcoming": "Próximo"
+    },
+    "items": [
+      {
+        "date": "2006",
+        "status": "done",
+        "title": "Fundación en Monterrey",
+        "description": "Iniciamos operaciones con un equipo de ocho personas y el primer contrato de urbanización para un parque industrial en García, Nuevo León.",
+        "icon": "flag"
+      },
+      {
+        "date": "2011",
+        "status": "done",
+        "title": "Primera obra vertical",
+        "description": "Entregamos nuestro primer edificio de uso mixto de doce niveles, ampliando la operación de urbanización a construcción vertical certificada.",
+        "icon": "buildings"
+      },
+      {
+        "date": "2015",
+        "status": "done",
+        "title": "Alianza con desarrolladoras regionales",
+        "description": "Firmamos convenios marco con tres desarrolladoras para ejecutar obra civil en Saltillo, Torreón y San Luis Potosí de forma continua.",
+        "icon": "handshake"
+      },
+      {
+        "date": "2019",
+        "status": "done",
+        "title": "Certificación ISO 9001",
+        "description": "Obtuvimos la certificación de calidad en procesos constructivos, requisito que hoy nos abre licitaciones con clientes institucionales.",
+        "icon": "trophy"
+      },
+      {
+        "date": "2023",
+        "status": "active",
+        "title": "Expansión a Bajío",
+        "description": "Abrimos oficina en Querétaro para atender el corredor industrial del Bajío, con dos plantas en ejecución y una tercera en licitación.",
+        "icon": "rocket"
+      },
+      {
+        "date": "2027",
+        "status": "upcoming",
+        "title": "Nueva sede en Guadalajara",
+        "description": "Planeamos abrir nuestra tercera oficina regional para consolidar presencia en el occidente del país durante el próximo ciclo fiscal.",
+        "icon": "pin"
+      }
+    ]
+  }
+}

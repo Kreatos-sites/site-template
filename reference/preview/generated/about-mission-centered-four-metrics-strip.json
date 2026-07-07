@@ -1,0 +1,17 @@
+{
+  "key": "about-mission-centered-four-metrics-strip",
+  "pascalName": "AboutMissionCenteredFourMetricsStrip",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `about-mission-centered-four-metrics-strip` | about-mission-centered-four-metrics-strip — sección centrada de misión empresarial con franja de cuatro métricas fundamentales (año de fundación, clientes, países, equipo) | { eyebrow, title, mission, metrics: [{ icon, value, label }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Construimos infraestructura logística para el comercio mexicano",
+    "mission": "Desde Monterrey coordinamos transporte, almacenaje y distribución para empresas que necesitan que su carga llegue a tiempo, sin sorpresas y con visibilidad completa de cada envío.",
+    "metrics": [
+      { "icon": "calendar", "value": "2011", "label": "Año de fundación" },
+      { "icon": "team", "value": "180+", "label": "Colaboradores" },
+      { "icon": "global", "value": "12", "label": "Países atendidos" },
+      { "icon": "handshake", "value": "340+", "label": "Clientes activos" }
+    ]
+  }
+}

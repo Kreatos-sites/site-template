@@ -1,0 +1,20 @@
+{
+  "key": "team-member-card-compact-centered-role-location-stats",
+  "pascalName": "TeamMemberCardCompactCenteredRoleLocationStats",
+  "category": "Equipo",
+  "catalogRow": "| `team-member-card-compact-centered-role-location-stats` | team-member-card-compact-centered-role-location-stats — tarjeta individual compacta y centrada con avatar, nombre, rol, ubicación y una franja de tres métricas, para destacar a un socio o directivo | { eyebrow, title, image, imageAlt, name, role, location, stats: [{ label, value }] } |",
+  "fixture": {
+    "eyebrow": "Socio director",
+    "title": "La persona detrás de cada proyecto",
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Fernanda Rivas, socia directora del despacho",
+    "name": "Fernanda Rivas",
+    "role": "Socia directora, práctica fiscal",
+    "location": "Monterrey, Nuevo León",
+    "stats": [
+      { "label": "Años de práctica", "value": "18" },
+      { "label": "Casos resueltos", "value": "240+" },
+      { "label": "Clientes activos", "value": "35" }
+    ]
+  }
+}

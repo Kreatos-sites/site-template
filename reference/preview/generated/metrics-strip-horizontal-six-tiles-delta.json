@@ -1,0 +1,48 @@
+{
+  "key": "metrics-strip-horizontal-six-tiles-delta",
+  "pascalName": "MetricsStripHorizontalSixTilesDelta",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `metrics-strip-horizontal-six-tiles-delta` | metrics-strip-horizontal-six-tiles-delta — franja horizontal compacta de seis baldosas métricas con label, valor grande y delta direccional, para mostrar un tablero de indicadores operativos de un vistazo | { eyebrow, title, tiles: [{ label, value, delta, direction }] } |",
+  "fixture": {
+    "eyebrow": "Indicadores del trimestre",
+    "title": "El desempeño de nuestra operación logística en cifras",
+    "tiles": [
+      {
+        "label": "Entregas a tiempo",
+        "value": "97.4%",
+        "delta": "+2.1 pts",
+        "direction": "up"
+      },
+      {
+        "label": "Envíos gestionados",
+        "value": "18,320",
+        "delta": "+840",
+        "direction": "up"
+      },
+      {
+        "label": "Costo por envío",
+        "value": "$142",
+        "delta": "-8%",
+        "direction": "down"
+      },
+      {
+        "label": "Incidencias reportadas",
+        "value": "0.6%",
+        "delta": "-0.3 pts",
+        "direction": "down"
+      },
+      {
+        "label": "Rutas activas",
+        "value": "64",
+        "delta": "Sin cambio",
+        "direction": "flat"
+      },
+      {
+        "label": "Satisfacción del cliente",
+        "value": "4.8/5",
+        "delta": "+0.2",
+        "direction": "up"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "key": "team-row-horizontal-centered-avatar-role-stacked",
+  "pascalName": "TeamRowHorizontalCenteredAvatarRoleStacked",
+  "category": "Equipo",
+  "catalogRow": "| `team-row-horizontal-centered-avatar-role-stacked` | team-row-horizontal-centered-avatar-role-stacked — fila horizontal centrada de miembros del equipo con retrato circular, nombre y puesto apilados debajo, sin tarjetas ni biografías | { eyebrow, title, members: [{ name, role, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Los socios detrás de cada expediente",
+    "members": [
+      {
+        "name": "Fernando Elizondo",
+        "role": "Socio director, litigio corporativo",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernando Elizondo, socio director de litigio corporativo"
+      },
+      {
+        "name": "Renata Uribe",
+        "role": "Socia, derecho fiscal",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Uribe, socia de derecho fiscal"
+      },
+      {
+        "name": "Diego Sáenz",
+        "role": "Socio, derecho laboral",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diego Sáenz, socio de derecho laboral"
+      },
+      {
+        "name": "Ximena Cárdenas",
+        "role": "Asociada senior, contratos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ximena Cárdenas, asociada senior de contratos"
+      },
+      {
+        "name": "Óscar Villanueva",
+        "role": "Asociado senior, propiedad intelectual",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Óscar Villanueva, asociado senior de propiedad intelectual"
+      }
+    ]
+  }
+}

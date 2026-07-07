@@ -1,0 +1,21 @@
+{
+  "key": "about-team-photo-narrative-metrics-split-two-column",
+  "pascalName": "AboutTeamPhotoNarrativeMetricsSplitTwoColumn",
+  "category": "Equipo",
+  "catalogRow": "| `about-team-photo-narrative-metrics-split-two-column` | about-team-photo-narrative-metrics-split-two-column — Sección bipartita con fotografía de equipo en escala de grises, narrativa de la empresa en dos párrafos y franja inferior de tres métricas con icono, para presentar al estudio o despacho y su trayectoria. | { eyebrow, title, paragraphs: string[], image, imageAlt, metrics: [{ icon, value, label }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro estudio",
+    "title": "Un equipo de arquitectos que proyecta con criterio, no con moda",
+    "paragraphs": [
+      "Fundamos el estudio en Guadalajara con una premisa simple: cada encargo merece una solución propia, no un catálogo de fachadas repetidas. Desde entonces hemos acompañado a despachos, desarrolladoras y particulares en proyectos que van del anteproyecto a la obra terminada.",
+      "El equipo está formado por arquitectos, ingenieros estructurales y un área de gestión de obra que da seguimiento a cada etapa. Trabajamos con planos coordinados, presupuestos revisados y visitas semanales, para que usted reciba avances verificables y no solo renders."
+    ],
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo del estudio revisando planos en la mesa de trabajo",
+    "metrics": [
+      { "icon": "team", "value": "18", "label": "Arquitectos e ingenieros en plantilla" },
+      { "icon": "founded", "value": "2011", "label": "Año de fundación del estudio" },
+      { "icon": "location", "value": "3", "label": "Ciudades con obra en ejecución" }
+    ]
+  }
+}

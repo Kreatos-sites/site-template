@@ -1,0 +1,54 @@
+{
+  "key": "about-timeline-bilateral-alternating-spine",
+  "pascalName": "AboutTimelineBilateralAlternatingSpine",
+  "category": "Nosotros",
+  "catalogRow": "| `about-timeline-bilateral-alternating-spine` | about-timeline-bilateral-alternating-spine — línea de tiempo bilateral alternada en espina central para narrar la historia y los hitos de la empresa | { eyebrow, title, items: [{ year, tag, title, description, icon }] } |",
+  "fixture": {
+    "eyebrow": "Nuestra historia",
+    "title": "Dos décadas construyendo con la misma disciplina",
+    "items": [
+      {
+        "year": "2006",
+        "tag": "Fundación",
+        "title": "Arranca Constructora Del Bravo",
+        "description": "Iniciamos operaciones en Monterrey con un equipo de ocho personas enfocado en obra industrial ligera para la zona metropolitana.",
+        "icon": "flag"
+      },
+      {
+        "year": "2011",
+        "tag": "Expansión",
+        "title": "Abrimos oficina en Saltillo",
+        "description": "La demanda de naves industriales en el corredor automotriz nos llevó a establecer una segunda base de operaciones permanente.",
+        "icon": "building"
+      },
+      {
+        "year": "2015",
+        "tag": "Alianza",
+        "title": "Sociedad con grupo desarrollador regional",
+        "description": "Firmamos una alianza a largo plazo para ejecutar proyectos de uso mixto, sumando capacidad de obra civil y vertical.",
+        "icon": "handshake"
+      },
+      {
+        "year": "2019",
+        "tag": "Certificación",
+        "title": "Certificación ISO 9001 en procesos de obra",
+        "description": "Formalizamos nuestros procedimientos de control de calidad y seguridad, requisito ya estándar para clientes corporativos.",
+        "icon": "award"
+      },
+      {
+        "year": "2022",
+        "tag": "Crecimiento",
+        "title": "Superamos los 120 proyectos entregados",
+        "description": "Consolidamos un portafolio de naves industriales, centros de distribución y edificios corporativos en el noreste del país.",
+        "icon": "rocket"
+      },
+      {
+        "year": "2025",
+        "tag": "Presencia nacional",
+        "title": "Primer proyecto fuera de la región noreste",
+        "description": "Iniciamos obra en el Bajío, ampliando nuestra operación más allá de Nuevo León y Coahuila.",
+        "icon": "globe"
+      }
+    ]
+  }
+}

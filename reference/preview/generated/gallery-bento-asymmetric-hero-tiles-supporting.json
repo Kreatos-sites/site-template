@@ -1,0 +1,34 @@
+{
+  "key": "gallery-bento-asymmetric-hero-tiles-supporting",
+  "pascalName": "GalleryBentoAsymmetricHeroTilesSupporting",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `gallery-bento-asymmetric-hero-tiles-supporting` | gallery-bento-asymmetric-hero-tiles-supporting — muro bento asimétrico con un proyecto destacado a gran formato y dos piezas de apoyo, ideal para portafolios con jerarquía visual marcada | { eyebrow, title, description, hero: { image, imageAlt, category, title, year }, pieces: [{ image, imageAlt, category, title, year }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que definen nuestro estudio",
+    "description": "Una selección de intervenciones arquitectónicas donde el diseño responde al contexto y al uso real del espacio.",
+    "hero": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Fachada principal del corporativo Altavista con revestimiento de piedra volcánica",
+      "category": "Arquitectura corporativa",
+      "title": "Corporativo Altavista",
+      "year": "2025 — Monterrey, N.L."
+    },
+    "pieces": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vestíbulo de acceso del centro cultural con estructura de madera vista",
+        "category": "Equipamiento cultural",
+        "title": "Centro Cultural Norte",
+        "year": "2024 — Saltillo, Coah."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Patio interior de la ampliación de oficinas con vegetación y luz natural",
+        "category": "Interiorismo comercial",
+        "title": "Ampliación Oficinas Rivera",
+        "year": "2023 — Querétaro, Qro."
+      }
+    ]
+  }
+}

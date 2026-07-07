@@ -1,0 +1,37 @@
+{
+  "key": "testimonials-cards-blur-stagger-three-column-rating",
+  "pascalName": "TestimonialsCardsBlurStaggerThreeColumnRating",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonials-cards-blur-stagger-three-column-rating` | testimonials-cards-blur-stagger-three-column-rating — Cuadrícula de tres columnas con tarjetas compactas de testimonio (avatar, calificación con estrellas y cita corta) para prueba social densa. | { eyebrow, title, ratingLabel, testimonials: [{ quote, name, role, avatar, avatarAlt, rating }] } |",
+  "fixture": {
+    "eyebrow": "Clientes",
+    "title": "Lo que dicen los despachos y constructoras que ya trabajan con nosotros",
+    "ratingLabel": "Calificación de {rating} de 5 estrellas",
+    "testimonials": [
+      {
+        "quote": "Redujimos el tiempo de cierre de expedientes en un 30% desde que integramos su plataforma.",
+        "name": "Renata Solís",
+        "role": "Directora de Operaciones, Vertice Legal",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Renata Solís",
+        "rating": 5
+      },
+      {
+        "quote": "El soporte durante la migración fue puntual y sin sorpresas en la facturación.",
+        "name": "Ignacio Barrera",
+        "role": "Gerente de Proyectos, Constructora Altiva",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ignacio Barrera",
+        "rating": 5
+      },
+      {
+        "quote": "Nos dieron visibilidad real de inventario en todas nuestras sucursales en menos de un mes.",
+        "name": "Paulina Cárdenas",
+        "role": "Directora Comercial, Distribuidora Norvia",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Cárdenas",
+        "rating": 4
+      }
+    ]
+  }
+}

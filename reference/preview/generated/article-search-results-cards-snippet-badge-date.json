@@ -1,0 +1,51 @@
+{
+  "key": "article-search-results-cards-snippet-badge-date",
+  "pascalName": "ArticleSearchResultsCardsSnippetBadgeDate",
+  "category": "Blog y noticias",
+  "catalogRow": "| `article-search-results-cards-snippet-badge-date` | article-search-results-cards-snippet-badge-date — página de resultados de búsqueda de artículos con tarjetas bordeadas, badge de tipo, snippet y fecha de última actualización | { eyebrow, title, description, searchLabel, searchPlaceholder, resultsCount, typeLabels: {guia, articulo, caso}, results: [{type, title, snippet, date}] } |",
+  "fixture": {
+    "eyebrow": "Centro de conocimiento",
+    "title": "Resultados de búsqueda",
+    "description": "Consulte nuestras guías, artículos y casos de estudio sobre cumplimiento fiscal, contratación y estructuración corporativa en México.",
+    "searchLabel": "Buscar en el centro de conocimiento",
+    "searchPlaceholder": "Buscar por tema, por ejemplo: retención de ISR",
+    "resultsCount": "{count} resultados encontrados",
+    "typeLabels": {
+      "guia": "Guía",
+      "articulo": "Artículo",
+      "caso": "Caso de estudio"
+    },
+    "results": [
+      {
+        "type": "guia",
+        "title": "Cómo calcular la retención de ISR para trabajadores por honorarios",
+        "snippet": "Explicamos el procedimiento vigente ante el SAT para calcular y enterar la retención de ISR en pagos a personas físicas con actividad profesional.",
+        "date": "Actualizado el 3 de julio de 2026"
+      },
+      {
+        "type": "articulo",
+        "title": "Cambios en la NOM-035 y su impacto en la política interna de la empresa",
+        "snippet": "Un repaso de las obligaciones vigentes en materia de riesgo psicosocial y las adecuaciones que deben hacer los despachos de recursos humanos.",
+        "date": "Actualizado el 28 de junio de 2026"
+      },
+      {
+        "type": "caso",
+        "title": "Reestructuración societaria de un grupo constructor con presencia en tres estados",
+        "snippet": "Describimos el proceso de fusión de tres razones sociales en una sola entidad operativa, incluyendo el manejo de contratos vigentes con clientes.",
+        "date": "Actualizado el 15 de junio de 2026"
+      },
+      {
+        "type": "guia",
+        "title": "Requisitos para constituir una sociedad anónima promotora de inversión",
+        "snippet": "Detallamos los pasos ante notario público, el capital social mínimo y los órganos de gobierno que exige este tipo societario.",
+        "date": "Actualizado el 2 de junio de 2026"
+      },
+      {
+        "type": "articulo",
+        "title": "Diferencias entre outsourcing autorizado y prestación de servicios especializados",
+        "snippet": "Aclaramos qué actividades pueden subcontratarse bajo el marco actual y cómo registrar correctamente al proveedor ante el REPSE.",
+        "date": "Actualizado el 20 de mayo de 2026"
+      }
+    ]
+  }
+}

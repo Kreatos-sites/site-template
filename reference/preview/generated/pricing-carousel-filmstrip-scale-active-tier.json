@@ -1,0 +1,53 @@
+{
+  "key": "pricing-carousel-filmstrip-scale-active-tier",
+  "pascalName": "PricingCarouselFilmstripScaleActiveTier",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-carousel-filmstrip-scale-active-tier` | pricing-carousel-filmstrip-scale-active-tier — carrusel horizontal con scroll-snap de planes de precios, el plan destacado se muestra escalado y los vecinos recedidos, pensado para navegación táctil | { eyebrow, title, description, highlightedLabel, tiers: [{ name, price, period, description, features: string[], cta, highlighted? }] } |",
+  "fixture": {
+    "eyebrow": "Planes y tarifas",
+    "title": "Un plan para cada etapa de su despacho",
+    "description": "Deslice para comparar los planes de asesoría legal y elija el que se ajuste al volumen de casos de su firma.",
+    "highlightedLabel": "Más contratado",
+    "tiers": [
+      {
+        "name": "Esencial",
+        "price": "$8,900",
+        "period": "MXN / mes",
+        "description": "Para despachos que inician con gestión digital de casos.",
+        "features": [
+          "Hasta 15 expedientes activos",
+          "Portal de seguimiento para clientes",
+          "Soporte por correo en horario hábil"
+        ],
+        "cta": "Solicitar información"
+      },
+      {
+        "name": "Profesional",
+        "price": "$16,500",
+        "period": "MXN / mes",
+        "description": "Para firmas con carga constante de litigio y corporativo.",
+        "features": [
+          "Hasta 60 expedientes activos",
+          "Portal de seguimiento para clientes",
+          "Reportes mensuales de avance",
+          "Soporte prioritario por teléfono"
+        ],
+        "cta": "Agendar demostración",
+        "highlighted": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Para grupos jurídicos con múltiples sedes y áreas.",
+        "features": [
+          "Expedientes ilimitados",
+          "Integración con sistemas internos",
+          "Gerente de cuenta dedicado",
+          "Reportes personalizados"
+        ],
+        "cta": "Contactar ventas"
+      }
+    ]
+  }
+}

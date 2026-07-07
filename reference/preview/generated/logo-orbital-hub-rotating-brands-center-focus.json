@@ -1,0 +1,27 @@
+{
+  "key": "logo-orbital-hub-rotating-brands-center-focus",
+  "pascalName": "LogoOrbitalHubRotatingBrandsCenterFocus",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-orbital-hub-rotating-brands-center-focus` | logo-orbital-hub-rotating-brands-center-focus — hub central con aliados en órbita lenta alrededor de un núcleo, para transmitir una red de socios activa | { eyebrow, title, description, hubLabel, stats: [{ value, label }], partners: [{ name, icon }] } |",
+  "fixture": {
+    "eyebrow": "Red de aliados",
+    "title": "Una red de socios logísticos que opera como un solo equipo",
+    "description": "Coordinamos transportistas, aduanas, almacenes y navieras desde un mismo tablero, para que cada envío tenga trazabilidad completa de punta a punta.",
+    "hubLabel": "Su carga",
+    "stats": [
+      { "value": "9", "label": "Socios estratégicos activos" },
+      { "value": "18", "label": "Años operando en la región" }
+    ],
+    "partners": [
+      { "name": "Naviera del Golfo", "icon": "warehouse" },
+      { "name": "Aduanas Integrales", "icon": "shield" },
+      { "name": "Transportes Bajío", "icon": "truck" },
+      { "name": "Grupo Portuario Altamira", "icon": "landmark" },
+      { "name": "Distribuidora Central", "icon": "package" },
+      { "name": "Manufacturas del Norte", "icon": "factory" },
+      { "name": "Corporativo Andina", "icon": "building" },
+      { "name": "Enlace Global de Carga", "icon": "globe" },
+      { "name": "Red Ferroviaria Sureste", "icon": "link" }
+    ]
+  }
+}

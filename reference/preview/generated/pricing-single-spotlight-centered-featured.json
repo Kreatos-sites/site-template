@@ -1,0 +1,28 @@
+{
+  "key": "pricing-single-spotlight-centered-featured",
+  "pascalName": "PricingSingleSpotlightCenteredFeatured",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-single-spotlight-centered-featured` | pricing-single-spotlight-centered-featured — tarjeta centrada de un solo plan con precio grande, checklist completo de características, CTA y prueba social, para productos de un solo nivel | { eyebrow, title, subtitle, badge, socialProof, plan: { name, price, period, description, features: string[], cta } } |",
+  "fixture": {
+    "eyebrow": "Plan único",
+    "title": "Un solo plan, sin letras chiquitas",
+    "subtitle": "Diseñado para despachos que necesitan gestión documental completa sin escalonar módulos ni negociar por asiento.",
+    "badge": "Más contratado",
+    "socialProof": "Utilizado por más de 40 despachos y constructoras en México",
+    "plan": {
+      "name": "Plan corporativo",
+      "price": "$4,900",
+      "period": "MXN / mes",
+      "description": "Incluye implementación, migración de expedientes y soporte directo con el equipo técnico.",
+      "features": [
+        "Usuarios ilimitados dentro de la organización",
+        "Gestión documental con control de versiones",
+        "Firma electrónica integrada",
+        "Reportes de cumplimiento mensuales",
+        "Soporte prioritario por correo y teléfono",
+        "Migración de expedientes sin costo adicional"
+      ],
+      "cta": "Solicitar acceso"
+    }
+  }
+}

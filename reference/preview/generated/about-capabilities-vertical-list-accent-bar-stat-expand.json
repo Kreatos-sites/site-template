@@ -1,0 +1,60 @@
+{
+  "key": "about-capabilities-vertical-list-accent-bar-stat-expand",
+  "pascalName": "AboutCapabilitiesVerticalListAccentBarStatExpand",
+  "category": "Nosotros",
+  "catalogRow": "| `about-capabilities-vertical-list-accent-bar-stat-expand` | about-capabilities-vertical-list-accent-bar-stat-expand — lista vertical de capacidades con barra de acento lateral y expansión de estadística por elemento, para despachos o firmas que enumeran áreas de práctica con evidencia cuantitativa | { eyebrow, title, capabilities: [{ icon, title, description, statValue, statLabel, detail }] } |",
+  "fixture": {
+    "eyebrow": "Áreas de práctica",
+    "title": "Capacidades del despacho, respaldadas por resultados",
+    "capabilities": [
+      {
+        "icon": "scale",
+        "title": "Litigio civil y mercantil",
+        "description": "Representamos a la empresa en controversias contractuales, cobranza judicial y procedimientos ante juzgados civiles y mercantiles.",
+        "statValue": "312",
+        "statLabel": "casos resueltos en los últimos cinco años",
+        "detail": "El equipo da seguimiento a cada expediente desde la etapa prejudicial hasta la ejecución de sentencia, con reportes mensuales al cliente sobre el estado procesal."
+      },
+      {
+        "icon": "building",
+        "title": "Derecho corporativo",
+        "description": "Constitución de sociedades, gobierno corporativo, contratos entre accionistas y operaciones de fusión y adquisición.",
+        "statValue": "48",
+        "statLabel": "operaciones societarias cerradas en 2025",
+        "detail": "Asesoramos desde la due diligence hasta el cierre, coordinando con contadores y notarios para que la operación quede protocolizada sin retrasos."
+      },
+      {
+        "icon": "file",
+        "title": "Cumplimiento regulatorio",
+        "description": "Diagnóstico y actualización de políticas internas para cumplir con obligaciones fiscales, laborales y de protección de datos.",
+        "statValue": "96%",
+        "statLabel": "de clientes sin observaciones en su última auditoría",
+        "detail": "Revisamos el marco normativo aplicable a cada industria y entregamos un plan de remediación con responsables y fechas límite claras."
+      },
+      {
+        "icon": "handshake",
+        "title": "Negociación y contratos",
+        "description": "Redacción y revisión de contratos comerciales, acuerdos de distribución y convenios de confidencialidad.",
+        "statValue": "1,200+",
+        "statLabel": "contratos revisados",
+        "detail": "Cada contrato pasa por un checklist interno de riesgos antes de la firma, para que la empresa conozca su exposición real antes de comprometerse."
+      },
+      {
+        "icon": "gavel",
+        "title": "Arbitraje comercial",
+        "description": "Representación en procedimientos arbitrales nacionales e internacionales para resolver disputas fuera de tribunales ordinarios.",
+        "statValue": "18",
+        "statLabel": "laudos favorables obtenidos",
+        "detail": "Trabajamos con árbitros y peritos especializados por sector, lo que reduce el tiempo promedio de resolución frente al litigio tradicional."
+      },
+      {
+        "icon": "shield",
+        "title": "Protección de activos",
+        "description": "Estructuración patrimonial y estrategias legales para proteger activos de la empresa ante contingencias.",
+        "statValue": "$450M",
+        "statLabel": "en activos bajo estructuras de protección",
+        "detail": "Diseñamos vehículos legales acordes a la operación de cada cliente, revisados periódicamente conforme cambia la normatividad aplicable."
+      }
+    ]
+  }
+}
