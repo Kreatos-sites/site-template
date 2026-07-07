@@ -71,6 +71,11 @@ SU markup — el diseño es único por sitio, la plomería es una sola y ya prob
   (no abras reveal.tsx). Nunca listeners de scroll ni librerías nuevas.
 - **Imágenes** → `import { SmartImage } from "@/components/shared/smart-image"`
   (next/image + tratamiento global del theme).
+- **Envoltura de sección** → `import { Section } from "@/components/shared/section"`.
+  Hornea el ritmo vertical (`--section-gap`) y el contenedor canónico
+  (`max-w-6xl px-6 lg:px-8`): `<Section className="…fondo/borde/id de ancla…">…</Section>`.
+  OBLIGATORIA en toda sección del cuerpo (ver contrato abajo) — sin ella cada
+  componente improvisa su `py-*` y el sitio sale con 5-7 ritmos distintos.
 - **Átomos funcionales** (compónlos donde tu diseño los pida):
   `GoogleRatingBadge`, `WhatsappButton`, `LocaleSwitcher`, `ThemeToggle`,
   `SectionHeading` — todos en `components/shared/`.
@@ -177,6 +182,13 @@ Cada `components/custom/<nombre>.tsx`:
 - **Solo tokens semánticos** del theme (`bg-background`, `text-primary`,
   `border-border`, `bg-card`…). PROHIBIDO hex/`rgb()`/`oklch()` sueltos o clases
   de paleta Tailwind (`bg-blue-500`). El validador barre `components/custom/`.
+- **Ritmo vertical + contenedor (OBLIGATORIO)**: envuelve el cuerpo en
+  `<Section>` (`@/components/shared/section`). Da `py-(--section-gap)` y el
+  contenedor `max-w-6xl px-6 lg:px-8` iguales para TODAS las secciones. PROHIBIDO
+  inventar `py-16/20/24/28` ni tu propio `max-w-*`: rompe el ritmo entre secciones
+  (defecto #1 del fan-out, donde cada agente escribe una custom a ciegas). Fondo,
+  borde e `id` de ancla van en el `className` del `<Section>`. Excepción única: el
+  héroe, que fija su alto con `min-h-*` (usa `<Section flush>` o su `<section>`).
 - **Motion** solo con los primitives del motor (`Reveal`…).
 - **Server component** por defecto; `"use client"` solo en la isla que lo
   necesite (p. ej. el form con `useContactForm`, o un menú móvil con estado).

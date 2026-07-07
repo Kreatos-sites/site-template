@@ -69,4 +69,7 @@ los de \`data-demo\` son placeholders.
 | `testimonial-quote` | testimonial-quote — pull-quote protagónica (una cita grande centrada con autor/rol) · úsalo para: destacar UNA reseña real de cliente con máximo peso y aire; nunca para inventar testimonios ni para listas de varias reseñas | { quote, author, role } |
 | `values-cards` | values-cards — principios/valores en tarjetas con número grande, borde fino y jerarquía editorial; úsalo para una sección de "nuestros valores/principios" con 3-4 ítems, sin iconos, cuando quieras algo más memorable que un grid genérico. | { eyebrow, title, values: [{ title, description }] } |
 
-<!-- Al agregar: registry.ts + esta tabla + skill block-catalog del art-director. -->
+<!-- Corpus de INSPIRACIÓN, no montable: estos patrones se roban como composición
+     y se materializan como secciones `custom` (no hay biblioteca de bloques ni
+     `id: "block"`). Al agregar uno, solo actualiza esta tabla. -->
+
