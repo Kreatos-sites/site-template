@@ -205,6 +205,16 @@ function stopDetachedServer(): void {
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
 
+  // Lista las rutas que se capturarían, como JSON, y sale. La usa el tool
+  // run_visual_qa para recorrer `screenshots:page` una por una SIN correr el
+  // modo monolítico (que moría por timeout en el sandbox). Debe ir ANTES del
+  // fallback all-in-one del final. Prefijo __ROUTES__ para aislar la línea del
+  // ruido de pnpm/tsx.
+  if (args.includes("--print-routes")) {
+    console.log(`__ROUTES__${JSON.stringify(allRoutes)}`);
+    return;
+  }
+
   if (args.includes("--stop")) {
     stopDetachedServer();
     return;
