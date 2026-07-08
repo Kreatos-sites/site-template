@@ -1,0 +1,24 @@
+{
+  "key": "clinic-hours-location-map-split",
+  "pascalName": "ClinicHoursLocationMapSplit",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-hours-location-map-split` | clinic-hours-location-map-split — Split 2 columnas sobre bg-secondary con tabla de horario, dirección y teléfono a la izquierda, mapa de ubicación a la derecha en altura completa. | { eyebrow, title, subtitle, scheduleLabel, schedule: { day, hours }[], addressLabel, address, phoneLabel, phone, mapImage, mapImageAlt } |",
+  "fixture": {
+    "eyebrow": "Ubicación y horario",
+    "title": "Visítenos en nuestra clínica",
+    "subtitle": "Consulte nuestro horario de atención y encuéntrenos fácilmente en el mapa antes de agendar su cita.",
+    "scheduleLabel": "Horario de atención",
+    "schedule": [
+      { "day": "Lunes a viernes", "hours": "8:00 a.m. – 7:00 p.m." },
+      { "day": "Sábado", "hours": "9:00 a.m. – 2:00 p.m." },
+      { "day": "Domingo", "hours": "Cerrado" },
+      { "day": "Días festivos", "hours": "Horario reducido" }
+    ],
+    "addressLabel": "Dirección",
+    "address": "Av. Vasco de Quiroga 3900, Piso 4, Santa Fe, 05348 Ciudad de México",
+    "phoneLabel": "Teléfono",
+    "phone": "(55) 5292 4180",
+    "mapImage": "/images/about.svg",
+    "mapImageAlt": "Mapa de ubicación de la clínica en Santa Fe, Ciudad de México"
+  }
+}

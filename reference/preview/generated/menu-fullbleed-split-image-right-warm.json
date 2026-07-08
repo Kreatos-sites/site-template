@@ -1,0 +1,37 @@
+{
+  "key": "menu-fullbleed-split-image-right-warm",
+  "pascalName": "MenuFullbleedSplitImageRightWarm",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-fullbleed-split-image-right-warm` | menu-fullbleed-split-image-right-warm — split asimétrico 60/40 con fotografía cálida a sangre y lista corta de platillos destacados con precio | { eyebrow, title, description, image, imageAlt, ctaLabel, ctaHref, items: [{ name, price, description }] } |",
+  "fixture": {
+    "eyebrow": "Cocina de temporada",
+    "title": "Una mesa que se siente como en casa",
+    "description": "Seleccionamos cada platillo con ingredientes de productores locales y una cocina que privilegia el sabor cercano sobre lo elaborado.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Mesa puesta con mantel de lino y velas encendidas en el comedor principal del restaurante",
+    "ctaLabel": "Ver la carta completa",
+    "ctaHref": "/menu",
+    "items": [
+      {
+        "name": "Sopa de tortilla",
+        "price": "$135",
+        "description": "Caldo de jitomate asado, tiras de tortilla frita, aguacate y queso panela."
+      },
+      {
+        "name": "Costilla braseada 8 horas",
+        "price": "$395",
+        "description": "Con puré de papa trufado y reducción de vino tinto de la casa."
+      },
+      {
+        "name": "Pescado del día a la parrilla",
+        "price": "$320",
+        "description": "Con salsa de hierbas de temporada y vegetales asados al carbón."
+      },
+      {
+        "name": "Pastel de tres leches",
+        "price": "$110",
+        "description": "Receta de la casa, con canela tostada y crema batida ligera."
+      }
+    ]
+  }
+}

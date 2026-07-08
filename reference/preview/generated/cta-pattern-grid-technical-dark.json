@@ -1,0 +1,14 @@
+{
+  "key": "cta-pattern-grid-technical-dark",
+  "pascalName": "CtaPatternGridTechnicalDark",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `cta-pattern-grid-technical-dark` | cta-pattern-grid-technical-dark — cierre oscuro con retícula técnica SVG a baja opacidad, eyebrow monoespaciado y CTA único con borde · úsalo para logística, manufactura o ingeniería. | { eyebrow, title, description, ctaLabel, ctaHref, refCode } |",
+  "fixture": {
+    "eyebrow": "Capacidad instalada",
+    "title": "Coordinemos la ingeniería de su próxima línea de producción",
+    "description": "Nuestro equipo de manufactura evalúa su proceso actual y entrega una propuesta de automatización con tiempos de implementación realistas.",
+    "ctaLabel": "Solicitar diagnóstico técnico",
+    "ctaHref": "/contacto",
+    "refCode": "REF. MFG-2026-014"
+  }
+}

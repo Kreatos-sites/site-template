@@ -1,0 +1,14 @@
+{
+  "key": "menu-fullbleed-image-dark-overlay",
+  "pascalName": "MenuFullbleedImageDarkOverlay",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-fullbleed-image-dark-overlay` | menu-fullbleed-image-dark-overlay — apertura de menú a sangre completa (mesa servida) con overlay oscuro en gradiente, contenido centrado en la mitad inferior e indicador de scroll | { eyebrow, title, description, scrollHint, image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Nuestra carta",
+    "title": "Cocina de temporada servida con calma",
+    "description": "Ingredientes de productores locales, técnicas clásicas y una carta que cambia con las estaciones para acompañar cada visita a nuestra mesa.",
+    "scrollHint": "Ver carta completa",
+    "image": "/images/hero.svg",
+    "imageAlt": "Mesa servida con platillos de temporada iluminada con luz cálida"
+  }
+}

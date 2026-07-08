@@ -1,0 +1,15 @@
+{
+  "key": "cta-split-asymmetric-stat-callout",
+  "pascalName": "CtaSplitAsymmetricStatCallout",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `cta-split-asymmetric-stat-callout` | cta-split-asymmetric-stat-callout — split asimétrico 60/40 sobre fondo secundario, columna angosta con cifra tipográfica gigante como prueba de confianza en vez de doble CTA | { eyebrow, title, description, ctaLabel, ctaHref, statValue, statLabel } |",
+  "fixture": {
+    "eyebrow": "Trayectoria comprobada",
+    "title": "Cada proyecto se construye con el mismo rigor que el primero",
+    "description": "Acompañamos a despachos, constructoras y empresas de logística desde el diagnóstico hasta la puesta en marcha, con equipos que documentan cada decisión y responden por los resultados.",
+    "ctaLabel": "Agendar diagnóstico",
+    "ctaHref": "/contacto",
+    "statValue": "+500",
+    "statLabel": "Proyectos entregados en los últimos doce años, sin retrasos mayores a lo pactado en contrato."
+  }
+}

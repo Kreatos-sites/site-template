@@ -1,0 +1,17 @@
+{
+  "key": "product-fullbleed-image-dark-overlay",
+  "pascalName": "ProductFullbleedImageDarkOverlay",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-fullbleed-image-dark-overlay` | product-fullbleed-image-dark-overlay — producto a sangre completa, overlay degradado transparente arriba/negro abajo, copy centrado en el tercio inferior, tono de campaña de lanzamiento | { eyebrow, title, description, image, imageAlt, cta: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Nuevo lanzamiento",
+    "title": "La línea que redefine el estándar de manufactura industrial",
+    "description": "Precisión de ingeniería mexicana, materiales de grado industrial y un acabado pensado para operar bajo condiciones extremas de planta.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Producto industrial fotografiado a contraluz sobre fondo oscuro",
+    "cta": {
+      "label": "Conocer el producto",
+      "href": "/productos"
+    }
+  }
+}

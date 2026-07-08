@@ -1,0 +1,39 @@
+{
+  "key": "menu-beverage-pairing-dense-two-column",
+  "pascalName": "MenuBeveragePairingDenseTwoColumn",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-beverage-pairing-dense-two-column` | menu-beverage-pairing-dense-two-column — carta de maridaje en dos columnas densas, sin fotografía, con icono lineal de copa/botella, nota de sabor y precio por fila; tono técnico de carta de bar. | { eyebrow, title, description?, columns: [{ title, items: [{ icon: \"wine\"/\"glass\", name, note, price }] }] } |",
+  "fixture": {
+    "eyebrow": "Carta de maridaje",
+    "title": "Vinos y coctelería por tiempo",
+    "description": "Nuestro sommelier sugiere estas combinaciones para acompañar cada tiempo del menú de degustación.",
+    "columns": [
+      {
+        "title": "Vinos por copa",
+        "items": [
+          { "icon": "wine", "name": "Chardonnay Valle de Guadalupe", "note": "Notas cítricas y mineral, cuerpo medio", "price": "$145" },
+          { "icon": "wine", "name": "Sauvignon Blanc reserva", "note": "Herbal fresco con final seco", "price": "$130" },
+          { "icon": "wine", "name": "Rosado de garnacha", "note": "Frutos rojos suaves, ideal con mariscos", "price": "$120" },
+          { "icon": "wine", "name": "Tempranillo joven", "note": "Especiado, taninos ligeros", "price": "$150" },
+          { "icon": "wine", "name": "Cabernet Sauvignon barrica", "note": "Cuerpo intenso con notas a madera", "price": "$180" },
+          { "icon": "wine", "name": "Malbec de altura", "note": "Ciruela madura y toque ahumado", "price": "$165" },
+          { "icon": "wine", "name": "Espumoso brut nature", "note": "Burbuja fina, sin dulzor", "price": "$140" },
+          { "icon": "wine", "name": "Nebbiolo reserva", "note": "Tánico, notas a cereza y regaliz", "price": "$195" }
+        ]
+      },
+      {
+        "title": "Coctelería de autor",
+        "items": [
+          { "icon": "glass", "name": "Old Fashioned de mezcal", "note": "Ahumado con toque de naranja quemada", "price": "$175" },
+          { "icon": "glass", "name": "Negroni de temporada", "note": "Amargo balanceado, infusión de hierbas locales", "price": "$160" },
+          { "icon": "glass", "name": "Margarita de tamarindo", "note": "Ácido y ligeramente picante", "price": "$150" },
+          { "icon": "glass", "name": "Paloma artesanal", "note": "Toronja fresca y sal de gusano", "price": "$140" },
+          { "icon": "glass", "name": "Whisky sour de maracuyá", "note": "Cítrico y espumoso al servir", "price": "$155" },
+          { "icon": "glass", "name": "Gin tonic de romero", "note": "Herbal y seco con botánicos locales", "price": "$145" },
+          { "icon": "glass", "name": "Daiquiri de guayaba", "note": "Fresco, poco dulce, final limpio", "price": "$135" },
+          { "icon": "glass", "name": "Espresso martini de café de Chiapas", "note": "Intenso, ligeramente amargo", "price": "$170" }
+        ]
+      }
+    ]
+  }
+}

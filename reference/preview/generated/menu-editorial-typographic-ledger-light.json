@@ -1,0 +1,76 @@
+{
+  "key": "menu-editorial-typographic-ledger-light",
+  "pascalName": "MenuEditorialTypographicLedgerLight",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-editorial-typographic-ledger-light` | menu-editorial-typographic-ledger-light — carta de restaurante fino puramente tipográfica, nombre en serif itálica + línea punteada a precio en monospace, sin imágenes | { eyebrow, title, description, categories: [{ name, note?, items: [{ name, price, description? }] }] } |",
+  "fixture": {
+    "eyebrow": "Carta de temporada",
+    "title": "Menú",
+    "description": "Una selección breve, renovada cada estación, elaborada con producto de proveedores locales.",
+    "categories": [
+      {
+        "name": "Entradas",
+        "note": "Para compartir",
+        "items": [
+          {
+            "name": "Tártara de atún aleta amarilla",
+            "price": "$245",
+            "description": "Aguacate, yuzu, aceite de ajonjolí tostado"
+          },
+          {
+            "name": "Carpaccio de betabel asado",
+            "price": "$185",
+            "description": "Queso de cabra, nuez garapiñada, vinagreta de naranja"
+          },
+          {
+            "name": "Consomé de hongos silvestres",
+            "price": "$165"
+          }
+        ]
+      },
+      {
+        "name": "Platos fuertes",
+        "items": [
+          {
+            "name": "Costilla de res braseada 12 horas",
+            "price": "$520",
+            "description": "Puré de papa trufado, jus de vino tinto"
+          },
+          {
+            "name": "Robalo a la plancha",
+            "price": "$460",
+            "description": "Risotto de azafrán, mantequilla de limón"
+          },
+          {
+            "name": "Pechuga de pato al horno",
+            "price": "$495",
+            "description": "Reducción de tamarindo, chirivía asada"
+          },
+          {
+            "name": "Rissotto de temporada",
+            "price": "$385"
+          }
+        ]
+      },
+      {
+        "name": "Postres",
+        "note": "Elaboración propia",
+        "items": [
+          {
+            "name": "Tarta de chocolate 70%",
+            "price": "$165",
+            "description": "Helado de café, avellana garapiñada"
+          },
+          {
+            "name": "Crème brûlée de vainilla de Papantla",
+            "price": "$145"
+          },
+          {
+            "name": "Sorbete de temporada",
+            "price": "$120"
+          }
+        ]
+      }
+    ]
+  }
+}

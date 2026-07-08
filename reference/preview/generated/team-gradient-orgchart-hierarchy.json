@@ -1,0 +1,69 @@
+{
+  "key": "team-gradient-orgchart-hierarchy",
+  "pascalName": "TeamGradientOrgchartHierarchy",
+  "category": "Equipo",
+  "catalogRow": "| `team-gradient-orgchart-hierarchy` | team-gradient-orgchart-hierarchy — organigrama corporativo con gradiente primary de fondo, liderazgo centrado arriba y reportes agrupados por área abajo | { eyebrow, title, lead: { name, role, image, imageAlt }, groups: [{ area, members: [{ name, role, image, imageAlt }] }] } |",
+  "fixture": {
+    "eyebrow": "Estructura organizacional",
+    "title": "El equipo directivo detrás de cada proyecto",
+    "lead": {
+      "name": "Ricardo Solórzano Peña",
+      "role": "Director General",
+      "image": "/images/about.svg",
+      "imageAlt": "Retrato de Ricardo Solórzano Peña, Director General"
+    },
+    "groups": [
+      {
+        "area": "Operaciones e Ingeniería",
+        "members": [
+          {
+            "name": "Fernanda Uribe Castellanos",
+            "role": "Gerente de Operaciones",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Fernanda Uribe Castellanos, Gerente de Operaciones"
+          },
+          {
+            "name": "Emilio Reséndiz Contreras",
+            "role": "Jefe de Ingeniería",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Emilio Reséndiz Contreras, Jefe de Ingeniería"
+          }
+        ]
+      },
+      {
+        "area": "Finanzas y Administración",
+        "members": [
+          {
+            "name": "Paulina Zamudio Herrera",
+            "role": "Gerente de Finanzas",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Paulina Zamudio Herrera, Gerente de Finanzas"
+          },
+          {
+            "name": "Ignacio Barajas Montoya",
+            "role": "Coordinador Administrativo",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Ignacio Barajas Montoya, Coordinador Administrativo"
+          }
+        ]
+      },
+      {
+        "area": "Comercial y Atención a Clientes",
+        "members": [
+          {
+            "name": "Daniela Ochoa Villaseñor",
+            "role": "Gerente Comercial",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Daniela Ochoa Villaseñor, Gerente Comercial"
+          },
+          {
+            "name": "Rodrigo Nájera Cisneros",
+            "role": "Coordinador de Atención a Clientes",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Rodrigo Nájera Cisneros, Coordinador de Atención a Clientes"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "key": "portfolio-blueprint-grid-dense-technical-labels",
+  "pascalName": "PortfolioBlueprintGridDenseTechnicalLabels",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-blueprint-grid-dense-technical-labels` | portfolio-blueprint-grid-dense-technical-labels — Portafolio denso tono técnico-industrial con retícula tipo blueprint de fondo, código de proyecto monoespaciado sobre la imagen y ficha de especificaciones debajo | { eyebrow, title, description, projects: [{ image, imageAlt, code, title, specs: [{ label, value }] }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos ejecutados con ficha técnica verificable",
+    "description": "Cada proyecto queda documentado con su código de expediente, superficie construida y sistema estructural utilizado, disponibles para consulta durante el proceso de licitación.",
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial en construcción con estructura de acero expuesta",
+        "code": "EXP-2026-01",
+        "title": "Nave industrial Toluca Norte",
+        "specs": [
+          { "label": "Superficie", "value": "4,200 m²" },
+          { "label": "Sistema", "value": "Acero A36" },
+          { "label": "Entrega", "value": "Mar. 2026" }
+        ]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de oficinas corporativas de concreto y vidrio",
+        "code": "EXP-2025-14",
+        "title": "Corporativo Vía Norte",
+        "specs": [
+          { "label": "Superficie", "value": "6,850 m²" },
+          { "label": "Sistema", "value": "Concreto reforzado" },
+          { "label": "Entrega", "value": "Nov. 2025" }
+        ]
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Puente vehicular de concreto sobre vialidad principal",
+        "code": "EXP-2025-09",
+        "title": "Puente vehicular Ruta 57",
+        "specs": [
+          { "label": "Superficie", "value": "1,180 m²" },
+          { "label": "Sistema", "value": "Postensado" },
+          { "label": "Entrega", "value": "Ago. 2025" }
+        ]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bodega logística con andenes de carga",
+        "code": "EXP-2025-06",
+        "title": "Centro logístico Apodaca",
+        "specs": [
+          { "label": "Superficie", "value": "9,300 m²" },
+          { "label": "Sistema", "value": "Prefabricado" },
+          { "label": "Entrega", "value": "Jun. 2025" }
+        ]
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Planta de tratamiento de agua con tanques circulares",
+        "code": "EXP-2025-02",
+        "title": "Planta de tratamiento Salinas",
+        "specs": [
+          { "label": "Superficie", "value": "2,640 m²" },
+          { "label": "Sistema", "value": "Concreto hidráulico" },
+          { "label": "Entrega", "value": "Feb. 2025" }
+        ]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Estacionamiento elevado de estructura metálica",
+        "code": "EXP-2024-21",
+        "title": "Estacionamiento Plaza Central",
+        "specs": [
+          { "label": "Superficie", "value": "3,050 m²" },
+          { "label": "Sistema", "value": "Acero galvanizado" },
+          { "label": "Entrega", "value": "Dic. 2024" }
+        ]
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Torre de oficinas en etapa de cimentación profunda",
+        "code": "EXP-2024-17",
+        "title": "Torre Reforma 220",
+        "specs": [
+          { "label": "Superficie", "value": "12,400 m²" },
+          { "label": "Sistema", "value": "Pilas coladas" },
+          { "label": "Entrega", "value": "Sep. 2024" }
+        ]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Ampliación de planta industrial con estructura precolada",
+        "code": "EXP-2024-11",
+        "title": "Ampliación Planta Ramos Arizpe",
+        "specs": [
+          { "label": "Superficie", "value": "5,720 m²" },
+          { "label": "Sistema", "value": "Precolado" },
+          { "label": "Entrega", "value": "May. 2024" }
+        ]
+      }
+    ]
+  }
+}

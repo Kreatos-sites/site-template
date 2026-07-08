@@ -1,0 +1,31 @@
+{
+  "key": "clinic-facility-diagonal-gallery",
+  "pascalName": "ClinicFacilityDiagonalGallery",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-facility-diagonal-gallery` | clinic-facility-diagonal-gallery — galería de instalaciones clínicas en tarjetas escalonadas con clip-path diagonal alternado, fondo claro sin overlay | { eyebrow, title, subtitle, facilities: { name, description, image, imageAlt }[] } |",
+  "fixture": {
+    "eyebrow": "Nuestras instalaciones",
+    "title": "Espacios diseñados para su atención",
+    "subtitle": "Recorra las áreas donde nuestro equipo médico y técnico trabaja con los más altos estándares de higiene y precisión diagnóstica.",
+    "facilities": [
+      {
+        "name": "Recepción y sala de espera",
+        "description": "Un espacio amplio y ordenado donde el personal de admisión le acompaña desde el primer momento de su visita.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Recepción de la clínica con área de espera iluminada"
+      },
+      {
+        "name": "Consultorio general",
+        "description": "Equipado con instrumental de exploración actualizado para consultas de medicina general y seguimiento clínico.",
+        "image": "/images/about.svg",
+        "imageAlt": "Consultorio médico con camilla y equipo de exploración"
+      },
+      {
+        "name": "Laboratorio clínico",
+        "description": "Procesamos sus estudios con equipo automatizado y protocolos de bioseguridad certificados.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Laboratorio clínico con equipo de análisis automatizado"
+      }
+    ]
+  }
+}

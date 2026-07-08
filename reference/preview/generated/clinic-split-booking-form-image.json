@@ -1,0 +1,32 @@
+{
+  "key": "clinic-split-booking-form-image",
+  "pascalName": "ClinicSplitBookingFormImage",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-split-booking-form-image` | clinic-split-booking-form-image — split agenda de cita clínica, tarjeta de formulario sobre bg-secondary + imagen de altura completa | { eyebrow, title, subtitle, specialtyLabel, dateLabel, timeLabel, specialties: {value,label}[], times: {value,label}[], submitLabel, disclaimer, image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Agenda tu cita",
+    "title": "Reserve su consulta en unos minutos",
+    "subtitle": "Elija la especialidad, la fecha y el horario de su preferencia. Nuestro equipo confirmará su cita por teléfono o correo electrónico.",
+    "specialtyLabel": "Especialidad",
+    "dateLabel": "Fecha",
+    "timeLabel": "Horario",
+    "specialties": [
+      { "value": "medicina-general", "label": "Medicina general" },
+      { "value": "pediatria", "label": "Pediatría" },
+      { "value": "ginecologia", "label": "Ginecología" },
+      { "value": "cardiologia", "label": "Cardiología" },
+      { "value": "dermatologia", "label": "Dermatología" }
+    ],
+    "times": [
+      { "value": "09:00", "label": "9:00 a.m." },
+      { "value": "11:00", "label": "11:00 a.m." },
+      { "value": "13:00", "label": "1:00 p.m." },
+      { "value": "16:00", "label": "4:00 p.m." },
+      { "value": "18:00", "label": "6:00 p.m." }
+    ],
+    "submitLabel": "Solicitar cita",
+    "disclaimer": "Al enviar este formulario, un asesor de la clínica se pondrá en contacto con usted para confirmar la disponibilidad.",
+    "image": "/images/about.svg",
+    "imageAlt": "Instalaciones de la clínica en un pasillo iluminado"
+  }
+}

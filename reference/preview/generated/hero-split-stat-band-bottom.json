@@ -1,0 +1,21 @@
+{
+  "key": "hero-split-stat-band-bottom",
+  "pascalName": "HeroSplitStatBandBottom",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-stat-band-bottom` | hero-split-stat-band-bottom — split 2 columnas (texto izquierda, imagen derecha) rematado por una banda de estadísticas de ancho completo que cruza ambas columnas | { eyebrow, title, subtitle, primaryCta: {label, href}, secondaryCta: {label, href}, image, imageAlt, stats: [{icon, value, label}] (4 items) } |",
+  "fixture": {
+    "eyebrow": "Consultoría industrial",
+    "title": "Modernizamos su operación sin detener la producción",
+    "subtitle": "Diagnosticamos procesos, integramos tecnología y capacitamos a su equipo con un plan de implementación por fases que respeta sus tiempos de entrega.",
+    "primaryCta": { "label": "Solicitar diagnóstico", "href": "/contacto" },
+    "secondaryCta": { "label": "Ver casos de éxito", "href": "/casos" },
+    "image": "/images/hero.svg",
+    "imageAlt": "Equipo de ingeniería revisando planos de planta industrial",
+    "stats": [
+      { "icon": "chart", "value": "38%", "label": "Reducción de costos operativos" },
+      { "icon": "team", "value": "120+", "label": "Equipos capacitados" },
+      { "icon": "time", "value": "6 sem", "label": "Tiempo promedio de implementación" },
+      { "icon": "award", "value": "14 años", "label": "De experiencia en el sector" }
+    ]
+  }
+}

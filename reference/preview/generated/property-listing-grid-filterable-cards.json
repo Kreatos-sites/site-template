@@ -1,0 +1,116 @@
+{
+  "key": "property-listing-grid-filterable-cards",
+  "pascalName": "PropertyListingGridFilterableCards",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-listing-grid-filterable-cards` | property-listing-grid-filterable-cards — grid denso 4 columnas estilo portal MLS con barra de filtros nativa (details/summary) y chips de recámaras/baños/m² | { eyebrow, title, description, resultsLabel, filters: [{ label, options[] }], properties: [{ image, imageAlt, price, status, title, location, bedrooms, bathrooms, area }] } |",
+  "fixture": {
+    "eyebrow": "Propiedades disponibles",
+    "title": "Encuentre la propiedad que se ajusta a su operación",
+    "description": "Filtre por tipo, ubicación y rango de precio para revisar el inventario actualizado de la zona metropolitana.",
+    "resultsLabel": "48 propiedades encontradas",
+    "filters": [
+      {
+        "label": "Tipo",
+        "options": ["Casa", "Departamento", "Terreno", "Local comercial"]
+      },
+      {
+        "label": "Ubicación",
+        "options": ["San Pedro Garza García", "Valle Oriente", "Cumbres", "Centro"]
+      },
+      {
+        "label": "Precio",
+        "options": ["Hasta $3.5 MDP", "$3.5 a $6 MDP", "$6 a $10 MDP", "Más de $10 MDP"]
+      }
+    ],
+    "properties": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de casa de dos plantas con jardín frontal en San Pedro",
+        "price": "$4,850,000",
+        "status": "En venta",
+        "title": "Casa en privada, San Pedro Garza García",
+        "location": "San Pedro Garza García, N.L.",
+        "bedrooms": "3 rec",
+        "bathrooms": "2.5 baños",
+        "area": "215 m²"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala y comedor de departamento con acabados modernos",
+        "price": "$3,200,000",
+        "status": "En venta",
+        "title": "Departamento en torre Valle Oriente",
+        "location": "Valle Oriente, N.L.",
+        "bedrooms": "2 rec",
+        "bathrooms": "2 baños",
+        "area": "98 m²"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista frontal de casa residencial en Cumbres con cochera techada",
+        "price": "$2,750,000",
+        "status": "En renta",
+        "title": "Casa residencial en Cumbres",
+        "location": "Cumbres, N.L.",
+        "bedrooms": "3 rec",
+        "bathrooms": "2 baños",
+        "area": "180 m²"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terreno delimitado listo para construcción en zona de crecimiento",
+        "price": "$1,950,000",
+        "status": "En venta",
+        "title": "Terreno habitacional en desarrollo cerrado",
+        "location": "García, N.L.",
+        "bedrooms": "N/A",
+        "bathrooms": "N/A",
+        "area": "320 m²"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Local comercial en planta baja con fachada de cristal",
+        "price": "$5,600,000",
+        "status": "En venta",
+        "title": "Local comercial en avenida principal",
+        "location": "Centro, Monterrey, N.L.",
+        "bedrooms": "N/A",
+        "bathrooms": "1 baño",
+        "area": "140 m²"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Recámara principal amplia con ventanal en departamento",
+        "price": "$4,100,000",
+        "status": "En venta",
+        "title": "Departamento con vista a la ciudad",
+        "location": "Valle Oriente, N.L.",
+        "bedrooms": "3 rec",
+        "bathrooms": "2.5 baños",
+        "area": "132 m²"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Jardín trasero de casa con terraza cubierta",
+        "price": "$3,890,000",
+        "status": "En renta",
+        "title": "Casa con jardín en Cumbres 5to sector",
+        "location": "Cumbres, N.L.",
+        "bedrooms": "4 rec",
+        "bathrooms": "3 baños",
+        "area": "260 m²"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cocina integral de departamento remodelado",
+        "price": "$2,480,000",
+        "status": "En venta",
+        "title": "Departamento remodelado en Centro",
+        "location": "Centro, Monterrey, N.L.",
+        "bedrooms": "2 rec",
+        "bathrooms": "1.5 baños",
+        "area": "78 m²"
+      }
+    ]
+  }
+}

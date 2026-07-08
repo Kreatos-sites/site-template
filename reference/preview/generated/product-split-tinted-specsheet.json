@@ -1,0 +1,28 @@
+{
+  "key": "product-split-tinted-specsheet",
+  "pascalName": "ProductSplitTintedSpecsheet",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-split-tinted-specsheet` | product-split-tinted-specsheet — split técnico con imagen flotando sobre panel bg-secondary y ficha de especificaciones monoespaciada | { eyebrow, title, description, modelLabel, image, imageAlt, specsheetLabel, specs: { label, value }[], footnote } |",
+  "fixture": {
+    "eyebrow": "Ficha técnica",
+    "title": "Unidad de control industrial UCI-420",
+    "description": "Controlador programable para líneas de producción de mediana capacidad, diseñado para operación continua en entornos con vibración y polvo.",
+    "modelLabel": "Modelo UCI-420",
+    "image": "/images/hero.svg",
+    "imageAlt": "Unidad de control industrial UCI-420 sobre fondo neutro",
+    "specsheetLabel": "Especificaciones",
+    "specs": [
+      { "label": "Voltaje de entrada", "value": "100–240 VAC" },
+      { "label": "Frecuencia", "value": "50/60 Hz" },
+      { "label": "Consumo máximo", "value": "18 W" },
+      { "label": "Temperatura de operación", "value": "-10 °C a 55 °C" },
+      { "label": "Grado de protección", "value": "IP54" },
+      { "label": "Entradas digitales", "value": "16 canales" },
+      { "label": "Salidas relé", "value": "8 canales, 5 A" },
+      { "label": "Comunicación", "value": "Modbus RTU / Ethernet" },
+      { "label": "Peso neto", "value": "1.2 kg" },
+      { "label": "Certificación", "value": "NOM-001-SEDE" }
+    ],
+    "footnote": "Especificaciones sujetas a cambio sin previo aviso. Consulte la hoja de datos completa antes de su instalación."
+  }
+}

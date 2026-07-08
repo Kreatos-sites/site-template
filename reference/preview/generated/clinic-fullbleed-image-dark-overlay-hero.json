@@ -1,0 +1,15 @@
+{
+  "key": "clinic-fullbleed-image-dark-overlay-hero",
+  "pascalName": "ClinicFullbleedImageDarkOverlayHero",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-fullbleed-image-dark-overlay-hero` | clinic-fullbleed-image-dark-overlay-hero — hero a sangre completa con fotografía clínica y degradado oscuro de abajo hacia arriba, título y subtítulo alineados a la izquierda con CTA de agendar cita, sin tarjetas ni fondo sólido adicional | { eyebrow, title, subtitle, image, imageAlt, cta, ctaHref } |",
+  "fixture": {
+    "eyebrow": "Atención médica integral",
+    "title": "Cuidado cercano, respaldado por especialistas certificados",
+    "subtitle": "En Clínica Vitalis combinamos diagnóstico preciso y trato humano para acompañarle en cada etapa de su salud, con citas disponibles esta semana.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Médico revisando el expediente de un paciente durante una consulta",
+    "cta": "Agendar cita",
+    "ctaHref": "#agendar-cita"
+  }
+}

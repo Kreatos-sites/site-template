@@ -1,0 +1,39 @@
+{
+  "key": "careers-application-process-warm-steps",
+  "pascalName": "CareersApplicationProcessWarmSteps",
+  "category": "Empleo",
+  "catalogRow": "| `careers-application-process-warm-steps` | careers-application-process-warm-steps — proceso de contratación en pasos horizontales numerados con conector punteado, iconos de línea y fondo cálido con textura de puntos | { eyebrow, title, description, steps: [{ number, icon, title, description }], cta, ctaHref }",
+  "fixture": {
+    "eyebrow": "Únete al equipo",
+    "title": "Un proceso de selección claro, de principio a fin",
+    "description": "Diseñamos cada etapa para que usted sepa qué esperar, cuánto tiempo toma y con quién va a conversar antes de recibir una oferta.",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "FileText",
+        "title": "Postule a la vacante",
+        "description": "Envíe su currículum y una breve carta de presentación a través de nuestro portal. Confirmamos recepción en un plazo máximo de dos días hábiles."
+      },
+      {
+        "number": "02",
+        "icon": "MessageSquare",
+        "title": "Entrevista inicial",
+        "description": "Una llamada de 30 minutos con nuestro equipo de talento para conocer su trayectoria, motivaciones y disponibilidad."
+      },
+      {
+        "number": "03",
+        "icon": "ClipboardCheck",
+        "title": "Prueba técnica",
+        "description": "Un ejercicio práctico relacionado con el puesto, con una semana para resolverlo y retroalimentación directa del equipo evaluador."
+      },
+      {
+        "number": "04",
+        "icon": "Handshake",
+        "title": "Oferta y bienvenida",
+        "description": "Si hay coincidencia, le presentamos una oferta formal por escrito y coordinamos su fecha de ingreso junto con el plan de inducción."
+      }
+    ],
+    "cta": "Ver vacantes abiertas",
+    "ctaHref": "/carreras"
+  }
+}

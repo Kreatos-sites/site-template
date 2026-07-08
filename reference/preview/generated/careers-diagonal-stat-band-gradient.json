@@ -1,0 +1,16 @@
+{
+  "key": "careers-diagonal-stat-band-gradient",
+  "pascalName": "CareersDiagonalStatBandGradient",
+  "category": "Empleo",
+  "catalogRow": "| `careers-diagonal-stat-band-gradient` | careers-diagonal-stat-band-gradient — banda corta de transición con recorte diagonal y fondo en degradado del color primario, cifras oversized centradas | { eyebrow, title, stats: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo en números",
+    "title": "Una organización que crece con la gente que la conforma",
+    "stats": [
+      { "value": "480+", "label": "colaboradores activos" },
+      { "value": "7", "label": "países con operación" },
+      { "value": "4.6 años", "label": "antigüedad promedio" },
+      { "value": "62%", "label": "vacantes cubiertas con promoción interna" }
+    ]
+  }
+}

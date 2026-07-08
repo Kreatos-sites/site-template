@@ -1,0 +1,57 @@
+{
+  "key": "property-map-split-listing-sidebar",
+  "pascalName": "PropertyMapSplitListingSidebar",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-map-split-listing-sidebar` | property-map-split-listing-sidebar — split ubicación con mapa esquemático tintado en bg-secondary + sidebar de propiedades cercanas con distancia/precio scrolleable | { eyebrow, title, subtitle, pois: { icon, label, top, left }[], listTitle, listSubtitle, properties: { name, address, distance, price, status }[] } |",
+  "fixture": {
+    "eyebrow": "Ubicación y entorno",
+    "title": "Una zona que se explica sola",
+    "subtitle": "Este desarrollo se ubica a pasos de las vialidades y servicios que su día a día requiere. A continuación, el entorno inmediato y las propiedades comparables disponibles cerca.",
+    "pois": [
+      { "icon": "school", "label": "Colegio Cumbres", "top": "22%", "left": "28%" },
+      { "icon": "shopping", "label": "Plaza San Pedro", "top": "34%", "left": "68%" },
+      { "icon": "park", "label": "Parque Fundidora", "top": "68%", "left": "40%" },
+      { "icon": "transit", "label": "Estación Metro Central", "top": "58%", "left": "78%" },
+      { "icon": "landmark", "label": "Hospital San José", "top": "78%", "left": "20%" }
+    ],
+    "listTitle": "Propiedades cercanas",
+    "listSubtitle": "Comparables disponibles en un radio de 2 kilómetros",
+    "properties": [
+      {
+        "name": "Residencial Altavista 204",
+        "address": "Av. Vasconcelos 1120, San Pedro Garza García",
+        "distance": "0.4 km",
+        "price": "$4,850,000",
+        "status": "Disponible"
+      },
+      {
+        "name": "Torre Cumbres Departamento 12B",
+        "address": "Calzada del Valle 340, San Pedro Garza García",
+        "distance": "0.9 km",
+        "price": "$6,200,000",
+        "status": "Disponible"
+      },
+      {
+        "name": "Casa Los Fresnos 88",
+        "address": "Río Nazas 88, Del Valle",
+        "distance": "1.2 km",
+        "price": "$5,100,000",
+        "status": "En preventa"
+      },
+      {
+        "name": "Loft Fundidora 5C",
+        "address": "Av. Fundidora 501, Obrera",
+        "distance": "1.6 km",
+        "price": "$3,450,000",
+        "status": "Disponible"
+      },
+      {
+        "name": "Residencial Contry Norte 15",
+        "address": "Contry Sur 1520, Contry",
+        "distance": "1.9 km",
+        "price": "$4,300,000",
+        "status": "Reservada"
+      }
+    ]
+  }
+}

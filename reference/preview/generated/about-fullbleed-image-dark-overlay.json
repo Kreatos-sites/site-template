@@ -1,0 +1,17 @@
+{
+  "key": "about-fullbleed-image-dark-overlay",
+  "pascalName": "AboutFullbleedImageDarkOverlay",
+  "category": "Nosotros",
+  "catalogRow": "| `about-fullbleed-image-dark-overlay` | about-fullbleed-image-dark-overlay — fotografía de equipo o instalaciones a sangre completa con overlay oscuro degradado y manifiesto centrado en texto claro, sin tarjetas ni columnas, tono cinematográfico | { eyebrow, title, image, imageAlt, manifesto: string[] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Una constructora hecha de decisiones difíciles y obras entregadas a tiempo",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de Constructora Alanís en la obra, revisando planos frente a una estructura en proceso",
+    "manifesto": [
+      "Desde 1998 construimos naves industriales, plantas y centros de distribución en el Bajío, con equipos propios y sin subcontratar la responsabilidad.",
+      "No prometemos lo que no podemos sostener en obra; cada fecha de entrega que firmamos es la fecha que cumplimos.",
+      "Creemos que la reputación de una constructora se mide en las llamadas que ya no recibe el cliente después de la entrega."
+    ]
+  }
+}

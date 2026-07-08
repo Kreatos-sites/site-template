@@ -1,0 +1,31 @@
+{
+  "key": "cta-staggered-cards-dense-triple-action",
+  "pascalName": "CtaStaggeredCardsDenseTripleAction",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `cta-staggered-cards-dense-triple-action` | cta-staggered-cards-dense-triple-action — tres tarjetas de cierre escalonadas (translate-y alterno + rotación leve al centro) sobre fondo secundario, cada una con icono, micro-copy y su propio botón, sin foto | { eyebrow, title, description, cards: { title, text, icon: \"calculator\"/\"calendar\"/\"download\", cta: { label, href } }[] } |",
+  "fixture": {
+    "eyebrow": "Siguiente paso",
+    "title": "Elija la vía que mejor se ajuste a su proceso",
+    "description": "Tres rutas directas para avanzar con su proyecto, sin pasar por un formulario largo.",
+    "cards": [
+      {
+        "title": "Cotizar en línea",
+        "text": "Reciba un estimado preliminar según el alcance y los materiales que indique.",
+        "icon": "calculator",
+        "cta": { "label": "Cotizar ahora", "href": "/cotizar" }
+      },
+      {
+        "title": "Agendar llamada",
+        "text": "Hable con un especialista técnico en una sesión de veinte minutos.",
+        "icon": "calendar",
+        "cta": { "label": "Agendar llamada", "href": "/contacto" }
+      },
+      {
+        "title": "Descargar ficha técnica",
+        "text": "Consulte especificaciones, certificaciones y tiempos de entrega en PDF.",
+        "icon": "download",
+        "cta": { "label": "Descargar ficha", "href": "/recursos/ficha-tecnica.pdf" }
+      }
+    ]
+  }
+}

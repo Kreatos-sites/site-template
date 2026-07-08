@@ -1,0 +1,17 @@
+{
+  "key": "clinic-warm-testimonial-split-portrait",
+  "pascalName": "ClinicWarmTestimonialSplitPortrait",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-warm-testimonial-split-portrait` | clinic-warm-testimonial-split-portrait — testimonio editorial de paciente con retrato grande a la izquierda y cita larga con padecimiento tratado a la derecha, sobre fondo cálido tintado. | { eyebrow, image, imageAlt, quote, author: { name, role, condition } }",
+  "fixture": {
+    "eyebrow": "Testimonio de paciente",
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Guadalupe Rentería, paciente de la clínica",
+    "quote": "Llegué con dolor de espalda que ya no me dejaba trabajar ni dormir bien. En la clínica me explicaron cada paso del tratamiento antes de empezarlo, y después de tres meses de terapia volví a moverme sin miedo. Nunca sentí que fuera solo un número más en la agenda.",
+    "author": {
+      "name": "Guadalupe Rentería",
+      "role": "Paciente desde 2023",
+      "condition": "Rehabilitación de hernia discal lumbar"
+    }
+  }
+}

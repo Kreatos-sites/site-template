@@ -1,0 +1,60 @@
+{
+  "key": "team-staggered-diagonal-cards-tinted",
+  "pascalName": "TeamStaggeredDiagonalCardsTinted",
+  "category": "Equipo",
+  "catalogRow": "| `team-staggered-diagonal-cards-tinted` | team-staggered-diagonal-cards-tinted — grilla de 3-4 columnas sobre fondo tintado bg-secondary con tarjetas de foto/nombre/rol desplazadas verticalmente por columna (diagonal editorial) · úsalo cuando el equipo quiera un tono aireado y dinámico en \"quiénes somos\". | { eyebrow, title, members: [{ name, role, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Personas que sostienen cada proyecto",
+    "members": [
+      {
+        "name": "Valentina Ochoa Prieto",
+        "role": "Directora General",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Valentina Ochoa Prieto, Directora General"
+      },
+      {
+        "name": "Emiliano Sandoval Ríos",
+        "role": "Director de Operaciones",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Emiliano Sandoval Ríos, Director de Operaciones"
+      },
+      {
+        "name": "Camila Restrepo Núñez",
+        "role": "Gerente de Cuentas Clave",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Camila Restrepo Núñez, Gerente de Cuentas Clave"
+      },
+      {
+        "name": "Santiago Vega Montemayor",
+        "role": "Líder de Ingeniería",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Santiago Vega Montemayor, Líder de Ingeniería"
+      },
+      {
+        "name": "Renata Cordero Salinas",
+        "role": "Gerente de Finanzas",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Cordero Salinas, Gerente de Finanzas"
+      },
+      {
+        "name": "Joaquín Barrientos Luna",
+        "role": "Consultor Senior",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Joaquín Barrientos Luna, Consultor Senior"
+      },
+      {
+        "name": "Ximena Poblano Cárdenas",
+        "role": "Coordinadora de Talento",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ximena Poblano Cárdenas, Coordinadora de Talento"
+      },
+      {
+        "name": "Mateo Villaseñor Guzmán",
+        "role": "Gerente de Proyecto",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mateo Villaseñor Guzmán, Gerente de Proyecto"
+      }
+    ]
+  }
+}

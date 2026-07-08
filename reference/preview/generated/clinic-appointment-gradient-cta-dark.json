@@ -1,0 +1,20 @@
+{
+  "key": "clinic-appointment-gradient-cta-dark",
+  "pascalName": "ClinicAppointmentGradientCtaDark",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-appointment-gradient-cta-dark` | clinic-appointment-gradient-cta-dark — banda CTA full-bleed con gradiente primario a oscuro, sin fotografía, alto contraste | { eyebrow, title, description, primaryCta: { label, href }, secondaryCta: { label, href }, note } |",
+  "fixture": {
+    "eyebrow": "Agenda en línea",
+    "title": "Su consulta, en el horario que a usted le convenga",
+    "description": "Reserve una cita con nuestros especialistas en menos de dos minutos. Confirmación inmediata y recordatorio por correo y WhatsApp.",
+    "primaryCta": {
+      "label": "Agendar cita",
+      "href": "#agendar"
+    },
+    "secondaryCta": {
+      "label": "Llamar a recepción",
+      "href": "tel:+525512345678"
+    },
+    "note": "Atención de lunes a sábado · Sin costo por cambio de horario"
+  }
+}

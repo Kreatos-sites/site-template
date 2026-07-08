@@ -1,0 +1,20 @@
+{
+  "key": "careers-fullbleed-image-dark-overlay-hero",
+  "pascalName": "CareersFullbleedImageDarkOverlayHero",
+  "category": "Empleo",
+  "catalogRow": "| `careers-fullbleed-image-dark-overlay-hero` | careers-fullbleed-image-dark-overlay-hero — hero de empleo a sangre completa con foto documental del equipo, encabezado centrado-inferior y chips de cifras translúcidos | { eyebrow, title, subtitle, image, imageAlt, cta, ctaHref, stats?: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Trabaja con nosotros",
+    "title": "Gente que construye cosas que importan",
+    "subtitle": "Sumamos personas con oficio a un equipo que valora la responsabilidad, el detalle y el trabajo bien hecho, en oficina y en obra.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Equipo de trabajo reunido en la oficina revisando planos",
+    "cta": "Ver vacantes",
+    "ctaHref": "/carreras#vacantes",
+    "stats": [
+      { "value": "120+", "label": "Colaboradores" },
+      { "value": "14", "label": "Años operando" },
+      { "value": "8", "label": "Ciudades" }
+    ]
+  }
+}

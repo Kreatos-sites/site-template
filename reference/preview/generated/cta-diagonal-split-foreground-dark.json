@@ -1,0 +1,15 @@
+{
+  "key": "cta-diagonal-split-foreground-dark",
+  "pascalName": "CtaDiagonalSplitForegroundDark",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `cta-diagonal-split-foreground-dark` | cta-diagonal-split-foreground-dark — panel de cierre cortado en diagonal, texto sobre bg-foreground y botón + cifra sobre bg-primary | { eyebrow, title, description, statValue, statLabel, ctaLabel, ctaHref } |",
+  "fixture": {
+    "eyebrow": "Siguiente paso",
+    "title": "Hablemos del alcance de su proyecto",
+    "description": "Agende una llamada de diagnóstico de treinta minutos con nuestro equipo técnico. Sin costo, sin compromiso de contratación.",
+    "statValue": "48h",
+    "statLabel": "Tiempo de respuesta",
+    "ctaLabel": "Agendar llamada",
+    "ctaHref": "/contacto"
+  }
+}

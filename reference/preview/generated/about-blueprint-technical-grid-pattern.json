@@ -1,0 +1,35 @@
+{
+  "key": "about-blueprint-technical-grid-pattern",
+  "pascalName": "AboutBlueprintTechnicalGridPattern",
+  "category": "Nosotros",
+  "catalogRow": "| `about-blueprint-technical-grid-pattern` | about-blueprint-technical-grid-pattern — Nosotros técnico-industrial con retícula tipo blueprint, coordenadas decorativas en las esquinas y ficha técnica numerada en dos columnas | { eyebrow, title, description, refCode, coordinates: { topLeft, topRight, bottomLeft, bottomRight }, entries: [{ number, title, text }] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Ingeniería estructural con criterio de precisión",
+    "description": "Desde 2009 desarrollamos proyectos de cálculo estructural y supervisión de obra para clientes industriales y corporativos en el centro del país, con procesos documentados y trazabilidad en cada entrega.",
+    "refCode": "Ficha técnica / Rev. 04",
+    "coordinates": {
+      "topLeft": "N 19°26' O 99°08'",
+      "topRight": "Doc. EST-2026-04",
+      "bottomLeft": "Esc. 1:100",
+      "bottomRight": "Hoja 01/03"
+    },
+    "entries": [
+      {
+        "number": "01",
+        "title": "Misión",
+        "text": "Entregar cálculo estructural confiable, con memorias de diseño verificables y tiempos de respuesta acordes al calendario de obra de nuestros clientes."
+      },
+      {
+        "number": "02",
+        "title": "Alcance",
+        "text": "Cubrimos análisis sísmico, diseño de cimentación, revisión de planos ejecutivos y supervisión periódica en sitio para naves industriales, oficinas y desarrollos residenciales de mediana altura."
+      },
+      {
+        "number": "03",
+        "title": "Compromiso",
+        "text": "Cada proyecto queda respaldado por un responsable de obra colegiado y un expediente técnico completo, disponible para auditoría del cliente en cualquier etapa."
+      }
+    ]
+  }
+}

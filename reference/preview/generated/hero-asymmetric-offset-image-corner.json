@@ -1,0 +1,18 @@
+{
+  "key": "hero-asymmetric-offset-image-corner",
+  "pascalName": "HeroAsymmetricOffsetImageCorner",
+  "category": "Heroes",
+  "catalogRow": "| `hero-asymmetric-offset-image-corner` | hero-asymmetric-offset-image-corner — hero asimétrico con bloque de texto desplazado a la izquierda y tarjeta de imagen pequeña flotando en la esquina superior derecha, mucho aire alrededor | { eyebrow, title, description, image, imageAlt, imageCaption, ctaLabel, ctaHref, secondaryLabel, secondaryHref } |",
+  "fixture": {
+    "eyebrow": "Consultoría corporativa",
+    "title": "Estructuramos decisiones complejas para consejos y direcciones generales",
+    "description": "Acompañamos a equipos directivos en México en la definición de estrategia, gobierno corporativo y transformación operativa, con entregables claros y plazos verificables.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Sala de juntas con equipo directivo revisando un plan estratégico",
+    "imageCaption": "Sesión de planeación estratégica, Ciudad de México",
+    "ctaLabel": "Agendar una llamada",
+    "ctaHref": "/contacto",
+    "secondaryLabel": "Ver casos de estudio",
+    "secondaryHref": "/casos-de-estudio"
+  }
+}

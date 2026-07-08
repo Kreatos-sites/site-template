@@ -1,0 +1,43 @@
+{
+  "key": "property-before-after-renovation-slider-stacked",
+  "pascalName": "PropertyBeforeAfterRenovationSliderStacked",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-before-after-renovation-slider-stacked` | property-before-after-renovation-slider-stacked — Galería editorial de transformación con pares de imágenes antes/después apiladas verticalmente por propiedad, etiqueta divisoria central y fondo tintado cálido, para mostrar el resultado de remodelaciones | { eyebrow, title, subtitle, pairs: [{ label, beforeImage, beforeImageAlt, beforeTag, afterImage, afterImageAlt, afterTag, note }] } |",
+  "fixture": {
+    "eyebrow": "Remodelaciones",
+    "title": "El antes y después de cada propiedad que transformamos",
+    "subtitle": "Documentamos cada remodelación desde el levantamiento inicial hasta la entrega, para que usted vea con claridad el alcance del trabajo realizado en cada propiedad.",
+    "pairs": [
+      {
+        "label": "Casa Los Encinos, Col. Del Valle",
+        "beforeImage": "/images/hero.svg",
+        "beforeImageAlt": "Fachada original de la casa en Col. Del Valle antes de la remodelación",
+        "beforeTag": "Antes",
+        "afterImage": "/images/about.svg",
+        "afterImageAlt": "Fachada renovada de la casa en Col. Del Valle con acabados nuevos",
+        "afterTag": "Después",
+        "note": "Remodelación de fachada e ingreso · 6 semanas"
+      },
+      {
+        "label": "Departamento Torre Cumbres, piso 12",
+        "beforeImage": "/images/hero.svg",
+        "beforeImageAlt": "Sala y cocina originales del departamento en Torre Cumbres antes de la intervención",
+        "beforeTag": "Antes",
+        "afterImage": "/images/about.svg",
+        "afterImageAlt": "Sala y cocina integral del departamento en Torre Cumbres después de la remodelación",
+        "afterTag": "Después",
+        "note": "Cocina integral y acabados de sala · 5 semanas"
+      },
+      {
+        "label": "Local comercial Av. Garza Sada",
+        "beforeImage": "/images/hero.svg",
+        "beforeImageAlt": "Interior del local comercial sobre Av. Garza Sada antes de la remodelación",
+        "beforeTag": "Antes",
+        "afterImage": "/images/about.svg",
+        "afterImageAlt": "Interior del local comercial sobre Av. Garza Sada después de la remodelación",
+        "afterTag": "Después",
+        "note": "Adecuación comercial completa · 8 semanas"
+      }
+    ]
+  }
+}

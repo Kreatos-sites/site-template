@@ -1,0 +1,17 @@
+{
+  "key": "property-hero-fullbleed-image-dark-overlay-floating-price",
+  "pascalName": "PropertyHeroFullbleedImageDarkOverlayFloatingPrice",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-hero-fullbleed-image-dark-overlay-floating-price` | property-hero-fullbleed-image-dark-overlay-floating-price — hero a sangre completa con foto insignia, overlay oscuro degradado y tarjeta flotante translúcida de precio-desde + CTA de visita anclada abajo. | { eyebrow, title, subtitle, image, imageAlt, priceLabel, priceValue, cta, ctaHref } |",
+  "fixture": {
+    "eyebrow": "Desarrollo insignia",
+    "title": "Torres Altavista, el nuevo referente residencial de la ciudad",
+    "subtitle": "56 residencias con vista panorámica, amenidades de hotel y entrega en 18 meses, en la zona con mayor plusvalía de la región.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada nocturna de Torres Altavista con iluminación cálida y alberca en la terraza",
+    "priceLabel": "Precio desde",
+    "priceValue": "$6,890,000 MXN",
+    "cta": "Agendar visita",
+    "ctaHref": "/contacto"
+  }
+}

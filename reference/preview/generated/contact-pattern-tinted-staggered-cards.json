@@ -1,0 +1,42 @@
+{
+  "key": "contact-pattern-tinted-staggered-cards",
+  "pascalName": "ContactPatternTintedStaggeredCards",
+  "category": "Contacto",
+  "catalogRow": "| `contact-pattern-tinted-staggered-cards` | contact-pattern-tinted-staggered-cards — tarjetas de canal en grid escalonado sobre fondo punteado bg-secondary, cierra con barra de CTA angosta, sin formulario | { eyebrow, title, subtitle, channels: { icon, title, value, note }[], cta: { label, action, href } } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su proyecto",
+    "subtitle": "Elija el canal que le resulte más cómodo. Nuestro equipo responde en horario hábil y da seguimiento puntual a cada solicitud.",
+    "channels": [
+      {
+        "icon": "mail",
+        "title": "Correo",
+        "value": "contacto@empresa.mx",
+        "note": "Respuesta dentro de un día hábil."
+      },
+      {
+        "icon": "office",
+        "title": "Oficina",
+        "value": "Av. Insurgentes Sur 1602, CDMX",
+        "note": "Visitas previa cita."
+      },
+      {
+        "icon": "chat",
+        "title": "WhatsApp",
+        "value": "+52 55 4021 8873",
+        "note": "Atención directa para consultas rápidas."
+      },
+      {
+        "icon": "hours",
+        "title": "Horario",
+        "value": "Lunes a viernes, 9:00–18:00",
+        "note": "Hora del centro de México."
+      }
+    ],
+    "cta": {
+      "label": "¿Prefiere que lo contactemos nosotros?",
+      "action": "Solicitar llamada",
+      "href": "#contacto"
+    }
+  }
+}

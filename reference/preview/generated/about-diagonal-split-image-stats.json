@@ -1,0 +1,23 @@
+{
+  "key": "about-diagonal-split-image-stats",
+  "pascalName": "AboutDiagonalSplitImageStats",
+  "category": "Nosotros",
+  "catalogRow": "| `about-diagonal-split-image-stats` | about-diagonal-split-image-stats — panel de imagen recortado en diagonal (clip-path, ~55% del ancho) con tarjeta de estadística flotando sobre el borde diagonal, texto de historia y cita al otro lado · tratamiento técnico-gráfico poco convencional. | { eyebrow, title, image, imageAlt, paragraphs: string[], stat: { value, label }, quote, quoteAttribution }",
+  "fixture": {
+    "eyebrow": "Nuestra historia",
+    "title": "Precisión estructural desde el primer plano",
+    "image": "/images/about.svg",
+    "imageAlt": "Ingenieros de Perfil Estructural revisando planos de cimentación en el taller de Querétaro",
+    "paragraphs": [
+      "Perfil Estructural inició en 2009 como un despacho de cálculo estructural para tres constructoras locales en Querétaro. El primer proyecto fue la cimentación de una nave industrial que aún sigue en operación.",
+      "Con los años sumamos capacidad de diseño en concreto y acero, y hoy firmamos memorias de cálculo para proyectos que van desde naves logísticas hasta edificios de uso mixto en el Bajío.",
+      "Cada proyecto pasa por una revisión independiente antes de la firma final. Es el mismo procedimiento desde el primer expediente, sin excepciones."
+    ],
+    "stat": {
+      "value": "310+",
+      "label": "proyectos estructurales calculados"
+    },
+    "quote": "No entregamos un cálculo que nosotros mismos no aprobaríamos para nuestra propia obra.",
+    "quoteAttribution": "Ing. Raúl Domínguez, director técnico"
+  }
+}

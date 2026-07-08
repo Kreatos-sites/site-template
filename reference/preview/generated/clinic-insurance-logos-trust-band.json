@@ -1,0 +1,20 @@
+{
+  "key": "clinic-insurance-logos-trust-band",
+  "pascalName": "ClinicInsuranceLogosTrustBand",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-insurance-logos-trust-band` | clinic-insurance-logos-trust-band — banda angosta en bg-secondary con grid denso de wordmarks de aseguradoras en escala de grises, tratamiento de confianza institucional sin fotografía de personas | { eyebrow: string; title: string; insurers: { name: string }[] } |",
+  "fixture": {
+    "eyebrow": "Convenios y coberturas",
+    "title": "Trabajamos con tu aseguradora",
+    "insurers": [
+      { "name": "GNP Seguros" },
+      { "name": "AXA Salud" },
+      { "name": "MetLife México" },
+      { "name": "Seguros Monterrey" },
+      { "name": "Allianz México" },
+      { "name": "Atlas Seguros" },
+      { "name": "Banorte Seguros" },
+      { "name": "Zurich Salud" }
+    ]
+  }
+}

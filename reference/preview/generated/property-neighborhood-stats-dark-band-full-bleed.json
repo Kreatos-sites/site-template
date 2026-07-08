@@ -1,0 +1,37 @@
+{
+  "key": "property-neighborhood-stats-dark-band-full-bleed",
+  "pascalName": "PropertyNeighborhoodStatsDarkBandFullBleed",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-neighborhood-stats-dark-band-full-bleed` | property-neighborhood-stats-dark-band-full-bleed — banda oscura a sangre completa con retícula tipo plano arquitectónico y cifras centradas del vecindario | { eyebrow, title, description, stats: { icon: \"walk/school/transit/commute\", value, label, caption }[] } |",
+  "fixture": {
+    "eyebrow": "El entorno",
+    "title": "Un vecindario pensado para la vida diaria",
+    "description": "Cada desarrollo se evalúa por su relación con la ciudad: distancias caminables, oferta educativa cercana y acceso directo al transporte público.",
+    "stats": [
+      {
+        "icon": "walk",
+        "value": "92",
+        "label": "Índice de caminabilidad",
+        "caption": "Comercios y servicios a menos de 10 minutos a pie"
+      },
+      {
+        "icon": "school",
+        "value": "6",
+        "label": "Escuelas certificadas cercanas",
+        "caption": "Educación básica y media dentro de un radio de 2 km"
+      },
+      {
+        "icon": "transit",
+        "value": "3",
+        "label": "Estaciones de transporte",
+        "caption": "Conexión directa a las líneas principales de la zona"
+      },
+      {
+        "icon": "commute",
+        "value": "18 min",
+        "label": "Tiempo promedio al centro",
+        "caption": "Trayecto en hora pico desde la entrada principal"
+      }
+    ]
+  }
+}

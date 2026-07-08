@@ -1,0 +1,24 @@
+{
+  "key": "header-fullbleed-image-dark-overlay",
+  "pascalName": "HeaderFullbleedImageDarkOverlay",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-fullbleed-image-dark-overlay` | header-fullbleed-image-dark-overlay — header a sangre completa con foto corporativa de obra/planta, overlay oscuro en degradado y nav flotante en texto claro, tono editorial para constructoras e industria pesada | { logo: string, navLabel: string, menuLabel: string, links: [{ label: string, href: string }], ctaLabel: string, ctaHref: string, eyebrow: string, title: string, subtitle: string, image: string, imageAlt: string } |",
+  "fixture": {
+    "logo": "Grupo Estructa",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú de navegación",
+    "links": [
+      { "label": "Proyectos", "href": "#proyectos" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Certificaciones", "href": "#certificaciones" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#contacto",
+    "eyebrow": "Construcción industrial y obra civil",
+    "title": "Estructuras que sostienen la operación de su empresa",
+    "subtitle": "Diseñamos, construimos y supervisamos proyectos industriales y comerciales de gran escala en todo el país, con procesos certificados y entrega puntual.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Cuadrilla de trabajo supervisando una obra industrial al atardecer"
+  }
+}

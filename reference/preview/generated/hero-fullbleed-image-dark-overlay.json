@@ -1,0 +1,15 @@
+{
+  "key": "hero-fullbleed-image-dark-overlay",
+  "pascalName": "HeroFullbleedImageDarkOverlay",
+  "category": "Heroes",
+  "catalogRow": "| `hero-fullbleed-image-dark-overlay` | hero-fullbleed-image-dark-overlay — imagen a sangre completa (planta/ciudad) con overlay oscuro en gradiente y contenido centrado, un solo CTA | { eyebrow, title, subtitle, cta, ctaHref, image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Desde 1998",
+    "title": "Infraestructura industrial que sostiene su operación",
+    "subtitle": "Diseñamos, construimos y damos mantenimiento a plantas y sistemas críticos para empresas manufactureras y logísticas en todo México.",
+    "cta": "Solicitar diagnóstico",
+    "ctaHref": "/contacto",
+    "image": "/images/hero.svg",
+    "imageAlt": "Planta industrial vista desde arriba al atardecer"
+  }
+}

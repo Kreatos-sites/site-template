@@ -1,0 +1,63 @@
+{
+  "key": "team-dark-directory-monospace-index",
+  "pascalName": "TeamDarkDirectoryMonospaceIndex",
+  "category": "Equipo",
+  "catalogRow": "| `team-dark-directory-monospace-index` | team-dark-directory-monospace-index — directorio corporativo tipo tabla sobre fondo oscuro, con índice monospace y fotos en escala de grises | { eyebrow, title, headingName, headingRole, headingDepartment, members: [{ index, name, role, department, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Directorio",
+    "title": "Equipo directivo",
+    "headingName": "Nombre",
+    "headingRole": "Puesto",
+    "headingDepartment": "Área",
+    "members": [
+      {
+        "index": "01",
+        "name": "Ricardo Salazar Moreno",
+        "role": "Director general",
+        "department": "Dirección",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ricardo Salazar Moreno, director general"
+      },
+      {
+        "index": "02",
+        "name": "Fernanda Ibarra Cruz",
+        "role": "Directora de operaciones",
+        "department": "Operaciones",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernanda Ibarra Cruz, directora de operaciones"
+      },
+      {
+        "index": "03",
+        "name": "Mauricio Peña Rivas",
+        "role": "Gerente de finanzas",
+        "department": "Finanzas",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mauricio Peña Rivas, gerente de finanzas"
+      },
+      {
+        "index": "04",
+        "name": "Daniela Cortés Vega",
+        "role": "Gerente de proyectos",
+        "department": "Proyectos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Daniela Cortés Vega, gerente de proyectos"
+      },
+      {
+        "index": "05",
+        "name": "Alejandro Rosales Núñez",
+        "role": "Coordinador legal",
+        "department": "Legal",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Alejandro Rosales Núñez, coordinador legal"
+      },
+      {
+        "index": "06",
+        "name": "Paola Guzmán Torres",
+        "role": "Coordinadora de recursos humanos",
+        "department": "Recursos humanos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paola Guzmán Torres, coordinadora de recursos humanos"
+      }
+    ]
+  }
+}

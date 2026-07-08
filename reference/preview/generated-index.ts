@@ -2,6 +2,65 @@
  * ÍNDICE GENERADO — reescrito por scripts/assemble-reference.mjs. No editar a mano.
  */
 export const generatedFixtures: Record<string, Record<string, unknown>> = {
+  "about-asymmetric-bento-culture-gallery": {
+    "eyebrow": "Nuestra cultura",
+    "title": "Un equipo que construye con oficio, no con prisa",
+    "large": {
+      "image": "/images/about.svg",
+      "imageAlt": "Equipo de trabajo reunido en la sala principal de la oficina",
+      "caption": "Sala principal, oficina Monterrey"
+    },
+    "cell": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Decisiones claras, entregas puntuales",
+      "lineOne": "Cada proyecto pasa por un mismo equipo, de inicio a cierre, sin relevos a mitad de camino.",
+      "lineTwo": "Revisamos avances cada semana con el cliente, sin sorpresas al final."
+    },
+    "smallOne": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Mesa de trabajo con planos y muestras de materiales",
+      "caption": "Sesión de revisión de proyecto"
+    },
+    "smallTwo": {
+      "image": "/images/about.svg",
+      "imageAlt": "Colaboradores conversando en el área de café",
+      "caption": "Área común, segundo piso"
+    },
+    "smallThree": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Vista general del taller y bodega de materiales",
+      "caption": "Taller y bodega central"
+    }
+  },
+  "about-blueprint-technical-grid-pattern": {
+    "eyebrow": "Quiénes somos",
+    "title": "Ingeniería estructural con criterio de precisión",
+    "description": "Desde 2009 desarrollamos proyectos de cálculo estructural y supervisión de obra para clientes industriales y corporativos en el centro del país, con procesos documentados y trazabilidad en cada entrega.",
+    "refCode": "Ficha técnica / Rev. 04",
+    "coordinates": {
+      "topLeft": "N 19°26' O 99°08'",
+      "topRight": "Doc. EST-2026-04",
+      "bottomLeft": "Esc. 1:100",
+      "bottomRight": "Hoja 01/03"
+    },
+    "entries": [
+      {
+        "number": "01",
+        "title": "Misión",
+        "text": "Entregar cálculo estructural confiable, con memorias de diseño verificables y tiempos de respuesta acordes al calendario de obra de nuestros clientes."
+      },
+      {
+        "number": "02",
+        "title": "Alcance",
+        "text": "Cubrimos análisis sísmico, diseño de cimentación, revisión de planos ejecutivos y supervisión periódica en sitio para naves industriales, oficinas y desarrollos residenciales de mediana altura."
+      },
+      {
+        "number": "03",
+        "title": "Compromiso",
+        "text": "Cada proyecto queda respaldado por un responsable de obra colegiado y un expediente técnico completo, disponible para auditoría del cliente en cualquier etapa."
+      }
+    ]
+  },
   "about-capabilities-vertical-list-accent-bar-stat-expand": {
     "eyebrow": "Áreas de práctica",
     "title": "Capacidades del despacho, respaldadas por resultados",
@@ -53,6 +112,104 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "statValue": "$450M",
         "statLabel": "en activos bajo estructuras de protección",
         "detail": "Diseñamos vehículos legales acordes a la operación de cada cliente, revisados periódicamente conforme cambia la normatividad aplicable."
+      }
+    ]
+  },
+  "about-cards-staggered-values-vertical-offset": {
+    "eyebrow": "Nuestros valores",
+    "title": "Lo que sostiene cada decisión que tomamos",
+    "values": [
+      {
+        "title": "Precisión",
+        "text": "Cada entregable pasa por revisión técnica antes de llegar a su mesa.",
+        "icon": "target"
+      },
+      {
+        "title": "Integridad",
+        "text": "Cumplimos lo acordado en tiempo, forma y presupuesto pactado.",
+        "icon": "shield"
+      },
+      {
+        "title": "Cercanía",
+        "text": "Un solo punto de contacto acompaña su proyecto de inicio a fin.",
+        "icon": "handshake"
+      },
+      {
+        "title": "Agilidad",
+        "text": "Respuesta en menos de 24 horas ante cualquier ajuste solicitado.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "about-dark-manifesto-centered": {
+    "eyebrow": "Nuestra Filosofía",
+    "statement": "Construimos estructuras legales que resisten el tiempo, no atajos que exponen a nuestros clientes.",
+    "metrics": [
+      {
+        "value": "27",
+        "label": "Años de Ejercicio"
+      },
+      {
+        "value": "410+",
+        "label": "Mandatos Cerrados"
+      },
+      {
+        "value": "18",
+        "label": "Socios y Asociados"
+      },
+      {
+        "value": "0",
+        "label": "Conflictos de Interés"
+      }
+    ]
+  },
+  "about-diagonal-split-image-stats": {
+    "eyebrow": "Nuestra historia",
+    "title": "Precisión estructural desde el primer plano",
+    "image": "/images/about.svg",
+    "imageAlt": "Ingenieros de Perfil Estructural revisando planos de cimentación en el taller de Querétaro",
+    "paragraphs": [
+      "Perfil Estructural inició en 2009 como un despacho de cálculo estructural para tres constructoras locales en Querétaro. El primer proyecto fue la cimentación de una nave industrial que aún sigue en operación.",
+      "Con los años sumamos capacidad de diseño en concreto y acero, y hoy firmamos memorias de cálculo para proyectos que van desde naves logísticas hasta edificios de uso mixto en el Bajío.",
+      "Cada proyecto pasa por una revisión independiente antes de la firma final. Es el mismo procedimiento desde el primer expediente, sin excepciones."
+    ],
+    "stat": {
+      "value": "310+",
+      "label": "proyectos estructurales calculados"
+    },
+    "quote": "No entregamos un cálculo que nosotros mismos no aprobaríamos para nuestra propia obra.",
+    "quoteAttribution": "Ing. Raúl Domínguez, director técnico"
+  },
+  "about-fullbleed-image-dark-overlay": {
+    "eyebrow": "Quiénes somos",
+    "title": "Una constructora hecha de decisiones difíciles y obras entregadas a tiempo",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de Constructora Alanís en la obra, revisando planos frente a una estructura en proceso",
+    "manifesto": [
+      "Desde 1998 construimos naves industriales, plantas y centros de distribución en el Bajío, con equipos propios y sin subcontratar la responsabilidad.",
+      "No prometemos lo que no podemos sostener en obra; cada fecha de entrega que firmamos es la fecha que cumplimos.",
+      "Creemos que la reputación de una constructora se mide en las llamadas que ya no recibe el cliente después de la entrega."
+    ]
+  },
+  "about-gradient-theme-centered-pillars": {
+    "eyebrow": "Quiénes somos",
+    "title": "Una firma construida sobre tres convicciones",
+    "intro": "Desde 2011 acompañamos a empresas mexicanas en decisiones que no admiten margen de error, con un equipo que responde con la misma cercanía el primer día y el último.",
+    "pillars": [
+      {
+        "icon": "compass",
+        "name": "Claridad de rumbo",
+        "description": "Cada proyecto inicia con un diagnóstico honesto y un plan que usted puede seguir sin traducción."
+      },
+      {
+        "icon": "handshake",
+        "name": "Compromiso sostenido",
+        "description": "Un mismo equipo lo acompaña de principio a fin, sin relevos que le hagan repetir la historia."
+      },
+      {
+        "icon": "spark",
+        "name": "Mejora constante",
+        "description": "Revisamos cada entrega con usted para que el siguiente paso sea mejor que el anterior."
       }
     ]
   },
@@ -393,6 +550,18 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "about-split-founder-portrait-quote": {
+    "eyebrow": "Nuestra historia",
+    "quote": "Fundamos este despacho con una idea simple: cada cliente merece la misma atención que le daríamos a un familiar.",
+    "name": "Ricardo Solana Peña",
+    "role": "Director general y fundador",
+    "paragraphs": [
+      "Comencé este despacho en 2011, después de más de una década trabajando en firmas donde los clientes pequeños quedaban al final de la lista. Me pareció injusto y decidí construir algo distinto: una práctica donde el trato cercano no dependiera del tamaño de la cuenta.",
+      "Hoy dirigimos un equipo de catorce personas en Monterrey, pero seguimos revisando personalmente cada caso relevante. Esa cercanía es, para nosotros, la diferencia entre asesorar y realmente acompañar."
+    ],
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Ricardo Solana Peña, director general y fundador del despacho"
+  },
   "about-team-photo-narrative-metrics-split-two-column": {
     "eyebrow": "Nuestro estudio",
     "title": "Un equipo de arquitectos que proyecta con criterio, no con moda",
@@ -468,6 +637,31 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "about-tinted-facts-dense-datasheet": {
+    "eyebrow": "Perfil corporativo",
+    "title": "Una firma técnica, estructurada para operar con precisión",
+    "paragraphOne": "Desde 2011 acompañamos a empresas industriales y de logística en la modernización de sus procesos operativos, con equipos multidisciplinarios que combinan ingeniería, datos y ejecución en campo.",
+    "paragraphTwo": "Operamos bajo un modelo de entrega por fases, con gobernanza documentada y responsables asignados en cada etapa, lo que nos permite mantener trazabilidad completa en proyectos de cualquier escala.",
+    "datasheetLabel": "Ficha técnica",
+    "facts": [
+      {
+        "label": "Fundación",
+        "value": "2011"
+      },
+      {
+        "label": "Sede",
+        "value": "Monterrey, Nuevo León"
+      },
+      {
+        "label": "Tamaño de equipo",
+        "value": "68 profesionales"
+      },
+      {
+        "label": "Cobertura",
+        "value": "Nacional, 14 estados"
+      }
+    ]
+  },
   "about-values-alternating-features": {
     "eyebrow": "Quiénes somos",
     "title": "Un despacho construido sobre método, no sobre promesas",
@@ -515,6 +709,19 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "icon": "gauge"
       }
     ]
+  },
+  "about-warm-editorial-magazine-dropcap": {
+    "eyebrow": "Nuestra historia",
+    "title": "Casi cuatro décadas construyendo con la misma familia de artesanos",
+    "paragraphs": [
+      "Ebanistería Los Encinos nació en un taller de dos mesas de trabajo en el centro de Guadalajara, cuando don Refugio Camarena decidió que los muebles hechos a mano merecían el mismo cuidado que una pieza de arquitectura. Desde entonces, cada mueble que sale de nuestro taller lleva la marca de una tradición que se ha transmitido de generación en generación, sin prisa y sin atajos.",
+      "Hoy seguimos trabajando con las mismas maderas de la región, los mismos ensambles tradicionales y la misma paciencia de los primeros años. No buscamos producir más rápido; buscamos que cada pieza dure lo suficiente para que la cuenten los nietos de quien la encargó.",
+      "Nuestro taller recibe visitas por cita para que los clientes conozcan el proceso completo, desde la selección de la madera hasta el último barniz aplicado a mano. Creemos que entender cómo se hace un mueble cambia la manera en que se habita con él.",
+      "Seguimos siendo un negocio familiar. Eso significa que usted habla directamente con quien diseña y con quien construye, sin intermediarios ni catálogos genéricos."
+    ],
+    "image": "/images/about.svg",
+    "imageAlt": "Detalle de ensamble de madera en el taller de Ebanistería Los Encinos",
+    "caption": "Ensamble cola de milano, técnica que usamos desde 1987."
   },
   "accordion-faq-single-column": {
     "eyebrow": "Preguntas frecuentes",
@@ -1588,6 +1795,334 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "careers-application-process-warm-steps": {
+    "eyebrow": "Únete al equipo",
+    "title": "Un proceso de selección claro, de principio a fin",
+    "description": "Diseñamos cada etapa para que usted sepa qué esperar, cuánto tiempo toma y con quién va a conversar antes de recibir una oferta.",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "FileText",
+        "title": "Postule a la vacante",
+        "description": "Envíe su currículum y una breve carta de presentación a través de nuestro portal. Confirmamos recepción en un plazo máximo de dos días hábiles."
+      },
+      {
+        "number": "02",
+        "icon": "MessageSquare",
+        "title": "Entrevista inicial",
+        "description": "Una llamada de 30 minutos con nuestro equipo de talento para conocer su trayectoria, motivaciones y disponibilidad."
+      },
+      {
+        "number": "03",
+        "icon": "ClipboardCheck",
+        "title": "Prueba técnica",
+        "description": "Un ejercicio práctico relacionado con el puesto, con una semana para resolverlo y retroalimentación directa del equipo evaluador."
+      },
+      {
+        "number": "04",
+        "icon": "Handshake",
+        "title": "Oferta y bienvenida",
+        "description": "Si hay coincidencia, le presentamos una oferta formal por escrito y coordinamos su fecha de ingreso junto con el plan de inducción."
+      }
+    ],
+    "cta": "Ver vacantes abiertas",
+    "ctaHref": "/carreras"
+  },
+  "careers-benefits-icon-grid-tinted": {
+    "eyebrow": "Prestaciones",
+    "title": "Beneficios pensados para el día a día",
+    "description": "Además de las prestaciones de ley, ofrecemos condiciones que buscan cuidar tu salud, tu desarrollo y tu tiempo.",
+    "benefits": [
+      {
+        "icon": "HeartPulse",
+        "title": "Seguro de gastos médicos mayores",
+        "description": "Cobertura para ti y tus dependientes económicos desde el primer día."
+      },
+      {
+        "icon": "Home",
+        "title": "Esquema híbrido",
+        "description": "Tres días en oficina y dos días de home office, según el equipo."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Presupuesto de capacitación",
+        "description": "Cursos, certificaciones y conferencias con presupuesto anual asignado."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Fondo de ahorro",
+        "description": "Aportación de la empresa al fondo de ahorro conforme a la ley."
+      },
+      {
+        "icon": "Bus",
+        "title": "Vales de transporte",
+        "description": "Apoyo mensual para traslados a oficina o a sitio de proyecto."
+      },
+      {
+        "icon": "Utensils",
+        "title": "Vales de despensa",
+        "description": "Monto mensual adicional al sueldo base, exento conforme a ley."
+      },
+      {
+        "icon": "CalendarCheck",
+        "title": "Días de vacaciones adicionales",
+        "description": "Días extra sobre el mínimo legal a partir del segundo año."
+      },
+      {
+        "icon": "Gift",
+        "title": "Bono de fin de año",
+        "description": "Aguinaldo superior al mínimo de ley, pagado en diciembre."
+      }
+    ]
+  },
+  "careers-culture-gallery-masonry-quotes": {
+    "eyebrow": "Vida en la empresa",
+    "title": "Así se vive el día a día en nuestros equipos",
+    "items": [
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de desarrollo trabajando en la sala de proyectos",
+        "size": "lg"
+      },
+      {
+        "type": "quote",
+        "quote": "Aquí nadie te dice que sigas el manual sin preguntar por qué.",
+        "name": "Renata Solís",
+        "role": "Líder de Producto",
+        "size": "sm"
+      },
+      {
+        "type": "image",
+        "image": "/images/hero.svg",
+        "imageAlt": "Colaboradores conversando durante el receso de la mañana",
+        "size": "sm"
+      },
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Celebración del equipo tras el cierre de un proyecto",
+        "size": "md"
+      },
+      {
+        "type": "image",
+        "image": "/images/hero.svg",
+        "imageAlt": "Sesión de retroalimentación entre compañeros de diseño",
+        "size": "sm"
+      },
+      {
+        "type": "quote",
+        "quote": "Llevo tres años y sigo aprendiendo algo nuevo cada semana.",
+        "name": "Édgar Villanueva",
+        "role": "Especialista en Operaciones",
+        "size": "md"
+      },
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo comercial en reunión de seguimiento de clientes",
+        "size": "sm"
+      },
+      {
+        "type": "image",
+        "image": "/images/hero.svg",
+        "imageAlt": "Nuevas contrataciones durante su primera semana",
+        "size": "lg"
+      },
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Almuerzo de equipo en la terraza de la oficina",
+        "size": "sm"
+      },
+      {
+        "type": "quote",
+        "quote": "Mi jefa fue mi mentora antes de ser mi jefa, eso lo dice todo.",
+        "name": "Paulina Ibarra",
+        "role": "Coordinadora de Talento",
+        "size": "sm"
+      },
+      {
+        "type": "image",
+        "image": "/images/hero.svg",
+        "imageAlt": "Sesión de capacitación técnica en la sala principal",
+        "size": "md"
+      },
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de soporte al cliente en jornada de trabajo",
+        "size": "sm"
+      }
+    ]
+  },
+  "careers-diagonal-stat-band-gradient": {
+    "eyebrow": "Nuestro equipo en números",
+    "title": "Una organización que crece con la gente que la conforma",
+    "stats": [
+      {
+        "value": "480+",
+        "label": "colaboradores activos"
+      },
+      {
+        "value": "7",
+        "label": "países con operación"
+      },
+      {
+        "value": "4.6 años",
+        "label": "antigüedad promedio"
+      },
+      {
+        "value": "62%",
+        "label": "vacantes cubiertas con promoción interna"
+      }
+    ]
+  },
+  "careers-employee-testimonials-staggered-cards": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Lo que dice quien trabaja aquí, todos los días",
+    "testimonials": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernanda Ortiz en su lugar de trabajo",
+        "quote": "Aquí mis ideas se escuchan de verdad. En dos años pasé de analista a liderar un equipo de cinco personas.",
+        "name": "Fernanda Ortiz",
+        "role": "Gerente de Operaciones",
+        "tenure": "3 años en la empresa"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Raúl Meneses en el área de producción",
+        "quote": "El horario flexible me permitió terminar mi carrera sin dejar de crecer profesionalmente. Eso no se consigue en cualquier lado.",
+        "name": "Raúl Meneses",
+        "role": "Coordinador de Logística",
+        "tenure": "5 años en la empresa"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Daniela Corona en la oficina",
+        "quote": "Cada trimestre nos capacitan en algo nuevo. Siento que la empresa invierte en mí tanto como yo en ella.",
+        "name": "Daniela Corona",
+        "role": "Especialista en Atención a Clientes",
+        "tenure": "1 año en la empresa"
+      }
+    ]
+  },
+  "careers-fullbleed-image-dark-overlay-hero": {
+    "eyebrow": "Trabaja con nosotros",
+    "title": "Gente que construye cosas que importan",
+    "subtitle": "Sumamos personas con oficio a un equipo que valora la responsabilidad, el detalle y el trabajo bien hecho, en oficina y en obra.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Equipo de trabajo reunido en la oficina revisando planos",
+    "cta": "Ver vacantes",
+    "ctaHref": "/carreras#vacantes",
+    "stats": [
+      {
+        "value": "120+",
+        "label": "Colaboradores"
+      },
+      {
+        "value": "14",
+        "label": "Años operando"
+      },
+      {
+        "value": "8",
+        "label": "Ciudades"
+      }
+    ]
+  },
+  "careers-open-positions-dense-list-dark": {
+    "eyebrow": "Vacantes abiertas",
+    "title": "Posiciones activas en la operación",
+    "description": "Consulte las vacantes disponibles por área y ubicación. Damos seguimiento a cada postulación en un plazo máximo de diez días hábiles.",
+    "emptyStateLabel": "No hay vacantes activas por el momento. Escríbanos a reclutamiento@empresa.com.mx para registrar su perfil en la bolsa de trabajo.",
+    "positions": [
+      {
+        "title": "Ingeniero de procesos industriales",
+        "department": "Operaciones",
+        "location": "Monterrey, N.L.",
+        "type": "Tiempo completo",
+        "href": "/carreras/ingeniero-procesos-industriales"
+      },
+      {
+        "title": "Analista de cadena de suministro",
+        "department": "Logística",
+        "location": "Querétaro, Qro.",
+        "type": "Tiempo completo",
+        "href": "/carreras/analista-cadena-suministro"
+      },
+      {
+        "title": "Supervisor de control de calidad",
+        "department": "Calidad",
+        "location": "Monterrey, N.L.",
+        "type": "Tiempo completo",
+        "href": "/carreras/supervisor-control-calidad"
+      },
+      {
+        "title": "Coordinador de mantenimiento eléctrico",
+        "department": "Mantenimiento",
+        "location": "Saltillo, Coah.",
+        "type": "Tiempo completo",
+        "href": "/carreras/coordinador-mantenimiento-electrico"
+      },
+      {
+        "title": "Ejecutivo de cuentas corporativas",
+        "department": "Ventas",
+        "location": "Ciudad de México",
+        "type": "Tiempo completo",
+        "href": "/carreras/ejecutivo-cuentas-corporativas"
+      },
+      {
+        "title": "Auxiliar contable",
+        "department": "Finanzas",
+        "location": "Monterrey, N.L.",
+        "type": "Medio tiempo",
+        "href": "/carreras/auxiliar-contable"
+      },
+      {
+        "title": "Especialista en seguridad e higiene",
+        "department": "Recursos Humanos",
+        "location": "Querétaro, Qro.",
+        "type": "Tiempo completo",
+        "href": "/carreras/especialista-seguridad-higiene"
+      },
+      {
+        "title": "Practicante de ingeniería industrial",
+        "department": "Operaciones",
+        "location": "Saltillo, Coah.",
+        "type": "Prácticas profesionales",
+        "href": "/carreras/practicante-ingenieria-industrial"
+      }
+    ]
+  },
+  "careers-split-values-sticky-portrait": {
+    "eyebrow": "Cultura",
+    "title": "Lo que nos mueve todos los días",
+    "values": [
+      {
+        "number": "01",
+        "title": "Rigor con propósito",
+        "description": "Cada entregable se revisa contra el objetivo del cliente antes de considerarse terminado, sin atajos."
+      },
+      {
+        "number": "02",
+        "title": "Transparencia constante",
+        "description": "Compartimos avances, riesgos y decisiones abiertamente, dentro del equipo y con quienes nos contratan."
+      },
+      {
+        "number": "03",
+        "title": "Autonomía con acompañamiento",
+        "description": "Cada persona decide cómo llegar al resultado; el equipo está cerca para resolver dudas, no para vigilar."
+      },
+      {
+        "number": "04",
+        "title": "Aprendizaje continuo",
+        "description": "Dedicamos tiempo cada semana a revisar lo que funcionó y lo que no, y lo aplicamos al siguiente proyecto."
+      }
+    ],
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de la empresa reunido en la oficina"
+  },
   "case-study-immersive": {
     "eyebrow": "Caso de estudio",
     "title": "Centro de distribución Bajío: de la obra gris a operación en ocho meses",
@@ -1717,6 +2252,203 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "clinic-accreditation-badges-grid-technical": {
+    "eyebrow": "Cumplimiento normativo",
+    "title": "Acreditaciones y certificaciones vigentes",
+    "description": "Nuestros procesos clínicos y de gestión de calidad son auditados de forma periódica por organismos nacionales e internacionales.",
+    "badges": [
+      {
+        "name": "ISO 9001",
+        "issuer": "Sistema de gestión de calidad",
+        "year": "2024"
+      },
+      {
+        "name": "ISO 15189",
+        "issuer": "Laboratorios clínicos",
+        "year": "2023"
+      },
+      {
+        "name": "COFEPRIS",
+        "issuer": "Aviso de funcionamiento",
+        "year": "2025"
+      },
+      {
+        "name": "Distintivo H",
+        "issuer": "Manejo higiénico de alimentos",
+        "year": "2024"
+      },
+      {
+        "name": "NOM-004-SSA3",
+        "issuer": "Expediente clínico electrónico",
+        "year": "2023"
+      },
+      {
+        "name": "NOM-024-SSA3",
+        "issuer": "Sistemas de información en salud",
+        "year": "2024"
+      },
+      {
+        "name": "CSG",
+        "issuer": "Consejo de Salubridad General",
+        "year": "2022"
+      },
+      {
+        "name": "ISO 27001",
+        "issuer": "Seguridad de la información",
+        "year": "2025"
+      }
+    ]
+  },
+  "clinic-appointment-gradient-cta-dark": {
+    "eyebrow": "Agenda en línea",
+    "title": "Su consulta, en el horario que a usted le convenga",
+    "description": "Reserve una cita con nuestros especialistas en menos de dos minutos. Confirmación inmediata y recordatorio por correo y WhatsApp.",
+    "primaryCta": {
+      "label": "Agendar cita",
+      "href": "#agendar"
+    },
+    "secondaryCta": {
+      "label": "Llamar a recepción",
+      "href": "tel:+525512345678"
+    },
+    "note": "Atención de lunes a sábado · Sin costo por cambio de horario"
+  },
+  "clinic-doctors-row-credentials-centered": {
+    "eyebrow": "Nuestro cuerpo médico",
+    "title": "Especialistas certificados a su cuidado",
+    "description": "Cada médico de Clínica Vitalia cuenta con cédula profesional y certificación vigente ante el consejo correspondiente de su especialidad.",
+    "doctors": [
+      {
+        "name": "Dra. Renata Solórzano",
+        "specialty": "Medicina Interna",
+        "credential": "Cédula 4821035",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de la Dra. Renata Solórzano"
+      },
+      {
+        "name": "Dr. Ignacio Bermúdez",
+        "specialty": "Cardiología",
+        "credential": "Cédula 5093147",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato del Dr. Ignacio Bermúdez"
+      },
+      {
+        "name": "Dra. Camila Ortega",
+        "specialty": "Pediatría",
+        "credential": "Cédula 3768241",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de la Dra. Camila Ortega"
+      },
+      {
+        "name": "Dr. Emilio Vargas",
+        "specialty": "Ortopedia",
+        "credential": "Cédula 6120598",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato del Dr. Emilio Vargas"
+      },
+      {
+        "name": "Dra. Paulina Nájera",
+        "specialty": "Dermatología",
+        "credential": "Cédula 4459087",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de la Dra. Paulina Nájera"
+      }
+    ]
+  },
+  "clinic-facility-diagonal-gallery": {
+    "eyebrow": "Nuestras instalaciones",
+    "title": "Espacios diseñados para su atención",
+    "subtitle": "Recorra las áreas donde nuestro equipo médico y técnico trabaja con los más altos estándares de higiene y precisión diagnóstica.",
+    "facilities": [
+      {
+        "name": "Recepción y sala de espera",
+        "description": "Un espacio amplio y ordenado donde el personal de admisión le acompaña desde el primer momento de su visita.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Recepción de la clínica con área de espera iluminada"
+      },
+      {
+        "name": "Consultorio general",
+        "description": "Equipado con instrumental de exploración actualizado para consultas de medicina general y seguimiento clínico.",
+        "image": "/images/about.svg",
+        "imageAlt": "Consultorio médico con camilla y equipo de exploración"
+      },
+      {
+        "name": "Laboratorio clínico",
+        "description": "Procesamos sus estudios con equipo automatizado y protocolos de bioseguridad certificados.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Laboratorio clínico con equipo de análisis automatizado"
+      }
+    ]
+  },
+  "clinic-fullbleed-image-dark-overlay-hero": {
+    "eyebrow": "Atención médica integral",
+    "title": "Cuidado cercano, respaldado por especialistas certificados",
+    "subtitle": "En Clínica Vitalis combinamos diagnóstico preciso y trato humano para acompañarle en cada etapa de su salud, con citas disponibles esta semana.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Médico revisando el expediente de un paciente durante una consulta",
+    "cta": "Agendar cita",
+    "ctaHref": "#agendar-cita"
+  },
+  "clinic-hours-location-map-split": {
+    "eyebrow": "Ubicación y horario",
+    "title": "Visítenos en nuestra clínica",
+    "subtitle": "Consulte nuestro horario de atención y encuéntrenos fácilmente en el mapa antes de agendar su cita.",
+    "scheduleLabel": "Horario de atención",
+    "schedule": [
+      {
+        "day": "Lunes a viernes",
+        "hours": "8:00 a.m. – 7:00 p.m."
+      },
+      {
+        "day": "Sábado",
+        "hours": "9:00 a.m. – 2:00 p.m."
+      },
+      {
+        "day": "Domingo",
+        "hours": "Cerrado"
+      },
+      {
+        "day": "Días festivos",
+        "hours": "Horario reducido"
+      }
+    ],
+    "addressLabel": "Dirección",
+    "address": "Av. Vasco de Quiroga 3900, Piso 4, Santa Fe, 05348 Ciudad de México",
+    "phoneLabel": "Teléfono",
+    "phone": "(55) 5292 4180",
+    "mapImage": "/images/about.svg",
+    "mapImageAlt": "Mapa de ubicación de la clínica en Santa Fe, Ciudad de México"
+  },
+  "clinic-insurance-logos-trust-band": {
+    "eyebrow": "Convenios y coberturas",
+    "title": "Trabajamos con tu aseguradora",
+    "insurers": [
+      {
+        "name": "GNP Seguros"
+      },
+      {
+        "name": "AXA Salud"
+      },
+      {
+        "name": "MetLife México"
+      },
+      {
+        "name": "Seguros Monterrey"
+      },
+      {
+        "name": "Allianz México"
+      },
+      {
+        "name": "Atlas Seguros"
+      },
+      {
+        "name": "Banorte Seguros"
+      },
+      {
+        "name": "Zurich Salud"
+      }
+    ]
+  },
   "clinic-metrics-animated-band": {
     "eyebrow": "Resultados clínicos",
     "title": "Cifras que respaldan la atención que ofrecemos a nuestros pacientes",
@@ -1746,6 +2478,157 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "delta": "+9 incorporaciones"
       }
     ]
+  },
+  "clinic-patient-faq-accordion-dense": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas antes de su consulta",
+    "intro": "Reunimos las preguntas que más nos hacen los pacientes sobre citas, síntomas y cobertura de seguro.",
+    "items": [
+      {
+        "category": "Primera visita",
+        "question": "¿Qué debo llevar a mi primera cita?",
+        "answer": "Identificación oficial, credencial de su aseguradora si cuenta con una, y el historial de estudios o tratamientos previos relacionados con el motivo de consulta."
+      },
+      {
+        "category": "Primera visita",
+        "question": "¿Cuánto dura la consulta inicial?",
+        "answer": "La valoración inicial dura entre 30 y 45 minutos e incluye historia clínica completa, exploración física y definición del plan de estudio."
+      },
+      {
+        "category": "Primera visita",
+        "question": "¿Necesito referencia de otro médico?",
+        "answer": "No es obligatoria. Puede agendar directamente; si ya cuenta con una referencia o estudios previos, le pedimos traerlos para agilizar el diagnóstico."
+      },
+      {
+        "category": "Síntomas",
+        "question": "¿Cuándo debo acudir de urgencia y no esperar a mi cita?",
+        "answer": "Si presenta dolor intenso, fiebre persistente mayor a 39°C, dificultad para respirar o sangrado, acuda de inmediato a urgencias en lugar de esperar la cita programada."
+      },
+      {
+        "category": "Síntomas",
+        "question": "¿Puedo describir mis síntomas antes de la cita?",
+        "answer": "Sí. Al confirmar su cita puede enviarnos una breve descripción por el portal de pacientes para que el médico llegue a la consulta con contexto previo."
+      },
+      {
+        "category": "Cobertura de seguro",
+        "question": "¿Con qué aseguradoras trabajan?",
+        "answer": "Tenemos convenio directo con las principales aseguradoras del país. Confirme su póliza al agendar para validar cobertura y coaseguro antes de la cita."
+      },
+      {
+        "category": "Cobertura de seguro",
+        "question": "¿Qué pasa si mi seguro no cubre el estudio solicitado?",
+        "answer": "Le presentamos el costo exacto antes de realizarlo y, de no estar cubierto, ofrecemos tarifa preferencial de pago directo sin cargos ocultos."
+      }
+    ]
+  },
+  "clinic-split-booking-form-image": {
+    "eyebrow": "Agenda tu cita",
+    "title": "Reserve su consulta en unos minutos",
+    "subtitle": "Elija la especialidad, la fecha y el horario de su preferencia. Nuestro equipo confirmará su cita por teléfono o correo electrónico.",
+    "specialtyLabel": "Especialidad",
+    "dateLabel": "Fecha",
+    "timeLabel": "Horario",
+    "specialties": [
+      {
+        "value": "medicina-general",
+        "label": "Medicina general"
+      },
+      {
+        "value": "pediatria",
+        "label": "Pediatría"
+      },
+      {
+        "value": "ginecologia",
+        "label": "Ginecología"
+      },
+      {
+        "value": "cardiologia",
+        "label": "Cardiología"
+      },
+      {
+        "value": "dermatologia",
+        "label": "Dermatología"
+      }
+    ],
+    "times": [
+      {
+        "value": "09:00",
+        "label": "9:00 a.m."
+      },
+      {
+        "value": "11:00",
+        "label": "11:00 a.m."
+      },
+      {
+        "value": "13:00",
+        "label": "1:00 p.m."
+      },
+      {
+        "value": "16:00",
+        "label": "4:00 p.m."
+      },
+      {
+        "value": "18:00",
+        "label": "6:00 p.m."
+      }
+    ],
+    "submitLabel": "Solicitar cita",
+    "disclaimer": "Al enviar este formulario, un asesor de la clínica se pondrá en contacto con usted para confirmar la disponibilidad.",
+    "image": "/images/about.svg",
+    "imageAlt": "Instalaciones de la clínica en un pasillo iluminado"
+  },
+  "clinic-telemedicine-video-split-image": {
+    "eyebrow": "Telemedicina",
+    "title": "Consulte con su médico desde donde se encuentre",
+    "description": "Nuestra plataforma de telemedicina le permite agendar y realizar consultas por videollamada con especialistas certificados, sin salir de casa ni de la oficina.",
+    "benefits": [
+      {
+        "title": "Citas el mismo día",
+        "text": "Agende su consulta en línea y reciba confirmación en minutos, con horarios disponibles todos los días de la semana."
+      },
+      {
+        "title": "Expediente digital seguro",
+        "text": "Acceda a su historial clínico, recetas y resultados de laboratorio desde cualquier dispositivo, con cifrado de extremo a extremo."
+      },
+      {
+        "title": "Seguimiento personalizado",
+        "text": "Su médico da seguimiento a su tratamiento mediante mensajes y videollamadas de control sin costo adicional."
+      }
+    ],
+    "cta": {
+      "label": "Agendar consulta virtual",
+      "href": "/contacto"
+    },
+    "image": "/images/about.svg",
+    "imageAlt": "Médico realizando una consulta por videollamada en la aplicación de telemedicina"
+  },
+  "clinic-urgent-care-bold-banner": {
+    "eyebrow": "Atención de urgencias",
+    "title": "Si es una emergencia, llame de inmediato",
+    "description": "Nuestro equipo médico está disponible para atender urgencias las 24 horas del día, los 365 días del año, sin necesidad de cita previa.",
+    "phoneHref": "tel:+528123456789",
+    "phoneDisplay": "81 2345 6789",
+    "details": [
+      {
+        "icon": "clock",
+        "text": "Abierto 24 horas, todos los días"
+      },
+      {
+        "icon": "phone",
+        "text": "Línea directa con médico de guardia"
+      }
+    ]
+  },
+  "clinic-warm-testimonial-split-portrait": {
+    "eyebrow": "Testimonio de paciente",
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Guadalupe Rentería, paciente de la clínica",
+    "quote": "Llegué con dolor de espalda que ya no me dejaba trabajar ni dormir bien. En la clínica me explicaron cada paso del tratamiento antes de empezarlo, y después de tres meses de terapia volví a moverme sin miedo. Nunca sentí que fuera solo un número más en la agenda.",
+    "author": {
+      "name": "Guadalupe Rentería",
+      "role": "Paciente desde 2023",
+      "condition": "Rehabilitación de hernia discal lumbar"
+    }
   },
   "company-history-alternating-spine": {
     "eyebrow": "Nuestra trayectoria",
@@ -2273,6 +3156,28 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       "submit": "Enviar mensaje"
     }
   },
+  "contact-centered-warm-photo-team-band": {
+    "eyebrow": "Contacto",
+    "title": "Cuéntanos en qué le ayudamos",
+    "subtitle": "Nuestro equipo de recepción lee cada mensaje personalmente y le responde el mismo día hábil.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Equipo de recepción saludando a un cliente en el mostrador de la oficina",
+    "fields": {
+      "name": {
+        "label": "Su nombre",
+        "placeholder": "¿Cómo se llama?"
+      },
+      "contact": {
+        "label": "Correo o teléfono",
+        "placeholder": "Para poder responderle"
+      },
+      "message": {
+        "label": "¿En qué le ayudamos?",
+        "placeholder": "Cuéntenos brevemente lo que necesita"
+      }
+    },
+    "submitLabel": "Enviar mensaje"
+  },
   "contact-channel-cards-hover-grid": {
     "eyebrow": "Contacto",
     "title": "Hable directamente con nuestro equipo",
@@ -2568,6 +3473,15 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ],
     "submitLabel": "Enviar consulta"
+  },
+  "contact-dark-stacked-editorial-minimal": {
+    "eyebrow": "Contacto directo",
+    "title": "Hablemos de su siguiente proyecto",
+    "subtitle": "Sin formularios ni intermediarios. Escríbanos o llámenos y le respondemos el mismo día hábil.",
+    "email": "contacto@textilesnorte.mx",
+    "phone": "+52 81 4455 0192",
+    "phoneRaw": "+528144550192",
+    "footnote": "Lunes a viernes, 9:00 a 18:00 horas, tiempo del centro"
   },
   "contact-form-centered-card": {
     "eyebrow": "Contacto",
@@ -2897,6 +3811,29 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "contact-fullbleed-image-dark-overlay": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su próximo proyecto",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de trabajo en las oficinas centrales de la empresa",
+    "items": [
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 (81) 4455 2200"
+      },
+      {
+        "icon": "email",
+        "label": "Correo",
+        "value": "contacto@empresa.com.mx"
+      },
+      {
+        "icon": "address",
+        "label": "Dirección",
+        "value": "Av. Constitución 1500, Monterrey, N.L."
+      }
+    ]
+  },
   "contact-image-floating-card": {
     "eyebrow": "Contacto",
     "title": "Hablemos de su siguiente proyecto",
@@ -3072,6 +4009,42 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     ],
     "submitLabel": "Solicitar cotización"
   },
+  "contact-pattern-tinted-staggered-cards": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su proyecto",
+    "subtitle": "Elija el canal que le resulte más cómodo. Nuestro equipo responde en horario hábil y da seguimiento puntual a cada solicitud.",
+    "channels": [
+      {
+        "icon": "mail",
+        "title": "Correo",
+        "value": "contacto@empresa.mx",
+        "note": "Respuesta dentro de un día hábil."
+      },
+      {
+        "icon": "office",
+        "title": "Oficina",
+        "value": "Av. Insurgentes Sur 1602, CDMX",
+        "note": "Visitas previa cita."
+      },
+      {
+        "icon": "chat",
+        "title": "WhatsApp",
+        "value": "+52 55 4021 8873",
+        "note": "Atención directa para consultas rápidas."
+      },
+      {
+        "icon": "hours",
+        "title": "Horario",
+        "value": "Lunes a viernes, 9:00–18:00",
+        "note": "Hora del centro de México."
+      }
+    ],
+    "cta": {
+      "label": "¿Prefiere que lo contactemos nosotros?",
+      "action": "Solicitar llamada",
+      "href": "#contacto"
+    }
+  },
   "contact-single-card-form-privacy": {
     "eyebrow": "Contacto",
     "title": "Escríbanos sobre su caso",
@@ -3153,6 +4126,91 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "description": "Una llamada de 20 minutos para revisar su caso y definir los siguientes pasos, sin costo.",
     "ctaLabel": "Agendar llamada",
     "ctaHref": "/contacto"
+  },
+  "cta-diagonal-split-foreground-dark": {
+    "eyebrow": "Siguiente paso",
+    "title": "Hablemos del alcance de su proyecto",
+    "description": "Agende una llamada de diagnóstico de treinta minutos con nuestro equipo técnico. Sin costo, sin compromiso de contratación.",
+    "statValue": "48h",
+    "statLabel": "Tiempo de respuesta",
+    "ctaLabel": "Agendar llamada",
+    "ctaHref": "/contacto"
+  },
+  "cta-fullbleed-image-dark-overlay-centered": {
+    "eyebrow": "Nuevo proyecto",
+    "title": "Llevamos su próxima obra de plano a entrega",
+    "description": "Desde el levantamiento inicial hasta la entrega llave en mano, un solo equipo responde por cada etapa de la construcción.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada de obra en construcción al atardecer, vista desde la calle",
+    "cta": {
+      "label": "Solicitar cotización",
+      "href": "/contacto"
+    }
+  },
+  "cta-gradient-theme-radial-centered": {
+    "eyebrow": "Siguiente paso",
+    "title": "Agende una sesión de diagnóstico con nuestro equipo",
+    "description": "En treinta minutos revisamos su operación actual, identificamos oportunidades concretas y le proponemos una ruta de trabajo clara, sin compromiso.",
+    "primaryCta": {
+      "label": "Agendar sesión",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver casos de éxito",
+      "href": "/casos"
+    },
+    "note": "Respuesta en menos de 24 horas hábiles"
+  },
+  "cta-pattern-grid-technical-dark": {
+    "eyebrow": "Capacidad instalada",
+    "title": "Coordinemos la ingeniería de su próxima línea de producción",
+    "description": "Nuestro equipo de manufactura evalúa su proceso actual y entrega una propuesta de automatización con tiempos de implementación realistas.",
+    "ctaLabel": "Solicitar diagnóstico técnico",
+    "ctaHref": "/contacto",
+    "refCode": "REF. MFG-2026-014"
+  },
+  "cta-split-asymmetric-stat-callout": {
+    "eyebrow": "Trayectoria comprobada",
+    "title": "Cada proyecto se construye con el mismo rigor que el primero",
+    "description": "Acompañamos a despachos, constructoras y empresas de logística desde el diagnóstico hasta la puesta en marcha, con equipos que documentan cada decisión y responden por los resultados.",
+    "ctaLabel": "Agendar diagnóstico",
+    "ctaHref": "/contacto",
+    "statValue": "+500",
+    "statLabel": "Proyectos entregados en los últimos doce años, sin retrasos mayores a lo pactado en contrato."
+  },
+  "cta-staggered-cards-dense-triple-action": {
+    "eyebrow": "Siguiente paso",
+    "title": "Elija la vía que mejor se ajuste a su proceso",
+    "description": "Tres rutas directas para avanzar con su proyecto, sin pasar por un formulario largo.",
+    "cards": [
+      {
+        "title": "Cotizar en línea",
+        "text": "Reciba un estimado preliminar según el alcance y los materiales que indique.",
+        "icon": "calculator",
+        "cta": {
+          "label": "Cotizar ahora",
+          "href": "/cotizar"
+        }
+      },
+      {
+        "title": "Agendar llamada",
+        "text": "Hable con un especialista técnico en una sesión de veinte minutos.",
+        "icon": "calendar",
+        "cta": {
+          "label": "Agendar llamada",
+          "href": "/contacto"
+        }
+      },
+      {
+        "title": "Descargar ficha técnica",
+        "text": "Consulte especificaciones, certificaciones y tiempos de entrega en PDF.",
+        "icon": "download",
+        "cta": {
+          "label": "Descargar ficha",
+          "href": "/recursos/ficha-tecnica.pdf"
+        }
+      }
+    ]
   },
   "culinary-staff-showcase": {
     "eyebrow": "Nuestro equipo",
@@ -5747,6 +6805,42 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       {
         "label": "Código de ética",
         "href": "#etica"
+      }
+    ]
+  },
+  "footer-fullbleed-image-dark-overlay": {
+    "backgroundImage": "/images/about.svg",
+    "backgroundImageAlt": "Equipo de Construcciones Altavista reunido en la sala de juntas de la oficina central",
+    "wordmark": "Construcciones Altavista",
+    "contactLine": "Hablemos de su proyecto: contacto@altavista.mx · +52 55 4021 8890",
+    "linksNavAria": "Enlaces del pie de página",
+    "links": [
+      {
+        "label": "Servicios",
+        "href": "/servicios"
+      },
+      {
+        "label": "Proyectos",
+        "href": "/proyectos"
+      },
+      {
+        "label": "Nosotros",
+        "href": "/nosotros"
+      },
+      {
+        "label": "Contacto",
+        "href": "/contacto"
+      }
+    ],
+    "copyright": "© 2026 Construcciones Altavista S.A. de C.V. Todos los derechos reservados.",
+    "legalLinks": [
+      {
+        "label": "Aviso de privacidad",
+        "href": "/privacidad"
+      },
+      {
+        "label": "Términos y condiciones",
+        "href": "/terminos"
       }
     ]
   },
@@ -8919,6 +10013,36 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "header-diagonal-gradient-split-dark": {
+    "logo": "Ferretería Industrial Moctezuma",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "eyebrow": "Distribución nacional",
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#cotizacion",
+    "links": [
+      {
+        "label": "Catálogo",
+        "href": "#catalogo"
+      },
+      {
+        "label": "Sectores",
+        "href": "#sectores"
+      },
+      {
+        "label": "Logística",
+        "href": "#logistica"
+      },
+      {
+        "label": "Nosotros",
+        "href": "#nosotros"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ]
+  },
   "header-dropdown-megamenu-reveal": {
     "logo": "Ibarra & Cetina",
     "navLabel": "Navegación principal",
@@ -9107,6 +10231,61 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "ctaLabel": "Agendar consulta",
     "ctaHref": "#contacto"
   },
+  "header-fullbleed-image-dark-overlay": {
+    "logo": "Grupo Estructa",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú de navegación",
+    "links": [
+      {
+        "label": "Proyectos",
+        "href": "#proyectos"
+      },
+      {
+        "label": "Servicios",
+        "href": "#servicios"
+      },
+      {
+        "label": "Certificaciones",
+        "href": "#certificaciones"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ],
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#contacto",
+    "eyebrow": "Construcción industrial y obra civil",
+    "title": "Estructuras que sostienen la operación de su empresa",
+    "subtitle": "Diseñamos, construimos y supervisamos proyectos industriales y comerciales de gran escala en todo el país, con procesos certificados y entrega puntual.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Cuadrilla de trabajo supervisando una obra industrial al atardecer"
+  },
+  "header-fullbleed-warm-paper-texture-editorial": {
+    "wordmark": "Oribe & Salas",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "links": [
+      {
+        "label": "Estudio",
+        "href": "#estudio"
+      },
+      {
+        "label": "Práctica",
+        "href": "#practica"
+      },
+      {
+        "label": "Casos",
+        "href": "#casos"
+      },
+      {
+        "label": "Equipo",
+        "href": "#equipo"
+      }
+    ],
+    "ctaLabel": "Agende una consulta",
+    "ctaHref": "#contacto"
+  },
   "header-search-expandable-utilities": {
     "logo": "Corteva & Asociados",
     "navLabel": "Navegación principal",
@@ -9243,6 +10422,62 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "href": "#contacto"
       }
     ]
+  },
+  "header-stacked-two-tier-centered-logo": {
+    "logo": "Corporativo Aldana",
+    "phoneHref": "tel:+525512345678",
+    "phoneLabel": "55 1234 5678",
+    "languageLabel": "ES / EN",
+    "menuLabel": "Abrir menú de navegación",
+    "navLabel": "Navegación principal",
+    "links": [
+      {
+        "label": "Nosotros",
+        "href": "#nosotros"
+      },
+      {
+        "label": "Servicios",
+        "href": "#servicios"
+      },
+      {
+        "label": "Industrias",
+        "href": "#industrias"
+      },
+      {
+        "label": "Casos de éxito",
+        "href": "#casos"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ]
+  },
+  "header-staggered-cards-dotted-pattern": {
+    "badgeLabel": "Ingeniería y obra civil desde 1998",
+    "logo": "Estructura Vega",
+    "navLabel": "Navegación principal",
+    "nav": [
+      {
+        "label": "Proyectos",
+        "href": "#proyectos"
+      },
+      {
+        "label": "Servicios",
+        "href": "#servicios"
+      },
+      {
+        "label": "Certificaciones",
+        "href": "#certificaciones"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ],
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú de navegación"
   },
   "header-sticky-blurred-navigation": {
     "logo": "Ferretería Industrial Regiomontana",
@@ -9413,6 +10648,18 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "hero-asymmetric-offset-image-corner": {
+    "eyebrow": "Consultoría corporativa",
+    "title": "Estructuramos decisiones complejas para consejos y direcciones generales",
+    "description": "Acompañamos a equipos directivos en México en la definición de estrategia, gobierno corporativo y transformación operativa, con entregables claros y plazos verificables.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Sala de juntas con equipo directivo revisando un plan estratégico",
+    "imageCaption": "Sesión de planeación estratégica, Ciudad de México",
+    "ctaLabel": "Agendar una llamada",
+    "ctaHref": "/contacto",
+    "secondaryLabel": "Ver casos de estudio",
+    "secondaryHref": "/casos-de-estudio"
+  },
   "hero-centered-email-capture-saas-complete-landing": {
     "eyebrow": "Acceso anticipado",
     "title": "El software de gestión para despachos jurídicos que por fin habla su idioma",
@@ -9509,6 +10756,31 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "waitlistCta": "Unirme a la lista",
     "waitlistLegal": "Al registrarse acepta recibir correos sobre el lanzamiento de la plataforma."
   },
+  "hero-centered-minimal-oversized-type": {
+    "title": "Construimos estructura donde antes había caos",
+    "subtitle": "Asesoría legal corporativa para empresas mexicanas que necesitan certeza jurídica, no promesas.",
+    "cta": {
+      "label": "Solicitar consulta",
+      "href": "/contacto"
+    }
+  },
+  "hero-centered-video-frame-mockup": {
+    "eyebrow": "Plataforma en la nube",
+    "title": "Vea su operación completa en un solo panel",
+    "subtitle": "Centralice inventario, facturación y logística en una sola plataforma diseñada para equipos que necesitan visibilidad en tiempo real.",
+    "ctaPrimary": {
+      "label": "Solicitar demostración",
+      "href": "/contacto"
+    },
+    "ctaSecondary": {
+      "label": "Ver video de producto",
+      "href": "/producto"
+    },
+    "browserUrl": "app.suempresa.mx/panel",
+    "image": "/images/hero.svg",
+    "imageAlt": "Vista previa del panel de control de la plataforma",
+    "playLabel": "Reproducir video de demostración"
+  },
   "hero-centered-with-logo-trust-band": {
     "eyebrow": "Despacho jurídico corporativo",
     "title": "Asesoría legal que protege el crecimiento de su empresa",
@@ -9602,6 +10874,33 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       "cta": "Reservar mi acceso"
     }
   },
+  "hero-countdown-launch-teaser": {
+    "badge": "Próximamente",
+    "date": "Lanzamiento: 15 de septiembre de 2026",
+    "title": "Una nueva forma de gestionar sus operaciones está por llegar",
+    "description": "Estamos preparando el lanzamiento de nuestra plataforma para equipos corporativos en México. Sea de los primeros en conocerla.",
+    "units": [
+      {
+        "value": "42",
+        "label": "Días"
+      },
+      {
+        "value": "18",
+        "label": "Horas"
+      },
+      {
+        "value": "05",
+        "label": "Minutos"
+      },
+      {
+        "value": "37",
+        "label": "Segundos"
+      }
+    ],
+    "ctaLabel": "Avísenme del lanzamiento",
+    "ctaHref": "/contacto",
+    "ctaNote": "Sin costo, cancele su suscripción cuando lo desee."
+  },
   "hero-customer-success-story": {
     "eyebrow": "Caso de éxito",
     "title": "Cómo Grupo Ferretero del Bajío redujo sus tiempos de surtido en un 40%",
@@ -9628,6 +10927,95 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "ctaHref": "/casos-de-exito/grupo-ferretero-del-bajio",
     "image": "/images/hero.svg",
     "imageAlt": "Bodega de Grupo Ferretero del Bajío con estanterías de inventario organizadas"
+  },
+  "hero-dark-gradient-radial-glow": {
+    "eyebrow": "Plataforma de Facturación Electrónica",
+    "title": "Infraestructura fiscal para empresas que no pueden parar",
+    "subtitle": "Timbrado, conciliación y reportes en un solo panel, con disponibilidad garantizada y soporte técnico especializado en cumplimiento del SAT.",
+    "primaryCta": {
+      "label": "Solicitar demostración",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver documentación",
+      "href": "/producto"
+    },
+    "stats": [
+      {
+        "value": "99.98%",
+        "label": "Disponibilidad anual"
+      },
+      {
+        "value": "12M+",
+        "label": "Comprobantes timbrados"
+      },
+      {
+        "value": "<200ms",
+        "label": "Latencia promedio"
+      }
+    ]
+  },
+  "hero-dense-two-line-ticker-stats": {
+    "eyebrow": "Operación en tiempo real",
+    "titleLine1": "Infraestructura logística",
+    "titleLine2": "medida al minuto",
+    "stats": [
+      {
+        "value": "99.982%",
+        "label": "Disponibilidad de red",
+        "trend": "0.04"
+      },
+      {
+        "value": "1,204",
+        "label": "Rutas activas hoy"
+      },
+      {
+        "value": "38 min",
+        "label": "Tiempo medio de despacho",
+        "trend": "6.1"
+      },
+      {
+        "value": "17",
+        "label": "Centros de distribución"
+      },
+      {
+        "value": "2.1M",
+        "label": "Envíos procesados / mes",
+        "trend": "3.4"
+      },
+      {
+        "value": "0.02%",
+        "label": "Tasa de incidencias"
+      }
+    ]
+  },
+  "hero-diagonal-color-block-typographic": {
+    "eyebrow": "Despacho corporativo",
+    "titleLine1": "Estructura legal",
+    "titleLine2": "sin ambigüedad",
+    "subtitle": "Acompañamos a empresas mexicanas en fusiones, contratos y gobierno corporativo con una redacción clara que reduce el riesgo de disputas.",
+    "primaryCta": {
+      "label": "Agendar una consulta",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer al equipo",
+      "href": "/equipo"
+    },
+    "stats": [
+      {
+        "value": "18",
+        "label": "años de práctica"
+      },
+      {
+        "value": "260+",
+        "label": "operaciones cerradas"
+      },
+      {
+        "value": "94%",
+        "label": "clientes que regresan"
+      }
+    ]
   },
   "hero-editorial-with-stat-hairline": {
     "metaItems": [
@@ -9755,6 +11143,33 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "waitlistCta": "Unirme a la lista",
     "waitlistLegal": "Al registrarse acepta nuestro aviso de privacidad. No compartimos su información con terceros."
   },
+  "hero-fullbleed-image-bottom-content": {
+    "eyebrow": "Grupo Industrial Cedro",
+    "title": "Treinta años construyendo la infraestructura que México necesita",
+    "description": "Ingeniería, obra civil y mantenimiento industrial para clientes que no pueden darse el lujo de detenerse.",
+    "cta": "Conozca nuestros proyectos",
+    "ctaHref": "/proyectos",
+    "image": "/images/hero.svg",
+    "imageAlt": "Cuadrilla de ingenieros supervisando una obra industrial al atardecer"
+  },
+  "hero-fullbleed-image-centered-glass-card": {
+    "eyebrow": "Asesoría patrimonial",
+    "title": "Estrategias financieras para proteger su legado",
+    "subtitle": "Acompañamos a familias empresarias mexicanas en la planeación patrimonial, fiscal y sucesoria de sus activos, con un equipo dedicado a cada cliente.",
+    "cta": "Agendar consulta privada",
+    "ctaHref": "/contacto",
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada de un despacho financiero al atardecer"
+  },
+  "hero-fullbleed-image-dark-overlay": {
+    "eyebrow": "Desde 1998",
+    "title": "Infraestructura industrial que sostiene su operación",
+    "subtitle": "Diseñamos, construimos y damos mantenimiento a plantas y sistemas críticos para empresas manufactureras y logísticas en todo México.",
+    "cta": "Solicitar diagnóstico",
+    "ctaHref": "/contacto",
+    "image": "/images/hero.svg",
+    "imageAlt": "Planta industrial vista desde arriba al atardecer"
+  },
   "hero-image-carousel": {
     "eyebrow": "Constructora Del Valle",
     "title": "Proyectos que se entregan a tiempo, sin sorpresas en el presupuesto",
@@ -9812,6 +11227,58 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "label": "Estados con cobertura"
       }
     ]
+  },
+  "hero-map-location-split": {
+    "eyebrow": "Cobertura nacional",
+    "title": "Distribución con presencia en todo el país",
+    "subtitle": "Operamos una red de centros logísticos estratégicamente ubicados para que su carga llegue a tiempo, sin importar el destino.",
+    "primaryCta": {
+      "label": "Cotizar envío",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver cobertura",
+      "href": "#cobertura"
+    },
+    "mapLabel": "Mapa estilizado con rutas de distribución y la ubicación del centro logístico principal",
+    "metrics": [
+      {
+        "value": "18",
+        "label": "Centros logísticos"
+      },
+      {
+        "value": "32",
+        "label": "Estados con cobertura"
+      },
+      {
+        "value": "24/7",
+        "label": "Monitoreo de flota"
+      }
+    ],
+    "floatingCard": {
+      "label": "Centro logístico central",
+      "address": "Parque Industrial Norte, Apodaca, Nuevo León",
+      "coordinates": "25.7785° N, 100.1882° O"
+    }
+  },
+  "hero-marquee-scrolling-text-band": {
+    "eyebrow": "Consultoría fiscal y corporativa",
+    "title": "Certeza jurídica para cada decisión de su empresa",
+    "subtitle": "Acompañamos a empresas mexicanas en cumplimiento fiscal, estructuración corporativa y defensa ante autoridades, con un equipo disponible en cada etapa del proceso.",
+    "marqueeWords": [
+      "CERTEZA",
+      "CUMPLIMIENTO",
+      "ESTRATEGIA",
+      "RESULTADOS"
+    ],
+    "primaryCta": {
+      "label": "Agendar consulta",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer al equipo",
+      "href": "/nosotros"
+    }
   },
   "hero-minimalist-statement": {
     "eyebrow": "Despacho Contable Rosales",
@@ -9884,6 +11351,33 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "image": "/images/hero.svg",
     "imageAlt": "Fachada de un corporativo diseñado por el despacho",
     "floatingNote": "Supervisión de obra directa, sin subcontratar la dirección técnica."
+  },
+  "hero-pattern-grid-technical-blueprint": {
+    "eyebrow": "Ingeniería y manufactura de precisión",
+    "title": "Diseñamos y fabricamos componentes industriales bajo tolerancias exactas",
+    "subtitle": "Convertimos planos técnicos en piezas certificadas para maquinaria pesada, con control dimensional en cada lote y trazabilidad completa del proceso.",
+    "primaryCta": {
+      "label": "Solicitar cotización",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver capacidades",
+      "href": "#capacidades"
+    },
+    "stats": [
+      {
+        "value": "±0.02 mm",
+        "label": "Tolerancia dimensional"
+      },
+      {
+        "value": "120+",
+        "label": "Piezas certificadas al mes"
+      },
+      {
+        "value": "18 años",
+        "label": "Operando en el sector"
+      }
+    ]
   },
   "hero-split-dashboard-screenshot-dual-cta-left": {
     "eyebrow": "Control de obra",
@@ -9969,6 +11463,26 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       ]
     }
   },
+  "hero-split-diagonal-clip-image": {
+    "eyebrow": "Consultoría industrial",
+    "title": "Transformamos la operación de su planta en ventaja competitiva",
+    "subtitle": "Diagnosticamos, rediseñamos y acompañamos la implementación de procesos productivos para reducir costos y tiempos de ciclo de forma medible.",
+    "highlights": [
+      "Diagnóstico operativo en menos de tres semanas",
+      "Equipo certificado en manufactura esbelta",
+      "Acompañamiento en sitio durante la implementación"
+    ],
+    "primaryCta": {
+      "label": "Agendar diagnóstico",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer metodología",
+      "href": "#metodologia"
+    },
+    "image": "/images/hero.svg",
+    "imageAlt": "Planta industrial con línea de producción en operación"
+  },
   "hero-split-dual-cta-framed-product": {
     "eyebrow": "Constructora Del Valle",
     "title": "Proyectos ejecutivos con control de obra en tiempo real",
@@ -9991,6 +11505,38 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       "value": "96%",
       "label": "Cumplimiento de calendario"
     }
+  },
+  "hero-split-form-lead-capture": {
+    "eyebrow": "Cotización industrial",
+    "title": "Automatización de líneas de producción con entrega garantizada en 8 semanas",
+    "description": "Diseñamos, integramos y damos mantenimiento a sistemas de automatización para plantas manufactureras. Cuéntenos su proyecto y le enviamos una propuesta técnica en menos de 48 horas.",
+    "bullets": [
+      {
+        "title": "Ingeniería propia, sin subcontratistas",
+        "text": "Nuestro equipo diseña e integra cada sistema desde cero, con responsabilidad directa sobre resultados y plazos."
+      },
+      {
+        "title": "Compatibilidad con su planta actual",
+        "text": "Integramos con PLCs, SCADA y maquinaria existente sin necesidad de reemplazar su infraestructura."
+      },
+      {
+        "title": "Soporte técnico en sitio",
+        "text": "Contamos con técnicos certificados disponibles para mantenimiento preventivo y correctivo en toda la república."
+      }
+    ],
+    "trustNote": "Más de 60 plantas manufactureras en México confían en nuestra ingeniería.",
+    "formEyebrow": "Solicite su cotización",
+    "formTitle": "Hable con un ingeniero de proyecto",
+    "formDescription": "Complete el formulario y un ingeniero se pondrá en contacto con usted para entender el alcance de su proyecto.",
+    "formAction": "/api/cotizacion",
+    "nameLabel": "Nombre completo",
+    "namePlaceholder": "Nombre y apellidos",
+    "emailLabel": "Correo corporativo",
+    "emailPlaceholder": "usted@empresa.com.mx",
+    "messageLabel": "Describa su proyecto",
+    "messagePlaceholder": "Tipo de línea de producción, volumen y plazos deseados",
+    "submitCta": "Solicitar propuesta",
+    "formLegal": "Sus datos se usan únicamente para elaborar su cotización. No compartimos su información con terceros."
   },
   "hero-split-image-showcase": {
     "eyebrow": "Constructora Peña Blanca",
@@ -10069,6 +11615,100 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       "label": "empresas atendidas"
     }
   },
+  "hero-split-stat-band-bottom": {
+    "eyebrow": "Consultoría industrial",
+    "title": "Modernizamos su operación sin detener la producción",
+    "subtitle": "Diagnosticamos procesos, integramos tecnología y capacitamos a su equipo con un plan de implementación por fases que respeta sus tiempos de entrega.",
+    "primaryCta": {
+      "label": "Solicitar diagnóstico",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver casos de éxito",
+      "href": "/casos"
+    },
+    "image": "/images/hero.svg",
+    "imageAlt": "Equipo de ingeniería revisando planos de planta industrial",
+    "stats": [
+      {
+        "icon": "chart",
+        "value": "38%",
+        "label": "Reducción de costos operativos"
+      },
+      {
+        "icon": "team",
+        "value": "120+",
+        "label": "Equipos capacitados"
+      },
+      {
+        "icon": "time",
+        "value": "6 sem",
+        "label": "Tiempo promedio de implementación"
+      },
+      {
+        "icon": "award",
+        "value": "14 años",
+        "label": "De experiencia en el sector"
+      }
+    ]
+  },
+  "hero-split-testimonial-logo-strip": {
+    "eyebrow": "Confianza corporativa",
+    "title": "Administre la operación financiera de su empresa sin fricción",
+    "subtitle": "Automatizamos conciliaciones, reportes y flujos de aprobación para equipos financieros que no pueden darse el lujo de errores.",
+    "primaryCta": {
+      "label": "Solicitar demostración",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver casos de éxito",
+      "href": "#casos"
+    },
+    "testimonial": {
+      "quote": "Redujimos el cierre contable mensual de ocho días a dos, sin contratar personal adicional.",
+      "author": "Renata Solís",
+      "role": "Directora de Finanzas",
+      "company": "Grupo Ferretero del Bajío"
+    },
+    "logoStripLabel": "Empresas que confían en nosotros",
+    "logos": [
+      "Distribuidora Alcanza",
+      "Constructora Meridiano",
+      "Logística Sur Pacífico",
+      "Textiles Vanguardia",
+      "Grupo Ferretero del Bajío"
+    ]
+  },
+  "hero-stacked-cards-service-trio": {
+    "eyebrow": "Consultoría corporativa",
+    "title": "Asesoría integral para decisiones de negocio con impacto medible",
+    "subtitle": "Acompañamos a consejos de administración y direcciones generales en las decisiones que definen el rumbo financiero, legal y operativo de la empresa.",
+    "primaryCta": {
+      "label": "Agendar diagnóstico",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver servicios",
+      "href": "/servicios"
+    },
+    "cards": [
+      {
+        "icon": "briefcase",
+        "title": "Estrategia corporativa",
+        "description": "Planeación de expansión, fusiones y adquisiciones con análisis financiero riguroso y hoja de ruta ejecutable."
+      },
+      {
+        "icon": "shield",
+        "title": "Cumplimiento y riesgo",
+        "description": "Diagnóstico regulatorio y mapa de riesgos operativos para blindar la operación ante auditorías y cambios normativos."
+      },
+      {
+        "icon": "trend",
+        "title": "Optimización financiera",
+        "description": "Reestructura de capital, control de flujo de efectivo y reportes gerenciales para decisiones basadas en datos."
+      }
+    ]
+  },
   "hero-subscription-selector": {
     "eyebrow": "Plataforma de gestión de flotillas",
     "title": "Controle su flotilla desde un solo panel",
@@ -10138,6 +11778,43 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "label": "Cancele o cambie de plan cuando lo requiera"
       }
     ]
+  },
+  "hero-tinted-secondary-bg-badge-row": {
+    "eyebrow": "Despacho contable corporativo",
+    "title": "Contabilidad y cumplimiento fiscal para empresas en crecimiento",
+    "subtitle": "Llevamos la contabilidad, la nómina y las declaraciones fiscales de su empresa con un equipo de contadores certificados que responde en menos de un día hábil.",
+    "primaryCta": {
+      "label": "Agende una consultoría",
+      "href": "/contacto"
+    },
+    "badges": [
+      {
+        "icon": "shield",
+        "label": "Certificación IMCP"
+      },
+      {
+        "icon": "shield",
+        "label": "Más de 15 años de operación"
+      },
+      {
+        "icon": "shield",
+        "label": "Cumplimiento ante el SAT garantizado"
+      },
+      {
+        "icon": "shield",
+        "label": "Más de 200 empresas atendidas"
+      }
+    ]
+  },
+  "hero-warm-tinted-editorial-serif": {
+    "eyebrow": "Filosofía de despacho",
+    "quote": "Construimos cada expediente como si el patrimonio fuera nuestro.",
+    "attribution": "Socia fundadora, Dirección de Litigio",
+    "subtitle": "Veinte años acompañando a empresas familiares mexicanas en las decisiones que definen su continuidad.",
+    "primaryCta": {
+      "label": "Conocer al equipo",
+      "href": "/equipo"
+    }
   },
   "hero-with-analytics-dashboard": {
     "eyebrow": "Plataforma de gestión logística",
@@ -11456,6 +13133,119 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "menu-beverage-pairing-dense-two-column": {
+    "eyebrow": "Carta de maridaje",
+    "title": "Vinos y coctelería por tiempo",
+    "description": "Nuestro sommelier sugiere estas combinaciones para acompañar cada tiempo del menú de degustación.",
+    "columns": [
+      {
+        "title": "Vinos por copa",
+        "items": [
+          {
+            "icon": "wine",
+            "name": "Chardonnay Valle de Guadalupe",
+            "note": "Notas cítricas y mineral, cuerpo medio",
+            "price": "$145"
+          },
+          {
+            "icon": "wine",
+            "name": "Sauvignon Blanc reserva",
+            "note": "Herbal fresco con final seco",
+            "price": "$130"
+          },
+          {
+            "icon": "wine",
+            "name": "Rosado de garnacha",
+            "note": "Frutos rojos suaves, ideal con mariscos",
+            "price": "$120"
+          },
+          {
+            "icon": "wine",
+            "name": "Tempranillo joven",
+            "note": "Especiado, taninos ligeros",
+            "price": "$150"
+          },
+          {
+            "icon": "wine",
+            "name": "Cabernet Sauvignon barrica",
+            "note": "Cuerpo intenso con notas a madera",
+            "price": "$180"
+          },
+          {
+            "icon": "wine",
+            "name": "Malbec de altura",
+            "note": "Ciruela madura y toque ahumado",
+            "price": "$165"
+          },
+          {
+            "icon": "wine",
+            "name": "Espumoso brut nature",
+            "note": "Burbuja fina, sin dulzor",
+            "price": "$140"
+          },
+          {
+            "icon": "wine",
+            "name": "Nebbiolo reserva",
+            "note": "Tánico, notas a cereza y regaliz",
+            "price": "$195"
+          }
+        ]
+      },
+      {
+        "title": "Coctelería de autor",
+        "items": [
+          {
+            "icon": "glass",
+            "name": "Old Fashioned de mezcal",
+            "note": "Ahumado con toque de naranja quemada",
+            "price": "$175"
+          },
+          {
+            "icon": "glass",
+            "name": "Negroni de temporada",
+            "note": "Amargo balanceado, infusión de hierbas locales",
+            "price": "$160"
+          },
+          {
+            "icon": "glass",
+            "name": "Margarita de tamarindo",
+            "note": "Ácido y ligeramente picante",
+            "price": "$150"
+          },
+          {
+            "icon": "glass",
+            "name": "Paloma artesanal",
+            "note": "Toronja fresca y sal de gusano",
+            "price": "$140"
+          },
+          {
+            "icon": "glass",
+            "name": "Whisky sour de maracuyá",
+            "note": "Cítrico y espumoso al servir",
+            "price": "$155"
+          },
+          {
+            "icon": "glass",
+            "name": "Gin tonic de romero",
+            "note": "Herbal y seco con botánicos locales",
+            "price": "$145"
+          },
+          {
+            "icon": "glass",
+            "name": "Daiquiri de guayaba",
+            "note": "Fresco, poco dulce, final limpio",
+            "price": "$135"
+          },
+          {
+            "icon": "glass",
+            "name": "Espresso martini de café de Chiapas",
+            "note": "Intenso, ligeramente amargo",
+            "price": "$170"
+          }
+        ]
+      }
+    ]
+  },
   "menu-category-sections": {
     "eyebrow": "Nuestra carta",
     "title": "Un menú organizado por temporada y origen",
@@ -11550,6 +13340,86 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
             "name": "Agua fresca de temporada",
             "description": "Fruta de mercado, sin azúcar añadida.",
             "price": "$65 MXN"
+          }
+        ]
+      }
+    ]
+  },
+  "menu-diagonal-chef-specials": {
+    "eyebrow": "Especial del chef",
+    "title": "Costillar de cordero al carbón con puré de camote ahumado",
+    "description": "Cocción lenta sobre leña de mezquite, glaseado de granada y hierbas de temporada. Disponible únicamente los fines de semana, en porciones limitadas.",
+    "price": "$620",
+    "priceLabel": "Precio por persona",
+    "image": "/images/hero.svg",
+    "imageAlt": "Costillar de cordero emplatado con puré de camote y reducción de granada",
+    "chefNote": "Preparado por el chef Ignacio Roldán, receta insignia de la temporada de otoño."
+  },
+  "menu-editorial-typographic-ledger-light": {
+    "eyebrow": "Carta de temporada",
+    "title": "Menú",
+    "description": "Una selección breve, renovada cada estación, elaborada con producto de proveedores locales.",
+    "categories": [
+      {
+        "name": "Entradas",
+        "note": "Para compartir",
+        "items": [
+          {
+            "name": "Tártara de atún aleta amarilla",
+            "price": "$245",
+            "description": "Aguacate, yuzu, aceite de ajonjolí tostado"
+          },
+          {
+            "name": "Carpaccio de betabel asado",
+            "price": "$185",
+            "description": "Queso de cabra, nuez garapiñada, vinagreta de naranja"
+          },
+          {
+            "name": "Consomé de hongos silvestres",
+            "price": "$165"
+          }
+        ]
+      },
+      {
+        "name": "Platos fuertes",
+        "items": [
+          {
+            "name": "Costilla de res braseada 12 horas",
+            "price": "$520",
+            "description": "Puré de papa trufado, jus de vino tinto"
+          },
+          {
+            "name": "Robalo a la plancha",
+            "price": "$460",
+            "description": "Risotto de azafrán, mantequilla de limón"
+          },
+          {
+            "name": "Pechuga de pato al horno",
+            "price": "$495",
+            "description": "Reducción de tamarindo, chirivía asada"
+          },
+          {
+            "name": "Rissotto de temporada",
+            "price": "$385"
+          }
+        ]
+      },
+      {
+        "name": "Postres",
+        "note": "Elaboración propia",
+        "items": [
+          {
+            "name": "Tarta de chocolate 70%",
+            "price": "$165",
+            "description": "Helado de café, avellana garapiñada"
+          },
+          {
+            "name": "Crème brûlée de vainilla de Papantla",
+            "price": "$145"
+          },
+          {
+            "name": "Sorbete de temporada",
+            "price": "$120"
           }
         ]
       }
@@ -11678,6 +13548,102 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "menu-fullbleed-image-dark-overlay": {
+    "eyebrow": "Nuestra carta",
+    "title": "Cocina de temporada servida con calma",
+    "description": "Ingredientes de productores locales, técnicas clásicas y una carta que cambia con las estaciones para acompañar cada visita a nuestra mesa.",
+    "scrollHint": "Ver carta completa",
+    "image": "/images/hero.svg",
+    "imageAlt": "Mesa servida con platillos de temporada iluminada con luz cálida"
+  },
+  "menu-fullbleed-split-image-right-warm": {
+    "eyebrow": "Cocina de temporada",
+    "title": "Una mesa que se siente como en casa",
+    "description": "Seleccionamos cada platillo con ingredientes de productores locales y una cocina que privilegia el sabor cercano sobre lo elaborado.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Mesa puesta con mantel de lino y velas encendidas en el comedor principal del restaurante",
+    "ctaLabel": "Ver la carta completa",
+    "ctaHref": "/menu",
+    "items": [
+      {
+        "name": "Sopa de tortilla",
+        "price": "$135",
+        "description": "Caldo de jitomate asado, tiras de tortilla frita, aguacate y queso panela."
+      },
+      {
+        "name": "Costilla braseada 8 horas",
+        "price": "$395",
+        "description": "Con puré de papa trufado y reducción de vino tinto de la casa."
+      },
+      {
+        "name": "Pescado del día a la parrilla",
+        "price": "$320",
+        "description": "Con salsa de hierbas de temporada y vegetales asados al carbón."
+      },
+      {
+        "name": "Pastel de tres leches",
+        "price": "$110",
+        "description": "Receta de la casa, con canela tostada y crema batida ligera."
+      }
+    ]
+  },
+  "menu-gradient-theme-tasting-narrative": {
+    "eyebrow": "Menú degustación",
+    "title": "Un recorrido de temporada por la cocina de la casa",
+    "narrative": "Cada tiempo se sirve al momento, pensado para acompañar la conversación de principio a fin. Ingredientes de productores locales, técnicas de temporada y una selección de maridajes elegida por nuestro sommelier para acompañar cada plato.",
+    "stats": [
+      {
+        "value": "7",
+        "label": "Tiempos"
+      },
+      {
+        "value": "2.5 h",
+        "label": "Duración"
+      },
+      {
+        "value": "5",
+        "label": "Maridajes incluidos"
+      }
+    ],
+    "footnote": "Disponible de jueves a domingo, reservación previa con 48 horas de anticipación."
+  },
+  "menu-pattern-bar-menu-dark": {
+    "eyebrow": "Carta de barra",
+    "title": "Coctelería de autor para las noches del centro",
+    "description": "Una selección breve y bien pensada, con destilados de casa y técnicas propias. Cada trago se sirve con precisión, sin prisa.",
+    "drinks": [
+      {
+        "name": "Negroni de Barrica",
+        "ingredients": "Ginebra reposada, vermut rojo, bitter de naranja, hielo tallado",
+        "price": "$185"
+      },
+      {
+        "name": "Sour de Mezcal",
+        "ingredients": "Mezcal joven, limón, jarabe de agave, clara de huevo",
+        "price": "$170"
+      },
+      {
+        "name": "Old Fashioned de Casa",
+        "ingredients": "Whisky de centeno, azúcar mascabado, bitter de cacao, cáscara de naranja",
+        "price": "$195"
+      },
+      {
+        "name": "Paloma Ahumada",
+        "ingredients": "Tequila reposado, toronja, sal de agave, humo de mezquite",
+        "price": "$165"
+      },
+      {
+        "name": "Martini Sucio",
+        "ingredients": "Vodka, vermut seco, salmuera de aceituna, aceituna rellena",
+        "price": "$180"
+      },
+      {
+        "name": "Espresso de Barra",
+        "ingredients": "Ron oscuro, café de olla frío, licor de café, ralladura de cacao",
+        "price": "$175"
+      }
+    ]
+  },
   "menu-plated-item-card": {
     "eyebrow": "Especiales del chef",
     "title": "Platillos insignia de temporada",
@@ -11729,6 +13695,155 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "price": "$220",
         "description": "Tres tacos de birria de res con consomé para acompañar, cebolla, cilantro y salsa de chile guajillo.",
         "tag": "spicy"
+      }
+    ]
+  },
+  "menu-seasonal-tinted-stacked-cards": {
+    "eyebrow": "Menú de temporada",
+    "title": "Lo que cosecha el otoño en nuestra cocina",
+    "description": "Cada estación trae ingredientes distintos a nuestra mesa. Esta selección cambia con el mercado y se sirve solo mientras dura la cosecha.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Risotto de calabaza asada con salvia crujiente y queso curado",
+        "name": "Risotto de calabaza asada",
+        "description": "Arroz carnaroli, calabaza de temporada asada al horno de leña, salvia crujiente y queso curado de la región.",
+        "price": "$245"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pato confitado con puré de camote y reducción de ciruela",
+        "name": "Pato confitado con camote",
+        "description": "Pierna de pato confitada doce horas, puré de camote ahumado y reducción de ciruela con especias de otoño.",
+        "price": "$310"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Tarta de manzana caramelizada con helado de canela",
+        "name": "Tarta de manzana caramelizada",
+        "description": "Hojaldre casero, manzanas locales caramelizadas y helado artesanal de canela recién horneado.",
+        "price": "$150"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Ensalada tibia de hongos silvestres con avellanas tostadas",
+        "name": "Ensalada tibia de hongos silvestres",
+        "description": "Mezcla de hongos de temporada salteados, avellanas tostadas, vinagreta de mostaza antigua y hierbas frescas.",
+        "price": "$180"
+      }
+    ]
+  },
+  "menu-split-dark-panel-ledger": {
+    "eyebrow": "Carta",
+    "title": "Nuestro menú de temporada",
+    "description": "Una selección breve de platillos preparados con ingredientes de productores locales, renovada cada estación.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Mesa servida en el comedor principal con iluminación cálida al atardecer",
+    "categories": [
+      {
+        "name": "Entradas",
+        "items": [
+          {
+            "name": "Tartar de atún aleta amarilla",
+            "price": "$185",
+            "description": "Aguacate, soya oscura, aceite de ajonjolí tostado"
+          },
+          {
+            "name": "Carpaccio de betabel asado",
+            "price": "$145",
+            "description": "Queso de cabra, nuez garapiñada, vinagreta de naranja"
+          },
+          {
+            "name": "Consomé de hongos silvestres",
+            "price": "$120"
+          }
+        ]
+      },
+      {
+        "name": "Fuertes",
+        "items": [
+          {
+            "name": "Costilla de res braseada 12 horas",
+            "price": "$420",
+            "description": "Puré de papa trufado, jus de vino tinto"
+          },
+          {
+            "name": "Pesca del día a la parrilla",
+            "price": "$385",
+            "description": "Verduras de temporada, salsa beurre blanc"
+          },
+          {
+            "name": "Risotto de setas y parmesano añejo",
+            "price": "$310"
+          },
+          {
+            "name": "Pato confitado con ciruela pasa",
+            "price": "$395"
+          }
+        ]
+      },
+      {
+        "name": "Postres",
+        "items": [
+          {
+            "name": "Tarta de chocolate 70% cacao",
+            "price": "$135",
+            "description": "Helado de vainilla de Papantla"
+          },
+          {
+            "name": "Crème brûlée de café de olla",
+            "price": "$115"
+          }
+        ]
+      }
+    ]
+  },
+  "menu-staggered-polaroid-brunch": {
+    "eyebrow": "Carta de brunch",
+    "title": "Cada plato, servido como una postal de domingo",
+    "description": "Una selección pensada para compartir mesa larga, con ingredientes de temporada y presentaciones que invitan a fotografiar antes de probar.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Hot cakes apilados con mantequilla derretida y frutos rojos",
+        "name": "Hot cakes de temporada",
+        "price": "$145",
+        "note": "Con jarabe de piloncillo y frutos rojos frescos"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Huevos benedictinos sobre pan brioche con salsa holandesa",
+        "name": "Benedictinos de la casa",
+        "price": "$165",
+        "note": "Pan brioche, jamón serrano y salsa holandesa al momento"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Tabla de pan dulce artesanal recién horneado",
+        "name": "Tabla de pan dulce",
+        "price": "$120",
+        "note": "Concha, cuernito y polvorón horneados cada mañana"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Avocado toast sobre pan de masa madre con huevo pochado",
+        "name": "Avocado toast",
+        "price": "$135",
+        "note": "Masa madre, aguacate machacado y huevo pochado"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Waffle belga con helado de vainilla y salsa de chocolate",
+        "name": "Waffle belga",
+        "price": "$155",
+        "note": "Helado de vainilla, salsa de chocolate y almendra tostada"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bowl de yogur griego con granola casera y fruta fresca",
+        "name": "Bowl de yogur y granola",
+        "price": "$110",
+        "note": "Granola casera, miel de abeja y fruta de temporada"
       }
     ]
   },
@@ -12663,6 +14778,275 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "portfolio-blueprint-grid-dense-technical-labels": {
+    "eyebrow": "Portafolio de obra",
+    "title": "Proyectos ejecutados con ficha técnica verificable",
+    "description": "Cada proyecto queda documentado con su código de expediente, superficie construida y sistema estructural utilizado, disponibles para consulta durante el proceso de licitación.",
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial en construcción con estructura de acero expuesta",
+        "code": "EXP-2026-01",
+        "title": "Nave industrial Toluca Norte",
+        "specs": [
+          {
+            "label": "Superficie",
+            "value": "4,200 m²"
+          },
+          {
+            "label": "Sistema",
+            "value": "Acero A36"
+          },
+          {
+            "label": "Entrega",
+            "value": "Mar. 2026"
+          }
+        ]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Fachada de oficinas corporativas de concreto y vidrio",
+        "code": "EXP-2025-14",
+        "title": "Corporativo Vía Norte",
+        "specs": [
+          {
+            "label": "Superficie",
+            "value": "6,850 m²"
+          },
+          {
+            "label": "Sistema",
+            "value": "Concreto reforzado"
+          },
+          {
+            "label": "Entrega",
+            "value": "Nov. 2025"
+          }
+        ]
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Puente vehicular de concreto sobre vialidad principal",
+        "code": "EXP-2025-09",
+        "title": "Puente vehicular Ruta 57",
+        "specs": [
+          {
+            "label": "Superficie",
+            "value": "1,180 m²"
+          },
+          {
+            "label": "Sistema",
+            "value": "Postensado"
+          },
+          {
+            "label": "Entrega",
+            "value": "Ago. 2025"
+          }
+        ]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bodega logística con andenes de carga",
+        "code": "EXP-2025-06",
+        "title": "Centro logístico Apodaca",
+        "specs": [
+          {
+            "label": "Superficie",
+            "value": "9,300 m²"
+          },
+          {
+            "label": "Sistema",
+            "value": "Prefabricado"
+          },
+          {
+            "label": "Entrega",
+            "value": "Jun. 2025"
+          }
+        ]
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Planta de tratamiento de agua con tanques circulares",
+        "code": "EXP-2025-02",
+        "title": "Planta de tratamiento Salinas",
+        "specs": [
+          {
+            "label": "Superficie",
+            "value": "2,640 m²"
+          },
+          {
+            "label": "Sistema",
+            "value": "Concreto hidráulico"
+          },
+          {
+            "label": "Entrega",
+            "value": "Feb. 2025"
+          }
+        ]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Estacionamiento elevado de estructura metálica",
+        "code": "EXP-2024-21",
+        "title": "Estacionamiento Plaza Central",
+        "specs": [
+          {
+            "label": "Superficie",
+            "value": "3,050 m²"
+          },
+          {
+            "label": "Sistema",
+            "value": "Acero galvanizado"
+          },
+          {
+            "label": "Entrega",
+            "value": "Dic. 2024"
+          }
+        ]
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Torre de oficinas en etapa de cimentación profunda",
+        "code": "EXP-2024-17",
+        "title": "Torre Reforma 220",
+        "specs": [
+          {
+            "label": "Superficie",
+            "value": "12,400 m²"
+          },
+          {
+            "label": "Sistema",
+            "value": "Pilas coladas"
+          },
+          {
+            "label": "Entrega",
+            "value": "Sep. 2024"
+          }
+        ]
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Ampliación de planta industrial con estructura precolada",
+        "code": "EXP-2024-11",
+        "title": "Ampliación Planta Ramos Arizpe",
+        "specs": [
+          {
+            "label": "Superficie",
+            "value": "5,720 m²"
+          },
+          {
+            "label": "Sistema",
+            "value": "Precolado"
+          },
+          {
+            "label": "Entrega",
+            "value": "May. 2024"
+          }
+        ]
+      }
+    ]
+  },
+  "portfolio-editorial-magazine-spread-pullquote": {
+    "eyebrow": "Casos de estudio",
+    "title": "Proyectos que hablan por sí mismos",
+    "cases": [
+      {
+        "title": "Reordenamiento de bodega central para Grupo Ferretero del Norte",
+        "quote": "Redujeron nuestro tiempo de surtido a la mitad sin detener la operación un solo día.",
+        "author": "Marcela Huerta",
+        "role": "Directora de Operaciones, Grupo Ferretero del Norte",
+        "image": "/images/hero.svg",
+        "imageAlt": "Pasillos de la bodega central reorganizados con nueva señalización"
+      },
+      {
+        "title": "Renovación de sucursal insignia para Muebles Cordero",
+        "quote": "El nuevo recorrido de piso de venta subió el ticket promedio desde la primera semana.",
+        "author": "Ricardo Cordero",
+        "role": "Director General, Muebles Cordero",
+        "image": "/images/about.svg",
+        "imageAlt": "Piso de venta de la sucursal insignia con el nuevo recorrido de exhibición"
+      },
+      {
+        "title": "Automatización de facturación para Distribuidora Altamira",
+        "quote": "Pasamos de tres días de conciliación a unas cuantas horas cada cierre de mes.",
+        "author": "Paulina Serrano",
+        "role": "Gerente de Administración, Distribuidora Altamira",
+        "image": "/images/hero.svg",
+        "imageAlt": "Equipo administrativo revisando el nuevo panel de facturación en pantalla"
+      }
+    ]
+  },
+  "portfolio-fullbleed-image-dark-overlay-stacked": {
+    "eyebrow": "Casos de estudio",
+    "title": "Proyectos que hablan por sí mismos",
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada nocturna de la torre corporativa Altavista con iluminación arquitectónica",
+        "title": "Torre corporativa Altavista",
+        "client": "Grupo Altavista",
+        "year": "2025",
+        "description": "Dirección de obra y coordinación de especialidades para una torre de oficinas de dieciocho niveles, entregada dentro del presupuesto y seis semanas antes de lo programado."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior del centro de distribución logística con racks industriales y montacargas en operación",
+        "title": "Centro de distribución Bajío",
+        "client": "Logística del Bajío",
+        "year": "2024",
+        "description": "Rediseño de flujos operativos y ampliación de la nave industrial para triplicar la capacidad de almacenaje sin detener la operación diaria."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea del complejo industrial recién construido junto a la carretera federal",
+        "title": "Parque industrial Cuatro Caminos",
+        "client": "Inmobiliaria Cuatro Caminos",
+        "year": "2023",
+        "description": "Planeación maestra y construcción de seis naves industriales con certificación de eficiencia energética, entregadas por etapas a lo largo de dieciocho meses."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas del despacho corporativo con acabados en madera y vidrio",
+        "title": "Oficinas corporativas Nortec",
+        "client": "Nortec Consultores",
+        "year": "2023",
+        "description": "Remodelación integral de dos mil metros cuadrados de oficinas, conservando la operación del cliente mediante trabajo por fases nocturnas y de fin de semana."
+      }
+    ]
+  },
+  "portfolio-gradient-spotlight-carousel-single-case": {
+    "eyebrow": "Casos de estudio",
+    "title": "Resultados que sostienen la operación",
+    "viewCta": "Ver caso completo",
+    "cases": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Panel de control de la plataforma logística implementada para Grupo Ferrotec",
+        "title": "Plataforma de trazabilidad para flotillas industriales",
+        "client": "Grupo Ferrotec",
+        "stat": "38%",
+        "statLabel": "Reducción de tiempos muertos",
+        "description": "Rediseñamos el sistema de despacho y monitoreo en tiempo real para una flotilla de más de 200 unidades, integrando telemetría y alertas automáticas."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interfaz del sistema de inventario en tiempo real de Distribuidora Aconcagua",
+        "title": "Sistema de inventario multi-almacén en tiempo real",
+        "client": "Distribuidora Aconcagua",
+        "stat": "2.4x",
+        "statLabel": "Rotación de inventario",
+        "description": "Consolidamos siete bodegas regionales bajo un solo panel de control, con reglas de reabasto automático y visibilidad para el equipo comercial."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Dashboard financiero del proyecto entregado a Constructora Meridiano",
+        "title": "Dashboard financiero por obra para dirección general",
+        "client": "Constructora Meridiano",
+        "stat": "$4.2M",
+        "statLabel": "Sobrecostos evitados en el primer año",
+        "description": "Consolidamos costeo, avance físico y flujo de caja de doce obras simultáneas en un solo tablero para la toma de decisiones ejecutivas."
+      }
+    ]
+  },
   "portfolio-grid-3column-with-metadata": {
     "eyebrow": "Trabajo realizado",
     "title": "Proyectos que respaldan nuestro criterio",
@@ -12775,6 +15159,55 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "category": "Industrial",
         "location": "Escobedo, N.L.",
         "year": "2022"
+      }
+    ]
+  },
+  "portfolio-staggered-cards-offset-airy": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que muestran nuestro criterio",
+    "description": "Una selección de trabajos recientes donde acompañamos a nuestros clientes desde el diagnóstico hasta la puesta en marcha.",
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada renovada de oficinas corporativas en Monterrey",
+        "title": "Renovación de oficinas corporativas",
+        "category": "Arquitectura comercial",
+        "year": "2025"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de sala de juntas con mobiliario a medida",
+        "title": "Sala de juntas a medida",
+        "category": "Diseño de interiores",
+        "year": "2025"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial con nuevo sistema de iluminación",
+        "title": "Modernización de nave industrial",
+        "category": "Ingeniería de instalaciones",
+        "year": "2024"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Recepción de despacho jurídico con acabados en madera",
+        "title": "Recepción para despacho jurídico",
+        "category": "Diseño de interiores",
+        "year": "2024"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Centro de distribución con andenes ampliados",
+        "title": "Ampliación de centro de distribución",
+        "category": "Arquitectura industrial",
+        "year": "2024"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terraza corporativa con áreas verdes",
+        "title": "Terraza corporativa y áreas verdes",
+        "category": "Paisajismo",
+        "year": "2023"
       }
     ]
   },
@@ -14898,6 +17331,39 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "product-centered-gradient-spotlight-badges": {
+    "eyebrow": "Ficha técnica",
+    "title": "Gabinete de control industrial GC-400",
+    "description": "Diseñado para operar en piso de planta con vibración y polvo constantes, con acceso frontal para mantenimiento sin detener la línea.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Gabinete de control industrial GC-400 con puerta frontal cerrada",
+    "badges": [
+      {
+        "icon": "ShieldCheck",
+        "label": "Grado de protección",
+        "value": "IP65",
+        "position": "top-left"
+      },
+      {
+        "icon": "Gauge",
+        "label": "Corriente nominal",
+        "value": "63 A",
+        "position": "top-right"
+      },
+      {
+        "icon": "Ruler",
+        "label": "Dimensiones",
+        "value": "800 x 600 x 300 mm",
+        "position": "bottom-left"
+      },
+      {
+        "icon": "Battery",
+        "label": "Autonomía de respaldo",
+        "value": "4 horas",
+        "position": "bottom-right"
+      }
+    ]
+  },
   "product-changelog-versioned-grouped-rail": {
     "eyebrow": "Historial de versiones",
     "title": "Evolución de la plataforma",
@@ -14971,6 +17437,84 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         ]
       }
     ]
+  },
+  "product-dark-gradient-catalog-band": {
+    "eyebrow": "Catálogo técnico",
+    "title": "Componentes disponibles en inventario",
+    "description": "Referencias listas para envío desde nuestro almacén en Monterrey, con ficha técnica y disponibilidad actualizada en tiempo real.",
+    "linkLabel": "Ver catálogo completo",
+    "linkHref": "/catalogo",
+    "availableLabel": "Disponible",
+    "unavailableLabel": "Sobre pedido",
+    "products": [
+      {
+        "sku": "MC-1042",
+        "name": "Motorreductor helicoidal 1 HP",
+        "spec": "Relación 20:1, brida B14, montaje horizontal",
+        "price": "$4,320 MXN",
+        "available": true
+      },
+      {
+        "sku": "VF-2203",
+        "name": "Variador de frecuencia trifásico",
+        "spec": "230V, 3 HP, comunicación Modbus RTU",
+        "price": "$7,890 MXN",
+        "available": true
+      },
+      {
+        "sku": "SN-0087",
+        "name": "Sensor inductivo de proximidad",
+        "spec": "Rosca M18, distancia 8 mm, salida PNP",
+        "price": "$385 MXN",
+        "available": false
+      },
+      {
+        "sku": "CB-5510",
+        "name": "Contactor bobina 24V CD",
+        "spec": "3 polos, 32 A, categoría AC-3",
+        "price": "$620 MXN",
+        "available": true
+      },
+      {
+        "sku": "RL-3390",
+        "name": "Rodamiento rígido de bolas 6205",
+        "spec": "Diámetro interior 25 mm, doble blindaje",
+        "price": "$145 MXN",
+        "available": true
+      },
+      {
+        "sku": "PN-7712",
+        "name": "Cilindro neumático de doble efecto",
+        "spec": "Diámetro 32 mm, carrera 100 mm, ISO 15552",
+        "price": "$1,150 MXN",
+        "available": false
+      },
+      {
+        "sku": "AC-1188",
+        "name": "Acoplamiento flexible de eje",
+        "spec": "Elastómero poliuretano, torque nominal 25 Nm",
+        "price": "$490 MXN",
+        "available": true
+      },
+      {
+        "sku": "PL-4456",
+        "name": "PLC compacto 16 entradas / 12 salidas",
+        "spec": "Alimentación 24V CD, puerto Ethernet integrado",
+        "price": "$3,275 MXN",
+        "available": true
+      }
+    ]
+  },
+  "product-fullbleed-image-dark-overlay": {
+    "eyebrow": "Nuevo lanzamiento",
+    "title": "La línea que redefine el estándar de manufactura industrial",
+    "description": "Precisión de ingeniería mexicana, materiales de grado industrial y un acabado pensado para operar bajo condiciones extremas de planta.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Producto industrial fotografiado a contraluz sobre fondo oscuro",
+    "cta": {
+      "label": "Conocer el producto",
+      "href": "/productos"
+    }
   },
   "product-gallery-screenshot-featured-thumbstrip-inline": {
     "eyebrow": "Plataforma",
@@ -15295,6 +17839,58 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "product-split-tinted-specsheet": {
+    "eyebrow": "Ficha técnica",
+    "title": "Unidad de control industrial UCI-420",
+    "description": "Controlador programable para líneas de producción de mediana capacidad, diseñado para operación continua en entornos con vibración y polvo.",
+    "modelLabel": "Modelo UCI-420",
+    "image": "/images/hero.svg",
+    "imageAlt": "Unidad de control industrial UCI-420 sobre fondo neutro",
+    "specsheetLabel": "Especificaciones",
+    "specs": [
+      {
+        "label": "Voltaje de entrada",
+        "value": "100–240 VAC"
+      },
+      {
+        "label": "Frecuencia",
+        "value": "50/60 Hz"
+      },
+      {
+        "label": "Consumo máximo",
+        "value": "18 W"
+      },
+      {
+        "label": "Temperatura de operación",
+        "value": "-10 °C a 55 °C"
+      },
+      {
+        "label": "Grado de protección",
+        "value": "IP54"
+      },
+      {
+        "label": "Entradas digitales",
+        "value": "16 canales"
+      },
+      {
+        "label": "Salidas relé",
+        "value": "8 canales, 5 A"
+      },
+      {
+        "label": "Comunicación",
+        "value": "Modbus RTU / Ethernet"
+      },
+      {
+        "label": "Peso neto",
+        "value": "1.2 kg"
+      },
+      {
+        "label": "Certificación",
+        "value": "NOM-001-SEDE"
+      }
+    ],
+    "footnote": "Especificaciones sujetas a cambio sin previo aviso. Consulte la hoja de datos completa antes de su instalación."
+  },
   "product-spotlight-thumbnail-rail": {
     "eyebrow": "Proyecto destacado",
     "title": "Corporativo Cumbres: de la maqueta ejecutiva a obra entregada",
@@ -15329,6 +17925,118 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "image": "/images/about.svg",
         "imageAlt": "Vista nocturna del acceso principal",
         "label": "Acceso nocturno"
+      }
+    ]
+  },
+  "product-stacked-rows-pattern-bg": {
+    "eyebrow": "Colección insignia",
+    "title": "Piezas que definen nuestro taller",
+    "description": "Cuatro productos que resumen veinte años de trabajo en madera maciza, cada uno desarrollado a lo largo de varias temporadas junto con nuestros talleres aliados en Michoacán.",
+    "products": [
+      {
+        "number": "01",
+        "name": "Mesa Comedor Roble Sereno",
+        "tagline": "Edición limitada de temporada",
+        "description": "Tablero de una sola pieza de roble mexicano, secado al aire durante catorce meses antes de ensamblarse. Cada mesa lleva grabado el número de lote y el nombre del artesano responsable del acabado.",
+        "detailLabel": "Tiempo de fabricación",
+        "detail": "10 a 12 semanas",
+        "image": "/images/hero.svg",
+        "imageAlt": "Mesa de comedor de roble macizo en taller iluminado con luz natural"
+      },
+      {
+        "number": "02",
+        "name": "Silla Balancín Encino",
+        "tagline": "Rediseño de un clásico",
+        "description": "Curvas obtenidas por vaporizado de madera, sin cortes ni uniones visibles en el respaldo. El asiento se tapiza a mano con lino crudo teñido en pequeños lotes por un taller textil en Guanajuato.",
+        "detailLabel": "Peso soportado",
+        "detail": "Hasta 140 kg",
+        "image": "/images/about.svg",
+        "imageAlt": "Silla balancín de encino junto a ventanal con luz cálida"
+      },
+      {
+        "number": "03",
+        "name": "Alacena Modular Nogal",
+        "tagline": "Almacenaje a la medida",
+        "description": "Sistema de tres módulos que se combinan según el espacio de cada cocina. Las bisagras se fabrican en latón macizo y se pulen a mano para que el brillo dure décadas sin recubrimientos sintéticos.",
+        "detailLabel": "Configuraciones disponibles",
+        "detail": "12 combinaciones",
+        "image": "/images/hero.svg",
+        "imageAlt": "Alacena modular de nogal con puertas entreabiertas"
+      },
+      {
+        "number": "04",
+        "name": "Banco Bajo Parota",
+        "tagline": "Pieza de entrada a la colección",
+        "description": "Tallado a partir de un solo tronco de parota recuperada de mantenimiento forestal certificado. No hay dos piezas iguales: el veteado natural define el diseño final de cada banco.",
+        "detailLabel": "Origen de la madera",
+        "detail": "Bosques certificados de Jalisco",
+        "image": "/images/about.svg",
+        "imageAlt": "Banco bajo de madera de parota con veteado natural visible"
+      }
+    ]
+  },
+  "product-staggered-cards-diagonal": {
+    "eyebrow": "Catálogo",
+    "title": "Piezas de temporada",
+    "description": "Selección curada de piezas producidas en talleres artesanales de Guadalajara y Oaxaca, disponibles en tiraje limitado.",
+    "linkLabel": "Ver catálogo completo",
+    "linkHref": "/catalogo",
+    "products": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Jarrón de barro negro con acabado mate sobre superficie de madera clara",
+        "collection": "Barro Negro",
+        "name": "Jarrón Amatlán",
+        "price": "$2,450 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Manta tejida a mano en tonos tierra sobre respaldo de silla",
+        "collection": "Telar de Pedal",
+        "name": "Manta Tequio",
+        "price": "$1,890 MXN"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Set de tres tazas de cerámica esmaltada en tonos verde salvia",
+        "collection": "Alta Temperatura",
+        "name": "Tazas Xochimilco",
+        "price": "$980 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Canasta de fibra de palma tejida en espiral con asas de cuero",
+        "collection": "Fibra Natural",
+        "name": "Canasta Ixtlán",
+        "price": "$1,320 MXN"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Candelero de latón cepillado con base circular",
+        "collection": "Metales",
+        "name": "Candelero Cobre",
+        "price": "$1,150 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cojín bordado a mano con motivos florales sobre lino crudo",
+        "collection": "Bordado Textil",
+        "name": "Cojín Frida",
+        "price": "$1,650 MXN"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Charola de madera de parota con detalles tallados en el borde",
+        "collection": "Madera Maciza",
+        "name": "Charola Michoacán",
+        "price": "$2,100 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Alfombra de lana tejida con patrón geométrico en tonos neutros",
+        "collection": "Telar de Pedal",
+        "name": "Tapete Zapoteco",
+        "price": "$3,780 MXN"
       }
     ]
   },
@@ -15382,6 +18090,139 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "imageAlt": "Oficinas corporativas remodeladas de Vialtex",
         "linkHref": "/proyectos/oficinas-vialtex",
         "linkLabel": "Ver proyecto"
+      }
+    ]
+  },
+  "property-agent-spotlight-split-portrait": {
+    "eyebrow": "Asesor certificado",
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Ricardo Elizondo, asesor inmobiliario, en su oficina",
+    "name": "Ricardo Elizondo Farías",
+    "role": "Asesor senior · Zona Valle Oriente y San Pedro Garza García",
+    "bio": [
+      "Acompaño a familias y desarrolladores desde hace once años en la compra, venta y arrendamiento de propiedades residenciales en el área metropolitana de Monterrey.",
+      "Mi trabajo empieza mucho antes de la firma: escucho lo que necesita cada cliente, filtro las opciones que de verdad le convienen y negocio en su nombre hasta el cierre en notaría."
+    ],
+    "credentials": [
+      "Cédula profesional AMPI Nuevo León vigente",
+      "Certificación en valuación inmobiliaria residencial",
+      "Miembro activo de la Asociación Mexicana de Profesionales Inmobiliarios"
+    ],
+    "stats": [
+      {
+        "icon": "properties",
+        "value": "186",
+        "label": "Propiedades cerradas"
+      },
+      {
+        "icon": "clients",
+        "value": "310",
+        "label": "Familias atendidas"
+      },
+      {
+        "icon": "credential",
+        "value": "11 años",
+        "label": "Experiencia en la zona"
+      }
+    ],
+    "contact": {
+      "phoneLabel": "Teléfono directo",
+      "phone": "+52 81 1234 5678",
+      "emailLabel": "Correo",
+      "email": "ricardo.elizondo@inmobiliaria.mx",
+      "ctaLabel": "Agendar una llamada",
+      "ctaHref": "/contacto"
+    }
+  },
+  "property-amenities-icon-grid-dense-dark": {
+    "eyebrow": "Amenidades",
+    "title": "Un catálogo completo de amenidades",
+    "description": "Cada torre del desarrollo incluye la totalidad de estos espacios, disponibles para todos los residentes sin costo adicional.",
+    "amenities": [
+      {
+        "label": "Alberca climatizada"
+      },
+      {
+        "label": "Gimnasio equipado"
+      },
+      {
+        "label": "Sala de coworking"
+      },
+      {
+        "label": "Seguridad 24 horas"
+      },
+      {
+        "label": "Estacionamiento techado"
+      },
+      {
+        "label": "Área verde y jardines"
+      },
+      {
+        "label": "Ludoteca infantil"
+      },
+      {
+        "label": "Salón de usos múltiples"
+      },
+      {
+        "label": "Terraza con asadores"
+      },
+      {
+        "label": "Circuito de videovigilancia"
+      },
+      {
+        "label": "Elevadores de alta velocidad"
+      },
+      {
+        "label": "Área de lavandería"
+      },
+      {
+        "label": "Bodega de paquetería"
+      },
+      {
+        "label": "Acceso controlado biométrico"
+      },
+      {
+        "label": "Cancha multiusos"
+      },
+      {
+        "label": "Cuarto de bicicletas"
+      }
+    ]
+  },
+  "property-before-after-renovation-slider-stacked": {
+    "eyebrow": "Remodelaciones",
+    "title": "El antes y después de cada propiedad que transformamos",
+    "subtitle": "Documentamos cada remodelación desde el levantamiento inicial hasta la entrega, para que usted vea con claridad el alcance del trabajo realizado en cada propiedad.",
+    "pairs": [
+      {
+        "label": "Casa Los Encinos, Col. Del Valle",
+        "beforeImage": "/images/hero.svg",
+        "beforeImageAlt": "Fachada original de la casa en Col. Del Valle antes de la remodelación",
+        "beforeTag": "Antes",
+        "afterImage": "/images/about.svg",
+        "afterImageAlt": "Fachada renovada de la casa en Col. Del Valle con acabados nuevos",
+        "afterTag": "Después",
+        "note": "Remodelación de fachada e ingreso · 6 semanas"
+      },
+      {
+        "label": "Departamento Torre Cumbres, piso 12",
+        "beforeImage": "/images/hero.svg",
+        "beforeImageAlt": "Sala y cocina originales del departamento en Torre Cumbres antes de la intervención",
+        "beforeTag": "Antes",
+        "afterImage": "/images/about.svg",
+        "afterImageAlt": "Sala y cocina integral del departamento en Torre Cumbres después de la remodelación",
+        "afterTag": "Después",
+        "note": "Cocina integral y acabados de sala · 5 semanas"
+      },
+      {
+        "label": "Local comercial Av. Garza Sada",
+        "beforeImage": "/images/hero.svg",
+        "beforeImageAlt": "Interior del local comercial sobre Av. Garza Sada antes de la remodelación",
+        "beforeTag": "Antes",
+        "afterImage": "/images/about.svg",
+        "afterImageAlt": "Interior del local comercial sobre Av. Garza Sada después de la remodelación",
+        "afterTag": "Después",
+        "note": "Adecuación comercial completa · 8 semanas"
       }
     ]
   },
@@ -15445,6 +18286,41 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
             "included": false
           }
         ]
+      }
+    ]
+  },
+  "property-development-timeline-diagonal-phases": {
+    "eyebrow": "Bitácora de obra",
+    "title": "Fases del desarrollo, de la preventa a la entrega",
+    "description": "Seguimiento puntual de cada etapa del proyecto, con fechas comprometidas y avance verificado por el equipo de obra.",
+    "phases": [
+      {
+        "code": "Fase 01",
+        "name": "Preventa",
+        "date": "Ene 2026",
+        "progress": 100,
+        "description": "Apartado de unidades, firma de contrato de compraventa y definición de acabados con el cliente."
+      },
+      {
+        "code": "Fase 02",
+        "name": "Cimentación",
+        "date": "Mar 2026",
+        "progress": 85,
+        "description": "Excavación, colado de losa de cimentación y trabajos de impermeabilización de la base estructural."
+      },
+      {
+        "code": "Fase 03",
+        "name": "Obra gris",
+        "date": "Sep 2026",
+        "progress": 40,
+        "description": "Levantamiento de estructura, muros de carga, instalaciones hidrosanitarias y eléctricas ocultas."
+      },
+      {
+        "code": "Fase 04",
+        "name": "Entrega",
+        "date": "Mar 2027",
+        "progress": 5,
+        "description": "Acabados finales, inspección de calidad conjunta y entrega de llaves con acta de recepción."
       }
     ]
   },
@@ -15515,6 +18391,293 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "statLabel": "vigilancia en el residencial",
         "image": "/images/about.svg",
         "imageAlt": "Caseta de acceso y control de vigilancia del residencial"
+      }
+    ]
+  },
+  "property-hero-fullbleed-image-dark-overlay-floating-price": {
+    "eyebrow": "Desarrollo insignia",
+    "title": "Torres Altavista, el nuevo referente residencial de la ciudad",
+    "subtitle": "56 residencias con vista panorámica, amenidades de hotel y entrega en 18 meses, en la zona con mayor plusvalía de la región.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada nocturna de Torres Altavista con iluminación cálida y alberca en la terraza",
+    "priceLabel": "Precio desde",
+    "priceValue": "$6,890,000 MXN",
+    "cta": "Agendar visita",
+    "ctaHref": "/contacto"
+  },
+  "property-investment-calculator-band-gradient": {
+    "eyebrow": "Calculadora de inversión",
+    "title": "Proyecte el rendimiento de su próxima propiedad",
+    "description": "Con base en el precio de adquisición y el plazo de conservación, estimamos el rendimiento anual, la plusvalía y el retorno total de la inversión.",
+    "inputsLabel": "Simulación con",
+    "inputs": [
+      {
+        "label": "Monto invertido",
+        "value": "$3,200,000"
+      },
+      {
+        "label": "Plazo",
+        "value": "5 años"
+      },
+      {
+        "label": "Enganche",
+        "value": "30%"
+      }
+    ],
+    "stats": [
+      {
+        "icon": "trendingUp",
+        "label": "Rendimiento anual",
+        "value": "9.4%",
+        "sublabel": "Renta neta sobre el valor de la propiedad"
+      },
+      {
+        "icon": "landmark",
+        "label": "Plusvalía estimada",
+        "value": "$1,180,000",
+        "sublabel": "Incremento de valor proyectado a 5 años"
+      },
+      {
+        "icon": "percent",
+        "label": "ROI total",
+        "value": "37%",
+        "sublabel": "Retorno acumulado sobre el capital invertido"
+      }
+    ],
+    "cta": {
+      "label": "Solicitar proyección personalizada",
+      "href": "/contacto"
+    }
+  },
+  "property-listing-grid-filterable-cards": {
+    "eyebrow": "Propiedades disponibles",
+    "title": "Encuentre la propiedad que se ajusta a su operación",
+    "description": "Filtre por tipo, ubicación y rango de precio para revisar el inventario actualizado de la zona metropolitana.",
+    "resultsLabel": "48 propiedades encontradas",
+    "filters": [
+      {
+        "label": "Tipo",
+        "options": [
+          "Casa",
+          "Departamento",
+          "Terreno",
+          "Local comercial"
+        ]
+      },
+      {
+        "label": "Ubicación",
+        "options": [
+          "San Pedro Garza García",
+          "Valle Oriente",
+          "Cumbres",
+          "Centro"
+        ]
+      },
+      {
+        "label": "Precio",
+        "options": [
+          "Hasta $3.5 MDP",
+          "$3.5 a $6 MDP",
+          "$6 a $10 MDP",
+          "Más de $10 MDP"
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de casa de dos plantas con jardín frontal en San Pedro",
+        "price": "$4,850,000",
+        "status": "En venta",
+        "title": "Casa en privada, San Pedro Garza García",
+        "location": "San Pedro Garza García, N.L.",
+        "bedrooms": "3 rec",
+        "bathrooms": "2.5 baños",
+        "area": "215 m²"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala y comedor de departamento con acabados modernos",
+        "price": "$3,200,000",
+        "status": "En venta",
+        "title": "Departamento en torre Valle Oriente",
+        "location": "Valle Oriente, N.L.",
+        "bedrooms": "2 rec",
+        "bathrooms": "2 baños",
+        "area": "98 m²"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista frontal de casa residencial en Cumbres con cochera techada",
+        "price": "$2,750,000",
+        "status": "En renta",
+        "title": "Casa residencial en Cumbres",
+        "location": "Cumbres, N.L.",
+        "bedrooms": "3 rec",
+        "bathrooms": "2 baños",
+        "area": "180 m²"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terreno delimitado listo para construcción en zona de crecimiento",
+        "price": "$1,950,000",
+        "status": "En venta",
+        "title": "Terreno habitacional en desarrollo cerrado",
+        "location": "García, N.L.",
+        "bedrooms": "N/A",
+        "bathrooms": "N/A",
+        "area": "320 m²"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Local comercial en planta baja con fachada de cristal",
+        "price": "$5,600,000",
+        "status": "En venta",
+        "title": "Local comercial en avenida principal",
+        "location": "Centro, Monterrey, N.L.",
+        "bedrooms": "N/A",
+        "bathrooms": "1 baño",
+        "area": "140 m²"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Recámara principal amplia con ventanal en departamento",
+        "price": "$4,100,000",
+        "status": "En venta",
+        "title": "Departamento con vista a la ciudad",
+        "location": "Valle Oriente, N.L.",
+        "bedrooms": "3 rec",
+        "bathrooms": "2.5 baños",
+        "area": "132 m²"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Jardín trasero de casa con terraza cubierta",
+        "price": "$3,890,000",
+        "status": "En renta",
+        "title": "Casa con jardín en Cumbres 5to sector",
+        "location": "Cumbres, N.L.",
+        "bedrooms": "4 rec",
+        "bathrooms": "3 baños",
+        "area": "260 m²"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cocina integral de departamento remodelado",
+        "price": "$2,480,000",
+        "status": "En venta",
+        "title": "Departamento remodelado en Centro",
+        "location": "Centro, Monterrey, N.L.",
+        "bedrooms": "2 rec",
+        "bathrooms": "1.5 baños",
+        "area": "78 m²"
+      }
+    ]
+  },
+  "property-map-split-listing-sidebar": {
+    "eyebrow": "Ubicación y entorno",
+    "title": "Una zona que se explica sola",
+    "subtitle": "Este desarrollo se ubica a pasos de las vialidades y servicios que su día a día requiere. A continuación, el entorno inmediato y las propiedades comparables disponibles cerca.",
+    "pois": [
+      {
+        "icon": "school",
+        "label": "Colegio Cumbres",
+        "top": "22%",
+        "left": "28%"
+      },
+      {
+        "icon": "shopping",
+        "label": "Plaza San Pedro",
+        "top": "34%",
+        "left": "68%"
+      },
+      {
+        "icon": "park",
+        "label": "Parque Fundidora",
+        "top": "68%",
+        "left": "40%"
+      },
+      {
+        "icon": "transit",
+        "label": "Estación Metro Central",
+        "top": "58%",
+        "left": "78%"
+      },
+      {
+        "icon": "landmark",
+        "label": "Hospital San José",
+        "top": "78%",
+        "left": "20%"
+      }
+    ],
+    "listTitle": "Propiedades cercanas",
+    "listSubtitle": "Comparables disponibles en un radio de 2 kilómetros",
+    "properties": [
+      {
+        "name": "Residencial Altavista 204",
+        "address": "Av. Vasconcelos 1120, San Pedro Garza García",
+        "distance": "0.4 km",
+        "price": "$4,850,000",
+        "status": "Disponible"
+      },
+      {
+        "name": "Torre Cumbres Departamento 12B",
+        "address": "Calzada del Valle 340, San Pedro Garza García",
+        "distance": "0.9 km",
+        "price": "$6,200,000",
+        "status": "Disponible"
+      },
+      {
+        "name": "Casa Los Fresnos 88",
+        "address": "Río Nazas 88, Del Valle",
+        "distance": "1.2 km",
+        "price": "$5,100,000",
+        "status": "En preventa"
+      },
+      {
+        "name": "Loft Fundidora 5C",
+        "address": "Av. Fundidora 501, Obrera",
+        "distance": "1.6 km",
+        "price": "$3,450,000",
+        "status": "Disponible"
+      },
+      {
+        "name": "Residencial Contry Norte 15",
+        "address": "Contry Sur 1520, Contry",
+        "distance": "1.9 km",
+        "price": "$4,300,000",
+        "status": "Reservada"
+      }
+    ]
+  },
+  "property-neighborhood-stats-dark-band-full-bleed": {
+    "eyebrow": "El entorno",
+    "title": "Un vecindario pensado para la vida diaria",
+    "description": "Cada desarrollo se evalúa por su relación con la ciudad: distancias caminables, oferta educativa cercana y acceso directo al transporte público.",
+    "stats": [
+      {
+        "icon": "walk",
+        "value": "92",
+        "label": "Índice de caminabilidad",
+        "caption": "Comercios y servicios a menos de 10 minutos a pie"
+      },
+      {
+        "icon": "school",
+        "value": "6",
+        "label": "Escuelas certificadas cercanas",
+        "caption": "Educación básica y media dentro de un radio de 2 km"
+      },
+      {
+        "icon": "transit",
+        "value": "3",
+        "label": "Estaciones de transporte",
+        "caption": "Conexión directa a las líneas principales de la zona"
+      },
+      {
+        "icon": "commute",
+        "value": "18 min",
+        "label": "Tiempo promedio al centro",
+        "caption": "Trayecto en hora pico desde la entrada principal"
       }
     ]
   },
@@ -15600,6 +18763,37 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     ],
     "detailImage": "/images/about.svg",
     "detailImageAlt": "Detalle constructivo del encuentro entre concreto y cancelería"
+  },
+  "property-staggered-cards-masonry-editorial": {
+    "eyebrow": "Portafolio",
+    "title": "Propiedades seleccionadas en las mejores zonas",
+    "description": "Cada desarrollo pasa por un proceso de curaduría antes de sumarse a nuestro portafolio. Explore una selección de espacios listos para habitar o invertir.",
+    "properties": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de residencia contemporánea con jardín frontal en Valle Oriente",
+        "title": "Residencia Valle Oriente",
+        "location": "Valle Oriente, San Pedro Garza García"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala principal con ventanales de piso a techo en departamento de Punta Norte",
+        "title": "Torre Punta Norte 12B",
+        "location": "Punta Norte, Monterrey"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea de casa con alberca en fraccionamiento Contry",
+        "title": "Casa Contry con Alberca",
+        "location": "Contry, Monterrey"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terraza con vista a la ciudad en penthouse de Cumbres",
+        "title": "Penthouse Cumbres Vista",
+        "location": "Cumbres, Monterrey"
+      }
+    ]
   },
   "property-tier-split-comparison-dual-cta": {
     "eyebrow": "Planes de administración",
@@ -17188,6 +20382,194 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "team-bento-asymmetric-leader-spotlight": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Un equipo construido alrededor de un mismo criterio",
+    "leader": {
+      "name": "Fernando Aguilar",
+      "role": "Director General y Fundador",
+      "quote": "Cada proyecto que aceptamos lleva mi nombre detrás; por eso revisamos personalmente cada entrega antes de que salga de nuestras manos.",
+      "image": "/images/about.svg",
+      "imageAlt": "Retrato de Fernando Aguilar, Director General y Fundador"
+    },
+    "members": [
+      {
+        "name": "Paola Rentería",
+        "role": "Directora de Operaciones",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paola Rentería, Directora de Operaciones"
+      },
+      {
+        "name": "Ismael Cordero",
+        "role": "Gerente Comercial",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ismael Cordero, Gerente Comercial"
+      },
+      {
+        "name": "Diana Salcido",
+        "role": "Contralora General",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diana Salcido, Contralora General"
+      },
+      {
+        "name": "Héctor Villagrán",
+        "role": "Gerente de Proyectos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Héctor Villagrán, Gerente de Proyectos"
+      },
+      {
+        "name": "Lucía Bermejo",
+        "role": "Coordinadora de Calidad",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Lucía Bermejo, Coordinadora de Calidad"
+      }
+    ]
+  },
+  "team-dark-directory-monospace-index": {
+    "eyebrow": "Directorio",
+    "title": "Equipo directivo",
+    "headingName": "Nombre",
+    "headingRole": "Puesto",
+    "headingDepartment": "Área",
+    "members": [
+      {
+        "index": "01",
+        "name": "Ricardo Salazar Moreno",
+        "role": "Director general",
+        "department": "Dirección",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ricardo Salazar Moreno, director general"
+      },
+      {
+        "index": "02",
+        "name": "Fernanda Ibarra Cruz",
+        "role": "Directora de operaciones",
+        "department": "Operaciones",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernanda Ibarra Cruz, directora de operaciones"
+      },
+      {
+        "index": "03",
+        "name": "Mauricio Peña Rivas",
+        "role": "Gerente de finanzas",
+        "department": "Finanzas",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mauricio Peña Rivas, gerente de finanzas"
+      },
+      {
+        "index": "04",
+        "name": "Daniela Cortés Vega",
+        "role": "Gerente de proyectos",
+        "department": "Proyectos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Daniela Cortés Vega, gerente de proyectos"
+      },
+      {
+        "index": "05",
+        "name": "Alejandro Rosales Núñez",
+        "role": "Coordinador legal",
+        "department": "Legal",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Alejandro Rosales Núñez, coordinador legal"
+      },
+      {
+        "index": "06",
+        "name": "Paola Guzmán Torres",
+        "role": "Coordinadora de recursos humanos",
+        "department": "Recursos humanos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paola Guzmán Torres, coordinadora de recursos humanos"
+      }
+    ]
+  },
+  "team-fullbleed-groupphoto-dark-overlay-editorial": {
+    "eyebrow": "El equipo",
+    "title": "Las personas detrás de cada proyecto",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo directivo de la firma reunido en la sala de juntas principal",
+    "caption": "Un grupo multidisciplinario de socios y consultores con más de quince años de experiencia conjunta en proyectos corporativos en México.",
+    "members": [
+      {
+        "name": "Renata Villaseñor",
+        "role": "Socia directora"
+      },
+      {
+        "name": "Ignacio Bermúdez",
+        "role": "Director de operaciones"
+      },
+      {
+        "name": "Paulina Cordero",
+        "role": "Directora de finanzas"
+      },
+      {
+        "name": "Emilio Salcedo",
+        "role": "Director comercial"
+      }
+    ]
+  },
+  "team-gradient-orgchart-hierarchy": {
+    "eyebrow": "Estructura organizacional",
+    "title": "El equipo directivo detrás de cada proyecto",
+    "lead": {
+      "name": "Ricardo Solórzano Peña",
+      "role": "Director General",
+      "image": "/images/about.svg",
+      "imageAlt": "Retrato de Ricardo Solórzano Peña, Director General"
+    },
+    "groups": [
+      {
+        "area": "Operaciones e Ingeniería",
+        "members": [
+          {
+            "name": "Fernanda Uribe Castellanos",
+            "role": "Gerente de Operaciones",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Fernanda Uribe Castellanos, Gerente de Operaciones"
+          },
+          {
+            "name": "Emilio Reséndiz Contreras",
+            "role": "Jefe de Ingeniería",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Emilio Reséndiz Contreras, Jefe de Ingeniería"
+          }
+        ]
+      },
+      {
+        "area": "Finanzas y Administración",
+        "members": [
+          {
+            "name": "Paulina Zamudio Herrera",
+            "role": "Gerente de Finanzas",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Paulina Zamudio Herrera, Gerente de Finanzas"
+          },
+          {
+            "name": "Ignacio Barajas Montoya",
+            "role": "Coordinador Administrativo",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Ignacio Barajas Montoya, Coordinador Administrativo"
+          }
+        ]
+      },
+      {
+        "area": "Comercial y Atención a Clientes",
+        "members": [
+          {
+            "name": "Daniela Ochoa Villaseñor",
+            "role": "Gerente Comercial",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Daniela Ochoa Villaseñor, Gerente Comercial"
+          },
+          {
+            "name": "Rodrigo Nájera Cisneros",
+            "role": "Coordinador de Atención a Clientes",
+            "image": "/images/about.svg",
+            "imageAlt": "Retrato de Rodrigo Nájera Cisneros, Coordinador de Atención a Clientes"
+          }
+        ]
+      }
+    ]
+  },
   "team-grid-hover-reveal": {
     "eyebrow": "Nuestro equipo",
     "title": "Las personas detrás de cada obra",
@@ -17620,6 +21002,40 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "team-pattern-warm-stacked-rows": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Las personas detrás de cada proyecto",
+    "members": [
+      {
+        "name": "Renata Solórzano",
+        "role": "Directora General",
+        "bio": "Encabeza la estrategia del despacho desde hace once años. Antes de fundar la firma trabajó en desarrollo corporativo para grupos industriales del norte del país.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Solórzano, Directora General"
+      },
+      {
+        "name": "Mauricio Iturbide",
+        "role": "Director de Operaciones",
+        "bio": "Coordina la ejecución de proyectos y la relación con proveedores clave. Su formación en ingeniería industrial le permite mantener los tiempos de entrega bajo control.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mauricio Iturbide, Director de Operaciones"
+      },
+      {
+        "name": "Camila Zaragoza",
+        "role": "Gerente de Cuentas",
+        "bio": "Acompaña a los clientes desde la propuesta inicial hasta el cierre del proyecto, cuidando que cada acuerdo se cumpla en tiempo y forma.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Camila Zaragoza, Gerente de Cuentas"
+      },
+      {
+        "name": "Diego Balderas",
+        "role": "Jefe de Finanzas",
+        "bio": "Supervisa la planeación financiera y el control presupuestal de la firma, con especial atención a la salud de caja de cada línea de negocio.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diego Balderas, Jefe de Finanzas"
+      }
+    ]
+  },
   "team-portraits-fullbleed": {
     "eyebrow": "Quiénes llevan su caso",
     "title": "Un equipo pequeño, con nombre y apellido en cada expediente",
@@ -17854,6 +21270,60 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     ],
     "footnote": "Los precios no incluyen IVA. Puede cambiar de rango en cualquier momento sin penalización ni permanencia forzosa.",
     "cta": "Calcular mi plan"
+  },
+  "team-staggered-diagonal-cards-tinted": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Personas que sostienen cada proyecto",
+    "members": [
+      {
+        "name": "Valentina Ochoa Prieto",
+        "role": "Directora General",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Valentina Ochoa Prieto, Directora General"
+      },
+      {
+        "name": "Emiliano Sandoval Ríos",
+        "role": "Director de Operaciones",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Emiliano Sandoval Ríos, Director de Operaciones"
+      },
+      {
+        "name": "Camila Restrepo Núñez",
+        "role": "Gerente de Cuentas Clave",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Camila Restrepo Núñez, Gerente de Cuentas Clave"
+      },
+      {
+        "name": "Santiago Vega Montemayor",
+        "role": "Líder de Ingeniería",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Santiago Vega Montemayor, Líder de Ingeniería"
+      },
+      {
+        "name": "Renata Cordero Salinas",
+        "role": "Gerente de Finanzas",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Cordero Salinas, Gerente de Finanzas"
+      },
+      {
+        "name": "Joaquín Barrientos Luna",
+        "role": "Consultor Senior",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Joaquín Barrientos Luna, Consultor Senior"
+      },
+      {
+        "name": "Ximena Poblano Cárdenas",
+        "role": "Coordinadora de Talento",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ximena Poblano Cárdenas, Coordinadora de Talento"
+      },
+      {
+        "name": "Mateo Villaseñor Guzmán",
+        "role": "Gerente de Proyecto",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mateo Villaseñor Guzmán, Gerente de Proyecto"
+      }
+    ]
   },
   "testimonial-and-case-study-grid": {
     "eyebrow": "Resultados verificables",
@@ -18897,9 +22367,19 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
     "keys": [
       "culinary-staff-showcase",
       "dining-categories-visual-grid",
+      "menu-beverage-pairing-dense-two-column",
       "menu-category-sections",
+      "menu-diagonal-chef-specials",
+      "menu-editorial-typographic-ledger-light",
       "menu-features-matrix",
+      "menu-fullbleed-image-dark-overlay",
+      "menu-fullbleed-split-image-right-warm",
+      "menu-gradient-theme-tasting-narrative",
+      "menu-pattern-bar-menu-dark",
       "menu-plated-item-card",
+      "menu-seasonal-tinted-stacked-cards",
+      "menu-split-dark-panel-ledger",
+      "menu-staggered-polaroid-brunch",
       "tasting-menu-pricing-tiers"
     ]
   },
@@ -18908,9 +22388,19 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
     "keys": [
       "blog-post-listing-divider-rows-excerpt-minimal",
       "department-based-jobs-listing",
+      "property-agent-spotlight-split-portrait",
+      "property-amenities-icon-grid-dense-dark",
+      "property-before-after-renovation-slider-stacked",
       "property-competitive-positioning-bilateral-split",
+      "property-development-timeline-diagonal-phases",
       "property-features-alternating-split-narrative",
+      "property-hero-fullbleed-image-dark-overlay-floating-price",
+      "property-investment-calculator-band-gradient",
+      "property-listing-grid-filterable-cards",
+      "property-map-split-listing-sidebar",
+      "property-neighborhood-stats-dark-band-full-bleed",
       "property-showcase-detailed",
+      "property-staggered-cards-masonry-editorial",
       "property-tier-split-comparison-dual-cta",
       "property-tiers-pricing-cards-highlighted",
       "real-estate-homepage-hero-stats-services-testimonial"
@@ -18919,7 +22409,19 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Salud y clínicas",
     "keys": [
+      "clinic-accreditation-badges-grid-technical",
+      "clinic-appointment-gradient-cta-dark",
+      "clinic-doctors-row-credentials-centered",
+      "clinic-facility-diagonal-gallery",
+      "clinic-fullbleed-image-dark-overlay-hero",
+      "clinic-hours-location-map-split",
+      "clinic-insurance-logos-trust-band",
       "clinic-metrics-animated-band",
+      "clinic-patient-faq-accordion-dense",
+      "clinic-split-booking-form-image",
+      "clinic-telemedicine-video-split-image",
+      "clinic-urgent-care-bold-banner",
+      "clinic-warm-testimonial-split-portrait",
       "specialties-grid",
       "treatment-procedure-steps-vertical"
     ]
@@ -18927,6 +22429,14 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Empleo",
     "keys": [
+      "careers-application-process-warm-steps",
+      "careers-benefits-icon-grid-tinted",
+      "careers-culture-gallery-masonry-quotes",
+      "careers-diagonal-stat-band-gradient",
+      "careers-employee-testimonials-staggered-cards",
+      "careers-fullbleed-image-dark-overlay-hero",
+      "careers-open-positions-dense-list-dark",
+      "careers-split-values-sticky-portrait",
       "role-detail-full-page-metadata-sections-apply-cta",
       "role-posting-apply-cta",
       "team-member-card-compact-centered-role-location-stats",
@@ -18944,8 +22454,13 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "gallery-filterable-portfolio",
       "gallery-hover-reveal-portfolio",
       "portfolio-bento-asymmetric-featured-plus-two",
+      "portfolio-blueprint-grid-dense-technical-labels",
+      "portfolio-editorial-magazine-spread-pullquote",
+      "portfolio-fullbleed-image-dark-overlay-stacked",
+      "portfolio-gradient-spotlight-carousel-single-case",
       "portfolio-grid-3column-with-metadata",
       "portfolio-grid-showcase",
+      "portfolio-staggered-cards-offset-airy",
       "process-how-it-works-horizontal-icon-trio",
       "process-how-it-works-simple-three-horizontal",
       "process-how-it-works-vertical-bordered-rail",
@@ -18988,6 +22503,9 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "product-bento-six-cell-animated",
       "product-card-interactive",
       "product-categories-animated",
+      "product-centered-gradient-spotlight-badges",
+      "product-dark-gradient-catalog-band",
+      "product-fullbleed-image-dark-overlay",
       "product-gallery-screenshot-featured-thumbstrip",
       "product-gallery-screenshot-featured-thumbstrip-inline",
       "product-grid-featured",
@@ -18995,13 +22513,18 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "product-plan-spotlight-single-centered-checklist",
       "product-pricing-split-2-tier-contrast",
       "product-showcase-framed-thumbnail-rail",
+      "product-split-tinted-specsheet",
       "product-spotlight-thumbnail-rail",
+      "product-stacked-rows-pattern-bg",
+      "product-staggered-cards-diagonal",
       "service-catalog-priced"
     ]
   },
   {
     "category": "Reseñas",
     "keys": [
+      "about-split-founder-portrait-quote",
+      "hero-split-testimonial-logo-strip",
       "quote-carousel-with-selector-chips",
       "reviews-carousel-selector-chips-blur-rotate",
       "reviews-carousel-with-images",
@@ -19042,6 +22565,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "comparison-us-vs-them-check-cross-duality",
       "competitive-advantage-comparison",
       "expandable-pricing-features",
+      "header-stacked-two-tier-centered-logo",
       "hospitality-tier-selector",
       "package-comparison-matrix",
       "pricing-accordion-expandible-vertical",
@@ -19103,15 +22627,22 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
     "keys": [
       "about-narrative-team-photo-metrics",
       "about-team-photo-narrative-metrics-split-two-column",
+      "contact-centered-warm-photo-team-band",
+      "team-bento-asymmetric-leader-spotlight",
+      "team-dark-directory-monospace-index",
+      "team-fullbleed-groupphoto-dark-overlay-editorial",
+      "team-gradient-orgchart-hierarchy",
       "team-grid-hover-reveal",
       "team-lineup-centered-portrait",
       "team-member-card-compact-row",
       "team-member-profile-individual-cover",
       "team-members-grid-basic",
       "team-org-culture-alumni",
+      "team-pattern-warm-stacked-rows",
       "team-portraits-fullbleed",
       "team-portraits-grid-hover-details",
-      "team-row-portrait-showcase"
+      "team-row-portrait-showcase",
+      "team-staggered-diagonal-cards-tinted"
     ]
   },
   {
@@ -19124,6 +22655,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "footer-compact-inline-row",
       "footer-diagonal-stripe",
       "footer-four-column-monochrome-wordmark-minimal",
+      "footer-fullbleed-image-dark-overlay",
       "footer-giant-wordmark-statement-close",
       "footer-grid-blueprint-bordered",
       "footer-inline-blur-wordmark-compact",
@@ -19143,17 +22675,21 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
     "category": "Headers y nav",
     "keys": [
       "header-centered-underline-hover",
+      "header-diagonal-gradient-split-dark",
       "header-dropdown-megamenu-reveal",
       "header-editorial-wordmark-slashes",
       "header-editorial-wordmark-slashes-baseline-rule",
       "header-flat-monochrome-drawer",
       "header-full-width-marketing-cta",
       "header-full-width-responsive",
+      "header-fullbleed-image-dark-overlay",
+      "header-fullbleed-warm-paper-texture-editorial",
       "header-search-expandable-utilities",
       "header-split-asymmetric-auth-cluster",
       "header-split-auth",
       "header-split-auth-cluster",
       "header-split-minimal-brand-auth",
+      "header-staggered-cards-dotted-pattern",
       "header-sticky-blurred-navigation",
       "header-sticky-morphing-scroll-animation",
       "header-sticky-scroll-morphing-blur",
@@ -19176,15 +22712,18 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "contact-channel-list-split-form",
       "contact-channels-list-form-scroll-stagger",
       "contact-channels-list-form-split-reveal",
+      "contact-dark-stacked-editorial-minimal",
       "contact-form-centered-card",
       "contact-form-map-office-locations",
       "contact-form-parallax-support",
       "contact-form-parallax-support-visual",
       "contact-form-topic-pills",
       "contact-form-visual-panel-parallax",
+      "contact-fullbleed-image-dark-overlay",
       "contact-image-floating-card",
       "contact-locations-map-form",
       "contact-map-and-locations-form-split",
+      "contact-pattern-tinted-staggered-cards",
       "contact-single-card-form-privacy",
       "organization-contact-card",
       "organization-profile-card-member-avatar-stack",
@@ -19224,6 +22763,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
     "category": "Cifras y resultados",
     "keys": [
       "about-capabilities-vertical-list-accent-bar-stat-expand",
+      "about-diagonal-split-image-stats",
       "about-mission-centered-four-metrics-strip",
       "about-mission-centered-with-metric-underline",
       "about-mission-statement-metrics-strip",
@@ -19233,14 +22773,17 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "analytics-kpi-chart-with-trends",
       "analytics-kpi-summary-row-area-chart-badge",
       "company-mission-intro-with-metrics",
+      "cta-split-asymmetric-stat-callout",
       "empty-state-dual-action-centered",
       "gallery-grid-metrics-column",
       "gallery-grid-uniform-with-stats-sidebar",
       "gallery-grid-with-stats-column",
+      "hero-dense-two-line-ticker-stats",
       "hero-editorial-with-stat-hairline",
       "hero-email-waitlist-stats-flow",
       "hero-left-aligned-dual-cta-metrics-inline",
       "hero-minimalist-statement",
+      "hero-split-stat-band-bottom",
       "hero-with-analytics-dashboard",
       "kpi-cards-grid-trend-badges-activity",
       "kpi-tiles-horizontal-grid-with-delta",
@@ -19262,6 +22805,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Galerías",
     "keys": [
+      "about-asymmetric-bento-culture-gallery",
       "gallery-bento-asymmetric-hero-tiles-supporting",
       "gallery-bento-hero-supporting-tiles",
       "gallery-editorial-grayscale-indexed",
@@ -19302,6 +22846,11 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "cta-band-horizontal-blur-conversion",
       "cta-band-horizontal-blur-stagger-dual-action",
       "cta-card-minimal-bordered-centered-button",
+      "cta-diagonal-split-foreground-dark",
+      "cta-fullbleed-image-dark-overlay-centered",
+      "cta-gradient-theme-radial-centered",
+      "cta-pattern-grid-technical-dark",
+      "cta-staggered-cards-dense-triple-action",
       "email-capture-band-horizontal",
       "email-capture-closing",
       "full-width-conversion-banner",
@@ -19340,7 +22889,14 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Nosotros",
     "keys": [
+      "about-blueprint-technical-grid-pattern",
+      "about-cards-staggered-values-vertical-offset",
+      "about-dark-manifesto-centered",
+      "about-fullbleed-image-dark-overlay",
+      "about-gradient-theme-centered-pillars",
+      "about-tinted-facts-dense-datasheet",
       "about-values-alternating-features",
+      "about-warm-editorial-magazine-dropcap",
       "company-history-alternating-spine",
       "features-alternating-split-bullet-narrative",
       "mission-values-grid",
@@ -19369,6 +22925,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "features-checklist-dense-two-column-marks",
       "features-dense-checkbox-list",
       "features-tabbed-icon-grid",
+      "hero-stacked-cards-service-trio",
       "interactive-asymmetric-features-bento",
       "item-list-row-metadata",
       "public-roadmap-voteable-features",
@@ -19380,12 +22937,28 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
   {
     "category": "Heroes",
     "keys": [
+      "hero-asymmetric-offset-image-corner",
+      "hero-centered-minimal-oversized-type",
+      "hero-centered-video-frame-mockup",
+      "hero-countdown-launch-teaser",
       "hero-customer-success-story",
+      "hero-dark-gradient-radial-glow",
+      "hero-diagonal-color-block-typographic",
+      "hero-fullbleed-image-bottom-content",
+      "hero-fullbleed-image-centered-glass-card",
+      "hero-fullbleed-image-dark-overlay",
       "hero-image-carousel",
+      "hero-map-location-split",
+      "hero-marquee-scrolling-text-band",
       "hero-mobile-app-showcase",
       "hero-parallax-editorial-split",
+      "hero-pattern-grid-technical-blueprint",
+      "hero-split-diagonal-clip-image",
+      "hero-split-form-lead-capture",
       "hero-split-image-showcase",
-      "hero-subscription-selector"
+      "hero-subscription-selector",
+      "hero-tinted-secondary-bg-badge-row",
+      "hero-warm-tinted-editorial-serif"
     ]
   },
   {

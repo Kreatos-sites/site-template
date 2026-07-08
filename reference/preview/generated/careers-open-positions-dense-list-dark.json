@@ -1,0 +1,70 @@
+{
+  "key": "careers-open-positions-dense-list-dark",
+  "pascalName": "CareersOpenPositionsDenseListDark",
+  "category": "Empleo",
+  "catalogRow": "| `careers-open-positions-dense-list-dark` | careers-open-positions-dense-list-dark — listado denso de vacantes en filas horizontales compactas sobre fondo oscuro, sin tarjetas ni imágenes, para bolsas de trabajo con muchas posiciones activas | { eyebrow, title, description, emptyStateLabel, positions: [{ title, department, location, type, href }] } |",
+  "fixture": {
+    "eyebrow": "Vacantes abiertas",
+    "title": "Posiciones activas en la operación",
+    "description": "Consulte las vacantes disponibles por área y ubicación. Damos seguimiento a cada postulación en un plazo máximo de diez días hábiles.",
+    "emptyStateLabel": "No hay vacantes activas por el momento. Escríbanos a reclutamiento@empresa.com.mx para registrar su perfil en la bolsa de trabajo.",
+    "positions": [
+      {
+        "title": "Ingeniero de procesos industriales",
+        "department": "Operaciones",
+        "location": "Monterrey, N.L.",
+        "type": "Tiempo completo",
+        "href": "/carreras/ingeniero-procesos-industriales"
+      },
+      {
+        "title": "Analista de cadena de suministro",
+        "department": "Logística",
+        "location": "Querétaro, Qro.",
+        "type": "Tiempo completo",
+        "href": "/carreras/analista-cadena-suministro"
+      },
+      {
+        "title": "Supervisor de control de calidad",
+        "department": "Calidad",
+        "location": "Monterrey, N.L.",
+        "type": "Tiempo completo",
+        "href": "/carreras/supervisor-control-calidad"
+      },
+      {
+        "title": "Coordinador de mantenimiento eléctrico",
+        "department": "Mantenimiento",
+        "location": "Saltillo, Coah.",
+        "type": "Tiempo completo",
+        "href": "/carreras/coordinador-mantenimiento-electrico"
+      },
+      {
+        "title": "Ejecutivo de cuentas corporativas",
+        "department": "Ventas",
+        "location": "Ciudad de México",
+        "type": "Tiempo completo",
+        "href": "/carreras/ejecutivo-cuentas-corporativas"
+      },
+      {
+        "title": "Auxiliar contable",
+        "department": "Finanzas",
+        "location": "Monterrey, N.L.",
+        "type": "Medio tiempo",
+        "href": "/carreras/auxiliar-contable"
+      },
+      {
+        "title": "Especialista en seguridad e higiene",
+        "department": "Recursos Humanos",
+        "location": "Querétaro, Qro.",
+        "type": "Tiempo completo",
+        "href": "/carreras/especialista-seguridad-higiene"
+      },
+      {
+        "title": "Practicante de ingeniería industrial",
+        "department": "Operaciones",
+        "location": "Saltillo, Coah.",
+        "type": "Prácticas profesionales",
+        "href": "/carreras/practicante-ingenieria-industrial"
+      }
+    ]
+  }
+}

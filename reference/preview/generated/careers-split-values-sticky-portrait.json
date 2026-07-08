@@ -1,0 +1,34 @@
+{
+  "key": "careers-split-values-sticky-portrait",
+  "pascalName": "CareersSplitValuesStickyPortrait",
+  "category": "Empleo",
+  "catalogRow": "| `careers-split-values-sticky-portrait` | careers-split-values-sticky-portrait — split asimétrico con lista numerada de valores a la izquierda y retrato de equipo sticky a la derecha | { eyebrow, title, values: [{ number, title, description }], image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Cultura",
+    "title": "Lo que nos mueve todos los días",
+    "values": [
+      {
+        "number": "01",
+        "title": "Rigor con propósito",
+        "description": "Cada entregable se revisa contra el objetivo del cliente antes de considerarse terminado, sin atajos."
+      },
+      {
+        "number": "02",
+        "title": "Transparencia constante",
+        "description": "Compartimos avances, riesgos y decisiones abiertamente, dentro del equipo y con quienes nos contratan."
+      },
+      {
+        "number": "03",
+        "title": "Autonomía con acompañamiento",
+        "description": "Cada persona decide cómo llegar al resultado; el equipo está cerca para resolver dudas, no para vigilar."
+      },
+      {
+        "number": "04",
+        "title": "Aprendizaje continuo",
+        "description": "Dedicamos tiempo cada semana a revisar lo que funcionó y lo que no, y lo aplicamos al siguiente proyecto."
+      }
+    ],
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de la empresa reunido en la oficina"
+  }
+}

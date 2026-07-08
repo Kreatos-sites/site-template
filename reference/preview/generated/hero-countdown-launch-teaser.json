@@ -1,0 +1,21 @@
+{
+  "key": "hero-countdown-launch-teaser",
+  "pascalName": "HeroCountdownLaunchTeaser",
+  "category": "Heroes",
+  "catalogRow": "| `hero-countdown-launch-teaser` | hero-countdown-launch-teaser — hero de cuenta regresiva con fondo degradado sutil en el color primary, insignia \"Próximamente\" con fecha, título centrado, fila de unidades de tiempo y CTA de notificación; para campañas o lanzamientos | { badge, date, title, description, units[]{value,label}, ctaLabel, ctaHref, ctaNote } |",
+  "fixture": {
+    "badge": "Próximamente",
+    "date": "Lanzamiento: 15 de septiembre de 2026",
+    "title": "Una nueva forma de gestionar sus operaciones está por llegar",
+    "description": "Estamos preparando el lanzamiento de nuestra plataforma para equipos corporativos en México. Sea de los primeros en conocerla.",
+    "units": [
+      { "value": "42", "label": "Días" },
+      { "value": "18", "label": "Horas" },
+      { "value": "05", "label": "Minutos" },
+      { "value": "37", "label": "Segundos" }
+    ],
+    "ctaLabel": "Avísenme del lanzamiento",
+    "ctaHref": "/contacto",
+    "ctaNote": "Sin costo, cancele su suscripción cuando lo desee."
+  }
+}

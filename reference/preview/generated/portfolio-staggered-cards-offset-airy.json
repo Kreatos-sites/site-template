@@ -1,0 +1,55 @@
+{
+  "key": "portfolio-staggered-cards-offset-airy",
+  "pascalName": "PortfolioStaggeredCardsOffsetAiry",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-staggered-cards-offset-airy` | portfolio-staggered-cards-offset-airy — grid editorial de 3 columnas con desfase vertical alterno (columna central más abajo) sobre fondo tintado, tarjetas redondeadas con sombra ligera | { eyebrow, title, description, projects: [{ image, imageAlt, title, category, year }] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos que muestran nuestro criterio",
+    "description": "Una selección de trabajos recientes donde acompañamos a nuestros clientes desde el diagnóstico hasta la puesta en marcha.",
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada renovada de oficinas corporativas en Monterrey",
+        "title": "Renovación de oficinas corporativas",
+        "category": "Arquitectura comercial",
+        "year": "2025"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior de sala de juntas con mobiliario a medida",
+        "title": "Sala de juntas a medida",
+        "category": "Diseño de interiores",
+        "year": "2025"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Nave industrial con nuevo sistema de iluminación",
+        "title": "Modernización de nave industrial",
+        "category": "Ingeniería de instalaciones",
+        "year": "2024"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Recepción de despacho jurídico con acabados en madera",
+        "title": "Recepción para despacho jurídico",
+        "category": "Diseño de interiores",
+        "year": "2024"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Centro de distribución con andenes ampliados",
+        "title": "Ampliación de centro de distribución",
+        "category": "Arquitectura industrial",
+        "year": "2024"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terraza corporativa con áreas verdes",
+        "title": "Terraza corporativa y áreas verdes",
+        "category": "Paisajismo",
+        "year": "2023"
+      }
+    ]
+  }
+}

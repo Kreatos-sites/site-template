@@ -1,0 +1,71 @@
+{
+  "key": "product-staggered-cards-diagonal",
+  "pascalName": "ProductStaggeredCardsDiagonal",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-staggered-cards-diagonal` | product-staggered-cards-diagonal — grid de catálogo boutique con offset vertical alternado por tarjeta, aire editorial | { eyebrow, title, description, linkLabel, linkHref, products: { image, imageAlt, collection, name, price }[] } |",
+  "fixture": {
+    "eyebrow": "Catálogo",
+    "title": "Piezas de temporada",
+    "description": "Selección curada de piezas producidas en talleres artesanales de Guadalajara y Oaxaca, disponibles en tiraje limitado.",
+    "linkLabel": "Ver catálogo completo",
+    "linkHref": "/catalogo",
+    "products": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Jarrón de barro negro con acabado mate sobre superficie de madera clara",
+        "collection": "Barro Negro",
+        "name": "Jarrón Amatlán",
+        "price": "$2,450 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Manta tejida a mano en tonos tierra sobre respaldo de silla",
+        "collection": "Telar de Pedal",
+        "name": "Manta Tequio",
+        "price": "$1,890 MXN"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Set de tres tazas de cerámica esmaltada en tonos verde salvia",
+        "collection": "Alta Temperatura",
+        "name": "Tazas Xochimilco",
+        "price": "$980 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Canasta de fibra de palma tejida en espiral con asas de cuero",
+        "collection": "Fibra Natural",
+        "name": "Canasta Ixtlán",
+        "price": "$1,320 MXN"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Candelero de latón cepillado con base circular",
+        "collection": "Metales",
+        "name": "Candelero Cobre",
+        "price": "$1,150 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cojín bordado a mano con motivos florales sobre lino crudo",
+        "collection": "Bordado Textil",
+        "name": "Cojín Frida",
+        "price": "$1,650 MXN"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Charola de madera de parota con detalles tallados en el borde",
+        "collection": "Madera Maciza",
+        "name": "Charola Michoacán",
+        "price": "$2,100 MXN"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Alfombra de lana tejida con patrón geométrico en tonos neutros",
+        "collection": "Telar de Pedal",
+        "name": "Tapete Zapoteco",
+        "price": "$3,780 MXN"
+      }
+    ]
+  }
+}

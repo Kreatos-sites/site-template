@@ -1,0 +1,24 @@
+{
+  "key": "hero-map-location-split",
+  "pascalName": "HeroMapLocationSplit",
+  "category": "Heroes",
+  "catalogRow": "| `hero-map-location-split` | hero-map-location-split — split dos columnas: texto y CTA a la izquierda, panel de mapa estilizado con rutas, pin y tarjeta flotante de dirección/coordenadas a la derecha (empresas con presencia física) | { eyebrow, title, subtitle, primaryCta: {label, href}, secondaryCta: {label, href}, mapLabel, metrics: {value, label}[3], floatingCard: {label, address, coordinates} } |",
+  "fixture": {
+    "eyebrow": "Cobertura nacional",
+    "title": "Distribución con presencia en todo el país",
+    "subtitle": "Operamos una red de centros logísticos estratégicamente ubicados para que su carga llegue a tiempo, sin importar el destino.",
+    "primaryCta": { "label": "Cotizar envío", "href": "#contacto" },
+    "secondaryCta": { "label": "Ver cobertura", "href": "#cobertura" },
+    "mapLabel": "Mapa estilizado con rutas de distribución y la ubicación del centro logístico principal",
+    "metrics": [
+      { "value": "18", "label": "Centros logísticos" },
+      { "value": "32", "label": "Estados con cobertura" },
+      { "value": "24/7", "label": "Monitoreo de flota" }
+    ],
+    "floatingCard": {
+      "label": "Centro logístico central",
+      "address": "Parque Industrial Norte, Apodaca, Nuevo León",
+      "coordinates": "25.7785° N, 100.1882° O"
+    }
+  }
+}

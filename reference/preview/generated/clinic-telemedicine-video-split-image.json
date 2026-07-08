@@ -1,0 +1,19 @@
+{
+  "key": "clinic-telemedicine-video-split-image",
+  "pascalName": "ClinicTelemedicineVideoSplitImage",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-telemedicine-video-split-image` | clinic-telemedicine-video-split-image — split asimétrico aireado con beneficios de consulta remota a la izquierda y mockup de videollamada con esquinas redondeadas a la derecha, sin overlay | { eyebrow, title, description, benefits: [{ title, text }], cta: { label, href }, image, imageAlt }",
+  "fixture": {
+    "eyebrow": "Telemedicina",
+    "title": "Consulte con su médico desde donde se encuentre",
+    "description": "Nuestra plataforma de telemedicina le permite agendar y realizar consultas por videollamada con especialistas certificados, sin salir de casa ni de la oficina.",
+    "benefits": [
+      { "title": "Citas el mismo día", "text": "Agende su consulta en línea y reciba confirmación en minutos, con horarios disponibles todos los días de la semana." },
+      { "title": "Expediente digital seguro", "text": "Acceda a su historial clínico, recetas y resultados de laboratorio desde cualquier dispositivo, con cifrado de extremo a extremo." },
+      { "title": "Seguimiento personalizado", "text": "Su médico da seguimiento a su tratamiento mediante mensajes y videollamadas de control sin costo adicional." }
+    ],
+    "cta": { "label": "Agendar consulta virtual", "href": "/contacto" },
+    "image": "/images/about.svg",
+    "imageAlt": "Médico realizando una consulta por videollamada en la aplicación de telemedicina"
+  }
+}

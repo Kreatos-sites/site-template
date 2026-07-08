@@ -1,0 +1,53 @@
+{
+  "key": "product-stacked-rows-pattern-bg",
+  "pascalName": "ProductStackedRowsPatternBg",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-stacked-rows-pattern-bg` | product-stacked-rows-pattern-bg — filas apiladas editoriales imagen/texto alternado con fondo de líneas diagonales sutiles | { eyebrow, title, description, products: [{ number, name, tagline, description, detailLabel, detail, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Colección insignia",
+    "title": "Piezas que definen nuestro taller",
+    "description": "Cuatro productos que resumen veinte años de trabajo en madera maciza, cada uno desarrollado a lo largo de varias temporadas junto con nuestros talleres aliados en Michoacán.",
+    "products": [
+      {
+        "number": "01",
+        "name": "Mesa Comedor Roble Sereno",
+        "tagline": "Edición limitada de temporada",
+        "description": "Tablero de una sola pieza de roble mexicano, secado al aire durante catorce meses antes de ensamblarse. Cada mesa lleva grabado el número de lote y el nombre del artesano responsable del acabado.",
+        "detailLabel": "Tiempo de fabricación",
+        "detail": "10 a 12 semanas",
+        "image": "/images/hero.svg",
+        "imageAlt": "Mesa de comedor de roble macizo en taller iluminado con luz natural"
+      },
+      {
+        "number": "02",
+        "name": "Silla Balancín Encino",
+        "tagline": "Rediseño de un clásico",
+        "description": "Curvas obtenidas por vaporizado de madera, sin cortes ni uniones visibles en el respaldo. El asiento se tapiza a mano con lino crudo teñido en pequeños lotes por un taller textil en Guanajuato.",
+        "detailLabel": "Peso soportado",
+        "detail": "Hasta 140 kg",
+        "image": "/images/about.svg",
+        "imageAlt": "Silla balancín de encino junto a ventanal con luz cálida"
+      },
+      {
+        "number": "03",
+        "name": "Alacena Modular Nogal",
+        "tagline": "Almacenaje a la medida",
+        "description": "Sistema de tres módulos que se combinan según el espacio de cada cocina. Las bisagras se fabrican en latón macizo y se pulen a mano para que el brillo dure décadas sin recubrimientos sintéticos.",
+        "detailLabel": "Configuraciones disponibles",
+        "detail": "12 combinaciones",
+        "image": "/images/hero.svg",
+        "imageAlt": "Alacena modular de nogal con puertas entreabiertas"
+      },
+      {
+        "number": "04",
+        "name": "Banco Bajo Parota",
+        "tagline": "Pieza de entrada a la colección",
+        "description": "Tallado a partir de un solo tronco de parota recuperada de mantenimiento forestal certificado. No hay dos piezas iguales: el veteado natural define el diseño final de cada banco.",
+        "detailLabel": "Origen de la madera",
+        "detail": "Bosques certificados de Jalisco",
+        "image": "/images/about.svg",
+        "imageAlt": "Banco bajo de madera de parota con veteado natural visible"
+      }
+    ]
+  }
+}

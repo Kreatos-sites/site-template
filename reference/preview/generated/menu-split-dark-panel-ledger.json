@@ -1,0 +1,71 @@
+{
+  "key": "menu-split-dark-panel-ledger",
+  "pascalName": "MenuSplitDarkPanelLedger",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-split-dark-panel-ledger` | menu-split-dark-panel-ledger — split oscuro con lista tipo libro mayor a la izquierda y fotografía a sangre completa a la derecha | { eyebrow, title, description, image, imageAlt, categories: [{ name, items: [{ name, price, description? }] }] } |",
+  "fixture": {
+    "eyebrow": "Carta",
+    "title": "Nuestro menú de temporada",
+    "description": "Una selección breve de platillos preparados con ingredientes de productores locales, renovada cada estación.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Mesa servida en el comedor principal con iluminación cálida al atardecer",
+    "categories": [
+      {
+        "name": "Entradas",
+        "items": [
+          {
+            "name": "Tartar de atún aleta amarilla",
+            "price": "$185",
+            "description": "Aguacate, soya oscura, aceite de ajonjolí tostado"
+          },
+          {
+            "name": "Carpaccio de betabel asado",
+            "price": "$145",
+            "description": "Queso de cabra, nuez garapiñada, vinagreta de naranja"
+          },
+          {
+            "name": "Consomé de hongos silvestres",
+            "price": "$120"
+          }
+        ]
+      },
+      {
+        "name": "Fuertes",
+        "items": [
+          {
+            "name": "Costilla de res braseada 12 horas",
+            "price": "$420",
+            "description": "Puré de papa trufado, jus de vino tinto"
+          },
+          {
+            "name": "Pesca del día a la parrilla",
+            "price": "$385",
+            "description": "Verduras de temporada, salsa beurre blanc"
+          },
+          {
+            "name": "Risotto de setas y parmesano añejo",
+            "price": "$310"
+          },
+          {
+            "name": "Pato confitado con ciruela pasa",
+            "price": "$395"
+          }
+        ]
+      },
+      {
+        "name": "Postres",
+        "items": [
+          {
+            "name": "Tarta de chocolate 70% cacao",
+            "price": "$135",
+            "description": "Helado de vainilla de Papantla"
+          },
+          {
+            "name": "Crème brûlée de café de olla",
+            "price": "$115"
+          }
+        ]
+      }
+    ]
+  }
+}

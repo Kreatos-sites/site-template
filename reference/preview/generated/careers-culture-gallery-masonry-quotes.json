@@ -1,0 +1,87 @@
+{
+  "key": "careers-culture-gallery-masonry-quotes",
+  "pascalName": "CareersCultureGalleryMasonryQuotes",
+  "category": "Empleo",
+  "catalogRow": "| `careers-culture-gallery-masonry-quotes` | careers-culture-gallery-masonry-quotes — muro masonry denso de fotos candid del equipo con tarjetas de cita intercaladas sobre bg-secondary, colage editorial sin bordes duros | { eyebrow, title, items: [{ type: \"image/quote\", image?, imageAlt?, quote?, name?, role?, size: \"sm/md/lg\" }] } |",
+  "fixture": {
+    "eyebrow": "Vida en la empresa",
+    "title": "Así se vive el día a día en nuestros equipos",
+    "items": [
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de desarrollo trabajando en la sala de proyectos",
+        "size": "lg"
+      },
+      {
+        "type": "quote",
+        "quote": "Aquí nadie te dice que sigas el manual sin preguntar por qué.",
+        "name": "Renata Solís",
+        "role": "Líder de Producto",
+        "size": "sm"
+      },
+      {
+        "type": "image",
+        "image": "/images/hero.svg",
+        "imageAlt": "Colaboradores conversando durante el receso de la mañana",
+        "size": "sm"
+      },
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Celebración del equipo tras el cierre de un proyecto",
+        "size": "md"
+      },
+      {
+        "type": "image",
+        "image": "/images/hero.svg",
+        "imageAlt": "Sesión de retroalimentación entre compañeros de diseño",
+        "size": "sm"
+      },
+      {
+        "type": "quote",
+        "quote": "Llevo tres años y sigo aprendiendo algo nuevo cada semana.",
+        "name": "Édgar Villanueva",
+        "role": "Especialista en Operaciones",
+        "size": "md"
+      },
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo comercial en reunión de seguimiento de clientes",
+        "size": "sm"
+      },
+      {
+        "type": "image",
+        "image": "/images/hero.svg",
+        "imageAlt": "Nuevas contrataciones durante su primera semana",
+        "size": "lg"
+      },
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Almuerzo de equipo en la terraza de la oficina",
+        "size": "sm"
+      },
+      {
+        "type": "quote",
+        "quote": "Mi jefa fue mi mentora antes de ser mi jefa, eso lo dice todo.",
+        "name": "Paulina Ibarra",
+        "role": "Coordinadora de Talento",
+        "size": "sm"
+      },
+      {
+        "type": "image",
+        "image": "/images/hero.svg",
+        "imageAlt": "Sesión de capacitación técnica en la sala principal",
+        "size": "md"
+      },
+      {
+        "type": "image",
+        "image": "/images/about.svg",
+        "imageAlt": "Equipo de soporte al cliente en jornada de trabajo",
+        "size": "sm"
+      }
+    ]
+  }
+}

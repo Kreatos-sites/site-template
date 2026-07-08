@@ -1,0 +1,20 @@
+{
+  "key": "header-staggered-cards-dotted-pattern",
+  "pascalName": "HeaderStaggeredCardsDottedPattern",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-staggered-cards-dotted-pattern` | header-staggered-cards-dotted-pattern — encabezado técnico sobre patrón de puntos con enlaces en tarjetas escalonadas par/impar, borde fino tipo ingeniería | { badgeLabel: string, logo: string, navLabel: string, nav: [{ label: string, href: string }], ctaLabel: string, ctaHref: string, menuLabel: string } |",
+  "fixture": {
+    "badgeLabel": "Ingeniería y obra civil desde 1998",
+    "logo": "Estructura Vega",
+    "navLabel": "Navegación principal",
+    "nav": [
+      { "label": "Proyectos", "href": "#proyectos" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Certificaciones", "href": "#certificaciones" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#contacto",
+    "menuLabel": "Abrir menú de navegación"
+  }
+}

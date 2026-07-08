@@ -1,0 +1,15 @@
+{
+  "key": "hero-fullbleed-image-centered-glass-card",
+  "pascalName": "HeroFullbleedImageCenteredGlassCard",
+  "category": "Heroes",
+  "catalogRow": "| `hero-fullbleed-image-centered-glass-card` | hero-fullbleed-image-centered-glass-card — imagen a sangre completa con overlay oscuro leve y tarjeta glassmorphism centrada (blur + borde sutil) con eyebrow, título, subtítulo y CTA | { eyebrow, title, subtitle, cta, ctaHref, image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Asesoría patrimonial",
+    "title": "Estrategias financieras para proteger su legado",
+    "subtitle": "Acompañamos a familias empresarias mexicanas en la planeación patrimonial, fiscal y sucesoria de sus activos, con un equipo dedicado a cada cliente.",
+    "cta": "Agendar consulta privada",
+    "ctaHref": "/contacto",
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada de un despacho financiero al atardecer"
+  }
+}

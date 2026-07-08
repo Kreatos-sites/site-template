@@ -1,6 +1,13 @@
 import type { ComponentType } from "react";
 
+import { AboutAsymmetricBentoCultureGallery } from "./about-asymmetric-bento-culture-gallery";
+import { AboutBlueprintTechnicalGridPattern } from "./about-blueprint-technical-grid-pattern";
 import { AboutCapabilitiesVerticalListAccentBarStatExpand } from "./about-capabilities-vertical-list-accent-bar-stat-expand";
+import { AboutCardsStaggeredValuesVerticalOffset } from "./about-cards-staggered-values-vertical-offset";
+import { AboutDarkManifestoCentered } from "./about-dark-manifesto-centered";
+import { AboutDiagonalSplitImageStats } from "./about-diagonal-split-image-stats";
+import { AboutFullbleedImageDarkOverlay } from "./about-fullbleed-image-dark-overlay";
+import { AboutGradientThemeCenteredPillars } from "./about-gradient-theme-centered-pillars";
 import { AboutMissionCenteredFourMetricsStrip } from "./about-mission-centered-four-metrics-strip";
 import { AboutMissionCenteredWithMetricUnderline } from "./about-mission-centered-with-metric-underline";
 import { AboutMissionStatementMetricsStrip } from "./about-mission-statement-metrics-strip";
@@ -10,9 +17,12 @@ import { AboutOrganizationProfileCardCoverStatsTabs } from "./about-organization
 import { AboutOrganizationProfileStats } from "./about-organization-profile-stats";
 import { AboutPartnersSplitNarrativeLogoMarksBlurReveal } from "./about-partners-split-narrative-logo-marks-blur-reveal";
 import { AboutSectionCenteredEyebrowMissionMetrics } from "./about-section-centered-eyebrow-mission-metrics";
+import { AboutSplitFounderPortraitQuote } from "./about-split-founder-portrait-quote";
 import { AboutTeamPhotoNarrativeMetricsSplitTwoColumn } from "./about-team-photo-narrative-metrics-split-two-column";
 import { AboutTimelineBilateralAlternatingSpine } from "./about-timeline-bilateral-alternating-spine";
+import { AboutTintedFactsDenseDatasheet } from "./about-tinted-facts-dense-datasheet";
 import { AboutValuesAlternatingFeatures } from "./about-values-alternating-features";
+import { AboutWarmEditorialMagazineDropcap } from "./about-warm-editorial-magazine-dropcap";
 import { AccordionFaqSingleColumn } from "./accordion-faq-single-column";
 import { AgentContactFormMapLocations } from "./agent-contact-form-map-locations";
 import { AnalyticsChartWithKpiSummary } from "./analytics-chart-with-kpi-summary";
@@ -35,9 +45,29 @@ import { BlogPostListingDividerRowsExcerptMinimal } from "./blog-post-listing-di
 import { BorderedConversionPanelSplit } from "./bordered-conversion-panel-split";
 import { BrandPartnersGrid } from "./brand-partners-grid";
 import { CallBookingClosure } from "./call-booking-closure";
+import { CareersApplicationProcessWarmSteps } from "./careers-application-process-warm-steps";
+import { CareersBenefitsIconGridTinted } from "./careers-benefits-icon-grid-tinted";
+import { CareersCultureGalleryMasonryQuotes } from "./careers-culture-gallery-masonry-quotes";
+import { CareersDiagonalStatBandGradient } from "./careers-diagonal-stat-band-gradient";
+import { CareersEmployeeTestimonialsStaggeredCards } from "./careers-employee-testimonials-staggered-cards";
+import { CareersFullbleedImageDarkOverlayHero } from "./careers-fullbleed-image-dark-overlay-hero";
+import { CareersOpenPositionsDenseListDark } from "./careers-open-positions-dense-list-dark";
+import { CareersSplitValuesStickyPortrait } from "./careers-split-values-sticky-portrait";
 import { CaseStudyImmersive } from "./case-study-immersive";
 import { ChangelogVersionedGroupedRail } from "./changelog-versioned-grouped-rail";
+import { ClinicAccreditationBadgesGridTechnical } from "./clinic-accreditation-badges-grid-technical";
+import { ClinicAppointmentGradientCtaDark } from "./clinic-appointment-gradient-cta-dark";
+import { ClinicDoctorsRowCredentialsCentered } from "./clinic-doctors-row-credentials-centered";
+import { ClinicFacilityDiagonalGallery } from "./clinic-facility-diagonal-gallery";
+import { ClinicFullbleedImageDarkOverlayHero } from "./clinic-fullbleed-image-dark-overlay-hero";
+import { ClinicHoursLocationMapSplit } from "./clinic-hours-location-map-split";
+import { ClinicInsuranceLogosTrustBand } from "./clinic-insurance-logos-trust-band";
 import { ClinicMetricsAnimatedBand } from "./clinic-metrics-animated-band";
+import { ClinicPatientFaqAccordionDense } from "./clinic-patient-faq-accordion-dense";
+import { ClinicSplitBookingFormImage } from "./clinic-split-booking-form-image";
+import { ClinicTelemedicineVideoSplitImage } from "./clinic-telemedicine-video-split-image";
+import { ClinicUrgentCareBoldBanner } from "./clinic-urgent-care-bold-banner";
+import { ClinicWarmTestimonialSplitPortrait } from "./clinic-warm-testimonial-split-portrait";
 import { CompanyHistoryAlternatingSpine } from "./company-history-alternating-spine";
 import { CompanyJourneyTimelineVerticalRail } from "./company-journey-timeline-vertical-rail";
 import { CompanyMissionIntroWithMetrics } from "./company-mission-intro-with-metrics";
@@ -49,25 +79,35 @@ import { ComparisonTable3PlanMatrix } from "./comparison-table-3-plan-matrix";
 import { ComparisonUsVsThemCheckCrossDuality } from "./comparison-us-vs-them-check-cross-duality";
 import { CompetitiveAdvantageComparison } from "./competitive-advantage-comparison";
 import { ContactCardsGridHoverLiftInlineForm } from "./contact-cards-grid-hover-lift-inline-form";
+import { ContactCenteredWarmPhotoTeamBand } from "./contact-centered-warm-photo-team-band";
 import { ContactChannelCardsHoverGrid } from "./contact-channel-cards-hover-grid";
 import { ContactChannelCardsMiniFormGrid } from "./contact-channel-cards-mini-form-grid";
 import { ContactChannelListSplitForm } from "./contact-channel-list-split-form";
 import { ContactChannelsListFormScrollStagger } from "./contact-channels-list-form-scroll-stagger";
 import { ContactChannelsListFormSplitReveal } from "./contact-channels-list-form-split-reveal";
+import { ContactDarkStackedEditorialMinimal } from "./contact-dark-stacked-editorial-minimal";
 import { ContactFormCenteredCard } from "./contact-form-centered-card";
 import { ContactFormMapOfficeLocations } from "./contact-form-map-office-locations";
 import { ContactFormParallaxSupport } from "./contact-form-parallax-support";
 import { ContactFormParallaxSupportVisual } from "./contact-form-parallax-support-visual";
 import { ContactFormTopicPills } from "./contact-form-topic-pills";
 import { ContactFormVisualPanelParallax } from "./contact-form-visual-panel-parallax";
+import { ContactFullbleedImageDarkOverlay } from "./contact-fullbleed-image-dark-overlay";
 import { ContactImageFloatingCard } from "./contact-image-floating-card";
 import { ContactLocationsMapForm } from "./contact-locations-map-form";
 import { ContactMapAndLocationsFormSplit } from "./contact-map-and-locations-form-split";
+import { ContactPatternTintedStaggeredCards } from "./contact-pattern-tinted-staggered-cards";
 import { ContactSingleCardFormPrivacy } from "./contact-single-card-form-privacy";
 import { CtaBandFullWidthInvertedPrimarySplit } from "./cta-band-full-width-inverted-primary-split";
 import { CtaBandHorizontalBlurConversion } from "./cta-band-horizontal-blur-conversion";
 import { CtaBandHorizontalBlurStaggerDualAction } from "./cta-band-horizontal-blur-stagger-dual-action";
 import { CtaCardMinimalBorderedCenteredButton } from "./cta-card-minimal-bordered-centered-button";
+import { CtaDiagonalSplitForegroundDark } from "./cta-diagonal-split-foreground-dark";
+import { CtaFullbleedImageDarkOverlayCentered } from "./cta-fullbleed-image-dark-overlay-centered";
+import { CtaGradientThemeRadialCentered } from "./cta-gradient-theme-radial-centered";
+import { CtaPatternGridTechnicalDark } from "./cta-pattern-grid-technical-dark";
+import { CtaSplitAsymmetricStatCallout } from "./cta-split-asymmetric-stat-callout";
+import { CtaStaggeredCardsDenseTripleAction } from "./cta-staggered-cards-dense-triple-action";
 import { CulinaryStaffShowcase } from "./culinary-staff-showcase";
 import { DepartmentBasedJobsListing } from "./department-based-jobs-listing";
 import { DiningCategoriesVisualGrid } from "./dining-categories-visual-grid";
@@ -124,6 +164,7 @@ import { FooterCompactInlineBar } from "./footer-compact-inline-bar";
 import { FooterCompactInlineRow } from "./footer-compact-inline-row";
 import { FooterDiagonalStripe } from "./footer-diagonal-stripe";
 import { FooterFourColumnMonochromeWordmarkMinimal } from "./footer-four-column-monochrome-wordmark-minimal";
+import { FooterFullbleedImageDarkOverlay } from "./footer-fullbleed-image-dark-overlay";
 import { FooterGiantWordmarkStatementClose } from "./footer-giant-wordmark-statement-close";
 import { FooterGridBlueprintBordered } from "./footer-grid-blueprint-bordered";
 import { FooterGridBorderedCellsNewsletter } from "./footer-grid-bordered-cells-newsletter";
@@ -175,40 +216,65 @@ import { GalleryWall4tileMotionHover2 } from "./gallery-wall-4tile-motion-hover-
 import { GalleryWallHoverReveal } from "./gallery-wall-hover-reveal";
 import { GalleryWallQuadTileMotionHoverLift } from "./gallery-wall-quad-tile-motion-hover-lift";
 import { HeaderCenteredUnderlineHover } from "./header-centered-underline-hover";
+import { HeaderDiagonalGradientSplitDark } from "./header-diagonal-gradient-split-dark";
 import { HeaderDropdownMegamenuReveal } from "./header-dropdown-megamenu-reveal";
 import { HeaderEditorialWordmarkSlashes } from "./header-editorial-wordmark-slashes";
 import { HeaderEditorialWordmarkSlashesBaselineRule } from "./header-editorial-wordmark-slashes-baseline-rule";
 import { HeaderFlatMonochromeDrawer } from "./header-flat-monochrome-drawer";
 import { HeaderFullWidthMarketingCta } from "./header-full-width-marketing-cta";
 import { HeaderFullWidthResponsive } from "./header-full-width-responsive";
+import { HeaderFullbleedImageDarkOverlay } from "./header-fullbleed-image-dark-overlay";
+import { HeaderFullbleedWarmPaperTextureEditorial } from "./header-fullbleed-warm-paper-texture-editorial";
 import { HeaderSearchExpandableUtilities } from "./header-search-expandable-utilities";
 import { HeaderSplitAsymmetricAuthCluster } from "./header-split-asymmetric-auth-cluster";
 import { HeaderSplitAuth } from "./header-split-auth";
 import { HeaderSplitAuthCluster } from "./header-split-auth-cluster";
 import { HeaderSplitMinimalBrandAuth } from "./header-split-minimal-brand-auth";
+import { HeaderStackedTwoTierCenteredLogo } from "./header-stacked-two-tier-centered-logo";
+import { HeaderStaggeredCardsDottedPattern } from "./header-staggered-cards-dotted-pattern";
 import { HeaderStickyBlurredNavigation } from "./header-sticky-blurred-navigation";
 import { HeaderStickyMorphingScrollAnimation } from "./header-sticky-morphing-scroll-animation";
 import { HeaderStickyScrollMorphingBlur } from "./header-sticky-scroll-morphing-blur";
 import { HeaderStickyScrollPaddingBlurMorph } from "./header-sticky-scroll-padding-blur-morph";
 import { HeaderThreeColumnCenteredNavPinnedLogo } from "./header-three-column-centered-nav-pinned-logo";
 import { HeaderWordmarkSlashDividerMinimal } from "./header-wordmark-slash-divider-minimal";
+import { HeroAsymmetricOffsetImageCorner } from "./hero-asymmetric-offset-image-corner";
 import { HeroCenteredEmailCaptureSaasCompleteLanding } from "./hero-centered-email-capture-saas-complete-landing";
+import { HeroCenteredMinimalOversizedType } from "./hero-centered-minimal-oversized-type";
+import { HeroCenteredVideoFrameMockup } from "./hero-centered-video-frame-mockup";
 import { HeroCenteredWithLogoTrustBand } from "./hero-centered-with-logo-trust-band";
 import { HeroConversionLandingComplete } from "./hero-conversion-landing-complete";
+import { HeroCountdownLaunchTeaser } from "./hero-countdown-launch-teaser";
 import { HeroCustomerSuccessStory } from "./hero-customer-success-story";
+import { HeroDarkGradientRadialGlow } from "./hero-dark-gradient-radial-glow";
+import { HeroDenseTwoLineTickerStats } from "./hero-dense-two-line-ticker-stats";
+import { HeroDiagonalColorBlockTypographic } from "./hero-diagonal-color-block-typographic";
 import { HeroEditorialWithStatHairline } from "./hero-editorial-with-stat-hairline";
 import { HeroEmailWaitlistStatsFlow } from "./hero-email-waitlist-stats-flow";
+import { HeroFullbleedImageBottomContent } from "./hero-fullbleed-image-bottom-content";
+import { HeroFullbleedImageCenteredGlassCard } from "./hero-fullbleed-image-centered-glass-card";
+import { HeroFullbleedImageDarkOverlay } from "./hero-fullbleed-image-dark-overlay";
 import { HeroImageCarousel } from "./hero-image-carousel";
 import { HeroLeftAlignedDualCtaMetricsInline } from "./hero-left-aligned-dual-cta-metrics-inline";
+import { HeroMapLocationSplit } from "./hero-map-location-split";
+import { HeroMarqueeScrollingTextBand } from "./hero-marquee-scrolling-text-band";
 import { HeroMinimalistStatement } from "./hero-minimalist-statement";
 import { HeroMobileAppShowcase } from "./hero-mobile-app-showcase";
 import { HeroParallaxEditorialSplit } from "./hero-parallax-editorial-split";
+import { HeroPatternGridTechnicalBlueprint } from "./hero-pattern-grid-technical-blueprint";
 import { HeroSplitDashboardScreenshotDualCtaLeft } from "./hero-split-dashboard-screenshot-dual-cta-left";
+import { HeroSplitDiagonalClipImage } from "./hero-split-diagonal-clip-image";
 import { HeroSplitDualCtaFramedProduct } from "./hero-split-dual-cta-framed-product";
+import { HeroSplitFormLeadCapture } from "./hero-split-form-lead-capture";
 import { HeroSplitImageShowcase } from "./hero-split-image-showcase";
 import { HeroSplitProductScreenshot } from "./hero-split-product-screenshot";
 import { HeroSplitScreenshotDualCtaSide } from "./hero-split-screenshot-dual-cta-side";
+import { HeroSplitStatBandBottom } from "./hero-split-stat-band-bottom";
+import { HeroSplitTestimonialLogoStrip } from "./hero-split-testimonial-logo-strip";
+import { HeroStackedCardsServiceTrio } from "./hero-stacked-cards-service-trio";
 import { HeroSubscriptionSelector } from "./hero-subscription-selector";
+import { HeroTintedSecondaryBgBadgeRow } from "./hero-tinted-secondary-bg-badge-row";
+import { HeroWarmTintedEditorialSerif } from "./hero-warm-tinted-editorial-serif";
 import { HeroWithAnalyticsDashboard } from "./hero-with-analytics-dashboard";
 import { HospitalityTierSelector } from "./hospitality-tier-selector";
 import { IntegrationsDirectorySearchableFilterableGrid } from "./integrations-directory-searchable-filterable-grid";
@@ -236,9 +302,19 @@ import { LogoGalleryFeaturedThumbnailRail } from "./logo-gallery-featured-thumbn
 import { LogoOrbitalHubRotatingBrandsCenterFocus } from "./logo-orbital-hub-rotating-brands-center-focus";
 import { LogoVerticalThreeColumnCarouselAlternatingDrift } from "./logo-vertical-three-column-carousel-alternating-drift";
 import { MasonryOffsetFramed } from "./masonry-offset-framed";
+import { MenuBeveragePairingDenseTwoColumn } from "./menu-beverage-pairing-dense-two-column";
 import { MenuCategorySections } from "./menu-category-sections";
+import { MenuDiagonalChefSpecials } from "./menu-diagonal-chef-specials";
+import { MenuEditorialTypographicLedgerLight } from "./menu-editorial-typographic-ledger-light";
 import { MenuFeaturesMatrix } from "./menu-features-matrix";
+import { MenuFullbleedImageDarkOverlay } from "./menu-fullbleed-image-dark-overlay";
+import { MenuFullbleedSplitImageRightWarm } from "./menu-fullbleed-split-image-right-warm";
+import { MenuGradientThemeTastingNarrative } from "./menu-gradient-theme-tasting-narrative";
+import { MenuPatternBarMenuDark } from "./menu-pattern-bar-menu-dark";
 import { MenuPlatedItemCard } from "./menu-plated-item-card";
+import { MenuSeasonalTintedStackedCards } from "./menu-seasonal-tinted-stacked-cards";
+import { MenuSplitDarkPanelLedger } from "./menu-split-dark-panel-ledger";
+import { MenuStaggeredPolaroidBrunch } from "./menu-staggered-polaroid-brunch";
 import { MetricsCardsWithDirectionalDeltas } from "./metrics-cards-with-directional-deltas";
 import { MetricsCountupDeltaQuadAnimated } from "./metrics-countup-delta-quad-animated";
 import { MetricsStripHorizontalSixTilesDelta } from "./metrics-strip-horizontal-six-tiles-delta";
@@ -257,8 +333,13 @@ import { PartnerLogosBand } from "./partner-logos-band";
 import { PartnersGridCardLogo } from "./partners-grid-card-logo";
 import { PartnersLogoCloudFourColumnIconCard } from "./partners-logo-cloud-four-column-icon-card";
 import { PortfolioBentoAsymmetricFeaturedPlusTwo } from "./portfolio-bento-asymmetric-featured-plus-two";
+import { PortfolioBlueprintGridDenseTechnicalLabels } from "./portfolio-blueprint-grid-dense-technical-labels";
+import { PortfolioEditorialMagazineSpreadPullquote } from "./portfolio-editorial-magazine-spread-pullquote";
+import { PortfolioFullbleedImageDarkOverlayStacked } from "./portfolio-fullbleed-image-dark-overlay-stacked";
+import { PortfolioGradientSpotlightCarouselSingleCase } from "./portfolio-gradient-spotlight-carousel-single-case";
 import { PortfolioGrid3ColumnWithMetadata } from "./portfolio-grid-3column-with-metadata";
 import { PortfolioGridShowcase } from "./portfolio-grid-showcase";
+import { PortfolioStaggeredCardsOffsetAiry } from "./portfolio-staggered-cards-offset-airy";
 import { PricingAccordionExpandibleVertical } from "./pricing-accordion-expandible-vertical";
 import { PricingAccordionTierExpandable } from "./pricing-accordion-tier-expandable";
 import { PricingCardsThreeColumnHighlighted } from "./pricing-cards-three-column-highlighted";
@@ -307,7 +388,10 @@ import { ProcessVisualJourneySteps } from "./process-visual-journey-steps";
 import { ProductBentoSixCellAnimated } from "./product-bento-six-cell-animated";
 import { ProductCardInteractive } from "./product-card-interactive";
 import { ProductCategoriesAnimated } from "./product-categories-animated";
+import { ProductCenteredGradientSpotlightBadges } from "./product-centered-gradient-spotlight-badges";
 import { ProductChangelogVersionedGroupedRail } from "./product-changelog-versioned-grouped-rail";
+import { ProductDarkGradientCatalogBand } from "./product-dark-gradient-catalog-band";
+import { ProductFullbleedImageDarkOverlay } from "./product-fullbleed-image-dark-overlay";
 import { ProductGalleryScreenshotFeaturedThumbstrip } from "./product-gallery-screenshot-featured-thumbstrip";
 import { ProductGalleryScreenshotFeaturedThumbstripInline } from "./product-gallery-screenshot-featured-thumbstrip-inline";
 import { ProductGridFeatured } from "./product-grid-featured";
@@ -315,12 +399,25 @@ import { ProductIntegrationsGridIconLabelDense } from "./product-integrations-gr
 import { ProductPlanSpotlightSingleCenteredChecklist } from "./product-plan-spotlight-single-centered-checklist";
 import { ProductPricingSplit2TierContrast } from "./product-pricing-split-2-tier-contrast";
 import { ProductShowcaseFramedThumbnailRail } from "./product-showcase-framed-thumbnail-rail";
+import { ProductSplitTintedSpecsheet } from "./product-split-tinted-specsheet";
 import { ProductSpotlightThumbnailRail } from "./product-spotlight-thumbnail-rail";
+import { ProductStackedRowsPatternBg } from "./product-stacked-rows-pattern-bg";
+import { ProductStaggeredCardsDiagonal } from "./product-staggered-cards-diagonal";
 import { ProductUpdateCenteredCta } from "./product-update-centered-cta";
 import { ProjectListWithImage } from "./project-list-with-image";
+import { PropertyAgentSpotlightSplitPortrait } from "./property-agent-spotlight-split-portrait";
+import { PropertyAmenitiesIconGridDenseDark } from "./property-amenities-icon-grid-dense-dark";
+import { PropertyBeforeAfterRenovationSliderStacked } from "./property-before-after-renovation-slider-stacked";
 import { PropertyCompetitivePositioningBilateralSplit } from "./property-competitive-positioning-bilateral-split";
+import { PropertyDevelopmentTimelineDiagonalPhases } from "./property-development-timeline-diagonal-phases";
 import { PropertyFeaturesAlternatingSplitNarrative } from "./property-features-alternating-split-narrative";
+import { PropertyHeroFullbleedImageDarkOverlayFloatingPrice } from "./property-hero-fullbleed-image-dark-overlay-floating-price";
+import { PropertyInvestmentCalculatorBandGradient } from "./property-investment-calculator-band-gradient";
+import { PropertyListingGridFilterableCards } from "./property-listing-grid-filterable-cards";
+import { PropertyMapSplitListingSidebar } from "./property-map-split-listing-sidebar";
+import { PropertyNeighborhoodStatsDarkBandFullBleed } from "./property-neighborhood-stats-dark-band-full-bleed";
 import { PropertyShowcaseDetailed } from "./property-showcase-detailed";
+import { PropertyStaggeredCardsMasonryEditorial } from "./property-staggered-cards-masonry-editorial";
 import { PropertyTierSplitComparisonDualCta } from "./property-tier-split-comparison-dual-cta";
 import { PropertyTiersPricingCardsHighlighted } from "./property-tiers-pricing-cards-highlighted";
 import { PublicRoadmapVoteableFeatures } from "./public-roadmap-voteable-features";
@@ -349,6 +446,10 @@ import { StatsMetricBandCountupAnimated } from "./stats-metric-band-countup-anim
 import { StatsMetricCards } from "./stats-metric-cards";
 import { StatusServicesUptimeMetricsList } from "./status-services-uptime-metrics-list";
 import { TastingMenuPricingTiers } from "./tasting-menu-pricing-tiers";
+import { TeamBentoAsymmetricLeaderSpotlight } from "./team-bento-asymmetric-leader-spotlight";
+import { TeamDarkDirectoryMonospaceIndex } from "./team-dark-directory-monospace-index";
+import { TeamFullbleedGroupphotoDarkOverlayEditorial } from "./team-fullbleed-groupphoto-dark-overlay-editorial";
+import { TeamGradientOrgchartHierarchy } from "./team-gradient-orgchart-hierarchy";
 import { TeamGridHoverReveal } from "./team-grid-hover-reveal";
 import { TeamLineupCenteredPortrait } from "./team-lineup-centered-portrait";
 import { TeamMemberCardCompactCenteredRoleLocationStats } from "./team-member-card-compact-centered-role-location-stats";
@@ -356,11 +457,13 @@ import { TeamMemberCardCompactRow } from "./team-member-card-compact-row";
 import { TeamMemberProfileIndividualCover } from "./team-member-profile-individual-cover";
 import { TeamMembersGridBasic } from "./team-members-grid-basic";
 import { TeamOrgCultureAlumni } from "./team-org-culture-alumni";
+import { TeamPatternWarmStackedRows } from "./team-pattern-warm-stacked-rows";
 import { TeamPortraitsFullbleed } from "./team-portraits-fullbleed";
 import { TeamPortraitsGridHoverDetails } from "./team-portraits-grid-hover-details";
 import { TeamRowHorizontalCenteredAvatarRoleStacked } from "./team-row-horizontal-centered-avatar-role-stacked";
 import { TeamRowPortraitShowcase } from "./team-row-portrait-showcase";
 import { TeamSeatCalculator } from "./team-seat-calculator";
+import { TeamStaggeredDiagonalCardsTinted } from "./team-staggered-diagonal-cards-tinted";
 import { TestimonialAndCaseStudyGrid } from "./testimonial-and-case-study-grid";
 import { TestimonialFeaturedCenteredOversizedQuote } from "./testimonial-featured-centered-oversized-quote";
 import { TestimonialFeaturedCenteredQuote } from "./testimonial-featured-centered-quote";
@@ -395,7 +498,14 @@ import { TreatmentProcedureStepsVertical } from "./treatment-procedure-steps-ver
  * como { id: "block", block: "<key>", ns }. Regenerado por scripts/assemble-reference.mjs.
  */
 export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
+  "about-asymmetric-bento-culture-gallery": AboutAsymmetricBentoCultureGallery,
+  "about-blueprint-technical-grid-pattern": AboutBlueprintTechnicalGridPattern,
   "about-capabilities-vertical-list-accent-bar-stat-expand": AboutCapabilitiesVerticalListAccentBarStatExpand,
+  "about-cards-staggered-values-vertical-offset": AboutCardsStaggeredValuesVerticalOffset,
+  "about-dark-manifesto-centered": AboutDarkManifestoCentered,
+  "about-diagonal-split-image-stats": AboutDiagonalSplitImageStats,
+  "about-fullbleed-image-dark-overlay": AboutFullbleedImageDarkOverlay,
+  "about-gradient-theme-centered-pillars": AboutGradientThemeCenteredPillars,
   "about-mission-centered-four-metrics-strip": AboutMissionCenteredFourMetricsStrip,
   "about-mission-centered-with-metric-underline": AboutMissionCenteredWithMetricUnderline,
   "about-mission-statement-metrics-strip": AboutMissionStatementMetricsStrip,
@@ -405,9 +515,12 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "about-organization-profile-stats": AboutOrganizationProfileStats,
   "about-partners-split-narrative-logo-marks-blur-reveal": AboutPartnersSplitNarrativeLogoMarksBlurReveal,
   "about-section-centered-eyebrow-mission-metrics": AboutSectionCenteredEyebrowMissionMetrics,
+  "about-split-founder-portrait-quote": AboutSplitFounderPortraitQuote,
   "about-team-photo-narrative-metrics-split-two-column": AboutTeamPhotoNarrativeMetricsSplitTwoColumn,
   "about-timeline-bilateral-alternating-spine": AboutTimelineBilateralAlternatingSpine,
+  "about-tinted-facts-dense-datasheet": AboutTintedFactsDenseDatasheet,
   "about-values-alternating-features": AboutValuesAlternatingFeatures,
+  "about-warm-editorial-magazine-dropcap": AboutWarmEditorialMagazineDropcap,
   "accordion-faq-single-column": AccordionFaqSingleColumn,
   "agent-contact-form-map-locations": AgentContactFormMapLocations,
   "analytics-chart-with-kpi-summary": AnalyticsChartWithKpiSummary,
@@ -430,9 +543,29 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "bordered-conversion-panel-split": BorderedConversionPanelSplit,
   "brand-partners-grid": BrandPartnersGrid,
   "call-booking-closure": CallBookingClosure,
+  "careers-application-process-warm-steps": CareersApplicationProcessWarmSteps,
+  "careers-benefits-icon-grid-tinted": CareersBenefitsIconGridTinted,
+  "careers-culture-gallery-masonry-quotes": CareersCultureGalleryMasonryQuotes,
+  "careers-diagonal-stat-band-gradient": CareersDiagonalStatBandGradient,
+  "careers-employee-testimonials-staggered-cards": CareersEmployeeTestimonialsStaggeredCards,
+  "careers-fullbleed-image-dark-overlay-hero": CareersFullbleedImageDarkOverlayHero,
+  "careers-open-positions-dense-list-dark": CareersOpenPositionsDenseListDark,
+  "careers-split-values-sticky-portrait": CareersSplitValuesStickyPortrait,
   "case-study-immersive": CaseStudyImmersive,
   "changelog-versioned-grouped-rail": ChangelogVersionedGroupedRail,
+  "clinic-accreditation-badges-grid-technical": ClinicAccreditationBadgesGridTechnical,
+  "clinic-appointment-gradient-cta-dark": ClinicAppointmentGradientCtaDark,
+  "clinic-doctors-row-credentials-centered": ClinicDoctorsRowCredentialsCentered,
+  "clinic-facility-diagonal-gallery": ClinicFacilityDiagonalGallery,
+  "clinic-fullbleed-image-dark-overlay-hero": ClinicFullbleedImageDarkOverlayHero,
+  "clinic-hours-location-map-split": ClinicHoursLocationMapSplit,
+  "clinic-insurance-logos-trust-band": ClinicInsuranceLogosTrustBand,
   "clinic-metrics-animated-band": ClinicMetricsAnimatedBand,
+  "clinic-patient-faq-accordion-dense": ClinicPatientFaqAccordionDense,
+  "clinic-split-booking-form-image": ClinicSplitBookingFormImage,
+  "clinic-telemedicine-video-split-image": ClinicTelemedicineVideoSplitImage,
+  "clinic-urgent-care-bold-banner": ClinicUrgentCareBoldBanner,
+  "clinic-warm-testimonial-split-portrait": ClinicWarmTestimonialSplitPortrait,
   "company-history-alternating-spine": CompanyHistoryAlternatingSpine,
   "company-journey-timeline-vertical-rail": CompanyJourneyTimelineVerticalRail,
   "company-mission-intro-with-metrics": CompanyMissionIntroWithMetrics,
@@ -444,25 +577,35 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "comparison-us-vs-them-check-cross-duality": ComparisonUsVsThemCheckCrossDuality,
   "competitive-advantage-comparison": CompetitiveAdvantageComparison,
   "contact-cards-grid-hover-lift-inline-form": ContactCardsGridHoverLiftInlineForm,
+  "contact-centered-warm-photo-team-band": ContactCenteredWarmPhotoTeamBand,
   "contact-channel-cards-hover-grid": ContactChannelCardsHoverGrid,
   "contact-channel-cards-mini-form-grid": ContactChannelCardsMiniFormGrid,
   "contact-channel-list-split-form": ContactChannelListSplitForm,
   "contact-channels-list-form-scroll-stagger": ContactChannelsListFormScrollStagger,
   "contact-channels-list-form-split-reveal": ContactChannelsListFormSplitReveal,
+  "contact-dark-stacked-editorial-minimal": ContactDarkStackedEditorialMinimal,
   "contact-form-centered-card": ContactFormCenteredCard,
   "contact-form-map-office-locations": ContactFormMapOfficeLocations,
   "contact-form-parallax-support": ContactFormParallaxSupport,
   "contact-form-parallax-support-visual": ContactFormParallaxSupportVisual,
   "contact-form-topic-pills": ContactFormTopicPills,
   "contact-form-visual-panel-parallax": ContactFormVisualPanelParallax,
+  "contact-fullbleed-image-dark-overlay": ContactFullbleedImageDarkOverlay,
   "contact-image-floating-card": ContactImageFloatingCard,
   "contact-locations-map-form": ContactLocationsMapForm,
   "contact-map-and-locations-form-split": ContactMapAndLocationsFormSplit,
+  "contact-pattern-tinted-staggered-cards": ContactPatternTintedStaggeredCards,
   "contact-single-card-form-privacy": ContactSingleCardFormPrivacy,
   "cta-band-full-width-inverted-primary-split": CtaBandFullWidthInvertedPrimarySplit,
   "cta-band-horizontal-blur-conversion": CtaBandHorizontalBlurConversion,
   "cta-band-horizontal-blur-stagger-dual-action": CtaBandHorizontalBlurStaggerDualAction,
   "cta-card-minimal-bordered-centered-button": CtaCardMinimalBorderedCenteredButton,
+  "cta-diagonal-split-foreground-dark": CtaDiagonalSplitForegroundDark,
+  "cta-fullbleed-image-dark-overlay-centered": CtaFullbleedImageDarkOverlayCentered,
+  "cta-gradient-theme-radial-centered": CtaGradientThemeRadialCentered,
+  "cta-pattern-grid-technical-dark": CtaPatternGridTechnicalDark,
+  "cta-split-asymmetric-stat-callout": CtaSplitAsymmetricStatCallout,
+  "cta-staggered-cards-dense-triple-action": CtaStaggeredCardsDenseTripleAction,
   "culinary-staff-showcase": CulinaryStaffShowcase,
   "department-based-jobs-listing": DepartmentBasedJobsListing,
   "dining-categories-visual-grid": DiningCategoriesVisualGrid,
@@ -519,6 +662,7 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "footer-compact-inline-row": FooterCompactInlineRow,
   "footer-diagonal-stripe": FooterDiagonalStripe,
   "footer-four-column-monochrome-wordmark-minimal": FooterFourColumnMonochromeWordmarkMinimal,
+  "footer-fullbleed-image-dark-overlay": FooterFullbleedImageDarkOverlay,
   "footer-giant-wordmark-statement-close": FooterGiantWordmarkStatementClose,
   "footer-grid-blueprint-bordered": FooterGridBlueprintBordered,
   "footer-grid-bordered-cells-newsletter": FooterGridBorderedCellsNewsletter,
@@ -570,40 +714,65 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "gallery-wall-hover-reveal": GalleryWallHoverReveal,
   "gallery-wall-quad-tile-motion-hover-lift": GalleryWallQuadTileMotionHoverLift,
   "header-centered-underline-hover": HeaderCenteredUnderlineHover,
+  "header-diagonal-gradient-split-dark": HeaderDiagonalGradientSplitDark,
   "header-dropdown-megamenu-reveal": HeaderDropdownMegamenuReveal,
   "header-editorial-wordmark-slashes": HeaderEditorialWordmarkSlashes,
   "header-editorial-wordmark-slashes-baseline-rule": HeaderEditorialWordmarkSlashesBaselineRule,
   "header-flat-monochrome-drawer": HeaderFlatMonochromeDrawer,
   "header-full-width-marketing-cta": HeaderFullWidthMarketingCta,
   "header-full-width-responsive": HeaderFullWidthResponsive,
+  "header-fullbleed-image-dark-overlay": HeaderFullbleedImageDarkOverlay,
+  "header-fullbleed-warm-paper-texture-editorial": HeaderFullbleedWarmPaperTextureEditorial,
   "header-search-expandable-utilities": HeaderSearchExpandableUtilities,
   "header-split-asymmetric-auth-cluster": HeaderSplitAsymmetricAuthCluster,
   "header-split-auth": HeaderSplitAuth,
   "header-split-auth-cluster": HeaderSplitAuthCluster,
   "header-split-minimal-brand-auth": HeaderSplitMinimalBrandAuth,
+  "header-stacked-two-tier-centered-logo": HeaderStackedTwoTierCenteredLogo,
+  "header-staggered-cards-dotted-pattern": HeaderStaggeredCardsDottedPattern,
   "header-sticky-blurred-navigation": HeaderStickyBlurredNavigation,
   "header-sticky-morphing-scroll-animation": HeaderStickyMorphingScrollAnimation,
   "header-sticky-scroll-morphing-blur": HeaderStickyScrollMorphingBlur,
   "header-sticky-scroll-padding-blur-morph": HeaderStickyScrollPaddingBlurMorph,
   "header-three-column-centered-nav-pinned-logo": HeaderThreeColumnCenteredNavPinnedLogo,
   "header-wordmark-slash-divider-minimal": HeaderWordmarkSlashDividerMinimal,
+  "hero-asymmetric-offset-image-corner": HeroAsymmetricOffsetImageCorner,
   "hero-centered-email-capture-saas-complete-landing": HeroCenteredEmailCaptureSaasCompleteLanding,
+  "hero-centered-minimal-oversized-type": HeroCenteredMinimalOversizedType,
+  "hero-centered-video-frame-mockup": HeroCenteredVideoFrameMockup,
   "hero-centered-with-logo-trust-band": HeroCenteredWithLogoTrustBand,
   "hero-conversion-landing-complete": HeroConversionLandingComplete,
+  "hero-countdown-launch-teaser": HeroCountdownLaunchTeaser,
   "hero-customer-success-story": HeroCustomerSuccessStory,
+  "hero-dark-gradient-radial-glow": HeroDarkGradientRadialGlow,
+  "hero-dense-two-line-ticker-stats": HeroDenseTwoLineTickerStats,
+  "hero-diagonal-color-block-typographic": HeroDiagonalColorBlockTypographic,
   "hero-editorial-with-stat-hairline": HeroEditorialWithStatHairline,
   "hero-email-waitlist-stats-flow": HeroEmailWaitlistStatsFlow,
+  "hero-fullbleed-image-bottom-content": HeroFullbleedImageBottomContent,
+  "hero-fullbleed-image-centered-glass-card": HeroFullbleedImageCenteredGlassCard,
+  "hero-fullbleed-image-dark-overlay": HeroFullbleedImageDarkOverlay,
   "hero-image-carousel": HeroImageCarousel,
   "hero-left-aligned-dual-cta-metrics-inline": HeroLeftAlignedDualCtaMetricsInline,
+  "hero-map-location-split": HeroMapLocationSplit,
+  "hero-marquee-scrolling-text-band": HeroMarqueeScrollingTextBand,
   "hero-minimalist-statement": HeroMinimalistStatement,
   "hero-mobile-app-showcase": HeroMobileAppShowcase,
   "hero-parallax-editorial-split": HeroParallaxEditorialSplit,
+  "hero-pattern-grid-technical-blueprint": HeroPatternGridTechnicalBlueprint,
   "hero-split-dashboard-screenshot-dual-cta-left": HeroSplitDashboardScreenshotDualCtaLeft,
+  "hero-split-diagonal-clip-image": HeroSplitDiagonalClipImage,
   "hero-split-dual-cta-framed-product": HeroSplitDualCtaFramedProduct,
+  "hero-split-form-lead-capture": HeroSplitFormLeadCapture,
   "hero-split-image-showcase": HeroSplitImageShowcase,
   "hero-split-product-screenshot": HeroSplitProductScreenshot,
   "hero-split-screenshot-dual-cta-side": HeroSplitScreenshotDualCtaSide,
+  "hero-split-stat-band-bottom": HeroSplitStatBandBottom,
+  "hero-split-testimonial-logo-strip": HeroSplitTestimonialLogoStrip,
+  "hero-stacked-cards-service-trio": HeroStackedCardsServiceTrio,
   "hero-subscription-selector": HeroSubscriptionSelector,
+  "hero-tinted-secondary-bg-badge-row": HeroTintedSecondaryBgBadgeRow,
+  "hero-warm-tinted-editorial-serif": HeroWarmTintedEditorialSerif,
   "hero-with-analytics-dashboard": HeroWithAnalyticsDashboard,
   "hospitality-tier-selector": HospitalityTierSelector,
   "integrations-directory-searchable-filterable-grid": IntegrationsDirectorySearchableFilterableGrid,
@@ -631,9 +800,19 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "logo-orbital-hub-rotating-brands-center-focus": LogoOrbitalHubRotatingBrandsCenterFocus,
   "logo-vertical-three-column-carousel-alternating-drift": LogoVerticalThreeColumnCarouselAlternatingDrift,
   "masonry-offset-framed": MasonryOffsetFramed,
+  "menu-beverage-pairing-dense-two-column": MenuBeveragePairingDenseTwoColumn,
   "menu-category-sections": MenuCategorySections,
+  "menu-diagonal-chef-specials": MenuDiagonalChefSpecials,
+  "menu-editorial-typographic-ledger-light": MenuEditorialTypographicLedgerLight,
   "menu-features-matrix": MenuFeaturesMatrix,
+  "menu-fullbleed-image-dark-overlay": MenuFullbleedImageDarkOverlay,
+  "menu-fullbleed-split-image-right-warm": MenuFullbleedSplitImageRightWarm,
+  "menu-gradient-theme-tasting-narrative": MenuGradientThemeTastingNarrative,
+  "menu-pattern-bar-menu-dark": MenuPatternBarMenuDark,
   "menu-plated-item-card": MenuPlatedItemCard,
+  "menu-seasonal-tinted-stacked-cards": MenuSeasonalTintedStackedCards,
+  "menu-split-dark-panel-ledger": MenuSplitDarkPanelLedger,
+  "menu-staggered-polaroid-brunch": MenuStaggeredPolaroidBrunch,
   "metrics-cards-with-directional-deltas": MetricsCardsWithDirectionalDeltas,
   "metrics-countup-delta-quad-animated": MetricsCountupDeltaQuadAnimated,
   "metrics-strip-horizontal-six-tiles-delta": MetricsStripHorizontalSixTilesDelta,
@@ -652,8 +831,13 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "partners-grid-card-logo": PartnersGridCardLogo,
   "partners-logo-cloud-four-column-icon-card": PartnersLogoCloudFourColumnIconCard,
   "portfolio-bento-asymmetric-featured-plus-two": PortfolioBentoAsymmetricFeaturedPlusTwo,
+  "portfolio-blueprint-grid-dense-technical-labels": PortfolioBlueprintGridDenseTechnicalLabels,
+  "portfolio-editorial-magazine-spread-pullquote": PortfolioEditorialMagazineSpreadPullquote,
+  "portfolio-fullbleed-image-dark-overlay-stacked": PortfolioFullbleedImageDarkOverlayStacked,
+  "portfolio-gradient-spotlight-carousel-single-case": PortfolioGradientSpotlightCarouselSingleCase,
   "portfolio-grid-3column-with-metadata": PortfolioGrid3ColumnWithMetadata,
   "portfolio-grid-showcase": PortfolioGridShowcase,
+  "portfolio-staggered-cards-offset-airy": PortfolioStaggeredCardsOffsetAiry,
   "pricing-accordion-expandible-vertical": PricingAccordionExpandibleVertical,
   "pricing-accordion-tier-expandable": PricingAccordionTierExpandable,
   "pricing-cards-three-column-highlighted": PricingCardsThreeColumnHighlighted,
@@ -702,7 +886,10 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "product-bento-six-cell-animated": ProductBentoSixCellAnimated,
   "product-card-interactive": ProductCardInteractive,
   "product-categories-animated": ProductCategoriesAnimated,
+  "product-centered-gradient-spotlight-badges": ProductCenteredGradientSpotlightBadges,
   "product-changelog-versioned-grouped-rail": ProductChangelogVersionedGroupedRail,
+  "product-dark-gradient-catalog-band": ProductDarkGradientCatalogBand,
+  "product-fullbleed-image-dark-overlay": ProductFullbleedImageDarkOverlay,
   "product-gallery-screenshot-featured-thumbstrip": ProductGalleryScreenshotFeaturedThumbstrip,
   "product-gallery-screenshot-featured-thumbstrip-inline": ProductGalleryScreenshotFeaturedThumbstripInline,
   "product-grid-featured": ProductGridFeatured,
@@ -710,12 +897,25 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "product-plan-spotlight-single-centered-checklist": ProductPlanSpotlightSingleCenteredChecklist,
   "product-pricing-split-2-tier-contrast": ProductPricingSplit2TierContrast,
   "product-showcase-framed-thumbnail-rail": ProductShowcaseFramedThumbnailRail,
+  "product-split-tinted-specsheet": ProductSplitTintedSpecsheet,
   "product-spotlight-thumbnail-rail": ProductSpotlightThumbnailRail,
+  "product-stacked-rows-pattern-bg": ProductStackedRowsPatternBg,
+  "product-staggered-cards-diagonal": ProductStaggeredCardsDiagonal,
   "product-update-centered-cta": ProductUpdateCenteredCta,
   "project-list-with-image": ProjectListWithImage,
+  "property-agent-spotlight-split-portrait": PropertyAgentSpotlightSplitPortrait,
+  "property-amenities-icon-grid-dense-dark": PropertyAmenitiesIconGridDenseDark,
+  "property-before-after-renovation-slider-stacked": PropertyBeforeAfterRenovationSliderStacked,
   "property-competitive-positioning-bilateral-split": PropertyCompetitivePositioningBilateralSplit,
+  "property-development-timeline-diagonal-phases": PropertyDevelopmentTimelineDiagonalPhases,
   "property-features-alternating-split-narrative": PropertyFeaturesAlternatingSplitNarrative,
+  "property-hero-fullbleed-image-dark-overlay-floating-price": PropertyHeroFullbleedImageDarkOverlayFloatingPrice,
+  "property-investment-calculator-band-gradient": PropertyInvestmentCalculatorBandGradient,
+  "property-listing-grid-filterable-cards": PropertyListingGridFilterableCards,
+  "property-map-split-listing-sidebar": PropertyMapSplitListingSidebar,
+  "property-neighborhood-stats-dark-band-full-bleed": PropertyNeighborhoodStatsDarkBandFullBleed,
   "property-showcase-detailed": PropertyShowcaseDetailed,
+  "property-staggered-cards-masonry-editorial": PropertyStaggeredCardsMasonryEditorial,
   "property-tier-split-comparison-dual-cta": PropertyTierSplitComparisonDualCta,
   "property-tiers-pricing-cards-highlighted": PropertyTiersPricingCardsHighlighted,
   "public-roadmap-voteable-features": PublicRoadmapVoteableFeatures,
@@ -744,6 +944,10 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "stats-metric-cards": StatsMetricCards,
   "status-services-uptime-metrics-list": StatusServicesUptimeMetricsList,
   "tasting-menu-pricing-tiers": TastingMenuPricingTiers,
+  "team-bento-asymmetric-leader-spotlight": TeamBentoAsymmetricLeaderSpotlight,
+  "team-dark-directory-monospace-index": TeamDarkDirectoryMonospaceIndex,
+  "team-fullbleed-groupphoto-dark-overlay-editorial": TeamFullbleedGroupphotoDarkOverlayEditorial,
+  "team-gradient-orgchart-hierarchy": TeamGradientOrgchartHierarchy,
   "team-grid-hover-reveal": TeamGridHoverReveal,
   "team-lineup-centered-portrait": TeamLineupCenteredPortrait,
   "team-member-card-compact-centered-role-location-stats": TeamMemberCardCompactCenteredRoleLocationStats,
@@ -751,11 +955,13 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "team-member-profile-individual-cover": TeamMemberProfileIndividualCover,
   "team-members-grid-basic": TeamMembersGridBasic,
   "team-org-culture-alumni": TeamOrgCultureAlumni,
+  "team-pattern-warm-stacked-rows": TeamPatternWarmStackedRows,
   "team-portraits-fullbleed": TeamPortraitsFullbleed,
   "team-portraits-grid-hover-details": TeamPortraitsGridHoverDetails,
   "team-row-horizontal-centered-avatar-role-stacked": TeamRowHorizontalCenteredAvatarRoleStacked,
   "team-row-portrait-showcase": TeamRowPortraitShowcase,
   "team-seat-calculator": TeamSeatCalculator,
+  "team-staggered-diagonal-cards-tinted": TeamStaggeredDiagonalCardsTinted,
   "testimonial-and-case-study-grid": TestimonialAndCaseStudyGrid,
   "testimonial-featured-centered-oversized-quote": TestimonialFeaturedCenteredOversizedQuote,
   "testimonial-featured-centered-quote": TestimonialFeaturedCenteredQuote,

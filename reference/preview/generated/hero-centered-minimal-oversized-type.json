@@ -1,0 +1,14 @@
+{
+  "key": "hero-centered-minimal-oversized-type",
+  "pascalName": "HeroCenteredMinimalOversizedType",
+  "category": "Heroes",
+  "catalogRow": "| `hero-centered-minimal-oversized-type` | hero-centered-minimal-oversized-type — hero editorial sin imagen con headline tipográfico oversized centrado, subtítulo corto y un solo CTA · máxima aireación. | { title, subtitle, cta: { label, href } } |",
+  "fixture": {
+    "title": "Construimos estructura donde antes había caos",
+    "subtitle": "Asesoría legal corporativa para empresas mexicanas que necesitan certeza jurídica, no promesas.",
+    "cta": {
+      "label": "Solicitar consulta",
+      "href": "/contacto"
+    }
+  }
+}

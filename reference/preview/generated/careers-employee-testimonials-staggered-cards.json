@@ -1,0 +1,36 @@
+{
+  "key": "careers-employee-testimonials-staggered-cards",
+  "pascalName": "CareersEmployeeTestimonialsStaggeredCards",
+  "category": "Empleo",
+  "catalogRow": "| `careers-employee-testimonials-staggered-cards` | careers-employee-testimonials-staggered-cards — testimonios de empleados en tarjetas de foto cuadrada más cita, composición escalonada a tres columnas con desfase vertical alternante | { eyebrow, title, testimonials: [{ image, imageAlt, quote, name, role, tenure }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Lo que dice quien trabaja aquí, todos los días",
+    "testimonials": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Fernanda Ortiz en su lugar de trabajo",
+        "quote": "Aquí mis ideas se escuchan de verdad. En dos años pasé de analista a liderar un equipo de cinco personas.",
+        "name": "Fernanda Ortiz",
+        "role": "Gerente de Operaciones",
+        "tenure": "3 años en la empresa"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Raúl Meneses en el área de producción",
+        "quote": "El horario flexible me permitió terminar mi carrera sin dejar de crecer profesionalmente. Eso no se consigue en cualquier lado.",
+        "name": "Raúl Meneses",
+        "role": "Coordinador de Logística",
+        "tenure": "5 años en la empresa"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Daniela Corona en la oficina",
+        "quote": "Cada trimestre nos capacitan en algo nuevo. Siento que la empresa invierte en mí tanto como yo en ella.",
+        "name": "Daniela Corona",
+        "role": "Especialista en Atención a Clientes",
+        "tenure": "1 año en la empresa"
+      }
+    ]
+  }
+}

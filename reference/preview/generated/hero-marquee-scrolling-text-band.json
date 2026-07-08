@@ -1,0 +1,20 @@
+{
+  "key": "hero-marquee-scrolling-text-band",
+  "pascalName": "HeroMarqueeScrollingTextBand",
+  "category": "Heroes",
+  "catalogRow": "| `hero-marquee-scrolling-text-band` | hero-marquee-scrolling-text-band — hero centrado sobre fondo oscuro con una banda de texto en marquee horizontal infinito repitiendo una palabra clave detrás del titular | { eyebrow, title, subtitle, marqueeWords: string[], primaryCta: { label, href }, secondaryCta: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Consultoría fiscal y corporativa",
+    "title": "Certeza jurídica para cada decisión de su empresa",
+    "subtitle": "Acompañamos a empresas mexicanas en cumplimiento fiscal, estructuración corporativa y defensa ante autoridades, con un equipo disponible en cada etapa del proceso.",
+    "marqueeWords": ["CERTEZA", "CUMPLIMIENTO", "ESTRATEGIA", "RESULTADOS"],
+    "primaryCta": {
+      "label": "Agendar consulta",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer al equipo",
+      "href": "/nosotros"
+    }
+  }
+}

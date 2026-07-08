@@ -1,0 +1,36 @@
+{
+  "key": "about-asymmetric-bento-culture-gallery",
+  "pascalName": "AboutAsymmetricBentoCultureGallery",
+  "category": "Nosotros",
+  "catalogRow": "| `about-asymmetric-bento-culture-gallery` | about-asymmetric-bento-culture-gallery — bento asimétrico editorial de cultura/oficina con celda central de texto, sin iconos | { eyebrow, title, large: { image, imageAlt, caption }, cell: { eyebrow, title, lineOne, lineTwo }, smallOne: { image, imageAlt, caption }, smallTwo: { image, imageAlt, caption }, smallThree: { image, imageAlt, caption } } |",
+  "fixture": {
+    "eyebrow": "Nuestra cultura",
+    "title": "Un equipo que construye con oficio, no con prisa",
+    "large": {
+      "image": "/images/about.svg",
+      "imageAlt": "Equipo de trabajo reunido en la sala principal de la oficina",
+      "caption": "Sala principal, oficina Monterrey"
+    },
+    "cell": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Decisiones claras, entregas puntuales",
+      "lineOne": "Cada proyecto pasa por un mismo equipo, de inicio a cierre, sin relevos a mitad de camino.",
+      "lineTwo": "Revisamos avances cada semana con el cliente, sin sorpresas al final."
+    },
+    "smallOne": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Mesa de trabajo con planos y muestras de materiales",
+      "caption": "Sesión de revisión de proyecto"
+    },
+    "smallTwo": {
+      "image": "/images/about.svg",
+      "imageAlt": "Colaboradores conversando en el área de café",
+      "caption": "Área común, segundo piso"
+    },
+    "smallThree": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Vista general del taller y bodega de materiales",
+      "caption": "Taller y bodega central"
+    }
+  }
+}

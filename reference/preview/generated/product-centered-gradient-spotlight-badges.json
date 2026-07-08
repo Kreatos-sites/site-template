@@ -1,0 +1,39 @@
+{
+  "key": "product-centered-gradient-spotlight-badges",
+  "pascalName": "ProductCenteredGradientSpotlightBadges",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-centered-gradient-spotlight-badges` | product-centered-gradient-spotlight-badges — producto único centrado sobre gradiente de marca, con insignias de especificaciones flotando alrededor de la imagen y conectadas por líneas finas | { eyebrow, title, description, image, imageAlt, badges: [{ icon, label, value, position }] } |",
+  "fixture": {
+    "eyebrow": "Ficha técnica",
+    "title": "Gabinete de control industrial GC-400",
+    "description": "Diseñado para operar en piso de planta con vibración y polvo constantes, con acceso frontal para mantenimiento sin detener la línea.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Gabinete de control industrial GC-400 con puerta frontal cerrada",
+    "badges": [
+      {
+        "icon": "ShieldCheck",
+        "label": "Grado de protección",
+        "value": "IP65",
+        "position": "top-left"
+      },
+      {
+        "icon": "Gauge",
+        "label": "Corriente nominal",
+        "value": "63 A",
+        "position": "top-right"
+      },
+      {
+        "icon": "Ruler",
+        "label": "Dimensiones",
+        "value": "800 x 600 x 300 mm",
+        "position": "bottom-left"
+      },
+      {
+        "icon": "Battery",
+        "label": "Autonomía de respaldo",
+        "value": "4 horas",
+        "position": "bottom-right"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "key": "hero-split-diagonal-clip-image",
+  "pascalName": "HeroSplitDiagonalClipImage",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-diagonal-clip-image` | hero-split-diagonal-clip-image — split asimétrico con panel de imagen recortado en diagonal (clip-path) que invade la columna de texto | { eyebrow, title, subtitle, primaryCta: {label, href}, secondaryCta: {label, href}, highlights: string[] (3), image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Consultoría industrial",
+    "title": "Transformamos la operación de su planta en ventaja competitiva",
+    "subtitle": "Diagnosticamos, rediseñamos y acompañamos la implementación de procesos productivos para reducir costos y tiempos de ciclo de forma medible.",
+    "highlights": [
+      "Diagnóstico operativo en menos de tres semanas",
+      "Equipo certificado en manufactura esbelta",
+      "Acompañamiento en sitio durante la implementación"
+    ],
+    "primaryCta": {
+      "label": "Agendar diagnóstico",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer metodología",
+      "href": "#metodologia"
+    },
+    "image": "/images/hero.svg",
+    "imageAlt": "Planta industrial con línea de producción en operación"
+  }
+}

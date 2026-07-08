@@ -1,0 +1,17 @@
+{
+  "key": "cta-fullbleed-image-dark-overlay-centered",
+  "pascalName": "CtaFullbleedImageDarkOverlayCentered",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `cta-fullbleed-image-dark-overlay-centered` | cta-fullbleed-image-dark-overlay-centered — CTA editorial a sangre completa con foto de obra y overlay en gradiente oscuro, contenido centrado y un solo botón | { eyebrow, title, description, image, imageAlt, cta: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Nuevo proyecto",
+    "title": "Llevamos su próxima obra de plano a entrega",
+    "description": "Desde el levantamiento inicial hasta la entrega llave en mano, un solo equipo responde por cada etapa de la construcción.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada de obra en construcción al atardecer, vista desde la calle",
+    "cta": {
+      "label": "Solicitar cotización",
+      "href": "/contacto"
+    }
+  }
+}

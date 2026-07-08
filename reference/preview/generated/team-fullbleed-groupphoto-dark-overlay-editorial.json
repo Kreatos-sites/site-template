@@ -1,0 +1,19 @@
+{
+  "key": "team-fullbleed-groupphoto-dark-overlay-editorial",
+  "pascalName": "TeamFullbleedGroupphotoDarkOverlayEditorial",
+  "category": "Equipo",
+  "catalogRow": "| `team-fullbleed-groupphoto-dark-overlay-editorial` | team-fullbleed-groupphoto-dark-overlay-editorial — fotografía grupal a sangre completa con degradado oscuro y lista editorial de nombres/roles superpuesta en la esquina inferior | { eyebrow, title, image, imageAlt, caption, members: [{ name, role }] } |",
+  "fixture": {
+    "eyebrow": "El equipo",
+    "title": "Las personas detrás de cada proyecto",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo directivo de la firma reunido en la sala de juntas principal",
+    "caption": "Un grupo multidisciplinario de socios y consultores con más de quince años de experiencia conjunta en proyectos corporativos en México.",
+    "members": [
+      { "name": "Renata Villaseñor", "role": "Socia directora" },
+      { "name": "Ignacio Bermúdez", "role": "Director de operaciones" },
+      { "name": "Paulina Cordero", "role": "Directora de finanzas" },
+      { "name": "Emilio Salcedo", "role": "Director comercial" }
+    ]
+  }
+}

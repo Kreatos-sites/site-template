@@ -1,0 +1,53 @@
+{
+  "key": "careers-benefits-icon-grid-tinted",
+  "pascalName": "CareersBenefitsIconGridTinted",
+  "category": "Empleo",
+  "catalogRow": "| `careers-benefits-icon-grid-tinted` | careers-benefits-icon-grid-tinted — grid denso de 8 tarjetas de prestaciones con icono circular sobre fondo tintado, sin imágenes | { eyebrow, title, description, benefits: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Prestaciones",
+    "title": "Beneficios pensados para el día a día",
+    "description": "Además de las prestaciones de ley, ofrecemos condiciones que buscan cuidar tu salud, tu desarrollo y tu tiempo.",
+    "benefits": [
+      {
+        "icon": "HeartPulse",
+        "title": "Seguro de gastos médicos mayores",
+        "description": "Cobertura para ti y tus dependientes económicos desde el primer día."
+      },
+      {
+        "icon": "Home",
+        "title": "Esquema híbrido",
+        "description": "Tres días en oficina y dos días de home office, según el equipo."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Presupuesto de capacitación",
+        "description": "Cursos, certificaciones y conferencias con presupuesto anual asignado."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Fondo de ahorro",
+        "description": "Aportación de la empresa al fondo de ahorro conforme a la ley."
+      },
+      {
+        "icon": "Bus",
+        "title": "Vales de transporte",
+        "description": "Apoyo mensual para traslados a oficina o a sitio de proyecto."
+      },
+      {
+        "icon": "Utensils",
+        "title": "Vales de despensa",
+        "description": "Monto mensual adicional al sueldo base, exento conforme a ley."
+      },
+      {
+        "icon": "CalendarCheck",
+        "title": "Días de vacaciones adicionales",
+        "description": "Días extra sobre el mínimo legal a partir del segundo año."
+      },
+      {
+        "icon": "Gift",
+        "title": "Bono de fin de año",
+        "description": "Aguinaldo superior al mínimo de ley, pagado en diciembre."
+      }
+    ]
+  }
+}

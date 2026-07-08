@@ -1,0 +1,16 @@
+{
+  "key": "hero-warm-tinted-editorial-serif",
+  "pascalName": "HeroWarmTintedEditorialSerif",
+  "category": "Heroes",
+  "catalogRow": "| `hero-warm-tinted-editorial-serif` | hero-warm-tinted-editorial-serif — hero editorial off-center sobre fondo tintado cálido con cita en serif oversized y CTA subrayado discreto | { eyebrow, quote, attribution, subtitle, primaryCta: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Filosofía de despacho",
+    "quote": "Construimos cada expediente como si el patrimonio fuera nuestro.",
+    "attribution": "Socia fundadora, Dirección de Litigio",
+    "subtitle": "Veinte años acompañando a empresas familiares mexicanas en las decisiones que definen su continuidad.",
+    "primaryCta": {
+      "label": "Conocer al equipo",
+      "href": "/equipo"
+    }
+  }
+}

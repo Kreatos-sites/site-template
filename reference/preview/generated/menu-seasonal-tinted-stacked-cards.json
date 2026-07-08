@@ -1,0 +1,41 @@
+{
+  "key": "menu-seasonal-tinted-stacked-cards",
+  "pascalName": "MenuSeasonalTintedStackedCards",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-seasonal-tinted-stacked-cards` | menu-seasonal-tinted-stacked-cards — sección tintada bg-secondary con tarjetas de platillos de temporada apiladas en zigzag alterno, imagen + nombre + descripción + precio | { eyebrow, title, description, items: [{ image, imageAlt, name, description, price }] } |",
+  "fixture": {
+    "eyebrow": "Menú de temporada",
+    "title": "Lo que cosecha el otoño en nuestra cocina",
+    "description": "Cada estación trae ingredientes distintos a nuestra mesa. Esta selección cambia con el mercado y se sirve solo mientras dura la cosecha.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Risotto de calabaza asada con salvia crujiente y queso curado",
+        "name": "Risotto de calabaza asada",
+        "description": "Arroz carnaroli, calabaza de temporada asada al horno de leña, salvia crujiente y queso curado de la región.",
+        "price": "$245"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Pato confitado con puré de camote y reducción de ciruela",
+        "name": "Pato confitado con camote",
+        "description": "Pierna de pato confitada doce horas, puré de camote ahumado y reducción de ciruela con especias de otoño.",
+        "price": "$310"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Tarta de manzana caramelizada con helado de canela",
+        "name": "Tarta de manzana caramelizada",
+        "description": "Hojaldre casero, manzanas locales caramelizadas y helado artesanal de canela recién horneado.",
+        "price": "$150"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Ensalada tibia de hongos silvestres con avellanas tostadas",
+        "name": "Ensalada tibia de hongos silvestres",
+        "description": "Mezcla de hongos de temporada salteados, avellanas tostadas, vinagreta de mostaza antigua y hierbas frescas.",
+        "price": "$180"
+      }
+    ]
+  }
+}

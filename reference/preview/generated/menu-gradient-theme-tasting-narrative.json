@@ -1,0 +1,17 @@
+{
+  "key": "menu-gradient-theme-tasting-narrative",
+  "pascalName": "MenuGradientThemeTastingNarrative",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-gradient-theme-tasting-narrative` | menu-gradient-theme-tasting-narrative — narrativa centrada sobre fondo con gradiente diagonal primary claro-a-oscuro, con numerales flotantes (tiempos, duración, maridajes) | { eyebrow, title, narrative, stats: [{ value, label }], footnote? } |",
+  "fixture": {
+    "eyebrow": "Menú degustación",
+    "title": "Un recorrido de temporada por la cocina de la casa",
+    "narrative": "Cada tiempo se sirve al momento, pensado para acompañar la conversación de principio a fin. Ingredientes de productores locales, técnicas de temporada y una selección de maridajes elegida por nuestro sommelier para acompañar cada plato.",
+    "stats": [
+      { "value": "7", "label": "Tiempos" },
+      { "value": "2.5 h", "label": "Duración" },
+      { "value": "5", "label": "Maridajes incluidos" }
+    ],
+    "footnote": "Disponible de jueves a domingo, reservación previa con 48 horas de anticipación."
+  }
+}

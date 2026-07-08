@@ -1,0 +1,19 @@
+{
+  "key": "about-tinted-facts-dense-datasheet",
+  "pascalName": "AboutTintedFactsDenseDatasheet",
+  "category": "Nosotros",
+  "catalogRow": "| `about-tinted-facts-dense-datasheet` | about-tinted-facts-dense-datasheet — ficha de datos densa sobre fondo tintado, texto + lista etiqueta/valor, sin fotos | { eyebrow, title, paragraphOne, paragraphTwo, datasheetLabel, facts: { label, value }[] } |",
+  "fixture": {
+    "eyebrow": "Perfil corporativo",
+    "title": "Una firma técnica, estructurada para operar con precisión",
+    "paragraphOne": "Desde 2011 acompañamos a empresas industriales y de logística en la modernización de sus procesos operativos, con equipos multidisciplinarios que combinan ingeniería, datos y ejecución en campo.",
+    "paragraphTwo": "Operamos bajo un modelo de entrega por fases, con gobernanza documentada y responsables asignados en cada etapa, lo que nos permite mantener trazabilidad completa en proyectos de cualquier escala.",
+    "datasheetLabel": "Ficha técnica",
+    "facts": [
+      { "label": "Fundación", "value": "2011" },
+      { "label": "Sede", "value": "Monterrey, Nuevo León" },
+      { "label": "Tamaño de equipo", "value": "68 profesionales" },
+      { "label": "Cobertura", "value": "Nacional, 14 estados" }
+    ]
+  }
+}

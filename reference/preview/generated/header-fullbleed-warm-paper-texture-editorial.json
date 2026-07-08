@@ -1,0 +1,19 @@
+{
+  "key": "header-fullbleed-warm-paper-texture-editorial",
+  "pascalName": "HeaderFullbleedWarmPaperTextureEditorial",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-fullbleed-warm-paper-texture-editorial` | header-fullbleed-warm-paper-texture-editorial — wordmark serif centrado sobre fondo cálido con textura de grano, nav en línea fina separada por puntos medios, tono editorial para despachos boutique | { wordmark: string, navLabel: string, menuLabel: string, links: { label: string, href: string }[], ctaLabel: string, ctaHref: string } |",
+  "fixture": {
+    "wordmark": "Oribe & Salas",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "links": [
+      { "label": "Estudio", "href": "#estudio" },
+      { "label": "Práctica", "href": "#practica" },
+      { "label": "Casos", "href": "#casos" },
+      { "label": "Equipo", "href": "#equipo" }
+    ],
+    "ctaLabel": "Agende una consulta",
+    "ctaHref": "#contacto"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "key": "property-agent-spotlight-split-portrait",
+  "pascalName": "PropertyAgentSpotlightSplitPortrait",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-agent-spotlight-split-portrait` | property-agent-spotlight-split-portrait — Split asimétrico con retrato del asesor a sangre completa en la mitad izquierda y, a la derecha sobre fondo claro, bio, credenciales, cifras de propiedades cerradas y tarjeta de contacto; tono cálido y humano | { eyebrow, image, imageAlt, name, role, bio: string[], credentials: string[], stats: [{ icon, value, label }], contact: { phoneLabel, phone, emailLabel, email, ctaLabel, ctaHref } } }",
+  "fixture": {
+    "eyebrow": "Asesor certificado",
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Ricardo Elizondo, asesor inmobiliario, en su oficina",
+    "name": "Ricardo Elizondo Farías",
+    "role": "Asesor senior · Zona Valle Oriente y San Pedro Garza García",
+    "bio": [
+      "Acompaño a familias y desarrolladores desde hace once años en la compra, venta y arrendamiento de propiedades residenciales en el área metropolitana de Monterrey.",
+      "Mi trabajo empieza mucho antes de la firma: escucho lo que necesita cada cliente, filtro las opciones que de verdad le convienen y negocio en su nombre hasta el cierre en notaría."
+    ],
+    "credentials": [
+      "Cédula profesional AMPI Nuevo León vigente",
+      "Certificación en valuación inmobiliaria residencial",
+      "Miembro activo de la Asociación Mexicana de Profesionales Inmobiliarios"
+    ],
+    "stats": [
+      { "icon": "properties", "value": "186", "label": "Propiedades cerradas" },
+      { "icon": "clients", "value": "310", "label": "Familias atendidas" },
+      { "icon": "credential", "value": "11 años", "label": "Experiencia en la zona" }
+    ],
+    "contact": {
+      "phoneLabel": "Teléfono directo",
+      "phone": "+52 81 1234 5678",
+      "emailLabel": "Correo",
+      "email": "ricardo.elizondo@inmobiliaria.mx",
+      "ctaLabel": "Agendar una llamada",
+      "ctaHref": "/contacto"
+    }
+  }
+}

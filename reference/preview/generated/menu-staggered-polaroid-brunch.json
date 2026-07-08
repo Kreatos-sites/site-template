@@ -1,0 +1,55 @@
+{
+  "key": "menu-staggered-polaroid-brunch",
+  "pascalName": "MenuStaggeredPolaroidBrunch",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-staggered-polaroid-brunch` | menu-staggered-polaroid-brunch — grid de tarjetas polaroid con rotación alterna, marco blanco grueso y etiqueta manuscrita-style, tono lúdico/editorial para brunch o repostería | { eyebrow, title, description, items: { image, imageAlt, name, price, note }[] } |",
+  "fixture": {
+    "eyebrow": "Carta de brunch",
+    "title": "Cada plato, servido como una postal de domingo",
+    "description": "Una selección pensada para compartir mesa larga, con ingredientes de temporada y presentaciones que invitan a fotografiar antes de probar.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Hot cakes apilados con mantequilla derretida y frutos rojos",
+        "name": "Hot cakes de temporada",
+        "price": "$145",
+        "note": "Con jarabe de piloncillo y frutos rojos frescos"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Huevos benedictinos sobre pan brioche con salsa holandesa",
+        "name": "Benedictinos de la casa",
+        "price": "$165",
+        "note": "Pan brioche, jamón serrano y salsa holandesa al momento"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Tabla de pan dulce artesanal recién horneado",
+        "name": "Tabla de pan dulce",
+        "price": "$120",
+        "note": "Concha, cuernito y polvorón horneados cada mañana"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Avocado toast sobre pan de masa madre con huevo pochado",
+        "name": "Avocado toast",
+        "price": "$135",
+        "note": "Masa madre, aguacate machacado y huevo pochado"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Waffle belga con helado de vainilla y salsa de chocolate",
+        "name": "Waffle belga",
+        "price": "$155",
+        "note": "Helado de vainilla, salsa de chocolate y almendra tostada"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bowl de yogur griego con granola casera y fruta fresca",
+        "name": "Bowl de yogur y granola",
+        "price": "$110",
+        "note": "Granola casera, miel de abeja y fruta de temporada"
+      }
+    ]
+  }
+}

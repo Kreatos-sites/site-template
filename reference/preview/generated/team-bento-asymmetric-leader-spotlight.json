@@ -1,0 +1,49 @@
+{
+  "key": "team-bento-asymmetric-leader-spotlight",
+  "pascalName": "TeamBentoAsymmetricLeaderSpotlight",
+  "category": "Equipo",
+  "catalogRow": "| `team-bento-asymmetric-leader-spotlight` | team-bento-asymmetric-leader-spotlight — bento asimétrico sobre fondo sólido claro: tile grande vertical con foto a sangre y cita del fundador, resto del equipo en tiles pequeños de retrato+nombre+rol en mosaico irregular · úsalo para presentar liderazgo con jerarquía visual clara. | { eyebrow, title, leader: { name, role, quote, image, imageAlt }, members: [{ name, role, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Un equipo construido alrededor de un mismo criterio",
+    "leader": {
+      "name": "Fernando Aguilar",
+      "role": "Director General y Fundador",
+      "quote": "Cada proyecto que aceptamos lleva mi nombre detrás; por eso revisamos personalmente cada entrega antes de que salga de nuestras manos.",
+      "image": "/images/about.svg",
+      "imageAlt": "Retrato de Fernando Aguilar, Director General y Fundador"
+    },
+    "members": [
+      {
+        "name": "Paola Rentería",
+        "role": "Directora de Operaciones",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Paola Rentería, Directora de Operaciones"
+      },
+      {
+        "name": "Ismael Cordero",
+        "role": "Gerente Comercial",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Ismael Cordero, Gerente Comercial"
+      },
+      {
+        "name": "Diana Salcido",
+        "role": "Contralora General",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diana Salcido, Contralora General"
+      },
+      {
+        "name": "Héctor Villagrán",
+        "role": "Gerente de Proyectos",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Héctor Villagrán, Gerente de Proyectos"
+      },
+      {
+        "name": "Lucía Bermejo",
+        "role": "Coordinadora de Calidad",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Lucía Bermejo, Coordinadora de Calidad"
+      }
+    ]
+  }
+}

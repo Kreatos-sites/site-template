@@ -1,0 +1,41 @@
+{
+  "key": "property-development-timeline-diagonal-phases",
+  "pascalName": "PropertyDevelopmentTimelineDiagonalPhases",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-development-timeline-diagonal-phases` | property-development-timeline-diagonal-phases — bitácora de obra en franjas diagonales alternadas (clip-path), fondo en degradado del primario, barra de progreso y fecha por fase | { eyebrow, title, description, phases: { code, name, date, progress, description }[] (4) } |",
+  "fixture": {
+    "eyebrow": "Bitácora de obra",
+    "title": "Fases del desarrollo, de la preventa a la entrega",
+    "description": "Seguimiento puntual de cada etapa del proyecto, con fechas comprometidas y avance verificado por el equipo de obra.",
+    "phases": [
+      {
+        "code": "Fase 01",
+        "name": "Preventa",
+        "date": "Ene 2026",
+        "progress": 100,
+        "description": "Apartado de unidades, firma de contrato de compraventa y definición de acabados con el cliente."
+      },
+      {
+        "code": "Fase 02",
+        "name": "Cimentación",
+        "date": "Mar 2026",
+        "progress": 85,
+        "description": "Excavación, colado de losa de cimentación y trabajos de impermeabilización de la base estructural."
+      },
+      {
+        "code": "Fase 03",
+        "name": "Obra gris",
+        "date": "Sep 2026",
+        "progress": 40,
+        "description": "Levantamiento de estructura, muros de carga, instalaciones hidrosanitarias y eléctricas ocultas."
+      },
+      {
+        "code": "Fase 04",
+        "name": "Entrega",
+        "date": "Mar 2027",
+        "progress": 5,
+        "description": "Acabados finales, inspección de calidad conjunta y entrega de llaves con acta de recepción."
+      }
+    ]
+  }
+}

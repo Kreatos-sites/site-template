@@ -1,0 +1,20 @@
+{
+  "key": "cta-gradient-theme-radial-centered",
+  "pascalName": "CtaGradientThemeRadialCentered",
+  "category": "CTAs y cierre",
+  "catalogRow": "| `cta-gradient-theme-radial-centered` | cta-gradient-theme-radial-centered — cierre centrado con glow radial del color primary y tarjeta flotante semi-transparente con blur | { eyebrow, title, description, primaryCta: { label, href }, secondaryCta: { label, href }, note } |",
+  "fixture": {
+    "eyebrow": "Siguiente paso",
+    "title": "Agende una sesión de diagnóstico con nuestro equipo",
+    "description": "En treinta minutos revisamos su operación actual, identificamos oportunidades concretas y le proponemos una ruta de trabajo clara, sin compromiso.",
+    "primaryCta": {
+      "label": "Agendar sesión",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver casos de éxito",
+      "href": "/casos"
+    },
+    "note": "Respuesta en menos de 24 horas hábiles"
+  }
+}

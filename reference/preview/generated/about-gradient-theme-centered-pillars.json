@@ -1,0 +1,28 @@
+{
+  "key": "about-gradient-theme-centered-pillars",
+  "pascalName": "AboutGradientThemeCenteredPillars",
+  "category": "Nosotros",
+  "catalogRow": "| `about-gradient-theme-centered-pillars` | about-gradient-theme-centered-pillars — fondo con degradado sutil del color primario, contenido centrado y tres pilares en columnas sin tarjetas ni bordes | { eyebrow, title, intro, pillars: { icon, name, description }[] } |",
+  "fixture": {
+    "eyebrow": "Quiénes somos",
+    "title": "Una firma construida sobre tres convicciones",
+    "intro": "Desde 2011 acompañamos a empresas mexicanas en decisiones que no admiten margen de error, con un equipo que responde con la misma cercanía el primer día y el último.",
+    "pillars": [
+      {
+        "icon": "compass",
+        "name": "Claridad de rumbo",
+        "description": "Cada proyecto inicia con un diagnóstico honesto y un plan que usted puede seguir sin traducción."
+      },
+      {
+        "icon": "handshake",
+        "name": "Compromiso sostenido",
+        "description": "Un mismo equipo lo acompaña de principio a fin, sin relevos que le hagan repetir la historia."
+      },
+      {
+        "icon": "spark",
+        "name": "Mejora constante",
+        "description": "Revisamos cada entrega con usted para que el siguiente paso sea mejor que el anterior."
+      }
+    ]
+  }
+}

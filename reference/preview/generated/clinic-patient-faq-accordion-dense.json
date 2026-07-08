@@ -1,0 +1,48 @@
+{
+  "key": "clinic-patient-faq-accordion-dense",
+  "pascalName": "ClinicPatientFaqAccordionDense",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-patient-faq-accordion-dense` | clinic-patient-faq-accordion-dense — acordeón denso de FAQ clínico en columna angosta centrada, sin imágenes, filas agrupadas por categoría (primera visita/síntomas/seguro) | { eyebrow, title, intro, items: [{ category, question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas antes de su consulta",
+    "intro": "Reunimos las preguntas que más nos hacen los pacientes sobre citas, síntomas y cobertura de seguro.",
+    "items": [
+      {
+        "category": "Primera visita",
+        "question": "¿Qué debo llevar a mi primera cita?",
+        "answer": "Identificación oficial, credencial de su aseguradora si cuenta con una, y el historial de estudios o tratamientos previos relacionados con el motivo de consulta."
+      },
+      {
+        "category": "Primera visita",
+        "question": "¿Cuánto dura la consulta inicial?",
+        "answer": "La valoración inicial dura entre 30 y 45 minutos e incluye historia clínica completa, exploración física y definición del plan de estudio."
+      },
+      {
+        "category": "Primera visita",
+        "question": "¿Necesito referencia de otro médico?",
+        "answer": "No es obligatoria. Puede agendar directamente; si ya cuenta con una referencia o estudios previos, le pedimos traerlos para agilizar el diagnóstico."
+      },
+      {
+        "category": "Síntomas",
+        "question": "¿Cuándo debo acudir de urgencia y no esperar a mi cita?",
+        "answer": "Si presenta dolor intenso, fiebre persistente mayor a 39°C, dificultad para respirar o sangrado, acuda de inmediato a urgencias en lugar de esperar la cita programada."
+      },
+      {
+        "category": "Síntomas",
+        "question": "¿Puedo describir mis síntomas antes de la cita?",
+        "answer": "Sí. Al confirmar su cita puede enviarnos una breve descripción por el portal de pacientes para que el médico llegue a la consulta con contexto previo."
+      },
+      {
+        "category": "Cobertura de seguro",
+        "question": "¿Con qué aseguradoras trabajan?",
+        "answer": "Tenemos convenio directo con las principales aseguradoras del país. Confirme su póliza al agendar para validar cobertura y coaseguro antes de la cita."
+      },
+      {
+        "category": "Cobertura de seguro",
+        "question": "¿Qué pasa si mi seguro no cubre el estudio solicitado?",
+        "answer": "Le presentamos el costo exacto antes de realizarlo y, de no estar cubierto, ofrecemos tarifa preferencial de pago directo sin cargos ocultos."
+      }
+    ]
+  }
+}

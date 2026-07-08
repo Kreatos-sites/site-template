@@ -1,0 +1,36 @@
+{
+  "key": "portfolio-editorial-magazine-spread-pullquote",
+  "pascalName": "PortfolioEditorialMagazineSpreadPullquote",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-editorial-magazine-spread-pullquote` | portfolio-editorial-magazine-spread-pullquote — spread editorial apilado, un caso por fila, título serif + cita destacada e imagen asimétrica desbordada, filas alternadas | { eyebrow, title, cases: [{ title, quote, author, role, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Casos de estudio",
+    "title": "Proyectos que hablan por sí mismos",
+    "cases": [
+      {
+        "title": "Reordenamiento de bodega central para Grupo Ferretero del Norte",
+        "quote": "Redujeron nuestro tiempo de surtido a la mitad sin detener la operación un solo día.",
+        "author": "Marcela Huerta",
+        "role": "Directora de Operaciones, Grupo Ferretero del Norte",
+        "image": "/images/hero.svg",
+        "imageAlt": "Pasillos de la bodega central reorganizados con nueva señalización"
+      },
+      {
+        "title": "Renovación de sucursal insignia para Muebles Cordero",
+        "quote": "El nuevo recorrido de piso de venta subió el ticket promedio desde la primera semana.",
+        "author": "Ricardo Cordero",
+        "role": "Director General, Muebles Cordero",
+        "image": "/images/about.svg",
+        "imageAlt": "Piso de venta de la sucursal insignia con el nuevo recorrido de exhibición"
+      },
+      {
+        "title": "Automatización de facturación para Distribuidora Altamira",
+        "quote": "Pasamos de tres días de conciliación a unas cuantas horas cada cierre de mes.",
+        "author": "Paulina Serrano",
+        "role": "Gerente de Administración, Distribuidora Altamira",
+        "image": "/images/hero.svg",
+        "imageAlt": "Equipo administrativo revisando el nuevo panel de facturación en pantalla"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "key": "hero-tinted-secondary-bg-badge-row",
+  "pascalName": "HeroTintedSecondaryBgBadgeRow",
+  "category": "Heroes",
+  "catalogRow": "| `hero-tinted-secondary-bg-badge-row` | hero-tinted-secondary-bg-badge-row — hero centrado sobre fondo sólido tintado bg-secondary de ancho completo, sin imagen, con fila de badges de confianza justo debajo del CTA | { eyebrow, title, subtitle, primaryCta: { label, href }, badges: [{ icon, label }] } |",
+  "fixture": {
+    "eyebrow": "Despacho contable corporativo",
+    "title": "Contabilidad y cumplimiento fiscal para empresas en crecimiento",
+    "subtitle": "Llevamos la contabilidad, la nómina y las declaraciones fiscales de su empresa con un equipo de contadores certificados que responde en menos de un día hábil.",
+    "primaryCta": { "label": "Agende una consultoría", "href": "/contacto" },
+    "badges": [
+      { "icon": "shield", "label": "Certificación IMCP" },
+      { "icon": "shield", "label": "Más de 15 años de operación" },
+      { "icon": "shield", "label": "Cumplimiento ante el SAT garantizado" },
+      { "icon": "shield", "label": "Más de 200 empresas atendidas" }
+    ]
+  }
+}

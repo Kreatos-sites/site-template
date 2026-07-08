@@ -1,0 +1,32 @@
+{
+  "key": "about-cards-staggered-values-vertical-offset",
+  "pascalName": "AboutCardsStaggeredValuesVerticalOffset",
+  "category": "Nosotros",
+  "catalogRow": "| `about-cards-staggered-values-vertical-offset` | about-cards-staggered-values-vertical-offset — grid de 4 tarjetas de valores con desfase vertical alternado sobre fondo secundario, icono + título + 1 línea, sin imágenes | { eyebrow, title, values: { title, text, icon }[] } |",
+  "fixture": {
+    "eyebrow": "Nuestros valores",
+    "title": "Lo que sostiene cada decisión que tomamos",
+    "values": [
+      {
+        "title": "Precisión",
+        "text": "Cada entregable pasa por revisión técnica antes de llegar a su mesa.",
+        "icon": "target"
+      },
+      {
+        "title": "Integridad",
+        "text": "Cumplimos lo acordado en tiempo, forma y presupuesto pactado.",
+        "icon": "shield"
+      },
+      {
+        "title": "Cercanía",
+        "text": "Un solo punto de contacto acompaña su proyecto de inicio a fin.",
+        "icon": "handshake"
+      },
+      {
+        "title": "Agilidad",
+        "text": "Respuesta en menos de 24 horas ante cualquier ajuste solicitado.",
+        "icon": "lightning"
+      }
+    ]
+  }
+}

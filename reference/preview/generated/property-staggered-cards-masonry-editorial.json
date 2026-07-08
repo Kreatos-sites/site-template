@@ -1,0 +1,37 @@
+{
+  "key": "property-staggered-cards-masonry-editorial",
+  "pascalName": "PropertyStaggeredCardsMasonryEditorial",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-staggered-cards-masonry-editorial` | property-staggered-cards-masonry-editorial — mosaico masonry de propiedades con tarjetas escalonadas verticalmente, leyenda editorial superpuesta y fondo cálido en bg-secondary | { eyebrow, title, description?, properties: { image, imageAlt, title, location }[] } |",
+  "fixture": {
+    "eyebrow": "Portafolio",
+    "title": "Propiedades seleccionadas en las mejores zonas",
+    "description": "Cada desarrollo pasa por un proceso de curaduría antes de sumarse a nuestro portafolio. Explore una selección de espacios listos para habitar o invertir.",
+    "properties": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada de residencia contemporánea con jardín frontal en Valle Oriente",
+        "title": "Residencia Valle Oriente",
+        "location": "Valle Oriente, San Pedro Garza García"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala principal con ventanales de piso a techo en departamento de Punta Norte",
+        "title": "Torre Punta Norte 12B",
+        "location": "Punta Norte, Monterrey"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea de casa con alberca en fraccionamiento Contry",
+        "title": "Casa Contry con Alberca",
+        "location": "Contry, Monterrey"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Terraza con vista a la ciudad en penthouse de Cumbres",
+        "title": "Penthouse Cumbres Vista",
+        "location": "Cumbres, Monterrey"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "key": "portfolio-fullbleed-image-dark-overlay-stacked",
+  "pascalName": "PortfolioFullbleedImageDarkOverlayStacked",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-fullbleed-image-dark-overlay-stacked` | portfolio-fullbleed-image-dark-overlay-stacked — casos apilados en secciones a pantalla completa con foto a sangre y overlay oscuro degradado, título/cliente/año flotando en blanco sobre la esquina inferior izquierda, un proyecto por scroll | { eyebrow, title, projects: [{ image, imageAlt, title, client, year, description }] } |",
+  "fixture": {
+    "eyebrow": "Casos de estudio",
+    "title": "Proyectos que hablan por sí mismos",
+    "projects": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Fachada nocturna de la torre corporativa Altavista con iluminación arquitectónica",
+        "title": "Torre corporativa Altavista",
+        "client": "Grupo Altavista",
+        "year": "2025",
+        "description": "Dirección de obra y coordinación de especialidades para una torre de oficinas de dieciocho niveles, entregada dentro del presupuesto y seis semanas antes de lo programado."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interior del centro de distribución logística con racks industriales y montacargas en operación",
+        "title": "Centro de distribución Bajío",
+        "client": "Logística del Bajío",
+        "year": "2024",
+        "description": "Rediseño de flujos operativos y ampliación de la nave industrial para triplicar la capacidad de almacenaje sin detener la operación diaria."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista aérea del complejo industrial recién construido junto a la carretera federal",
+        "title": "Parque industrial Cuatro Caminos",
+        "client": "Inmobiliaria Cuatro Caminos",
+        "year": "2023",
+        "description": "Planeación maestra y construcción de seis naves industriales con certificación de eficiencia energética, entregadas por etapas a lo largo de dieciocho meses."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas del despacho corporativo con acabados en madera y vidrio",
+        "title": "Oficinas corporativas Nortec",
+        "client": "Nortec Consultores",
+        "year": "2023",
+        "description": "Remodelación integral de dos mil metros cuadrados de oficinas, conservando la operación del cliente mediante trabajo por fases nocturnas y de fin de semana."
+      }
+    ]
+  }
+}

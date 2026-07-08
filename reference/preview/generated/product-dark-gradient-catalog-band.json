@@ -1,0 +1,73 @@
+{
+  "key": "product-dark-gradient-catalog-band",
+  "pascalName": "ProductDarkGradientCatalogBand",
+  "category": "Catálogo y producto",
+  "catalogRow": "| `product-dark-gradient-catalog-band` | product-dark-gradient-catalog-band — banda oscura con gradiente radial hacia primary en la esquina y grid denso de tarjetas técnicas con borde translúcido y glow al hover · úsalo para catálogos industriales con muchas referencias por fila. | { eyebrow, title, description, linkLabel, linkHref, availableLabel, unavailableLabel, products: [{ sku, name, spec, price, available }] } |",
+  "fixture": {
+    "eyebrow": "Catálogo técnico",
+    "title": "Componentes disponibles en inventario",
+    "description": "Referencias listas para envío desde nuestro almacén en Monterrey, con ficha técnica y disponibilidad actualizada en tiempo real.",
+    "linkLabel": "Ver catálogo completo",
+    "linkHref": "/catalogo",
+    "availableLabel": "Disponible",
+    "unavailableLabel": "Sobre pedido",
+    "products": [
+      {
+        "sku": "MC-1042",
+        "name": "Motorreductor helicoidal 1 HP",
+        "spec": "Relación 20:1, brida B14, montaje horizontal",
+        "price": "$4,320 MXN",
+        "available": true
+      },
+      {
+        "sku": "VF-2203",
+        "name": "Variador de frecuencia trifásico",
+        "spec": "230V, 3 HP, comunicación Modbus RTU",
+        "price": "$7,890 MXN",
+        "available": true
+      },
+      {
+        "sku": "SN-0087",
+        "name": "Sensor inductivo de proximidad",
+        "spec": "Rosca M18, distancia 8 mm, salida PNP",
+        "price": "$385 MXN",
+        "available": false
+      },
+      {
+        "sku": "CB-5510",
+        "name": "Contactor bobina 24V CD",
+        "spec": "3 polos, 32 A, categoría AC-3",
+        "price": "$620 MXN",
+        "available": true
+      },
+      {
+        "sku": "RL-3390",
+        "name": "Rodamiento rígido de bolas 6205",
+        "spec": "Diámetro interior 25 mm, doble blindaje",
+        "price": "$145 MXN",
+        "available": true
+      },
+      {
+        "sku": "PN-7712",
+        "name": "Cilindro neumático de doble efecto",
+        "spec": "Diámetro 32 mm, carrera 100 mm, ISO 15552",
+        "price": "$1,150 MXN",
+        "available": false
+      },
+      {
+        "sku": "AC-1188",
+        "name": "Acoplamiento flexible de eje",
+        "spec": "Elastómero poliuretano, torque nominal 25 Nm",
+        "price": "$490 MXN",
+        "available": true
+      },
+      {
+        "sku": "PL-4456",
+        "name": "PLC compacto 16 entradas / 12 salidas",
+        "spec": "Alimentación 24V CD, puerto Ethernet integrado",
+        "price": "$3,275 MXN",
+        "available": true
+      }
+    ]
+  }
+}

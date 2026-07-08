@@ -1,0 +1,25 @@
+{
+  "key": "hero-diagonal-color-block-typographic",
+  "pascalName": "HeroDiagonalColorBlockTypographic",
+  "category": "Heroes",
+  "catalogRow": "| `hero-diagonal-color-block-typographic` | hero-diagonal-color-block-typographic — sin fotografía, un bloque de color diagonal (primary) atraviesa el título tipográfico grande, que se recorta y recolorea exactamente en el límite entre la franja de color y el fondo claro, con subtítulo, dos CTA y tres estadísticas | { eyebrow, titleLine1, titleLine2, subtitle, primaryCta: { label, href }, secondaryCta: { label, href }, stats: { value, label }[] } |",
+  "fixture": {
+    "eyebrow": "Despacho corporativo",
+    "titleLine1": "Estructura legal",
+    "titleLine2": "sin ambigüedad",
+    "subtitle": "Acompañamos a empresas mexicanas en fusiones, contratos y gobierno corporativo con una redacción clara que reduce el riesgo de disputas.",
+    "primaryCta": {
+      "label": "Agendar una consulta",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Conocer al equipo",
+      "href": "/equipo"
+    },
+    "stats": [
+      { "value": "18", "label": "años de práctica" },
+      { "value": "260+", "label": "operaciones cerradas" },
+      { "value": "94%", "label": "clientes que regresan" }
+    ]
+  }
+}

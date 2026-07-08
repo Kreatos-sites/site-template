@@ -1,0 +1,29 @@
+{
+  "key": "property-amenities-icon-grid-dense-dark",
+  "pascalName": "PropertyAmenitiesIconGridDenseDark",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-amenities-icon-grid-dense-dark` | property-amenities-icon-grid-dense-dark — grid denso de 6 a 8 columnas tipo ficha técnica de catálogo, icono + etiqueta y numeración monoespaciada sobre fondo oscuro sólido | { eyebrow: string, title: string, description: string, amenities: { label: string }[] } |",
+  "fixture": {
+    "eyebrow": "Amenidades",
+    "title": "Un catálogo completo de amenidades",
+    "description": "Cada torre del desarrollo incluye la totalidad de estos espacios, disponibles para todos los residentes sin costo adicional.",
+    "amenities": [
+      { "label": "Alberca climatizada" },
+      { "label": "Gimnasio equipado" },
+      { "label": "Sala de coworking" },
+      { "label": "Seguridad 24 horas" },
+      { "label": "Estacionamiento techado" },
+      { "label": "Área verde y jardines" },
+      { "label": "Ludoteca infantil" },
+      { "label": "Salón de usos múltiples" },
+      { "label": "Terraza con asadores" },
+      { "label": "Circuito de videovigilancia" },
+      { "label": "Elevadores de alta velocidad" },
+      { "label": "Área de lavandería" },
+      { "label": "Bodega de paquetería" },
+      { "label": "Acceso controlado biométrico" },
+      { "label": "Cancha multiusos" },
+      { "label": "Cuarto de bicicletas" }
+    ]
+  }
+}

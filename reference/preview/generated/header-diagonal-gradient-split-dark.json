@@ -1,0 +1,21 @@
+{
+  "key": "header-diagonal-gradient-split-dark",
+  "pascalName": "HeaderDiagonalGradientSplitDark",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-diagonal-gradient-split-dark` | header-diagonal-gradient-split-dark — encabezado técnico con recorte diagonal: mitad sólida oscura (logo + nav) y mitad en degradado primary con CTA en pastilla flotante | { logo: string; navLabel: string; menuLabel: string; eyebrow: string; ctaLabel: string; ctaHref: string; links: { label: string; href: string }[] } |",
+  "fixture": {
+    "logo": "Ferretería Industrial Moctezuma",
+    "navLabel": "Navegación principal",
+    "menuLabel": "Abrir menú",
+    "eyebrow": "Distribución nacional",
+    "ctaLabel": "Solicitar cotización",
+    "ctaHref": "#cotizacion",
+    "links": [
+      { "label": "Catálogo", "href": "#catalogo" },
+      { "label": "Sectores", "href": "#sectores" },
+      { "label": "Logística", "href": "#logistica" },
+      { "label": "Nosotros", "href": "#nosotros" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

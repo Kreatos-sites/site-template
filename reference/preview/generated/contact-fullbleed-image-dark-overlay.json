@@ -1,0 +1,17 @@
+{
+  "key": "contact-fullbleed-image-dark-overlay",
+  "pascalName": "ContactFullbleedImageDarkOverlay",
+  "category": "Contacto",
+  "catalogRow": "| `contact-fullbleed-image-dark-overlay` | contact-fullbleed-image-dark-overlay — sección a sangre completa con foto de oficina y overlay oscuro, título editorial oversized centrado arriba y fila de datos de contacto en texto claro abajo, sin tarjeta ni formulario | { eyebrow, title, image, imageAlt, items: [{ icon, label, value }] } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de su próximo proyecto",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de trabajo en las oficinas centrales de la empresa",
+    "items": [
+      { "icon": "phone", "label": "Teléfono", "value": "+52 (81) 4455 2200" },
+      { "icon": "email", "label": "Correo", "value": "contacto@empresa.com.mx" },
+      { "icon": "address", "label": "Dirección", "value": "Av. Constitución 1500, Monterrey, N.L." }
+    ]
+  }
+}

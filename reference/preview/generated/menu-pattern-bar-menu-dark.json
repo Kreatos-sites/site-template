@@ -1,0 +1,43 @@
+{
+  "key": "menu-pattern-bar-menu-dark",
+  "pascalName": "MenuPatternBarMenuDark",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-pattern-bar-menu-dark` | menu-pattern-bar-menu-dark — grid de tarjetas de coctelería sobre fondo bg-foreground con patrón de líneas diagonales sutiles, tono técnico y nocturno | { eyebrow, title, description, drinks: [{ name, ingredients, price }] } |",
+  "fixture": {
+    "eyebrow": "Carta de barra",
+    "title": "Coctelería de autor para las noches del centro",
+    "description": "Una selección breve y bien pensada, con destilados de casa y técnicas propias. Cada trago se sirve con precisión, sin prisa.",
+    "drinks": [
+      {
+        "name": "Negroni de Barrica",
+        "ingredients": "Ginebra reposada, vermut rojo, bitter de naranja, hielo tallado",
+        "price": "$185"
+      },
+      {
+        "name": "Sour de Mezcal",
+        "ingredients": "Mezcal joven, limón, jarabe de agave, clara de huevo",
+        "price": "$170"
+      },
+      {
+        "name": "Old Fashioned de Casa",
+        "ingredients": "Whisky de centeno, azúcar mascabado, bitter de cacao, cáscara de naranja",
+        "price": "$195"
+      },
+      {
+        "name": "Paloma Ahumada",
+        "ingredients": "Tequila reposado, toronja, sal de agave, humo de mezquite",
+        "price": "$165"
+      },
+      {
+        "name": "Martini Sucio",
+        "ingredients": "Vodka, vermut seco, salmuera de aceituna, aceituna rellena",
+        "price": "$180"
+      },
+      {
+        "name": "Espresso de Barra",
+        "ingredients": "Ron oscuro, café de olla frío, licor de café, ralladura de cacao",
+        "price": "$175"
+      }
+    ]
+  }
+}

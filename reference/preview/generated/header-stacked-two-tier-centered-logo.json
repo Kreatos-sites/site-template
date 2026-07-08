@@ -1,0 +1,21 @@
+{
+  "key": "header-stacked-two-tier-centered-logo",
+  "pascalName": "HeaderStackedTwoTierCenteredLogo",
+  "category": "Headers y nav",
+  "catalogRow": "| `header-stacked-two-tier-centered-logo` | header-stacked-two-tier-centered-logo — encabezado institucional apilado en dos filas sobre bg-secondary, fila superior densa con logo centrado flanqueado por teléfono/idioma, fila inferior con nav en pastillas separadas por hairline, sin sticky ni blur | { logo: string, phoneHref: string, phoneLabel: string, languageLabel: string, menuLabel: string, navLabel: string, links: { label: string, href: string }[] } |",
+  "fixture": {
+    "logo": "Corporativo Aldana",
+    "phoneHref": "tel:+525512345678",
+    "phoneLabel": "55 1234 5678",
+    "languageLabel": "ES / EN",
+    "menuLabel": "Abrir menú de navegación",
+    "navLabel": "Navegación principal",
+    "links": [
+      { "label": "Nosotros", "href": "#nosotros" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Industrias", "href": "#industrias" },
+      { "label": "Casos de éxito", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "key": "hero-fullbleed-image-bottom-content",
+  "pascalName": "HeroFullbleedImageBottomContent",
+  "category": "Heroes",
+  "catalogRow": "| `hero-fullbleed-image-bottom-content` | hero-fullbleed-image-bottom-content — imagen a sangre completa con overlay oscuro, contenido anclado al borde inferior estilo portada de revista (eyebrow, título denso, CTA a la derecha) | { eyebrow, title, description, cta, ctaHref, image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Grupo Industrial Cedro",
+    "title": "Treinta años construyendo la infraestructura que México necesita",
+    "description": "Ingeniería, obra civil y mantenimiento industrial para clientes que no pueden darse el lujo de detenerse.",
+    "cta": "Conozca nuestros proyectos",
+    "ctaHref": "/proyectos",
+    "image": "/images/hero.svg",
+    "imageAlt": "Cuadrilla de ingenieros supervisando una obra industrial al atardecer"
+  }
+}

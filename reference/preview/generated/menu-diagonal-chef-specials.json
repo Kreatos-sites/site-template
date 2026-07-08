@@ -1,0 +1,16 @@
+{
+  "key": "menu-diagonal-chef-specials",
+  "pascalName": "MenuDiagonalChefSpecials",
+  "category": "Hospitality y menú",
+  "catalogRow": "| `menu-diagonal-chef-specials` | menu-diagonal-chef-specials — especial del chef con corte diagonal en la fotografía, un solo platillo protagonista sobre fondo claro | { eyebrow, title, description, price, priceLabel, image, imageAlt, chefNote } |",
+  "fixture": {
+    "eyebrow": "Especial del chef",
+    "title": "Costillar de cordero al carbón con puré de camote ahumado",
+    "description": "Cocción lenta sobre leña de mezquite, glaseado de granada y hierbas de temporada. Disponible únicamente los fines de semana, en porciones limitadas.",
+    "price": "$620",
+    "priceLabel": "Precio por persona",
+    "image": "/images/hero.svg",
+    "imageAlt": "Costillar de cordero emplatado con puré de camote y reducción de granada",
+    "chefNote": "Preparado por el chef Ignacio Roldán, receta insignia de la temporada de otoño."
+  }
+}

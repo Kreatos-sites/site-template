@@ -1,0 +1,15 @@
+{
+  "key": "contact-dark-stacked-editorial-minimal",
+  "pascalName": "ContactDarkStackedEditorialMinimal",
+  "category": "Contacto",
+  "catalogRow": "| `contact-dark-stacked-editorial-minimal` | contact-dark-stacked-editorial-minimal — cierre B2B fondo invertido, sin formulario ni mapa: eyebrow + título breve + correo/teléfono en mono gigante como único CTA, muy aireado | { eyebrow, title, subtitle, email, phone, phoneRaw, footnote } |",
+  "fixture": {
+    "eyebrow": "Contacto directo",
+    "title": "Hablemos de su siguiente proyecto",
+    "subtitle": "Sin formularios ni intermediarios. Escríbanos o llámenos y le respondemos el mismo día hábil.",
+    "email": "contacto@textilesnorte.mx",
+    "phone": "+52 81 4455 0192",
+    "phoneRaw": "+528144550192",
+    "footnote": "Lunes a viernes, 9:00 a 18:00 horas, tiempo del centro"
+  }
+}

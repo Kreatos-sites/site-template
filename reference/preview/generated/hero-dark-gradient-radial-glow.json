@@ -1,0 +1,24 @@
+{
+  "key": "hero-dark-gradient-radial-glow",
+  "pascalName": "HeroDarkGradientRadialGlow",
+  "category": "Heroes",
+  "catalogRow": "| `hero-dark-gradient-radial-glow` | hero-dark-gradient-radial-glow — hero oscuro técnico/SaaS con resplandor radial primary detrás del headline (sin imagen), CTA doble y franja de métricas · úsalo para productos digitales o plataformas de infraestructura. | { eyebrow, title, subtitle, primaryCta: { label, href }, secondaryCta: { label, href }, stats: [{ value, label }] } |",
+  "fixture": {
+    "eyebrow": "Plataforma de Facturación Electrónica",
+    "title": "Infraestructura fiscal para empresas que no pueden parar",
+    "subtitle": "Timbrado, conciliación y reportes en un solo panel, con disponibilidad garantizada y soporte técnico especializado en cumplimiento del SAT.",
+    "primaryCta": {
+      "label": "Solicitar demostración",
+      "href": "/contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver documentación",
+      "href": "/producto"
+    },
+    "stats": [
+      { "value": "99.98%", "label": "Disponibilidad anual" },
+      { "value": "12M+", "label": "Comprobantes timbrados" },
+      { "value": "<200ms", "label": "Latencia promedio" }
+    ]
+  }
+}

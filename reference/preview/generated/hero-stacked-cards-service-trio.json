@@ -1,0 +1,30 @@
+{
+  "key": "hero-stacked-cards-service-trio",
+  "pascalName": "HeroStackedCardsServiceTrio",
+  "category": "Heroes",
+  "catalogRow": "| `hero-stacked-cards-service-trio` | hero-stacked-cards-service-trio — hero corporativo con headline centrado y tres tarjetas de servicio escalonadas en abanico (rotación leve, sin imagen) | { eyebrow, title, subtitle, primaryCta: { label, href }, secondaryCta: { label, href }, cards: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Consultoría corporativa",
+    "title": "Asesoría integral para decisiones de negocio con impacto medible",
+    "subtitle": "Acompañamos a consejos de administración y direcciones generales en las decisiones que definen el rumbo financiero, legal y operativo de la empresa.",
+    "primaryCta": { "label": "Agendar diagnóstico", "href": "/contacto" },
+    "secondaryCta": { "label": "Ver servicios", "href": "/servicios" },
+    "cards": [
+      {
+        "icon": "briefcase",
+        "title": "Estrategia corporativa",
+        "description": "Planeación de expansión, fusiones y adquisiciones con análisis financiero riguroso y hoja de ruta ejecutable."
+      },
+      {
+        "icon": "shield",
+        "title": "Cumplimiento y riesgo",
+        "description": "Diagnóstico regulatorio y mapa de riesgos operativos para blindar la operación ante auditorías y cambios normativos."
+      },
+      {
+        "icon": "trend",
+        "title": "Optimización financiera",
+        "description": "Reestructura de capital, control de flujo de efectivo y reportes gerenciales para decisiones basadas en datos."
+      }
+    ]
+  }
+}

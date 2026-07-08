@@ -1,0 +1,40 @@
+{
+  "key": "team-pattern-warm-stacked-rows",
+  "pascalName": "TeamPatternWarmStackedRows",
+  "category": "Equipo",
+  "catalogRow": "| `team-pattern-warm-stacked-rows` | team-pattern-warm-stacked-rows — filas apiladas cálidas y cercanas con textura de puntos, foto circular grande a la izquierda y bio a la derecha | { eyebrow, title, members: [{ name, role, bio, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Las personas detrás de cada proyecto",
+    "members": [
+      {
+        "name": "Renata Solórzano",
+        "role": "Directora General",
+        "bio": "Encabeza la estrategia del despacho desde hace once años. Antes de fundar la firma trabajó en desarrollo corporativo para grupos industriales del norte del país.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Renata Solórzano, Directora General"
+      },
+      {
+        "name": "Mauricio Iturbide",
+        "role": "Director de Operaciones",
+        "bio": "Coordina la ejecución de proyectos y la relación con proveedores clave. Su formación en ingeniería industrial le permite mantener los tiempos de entrega bajo control.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Mauricio Iturbide, Director de Operaciones"
+      },
+      {
+        "name": "Camila Zaragoza",
+        "role": "Gerente de Cuentas",
+        "bio": "Acompaña a los clientes desde la propuesta inicial hasta el cierre del proyecto, cuidando que cada acuerdo se cumpla en tiempo y forma.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Camila Zaragoza, Gerente de Cuentas"
+      },
+      {
+        "name": "Diego Balderas",
+        "role": "Jefe de Finanzas",
+        "bio": "Supervisa la planeación financiera y el control presupuestal de la firma, con especial atención a la salud de caja de cada línea de negocio.",
+        "image": "/images/about.svg",
+        "imageAlt": "Retrato de Diego Balderas, Jefe de Finanzas"
+      }
+    ]
+  }
+}

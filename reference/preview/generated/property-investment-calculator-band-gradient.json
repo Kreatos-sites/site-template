@@ -1,0 +1,41 @@
+{
+  "key": "property-investment-calculator-band-gradient",
+  "pascalName": "PropertyInvestmentCalculatorBandGradient",
+  "category": "Inmobiliaria",
+  "catalogRow": "| `property-investment-calculator-band-gradient` | property-investment-calculator-band-gradient — banda centrada con fondo en gradiente radial del primario y tarjetas de estadística estilo calculadora de inversión | { eyebrow, title, description, inputsLabel, inputs: { label, value }[], stats: { icon: \"trendingUp/landmark/percent\", label, value, sublabel }[], cta: { label, href } } |",
+  "fixture": {
+    "eyebrow": "Calculadora de inversión",
+    "title": "Proyecte el rendimiento de su próxima propiedad",
+    "description": "Con base en el precio de adquisición y el plazo de conservación, estimamos el rendimiento anual, la plusvalía y el retorno total de la inversión.",
+    "inputsLabel": "Simulación con",
+    "inputs": [
+      { "label": "Monto invertido", "value": "$3,200,000" },
+      { "label": "Plazo", "value": "5 años" },
+      { "label": "Enganche", "value": "30%" }
+    ],
+    "stats": [
+      {
+        "icon": "trendingUp",
+        "label": "Rendimiento anual",
+        "value": "9.4%",
+        "sublabel": "Renta neta sobre el valor de la propiedad"
+      },
+      {
+        "icon": "landmark",
+        "label": "Plusvalía estimada",
+        "value": "$1,180,000",
+        "sublabel": "Incremento de valor proyectado a 5 años"
+      },
+      {
+        "icon": "percent",
+        "label": "ROI total",
+        "value": "37%",
+        "sublabel": "Retorno acumulado sobre el capital invertido"
+      }
+    ],
+    "cta": {
+      "label": "Solicitar proyección personalizada",
+      "href": "/contacto"
+    }
+  }
+}

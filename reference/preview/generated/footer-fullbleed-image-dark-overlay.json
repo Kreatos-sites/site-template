@@ -1,0 +1,24 @@
+{
+  "key": "footer-fullbleed-image-dark-overlay",
+  "pascalName": "FooterFullbleedImageDarkOverlay",
+  "category": "Footers",
+  "catalogRow": "| `footer-fullbleed-image-dark-overlay` | footer-fullbleed-image-dark-overlay — footer a sangre con foto editorial de oficina y overlay oscuro en gradiente, wordmark centrado y enlaces flotando sobre la imagen | { backgroundImage, backgroundImageAlt, wordmark, contactLine, linksNavAria, links: [{label, href}], copyright, legalLinks: [{label, href}] } |",
+  "fixture": {
+    "backgroundImage": "/images/about.svg",
+    "backgroundImageAlt": "Equipo de Construcciones Altavista reunido en la sala de juntas de la oficina central",
+    "wordmark": "Construcciones Altavista",
+    "contactLine": "Hablemos de su proyecto: contacto@altavista.mx · +52 55 4021 8890",
+    "linksNavAria": "Enlaces del pie de página",
+    "links": [
+      { "label": "Servicios", "href": "/servicios" },
+      { "label": "Proyectos", "href": "/proyectos" },
+      { "label": "Nosotros", "href": "/nosotros" },
+      { "label": "Contacto", "href": "/contacto" }
+    ],
+    "copyright": "© 2026 Construcciones Altavista S.A. de C.V. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ]
+  }
+}

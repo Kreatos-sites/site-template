@@ -1,0 +1,16 @@
+{
+  "key": "about-dark-manifesto-centered",
+  "pascalName": "AboutDarkManifestoCentered",
+  "category": "Nosotros",
+  "catalogRow": "| `about-dark-manifesto-centered` | about-dark-manifesto-centered — manifiesto centrado sobre fondo oscuro total, sin imagen, cifras clave en fila delgada | { eyebrow: string, statement: string, metrics: { value: string, label: string }[] } |",
+  "fixture": {
+    "eyebrow": "Nuestra Filosofía",
+    "statement": "Construimos estructuras legales que resisten el tiempo, no atajos que exponen a nuestros clientes.",
+    "metrics": [
+      { "value": "27", "label": "Años de Ejercicio" },
+      { "value": "410+", "label": "Mandatos Cerrados" },
+      { "value": "18", "label": "Socios y Asociados" },
+      { "value": "0", "label": "Conflictos de Interés" }
+    ]
+  }
+}

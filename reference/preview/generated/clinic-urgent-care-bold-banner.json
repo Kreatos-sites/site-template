@@ -1,0 +1,17 @@
+{
+  "key": "clinic-urgent-care-bold-banner",
+  "pascalName": "ClinicUrgentCareBoldBanner",
+  "category": "Salud y clínicas",
+  "catalogRow": "| `clinic-urgent-care-bold-banner` | clinic-urgent-care-bold-banner — banner apilado y centrado de alto contraste sobre fondo oscuro, con ícono de urgencia, número de emergencia en tipografía extra grande y franja de datos de disponibilidad, para clínicas de urgencias | { eyebrow, title, description, phoneHref, phoneDisplay, details: [{ icon, text }] } |",
+  "fixture": {
+    "eyebrow": "Atención de urgencias",
+    "title": "Si es una emergencia, llame de inmediato",
+    "description": "Nuestro equipo médico está disponible para atender urgencias las 24 horas del día, los 365 días del año, sin necesidad de cita previa.",
+    "phoneHref": "tel:+528123456789",
+    "phoneDisplay": "81 2345 6789",
+    "details": [
+      { "icon": "clock", "text": "Abierto 24 horas, todos los días" },
+      { "icon": "phone", "text": "Línea directa con médico de guardia" }
+    ]
+  }
+}

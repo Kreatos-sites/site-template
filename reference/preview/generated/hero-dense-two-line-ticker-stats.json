@@ -1,0 +1,19 @@
+{
+  "key": "hero-dense-two-line-ticker-stats",
+  "pascalName": "HeroDenseTwoLineTickerStats",
+  "category": "Heroes",
+  "catalogRow": "| `hero-dense-two-line-ticker-stats` | hero-dense-two-line-ticker-stats — hero técnico sin imagen, título compacto de dos líneas seguido de una fila ticker densa con métricas separadas por divisores finos, sin CTA | { eyebrow, titleLine1, titleLine2, stats: { value, label, trend? }[] } |",
+  "fixture": {
+    "eyebrow": "Operación en tiempo real",
+    "titleLine1": "Infraestructura logística",
+    "titleLine2": "medida al minuto",
+    "stats": [
+      { "value": "99.982%", "label": "Disponibilidad de red", "trend": "0.04" },
+      { "value": "1,204", "label": "Rutas activas hoy" },
+      { "value": "38 min", "label": "Tiempo medio de despacho", "trend": "6.1" },
+      { "value": "17", "label": "Centros de distribución" },
+      { "value": "2.1M", "label": "Envíos procesados / mes", "trend": "3.4" },
+      { "value": "0.02%", "label": "Tasa de incidencias" }
+    ]
+  }
+}

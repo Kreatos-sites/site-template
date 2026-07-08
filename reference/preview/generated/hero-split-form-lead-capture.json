@@ -1,0 +1,38 @@
+{
+  "key": "hero-split-form-lead-capture",
+  "pascalName": "HeroSplitFormLeadCapture",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-form-lead-capture` | hero-split-form-lead-capture — hero de captura B2B en dos columnas: texto y bullets de valor a la izquierda, formulario de contacto/cotización en tarjeta con borde a la derecha | { eyebrow, title, description, bullets: [{title, text}], trustNote, formEyebrow, formTitle, formDescription, formAction, nameLabel, namePlaceholder, emailLabel, emailPlaceholder, messageLabel, messagePlaceholder, submitCta, formLegal } |",
+  "fixture": {
+    "eyebrow": "Cotización industrial",
+    "title": "Automatización de líneas de producción con entrega garantizada en 8 semanas",
+    "description": "Diseñamos, integramos y damos mantenimiento a sistemas de automatización para plantas manufactureras. Cuéntenos su proyecto y le enviamos una propuesta técnica en menos de 48 horas.",
+    "bullets": [
+      {
+        "title": "Ingeniería propia, sin subcontratistas",
+        "text": "Nuestro equipo diseña e integra cada sistema desde cero, con responsabilidad directa sobre resultados y plazos."
+      },
+      {
+        "title": "Compatibilidad con su planta actual",
+        "text": "Integramos con PLCs, SCADA y maquinaria existente sin necesidad de reemplazar su infraestructura."
+      },
+      {
+        "title": "Soporte técnico en sitio",
+        "text": "Contamos con técnicos certificados disponibles para mantenimiento preventivo y correctivo en toda la república."
+      }
+    ],
+    "trustNote": "Más de 60 plantas manufactureras en México confían en nuestra ingeniería.",
+    "formEyebrow": "Solicite su cotización",
+    "formTitle": "Hable con un ingeniero de proyecto",
+    "formDescription": "Complete el formulario y un ingeniero se pondrá en contacto con usted para entender el alcance de su proyecto.",
+    "formAction": "/api/cotizacion",
+    "nameLabel": "Nombre completo",
+    "namePlaceholder": "Nombre y apellidos",
+    "emailLabel": "Correo corporativo",
+    "emailPlaceholder": "usted@empresa.com.mx",
+    "messageLabel": "Describa su proyecto",
+    "messagePlaceholder": "Tipo de línea de producción, volumen y plazos deseados",
+    "submitCta": "Solicitar propuesta",
+    "formLegal": "Sus datos se usan únicamente para elaborar su cotización. No compartimos su información con terceros."
+  }
+}

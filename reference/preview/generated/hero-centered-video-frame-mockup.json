@@ -1,0 +1,23 @@
+{
+  "key": "hero-centered-video-frame-mockup",
+  "pascalName": "HeroCenteredVideoFrameMockup",
+  "category": "Heroes",
+  "catalogRow": "| `hero-centered-video-frame-mockup` | hero-centered-video-frame-mockup — hero centrado (eyebrow, título, CTAs) sobre fondo claro con mockup de video/producto enmarcado tipo navegador y botón de reproducción | { eyebrow, title, subtitle, ctaPrimary: {label,href}, ctaSecondary: {label,href}, browserUrl, image, imageAlt, playLabel } |",
+  "fixture": {
+    "eyebrow": "Plataforma en la nube",
+    "title": "Vea su operación completa en un solo panel",
+    "subtitle": "Centralice inventario, facturación y logística en una sola plataforma diseñada para equipos que necesitan visibilidad en tiempo real.",
+    "ctaPrimary": {
+      "label": "Solicitar demostración",
+      "href": "/contacto"
+    },
+    "ctaSecondary": {
+      "label": "Ver video de producto",
+      "href": "/producto"
+    },
+    "browserUrl": "app.suempresa.mx/panel",
+    "image": "/images/hero.svg",
+    "imageAlt": "Vista previa del panel de control de la plataforma",
+    "playLabel": "Reproducir video de demostración"
+  }
+}

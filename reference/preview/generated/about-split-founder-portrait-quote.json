@@ -1,0 +1,18 @@
+{
+  "key": "about-split-founder-portrait-quote",
+  "pascalName": "AboutSplitFounderPortraitQuote",
+  "category": "Nosotros",
+  "catalogRow": "| `about-split-founder-portrait-quote` | about-split-founder-portrait-quote — split retrato de fundador con cita íntima en itálica, sin iconos | { eyebrow, quote, name, role, paragraphs[], image, imageAlt } |",
+  "fixture": {
+    "eyebrow": "Nuestra historia",
+    "quote": "Fundamos este despacho con una idea simple: cada cliente merece la misma atención que le daríamos a un familiar.",
+    "name": "Ricardo Solana Peña",
+    "role": "Director general y fundador",
+    "paragraphs": [
+      "Comencé este despacho en 2011, después de más de una década trabajando en firmas donde los clientes pequeños quedaban al final de la lista. Me pareció injusto y decidí construir algo distinto: una práctica donde el trato cercano no dependiera del tamaño de la cuenta.",
+      "Hoy dirigimos un equipo de catorce personas en Monterrey, pero seguimos revisando personalmente cada caso relevante. Esa cercanía es, para nosotros, la diferencia entre asesorar y realmente acompañar."
+    ],
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Ricardo Solana Peña, director general y fundador del despacho"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "key": "hero-pattern-grid-technical-blueprint",
+  "pascalName": "HeroPatternGridTechnicalBlueprint",
+  "category": "Heroes",
+  "catalogRow": "| `hero-pattern-grid-technical-blueprint` | hero-pattern-grid-technical-blueprint — hero centrado sobre retícula tipo plano técnico de bajo contraste, eyebrow monospaced con distintivo, titular, dos CTAs y franja de tres indicadores | { eyebrow, title, subtitle, primaryCta: { label, href }, secondaryCta: { label, href }, stats: { value, label }[] } |",
+  "fixture": {
+    "eyebrow": "Ingeniería y manufactura de precisión",
+    "title": "Diseñamos y fabricamos componentes industriales bajo tolerancias exactas",
+    "subtitle": "Convertimos planos técnicos en piezas certificadas para maquinaria pesada, con control dimensional en cada lote y trazabilidad completa del proceso.",
+    "primaryCta": {
+      "label": "Solicitar cotización",
+      "href": "#contacto"
+    },
+    "secondaryCta": {
+      "label": "Ver capacidades",
+      "href": "#capacidades"
+    },
+    "stats": [
+      {
+        "value": "±0.02 mm",
+        "label": "Tolerancia dimensional"
+      },
+      {
+        "value": "120+",
+        "label": "Piezas certificadas al mes"
+      },
+      {
+        "value": "18 años",
+        "label": "Operando en el sector"
+      }
+    ]
+  }
+}

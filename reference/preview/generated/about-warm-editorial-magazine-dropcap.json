@@ -1,0 +1,19 @@
+{
+  "key": "about-warm-editorial-magazine-dropcap",
+  "pascalName": "AboutWarmEditorialMagazineDropcap",
+  "category": "Nosotros",
+  "catalogRow": "| `about-warm-editorial-magazine-dropcap` | about-warm-editorial-magazine-dropcap — nosotros tipo artículo de revista, drop cap + dos columnas + imagen flotante con caption | { eyebrow, title, paragraphs: string[], image, imageAlt, caption } |",
+  "fixture": {
+    "eyebrow": "Nuestra historia",
+    "title": "Casi cuatro décadas construyendo con la misma familia de artesanos",
+    "paragraphs": [
+      "Ebanistería Los Encinos nació en un taller de dos mesas de trabajo en el centro de Guadalajara, cuando don Refugio Camarena decidió que los muebles hechos a mano merecían el mismo cuidado que una pieza de arquitectura. Desde entonces, cada mueble que sale de nuestro taller lleva la marca de una tradición que se ha transmitido de generación en generación, sin prisa y sin atajos.",
+      "Hoy seguimos trabajando con las mismas maderas de la región, los mismos ensambles tradicionales y la misma paciencia de los primeros años. No buscamos producir más rápido; buscamos que cada pieza dure lo suficiente para que la cuenten los nietos de quien la encargó.",
+      "Nuestro taller recibe visitas por cita para que los clientes conozcan el proceso completo, desde la selección de la madera hasta el último barniz aplicado a mano. Creemos que entender cómo se hace un mueble cambia la manera en que se habita con él.",
+      "Seguimos siendo un negocio familiar. Eso significa que usted habla directamente con quien diseña y con quien construye, sin intermediarios ni catálogos genéricos."
+    ],
+    "image": "/images/about.svg",
+    "imageAlt": "Detalle de ensamble de madera en el taller de Ebanistería Los Encinos",
+    "caption": "Ensamble cola de milano, técnica que usamos desde 1987."
+  }
+}

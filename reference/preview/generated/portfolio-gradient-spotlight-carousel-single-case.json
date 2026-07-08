@@ -1,0 +1,40 @@
+{
+  "key": "portfolio-gradient-spotlight-carousel-single-case",
+  "pascalName": "PortfolioGradientSpotlightCarouselSingleCase",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-gradient-spotlight-carousel-single-case` | portfolio-gradient-spotlight-carousel-single-case — carrusel de un solo caso a pantalla completa sobre gradiente primary oscuro, cifra gigante flotando y puntos selectores CSS-only | { eyebrow, title, cases: [{ image, imageAlt, title, client, stat, statLabel, description }] } |",
+  "fixture": {
+    "eyebrow": "Casos de estudio",
+    "title": "Resultados que sostienen la operación",
+    "viewCta": "Ver caso completo",
+    "cases": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Panel de control de la plataforma logística implementada para Grupo Ferrotec",
+        "title": "Plataforma de trazabilidad para flotillas industriales",
+        "client": "Grupo Ferrotec",
+        "stat": "38%",
+        "statLabel": "Reducción de tiempos muertos",
+        "description": "Rediseñamos el sistema de despacho y monitoreo en tiempo real para una flotilla de más de 200 unidades, integrando telemetría y alertas automáticas."
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Interfaz del sistema de inventario en tiempo real de Distribuidora Aconcagua",
+        "title": "Sistema de inventario multi-almacén en tiempo real",
+        "client": "Distribuidora Aconcagua",
+        "stat": "2.4x",
+        "statLabel": "Rotación de inventario",
+        "description": "Consolidamos siete bodegas regionales bajo un solo panel de control, con reglas de reabasto automático y visibilidad para el equipo comercial."
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Dashboard financiero del proyecto entregado a Constructora Meridiano",
+        "title": "Dashboard financiero por obra para dirección general",
+        "client": "Constructora Meridiano",
+        "stat": "$4.2M",
+        "statLabel": "Sobrecostos evitados en el primer año",
+        "description": "Consolidamos costeo, avance físico y flujo de caja de doce obras simultáneas en un solo tablero para la toma de decisiones ejecutivas."
+      }
+    ]
+  }
+}

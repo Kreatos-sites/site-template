@@ -1,0 +1,27 @@
+{
+  "key": "hero-split-testimonial-logo-strip",
+  "pascalName": "HeroSplitTestimonialLogoStrip",
+  "category": "Heroes",
+  "catalogRow": "| `hero-split-testimonial-logo-strip` | hero-split-testimonial-logo-strip — split 2 columnas, texto/CTA a la izquierda y tarjeta apilada (cita de cliente + tira de logos) a la derecha, sin imagen de producto | { eyebrow, title, subtitle, primaryCta: {label,href}, secondaryCta: {label,href}, testimonial: {quote,author,role,company}, logoStripLabel, logos: string[] } |",
+  "fixture": {
+    "eyebrow": "Confianza corporativa",
+    "title": "Administre la operación financiera de su empresa sin fricción",
+    "subtitle": "Automatizamos conciliaciones, reportes y flujos de aprobación para equipos financieros que no pueden darse el lujo de errores.",
+    "primaryCta": { "label": "Solicitar demostración", "href": "#contacto" },
+    "secondaryCta": { "label": "Ver casos de éxito", "href": "#casos" },
+    "testimonial": {
+      "quote": "Redujimos el cierre contable mensual de ocho días a dos, sin contratar personal adicional.",
+      "author": "Renata Solís",
+      "role": "Directora de Finanzas",
+      "company": "Grupo Ferretero del Bajío"
+    },
+    "logoStripLabel": "Empresas que confían en nosotros",
+    "logos": [
+      "Distribuidora Alcanza",
+      "Constructora Meridiano",
+      "Logística Sur Pacífico",
+      "Textiles Vanguardia",
+      "Grupo Ferretero del Bajío"
+    ]
+  }
+}
