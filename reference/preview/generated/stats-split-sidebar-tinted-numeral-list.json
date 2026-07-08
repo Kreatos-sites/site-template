@@ -1,0 +1,17 @@
+{
+  "key": "stats-split-sidebar-tinted-numeral-list",
+  "pascalName": "StatsSplitSidebarTintedNumeralList",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `stats-split-sidebar-tinted-numeral-list` | stats-split-sidebar-tinted-numeral-list — split de sidebar tintada (eyebrow, título, descripción) junto a lista vertical de cifras oversized separadas por líneas hairline, sin tarjetas ni iconos | { eyebrow, title, description, stats: { numeral, label, description }[] } |",
+  "fixture": {
+    "eyebrow": "Resultados operativos",
+    "title": "Cifras que respaldan una operación consistente",
+    "description": "Medimos cada fase de nuestros proyectos con indicadores verificables, revisados trimestralmente por el equipo de gobernanza de cuentas.",
+    "stats": [
+      { "numeral": "230+", "label": "Proyectos entregados", "description": "Implementaciones completadas en industria, logística y manufactura desde 2011." },
+      { "numeral": "98%", "label": "Cumplimiento de plazo", "description": "Proyectos entregados dentro de la fecha comprometida en el plan de trabajo original." },
+      { "numeral": "14", "label": "Estados con cobertura", "description": "Presencia operativa nacional con equipos técnicos residentes en cada región." },
+      { "numeral": "4.8 años", "label": "Permanencia promedio de cliente", "description": "Relaciones comerciales sostenidas bajo contratos de mantenimiento y mejora continua." }
+    ]
+  }
+}

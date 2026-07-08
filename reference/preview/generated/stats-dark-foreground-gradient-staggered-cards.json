@@ -1,0 +1,18 @@
+{
+  "key": "stats-dark-foreground-gradient-staggered-cards",
+  "pascalName": "StatsDarkForegroundGradientStaggeredCards",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `stats-dark-foreground-gradient-staggered-cards` | stats-dark-foreground-gradient-staggered-cards — banda oscura (bg-foreground) con gradiente radial hacia primary en la esquina, grid de 5 tarjetas hairline con desplazamiento vertical alternado, motivo técnico/SaaS | { eyebrow, title, description, stats: [{ icon, value, label }] } |",
+  "fixture": {
+    "eyebrow": "Infraestructura",
+    "title": "La plataforma que sostiene operaciones críticas todos los días",
+    "description": "Cifras del último trimestre sobre el desempeño de la plataforma que corre los procesos de nuestros clientes.",
+    "stats": [
+      { "icon": "cpu", "value": "99.98%", "label": "Disponibilidad anual" },
+      { "icon": "branch", "value": "1,240", "label": "Despliegues por mes" },
+      { "icon": "layers", "value": "38", "label": "Integraciones activas" },
+      { "icon": "shield", "value": "0", "label": "Incidentes de seguridad" },
+      { "icon": "timer", "value": "180ms", "label": "Latencia promedio" }
+    ]
+  }
+}

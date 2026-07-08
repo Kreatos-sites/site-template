@@ -1,0 +1,21 @@
+{
+  "key": "logo-staggered-cards-gradient-theme",
+  "pascalName": "LogoStaggeredCardsGradientTheme",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-staggered-cards-gradient-theme` | logo-staggered-cards-gradient-theme — tarjetas de logo escalonadas tipo masonry con leve rotación alterna y sombra suave, sobre fondo con gradiente sutil del color primario | { eyebrow, title, description, logos: [{ name, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Aliados",
+    "title": "Una red de aliados que respalda cada entrega",
+    "description": "Trabajamos de la mano con proveedores, despachos y certificadoras que comparten nuestros estándares de calidad en cada proyecto.",
+    "logos": [
+      { "name": "Aceros del Norte", "image": "/images/hero.svg", "imageAlt": "Logotipo de Aceros del Norte" },
+      { "name": "Grupo Constructor Meridiano", "image": "/images/about.svg", "imageAlt": "Logotipo de Grupo Constructor Meridiano" },
+      { "name": "Certificadora ISO Bajío", "image": "/images/hero.svg", "imageAlt": "Logotipo de Certificadora ISO Bajío" },
+      { "name": "Logística Cardenal", "image": "/images/about.svg", "imageAlt": "Logotipo de Logística Cardenal" },
+      { "name": "Materiales Insurgentes", "image": "/images/hero.svg", "imageAlt": "Logotipo de Materiales Insurgentes" },
+      { "name": "Ingeniería Vértice", "image": "/images/about.svg", "imageAlt": "Logotipo de Ingeniería Vértice" },
+      { "name": "Seguros Andamio", "image": "/images/hero.svg", "imageAlt": "Logotipo de Seguros Andamio" },
+      { "name": "Distribuidora Cumbre", "image": "/images/about.svg", "imageAlt": "Logotipo de Distribuidora Cumbre" }
+    ]
+  }
+}

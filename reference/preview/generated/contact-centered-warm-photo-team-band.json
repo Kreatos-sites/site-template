@@ -5,7 +5,7 @@
   "catalogRow": "| `contact-centered-warm-photo-team-band` | contact-centered-warm-photo-team-band — banda de foto del equipo a ancho completo con formulario corto centrado de 3 campos, tono cálido y cercano | { eyebrow, title, subtitle, image, imageAlt, fields: { name: { label, placeholder }, contact: { label, placeholder }, message: { label, placeholder } }, submitLabel } |",
   "fixture": {
     "eyebrow": "Contacto",
-    "title": "Cuéntanos en qué le ayudamos",
+    "title": "Cuéntenos en qué le ayudamos",
     "subtitle": "Nuestro equipo de recepción lee cada mensaje personalmente y le responde el mismo día hábil.",
     "image": "/images/hero.svg",
     "imageAlt": "Equipo de recepción saludando a un cliente en el mostrador de la oficina",

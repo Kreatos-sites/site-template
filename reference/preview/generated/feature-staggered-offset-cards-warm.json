@@ -1,0 +1,43 @@
+{
+  "key": "feature-staggered-offset-cards-warm",
+  "pascalName": "FeatureStaggeredOffsetCardsWarm",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-staggered-offset-cards-warm` | feature-staggered-offset-cards-warm — grid de 6 tarjetas de servicios con desfase vertical escalonado sobre fondo secundario cálido, icono en badge circular y sombra difusa, tono editorial cercano | { eyebrow, title, description, services: { title, text, icon }[] } |",
+  "fixture": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Acompañamiento cercano, criterio de despacho boutique",
+    "description": "Cada servicio se atiende con un equipo reducido que conoce su caso a fondo, sin escalar entre áreas ni perder el trato personal.",
+    "services": [
+      {
+        "title": "Asesoría corporativa",
+        "text": "Le acompañamos en la constitución, gobierno y estructura societaria de su empresa con seguimiento continuo.",
+        "icon": "handshake"
+      },
+      {
+        "title": "Litigio y arbitraje",
+        "text": "Representamos sus intereses ante tribunales y paneles arbitrales con estrategia clara desde el primer día.",
+        "icon": "scale"
+      },
+      {
+        "title": "Contratos y cumplimiento",
+        "text": "Redactamos y revisamos acuerdos que protegen su operación sin frenar el ritmo del negocio.",
+        "icon": "notebook"
+      },
+      {
+        "title": "Relación con socios",
+        "text": "Facilitamos acuerdos entre accionistas y resolvemos diferencias antes de que escalen.",
+        "icon": "users"
+      },
+      {
+        "title": "Planeación estratégica",
+        "text": "Trazamos la ruta legal de su expansión con visión de largo plazo y riesgo controlado.",
+        "icon": "compass"
+      },
+      {
+        "title": "Trato directo",
+        "text": "Un socio del despacho responde sus dudas en persona, sin intermediarios ni filtros.",
+        "icon": "heart"
+      }
+    ]
+  }
+}

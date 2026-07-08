@@ -1,0 +1,35 @@
+{
+  "key": "footer-warm-secondary-editorial-pullquote",
+  "pascalName": "FooterWarmSecondaryEditorialPullquote",
+  "category": "Footers",
+  "catalogRow": "| `footer-warm-secondary-editorial-pullquote` | footer-warm-secondary-editorial-pullquote — footer sobre fondo secundario cálido con pull-quote editorial en serif a la izquierda y bloque denso de contacto con íconos a la derecha, sin grid de columnas de enlaces. | { pullQuote, attribution, contacts: [{ icon, label, value, href }], copyright, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "pullQuote": "Construimos relaciones de largo plazo con cada cliente, no proyectos de una sola entrega.",
+    "attribution": "Dirección General, Ferretti Consultores",
+    "contacts": [
+      {
+        "icon": "address",
+        "label": "Oficina",
+        "value": "Av. Vasco de Quiroga 3900, Santa Fe, Ciudad de México",
+        "href": "https://maps.google.com/?q=Av.+Vasco+de+Quiroga+3900"
+      },
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 55 4821 3360",
+        "href": "tel:+525548213360"
+      },
+      {
+        "icon": "email",
+        "label": "Correo",
+        "value": "contacto@ferretticonsultores.mx",
+        "href": "mailto:contacto@ferretticonsultores.mx"
+      }
+    ],
+    "copyright": "© 2026 Ferretti Consultores. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos" }
+    ]
+  }
+}

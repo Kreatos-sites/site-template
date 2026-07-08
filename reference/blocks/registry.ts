@@ -40,7 +40,11 @@ import { BlogArticleCenteredAuthorShare } from "./blog-article-centered-author-s
 import { BlogArticleCenteredEditorialAuthorMetaShare } from "./blog-article-centered-editorial-author-meta-share";
 import { BlogArticleDocsBreadcrumbMetaPagination } from "./blog-article-docs-breadcrumb-meta-pagination";
 import { BlogArticleHeroAuthorTagsSocial } from "./blog-article-hero-author-tags-social";
+import { BlogFullbleedImageDarkOverlayHero } from "./blog-fullbleed-image-dark-overlay-hero";
 import { BlogGuideStickyTocNavigation } from "./blog-guide-sticky-toc-navigation";
+import { BlogIndexDenseRowsCategoryFilterDark } from "./blog-index-dense-rows-category-filter-dark";
+import { BlogIndexSplitFeaturedSecondaryList } from "./blog-index-split-featured-secondary-list";
+import { BlogIndexStaggeredMasonryTinted } from "./blog-index-staggered-masonry-tinted";
 import { BlogPostListingDividerRowsExcerptMinimal } from "./blog-post-listing-divider-rows-excerpt-minimal";
 import { BorderedConversionPanelSplit } from "./bordered-conversion-panel-split";
 import { BrandPartnersGrid } from "./brand-partners-grid";
@@ -93,6 +97,7 @@ import { ContactFormParallaxSupportVisual } from "./contact-form-parallax-suppor
 import { ContactFormTopicPills } from "./contact-form-topic-pills";
 import { ContactFormVisualPanelParallax } from "./contact-form-visual-panel-parallax";
 import { ContactFullbleedImageDarkOverlay } from "./contact-fullbleed-image-dark-overlay";
+import { ContactGradientThemeDiagonalSplit } from "./contact-gradient-theme-diagonal-split";
 import { ContactImageFloatingCard } from "./contact-image-floating-card";
 import { ContactLocationsMapForm } from "./contact-locations-map-form";
 import { ContactMapAndLocationsFormSplit } from "./contact-map-and-locations-form-split";
@@ -125,7 +130,10 @@ import { FaqAccordionStickySupportSidebar } from "./faq-accordion-sticky-support
 import { FaqAccordionTintedBackground } from "./faq-accordion-tinted-background";
 import { FaqAccordionTwoColumnBalanced } from "./faq-accordion-two-column-balanced";
 import { FaqAccordionTwoColumnBordered } from "./faq-accordion-two-column-bordered";
+import { FaqChatBubbleConversationPattern } from "./faq-chat-bubble-conversation-pattern";
+import { FaqDarkGradientDiagonalNumbered } from "./faq-dark-gradient-diagonal-numbered";
 import { FaqEditorialSidebarSync } from "./faq-editorial-sidebar-sync";
+import { FaqFullbleedImageOverlayEditorial } from "./faq-fullbleed-image-overlay-editorial";
 import { FaqGridCards6tileHoverExpandable } from "./faq-grid-cards-6tile-hover-expandable";
 import { FaqGridCardsExpandable } from "./faq-grid-cards-expandable";
 import { FaqGridCardsHoverLift } from "./faq-grid-cards-hover-lift";
@@ -133,6 +141,7 @@ import { FaqListIconDivider } from "./faq-list-icon-divider";
 import { FaqSidebarEditorialIndexedSticky } from "./faq-sidebar-editorial-indexed-sticky";
 import { FaqSidebarStickyTopicRailStatsSynced } from "./faq-sidebar-sticky-topic-rail-stats-synced";
 import { FaqSplitIndexedAccordionHairlineRows } from "./faq-split-indexed-accordion-hairline-rows";
+import { FaqStaggeredCardsOffsetEditorial } from "./faq-staggered-cards-offset-editorial";
 import { FaqSupportCtaHybrid } from "./faq-support-cta-hybrid";
 import { FaqTabbedPillFilterCategories } from "./faq-tabbed-pill-filter-categories";
 import { FaqTabbedSearchCategoryFilterLive } from "./faq-tabbed-search-category-filter-live";
@@ -144,9 +153,14 @@ import { FeatureBentoAsymmetricExpandableMotion } from "./feature-bento-asymmetr
 import { FeatureCardsAnimatedScroll } from "./feature-cards-animated-scroll";
 import { FeatureCardsImageGrid } from "./feature-cards-image-grid";
 import { FeatureCarouselSlides } from "./feature-carousel-slides";
+import { FeatureDarkSplitNumberedList } from "./feature-dark-split-numbered-list";
 import { FeatureDenseChecklistTwoColumn } from "./feature-dense-checklist-two-column";
+import { FeatureDiagonalClipPanels } from "./feature-diagonal-clip-panels";
+import { FeatureFullbleedImageDarkOverlay } from "./feature-fullbleed-image-dark-overlay";
+import { FeatureGradientGlassCards } from "./feature-gradient-glass-cards";
 import { FeatureIconGridCapabilities } from "./feature-icon-grid-capabilities";
 import { FeatureInteractiveGridAutoCyclePulse } from "./feature-interactive-grid-auto-cycle-pulse";
+import { FeatureStaggeredOffsetCardsWarm } from "./feature-staggered-offset-cards-warm";
 import { FeatureStickyScrollStackOffsetAnimation } from "./feature-sticky-scroll-stack-offset-animation";
 import { FeatureTabbedGridCategorySwap } from "./feature-tabbed-grid-category-swap";
 import { FeaturesAlternatingDenseCopyImage } from "./features-alternating-dense-copy-image";
@@ -166,11 +180,13 @@ import { FooterDiagonalStripe } from "./footer-diagonal-stripe";
 import { FooterFourColumnMonochromeWordmarkMinimal } from "./footer-four-column-monochrome-wordmark-minimal";
 import { FooterFullbleedImageDarkOverlay } from "./footer-fullbleed-image-dark-overlay";
 import { FooterGiantWordmarkStatementClose } from "./footer-giant-wordmark-statement-close";
+import { FooterGradientMeshSplitNewsletter } from "./footer-gradient-mesh-split-newsletter";
 import { FooterGridBlueprintBordered } from "./footer-grid-blueprint-bordered";
 import { FooterGridBorderedCellsNewsletter } from "./footer-grid-bordered-cells-newsletter";
 import { FooterGridModularBorderedNewsletterControls } from "./footer-grid-modular-bordered-newsletter-controls";
 import { FooterGridNewsletterThemed } from "./footer-grid-newsletter-themed";
 import { FooterInlineBlurWordmarkCompact } from "./footer-inline-blur-wordmark-compact";
+import { FooterInvertedDarkBandCta } from "./footer-inverted-dark-band-cta";
 import { FooterMegaColumnsSitemapLocaleControls } from "./footer-mega-columns-sitemap-locale-controls";
 import { FooterMegaLocalized } from "./footer-mega-localized";
 import { FooterMegaMulticolumnLocaleTheme } from "./footer-mega-multicolumn-locale-theme";
@@ -178,16 +194,20 @@ import { FooterMegaSitemapLocaleThemeBar } from "./footer-mega-sitemap-locale-th
 import { FooterMultiColumnSitemapLocaleTheme } from "./footer-multi-column-sitemap-locale-theme";
 import { FooterNewsletterGroupedColumnsSocial } from "./footer-newsletter-grouped-columns-social";
 import { FooterSingleRowInlineWordmarkBlurCompact } from "./footer-single-row-inline-wordmark-blur-compact";
+import { FooterStaggeredCardsDottedPattern } from "./footer-staggered-cards-dotted-pattern";
 import { FooterVeilDesignKitVariant4 } from "./footer-veil-design-kit-variant-4";
 import { FooterVerticalDividersSplit } from "./footer-vertical-dividers-split";
+import { FooterWarmSecondaryEditorialPullquote } from "./footer-warm-secondary-editorial-pullquote";
 import { FooterWordmarkProminentOutline } from "./footer-wordmark-prominent-outline";
 import { FullWidthConversionBanner } from "./full-width-conversion-banner";
 import { GalleryBentoAsymmetricHeroTilesSupporting } from "./gallery-bento-asymmetric-hero-tiles-supporting";
 import { GalleryBentoHeroSupportingTiles } from "./gallery-bento-hero-supporting-tiles";
+import { GalleryDiagonalSplitDarkPanelThumbrail } from "./gallery-diagonal-split-dark-panel-thumbrail";
 import { GalleryEditorialGrayscaleIndexed } from "./gallery-editorial-grayscale-indexed";
 import { GalleryExhibitionDecorFramedCrossfade } from "./gallery-exhibition-decor-framed-crossfade";
 import { GalleryExhibitionDecorFramedMetadataBlur } from "./gallery-exhibition-decor-framed-metadata-blur";
 import { GalleryFilterablePortfolio } from "./gallery-filterable-portfolio";
+import { GalleryFullbleedImageDarkOverlayStackedCaptions } from "./gallery-fullbleed-image-dark-overlay-stacked-captions";
 import { GalleryGridMetricsColumn } from "./gallery-grid-metrics-column";
 import { GalleryGridResponsiveUniform } from "./gallery-grid-responsive-uniform";
 import { GalleryGridThreeColumnCardMetadataBlog } from "./gallery-grid-three-column-card-metadata-blog";
@@ -211,6 +231,7 @@ import { GalleryOffsetMasonryVariedHeights } from "./gallery-offset-masonry-vari
 import { GallerySpotlightCarouselCrossfade } from "./gallery-spotlight-carousel-crossfade";
 import { GallerySpotlightCarouselThumbrail } from "./gallery-spotlight-carousel-thumbrail";
 import { GallerySpotlightCarouselThumbrail2 } from "./gallery-spotlight-carousel-thumbrail-2";
+import { GalleryTintedStaggeredCardsWarmScatter } from "./gallery-tinted-staggered-cards-warm-scatter";
 import { GalleryWall4tileMotionHover } from "./gallery-wall-4tile-motion-hover";
 import { GalleryWall4tileMotionHover2 } from "./gallery-wall-4tile-motion-hover-2";
 import { GalleryWallHoverReveal } from "./gallery-wall-hover-reveal";
@@ -298,8 +319,12 @@ import { LogoCloudLedgerStaticBorderedWordmark } from "./logo-cloud-ledger-stati
 import { LogoCloudMarqueeInfiniteResponsiveDrift } from "./logo-cloud-marquee-infinite-responsive-drift";
 import { LogoCloudMarqueeInfiniteWordmarks } from "./logo-cloud-marquee-infinite-wordmarks";
 import { LogoCloudSplitEditorial } from "./logo-cloud-split-editorial";
+import { LogoDensePatternWallTinted } from "./logo-dense-pattern-wall-tinted";
+import { LogoDiagonalSplitDarkBand } from "./logo-diagonal-split-dark-band";
+import { LogoFullbleedImageDarkOverlay } from "./logo-fullbleed-image-dark-overlay";
 import { LogoGalleryFeaturedThumbnailRail } from "./logo-gallery-featured-thumbnail-rail";
 import { LogoOrbitalHubRotatingBrandsCenterFocus } from "./logo-orbital-hub-rotating-brands-center-focus";
+import { LogoStaggeredCardsGradientTheme } from "./logo-staggered-cards-gradient-theme";
 import { LogoVerticalThreeColumnCarouselAlternatingDrift } from "./logo-vertical-three-column-carousel-alternating-drift";
 import { MasonryOffsetFramed } from "./masonry-offset-framed";
 import { MenuBeveragePairingDenseTwoColumn } from "./menu-beverage-pairing-dense-two-column";
@@ -339,6 +364,7 @@ import { PortfolioFullbleedImageDarkOverlayStacked } from "./portfolio-fullbleed
 import { PortfolioGradientSpotlightCarouselSingleCase } from "./portfolio-gradient-spotlight-carousel-single-case";
 import { PortfolioGrid3ColumnWithMetadata } from "./portfolio-grid-3column-with-metadata";
 import { PortfolioGridShowcase } from "./portfolio-grid-showcase";
+import { PortfolioSplitIndexDiagonalHoverSwap } from "./portfolio-split-index-diagonal-hover-swap";
 import { PortfolioStaggeredCardsOffsetAiry } from "./portfolio-staggered-cards-offset-airy";
 import { PricingAccordionExpandibleVertical } from "./pricing-accordion-expandible-vertical";
 import { PricingAccordionTierExpandable } from "./pricing-accordion-tier-expandable";
@@ -348,8 +374,10 @@ import { PricingCarouselFilmstripScaleActiveTier } from "./pricing-carousel-film
 import { PricingCarouselScrollSnapFilmstrip } from "./pricing-carousel-scroll-snap-filmstrip";
 import { PricingCarouselScrollSnapScaleActive } from "./pricing-carousel-scroll-snap-scale-active";
 import { PricingComparisonTableMultiTierSticky } from "./pricing-comparison-table-multi-tier-sticky";
+import { PricingDiagonalGradientDarkSplit } from "./pricing-diagonal-gradient-dark-split";
 import { PricingDuoSplitFilledPlainAsymmetric } from "./pricing-duo-split-filled-plain-asymmetric";
 import { PricingDuoTierSplitFilledPlain } from "./pricing-duo-tier-split-filled-plain";
+import { PricingFullbleedImageDarkOverlay } from "./pricing-fullbleed-image-dark-overlay";
 import { PricingInlineSingleRowBand } from "./pricing-inline-single-row-band";
 import { PricingLedgerComparison } from "./pricing-ledger-comparison";
 import { PricingSeatCalculatorSliderDynamic } from "./pricing-seat-calculator-slider-dynamic";
@@ -357,6 +385,7 @@ import { PricingSingleSpotlightCenteredFeatured } from "./pricing-single-spotlig
 import { PricingSliderTeamSeatsAnimatedCalculator } from "./pricing-slider-team-seats-animated-calculator";
 import { PricingSliderTeamSeatsDynamicCalculator } from "./pricing-slider-team-seats-dynamic-calculator";
 import { PricingSplitTiersFilledPlain } from "./pricing-split-tiers-filled-plain";
+import { PricingStackedStaggeredEditorialCards } from "./pricing-stacked-staggered-editorial-cards";
 import { PricingTableLedgerComparisonHairline } from "./pricing-table-ledger-comparison-hairline";
 import { PricingTableLedgerFeatureRows } from "./pricing-table-ledger-feature-rows";
 import { PricingTableMatrixCompareFeatureSticky } from "./pricing-table-matrix-compare-feature-sticky";
@@ -364,7 +393,9 @@ import { PricingThreeCardTiersHighlightedStandard } from "./pricing-three-card-t
 import { PricingThreeToggleBillingCycle } from "./pricing-three-toggle-billing-cycle";
 import { PricingTierCenteredSelectorToggleBilling } from "./pricing-tier-centered-selector-toggle-billing";
 import { ProcessColorAnimatedSteps } from "./process-color-animated-steps";
+import { ProcessDiagonalDarkTechnicalBlueprint } from "./process-diagonal-dark-technical-blueprint";
 import { ProcessFlowStateHeader } from "./process-flow-state-header";
+import { ProcessFullbleedImageDarkOverlay } from "./process-fullbleed-image-dark-overlay";
 import { ProcessHorizontalInteractiveClickableProgress } from "./process-horizontal-interactive-clickable-progress";
 import { ProcessHorizontalNumberedRow } from "./process-horizontal-numbered-row";
 import { ProcessHowItWorksHorizontalIconTrio } from "./process-how-it-works-horizontal-icon-trio";
@@ -374,6 +405,8 @@ import { ProcessHowItWorksVerticalFourSteps } from "./process-how-it-works-verti
 import { ProcessMilestoneTimelineVerticalBadges } from "./process-milestone-timeline-vertical-badges";
 import { ProcessPhasesStatusTimeline } from "./process-phases-status-timeline";
 import { ProcessSidebarRailSteps } from "./process-sidebar-rail-steps";
+import { ProcessSplitStickyImageNumbered } from "./process-split-sticky-image-numbered";
+import { ProcessStaggeredCardsTintedWarm } from "./process-staggered-cards-tinted-warm";
 import { ProcessStepperHorizontalInteractiveClickableResponsive } from "./process-stepper-horizontal-interactive-clickable-responsive";
 import { ProcessStepperHorizontalInteractiveProgress } from "./process-stepper-horizontal-interactive-progress";
 import { ProcessStepperHorizontalNumberedCompletedState } from "./process-stepper-horizontal-numbered-completed-state";
@@ -442,8 +475,11 @@ import { SpecialtiesGrid } from "./specialties-grid";
 import { StartupLandingWithKeyStats } from "./startup-landing-with-key-stats";
 import { StatsBandMinimalFourColumn } from "./stats-band-minimal-four-column";
 import { StatsBentoNarrative } from "./stats-bento-narrative";
+import { StatsDarkForegroundGradientStaggeredCards } from "./stats-dark-foreground-gradient-staggered-cards";
+import { StatsFullbleedImageDarkOverlaySplit } from "./stats-fullbleed-image-dark-overlay-split";
 import { StatsMetricBandCountupAnimated } from "./stats-metric-band-countup-animated";
 import { StatsMetricCards } from "./stats-metric-cards";
+import { StatsSplitSidebarTintedNumeralList } from "./stats-split-sidebar-tinted-numeral-list";
 import { StatusServicesUptimeMetricsList } from "./status-services-uptime-metrics-list";
 import { TastingMenuPricingTiers } from "./tasting-menu-pricing-tiers";
 import { TeamBentoAsymmetricLeaderSpotlight } from "./team-bento-asymmetric-leader-spotlight";
@@ -468,8 +504,11 @@ import { TestimonialAndCaseStudyGrid } from "./testimonial-and-case-study-grid";
 import { TestimonialFeaturedCenteredOversizedQuote } from "./testimonial-featured-centered-oversized-quote";
 import { TestimonialFeaturedCenteredQuote } from "./testimonial-featured-centered-quote";
 import { TestimonialFeaturedCenteredQuoteCompanyLogo } from "./testimonial-featured-centered-quote-company-logo";
+import { TestimonialFullbleedImageDarkOverlay } from "./testimonial-fullbleed-image-dark-overlay";
 import { TestimonialOversizedQuoteAvatarLogo } from "./testimonial-oversized-quote-avatar-logo";
+import { TestimonialSplitPortraitDarkPanel } from "./testimonial-split-portrait-dark-panel";
 import { TestimonialSpotlightCentered } from "./testimonial-spotlight-centered";
+import { TestimonialStackedDiagonalCardsWarm } from "./testimonial-stacked-diagonal-cards-warm";
 import { TestimonialsCardsAnimatedBlurGrid } from "./testimonials-cards-animated-blur-grid";
 import { TestimonialsCardsBlurStaggerThreeColumnRating } from "./testimonials-cards-blur-stagger-three-column-rating";
 import { TestimonialsCardsThreeColumnBlurStaggerRating } from "./testimonials-cards-three-column-blur-stagger-rating";
@@ -538,7 +577,11 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "blog-article-centered-editorial-author-meta-share": BlogArticleCenteredEditorialAuthorMetaShare,
   "blog-article-docs-breadcrumb-meta-pagination": BlogArticleDocsBreadcrumbMetaPagination,
   "blog-article-hero-author-tags-social": BlogArticleHeroAuthorTagsSocial,
+  "blog-fullbleed-image-dark-overlay-hero": BlogFullbleedImageDarkOverlayHero,
   "blog-guide-sticky-toc-navigation": BlogGuideStickyTocNavigation,
+  "blog-index-dense-rows-category-filter-dark": BlogIndexDenseRowsCategoryFilterDark,
+  "blog-index-split-featured-secondary-list": BlogIndexSplitFeaturedSecondaryList,
+  "blog-index-staggered-masonry-tinted": BlogIndexStaggeredMasonryTinted,
   "blog-post-listing-divider-rows-excerpt-minimal": BlogPostListingDividerRowsExcerptMinimal,
   "bordered-conversion-panel-split": BorderedConversionPanelSplit,
   "brand-partners-grid": BrandPartnersGrid,
@@ -591,6 +634,7 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "contact-form-topic-pills": ContactFormTopicPills,
   "contact-form-visual-panel-parallax": ContactFormVisualPanelParallax,
   "contact-fullbleed-image-dark-overlay": ContactFullbleedImageDarkOverlay,
+  "contact-gradient-theme-diagonal-split": ContactGradientThemeDiagonalSplit,
   "contact-image-floating-card": ContactImageFloatingCard,
   "contact-locations-map-form": ContactLocationsMapForm,
   "contact-map-and-locations-form-split": ContactMapAndLocationsFormSplit,
@@ -623,7 +667,10 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "faq-accordion-tinted-background": FaqAccordionTintedBackground,
   "faq-accordion-two-column-balanced": FaqAccordionTwoColumnBalanced,
   "faq-accordion-two-column-bordered": FaqAccordionTwoColumnBordered,
+  "faq-chat-bubble-conversation-pattern": FaqChatBubbleConversationPattern,
+  "faq-dark-gradient-diagonal-numbered": FaqDarkGradientDiagonalNumbered,
   "faq-editorial-sidebar-sync": FaqEditorialSidebarSync,
+  "faq-fullbleed-image-overlay-editorial": FaqFullbleedImageOverlayEditorial,
   "faq-grid-cards-6tile-hover-expandable": FaqGridCards6tileHoverExpandable,
   "faq-grid-cards-expandable": FaqGridCardsExpandable,
   "faq-grid-cards-hover-lift": FaqGridCardsHoverLift,
@@ -631,6 +678,7 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "faq-sidebar-editorial-indexed-sticky": FaqSidebarEditorialIndexedSticky,
   "faq-sidebar-sticky-topic-rail-stats-synced": FaqSidebarStickyTopicRailStatsSynced,
   "faq-split-indexed-accordion-hairline-rows": FaqSplitIndexedAccordionHairlineRows,
+  "faq-staggered-cards-offset-editorial": FaqStaggeredCardsOffsetEditorial,
   "faq-support-cta-hybrid": FaqSupportCtaHybrid,
   "faq-tabbed-pill-filter-categories": FaqTabbedPillFilterCategories,
   "faq-tabbed-search-category-filter-live": FaqTabbedSearchCategoryFilterLive,
@@ -642,9 +690,14 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "feature-cards-animated-scroll": FeatureCardsAnimatedScroll,
   "feature-cards-image-grid": FeatureCardsImageGrid,
   "feature-carousel-slides": FeatureCarouselSlides,
+  "feature-dark-split-numbered-list": FeatureDarkSplitNumberedList,
   "feature-dense-checklist-two-column": FeatureDenseChecklistTwoColumn,
+  "feature-diagonal-clip-panels": FeatureDiagonalClipPanels,
+  "feature-fullbleed-image-dark-overlay": FeatureFullbleedImageDarkOverlay,
+  "feature-gradient-glass-cards": FeatureGradientGlassCards,
   "feature-icon-grid-capabilities": FeatureIconGridCapabilities,
   "feature-interactive-grid-auto-cycle-pulse": FeatureInteractiveGridAutoCyclePulse,
+  "feature-staggered-offset-cards-warm": FeatureStaggeredOffsetCardsWarm,
   "feature-sticky-scroll-stack-offset-animation": FeatureStickyScrollStackOffsetAnimation,
   "feature-tabbed-grid-category-swap": FeatureTabbedGridCategorySwap,
   "features-alternating-dense-copy-image": FeaturesAlternatingDenseCopyImage,
@@ -664,11 +717,13 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "footer-four-column-monochrome-wordmark-minimal": FooterFourColumnMonochromeWordmarkMinimal,
   "footer-fullbleed-image-dark-overlay": FooterFullbleedImageDarkOverlay,
   "footer-giant-wordmark-statement-close": FooterGiantWordmarkStatementClose,
+  "footer-gradient-mesh-split-newsletter": FooterGradientMeshSplitNewsletter,
   "footer-grid-blueprint-bordered": FooterGridBlueprintBordered,
   "footer-grid-bordered-cells-newsletter": FooterGridBorderedCellsNewsletter,
   "footer-grid-modular-bordered-newsletter-controls": FooterGridModularBorderedNewsletterControls,
   "footer-grid-newsletter-themed": FooterGridNewsletterThemed,
   "footer-inline-blur-wordmark-compact": FooterInlineBlurWordmarkCompact,
+  "footer-inverted-dark-band-cta": FooterInvertedDarkBandCta,
   "footer-mega-columns-sitemap-locale-controls": FooterMegaColumnsSitemapLocaleControls,
   "footer-mega-localized": FooterMegaLocalized,
   "footer-mega-multicolumn-locale-theme": FooterMegaMulticolumnLocaleTheme,
@@ -676,16 +731,20 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "footer-multi-column-sitemap-locale-theme": FooterMultiColumnSitemapLocaleTheme,
   "footer-newsletter-grouped-columns-social": FooterNewsletterGroupedColumnsSocial,
   "footer-single-row-inline-wordmark-blur-compact": FooterSingleRowInlineWordmarkBlurCompact,
+  "footer-staggered-cards-dotted-pattern": FooterStaggeredCardsDottedPattern,
   "footer-veil-design-kit-variant-4": FooterVeilDesignKitVariant4,
   "footer-vertical-dividers-split": FooterVerticalDividersSplit,
+  "footer-warm-secondary-editorial-pullquote": FooterWarmSecondaryEditorialPullquote,
   "footer-wordmark-prominent-outline": FooterWordmarkProminentOutline,
   "full-width-conversion-banner": FullWidthConversionBanner,
   "gallery-bento-asymmetric-hero-tiles-supporting": GalleryBentoAsymmetricHeroTilesSupporting,
   "gallery-bento-hero-supporting-tiles": GalleryBentoHeroSupportingTiles,
+  "gallery-diagonal-split-dark-panel-thumbrail": GalleryDiagonalSplitDarkPanelThumbrail,
   "gallery-editorial-grayscale-indexed": GalleryEditorialGrayscaleIndexed,
   "gallery-exhibition-decor-framed-crossfade": GalleryExhibitionDecorFramedCrossfade,
   "gallery-exhibition-decor-framed-metadata-blur": GalleryExhibitionDecorFramedMetadataBlur,
   "gallery-filterable-portfolio": GalleryFilterablePortfolio,
+  "gallery-fullbleed-image-dark-overlay-stacked-captions": GalleryFullbleedImageDarkOverlayStackedCaptions,
   "gallery-grid-metrics-column": GalleryGridMetricsColumn,
   "gallery-grid-responsive-uniform": GalleryGridResponsiveUniform,
   "gallery-grid-three-column-card-metadata-blog": GalleryGridThreeColumnCardMetadataBlog,
@@ -709,6 +768,7 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "gallery-spotlight-carousel-crossfade": GallerySpotlightCarouselCrossfade,
   "gallery-spotlight-carousel-thumbrail": GallerySpotlightCarouselThumbrail,
   "gallery-spotlight-carousel-thumbrail-2": GallerySpotlightCarouselThumbrail2,
+  "gallery-tinted-staggered-cards-warm-scatter": GalleryTintedStaggeredCardsWarmScatter,
   "gallery-wall-4tile-motion-hover": GalleryWall4tileMotionHover,
   "gallery-wall-4tile-motion-hover-2": GalleryWall4tileMotionHover2,
   "gallery-wall-hover-reveal": GalleryWallHoverReveal,
@@ -796,8 +856,12 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "logo-cloud-marquee-infinite-responsive-drift": LogoCloudMarqueeInfiniteResponsiveDrift,
   "logo-cloud-marquee-infinite-wordmarks": LogoCloudMarqueeInfiniteWordmarks,
   "logo-cloud-split-editorial": LogoCloudSplitEditorial,
+  "logo-dense-pattern-wall-tinted": LogoDensePatternWallTinted,
+  "logo-diagonal-split-dark-band": LogoDiagonalSplitDarkBand,
+  "logo-fullbleed-image-dark-overlay": LogoFullbleedImageDarkOverlay,
   "logo-gallery-featured-thumbnail-rail": LogoGalleryFeaturedThumbnailRail,
   "logo-orbital-hub-rotating-brands-center-focus": LogoOrbitalHubRotatingBrandsCenterFocus,
+  "logo-staggered-cards-gradient-theme": LogoStaggeredCardsGradientTheme,
   "logo-vertical-three-column-carousel-alternating-drift": LogoVerticalThreeColumnCarouselAlternatingDrift,
   "masonry-offset-framed": MasonryOffsetFramed,
   "menu-beverage-pairing-dense-two-column": MenuBeveragePairingDenseTwoColumn,
@@ -837,6 +901,7 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "portfolio-gradient-spotlight-carousel-single-case": PortfolioGradientSpotlightCarouselSingleCase,
   "portfolio-grid-3column-with-metadata": PortfolioGrid3ColumnWithMetadata,
   "portfolio-grid-showcase": PortfolioGridShowcase,
+  "portfolio-split-index-diagonal-hover-swap": PortfolioSplitIndexDiagonalHoverSwap,
   "portfolio-staggered-cards-offset-airy": PortfolioStaggeredCardsOffsetAiry,
   "pricing-accordion-expandible-vertical": PricingAccordionExpandibleVertical,
   "pricing-accordion-tier-expandable": PricingAccordionTierExpandable,
@@ -846,8 +911,10 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "pricing-carousel-scroll-snap-filmstrip": PricingCarouselScrollSnapFilmstrip,
   "pricing-carousel-scroll-snap-scale-active": PricingCarouselScrollSnapScaleActive,
   "pricing-comparison-table-multi-tier-sticky": PricingComparisonTableMultiTierSticky,
+  "pricing-diagonal-gradient-dark-split": PricingDiagonalGradientDarkSplit,
   "pricing-duo-split-filled-plain-asymmetric": PricingDuoSplitFilledPlainAsymmetric,
   "pricing-duo-tier-split-filled-plain": PricingDuoTierSplitFilledPlain,
+  "pricing-fullbleed-image-dark-overlay": PricingFullbleedImageDarkOverlay,
   "pricing-inline-single-row-band": PricingInlineSingleRowBand,
   "pricing-ledger-comparison": PricingLedgerComparison,
   "pricing-seat-calculator-slider-dynamic": PricingSeatCalculatorSliderDynamic,
@@ -855,6 +922,7 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "pricing-slider-team-seats-animated-calculator": PricingSliderTeamSeatsAnimatedCalculator,
   "pricing-slider-team-seats-dynamic-calculator": PricingSliderTeamSeatsDynamicCalculator,
   "pricing-split-tiers-filled-plain": PricingSplitTiersFilledPlain,
+  "pricing-stacked-staggered-editorial-cards": PricingStackedStaggeredEditorialCards,
   "pricing-table-ledger-comparison-hairline": PricingTableLedgerComparisonHairline,
   "pricing-table-ledger-feature-rows": PricingTableLedgerFeatureRows,
   "pricing-table-matrix-compare-feature-sticky": PricingTableMatrixCompareFeatureSticky,
@@ -862,7 +930,9 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "pricing-three-toggle-billing-cycle": PricingThreeToggleBillingCycle,
   "pricing-tier-centered-selector-toggle-billing": PricingTierCenteredSelectorToggleBilling,
   "process-color-animated-steps": ProcessColorAnimatedSteps,
+  "process-diagonal-dark-technical-blueprint": ProcessDiagonalDarkTechnicalBlueprint,
   "process-flow-state-header": ProcessFlowStateHeader,
+  "process-fullbleed-image-dark-overlay": ProcessFullbleedImageDarkOverlay,
   "process-horizontal-interactive-clickable-progress": ProcessHorizontalInteractiveClickableProgress,
   "process-horizontal-numbered-row": ProcessHorizontalNumberedRow,
   "process-how-it-works-horizontal-icon-trio": ProcessHowItWorksHorizontalIconTrio,
@@ -872,6 +942,8 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "process-milestone-timeline-vertical-badges": ProcessMilestoneTimelineVerticalBadges,
   "process-phases-status-timeline": ProcessPhasesStatusTimeline,
   "process-sidebar-rail-steps": ProcessSidebarRailSteps,
+  "process-split-sticky-image-numbered": ProcessSplitStickyImageNumbered,
+  "process-staggered-cards-tinted-warm": ProcessStaggeredCardsTintedWarm,
   "process-stepper-horizontal-interactive-clickable-responsive": ProcessStepperHorizontalInteractiveClickableResponsive,
   "process-stepper-horizontal-interactive-progress": ProcessStepperHorizontalInteractiveProgress,
   "process-stepper-horizontal-numbered-completed-state": ProcessStepperHorizontalNumberedCompletedState,
@@ -940,8 +1012,11 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "startup-landing-with-key-stats": StartupLandingWithKeyStats,
   "stats-band-minimal-four-column": StatsBandMinimalFourColumn,
   "stats-bento-narrative": StatsBentoNarrative,
+  "stats-dark-foreground-gradient-staggered-cards": StatsDarkForegroundGradientStaggeredCards,
+  "stats-fullbleed-image-dark-overlay-split": StatsFullbleedImageDarkOverlaySplit,
   "stats-metric-band-countup-animated": StatsMetricBandCountupAnimated,
   "stats-metric-cards": StatsMetricCards,
+  "stats-split-sidebar-tinted-numeral-list": StatsSplitSidebarTintedNumeralList,
   "status-services-uptime-metrics-list": StatusServicesUptimeMetricsList,
   "tasting-menu-pricing-tiers": TastingMenuPricingTiers,
   "team-bento-asymmetric-leader-spotlight": TeamBentoAsymmetricLeaderSpotlight,
@@ -966,8 +1041,11 @@ export const blockSections: Record<string, ComponentType<{ ns: string }>> = {
   "testimonial-featured-centered-oversized-quote": TestimonialFeaturedCenteredOversizedQuote,
   "testimonial-featured-centered-quote": TestimonialFeaturedCenteredQuote,
   "testimonial-featured-centered-quote-company-logo": TestimonialFeaturedCenteredQuoteCompanyLogo,
+  "testimonial-fullbleed-image-dark-overlay": TestimonialFullbleedImageDarkOverlay,
   "testimonial-oversized-quote-avatar-logo": TestimonialOversizedQuoteAvatarLogo,
+  "testimonial-split-portrait-dark-panel": TestimonialSplitPortraitDarkPanel,
   "testimonial-spotlight-centered": TestimonialSpotlightCentered,
+  "testimonial-stacked-diagonal-cards-warm": TestimonialStackedDiagonalCardsWarm,
   "testimonials-cards-animated-blur-grid": TestimonialsCardsAnimatedBlurGrid,
   "testimonials-cards-blur-stagger-three-column-rating": TestimonialsCardsBlurStaggerThreeColumnRating,
   "testimonials-cards-three-column-blur-stagger-rating": TestimonialsCardsThreeColumnBlurStaggerRating,

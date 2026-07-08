@@ -1,0 +1,43 @@
+{
+  "key": "blog-index-split-featured-secondary-list",
+  "pascalName": "BlogIndexSplitFeaturedSecondaryList",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-index-split-featured-secondary-list` | blog-index-split-featured-secondary-list — índice de blog en layout asimétrico 2/3-1/3: post destacado con imagen grande a la izquierda y lista compacta de posts secundarios con thumbnail a la derecha | { eyebrow, title, featured: { image, imageAlt, category, title, excerpt }, secondaryPosts: [{ image, imageAlt, title, date }] } |",
+  "fixture": {
+    "eyebrow": "Blog",
+    "title": "Noticias y análisis del sector",
+    "featured": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Equipo de trabajo revisando planos en obra",
+      "category": "Actualidad del sector",
+      "title": "Qué cambia en la norma de construcción industrial para 2027",
+      "excerpt": "Un repaso a los ajustes normativos que entrarán en vigor el próximo año y su impacto directo en los tiempos y costos de obra para proyectos corporativos."
+    },
+    "secondaryPosts": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Detalle de estructura metálica en proceso de montaje",
+        "title": "Cinco criterios para elegir contratista en proyectos de gran escala",
+        "date": "3 de julio, 2026"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Reunión de equipo revisando cronograma de obra",
+        "title": "Cómo reducir tiempos muertos en la etapa de cimentación",
+        "date": "28 de junio, 2026"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista aérea de nave industrial en construcción",
+        "title": "Materiales que están cambiando la construcción industrial en México",
+        "date": "20 de junio, 2026"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Ingeniero revisando documentación técnica en oficina",
+        "title": "Lo que debe incluir un dictamen estructural completo",
+        "date": "12 de junio, 2026"
+      }
+    ]
+  }
+}

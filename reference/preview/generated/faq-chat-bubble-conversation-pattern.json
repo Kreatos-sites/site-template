@@ -1,0 +1,29 @@
+{
+  "key": "faq-chat-bubble-conversation-pattern",
+  "pascalName": "FaqChatBubbleConversationPattern",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-chat-bubble-conversation-pattern` | faq-chat-bubble-conversation-pattern — preguntas y respuestas como burbujas de chat alternadas sobre fondo punteado sutil · úsalo para FAQ de soporte o atención a cliente con tono cercano. | { eyebrow, title, subtitle, turns: [{ question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Atención a cliente",
+    "title": "Como si nos escribiera por chat",
+    "subtitle": "Reunimos las preguntas que más nos hacen nuestros clientes por WhatsApp y correo, con la misma claridad con la que las respondemos todos los días.",
+    "turns": [
+      {
+        "question": "¿En cuánto tiempo me responden si mando un mensaje fuera de horario?",
+        "answer": "Su mensaje queda registrado de inmediato y le respondemos al abrir, entre 8:00 y 9:00 horas del siguiente día hábil. Para casos urgentes contamos con una línea de soporte prioritario."
+      },
+      {
+        "question": "¿Puedo dar seguimiento a mi solicitud sin llamar por teléfono?",
+        "answer": "Sí. Cada solicitud genera un folio que puede consultar por chat o correo, y le avisamos por escrito en cada cambio de estatus hasta que quede resuelta."
+      },
+      {
+        "question": "¿Qué pasa si el problema no se resuelve en el primer contacto?",
+        "answer": "Lo escalamos a un especialista del área correspondiente, quien retoma la conversación con todo el historial ya registrado, sin que tenga que explicar todo de nuevo."
+      },
+      {
+        "question": "¿Tienen algún costo las consultas de soporte?",
+        "answer": "No. Todas las consultas, aclaraciones y seguimientos están incluidos en su contrato de servicio, sin cargo adicional."
+      }
+    ]
+  }
+}

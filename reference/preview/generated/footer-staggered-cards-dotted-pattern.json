@@ -1,0 +1,53 @@
+{
+  "key": "footer-staggered-cards-dotted-pattern",
+  "pascalName": "FooterStaggeredCardsDottedPattern",
+  "category": "Footers",
+  "catalogRow": "| `footer-staggered-cards-dotted-pattern` | footer-staggered-cards-dotted-pattern — footer claro sobre fondo de puntos con columnas en tarjetas escalonadas verticalmente, cierre con barra de copyright plana | { brand, description, cards: [{ title, links: [{ label, href }], offset: \"up/down\" }], copyright, legalLinks: [{ label, href }] } |",
+  "fixture": {
+    "brand": "Corvano Consultoría",
+    "description": "Asesoría fiscal, legal y financiera para empresas mexicanas que buscan crecer con orden y cumplimiento.",
+    "cards": [
+      {
+        "title": "Servicios",
+        "links": [
+          { "label": "Asesoría fiscal", "href": "/servicios/asesoria-fiscal" },
+          { "label": "Cumplimiento legal", "href": "/servicios/cumplimiento-legal" },
+          { "label": "Planeación financiera", "href": "/servicios/planeacion-financiera" }
+        ],
+        "offset": "up"
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          { "label": "Nosotros", "href": "/nosotros" },
+          { "label": "Equipo", "href": "/equipo" },
+          { "label": "Casos de éxito", "href": "/casos-de-exito" }
+        ],
+        "offset": "down"
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          { "label": "Blog", "href": "/blog" },
+          { "label": "Guías fiscales", "href": "/recursos/guias-fiscales" },
+          { "label": "Preguntas frecuentes", "href": "/preguntas-frecuentes" }
+        ],
+        "offset": "up"
+      },
+      {
+        "title": "Contacto",
+        "links": [
+          { "label": "Escríbanos", "href": "/contacto" },
+          { "label": "Agendar llamada", "href": "/contacto/llamada" },
+          { "label": "Oficinas", "href": "/contacto/oficinas" }
+        ],
+        "offset": "down"
+      }
+    ],
+    "copyright": "© 2026 Corvano Consultoría. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/aviso-de-privacidad" },
+      { "label": "Términos y condiciones", "href": "/terminos-y-condiciones" }
+    ]
+  }
+}

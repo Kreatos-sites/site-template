@@ -1,0 +1,19 @@
+{
+  "key": "feature-fullbleed-image-dark-overlay",
+  "pascalName": "FeatureFullbleedImageDarkOverlay",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-fullbleed-image-dark-overlay` | feature-fullbleed-image-dark-overlay — sección a sangre completa con foto industrial y overlay oscuro en gradiente, título centrado arriba y fila de 4-5 features (icono + label) anclada abajo | { eyebrow, title, backgroundImage, backgroundImageAlt, features: { icon, label }[] } |",
+  "fixture": {
+    "eyebrow": "Capacidades",
+    "title": "Infraestructura industrial con estándares de clase mundial",
+    "backgroundImage": "/images/hero.svg",
+    "backgroundImageAlt": "Equipo de trabajo supervisando una línea de producción en planta industrial",
+    "features": [
+      { "icon": "ShieldCheck", "label": "Certificación ISO 9001" },
+      { "icon": "HardHat", "label": "Seguridad en obra" },
+      { "icon": "Timer", "label": "Entrega puntual" },
+      { "icon": "Truck", "label": "Logística propia" },
+      { "icon": "Wrench", "label": "Mantenimiento preventivo" }
+    ]
+  }
+}

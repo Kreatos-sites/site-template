@@ -1,0 +1,21 @@
+{
+  "key": "logo-diagonal-split-dark-band",
+  "pascalName": "LogoDiagonalSplitDarkBand",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-diagonal-split-dark-band` | logo-diagonal-split-dark-band — banda invertida (bg-foreground) cortada por una diagonal: copy y cifra de respaldo a la izquierda, retícula angosta de wordmarks de aliados a la derecha · tono técnico y de alto contraste, sin blur-reveal. | { eyebrow, title, description, statValue, statLabel, allies: [{ name, sector }] } |",
+  "fixture": {
+    "eyebrow": "Red de aliados",
+    "title": "Una cadena de proveedores certificados que responde a escala",
+    "description": "Operamos con despachos y proveedores auditados bajo los mismos protocolos de trazabilidad y cumplimiento en cada entrega.",
+    "statValue": "+120",
+    "statLabel": "aliados activos en la red logística",
+    "allies": [
+      { "name": "Grupo Ferretero del Bajío", "sector": "Materiales" },
+      { "name": "Constructora Peninsular", "sector": "Obra civil" },
+      { "name": "Logística del Norte", "sector": "Transporte" },
+      { "name": "Distribuidora Aceros MX", "sector": "Metalurgia" },
+      { "name": "Despacho Contable Iturbide", "sector": "Auditoría" },
+      { "name": "Grupo Aduanal Portuario", "sector": "Comercio exterior" }
+    ]
+  }
+}

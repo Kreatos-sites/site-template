@@ -1,0 +1,43 @@
+{
+  "key": "process-diagonal-dark-technical-blueprint",
+  "pascalName": "ProcessDiagonalDarkTechnicalBlueprint",
+  "category": "Proceso",
+  "catalogRow": "| `process-diagonal-dark-technical-blueprint` | process-diagonal-dark-technical-blueprint — proceso técnico sobre fondo oscuro con retícula de plano y tarjetas en diagonal ascendente unidas por línea punteada · úsalo para flujos de ingeniería, manufactura o proyectos técnicos. | { eyebrow, title, description, steps: [{ number, icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Metodología de trabajo",
+    "title": "Del plano a la instalación, sin improvisar ningún paso",
+    "description": "Cada proyecto de Estructuras Meridiano sigue la misma secuencia técnica, desde el levantamiento inicial hasta la entrega certificada de la obra.",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "ruler",
+        "title": "Levantamiento y diagnóstico",
+        "description": "Medimos el sitio, revisamos cargas existentes y documentamos condiciones estructurales antes de proponer cualquier solución."
+      },
+      {
+        "number": "02",
+        "icon": "pen-tool",
+        "title": "Ingeniería y planos ejecutivos",
+        "description": "Desarrollamos el cálculo estructural y los planos de fabricación con memoria de cálculo firmada por perito responsable."
+      },
+      {
+        "number": "03",
+        "icon": "cog",
+        "title": "Fabricación en taller",
+        "description": "Cortamos, soldamos y tratamos el acero bajo control dimensional, con trazabilidad de cada pieza hasta el montaje."
+      },
+      {
+        "number": "04",
+        "icon": "wrench",
+        "title": "Montaje en obra",
+        "description": "Instalamos con cuadrilla certificada y bitácora de avance diaria, ajustando el programa a las condiciones del sitio."
+      },
+      {
+        "number": "05",
+        "icon": "package-check",
+        "title": "Entrega y certificación",
+        "description": "Cerramos con pruebas de calidad, manual de mantenimiento y acta de entrega firmada por el cliente."
+      }
+    ]
+  }
+}

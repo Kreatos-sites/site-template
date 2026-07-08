@@ -1,0 +1,15 @@
+{
+  "key": "testimonial-fullbleed-image-dark-overlay",
+  "pascalName": "TestimonialFullbleedImageDarkOverlay",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonial-fullbleed-image-dark-overlay` | testimonial-fullbleed-image-dark-overlay — reseña editorial a sangre completa con foto del cliente de fondo, overlay oscuro degradado y cita única centrada en tono claro | { image, imageAlt, quote, name, role, logo, logoAlt } |",
+  "fixture": {
+    "image": "/images/about.svg",
+    "imageAlt": "Directora de operaciones en la planta de producción de su empresa",
+    "quote": "Desde que trabajamos con este equipo dejamos de improvisar. Cada entrega llega a tiempo y con la calidad que le prometemos a nuestros propios clientes.",
+    "name": "Adriana Bermúdez",
+    "role": "Directora de Operaciones, Grupo Ferretero del Norte",
+    "logo": "/images/hero.svg",
+    "logoAlt": "Logotipo de Grupo Ferretero del Norte"
+  }
+}

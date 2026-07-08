@@ -1,0 +1,33 @@
+{
+  "key": "faq-dark-gradient-diagonal-numbered",
+  "pascalName": "FaqDarkGradientDiagonalNumbered",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-dark-gradient-diagonal-numbered` | faq-dark-gradient-diagonal-numbered — panel oscuro forzado con wash de gradiente diagonal en primary, filas numeradas (01, 02, 03) en tipografía grande sin ícono de acordeón, densidad alta y tono técnico | { eyebrow: string, title: string, intro: string, items: [{ question: string, answer: string }] } |",
+  "fixture": {
+    "eyebrow": "Dudas frecuentes",
+    "title": "Antes de contratar, resolvemos las preguntas técnicas",
+    "intro": "Reunimos las consultas más comunes de equipos de finanzas y operaciones antes de integrar nuestra plataforma. Si algo no queda claro, agende una llamada con el equipo de soluciones.",
+    "items": [
+      {
+        "question": "¿Cómo se conecta la plataforma con nuestros sistemas actuales?",
+        "answer": "Ofrecemos conectores nativos para los ERP y sistemas contables más usados en México, además de una API REST documentada para integraciones a la medida. El equipo de implementación acompaña la conexión inicial y valida el mapeo de datos antes de pasar a producción."
+      },
+      {
+        "question": "¿Qué nivel de seguridad tienen los datos que procesan?",
+        "answer": "Los datos se cifran en tránsito y en reposo, y aplicamos controles de acceso por rol a nivel de cada módulo. Realizamos auditorías de seguridad periódicas y mantenemos registros de actividad disponibles para revisión del cliente."
+      },
+      {
+        "question": "¿Cuánto tiempo toma la implementación completa?",
+        "answer": "Un despliegue estándar toma entre tres y seis semanas, dependiendo del número de integraciones y de la complejidad de los flujos de aprobación. Definimos un plan de trabajo con hitos claros desde la primera semana."
+      },
+      {
+        "question": "¿Podemos ajustar los flujos de aprobación a nuestras políticas internas?",
+        "answer": "Sí. Los flujos se configuran por área y por monto, con reglas de escalamiento y notificaciones personalizables. El equipo de consultoría revisa las políticas vigentes y las traduce a la configuración de la plataforma."
+      },
+      {
+        "question": "¿Qué soporte reciben los equipos después del arranque?",
+        "answer": "Cada cuenta cuenta con un consultor asignado durante los primeros noventa días y con mesa de soporte técnico en horario laboral. Después del periodo inicial, el soporte continúa por correo, chat y llamadas programadas."
+      }
+    ]
+  }
+}

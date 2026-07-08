@@ -1,0 +1,49 @@
+{
+  "key": "process-staggered-cards-tinted-warm",
+  "pascalName": "ProcessStaggeredCardsTintedWarm",
+  "category": "Proceso",
+  "catalogRow": "| `process-staggered-cards-tinted-warm` | process-staggered-cards-tinted-warm — tarjetas escalonadas sobre fondo tintado cálido, sin rejilla ni rieles conectores, numeral e icono integrados en cada tarjeta | { eyebrow, title, description, steps: [{ number, icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un método claro, de la primera llamada a la entrega",
+    "description": "Acompañamos cada proyecto con etapas concretas y responsables definidos, para que usted siempre sepa en qué punto se encuentra.",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "compass",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su operación actual, identificamos cuellos de botella y definimos objetivos medibles junto con su equipo."
+      },
+      {
+        "number": "02",
+        "icon": "note",
+        "title": "Propuesta y alcance",
+        "description": "Le entregamos un plan de trabajo por escrito con entregables, plazos y costos, sin letras pequeñas."
+      },
+      {
+        "number": "03",
+        "icon": "handshake",
+        "title": "Acuerdo y arranque",
+        "description": "Firmamos el contrato, asignamos al equipo responsable y establecemos los canales de comunicación semanal."
+      },
+      {
+        "number": "04",
+        "icon": "wrench",
+        "title": "Implementación",
+        "description": "Ejecutamos por fases, con revisiones periódicas para ajustar el rumbo antes de que un desvío se vuelva costoso."
+      },
+      {
+        "number": "05",
+        "icon": "chart",
+        "title": "Medición de resultados",
+        "description": "Le compartimos indicadores claros sobre el avance y el impacto real del proyecto en su negocio."
+      },
+      {
+        "number": "06",
+        "icon": "rocket",
+        "title": "Entrega y acompañamiento",
+        "description": "Cerramos con una entrega formal y un periodo de acompañamiento para resolver cualquier ajuste posterior."
+      }
+    ]
+  }
+}

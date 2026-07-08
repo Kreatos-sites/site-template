@@ -1,0 +1,49 @@
+{
+  "key": "faq-staggered-cards-offset-editorial",
+  "pascalName": "FaqStaggeredCardsOffsetEditorial",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-staggered-cards-offset-editorial` | faq-staggered-cards-offset-editorial — grid de 3 columnas con tarjetas de pregunta desfasadas tipo masonry (columna central baja), icono de línea y sombra suave, tono cálido editorial · úsalo para negocios con varias categorías de duda mostradas de forma no lineal. | { eyebrow, title, intro, items: [{ icon, category, question, answer }] } |",
+  "fixture": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resolvemos sus dudas antes de comenzar",
+    "intro": "Reunimos las preguntas que más nos hacen los clientes que están por contratar un proyecto logístico con nosotros, organizadas por tema.",
+    "items": [
+      {
+        "icon": "clock",
+        "category": "Tiempos",
+        "question": "¿Cuánto tarda la implementación de una ruta de distribución nueva?",
+        "answer": "Entre 3 y 6 semanas desde la firma del contrato, dependiendo del número de puntos de entrega y si requiere integración con su sistema de inventario."
+      },
+      {
+        "icon": "coins",
+        "category": "Costos",
+        "question": "¿Cómo se calcula la tarifa mensual del servicio?",
+        "answer": "Se cotiza por volumen mensual estimado, número de rutas y kilometraje. Le entregamos un desglose antes de firmar, sin costos ocultos posteriores."
+      },
+      {
+        "icon": "shield",
+        "category": "Cobertura",
+        "question": "¿Qué pasa si la mercancía sufre algún daño en tránsito?",
+        "answer": "Toda carga viaja asegurada. En caso de incidente, el reporte y la reposición del valor se resuelven dentro de los siguientes diez días hábiles."
+      },
+      {
+        "icon": "pin",
+        "category": "Zonas",
+        "question": "¿A qué ciudades del país llegan sus rutas actualmente?",
+        "answer": "Cubrimos el centro y bajío de forma directa, y el resto del territorio nacional mediante convenios con transportistas certificados."
+      },
+      {
+        "icon": "chat",
+        "category": "Soporte",
+        "question": "¿Con quién puedo dar seguimiento a un envío en curso?",
+        "answer": "Cada cliente cuenta con un ejecutivo de cuenta asignado y acceso a un panel de rastreo en tiempo real disponible en horario laboral."
+      },
+      {
+        "icon": "handshake",
+        "category": "Contratos",
+        "question": "¿Es posible cancelar o ajustar el contrato antes de que termine?",
+        "answer": "Sí, con treinta días de aviso previo. Los ajustes de volumen se revisan cada trimestre sin penalización si se notifican con anticipación."
+      }
+    ]
+  }
+}

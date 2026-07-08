@@ -1,0 +1,34 @@
+{
+  "key": "faq-fullbleed-image-overlay-editorial",
+  "pascalName": "FaqFullbleedImageOverlayEditorial",
+  "category": "Dudas (FAQ)",
+  "catalogRow": "| `faq-fullbleed-image-overlay-editorial` | faq-fullbleed-image-overlay-editorial — acordeón a sangre completa sobre fotografía de equipo con overlay en gradiente, columna centrada sin tarjetas, tono dramático premium | { image: string, imageAlt: string, eyebrow: string, title: string, items: [{ question: string, answer: string }] } |",
+  "fixture": {
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de consultoría reunido en la sala de juntas de las oficinas centrales",
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de comenzar, resolvemos sus dudas con la misma precisión con la que llevamos cada mandato",
+    "items": [
+      {
+        "question": "¿Cómo se estructura un proyecto de consultoría con ustedes?",
+        "answer": "Iniciamos con un diagnóstico de dos semanas, seguido de un plan de trabajo con hitos mensuales. Cada fase concluye con una presentación ejecutiva ante la dirección de su empresa."
+      },
+      {
+        "question": "¿Qué nivel de involucramiento requiere nuestro equipo directivo?",
+        "answer": "Solicitamos una sesión semanal de una hora con el patrocinador del proyecto y acceso puntual a los responsables de área durante las semanas de levantamiento de información."
+      },
+      {
+        "question": "¿Trabajan con empresas de un sector específico?",
+        "answer": "Atendemos principalmente manufactura, logística y servicios financieros, aunque el marco metodológico se adapta a otras industrias reguladas con estructuras similares de gobierno corporativo."
+      },
+      {
+        "question": "¿Cómo protegen la confidencialidad de la información que compartimos?",
+        "answer": "Firmamos un acuerdo de confidencialidad antes del diagnóstico inicial y todo el equipo asignado trabaja bajo protocolos de manejo de información restringida, incluida la segmentación por necesidad de conocimiento."
+      },
+      {
+        "question": "¿Qué sucede si necesitamos ajustar el alcance a mitad del proyecto?",
+        "answer": "Revisamos el alcance en cada hito mensual. Si surge una necesidad adicional, la incorporamos mediante una adenda con cronograma y honorarios claramente definidos antes de iniciar el trabajo."
+      }
+    ]
+  }
+}

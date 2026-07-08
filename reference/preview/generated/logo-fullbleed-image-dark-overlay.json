@@ -1,0 +1,20 @@
+{
+  "key": "logo-fullbleed-image-dark-overlay",
+  "pascalName": "LogoFullbleedImageDarkOverlay",
+  "category": "Aliados y logos",
+  "catalogRow": "| `logo-fullbleed-image-dark-overlay` | logo-fullbleed-image-dark-overlay — fondo fotográfico a sangre de planta industrial con overlay oscuro degradado y wordmarks de aliados flotando en blanco atenuado sobre la mitad inferior | { eyebrow, title, image, imageAlt, partners: { name }[] } |",
+  "fixture": {
+    "eyebrow": "Alianzas estratégicas",
+    "title": "Empresas que confían su operación a nuestra cadena de suministro",
+    "image": "/images/hero.svg",
+    "imageAlt": "Planta industrial con líneas de producción activas al atardecer",
+    "partners": [
+      { "name": "Grupo Ferrotec" },
+      { "name": "Aceros del Bajío" },
+      { "name": "Logística Cumbre" },
+      { "name": "Manufacturas Vallarta" },
+      { "name": "Distribuidora Norte Industrial" },
+      { "name": "Componentes Sierra" }
+    ]
+  }
+}

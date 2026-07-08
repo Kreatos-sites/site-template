@@ -1570,6 +1570,15 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "copyLinkAria": "Copiar enlace del artículo",
     "printAria": "Imprimir este artículo"
   },
+  "blog-fullbleed-image-dark-overlay-hero": {
+    "category": "Logística",
+    "title": "Cómo la trazabilidad en tiempo real está redefiniendo la cadena de suministro en México",
+    "author": "Por Renata Cisneros",
+    "date": "7 de julio de 2026",
+    "readTime": "6 min de lectura",
+    "image": "/images/hero.svg",
+    "imageAlt": "Centro de distribución logístico visto desde una plataforma elevada al atardecer"
+  },
   "blog-guide-sticky-toc-navigation": {
     "eyebrow": "Guía técnica",
     "title": "Cómo seleccionar un contratista para obra industrial",
@@ -1633,6 +1642,188 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "id": "entrega-y-cierre",
         "heading": "Entrega y cierre de obra",
         "body": "Acuerde por escrito el proceso de recepción, el periodo de garantía por vicios ocultos y la entrega de planos as-built antes de liberar el finiquito."
+      }
+    ]
+  },
+  "blog-index-dense-rows-category-filter-dark": {
+    "eyebrow": "Bitácora técnica",
+    "title": "Registro de cambios y notas de ingeniería",
+    "description": "Actualizaciones de plataforma, decisiones de arquitectura e incidentes documentados por el equipo de ingeniería.",
+    "categories": [
+      {
+        "label": "Todos",
+        "isActive": true
+      },
+      {
+        "label": "Infraestructura",
+        "isActive": false
+      },
+      {
+        "label": "API",
+        "isActive": false
+      },
+      {
+        "label": "Seguridad",
+        "isActive": false
+      },
+      {
+        "label": "Rendimiento",
+        "isActive": false
+      }
+    ],
+    "posts": [
+      {
+        "category": "Infraestructura",
+        "title": "Migración del clúster de cómputo a la región centro",
+        "date": "3 jul 2026",
+        "readTime": "6 min",
+        "image": "/images/hero.svg",
+        "imageAlt": "Diagrama de arquitectura del clúster de cómputo"
+      },
+      {
+        "category": "API",
+        "title": "Versión 4 del API de facturación: cambios que rompen compatibilidad",
+        "date": "28 jun 2026",
+        "readTime": "8 min",
+        "image": "/images/about.svg",
+        "imageAlt": "Esquema de endpoints del API de facturación"
+      },
+      {
+        "category": "Seguridad",
+        "title": "Rotación obligatoria de llaves de acceso en producción",
+        "date": "21 jun 2026",
+        "readTime": "4 min",
+        "image": "/images/hero.svg",
+        "imageAlt": "Panel de gestión de credenciales"
+      },
+      {
+        "category": "Rendimiento",
+        "title": "Reducción de latencia p99 mediante caché en el borde",
+        "date": "15 jun 2026",
+        "readTime": "7 min",
+        "image": "/images/about.svg",
+        "imageAlt": "Gráfica de latencia antes y después de la optimización"
+      },
+      {
+        "category": "Infraestructura",
+        "title": "Postmortem: interrupción del servicio de mensajería",
+        "date": "9 jun 2026",
+        "readTime": "10 min",
+        "image": "/images/hero.svg",
+        "imageAlt": "Línea de tiempo del incidente de mensajería"
+      },
+      {
+        "category": "API",
+        "title": "Límites de tasa por token: guía de migración",
+        "date": "2 jun 2026",
+        "readTime": "5 min",
+        "image": "/images/about.svg",
+        "imageAlt": "Tabla de límites de tasa por plan"
+      },
+      {
+        "category": "Seguridad",
+        "title": "Auditoría trimestral de dependencias de terceros",
+        "date": "27 may 2026",
+        "readTime": "6 min",
+        "image": "/images/hero.svg",
+        "imageAlt": "Reporte de auditoría de dependencias"
+      }
+    ]
+  },
+  "blog-index-split-featured-secondary-list": {
+    "eyebrow": "Blog",
+    "title": "Noticias y análisis del sector",
+    "featured": {
+      "image": "/images/hero.svg",
+      "imageAlt": "Equipo de trabajo revisando planos en obra",
+      "category": "Actualidad del sector",
+      "title": "Qué cambia en la norma de construcción industrial para 2027",
+      "excerpt": "Un repaso a los ajustes normativos que entrarán en vigor el próximo año y su impacto directo en los tiempos y costos de obra para proyectos corporativos."
+    },
+    "secondaryPosts": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Detalle de estructura metálica en proceso de montaje",
+        "title": "Cinco criterios para elegir contratista en proyectos de gran escala",
+        "date": "3 de julio, 2026"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Reunión de equipo revisando cronograma de obra",
+        "title": "Cómo reducir tiempos muertos en la etapa de cimentación",
+        "date": "28 de junio, 2026"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Vista aérea de nave industrial en construcción",
+        "title": "Materiales que están cambiando la construcción industrial en México",
+        "date": "20 de junio, 2026"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Ingeniero revisando documentación técnica en oficina",
+        "title": "Lo que debe incluir un dictamen estructural completo",
+        "date": "12 de junio, 2026"
+      }
+    ]
+  },
+  "blog-index-staggered-masonry-tinted": {
+    "eyebrow": "Blog corporativo",
+    "title": "Perspectivas y noticias de la firma",
+    "posts": [
+      {
+        "category": "Cumplimiento",
+        "date": "3 de julio, 2026",
+        "title": "Cambios en la NOM-035 y su impacto en la gestión de personal",
+        "excerpt": "Un repaso a las obligaciones vigentes para empresas mexicanas y las áreas donde vemos más incumplimientos en auditoría.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Equipo de trabajo revisando documentos de cumplimiento normativo",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Finanzas",
+        "date": "28 de junio, 2026",
+        "title": "Cómo preparar su empresa para la próxima temporada fiscal",
+        "excerpt": "Recomendaciones prácticas para ordenar su contabilidad antes de los plazos del SAT.",
+        "image": "/images/about.svg",
+        "imageAlt": "Escritorio con calculadora y reportes financieros",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Logística",
+        "date": "20 de junio, 2026",
+        "title": "Rutas de distribución: tres ajustes que reducen costos en 2026",
+        "excerpt": "Analizamos casos de clientes que optimizaron su cadena de suministro sin sacrificar tiempos de entrega.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Camiones de carga en patio de distribución",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Construcción",
+        "date": "12 de junio, 2026",
+        "title": "Materiales sustentables: qué exige ya el mercado mexicano",
+        "excerpt": "La demanda por certificaciones ambientales crece entre desarrolladores inmobiliarios del centro del país.",
+        "image": "/images/about.svg",
+        "imageAlt": "Obra de construcción con materiales apilados",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Cumplimiento",
+        "date": "5 de junio, 2026",
+        "title": "Protección de datos personales: guía breve para pymes",
+        "excerpt": "Los puntos que revisa el INAI con más frecuencia y cómo evitar sanciones desde el diseño de sus procesos.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Persona firmando documentos frente a una laptop",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Distribución",
+        "date": "29 de mayo, 2026",
+        "title": "Inventarios en tiempo real: la ventaja que ya no es opcional",
+        "excerpt": "Por qué los distribuidores que invierten en visibilidad de inventario están ganando participación de mercado.",
+        "image": "/images/about.svg",
+        "imageAlt": "Almacén con estanterías de producto organizado",
+        "readMoreLabel": "Leer artículo"
       }
     ]
   },
@@ -3158,7 +3349,7 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
   },
   "contact-centered-warm-photo-team-band": {
     "eyebrow": "Contacto",
-    "title": "Cuéntanos en qué le ayudamos",
+    "title": "Cuéntenos en qué le ayudamos",
     "subtitle": "Nuestro equipo de recepción lee cada mensaje personalmente y le responde el mismo día hábil.",
     "image": "/images/hero.svg",
     "imageAlt": "Equipo de recepción saludando a un cliente en el mostrador de la oficina",
@@ -3833,6 +4024,71 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "value": "Av. Constitución 1500, Monterrey, N.L."
       }
     ]
+  },
+  "contact-gradient-theme-diagonal-split": {
+    "eyebrow": "Contacto",
+    "title": "Coordinemos su siguiente embarque",
+    "subtitle": "Cuéntenos el origen, destino y volumen de su carga. Un ejecutivo de cuenta le compartirá una cotización en menos de 24 horas.",
+    "channels": [
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 81 8374 2210"
+      },
+      {
+        "icon": "email",
+        "label": "Correo",
+        "value": "operaciones@rutanorte.mx"
+      },
+      {
+        "icon": "whatsapp",
+        "label": "WhatsApp",
+        "value": "+52 81 1147 9926"
+      },
+      {
+        "icon": "address",
+        "label": "Centro de distribución",
+        "value": "Parque Logístico Apodaca, Nave 12, Apodaca, N.L."
+      },
+      {
+        "icon": "hours",
+        "label": "Horario",
+        "value": "Lunes a sábado, 7:00 a 20:00 h"
+      }
+    ],
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nombre completo",
+        "type": "text",
+        "placeholder": "Su nombre"
+      },
+      {
+        "name": "company",
+        "label": "Empresa",
+        "type": "text",
+        "placeholder": "Razón social"
+      },
+      {
+        "name": "email",
+        "label": "Correo",
+        "type": "email",
+        "placeholder": "usted@empresa.com"
+      },
+      {
+        "name": "phone",
+        "label": "Teléfono",
+        "type": "tel",
+        "placeholder": "81 0000 0000"
+      },
+      {
+        "name": "message",
+        "label": "Detalle del embarque",
+        "type": "textarea",
+        "placeholder": "Origen, destino, volumen y fecha estimada"
+      }
+    ],
+    "submitLabel": "Solicitar cotización"
   },
   "contact-image-floating-card": {
     "eyebrow": "Contacto",
@@ -4821,6 +5077,56 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "faq-chat-bubble-conversation-pattern": {
+    "eyebrow": "Atención a cliente",
+    "title": "Como si nos escribiera por chat",
+    "subtitle": "Reunimos las preguntas que más nos hacen nuestros clientes por WhatsApp y correo, con la misma claridad con la que las respondemos todos los días.",
+    "turns": [
+      {
+        "question": "¿En cuánto tiempo me responden si mando un mensaje fuera de horario?",
+        "answer": "Su mensaje queda registrado de inmediato y le respondemos al abrir, entre 8:00 y 9:00 horas del siguiente día hábil. Para casos urgentes contamos con una línea de soporte prioritario."
+      },
+      {
+        "question": "¿Puedo dar seguimiento a mi solicitud sin llamar por teléfono?",
+        "answer": "Sí. Cada solicitud genera un folio que puede consultar por chat o correo, y le avisamos por escrito en cada cambio de estatus hasta que quede resuelta."
+      },
+      {
+        "question": "¿Qué pasa si el problema no se resuelve en el primer contacto?",
+        "answer": "Lo escalamos a un especialista del área correspondiente, quien retoma la conversación con todo el historial ya registrado, sin que tenga que explicar todo de nuevo."
+      },
+      {
+        "question": "¿Tienen algún costo las consultas de soporte?",
+        "answer": "No. Todas las consultas, aclaraciones y seguimientos están incluidos en su contrato de servicio, sin cargo adicional."
+      }
+    ]
+  },
+  "faq-dark-gradient-diagonal-numbered": {
+    "eyebrow": "Dudas frecuentes",
+    "title": "Antes de contratar, resolvemos las preguntas técnicas",
+    "intro": "Reunimos las consultas más comunes de equipos de finanzas y operaciones antes de integrar nuestra plataforma. Si algo no queda claro, agende una llamada con el equipo de soluciones.",
+    "items": [
+      {
+        "question": "¿Cómo se conecta la plataforma con nuestros sistemas actuales?",
+        "answer": "Ofrecemos conectores nativos para los ERP y sistemas contables más usados en México, además de una API REST documentada para integraciones a la medida. El equipo de implementación acompaña la conexión inicial y valida el mapeo de datos antes de pasar a producción."
+      },
+      {
+        "question": "¿Qué nivel de seguridad tienen los datos que procesan?",
+        "answer": "Los datos se cifran en tránsito y en reposo, y aplicamos controles de acceso por rol a nivel de cada módulo. Realizamos auditorías de seguridad periódicas y mantenemos registros de actividad disponibles para revisión del cliente."
+      },
+      {
+        "question": "¿Cuánto tiempo toma la implementación completa?",
+        "answer": "Un despliegue estándar toma entre tres y seis semanas, dependiendo del número de integraciones y de la complejidad de los flujos de aprobación. Definimos un plan de trabajo con hitos claros desde la primera semana."
+      },
+      {
+        "question": "¿Podemos ajustar los flujos de aprobación a nuestras políticas internas?",
+        "answer": "Sí. Los flujos se configuran por área y por monto, con reglas de escalamiento y notificaciones personalizables. El equipo de consultoría revisa las políticas vigentes y las traduce a la configuración de la plataforma."
+      },
+      {
+        "question": "¿Qué soporte reciben los equipos después del arranque?",
+        "answer": "Cada cuenta cuenta con un consultor asignado durante los primeros noventa días y con mesa de soporte técnico en horario laboral. Después del periodo inicial, el soporte continúa por correo, chat y llamadas programadas."
+      }
+    ]
+  },
   "faq-editorial-sidebar-sync": {
     "eyebrow": "Preguntas frecuentes",
     "title": "Antes de contratarnos, resolvemos sus dudas",
@@ -4876,6 +5182,34 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
             "answer": "Enviamos un reporte mensual con el estatus de cada asunto abierto, próximos vencimientos y recomendaciones, además de una reunión trimestral de seguimiento."
           }
         ]
+      }
+    ]
+  },
+  "faq-fullbleed-image-overlay-editorial": {
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo de consultoría reunido en la sala de juntas de las oficinas centrales",
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de comenzar, resolvemos sus dudas con la misma precisión con la que llevamos cada mandato",
+    "items": [
+      {
+        "question": "¿Cómo se estructura un proyecto de consultoría con ustedes?",
+        "answer": "Iniciamos con un diagnóstico de dos semanas, seguido de un plan de trabajo con hitos mensuales. Cada fase concluye con una presentación ejecutiva ante la dirección de su empresa."
+      },
+      {
+        "question": "¿Qué nivel de involucramiento requiere nuestro equipo directivo?",
+        "answer": "Solicitamos una sesión semanal de una hora con el patrocinador del proyecto y acceso puntual a los responsables de área durante las semanas de levantamiento de información."
+      },
+      {
+        "question": "¿Trabajan con empresas de un sector específico?",
+        "answer": "Atendemos principalmente manufactura, logística y servicios financieros, aunque el marco metodológico se adapta a otras industrias reguladas con estructuras similares de gobierno corporativo."
+      },
+      {
+        "question": "¿Cómo protegen la confidencialidad de la información que compartimos?",
+        "answer": "Firmamos un acuerdo de confidencialidad antes del diagnóstico inicial y todo el equipo asignado trabaja bajo protocolos de manejo de información restringida, incluida la segmentación por necesidad de conocimiento."
+      },
+      {
+        "question": "¿Qué sucede si necesitamos ajustar el alcance a mitad del proyecto?",
+        "answer": "Revisamos el alcance en cada hito mensual. Si surge una necesidad adicional, la incorporamos mediante una adenda con cronograma y honorarios claramente definidos antes de iniciar el trabajo."
       }
     ]
   },
@@ -5156,6 +5490,49 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       {
         "question": "¿Ofrecen seguimiento posterior a la firma del contrato?",
         "answer": "Sí, incluimos hasta seis meses de acompañamiento sin costo adicional para resolver dudas de implementación o ajustes menores al documento."
+      }
+    ]
+  },
+  "faq-staggered-cards-offset-editorial": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resolvemos sus dudas antes de comenzar",
+    "intro": "Reunimos las preguntas que más nos hacen los clientes que están por contratar un proyecto logístico con nosotros, organizadas por tema.",
+    "items": [
+      {
+        "icon": "clock",
+        "category": "Tiempos",
+        "question": "¿Cuánto tarda la implementación de una ruta de distribución nueva?",
+        "answer": "Entre 3 y 6 semanas desde la firma del contrato, dependiendo del número de puntos de entrega y si requiere integración con su sistema de inventario."
+      },
+      {
+        "icon": "coins",
+        "category": "Costos",
+        "question": "¿Cómo se calcula la tarifa mensual del servicio?",
+        "answer": "Se cotiza por volumen mensual estimado, número de rutas y kilometraje. Le entregamos un desglose antes de firmar, sin costos ocultos posteriores."
+      },
+      {
+        "icon": "shield",
+        "category": "Cobertura",
+        "question": "¿Qué pasa si la mercancía sufre algún daño en tránsito?",
+        "answer": "Toda carga viaja asegurada. En caso de incidente, el reporte y la reposición del valor se resuelven dentro de los siguientes diez días hábiles."
+      },
+      {
+        "icon": "pin",
+        "category": "Zonas",
+        "question": "¿A qué ciudades del país llegan sus rutas actualmente?",
+        "answer": "Cubrimos el centro y bajío de forma directa, y el resto del territorio nacional mediante convenios con transportistas certificados."
+      },
+      {
+        "icon": "chat",
+        "category": "Soporte",
+        "question": "¿Con quién puedo dar seguimiento a un envío en curso?",
+        "answer": "Cada cliente cuenta con un ejecutivo de cuenta asignado y acceso a un panel de rastreo en tiempo real disponible en horario laboral."
+      },
+      {
+        "icon": "handshake",
+        "category": "Contratos",
+        "question": "¿Es posible cancelar o ajustar el contrato antes de que termine?",
+        "answer": "Sí, con treinta días de aviso previo. Los ajustes de volumen se revisan cada trimestre sin penalización si se notifican con anticipación."
       }
     ]
   },
@@ -5746,6 +6123,35 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "feature-dark-split-numbered-list": {
+    "eyebrow": "Alcance del servicio",
+    "title": "Un solo despacho, control operativo total de su cadena de suministro",
+    "description": "Coordinamos aduanas, transporte y almacenaje bajo un mismo protocolo de seguimiento, con reportes que su equipo puede auditar en cualquier momento.",
+    "ctaLabel": "Solicitar propuesta",
+    "ctaHref": "/contacto",
+    "items": [
+      {
+        "title": "Gestión aduanal integral",
+        "description": "Clasificación arancelaria, pedimentos y trámites ante autoridades para importación y exportación, con revisión previa de cada embarque."
+      },
+      {
+        "title": "Transporte multimodal",
+        "description": "Coordinación de carga terrestre, marítima y aérea con trazabilidad por embarque y alertas de desviación de ruta u horario."
+      },
+      {
+        "title": "Almacenaje y consolidación",
+        "description": "Bodegas fiscales y de depósito con control de inventario en tiempo real y consolidación de carga por destino."
+      },
+      {
+        "title": "Cumplimiento normativo",
+        "description": "Verificación permanente de certificaciones, cuotas compensatorias y requisitos sanitarios aplicables a cada tipo de mercancía."
+      },
+      {
+        "title": "Reportes y facturación centralizada",
+        "description": "Un solo estado de cuenta consolidado por periodo, con desglose de costos por embarque y acceso a documentación digitalizada."
+      }
+    ]
+  },
   "feature-dense-checklist-two-column": {
     "eyebrow": "Alcance del servicio",
     "title": "Todo lo que incluye su contrato de mantenimiento",
@@ -5782,6 +6188,118 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       {
         "label": "Renovación sin penalización",
         "description": "Cancele o ajuste el alcance con treinta días de aviso."
+      }
+    ]
+  },
+  "feature-diagonal-clip-panels": {
+    "eyebrow": "Capacidades",
+    "title": "Infraestructura operativa que se adapta al ritmo de su planta",
+    "description": "Integramos monitoreo, automatización y trazabilidad en un mismo sistema, con módulos que se despliegan por etapas según la prioridad de cada línea de producción.",
+    "capabilities": [
+      {
+        "icon": "gauge",
+        "title": "Monitoreo en tiempo real",
+        "text": "Paneles con lecturas de sensores y variables críticas actualizadas cada segundo, con alertas configurables por línea."
+      },
+      {
+        "icon": "shield",
+        "title": "Continuidad y respaldo",
+        "text": "Redundancia en los puntos críticos del sistema y protocolos de recuperación probados, con reportes de disponibilidad mensuales."
+      },
+      {
+        "icon": "workflow",
+        "title": "Automatización de procesos",
+        "text": "Secuencias configurables que reducen intervención manual en tareas repetitivas, con registro de cada ejecución."
+      },
+      {
+        "icon": "radar",
+        "title": "Detección temprana de fallas",
+        "text": "Modelos de mantenimiento predictivo que anticipan desgaste en componentes antes de que afecten la producción."
+      },
+      {
+        "icon": "cpu",
+        "title": "Control centralizado",
+        "text": "Una sola consola para supervisar múltiples plantas, con permisos por rol y bitácora de cambios auditable."
+      },
+      {
+        "icon": "boxes",
+        "title": "Integración con planta existente",
+        "text": "Conectamos con el equipo y los sistemas que ya opera, sin sustituir infraestructura funcional."
+      }
+    ]
+  },
+  "feature-fullbleed-image-dark-overlay": {
+    "eyebrow": "Capacidades",
+    "title": "Infraestructura industrial con estándares de clase mundial",
+    "backgroundImage": "/images/hero.svg",
+    "backgroundImageAlt": "Equipo de trabajo supervisando una línea de producción en planta industrial",
+    "features": [
+      {
+        "icon": "ShieldCheck",
+        "label": "Certificación ISO 9001"
+      },
+      {
+        "icon": "HardHat",
+        "label": "Seguridad en obra"
+      },
+      {
+        "icon": "Timer",
+        "label": "Entrega puntual"
+      },
+      {
+        "icon": "Truck",
+        "label": "Logística propia"
+      },
+      {
+        "icon": "Wrench",
+        "label": "Mantenimiento preventivo"
+      }
+    ]
+  },
+  "feature-gradient-glass-cards": {
+    "eyebrow": "Plataforma",
+    "title": "Infraestructura que sostiene sus operaciones críticas",
+    "description": "Ocho módulos independientes que se integran entre sí para dar soporte a procesos financieros, logísticos y de atención a cliente sin puntos únicos de falla.",
+    "features": [
+      {
+        "icon": "cpu",
+        "title": "Procesamiento en tiempo real",
+        "description": "Motor de eventos que ejecuta reglas de negocio en milisegundos, incluso bajo picos de demanda estacional."
+      },
+      {
+        "icon": "radar",
+        "title": "Monitoreo predictivo",
+        "description": "Alertas tempranas sobre anomalías de uso antes de que afecten a los usuarios finales de la plataforma."
+      },
+      {
+        "icon": "shield",
+        "title": "Cifrado de extremo a extremo",
+        "description": "Datos protegidos en tránsito y en reposo bajo estándares vigentes de seguridad de la información."
+      },
+      {
+        "icon": "fingerprint",
+        "title": "Autenticación multifactor",
+        "description": "Control de acceso por rol con verificación adicional para operaciones sensibles del negocio."
+      },
+      {
+        "icon": "network",
+        "title": "Arquitectura distribuida",
+        "description": "Nodos redundantes en múltiples regiones que evitan la interrupción total del servicio."
+      },
+      {
+        "icon": "cloud",
+        "title": "Escalamiento automático",
+        "description": "Los recursos de cómputo se ajustan solos según la carga, sin intervención manual del equipo técnico."
+      },
+      {
+        "icon": "workflow",
+        "title": "Orquestación de procesos",
+        "description": "Flujos configurables que conectan sistemas internos sin depender de integraciones manuales."
+      },
+      {
+        "icon": "database",
+        "title": "Respaldo continuo de datos",
+        "description": "Copias incrementales cada quince minutos con recuperación verificada de forma periódica."
       }
     ]
   },
@@ -5856,6 +6374,43 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "icon": "chart",
         "title": "Reportes de desempeño",
         "description": "Indicadores de tiempo de tránsito y cumplimiento disponibles para su equipo cada semana."
+      }
+    ]
+  },
+  "feature-staggered-offset-cards-warm": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Acompañamiento cercano, criterio de despacho boutique",
+    "description": "Cada servicio se atiende con un equipo reducido que conoce su caso a fondo, sin escalar entre áreas ni perder el trato personal.",
+    "services": [
+      {
+        "title": "Asesoría corporativa",
+        "text": "Le acompañamos en la constitución, gobierno y estructura societaria de su empresa con seguimiento continuo.",
+        "icon": "handshake"
+      },
+      {
+        "title": "Litigio y arbitraje",
+        "text": "Representamos sus intereses ante tribunales y paneles arbitrales con estrategia clara desde el primer día.",
+        "icon": "scale"
+      },
+      {
+        "title": "Contratos y cumplimiento",
+        "text": "Redactamos y revisamos acuerdos que protegen su operación sin frenar el ritmo del negocio.",
+        "icon": "notebook"
+      },
+      {
+        "title": "Relación con socios",
+        "text": "Facilitamos acuerdos entre accionistas y resolvemos diferencias antes de que escalen.",
+        "icon": "users"
+      },
+      {
+        "title": "Planeación estratégica",
+        "text": "Trazamos la ruta legal de su expansión con visión de largo plazo y riesgo controlado.",
+        "icon": "compass"
+      },
+      {
+        "title": "Trato directo",
+        "text": "Un socio del despacho responde sus dudas en persona, sin intermediarios ni filtros.",
+        "icon": "heart"
       }
     ]
   },
@@ -6972,6 +7527,89 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "footer-gradient-mesh-split-newsletter": {
+    "brand": "Altavista Consultoría",
+    "tagline": "Acompañamos a empresas mexicanas en la toma de decisiones financieras y operativas con datos claros y criterio experto.",
+    "newsletter": {
+      "title": "Reciba nuestro análisis mensual",
+      "description": "Tendencias del sector, indicadores clave y recomendaciones prácticas directamente en su correo.",
+      "placeholder": "Su correo electrónico",
+      "buttonLabel": "Suscribirse"
+    },
+    "columns": [
+      {
+        "heading": "Empresa",
+        "links": [
+          {
+            "label": "Quiénes somos",
+            "href": "/nosotros"
+          },
+          {
+            "label": "Equipo directivo",
+            "href": "/equipo"
+          },
+          {
+            "label": "Trabaje con nosotros",
+            "href": "/carreras"
+          }
+        ]
+      },
+      {
+        "heading": "Servicios",
+        "links": [
+          {
+            "label": "Consultoría financiera",
+            "href": "/servicios/financiera"
+          },
+          {
+            "label": "Planeación estratégica",
+            "href": "/servicios/estrategia"
+          },
+          {
+            "label": "Auditoría operativa",
+            "href": "/servicios/auditoria"
+          }
+        ]
+      },
+      {
+        "heading": "Recursos",
+        "links": [
+          {
+            "label": "Casos de estudio",
+            "href": "/casos"
+          },
+          {
+            "label": "Contacto",
+            "href": "/contacto"
+          }
+        ]
+      },
+      {
+        "heading": "Legal",
+        "links": [
+          {
+            "label": "Aviso de privacidad",
+            "href": "/aviso-de-privacidad"
+          },
+          {
+            "label": "Términos de uso",
+            "href": "/terminos"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Altavista Consultoría. Todos los derechos reservados.",
+    "legalLinks": [
+      {
+        "label": "Aviso de privacidad",
+        "href": "/aviso-de-privacidad"
+      },
+      {
+        "label": "Términos de uso",
+        "href": "/terminos"
+      }
+    ]
+  },
   "footer-grid-blueprint-bordered": {
     "brand": "Estudio Ánima",
     "description": "Diseño de marca e identidad visual para negocios que quieren verse tan sólidos como son.",
@@ -7362,6 +8000,83 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       {
         "label": "Contacto",
         "href": "#contacto"
+      }
+    ]
+  },
+  "footer-inverted-dark-band-cta": {
+    "statement": "Hablemos de cómo blindar la operación fiscal y laboral de su empresa antes de que termine el ejercicio.",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "columns": [
+      {
+        "heading": "Servicios",
+        "links": [
+          {
+            "label": "Derecho corporativo",
+            "href": "#"
+          },
+          {
+            "label": "Derecho fiscal",
+            "href": "#"
+          },
+          {
+            "label": "Derecho laboral",
+            "href": "#"
+          },
+          {
+            "label": "Litigio mercantil",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "heading": "Despacho",
+        "links": [
+          {
+            "label": "Sobre nosotros",
+            "href": "#"
+          },
+          {
+            "label": "Equipo",
+            "href": "#"
+          },
+          {
+            "label": "Casos de éxito",
+            "href": "#"
+          },
+          {
+            "label": "Carreras",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "heading": "Contacto",
+        "links": [
+          {
+            "label": "Agendar consulta",
+            "href": "#"
+          },
+          {
+            "label": "Oficinas",
+            "href": "#"
+          },
+          {
+            "label": "Trabaja con nosotros",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Ferretti & Asociados. Todos los derechos reservados.",
+    "legalLinks": [
+      {
+        "label": "Aviso de privacidad",
+        "href": "#"
+      },
+      {
+        "label": "Términos y condiciones",
+        "href": "#"
       }
     ]
   },
@@ -8179,6 +8894,95 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "copyright": "© 2026 Ferretería Industrial Coahuila. Todos los derechos reservados.",
     "backToTopLabel": "Volver arriba"
   },
+  "footer-staggered-cards-dotted-pattern": {
+    "brand": "Corvano Consultoría",
+    "description": "Asesoría fiscal, legal y financiera para empresas mexicanas que buscan crecer con orden y cumplimiento.",
+    "cards": [
+      {
+        "title": "Servicios",
+        "links": [
+          {
+            "label": "Asesoría fiscal",
+            "href": "/servicios/asesoria-fiscal"
+          },
+          {
+            "label": "Cumplimiento legal",
+            "href": "/servicios/cumplimiento-legal"
+          },
+          {
+            "label": "Planeación financiera",
+            "href": "/servicios/planeacion-financiera"
+          }
+        ],
+        "offset": "up"
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          {
+            "label": "Nosotros",
+            "href": "/nosotros"
+          },
+          {
+            "label": "Equipo",
+            "href": "/equipo"
+          },
+          {
+            "label": "Casos de éxito",
+            "href": "/casos-de-exito"
+          }
+        ],
+        "offset": "down"
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          {
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "label": "Guías fiscales",
+            "href": "/recursos/guias-fiscales"
+          },
+          {
+            "label": "Preguntas frecuentes",
+            "href": "/preguntas-frecuentes"
+          }
+        ],
+        "offset": "up"
+      },
+      {
+        "title": "Contacto",
+        "links": [
+          {
+            "label": "Escríbanos",
+            "href": "/contacto"
+          },
+          {
+            "label": "Agendar llamada",
+            "href": "/contacto/llamada"
+          },
+          {
+            "label": "Oficinas",
+            "href": "/contacto/oficinas"
+          }
+        ],
+        "offset": "down"
+      }
+    ],
+    "copyright": "© 2026 Corvano Consultoría. Todos los derechos reservados.",
+    "legalLinks": [
+      {
+        "label": "Aviso de privacidad",
+        "href": "/aviso-de-privacidad"
+      },
+      {
+        "label": "Términos y condiciones",
+        "href": "/terminos-y-condiciones"
+      }
+    ]
+  },
   "footer-veil-design-kit-variant-4": {
     "eyebrow": "Contacto",
     "title": "Hablemos de la siguiente etapa de su proyecto",
@@ -8349,6 +9153,41 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       {
         "label": "Cookies",
         "href": "/cookies"
+      }
+    ]
+  },
+  "footer-warm-secondary-editorial-pullquote": {
+    "pullQuote": "Construimos relaciones de largo plazo con cada cliente, no proyectos de una sola entrega.",
+    "attribution": "Dirección General, Ferretti Consultores",
+    "contacts": [
+      {
+        "icon": "address",
+        "label": "Oficina",
+        "value": "Av. Vasco de Quiroga 3900, Santa Fe, Ciudad de México",
+        "href": "https://maps.google.com/?q=Av.+Vasco+de+Quiroga+3900"
+      },
+      {
+        "icon": "phone",
+        "label": "Teléfono",
+        "value": "+52 55 4821 3360",
+        "href": "tel:+525548213360"
+      },
+      {
+        "icon": "email",
+        "label": "Correo",
+        "value": "contacto@ferretticonsultores.mx",
+        "href": "mailto:contacto@ferretticonsultores.mx"
+      }
+    ],
+    "copyright": "© 2026 Ferretti Consultores. Todos los derechos reservados.",
+    "legalLinks": [
+      {
+        "label": "Aviso de privacidad",
+        "href": "/privacidad"
+      },
+      {
+        "label": "Términos y condiciones",
+        "href": "/terminos"
       }
     ]
   },
@@ -8538,6 +9377,37 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "imageAlt": "Fachada comercial de local gastronómico con terraza exterior",
         "tag": "Comercial · Guadalajara",
         "title": "Restaurante Ceiba: terraza y barra central"
+      }
+    ]
+  },
+  "gallery-diagonal-split-dark-panel-thumbrail": {
+    "eyebrow": "Proyectos ejecutados",
+    "title": "Ingeniería estructural aplicada a obra real",
+    "description": "Documentamos cada fase de ejecución: cimentación, montaje de estructura y cierre de envolvente, con control topográfico en sitio.",
+    "index": "04",
+    "indexTotal": "12",
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada de nave industrial en proceso de montaje estructural",
+    "thumbnails": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Detalle de cimentación con armado de acero visible",
+        "label": "Cimentación"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Montaje de estructura metálica principal",
+        "label": "Montaje de estructura"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cierre de envolvente con panel aislante",
+        "label": "Envolvente"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista final de nave industrial terminada",
+        "label": "Entrega"
       }
     ]
   },
@@ -8776,6 +9646,34 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "title": "Rediseño de fachada Panadería Ceibo",
         "category": "Espacios",
         "description": "Rediseño de fachada y rotulación para una panadería con veinte años en el barrio, sin perder la fisonomía que ya reconocían sus clientes."
+      }
+    ]
+  },
+  "gallery-fullbleed-image-dark-overlay-stacked-captions": {
+    "eyebrow": "Casos de estudio",
+    "title": "Proyectos que muestran cómo trabajamos, de principio a fin",
+    "backgroundImage": "/images/hero.svg",
+    "backgroundImageAlt": "Fachada de proyecto corporativo terminado al atardecer",
+    "projects": [
+      {
+        "category": "Corporativo · Monterrey",
+        "title": "Torre administrativa para grupo logístico",
+        "description": "Reorganizamos seis oficinas dispersas en una sola torre, con entrega en dieciocho meses y sin retrasos sobre el calendario acordado."
+      },
+      {
+        "category": "Industrial · Saltillo",
+        "title": "Ampliación de planta y patio de maniobras",
+        "description": "Duplicamos la capacidad de almacenaje sin detener la operación diaria, coordinando cada etapa con el equipo de producción del cliente."
+      },
+      {
+        "category": "Retail · Ciudad de México",
+        "title": "Rediseño de quince sucursales bajo un mismo estándar",
+        "description": "Unificamos materiales, iluminación y señalética en todas las sucursales, con un solo punto de contacto durante toda la ejecución."
+      },
+      {
+        "category": "Institucional · Querétaro",
+        "title": "Centro de capacitación para personal técnico",
+        "description": "Diseñamos aulas, talleres y áreas comunes pensadas para grupos de veinte personas, con acabados de bajo mantenimiento."
       }
     ]
   },
@@ -9855,6 +10753,61 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "imageAlt": "Fachada nocturna del hotel boutique Casona Roma iluminada",
         "title": "Casona Roma",
         "category": "Hospitalidad · Ciudad de México"
+      }
+    ]
+  },
+  "gallery-tinted-staggered-cards-warm-scatter": {
+    "eyebrow": "Nuestro taller",
+    "title": "Piezas hechas a mano, una a la vez",
+    "description": "Cada proyecto pasa por nuestras manos antes de llegar a las suyas. Aquí una muestra reciente del taller.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Mesa de trabajo con herramientas de talabartería y piel curtida",
+        "title": "Estación de corte",
+        "caption": "Piel curtida vegetal, corte a mano"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Artesana cosiendo un bolso de piel en el taller",
+        "title": "Costura a mano",
+        "caption": "Punto de silla, hilo encerado"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Colección de cinturones terminados colgados en el taller",
+        "title": "Colección otoño",
+        "caption": "Serie limitada, doce piezas"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Detalle de las manos de un artesano puliendo un canto de piel",
+        "title": "Acabado de cantos",
+        "caption": "Pulido y sellado manual"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Repisa con carretes de hilo y herrajes de bronce",
+        "title": "Herrajes propios",
+        "caption": "Bronce macizo, fundición local"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bolso terminado sobre mesa de madera junto a bocetos",
+        "title": "Del boceto a la pieza",
+        "caption": "Diseño y muestra, mismo taller"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Rollos de piel de distintos colores apilados",
+        "title": "Selección de materiales",
+        "caption": "Curtidos naturales, tres tonos"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cliente probando un bolso terminado en la tienda del taller",
+        "title": "Entrega final",
+        "caption": "Revisión con el cliente"
       }
     ]
   },
@@ -12930,6 +13883,264 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "logo-dense-pattern-wall-tinted": {
+    "eyebrow": "Red de aliados",
+    "title": "Una red de más de cuarenta aliados estratégicos en todo el país",
+    "subtitle": "Instituciones financieras, despachos, proveedores logísticos y plataformas tecnológicas que respaldan cada proyecto que entregamos.",
+    "allies": [
+      {
+        "icon": "bank",
+        "name": "Banorte Empresarial"
+      },
+      {
+        "icon": "landmark",
+        "name": "BBVA México"
+      },
+      {
+        "icon": "wallet",
+        "name": "Santander Corporativo"
+      },
+      {
+        "icon": "briefcase",
+        "name": "Deloitte México"
+      },
+      {
+        "icon": "building",
+        "name": "Grupo Carso"
+      },
+      {
+        "icon": "factory",
+        "name": "Cemex"
+      },
+      {
+        "icon": "truck",
+        "name": "Transportes Castores"
+      },
+      {
+        "icon": "warehouse",
+        "name": "DHL Supply Chain"
+      },
+      {
+        "icon": "package",
+        "name": "Estafeta Logística"
+      },
+      {
+        "icon": "cloud",
+        "name": "Microsoft Azure"
+      },
+      {
+        "icon": "server",
+        "name": "Oracle NetSuite"
+      },
+      {
+        "icon": "database",
+        "name": "SAP Business One"
+      },
+      {
+        "icon": "code",
+        "name": "Contpaqi"
+      },
+      {
+        "icon": "chip",
+        "name": "Aspel COI"
+      },
+      {
+        "icon": "network",
+        "name": "Telmex Empresarial"
+      },
+      {
+        "icon": "link",
+        "name": "AT&T Business"
+      },
+      {
+        "icon": "shield",
+        "name": "GNP Seguros"
+      },
+      {
+        "icon": "lock",
+        "name": "AXA Seguros"
+      },
+      {
+        "icon": "fingerprint",
+        "name": "e.firma SAT"
+      },
+      {
+        "icon": "gauge",
+        "name": "Facturama"
+      },
+      {
+        "icon": "boxes",
+        "name": "Grupo Bimbo"
+      },
+      {
+        "icon": "bag",
+        "name": "Liverpool Corporativo"
+      },
+      {
+        "icon": "layers",
+        "name": "Grupo Alfa"
+      },
+      {
+        "icon": "globe",
+        "name": "SAT en Línea"
+      },
+      {
+        "icon": "bank",
+        "name": "HSBC México"
+      },
+      {
+        "icon": "landmark",
+        "name": "Banco Azteca"
+      },
+      {
+        "icon": "wallet",
+        "name": "Scotiabank"
+      },
+      {
+        "icon": "briefcase",
+        "name": "KPMG Cárdenas Dosal"
+      },
+      {
+        "icon": "building",
+        "name": "Grupo Vitro"
+      },
+      {
+        "icon": "factory",
+        "name": "ArcelorMittal México"
+      },
+      {
+        "icon": "truck",
+        "name": "Paquetexpress"
+      },
+      {
+        "icon": "warehouse",
+        "name": "Ceva Logistics"
+      },
+      {
+        "icon": "package",
+        "name": "FedEx México"
+      },
+      {
+        "icon": "cloud",
+        "name": "Amazon Web Services"
+      },
+      {
+        "icon": "server",
+        "name": "IBM México"
+      },
+      {
+        "icon": "database",
+        "name": "Salesforce"
+      },
+      {
+        "icon": "code",
+        "name": "Aspel Sistemas"
+      },
+      {
+        "icon": "chip",
+        "name": "Intel México"
+      },
+      {
+        "icon": "network",
+        "name": "Izzi Telecom"
+      },
+      {
+        "icon": "link",
+        "name": "Totalplay Empresarial"
+      },
+      {
+        "icon": "shield",
+        "name": "MetLife México"
+      },
+      {
+        "icon": "lock",
+        "name": "Zurich Seguros"
+      },
+      {
+        "icon": "fingerprint",
+        "name": "Nafin"
+      },
+      {
+        "icon": "gauge",
+        "name": "Bancomext"
+      },
+      {
+        "icon": "boxes",
+        "name": "Grupo Modelo"
+      },
+      {
+        "icon": "bag",
+        "name": "Palacio de Hierro"
+      },
+      {
+        "icon": "layers",
+        "name": "Grupo Peñoles"
+      },
+      {
+        "icon": "globe",
+        "name": "IMSS Empresarial"
+      }
+    ]
+  },
+  "logo-diagonal-split-dark-band": {
+    "eyebrow": "Red de aliados",
+    "title": "Una cadena de proveedores certificados que responde a escala",
+    "description": "Operamos con despachos y proveedores auditados bajo los mismos protocolos de trazabilidad y cumplimiento en cada entrega.",
+    "statValue": "+120",
+    "statLabel": "aliados activos en la red logística",
+    "allies": [
+      {
+        "name": "Grupo Ferretero del Bajío",
+        "sector": "Materiales"
+      },
+      {
+        "name": "Constructora Peninsular",
+        "sector": "Obra civil"
+      },
+      {
+        "name": "Logística del Norte",
+        "sector": "Transporte"
+      },
+      {
+        "name": "Distribuidora Aceros MX",
+        "sector": "Metalurgia"
+      },
+      {
+        "name": "Despacho Contable Iturbide",
+        "sector": "Auditoría"
+      },
+      {
+        "name": "Grupo Aduanal Portuario",
+        "sector": "Comercio exterior"
+      }
+    ]
+  },
+  "logo-fullbleed-image-dark-overlay": {
+    "eyebrow": "Alianzas estratégicas",
+    "title": "Empresas que confían su operación a nuestra cadena de suministro",
+    "image": "/images/hero.svg",
+    "imageAlt": "Planta industrial con líneas de producción activas al atardecer",
+    "partners": [
+      {
+        "name": "Grupo Ferrotec"
+      },
+      {
+        "name": "Aceros del Bajío"
+      },
+      {
+        "name": "Logística Cumbre"
+      },
+      {
+        "name": "Manufacturas Vallarta"
+      },
+      {
+        "name": "Distribuidora Norte Industrial"
+      },
+      {
+        "name": "Componentes Sierra"
+      }
+    ]
+  },
   "logo-gallery-featured-thumbnail-rail": {
     "eyebrow": "Integraciones",
     "title": "Conectado con las plataformas que ya utiliza su operación",
@@ -13024,6 +14235,53 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       {
         "name": "Red Ferroviaria Sureste",
         "icon": "link"
+      }
+    ]
+  },
+  "logo-staggered-cards-gradient-theme": {
+    "eyebrow": "Aliados",
+    "title": "Una red de aliados que respalda cada entrega",
+    "description": "Trabajamos de la mano con proveedores, despachos y certificadoras que comparten nuestros estándares de calidad en cada proyecto.",
+    "logos": [
+      {
+        "name": "Aceros del Norte",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Aceros del Norte"
+      },
+      {
+        "name": "Grupo Constructor Meridiano",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Grupo Constructor Meridiano"
+      },
+      {
+        "name": "Certificadora ISO Bajío",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Certificadora ISO Bajío"
+      },
+      {
+        "name": "Logística Cardenal",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Logística Cardenal"
+      },
+      {
+        "name": "Materiales Insurgentes",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Materiales Insurgentes"
+      },
+      {
+        "name": "Ingeniería Vértice",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Ingeniería Vértice"
+      },
+      {
+        "name": "Seguros Andamio",
+        "image": "/images/hero.svg",
+        "imageAlt": "Logotipo de Seguros Andamio"
+      },
+      {
+        "name": "Distribuidora Cumbre",
+        "image": "/images/about.svg",
+        "imageAlt": "Logotipo de Distribuidora Cumbre"
       }
     ]
   },
@@ -15162,6 +16420,52 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "portfolio-split-index-diagonal-hover-swap": {
+    "eyebrow": "Casos de estudio",
+    "title": "Proyectos ejecutados con seguimiento técnico documentado",
+    "projects": [
+      {
+        "index": "01",
+        "title": "Reingeniería de línea de embalaje",
+        "category": "Manufactura",
+        "year": "2025",
+        "image": "/images/about.svg",
+        "imageAlt": "Línea de embalaje reingenierizada en planta de Grupo Insumex"
+      },
+      {
+        "index": "02",
+        "title": "Red de distribución de última milla",
+        "category": "Logística",
+        "year": "2025",
+        "image": "/images/hero.svg",
+        "imageAlt": "Centro de distribución de Transportes Del Bajío"
+      },
+      {
+        "index": "03",
+        "title": "Reestructura fiscal corporativa",
+        "category": "Consultoría",
+        "year": "2024",
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas del despacho Arteaga y Asociados"
+      },
+      {
+        "index": "04",
+        "title": "Expansión de bodega regional",
+        "category": "Construcción",
+        "year": "2024",
+        "image": "/images/hero.svg",
+        "imageAlt": "Obra en construcción de bodega para Constructora Peninsular"
+      },
+      {
+        "index": "05",
+        "title": "Sistema de trazabilidad de inventario",
+        "category": "Distribución",
+        "year": "2024",
+        "image": "/images/about.svg",
+        "imageAlt": "Almacén con sistema de trazabilidad de Distribuidora San Rafael"
+      }
+    ]
+  },
   "portfolio-staggered-cards-offset-airy": {
     "eyebrow": "Portafolio",
     "title": "Proyectos que muestran nuestro criterio",
@@ -15717,6 +17021,54 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "pricing-diagonal-gradient-dark-split": {
+    "eyebrow": "Planes de implementación",
+    "title": "Un plan para cada etapa de tu operación",
+    "description": "Elige el nivel de acompañamiento que necesita tu equipo. Puedes cambiar de plan en cualquier momento sin penalización.",
+    "featuredLabel": "Más contratado",
+    "plans": [
+      {
+        "name": "Arranque",
+        "price": "$9,900",
+        "period": "MXN / mes",
+        "description": "Para equipos que están automatizando sus primeros procesos y necesitan soporte básico.",
+        "features": [
+          "1 flujo de trabajo automatizado",
+          "Soporte por correo en horario hábil",
+          "Panel de reportes mensual"
+        ],
+        "cta": "Empezar ahora",
+        "featured": false
+      },
+      {
+        "name": "Escala",
+        "price": "$24,500",
+        "period": "MXN / mes",
+        "description": "Para operaciones en crecimiento que requieren integración con varios sistemas y acompañamiento cercano.",
+        "features": [
+          "Hasta 8 flujos de trabajo automatizados",
+          "Integración con tu ERP o CRM",
+          "Gerente de cuenta dedicado",
+          "Reportes semanales y alertas en tiempo real"
+        ],
+        "cta": "Solicitar demostración",
+        "featured": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "según volumen",
+        "description": "Para grupos empresariales con múltiples unidades de negocio y requisitos de seguridad avanzados.",
+        "features": [
+          "Flujos de trabajo ilimitados",
+          "Infraestructura dedicada",
+          "Acuerdo de nivel de servicio (SLA) personalizado"
+        ],
+        "cta": "Hablar con ventas",
+        "featured": false
+      }
+    ]
+  },
   "pricing-duo-split-filled-plain-asymmetric": {
     "eyebrow": "Planes de servicio",
     "title": "Dos formas de trabajar con nuestro despacho",
@@ -15781,6 +17133,57 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
           "Soporte prioritario con ejecutivo asignado",
           "Integración con su sistema contable"
         ]
+      }
+    ]
+  },
+  "pricing-fullbleed-image-dark-overlay": {
+    "eyebrow": "Planes de asesoría",
+    "title": "Un plan a la medida de la etapa de su despacho",
+    "description": "Honorarios claros desde el primer mes, sin letras chicas. Cambie de plan cuando su operación lo requiera.",
+    "backgroundImage": "/images/hero.svg",
+    "backgroundImageAlt": "Equipo de asesores trabajando en la sala de juntas del despacho al atardecer",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$8,900",
+        "period": "MXN / mes",
+        "description": "Para despachos que inician su operación formal.",
+        "features": [
+          "Contabilidad mensual y declaraciones ante el SAT",
+          "Nómina para hasta 10 colaboradores",
+          "Un asesor asignado por videollamada"
+        ],
+        "cta": "Comenzar con Esencial",
+        "featured": false
+      },
+      {
+        "name": "Crecimiento",
+        "price": "$16,500",
+        "period": "MXN / mes",
+        "description": "El plan más solicitado por firmas en expansión.",
+        "features": [
+          "Todo lo incluido en Esencial",
+          "Nómina para hasta 40 colaboradores",
+          "Revisión fiscal trimestral",
+          "Asesor dedicado y reuniones presenciales"
+        ],
+        "cta": "Elegir Crecimiento",
+        "featured": true,
+        "badge": "Más elegido"
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Para grupos empresariales con varias entidades.",
+        "features": [
+          "Todo lo incluido en Crecimiento",
+          "Consolidación fiscal multi-entidad",
+          "Auditoría interna anual",
+          "Línea directa con socio del despacho"
+        ],
+        "cta": "Hablar con un socio",
+        "featured": false
       }
     ]
   },
@@ -16033,6 +17436,58 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         ],
         "cta": "Solicitar asesoría",
         "featured": false
+      }
+    ]
+  },
+  "pricing-stacked-staggered-editorial-cards": {
+    "eyebrow": "Planes de acompañamiento",
+    "title": "Un plan pensado para el ritmo real de su despacho",
+    "description": "Cada nivel incluye acompañamiento directo de nuestro equipo. Elija el que corresponda al tamaño de su operación hoy; puede cambiar de plan en cualquier momento sin penalización.",
+    "plans": [
+      {
+        "index": "01",
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "description": "Para despachos que están ordenando su operación por primera vez y necesitan claridad antes que volumen. Incluye revisión mensual de indicadores y soporte por correo con respuesta en menos de 24 horas.",
+        "features": [
+          "Panel de indicadores mensual",
+          "Soporte por correo electrónico",
+          "1 usuario administrador",
+          "Reportes en PDF descargables"
+        ],
+        "cta": "Empezar con Esencial"
+      },
+      {
+        "index": "02",
+        "name": "Crecimiento",
+        "price": "$9,900",
+        "period": "MXN / mes",
+        "description": "El plan que eligen la mayoría de nuestros clientes cuando ya tienen varios equipos trabajando en paralelo y necesitan visibilidad compartida sin perder el trato cercano de un acompañamiento personal.",
+        "features": [
+          "Panel de indicadores en tiempo real",
+          "Soporte prioritario por teléfono y correo",
+          "Hasta 8 usuarios administradores",
+          "Reportes automatizados semanales",
+          "Sesión trimestral de revisión estratégica",
+          "Integración con su sistema contable"
+        ],
+        "cta": "Elegir Crecimiento",
+        "featured": true
+      },
+      {
+        "index": "03",
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Diseñado para grupos con varias unidades de negocio, requerimientos de cumplimiento específicos y necesidad de un ejecutivo de cuenta dedicado que conozca a fondo la operación de cada área.",
+        "features": [
+          "Ejecutivo de cuenta dedicado",
+          "Usuarios administradores ilimitados",
+          "Auditoría de cumplimiento semestral",
+          "Integraciones a la medida"
+        ],
+        "cta": "Hablar con un asesor"
       }
     ]
   },
@@ -16557,6 +18012,43 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "process-diagonal-dark-technical-blueprint": {
+    "eyebrow": "Metodología de trabajo",
+    "title": "Del plano a la instalación, sin improvisar ningún paso",
+    "description": "Cada proyecto de Estructuras Meridiano sigue la misma secuencia técnica, desde el levantamiento inicial hasta la entrega certificada de la obra.",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "ruler",
+        "title": "Levantamiento y diagnóstico",
+        "description": "Medimos el sitio, revisamos cargas existentes y documentamos condiciones estructurales antes de proponer cualquier solución."
+      },
+      {
+        "number": "02",
+        "icon": "pen-tool",
+        "title": "Ingeniería y planos ejecutivos",
+        "description": "Desarrollamos el cálculo estructural y los planos de fabricación con memoria de cálculo firmada por perito responsable."
+      },
+      {
+        "number": "03",
+        "icon": "cog",
+        "title": "Fabricación en taller",
+        "description": "Cortamos, soldamos y tratamos el acero bajo control dimensional, con trazabilidad de cada pieza hasta el montaje."
+      },
+      {
+        "number": "04",
+        "icon": "wrench",
+        "title": "Montaje en obra",
+        "description": "Instalamos con cuadrilla certificada y bitácora de avance diaria, ajustando el programa a las condiciones del sitio."
+      },
+      {
+        "number": "05",
+        "icon": "package-check",
+        "title": "Entrega y certificación",
+        "description": "Cerramos con pruebas de calidad, manual de mantenimiento y acta de entrega firmada por el cliente."
+      }
+    ]
+  },
   "process-flow-state-header": {
     "eyebrow": "Nuestro proceso",
     "title": "Cómo iniciamos su proyecto de construcción",
@@ -16580,6 +18072,35 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "title": "Ejecución y entrega",
         "description": "Supervisamos avance semanal con bitácora fotográfica y le entregamos el inmueble con manual de mantenimiento.",
         "state": "upcoming"
+      }
+    ]
+  },
+  "process-fullbleed-image-dark-overlay": {
+    "eyebrow": "Metodología de obra",
+    "title": "De la planeación a la entrega, sin sorpresas",
+    "description": "Cada proyecto sigue el mismo proceso auditado, con puntos de control documentados y comunicación directa con el cliente en cada etapa.",
+    "backgroundImage": "/images/about.svg",
+    "backgroundImageAlt": "Cuadrilla de trabajo revisando planos en el sitio de obra durante la etapa de ejecución",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Levantamiento y diagnóstico",
+        "description": "Visitamos el sitio, medimos condiciones existentes y documentamos hallazgos antes de proponer cualquier solución."
+      },
+      {
+        "number": "02",
+        "title": "Ingeniería y presupuesto",
+        "description": "Elaboramos memoria de cálculo, especificaciones técnicas y presupuesto detallado por partida para su aprobación."
+      },
+      {
+        "number": "03",
+        "title": "Ejecución supervisada",
+        "description": "El equipo en obra reporta avance semanal con bitácora fotográfica y control de calidad en cada frente de trabajo."
+      },
+      {
+        "number": "04",
+        "title": "Entrega y cierre",
+        "description": "Realizamos pruebas finales, entregamos manual de operación y damos seguimiento durante el periodo de garantía."
       }
     ]
   },
@@ -16851,6 +18372,83 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "icon": "rocket",
         "title": "Entrega y cierre",
         "description": "Presentamos resultados, documentación final y recomendaciones para el siguiente periodo de la relación."
+      }
+    ]
+  },
+  "process-split-sticky-image-numbered": {
+    "eyebrow": "Metodología de trabajo",
+    "title": "Un mismo equipo lo acompaña de principio a fin",
+    "description": "Así se organiza nuestro equipo técnico para atender su proyecto, desde el primer contacto hasta la entrega formal.",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo técnico revisando planos en oficina",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su solicitud, el sitio o los antecedentes del caso y definimos qué información falta antes de proponer una ruta de trabajo."
+      },
+      {
+        "number": "02",
+        "title": "Asignación de responsable",
+        "description": "Un coordinador queda a cargo de su expediente y es su único punto de contacto durante todo el proceso."
+      },
+      {
+        "number": "03",
+        "title": "Plan de trabajo y presupuesto",
+        "description": "Le entregamos alcance, tiempos y costo desglosado por etapa, para que apruebe con información completa antes de iniciar."
+      },
+      {
+        "number": "04",
+        "title": "Ejecución con reportes periódicos",
+        "description": "Compartimos avance documentado en las fechas acordadas, sin que tenga que dar seguimiento por su cuenta."
+      },
+      {
+        "number": "05",
+        "title": "Cierre y entrega formal",
+        "description": "Formalizamos la entrega con la documentación correspondiente y quedamos disponibles para cualquier aclaración posterior."
+      }
+    ]
+  },
+  "process-staggered-cards-tinted-warm": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un método claro, de la primera llamada a la entrega",
+    "description": "Acompañamos cada proyecto con etapas concretas y responsables definidos, para que usted siempre sepa en qué punto se encuentra.",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "compass",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su operación actual, identificamos cuellos de botella y definimos objetivos medibles junto con su equipo."
+      },
+      {
+        "number": "02",
+        "icon": "note",
+        "title": "Propuesta y alcance",
+        "description": "Le entregamos un plan de trabajo por escrito con entregables, plazos y costos, sin letras pequeñas."
+      },
+      {
+        "number": "03",
+        "icon": "handshake",
+        "title": "Acuerdo y arranque",
+        "description": "Firmamos el contrato, asignamos al equipo responsable y establecemos los canales de comunicación semanal."
+      },
+      {
+        "number": "04",
+        "icon": "wrench",
+        "title": "Implementación",
+        "description": "Ejecutamos por fases, con revisiones periódicas para ajustar el rumbo antes de que un desvío se vuelva costoso."
+      },
+      {
+        "number": "05",
+        "icon": "chart",
+        "title": "Medición de resultados",
+        "description": "Le compartimos indicadores claros sobre el avance y el impacto real del proyecto en su negocio."
+      },
+      {
+        "number": "06",
+        "icon": "rocket",
+        "title": "Entrega y acompañamiento",
+        "description": "Cerramos con una entrega formal y un periodo de acompañamiento para resolver cualquier ajuste posterior."
       }
     ]
   },
@@ -20227,6 +21825,63 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       }
     ]
   },
+  "stats-dark-foreground-gradient-staggered-cards": {
+    "eyebrow": "Infraestructura",
+    "title": "La plataforma que sostiene operaciones críticas todos los días",
+    "description": "Cifras del último trimestre sobre el desempeño de la plataforma que corre los procesos de nuestros clientes.",
+    "stats": [
+      {
+        "icon": "cpu",
+        "value": "99.98%",
+        "label": "Disponibilidad anual"
+      },
+      {
+        "icon": "branch",
+        "value": "1,240",
+        "label": "Despliegues por mes"
+      },
+      {
+        "icon": "layers",
+        "value": "38",
+        "label": "Integraciones activas"
+      },
+      {
+        "icon": "shield",
+        "value": "0",
+        "label": "Incidentes de seguridad"
+      },
+      {
+        "icon": "timer",
+        "value": "180ms",
+        "label": "Latencia promedio"
+      }
+    ]
+  },
+  "stats-fullbleed-image-dark-overlay-split": {
+    "eyebrow": "Resultados de operación",
+    "title": "Cada planta que operamos rinde cuentas con números, no con promesas",
+    "description": "Medimos disponibilidad, tiempos de respuesta y eficiencia en cada sitio bajo nuestra administración durante los últimos doce meses.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Técnico supervisando línea de producción en planta industrial",
+    "stats": [
+      {
+        "value": "99.2%",
+        "label": "Disponibilidad de línea"
+      },
+      {
+        "value": "18 min",
+        "label": "Tiempo de respuesta promedio"
+      },
+      {
+        "value": "37",
+        "label": "Plantas bajo administración"
+      },
+      {
+        "value": "0",
+        "label": "Incidentes mayores en 2025"
+      }
+    ]
+  },
   "stats-metric-band-countup-animated": {
     "eyebrow": "Indicadores de operación",
     "title": "Los números detrás de cada entrega",
@@ -20288,6 +21943,33 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
         "value": "26",
         "label": "Estados con cobertura",
         "description": "Red de distribución que llega a puntos de venta urbanos y rurales por igual."
+      }
+    ]
+  },
+  "stats-split-sidebar-tinted-numeral-list": {
+    "eyebrow": "Resultados operativos",
+    "title": "Cifras que respaldan una operación consistente",
+    "description": "Medimos cada fase de nuestros proyectos con indicadores verificables, revisados trimestralmente por el equipo de gobernanza de cuentas.",
+    "stats": [
+      {
+        "numeral": "230+",
+        "label": "Proyectos entregados",
+        "description": "Implementaciones completadas en industria, logística y manufactura desde 2011."
+      },
+      {
+        "numeral": "98%",
+        "label": "Cumplimiento de plazo",
+        "description": "Proyectos entregados dentro de la fecha comprometida en el plan de trabajo original."
+      },
+      {
+        "numeral": "14",
+        "label": "Estados con cobertura",
+        "description": "Presencia operativa nacional con equipos técnicos residentes en cada región."
+      },
+      {
+        "numeral": "4.8 años",
+        "label": "Permanencia promedio de cliente",
+        "description": "Relaciones comerciales sostenidas bajo contratos de mantenimiento y mejora continua."
       }
     ]
   },
@@ -21393,6 +23075,15 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     },
     "company": "Grupo Industrial Elizondo"
   },
+  "testimonial-fullbleed-image-dark-overlay": {
+    "image": "/images/about.svg",
+    "imageAlt": "Directora de operaciones en la planta de producción de su empresa",
+    "quote": "Desde que trabajamos con este equipo dejamos de improvisar. Cada entrega llega a tiempo y con la calidad que le prometemos a nuestros propios clientes.",
+    "name": "Adriana Bermúdez",
+    "role": "Directora de Operaciones, Grupo Ferretero del Norte",
+    "logo": "/images/hero.svg",
+    "logoAlt": "Logotipo de Grupo Ferretero del Norte"
+  },
   "testimonial-oversized-quote-avatar-logo": {
     "eyebrow": "Confianza de nuestros clientes",
     "testimonial": {
@@ -21405,6 +23096,17 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
       "logoAlt": "Logotipo de Grupo Industrial Altamira"
     }
   },
+  "testimonial-split-portrait-dark-panel": {
+    "eyebrow": "Clientes",
+    "ratingLabel": "Calificación de cinco estrellas",
+    "rating": 5,
+    "quote": "El equipo de implementación entendió nuestros procesos desde la primera reunión. La migración de nuestro sistema de inventario se completó sin interrumpir la operación diaria de las trece sucursales.",
+    "name": "Ricardo Fuentes Aguilar",
+    "role": "Director de Operaciones",
+    "company": "Grupo Industrial Naveza",
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Ricardo Fuentes Aguilar, Director de Operaciones de Grupo Industrial Naveza"
+  },
   "testimonial-spotlight-centered": {
     "eyebrow": "Lo que dicen nuestros clientes",
     "quote": "Desde que trabajamos con el despacho, redujimos el tiempo de cierre contable de tres semanas a cinco días. La claridad con la que explican cada decisión fiscal nos permitió tomar mejores decisiones de inversión este año.",
@@ -21414,6 +23116,40 @@ export const generatedFixtures: Record<string, Record<string, unknown>> = {
     "avatarAlt": "Retrato de Rodrigo Villaseñor, Director de Finanzas de Grupo Industrial Altamira",
     "companyLogo": "/images/hero.svg",
     "companyLogoAlt": "Logotipo de Grupo Industrial Altamira"
+  },
+  "testimonial-stacked-diagonal-cards-warm": {
+    "eyebrow": "Reseñas",
+    "title": "Lo que dicen quienes ya trabajan con nosotros",
+    "testimonials": [
+      {
+        "quote": "Redujimos el tiempo de cierre de cada expediente en más de un tercio desde que adoptamos su sistema.",
+        "name": "Renata Salcido",
+        "role": "Directora de Operaciones, Grupo Ferretero del Bajío",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Renata Salcido"
+      },
+      {
+        "quote": "El equipo respondió cada duda en menos de un día. Se nota que conocen el sector logístico.",
+        "name": "Ismael Cordero",
+        "role": "Gerente de Cadena de Suministro, Transportes Cordero",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ismael Cordero"
+      },
+      {
+        "quote": "La implementación fue clara desde el primer día, sin sorpresas ni retrasos en el cronograma.",
+        "name": "Paulina Reséndiz",
+        "role": "Subdirectora Administrativa, Constructora Reséndiz",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Reséndiz"
+      },
+      {
+        "quote": "Hoy tomamos decisiones con datos que antes tardábamos semanas en reunir a mano.",
+        "name": "Octavio Beltrán",
+        "role": "Director Comercial, Distribuidora Beltrán",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Octavio Beltrán"
+      }
+    ]
   },
   "testimonials-cards-animated-blur-grid": {
     "eyebrow": "Opiniones de clientes",
@@ -22460,6 +24196,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "portfolio-gradient-spotlight-carousel-single-case",
       "portfolio-grid-3column-with-metadata",
       "portfolio-grid-showcase",
+      "portfolio-split-index-diagonal-hover-swap",
       "portfolio-staggered-cards-offset-airy",
       "process-how-it-works-horizontal-icon-trio",
       "process-how-it-works-simple-three-horizontal",
@@ -22481,8 +24218,13 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "blog-article-centered-editorial-author-meta-share",
       "blog-article-docs-breadcrumb-meta-pagination",
       "blog-article-hero-author-tags-social",
+      "blog-fullbleed-image-dark-overlay-hero",
       "blog-guide-sticky-toc-navigation",
+      "blog-index-dense-rows-category-filter-dark",
+      "blog-index-split-featured-secondary-list",
+      "blog-index-staggered-masonry-tinted",
       "changelog-versioned-grouped-rail",
+      "footer-gradient-mesh-split-newsletter",
       "footer-grid-bordered-cells-newsletter",
       "footer-grid-modular-bordered-newsletter-controls",
       "footer-grid-newsletter-themed",
@@ -22535,8 +24277,11 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "testimonial-featured-centered-oversized-quote",
       "testimonial-featured-centered-quote",
       "testimonial-featured-centered-quote-company-logo",
+      "testimonial-fullbleed-image-dark-overlay",
       "testimonial-oversized-quote-avatar-logo",
+      "testimonial-split-portrait-dark-panel",
       "testimonial-spotlight-centered",
+      "testimonial-stacked-diagonal-cards-warm",
       "testimonials-cards-animated-blur-grid",
       "testimonials-cards-blur-stagger-three-column-rating",
       "testimonials-cards-three-column-blur-stagger-rating",
@@ -22576,8 +24321,10 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "pricing-carousel-scroll-snap-filmstrip",
       "pricing-carousel-scroll-snap-scale-active",
       "pricing-comparison-table-multi-tier-sticky",
+      "pricing-diagonal-gradient-dark-split",
       "pricing-duo-split-filled-plain-asymmetric",
       "pricing-duo-tier-split-filled-plain",
+      "pricing-fullbleed-image-dark-overlay",
       "pricing-inline-single-row-band",
       "pricing-ledger-comparison",
       "pricing-seat-calculator-slider-dynamic",
@@ -22585,6 +24332,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "pricing-slider-team-seats-animated-calculator",
       "pricing-slider-team-seats-dynamic-calculator",
       "pricing-split-tiers-filled-plain",
+      "pricing-stacked-staggered-editorial-cards",
       "pricing-table-ledger-comparison-hairline",
       "pricing-table-ledger-feature-rows",
       "pricing-table-matrix-compare-feature-sticky",
@@ -22607,7 +24355,10 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "faq-accordion-tinted-background",
       "faq-accordion-two-column-balanced",
       "faq-accordion-two-column-bordered",
+      "faq-chat-bubble-conversation-pattern",
+      "faq-dark-gradient-diagonal-numbered",
       "faq-editorial-sidebar-sync",
+      "faq-fullbleed-image-overlay-editorial",
       "faq-grid-cards-6tile-hover-expandable",
       "faq-grid-cards-expandable",
       "faq-grid-cards-hover-lift",
@@ -22615,6 +24366,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "faq-sidebar-editorial-indexed-sticky",
       "faq-sidebar-sticky-topic-rail-stats-synced",
       "faq-split-indexed-accordion-hairline-rows",
+      "faq-staggered-cards-offset-editorial",
       "faq-support-cta-hybrid",
       "faq-tabbed-pill-filter-categories",
       "faq-tabbed-search-category-filter-live",
@@ -22659,14 +24411,17 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "footer-giant-wordmark-statement-close",
       "footer-grid-blueprint-bordered",
       "footer-inline-blur-wordmark-compact",
+      "footer-inverted-dark-band-cta",
       "footer-mega-columns-sitemap-locale-controls",
       "footer-mega-localized",
       "footer-mega-multicolumn-locale-theme",
       "footer-mega-sitemap-locale-theme-bar",
       "footer-multi-column-sitemap-locale-theme",
       "footer-single-row-inline-wordmark-blur-compact",
+      "footer-staggered-cards-dotted-pattern",
       "footer-veil-design-kit-variant-4",
       "footer-vertical-dividers-split",
+      "footer-warm-secondary-editorial-pullquote",
       "footer-wordmark-prominent-outline",
       "logo-cloud-footer-responsive-strip"
     ]
@@ -22720,6 +24475,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "contact-form-topic-pills",
       "contact-form-visual-panel-parallax",
       "contact-fullbleed-image-dark-overlay",
+      "contact-gradient-theme-diagonal-split",
       "contact-image-floating-card",
       "contact-locations-map-form",
       "contact-map-and-locations-form-split",
@@ -22737,11 +24493,15 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "about-timeline-bilateral-alternating-spine",
       "company-journey-timeline-vertical-rail",
       "process-color-animated-steps",
+      "process-diagonal-dark-technical-blueprint",
+      "process-fullbleed-image-dark-overlay",
       "process-horizontal-interactive-clickable-progress",
       "process-horizontal-numbered-row",
       "process-milestone-timeline-vertical-badges",
       "process-phases-status-timeline",
       "process-sidebar-rail-steps",
+      "process-split-sticky-image-numbered",
+      "process-staggered-cards-tinted-warm",
       "process-stepper-horizontal-interactive-clickable-responsive",
       "process-stepper-horizontal-interactive-progress",
       "process-stepper-horizontal-numbered-completed-state",
@@ -22797,8 +24557,11 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "startup-landing-with-key-stats",
       "stats-band-minimal-four-column",
       "stats-bento-narrative",
+      "stats-dark-foreground-gradient-staggered-cards",
+      "stats-fullbleed-image-dark-overlay-split",
       "stats-metric-band-countup-animated",
       "stats-metric-cards",
+      "stats-split-sidebar-tinted-numeral-list",
       "status-services-uptime-metrics-list"
     ]
   },
@@ -22808,7 +24571,9 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "about-asymmetric-bento-culture-gallery",
       "gallery-bento-asymmetric-hero-tiles-supporting",
       "gallery-bento-hero-supporting-tiles",
+      "gallery-diagonal-split-dark-panel-thumbrail",
       "gallery-editorial-grayscale-indexed",
+      "gallery-fullbleed-image-dark-overlay-stacked-captions",
       "gallery-grid-responsive-uniform",
       "gallery-grid-uniform-responsive",
       "gallery-marquee-infinite-edge-mask",
@@ -22827,6 +24592,7 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "gallery-spotlight-carousel-crossfade",
       "gallery-spotlight-carousel-thumbrail",
       "gallery-spotlight-carousel-thumbrail-2",
+      "gallery-tinted-staggered-cards-warm-scatter",
       "gallery-wall-4tile-motion-hover",
       "gallery-wall-4tile-motion-hover-2",
       "gallery-wall-hover-reveal",
@@ -22878,7 +24644,11 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "logo-cloud-marquee-infinite-responsive-drift",
       "logo-cloud-marquee-infinite-wordmarks",
       "logo-cloud-split-editorial",
+      "logo-dense-pattern-wall-tinted",
+      "logo-diagonal-split-dark-band",
+      "logo-fullbleed-image-dark-overlay",
       "logo-orbital-hub-rotating-brands-center-focus",
+      "logo-staggered-cards-gradient-theme",
       "logo-vertical-three-column-carousel-alternating-drift",
       "partner-developers-grid",
       "partner-logos-band",
@@ -22913,9 +24683,14 @@ export const generatedGroups: { category: string; keys: string[] }[] = [
       "feature-cards-animated-scroll",
       "feature-cards-image-grid",
       "feature-carousel-slides",
+      "feature-dark-split-numbered-list",
       "feature-dense-checklist-two-column",
+      "feature-diagonal-clip-panels",
+      "feature-fullbleed-image-dark-overlay",
+      "feature-gradient-glass-cards",
       "feature-icon-grid-capabilities",
       "feature-interactive-grid-auto-cycle-pulse",
+      "feature-staggered-offset-cards-warm",
       "feature-sticky-scroll-stack-offset-animation",
       "feature-tabbed-grid-category-swap",
       "features-alternating-dense-copy-image",

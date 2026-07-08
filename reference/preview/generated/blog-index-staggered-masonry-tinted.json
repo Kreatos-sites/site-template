@@ -1,0 +1,66 @@
+{
+  "key": "blog-index-staggered-masonry-tinted",
+  "pascalName": "BlogIndexStaggeredMasonryTinted",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-index-staggered-masonry-tinted` | blog-index-staggered-masonry-tinted — listado editorial en grid masonry escalonado, sin bordes, sobre fondo tintado con chip de categoría flotante | { eyebrow, title, posts: { category, date, title, excerpt, image, imageAlt, readMoreLabel }[] } |",
+  "fixture": {
+    "eyebrow": "Blog corporativo",
+    "title": "Perspectivas y noticias de la firma",
+    "posts": [
+      {
+        "category": "Cumplimiento",
+        "date": "3 de julio, 2026",
+        "title": "Cambios en la NOM-035 y su impacto en la gestión de personal",
+        "excerpt": "Un repaso a las obligaciones vigentes para empresas mexicanas y las áreas donde vemos más incumplimientos en auditoría.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Equipo de trabajo revisando documentos de cumplimiento normativo",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Finanzas",
+        "date": "28 de junio, 2026",
+        "title": "Cómo preparar su empresa para la próxima temporada fiscal",
+        "excerpt": "Recomendaciones prácticas para ordenar su contabilidad antes de los plazos del SAT.",
+        "image": "/images/about.svg",
+        "imageAlt": "Escritorio con calculadora y reportes financieros",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Logística",
+        "date": "20 de junio, 2026",
+        "title": "Rutas de distribución: tres ajustes que reducen costos en 2026",
+        "excerpt": "Analizamos casos de clientes que optimizaron su cadena de suministro sin sacrificar tiempos de entrega.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Camiones de carga en patio de distribución",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Construcción",
+        "date": "12 de junio, 2026",
+        "title": "Materiales sustentables: qué exige ya el mercado mexicano",
+        "excerpt": "La demanda por certificaciones ambientales crece entre desarrolladores inmobiliarios del centro del país.",
+        "image": "/images/about.svg",
+        "imageAlt": "Obra de construcción con materiales apilados",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Cumplimiento",
+        "date": "5 de junio, 2026",
+        "title": "Protección de datos personales: guía breve para pymes",
+        "excerpt": "Los puntos que revisa el INAI con más frecuencia y cómo evitar sanciones desde el diseño de sus procesos.",
+        "image": "/images/hero.svg",
+        "imageAlt": "Persona firmando documentos frente a una laptop",
+        "readMoreLabel": "Leer artículo"
+      },
+      {
+        "category": "Distribución",
+        "date": "29 de mayo, 2026",
+        "title": "Inventarios en tiempo real: la ventaja que ya no es opcional",
+        "excerpt": "Por qué los distribuidores que invierten en visibilidad de inventario están ganando participación de mercado.",
+        "image": "/images/about.svg",
+        "imageAlt": "Almacén con estanterías de producto organizado",
+        "readMoreLabel": "Leer artículo"
+      }
+    ]
+  }
+}

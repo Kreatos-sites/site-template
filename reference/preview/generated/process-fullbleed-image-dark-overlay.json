@@ -1,0 +1,35 @@
+{
+  "key": "process-fullbleed-image-dark-overlay",
+  "pascalName": "ProcessFullbleedImageDarkOverlay",
+  "category": "Proceso",
+  "catalogRow": "| `process-fullbleed-image-dark-overlay` | process-fullbleed-image-dark-overlay — proceso a sangre completa sobre foto de obra/planta con overlay oscuro degradado, pasos numerados XL en outline con divisores verticales | { eyebrow, title, description, backgroundImage, backgroundImageAlt, steps: [{ number, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Metodología de obra",
+    "title": "De la planeación a la entrega, sin sorpresas",
+    "description": "Cada proyecto sigue el mismo proceso auditado, con puntos de control documentados y comunicación directa con el cliente en cada etapa.",
+    "backgroundImage": "/images/about.svg",
+    "backgroundImageAlt": "Cuadrilla de trabajo revisando planos en el sitio de obra durante la etapa de ejecución",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Levantamiento y diagnóstico",
+        "description": "Visitamos el sitio, medimos condiciones existentes y documentamos hallazgos antes de proponer cualquier solución."
+      },
+      {
+        "number": "02",
+        "title": "Ingeniería y presupuesto",
+        "description": "Elaboramos memoria de cálculo, especificaciones técnicas y presupuesto detallado por partida para su aprobación."
+      },
+      {
+        "number": "03",
+        "title": "Ejecución supervisada",
+        "description": "El equipo en obra reporta avance semanal con bitácora fotográfica y control de calidad en cada frente de trabajo."
+      },
+      {
+        "number": "04",
+        "title": "Entrega y cierre",
+        "description": "Realizamos pruebas finales, entregamos manual de operación y damos seguimiento durante el periodo de garantía."
+      }
+    ]
+  }
+}

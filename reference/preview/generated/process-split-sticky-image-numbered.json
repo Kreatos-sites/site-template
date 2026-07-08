@@ -1,0 +1,40 @@
+{
+  "key": "process-split-sticky-image-numbered",
+  "pascalName": "ProcessSplitStickyImageNumbered",
+  "category": "Proceso",
+  "catalogRow": "| `process-split-sticky-image-numbered` | process-split-sticky-image-numbered — split asimétrico con imagen enmarcada fija a la izquierda y lista numerada aireada a la derecha, sin rail ni conectores · úsalo para metodologías donde una sola imagen (equipo, diagrama) sostiene todo el proceso. | { eyebrow, title, description, image, imageAlt, steps: [{ number, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Metodología de trabajo",
+    "title": "Un mismo equipo lo acompaña de principio a fin",
+    "description": "Así se organiza nuestro equipo técnico para atender su proyecto, desde el primer contacto hasta la entrega formal.",
+    "image": "/images/about.svg",
+    "imageAlt": "Equipo técnico revisando planos en oficina",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Diagnóstico inicial",
+        "description": "Revisamos su solicitud, el sitio o los antecedentes del caso y definimos qué información falta antes de proponer una ruta de trabajo."
+      },
+      {
+        "number": "02",
+        "title": "Asignación de responsable",
+        "description": "Un coordinador queda a cargo de su expediente y es su único punto de contacto durante todo el proceso."
+      },
+      {
+        "number": "03",
+        "title": "Plan de trabajo y presupuesto",
+        "description": "Le entregamos alcance, tiempos y costo desglosado por etapa, para que apruebe con información completa antes de iniciar."
+      },
+      {
+        "number": "04",
+        "title": "Ejecución con reportes periódicos",
+        "description": "Compartimos avance documentado en las fechas acordadas, sin que tenga que dar seguimiento por su cuenta."
+      },
+      {
+        "number": "05",
+        "title": "Cierre y entrega formal",
+        "description": "Formalizamos la entrega con la documentación correspondiente y quedamos disponibles para cualquier aclaración posterior."
+      }
+    ]
+  }
+}

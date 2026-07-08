@@ -1,0 +1,61 @@
+{
+  "key": "gallery-tinted-staggered-cards-warm-scatter",
+  "pascalName": "GalleryTintedStaggeredCardsWarmScatter",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-tinted-staggered-cards-warm-scatter` | gallery-tinted-staggered-cards-warm-scatter — galería sobre fondo tintado con textura de puntos, tarjetas tipo polaroid escalonadas con leve rotación y caption bajo cada imagen, tono cálido y artesanal | { eyebrow, title, description?, items: [{ image, imageAlt, title, caption }] } |",
+  "fixture": {
+    "eyebrow": "Nuestro taller",
+    "title": "Piezas hechas a mano, una a la vez",
+    "description": "Cada proyecto pasa por nuestras manos antes de llegar a las suyas. Aquí una muestra reciente del taller.",
+    "items": [
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Mesa de trabajo con herramientas de talabartería y piel curtida",
+        "title": "Estación de corte",
+        "caption": "Piel curtida vegetal, corte a mano"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Artesana cosiendo un bolso de piel en el taller",
+        "title": "Costura a mano",
+        "caption": "Punto de silla, hilo encerado"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Colección de cinturones terminados colgados en el taller",
+        "title": "Colección otoño",
+        "caption": "Serie limitada, doce piezas"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Detalle de las manos de un artesano puliendo un canto de piel",
+        "title": "Acabado de cantos",
+        "caption": "Pulido y sellado manual"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Repisa con carretes de hilo y herrajes de bronce",
+        "title": "Herrajes propios",
+        "caption": "Bronce macizo, fundición local"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Bolso terminado sobre mesa de madera junto a bocetos",
+        "title": "Del boceto a la pieza",
+        "caption": "Diseño y muestra, mismo taller"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Rollos de piel de distintos colores apilados",
+        "title": "Selección de materiales",
+        "caption": "Curtidos naturales, tres tonos"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cliente probando un bolso terminado en la tienda del taller",
+        "title": "Entrega final",
+        "caption": "Revisión con el cliente"
+      }
+    ]
+  }
+}

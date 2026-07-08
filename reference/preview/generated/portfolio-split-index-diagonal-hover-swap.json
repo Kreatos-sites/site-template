@@ -1,0 +1,52 @@
+{
+  "key": "portfolio-split-index-diagonal-hover-swap",
+  "pascalName": "PortfolioSplitIndexDiagonalHoverSwap",
+  "category": "Portafolio y casos",
+  "catalogRow": "| `portfolio-split-index-diagonal-hover-swap` | portfolio-split-index-diagonal-hover-swap — índice numerado a la izquierda, panel de imagen recortado en diagonal a la derecha que cambia al pasar el cursor por cada fila · tratamiento técnico y denso, úsalo para estudios de ingeniería o consultoría con casos de alto detalle. | { eyebrow, title, projects: [{ index, title, category, year, image, imageAlt }] } |",
+  "fixture": {
+    "eyebrow": "Casos de estudio",
+    "title": "Proyectos ejecutados con seguimiento técnico documentado",
+    "projects": [
+      {
+        "index": "01",
+        "title": "Reingeniería de línea de embalaje",
+        "category": "Manufactura",
+        "year": "2025",
+        "image": "/images/about.svg",
+        "imageAlt": "Línea de embalaje reingenierizada en planta de Grupo Insumex"
+      },
+      {
+        "index": "02",
+        "title": "Red de distribución de última milla",
+        "category": "Logística",
+        "year": "2025",
+        "image": "/images/hero.svg",
+        "imageAlt": "Centro de distribución de Transportes Del Bajío"
+      },
+      {
+        "index": "03",
+        "title": "Reestructura fiscal corporativa",
+        "category": "Consultoría",
+        "year": "2024",
+        "image": "/images/about.svg",
+        "imageAlt": "Sala de juntas del despacho Arteaga y Asociados"
+      },
+      {
+        "index": "04",
+        "title": "Expansión de bodega regional",
+        "category": "Construcción",
+        "year": "2024",
+        "image": "/images/hero.svg",
+        "imageAlt": "Obra en construcción de bodega para Constructora Peninsular"
+      },
+      {
+        "index": "05",
+        "title": "Sistema de trazabilidad de inventario",
+        "category": "Distribución",
+        "year": "2024",
+        "image": "/images/about.svg",
+        "imageAlt": "Almacén con sistema de trazabilidad de Distribuidora San Rafael"
+      }
+    ]
+  }
+}

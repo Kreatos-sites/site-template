@@ -1,0 +1,54 @@
+{
+  "key": "pricing-diagonal-gradient-dark-split",
+  "pascalName": "PricingDiagonalGradientDarkSplit",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-diagonal-gradient-dark-split` | pricing-diagonal-gradient-dark-split — sección oscura (bg-foreground) cruzada por un corte diagonal con gradiente primary de esquina superior derecha a inferior izquierda; el plan destacado se apoya sobre el gradiente en tamaño mayor y desplazado hacia arriba, los otros dos quedan pequeños y alineados abajo sobre el área plana oscura, layout asimétrico | { eyebrow, title, description, featuredLabel, plans: [{ name, price, period, description, features: string[], cta, featured? }] } |",
+  "fixture": {
+    "eyebrow": "Planes de implementación",
+    "title": "Un plan para cada etapa de tu operación",
+    "description": "Elige el nivel de acompañamiento que necesita tu equipo. Puedes cambiar de plan en cualquier momento sin penalización.",
+    "featuredLabel": "Más contratado",
+    "plans": [
+      {
+        "name": "Arranque",
+        "price": "$9,900",
+        "period": "MXN / mes",
+        "description": "Para equipos que están automatizando sus primeros procesos y necesitan soporte básico.",
+        "features": [
+          "1 flujo de trabajo automatizado",
+          "Soporte por correo en horario hábil",
+          "Panel de reportes mensual"
+        ],
+        "cta": "Empezar ahora",
+        "featured": false
+      },
+      {
+        "name": "Escala",
+        "price": "$24,500",
+        "period": "MXN / mes",
+        "description": "Para operaciones en crecimiento que requieren integración con varios sistemas y acompañamiento cercano.",
+        "features": [
+          "Hasta 8 flujos de trabajo automatizados",
+          "Integración con tu ERP o CRM",
+          "Gerente de cuenta dedicado",
+          "Reportes semanales y alertas en tiempo real"
+        ],
+        "cta": "Solicitar demostración",
+        "featured": true
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "según volumen",
+        "description": "Para grupos empresariales con múltiples unidades de negocio y requisitos de seguridad avanzados.",
+        "features": [
+          "Flujos de trabajo ilimitados",
+          "Infraestructura dedicada",
+          "Acuerdo de nivel de servicio (SLA) personalizado"
+        ],
+        "cta": "Hablar con ventas",
+        "featured": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "key": "footer-inverted-dark-band-cta",
+  "pascalName": "FooterInvertedDarkBandCta",
+  "category": "Footers",
+  "catalogRow": "| `footer-inverted-dark-band-cta` | footer-inverted-dark-band-cta — footer totalmente invertido (bg-foreground) con banda de cierre tipo CTA (declaración + botón) separada por regla fina y tres columnas de navegación en menor contraste debajo · úsalo como cierre denso de sitio con último llamado a la acción. | { statement, ctaLabel, ctaHref, columns: [{heading, links: [{label, href}]}], copyright, legalLinks: [{label, href}] } |",
+  "fixture": {
+    "statement": "Hablemos de cómo blindar la operación fiscal y laboral de su empresa antes de que termine el ejercicio.",
+    "ctaLabel": "Agendar consulta",
+    "ctaHref": "#contacto",
+    "columns": [
+      {
+        "heading": "Servicios",
+        "links": [
+          { "label": "Derecho corporativo", "href": "#" },
+          { "label": "Derecho fiscal", "href": "#" },
+          { "label": "Derecho laboral", "href": "#" },
+          { "label": "Litigio mercantil", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Despacho",
+        "links": [
+          { "label": "Sobre nosotros", "href": "#" },
+          { "label": "Equipo", "href": "#" },
+          { "label": "Casos de éxito", "href": "#" },
+          { "label": "Carreras", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Contacto",
+        "links": [
+          { "label": "Agendar consulta", "href": "#" },
+          { "label": "Oficinas", "href": "#" },
+          { "label": "Trabaja con nosotros", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Ferretti & Asociados. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "#" },
+      { "label": "Términos y condiciones", "href": "#" }
+    ]
+  }
+}

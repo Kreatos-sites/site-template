@@ -1,0 +1,26 @@
+{
+  "key": "contact-gradient-theme-diagonal-split",
+  "pascalName": "ContactGradientThemeDiagonalSplit",
+  "category": "Contacto",
+  "catalogRow": "| `contact-gradient-theme-diagonal-split` | contact-gradient-theme-diagonal-split — corte diagonal que reemplaza el split vertical: panel de gradiente primary con patrón de líneas finas + canales con icono en blanco, contrapuesto a un panel bg-card con formulario. | { eyebrow, title, subtitle, channels: [{ icon, label, value }], fields: [{ name, label, type, placeholder }], submitLabel } |",
+  "fixture": {
+    "eyebrow": "Contacto",
+    "title": "Coordinemos su siguiente embarque",
+    "subtitle": "Cuéntenos el origen, destino y volumen de su carga. Un ejecutivo de cuenta le compartirá una cotización en menos de 24 horas.",
+    "channels": [
+      { "icon": "phone", "label": "Teléfono", "value": "+52 81 8374 2210" },
+      { "icon": "email", "label": "Correo", "value": "operaciones@rutanorte.mx" },
+      { "icon": "whatsapp", "label": "WhatsApp", "value": "+52 81 1147 9926" },
+      { "icon": "address", "label": "Centro de distribución", "value": "Parque Logístico Apodaca, Nave 12, Apodaca, N.L." },
+      { "icon": "hours", "label": "Horario", "value": "Lunes a sábado, 7:00 a 20:00 h" }
+    ],
+    "fields": [
+      { "name": "name", "label": "Nombre completo", "type": "text", "placeholder": "Su nombre" },
+      { "name": "company", "label": "Empresa", "type": "text", "placeholder": "Razón social" },
+      { "name": "email", "label": "Correo", "type": "email", "placeholder": "usted@empresa.com" },
+      { "name": "phone", "label": "Teléfono", "type": "tel", "placeholder": "81 0000 0000" },
+      { "name": "message", "label": "Detalle del embarque", "type": "textarea", "placeholder": "Origen, destino, volumen y fecha estimada" }
+    ],
+    "submitLabel": "Solicitar cotización"
+  }
+}

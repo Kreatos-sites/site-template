@@ -1,0 +1,34 @@
+{
+  "key": "gallery-fullbleed-image-dark-overlay-stacked-captions",
+  "pascalName": "GalleryFullbleedImageDarkOverlayStackedCaptions",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-fullbleed-image-dark-overlay-stacked-captions` | gallery-fullbleed-image-dark-overlay-stacked-captions — fondo a sangre de una sola imagen fija con overlay oscuro en gradiente, proyectos apilados en vertical (uno por tramo) anclados al borde inferior, tono cinematográfico | { eyebrow, title, backgroundImage, backgroundImageAlt, projects: [{ category, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Casos de estudio",
+    "title": "Proyectos que muestran cómo trabajamos, de principio a fin",
+    "backgroundImage": "/images/hero.svg",
+    "backgroundImageAlt": "Fachada de proyecto corporativo terminado al atardecer",
+    "projects": [
+      {
+        "category": "Corporativo · Monterrey",
+        "title": "Torre administrativa para grupo logístico",
+        "description": "Reorganizamos seis oficinas dispersas en una sola torre, con entrega en dieciocho meses y sin retrasos sobre el calendario acordado."
+      },
+      {
+        "category": "Industrial · Saltillo",
+        "title": "Ampliación de planta y patio de maniobras",
+        "description": "Duplicamos la capacidad de almacenaje sin detener la operación diaria, coordinando cada etapa con el equipo de producción del cliente."
+      },
+      {
+        "category": "Retail · Ciudad de México",
+        "title": "Rediseño de quince sucursales bajo un mismo estándar",
+        "description": "Unificamos materiales, iluminación y señalética en todas las sucursales, con un solo punto de contacto durante toda la ejecución."
+      },
+      {
+        "category": "Institucional · Querétaro",
+        "title": "Centro de capacitación para personal técnico",
+        "description": "Diseñamos aulas, talleres y áreas comunes pensadas para grupos de veinte personas, con acabados de bajo mantenimiento."
+      }
+    ]
+  }
+}

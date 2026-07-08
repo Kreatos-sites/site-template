@@ -1,0 +1,35 @@
+{
+  "key": "feature-dark-split-numbered-list",
+  "pascalName": "FeatureDarkSplitNumberedList",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-dark-split-numbered-list` | feature-dark-split-numbered-list — sección oscura con split asimétrico: columna sticky con eyebrow/título/CTA y lista editorial numerada sin iconos | { eyebrow, title, description, ctaLabel, ctaHref, items: [{ title, description }] } |",
+  "fixture": {
+    "eyebrow": "Alcance del servicio",
+    "title": "Un solo despacho, control operativo total de su cadena de suministro",
+    "description": "Coordinamos aduanas, transporte y almacenaje bajo un mismo protocolo de seguimiento, con reportes que su equipo puede auditar en cualquier momento.",
+    "ctaLabel": "Solicitar propuesta",
+    "ctaHref": "/contacto",
+    "items": [
+      {
+        "title": "Gestión aduanal integral",
+        "description": "Clasificación arancelaria, pedimentos y trámites ante autoridades para importación y exportación, con revisión previa de cada embarque."
+      },
+      {
+        "title": "Transporte multimodal",
+        "description": "Coordinación de carga terrestre, marítima y aérea con trazabilidad por embarque y alertas de desviación de ruta u horario."
+      },
+      {
+        "title": "Almacenaje y consolidación",
+        "description": "Bodegas fiscales y de depósito con control de inventario en tiempo real y consolidación de carga por destino."
+      },
+      {
+        "title": "Cumplimiento normativo",
+        "description": "Verificación permanente de certificaciones, cuotas compensatorias y requisitos sanitarios aplicables a cada tipo de mercancía."
+      },
+      {
+        "title": "Reportes y facturación centralizada",
+        "description": "Un solo estado de cuenta consolidado por periodo, con desglose de costos por embarque y acceso a documentación digitalizada."
+      }
+    ]
+  }
+}

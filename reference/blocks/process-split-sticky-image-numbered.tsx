@@ -1,0 +1,64 @@
+import { useTranslations } from "next-intl";
+
+import { Reveal } from "@/components/shared/reveal";
+import { SmartImage } from "@/components/shared/smart-image";
+
+type Step = {
+  number: string;
+  title: string;
+  description: string;
+};
+
+export function ProcessSplitStickyImageNumbered({ ns }: { ns: string }) {
+  const t = useTranslations(ns);
+  const steps = t.raw("steps") as Step[];
+
+  return (
+    <section className="border-t border-border bg-background py-(--section-gap)">
+      <div className="mx-auto w-full max-w-6xl px-6 lg:px-8">
+        <div className="grid gap-x-16 gap-y-14 lg:grid-cols-[minmax(0,22rem)_1fr]">
+          <div className="lg:sticky lg:top-28 lg:self-start">
+            <Reveal>
+              <p className="text-xs font-medium tracking-[0.25em] text-primary uppercase">
+                {t("eyebrow")}
+              </p>
+              <h2 className="mt-5 font-display text-[clamp(2rem,4vw,3.25rem)] leading-[1.05] tracking-tight text-balance text-foreground">
+                {t("title")}
+              </h2>
+              <p className="mt-4 text-sm leading-relaxed text-muted-foreground text-pretty">
+                {t("description")}
+              </p>
+              <div className="mt-8 rounded-sm border border-border p-2">
+                <SmartImage
+                  src={t("image")}
+                  alt={t("imageAlt")}
+                  className="aspect-[4/5] rounded-sm"
+                />
+              </div>
+            </Reveal>
+          </div>
+
+          <ol className="flex flex-col gap-12 lg:pt-2">
+            {steps.map((step, index) => (
+              <li key={step.number}>
+                <Reveal delay={index * 60}>
+                  <article className="flex flex-col gap-3">
+                    <span className="font-mono text-xs text-primary tabular-nums">
+                      {step.number}
+                    </span>
+                    <h3 className="font-display text-xl leading-snug tracking-tight text-balance text-foreground md:text-2xl">
+                      {step.title}
+                    </h3>
+                    <p className="max-w-xl text-sm leading-relaxed text-muted-foreground text-pretty md:text-base">
+                      {step.description}
+                    </p>
+                  </article>
+                </Reveal>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    </section>
+  );
+}

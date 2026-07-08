@@ -1,0 +1,53 @@
+{
+  "key": "feature-gradient-glass-cards",
+  "pascalName": "FeatureGradientGlassCards",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-gradient-glass-cards` | feature-gradient-glass-cards — grid denso de tarjetas de vidrio esmerilado sobre fondo a sangre con gradiente radial en el color primary (oscuro en las esquinas, saturado al centro) · úsalo para presentar 6-8 capacidades técnicas o módulos de una plataforma con tono futurista. | { eyebrow, title, description, features: [{ icon, title, description }] } |",
+  "fixture": {
+    "eyebrow": "Plataforma",
+    "title": "Infraestructura que sostiene sus operaciones críticas",
+    "description": "Ocho módulos independientes que se integran entre sí para dar soporte a procesos financieros, logísticos y de atención a cliente sin puntos únicos de falla.",
+    "features": [
+      {
+        "icon": "cpu",
+        "title": "Procesamiento en tiempo real",
+        "description": "Motor de eventos que ejecuta reglas de negocio en milisegundos, incluso bajo picos de demanda estacional."
+      },
+      {
+        "icon": "radar",
+        "title": "Monitoreo predictivo",
+        "description": "Alertas tempranas sobre anomalías de uso antes de que afecten a los usuarios finales de la plataforma."
+      },
+      {
+        "icon": "shield",
+        "title": "Cifrado de extremo a extremo",
+        "description": "Datos protegidos en tránsito y en reposo bajo estándares vigentes de seguridad de la información."
+      },
+      {
+        "icon": "fingerprint",
+        "title": "Autenticación multifactor",
+        "description": "Control de acceso por rol con verificación adicional para operaciones sensibles del negocio."
+      },
+      {
+        "icon": "network",
+        "title": "Arquitectura distribuida",
+        "description": "Nodos redundantes en múltiples regiones que evitan la interrupción total del servicio."
+      },
+      {
+        "icon": "cloud",
+        "title": "Escalamiento automático",
+        "description": "Los recursos de cómputo se ajustan solos según la carga, sin intervención manual del equipo técnico."
+      },
+      {
+        "icon": "workflow",
+        "title": "Orquestación de procesos",
+        "description": "Flujos configurables que conectan sistemas internos sin depender de integraciones manuales."
+      },
+      {
+        "icon": "database",
+        "title": "Respaldo continuo de datos",
+        "description": "Copias incrementales cada quince minutos con recuperación verificada de forma periódica."
+      }
+    ]
+  }
+}

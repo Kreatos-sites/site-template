@@ -1,0 +1,43 @@
+{
+  "key": "feature-diagonal-clip-panels",
+  "pascalName": "FeatureDiagonalClipPanels",
+  "category": "Features y servicios",
+  "catalogRow": "| `feature-diagonal-clip-panels` | feature-diagonal-clip-panels — capacidades en paneles asimétricos con corte diagonal clip-path que alternan tinte primary/10 y bg-secondary, ligeramente desfasados en vertical | { eyebrow, title, description, capabilities: [{ icon, title, text }] } |",
+  "fixture": {
+    "eyebrow": "Capacidades",
+    "title": "Infraestructura operativa que se adapta al ritmo de su planta",
+    "description": "Integramos monitoreo, automatización y trazabilidad en un mismo sistema, con módulos que se despliegan por etapas según la prioridad de cada línea de producción.",
+    "capabilities": [
+      {
+        "icon": "gauge",
+        "title": "Monitoreo en tiempo real",
+        "text": "Paneles con lecturas de sensores y variables críticas actualizadas cada segundo, con alertas configurables por línea."
+      },
+      {
+        "icon": "shield",
+        "title": "Continuidad y respaldo",
+        "text": "Redundancia en los puntos críticos del sistema y protocolos de recuperación probados, con reportes de disponibilidad mensuales."
+      },
+      {
+        "icon": "workflow",
+        "title": "Automatización de procesos",
+        "text": "Secuencias configurables que reducen intervención manual en tareas repetitivas, con registro de cada ejecución."
+      },
+      {
+        "icon": "radar",
+        "title": "Detección temprana de fallas",
+        "text": "Modelos de mantenimiento predictivo que anticipan desgaste en componentes antes de que afecten la producción."
+      },
+      {
+        "icon": "cpu",
+        "title": "Control centralizado",
+        "text": "Una sola consola para supervisar múltiples plantas, con permisos por rol y bitácora de cambios auditable."
+      },
+      {
+        "icon": "boxes",
+        "title": "Integración con planta existente",
+        "text": "Conectamos con el equipo y los sistemas que ya opera, sin sustituir infraestructura funcional."
+      }
+    ]
+  }
+}

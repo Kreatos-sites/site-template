@@ -1,0 +1,53 @@
+{
+  "key": "footer-gradient-mesh-split-newsletter",
+  "pascalName": "FooterGradientMeshSplitNewsletter",
+  "category": "Footers",
+  "catalogRow": "| `footer-gradient-mesh-split-newsletter` | footer-gradient-mesh-split-newsletter — fondo de gradiente mesh en primary, split asimétrico marca/newsletter elevada y franja de columnas separada · úsalo en sitios corporativos que quieren captar correo con un tono cálido y aireado. | { brand, tagline, newsletter: {title,description,placeholder,buttonLabel}, columns: [{heading, links:[{label,href}]}], copyright, legalLinks: [{label,href}] } |",
+  "fixture": {
+    "brand": "Altavista Consultoría",
+    "tagline": "Acompañamos a empresas mexicanas en la toma de decisiones financieras y operativas con datos claros y criterio experto.",
+    "newsletter": {
+      "title": "Reciba nuestro análisis mensual",
+      "description": "Tendencias del sector, indicadores clave y recomendaciones prácticas directamente en su correo.",
+      "placeholder": "Su correo electrónico",
+      "buttonLabel": "Suscribirse"
+    },
+    "columns": [
+      {
+        "heading": "Empresa",
+        "links": [
+          { "label": "Quiénes somos", "href": "/nosotros" },
+          { "label": "Equipo directivo", "href": "/equipo" },
+          { "label": "Trabaje con nosotros", "href": "/carreras" }
+        ]
+      },
+      {
+        "heading": "Servicios",
+        "links": [
+          { "label": "Consultoría financiera", "href": "/servicios/financiera" },
+          { "label": "Planeación estratégica", "href": "/servicios/estrategia" },
+          { "label": "Auditoría operativa", "href": "/servicios/auditoria" }
+        ]
+      },
+      {
+        "heading": "Recursos",
+        "links": [
+          { "label": "Casos de estudio", "href": "/casos" },
+          { "label": "Contacto", "href": "/contacto" }
+        ]
+      },
+      {
+        "heading": "Legal",
+        "links": [
+          { "label": "Aviso de privacidad", "href": "/aviso-de-privacidad" },
+          { "label": "Términos de uso", "href": "/terminos" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Altavista Consultoría. Todos los derechos reservados.",
+    "legalLinks": [
+      { "label": "Aviso de privacidad", "href": "/aviso-de-privacidad" },
+      { "label": "Términos de uso", "href": "/terminos" }
+    ]
+  }
+}

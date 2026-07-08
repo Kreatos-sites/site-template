@@ -1,0 +1,76 @@
+{
+  "key": "blog-index-dense-rows-category-filter-dark",
+  "pascalName": "BlogIndexDenseRowsCategoryFilterDark",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-index-dense-rows-category-filter-dark` | blog-index-dense-rows-category-filter-dark — listado técnico sobre fondo oscuro con pills de categoría y filas densas tipo changelog | { eyebrow, title, description, categories: { label, isActive }[], posts: { category, title, date, readTime, image, imageAlt }[] } |",
+  "fixture": {
+    "eyebrow": "Bitácora técnica",
+    "title": "Registro de cambios y notas de ingeniería",
+    "description": "Actualizaciones de plataforma, decisiones de arquitectura e incidentes documentados por el equipo de ingeniería.",
+    "categories": [
+      { "label": "Todos", "isActive": true },
+      { "label": "Infraestructura", "isActive": false },
+      { "label": "API", "isActive": false },
+      { "label": "Seguridad", "isActive": false },
+      { "label": "Rendimiento", "isActive": false }
+    ],
+    "posts": [
+      {
+        "category": "Infraestructura",
+        "title": "Migración del clúster de cómputo a la región centro",
+        "date": "3 jul 2026",
+        "readTime": "6 min",
+        "image": "/images/hero.svg",
+        "imageAlt": "Diagrama de arquitectura del clúster de cómputo"
+      },
+      {
+        "category": "API",
+        "title": "Versión 4 del API de facturación: cambios que rompen compatibilidad",
+        "date": "28 jun 2026",
+        "readTime": "8 min",
+        "image": "/images/about.svg",
+        "imageAlt": "Esquema de endpoints del API de facturación"
+      },
+      {
+        "category": "Seguridad",
+        "title": "Rotación obligatoria de llaves de acceso en producción",
+        "date": "21 jun 2026",
+        "readTime": "4 min",
+        "image": "/images/hero.svg",
+        "imageAlt": "Panel de gestión de credenciales"
+      },
+      {
+        "category": "Rendimiento",
+        "title": "Reducción de latencia p99 mediante caché en el borde",
+        "date": "15 jun 2026",
+        "readTime": "7 min",
+        "image": "/images/about.svg",
+        "imageAlt": "Gráfica de latencia antes y después de la optimización"
+      },
+      {
+        "category": "Infraestructura",
+        "title": "Postmortem: interrupción del servicio de mensajería",
+        "date": "9 jun 2026",
+        "readTime": "10 min",
+        "image": "/images/hero.svg",
+        "imageAlt": "Línea de tiempo del incidente de mensajería"
+      },
+      {
+        "category": "API",
+        "title": "Límites de tasa por token: guía de migración",
+        "date": "2 jun 2026",
+        "readTime": "5 min",
+        "image": "/images/about.svg",
+        "imageAlt": "Tabla de límites de tasa por plan"
+      },
+      {
+        "category": "Seguridad",
+        "title": "Auditoría trimestral de dependencias de terceros",
+        "date": "27 may 2026",
+        "readTime": "6 min",
+        "image": "/images/hero.svg",
+        "imageAlt": "Reporte de auditoría de dependencias"
+      }
+    ]
+  }
+}

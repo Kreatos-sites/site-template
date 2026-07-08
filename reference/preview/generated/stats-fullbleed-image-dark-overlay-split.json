@@ -1,0 +1,19 @@
+{
+  "key": "stats-fullbleed-image-dark-overlay-split",
+  "pascalName": "StatsFullbleedImageDarkOverlaySplit",
+  "category": "Cifras y resultados",
+  "catalogRow": "| `stats-fullbleed-image-dark-overlay-split` | stats-fullbleed-image-dark-overlay-split — banda a sangre con fotografía de planta, overlay degradado y columna de cifras separadas por hairlines | { eyebrow, title, description, image, imageAlt, stats: { value, label }[] } |",
+  "fixture": {
+    "eyebrow": "Resultados de operación",
+    "title": "Cada planta que operamos rinde cuentas con números, no con promesas",
+    "description": "Medimos disponibilidad, tiempos de respuesta y eficiencia en cada sitio bajo nuestra administración durante los últimos doce meses.",
+    "image": "/images/hero.svg",
+    "imageAlt": "Técnico supervisando línea de producción en planta industrial",
+    "stats": [
+      { "value": "99.2%", "label": "Disponibilidad de línea" },
+      { "value": "18 min", "label": "Tiempo de respuesta promedio" },
+      { "value": "37", "label": "Plantas bajo administración" },
+      { "value": "0", "label": "Incidentes mayores en 2025" }
+    ]
+  }
+}

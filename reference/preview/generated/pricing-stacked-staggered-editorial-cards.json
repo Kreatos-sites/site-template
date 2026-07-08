@@ -1,0 +1,58 @@
+{
+  "key": "pricing-stacked-staggered-editorial-cards",
+  "pascalName": "PricingStackedStaggeredEditorialCards",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-stacked-staggered-editorial-cards` | pricing-stacked-staggered-editorial-cards — columna única de tarjetas escalonadas en alternancia izquierda/derecha con numeración editorial grande (01, 02, 03), pensada para 2-3 planes con descripciones largas | { eyebrow, title, description?, plans: [{ index, name, price, period, description, features: string[], cta, featured? }] } |",
+  "fixture": {
+    "eyebrow": "Planes de acompañamiento",
+    "title": "Un plan pensado para el ritmo real de su despacho",
+    "description": "Cada nivel incluye acompañamiento directo de nuestro equipo. Elija el que corresponda al tamaño de su operación hoy; puede cambiar de plan en cualquier momento sin penalización.",
+    "plans": [
+      {
+        "index": "01",
+        "name": "Esencial",
+        "price": "$4,900",
+        "period": "MXN / mes",
+        "description": "Para despachos que están ordenando su operación por primera vez y necesitan claridad antes que volumen. Incluye revisión mensual de indicadores y soporte por correo con respuesta en menos de 24 horas.",
+        "features": [
+          "Panel de indicadores mensual",
+          "Soporte por correo electrónico",
+          "1 usuario administrador",
+          "Reportes en PDF descargables"
+        ],
+        "cta": "Empezar con Esencial"
+      },
+      {
+        "index": "02",
+        "name": "Crecimiento",
+        "price": "$9,900",
+        "period": "MXN / mes",
+        "description": "El plan que eligen la mayoría de nuestros clientes cuando ya tienen varios equipos trabajando en paralelo y necesitan visibilidad compartida sin perder el trato cercano de un acompañamiento personal.",
+        "features": [
+          "Panel de indicadores en tiempo real",
+          "Soporte prioritario por teléfono y correo",
+          "Hasta 8 usuarios administradores",
+          "Reportes automatizados semanales",
+          "Sesión trimestral de revisión estratégica",
+          "Integración con su sistema contable"
+        ],
+        "cta": "Elegir Crecimiento",
+        "featured": true
+      },
+      {
+        "index": "03",
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Diseñado para grupos con varias unidades de negocio, requerimientos de cumplimiento específicos y necesidad de un ejecutivo de cuenta dedicado que conozca a fondo la operación de cada área.",
+        "features": [
+          "Ejecutivo de cuenta dedicado",
+          "Usuarios administradores ilimitados",
+          "Auditoría de cumplimiento semestral",
+          "Integraciones a la medida"
+        ],
+        "cta": "Hablar con un asesor"
+      }
+    ]
+  }
+}

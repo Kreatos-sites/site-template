@@ -1,0 +1,37 @@
+{
+  "key": "gallery-diagonal-split-dark-panel-thumbrail",
+  "pascalName": "GalleryDiagonalSplitDarkPanelThumbrail",
+  "category": "Galerías",
+  "catalogRow": "| `gallery-diagonal-split-dark-panel-thumbrail` | gallery-diagonal-split-dark-panel-thumbrail — split diagonal dos columnas, panel oscuro técnico + imagen protagonista y riel de miniaturas superpuesto | { eyebrow, title, description, index, indexTotal, image, imageAlt, thumbnails: { image, imageAlt, label }[] } |",
+  "fixture": {
+    "eyebrow": "Proyectos ejecutados",
+    "title": "Ingeniería estructural aplicada a obra real",
+    "description": "Documentamos cada fase de ejecución: cimentación, montaje de estructura y cierre de envolvente, con control topográfico en sitio.",
+    "index": "04",
+    "indexTotal": "12",
+    "image": "/images/hero.svg",
+    "imageAlt": "Fachada de nave industrial en proceso de montaje estructural",
+    "thumbnails": [
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Detalle de cimentación con armado de acero visible",
+        "label": "Cimentación"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Montaje de estructura metálica principal",
+        "label": "Montaje de estructura"
+      },
+      {
+        "image": "/images/about.svg",
+        "imageAlt": "Cierre de envolvente con panel aislante",
+        "label": "Envolvente"
+      },
+      {
+        "image": "/images/hero.svg",
+        "imageAlt": "Vista final de nave industrial terminada",
+        "label": "Entrega"
+      }
+    ]
+  }
+}

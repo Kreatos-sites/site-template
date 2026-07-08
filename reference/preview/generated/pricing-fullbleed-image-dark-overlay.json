@@ -1,0 +1,57 @@
+{
+  "key": "pricing-fullbleed-image-dark-overlay",
+  "pascalName": "PricingFullbleedImageDarkOverlay",
+  "category": "Precios y planes",
+  "catalogRow": "| `pricing-fullbleed-image-dark-overlay` | pricing-fullbleed-image-dark-overlay — sección de precios a sangre completa con fotografía editorial de fondo, overlay oscuro en degradado y tarjetas en vidrio esmerilado flotando sobre la imagen | { eyebrow, title, description?, backgroundImage, backgroundImageAlt, plans: [{ name, price, period, description?, features: string[], cta, featured?, badge? }] } |",
+  "fixture": {
+    "eyebrow": "Planes de asesoría",
+    "title": "Un plan a la medida de la etapa de su despacho",
+    "description": "Honorarios claros desde el primer mes, sin letras chicas. Cambie de plan cuando su operación lo requiera.",
+    "backgroundImage": "/images/hero.svg",
+    "backgroundImageAlt": "Equipo de asesores trabajando en la sala de juntas del despacho al atardecer",
+    "plans": [
+      {
+        "name": "Esencial",
+        "price": "$8,900",
+        "period": "MXN / mes",
+        "description": "Para despachos que inician su operación formal.",
+        "features": [
+          "Contabilidad mensual y declaraciones ante el SAT",
+          "Nómina para hasta 10 colaboradores",
+          "Un asesor asignado por videollamada"
+        ],
+        "cta": "Comenzar con Esencial",
+        "featured": false
+      },
+      {
+        "name": "Crecimiento",
+        "price": "$16,500",
+        "period": "MXN / mes",
+        "description": "El plan más solicitado por firmas en expansión.",
+        "features": [
+          "Todo lo incluido en Esencial",
+          "Nómina para hasta 40 colaboradores",
+          "Revisión fiscal trimestral",
+          "Asesor dedicado y reuniones presenciales"
+        ],
+        "cta": "Elegir Crecimiento",
+        "featured": true,
+        "badge": "Más elegido"
+      },
+      {
+        "name": "Corporativo",
+        "price": "Cotización",
+        "period": "a la medida",
+        "description": "Para grupos empresariales con varias entidades.",
+        "features": [
+          "Todo lo incluido en Crecimiento",
+          "Consolidación fiscal multi-entidad",
+          "Auditoría interna anual",
+          "Línea directa con socio del despacho"
+        ],
+        "cta": "Hablar con un socio",
+        "featured": false
+      }
+    ]
+  }
+}

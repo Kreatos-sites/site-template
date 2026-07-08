@@ -1,0 +1,15 @@
+{
+  "key": "blog-fullbleed-image-dark-overlay-hero",
+  "pascalName": "BlogFullbleedImageDarkOverlayHero",
+  "category": "Blog y noticias",
+  "catalogRow": "| `blog-fullbleed-image-dark-overlay-hero` | blog-fullbleed-image-dark-overlay-hero — hero de artículo a sangre completa con portada de revista, degradado oscuro y meta flotante inferior izquierda | { category, title, author, date, readTime, image, imageAlt } |",
+  "fixture": {
+    "category": "Logística",
+    "title": "Cómo la trazabilidad en tiempo real está redefiniendo la cadena de suministro en México",
+    "author": "Por Renata Cisneros",
+    "date": "7 de julio de 2026",
+    "readTime": "6 min de lectura",
+    "image": "/images/hero.svg",
+    "imageAlt": "Centro de distribución logístico visto desde una plataforma elevada al atardecer"
+  }
+}

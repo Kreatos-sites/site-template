@@ -1,0 +1,17 @@
+{
+  "key": "testimonial-split-portrait-dark-panel",
+  "pascalName": "TestimonialSplitPortraitDarkPanel",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonial-split-portrait-dark-panel` | testimonial-split-portrait-dark-panel — panel partido asimétrico, cita en panel oscuro bg-foreground a la izquierda + retrato a sangre a toda altura a la derecha | { eyebrow: string, ratingLabel: string, rating: number, quote: string, name: string, role: string, company: string, image: string, imageAlt: string } |",
+  "fixture": {
+    "eyebrow": "Clientes",
+    "ratingLabel": "Calificación de cinco estrellas",
+    "rating": 5,
+    "quote": "El equipo de implementación entendió nuestros procesos desde la primera reunión. La migración de nuestro sistema de inventario se completó sin interrumpir la operación diaria de las trece sucursales.",
+    "name": "Ricardo Fuentes Aguilar",
+    "role": "Director de Operaciones",
+    "company": "Grupo Industrial Naveza",
+    "image": "/images/about.svg",
+    "imageAlt": "Retrato de Ricardo Fuentes Aguilar, Director de Operaciones de Grupo Industrial Naveza"
+  }
+}

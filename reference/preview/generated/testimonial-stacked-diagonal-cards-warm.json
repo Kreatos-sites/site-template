@@ -1,0 +1,40 @@
+{
+  "key": "testimonial-stacked-diagonal-cards-warm",
+  "pascalName": "TestimonialStackedDiagonalCardsWarm",
+  "category": "Reseñas",
+  "catalogRow": "| `testimonial-stacked-diagonal-cards-warm` | testimonial-stacked-diagonal-cards-warm — collage editorial de tarjetas apiladas con rotación diagonal sobre fondo cálido con degradado al primary | { eyebrow, title, testimonials: { quote, name, role, avatar, avatarAlt }[] } |",
+  "fixture": {
+    "eyebrow": "Reseñas",
+    "title": "Lo que dicen quienes ya trabajan con nosotros",
+    "testimonials": [
+      {
+        "quote": "Redujimos el tiempo de cierre de cada expediente en más de un tercio desde que adoptamos su sistema.",
+        "name": "Renata Salcido",
+        "role": "Directora de Operaciones, Grupo Ferretero del Bajío",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Renata Salcido"
+      },
+      {
+        "quote": "El equipo respondió cada duda en menos de un día. Se nota que conocen el sector logístico.",
+        "name": "Ismael Cordero",
+        "role": "Gerente de Cadena de Suministro, Transportes Cordero",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Ismael Cordero"
+      },
+      {
+        "quote": "La implementación fue clara desde el primer día, sin sorpresas ni retrasos en el cronograma.",
+        "name": "Paulina Reséndiz",
+        "role": "Subdirectora Administrativa, Constructora Reséndiz",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Paulina Reséndiz"
+      },
+      {
+        "quote": "Hoy tomamos decisiones con datos que antes tardábamos semanas en reunir a mano.",
+        "name": "Octavio Beltrán",
+        "role": "Director Comercial, Distribuidora Beltrán",
+        "avatar": "/images/about.svg",
+        "avatarAlt": "Retrato de Octavio Beltrán"
+      }
+    ]
+  }
+}
