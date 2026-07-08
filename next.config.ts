@@ -15,12 +15,12 @@ const nextConfig: NextConfig = {
     // DUPLICADO que se re-paga en CADA ciclo build-repair y cada rediseño.
     // Lo apagamos aquí (los tipos siguen gateados por el rung typecheck).
     // 2026-07-07 (Fase 0 eficiencia).
+    // NOTA: NO agregar `eslint: { ignoreDuringBuilds }` — Next 16 quitó `eslint`
+    // de NextConfig y rompe el typecheck (TS2353); además next.config.ts es
+    // archivo de MOTOR (el guard de push lo prohíbe) → si se rompe, el
+    // site-builder no puede auto-repararlo y queda en deadlock. Verificado
+    // 2026-07-08 con una corrida real que se atoró.
     ignoreBuildErrors: true,
-  },
-  eslint: {
-    // Igual: lint no debe frenar el build de PREVIEW. El gate de calidad es
-    // VISUAL (review_screenshots), no eslint.
-    ignoreDuringBuilds: true,
   },
   images: {
     // Los placeholders del template son SVG locales (public/images/*.svg).
