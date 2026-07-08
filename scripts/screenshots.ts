@@ -126,10 +126,12 @@ async function capture(browser: import("playwright").Browser, shot: Shot): Promi
     const page = await context.newPage();
     // networkidle puede no llegar (analytics/polling): fallback a load — el
     // scroll de abajo dispara el lazy-load igual.
+    // Timeout largo: contra `next dev`, el primer hit de una ruta la COMPILA
+    // (10-40s); contra `next start` simplemente llega antes.
     await page
-      .goto(`${BASE}${shot.route}`, { waitUntil: "networkidle", timeout: 20_000 })
+      .goto(`${BASE}${shot.route}`, { waitUntil: "networkidle", timeout: 60_000 })
       .catch(() =>
-        page.goto(`${BASE}${shot.route}`, { waitUntil: "load", timeout: 20_000 }),
+        page.goto(`${BASE}${shot.route}`, { waitUntil: "load", timeout: 60_000 }),
       );
     // Recorrer la página completa: dispara los reveals whileInView (once:true)
     // y el lazy-load de imágenes antes del fullPage.
@@ -172,7 +174,16 @@ async function captureAll(shots: Shot[]): Promise<void> {
 
 function startDetachedServer(): void {
   mkdirSync(join(root, ".qa"), { recursive: true });
-  const server = spawn("npx", ["next", "start", "-p", String(PORT)], {
+  // Con build (.next/BUILD_ID) sirve el build real (`next start`). SIN build,
+  // cae a `next dev`: el QA visual NO necesita pagar `next build` (~5-10 min)
+  // en cada ciclo de corrección — el build de verdad corre una sola vez en el
+  // deploy. El dev compila cada ruta en el primer hit (goto con timeout largo).
+  const hasBuild = existsSync(join(root, ".next", "BUILD_ID"));
+  const args = hasBuild
+    ? ["next", "start", "-p", String(PORT)]
+    : ["next", "dev", "-p", String(PORT)];
+  console.log(`[screenshots] sirviendo con \`${args.join(" ")}\``);
+  const server = spawn("npx", args, {
     cwd: root,
     detached: true,
     stdio: "ignore",
